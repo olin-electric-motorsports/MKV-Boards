@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Template Board"
+Date "2019-08-22"
+Rev "1"
+Comp "Olin Electric Motorsports"
+Comment1 "Aditya Sudhakar"
 Comment2 ""
 Comment3 ""
 Comment4 ""
