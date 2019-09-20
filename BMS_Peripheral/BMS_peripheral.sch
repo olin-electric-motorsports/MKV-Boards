@@ -170,19 +170,19 @@ Wire Wire Line
 Wire Wire Line
 	11550 7500 13650 7500
 Text Label 11550 6900 0    50   ~ 0
-MODULE10_TEMP1
+T2
 Text Label 11550 7000 0    50   ~ 0
-MODULE9_TEMP2
+T3
 Text Label 11550 7100 0    50   ~ 0
-MODULE9_TEMP1
+T4
 Text Label 11550 7200 0    50   ~ 0
-MODULE8_TEMP2
+T5
 Text Label 11550 7300 0    50   ~ 0
-MODULE8_TEMP1
+T6
 Text Label 11550 7400 0    50   ~ 0
-MODULE7_TEMP2
+T7
 Text Label 11550 7500 0    50   ~ 0
-MODULE7_TEMP1
+T8
 Wire Wire Line
 	12250 6700 12250 6800
 Connection ~ 12250 6800
@@ -338,17 +338,17 @@ Wire Wire Line
 Wire Wire Line
 	11550 9050 13650 9050
 Text Label 11550 8450 0    50   ~ 0
-MODULE6_TEMP1
+T10
 Text Label 11550 8550 0    50   ~ 0
-MODULE5_TEMP2
+T11
 Text Label 11550 8650 0    50   ~ 0
-MODULE5_TEMP1
+T12
 Text Label 11550 8850 0    50   ~ 0
-MODULE4_TEMP1
+T14
 Text Label 11550 8950 0    50   ~ 0
-MODULE3_TEMP2
+T15
 Text Label 11550 9050 0    50   ~ 0
-MODULE3_TEMP1
+T16
 Wire Wire Line
 	12250 8250 12250 8350
 Connection ~ 12250 8350
@@ -497,13 +497,13 @@ Wire Wire Line
 Wire Wire Line
 	11550 10500 13650 10500
 Text Label 11550 9800 0    50   ~ 0
-MODULE2_TEMP2
+T17
 Text Label 11550 9900 0    50   ~ 0
-MODULE2_TEMP1
+T18
 Text Label 11550 10000 0    50   ~ 0
-MODULE1_TEMP2
+T19'
 Text Label 11550 10100 0    50   ~ 0
-MODULE1_TEMP1
+T20
 Wire Wire Line
 	12250 9700 12250 9800
 Connection ~ 12250 9800
@@ -657,11 +657,11 @@ A0 = 1, A1 = 0  Address 0x92
 Text Notes 15300 10200 0    50   ~ 0
 A0 = 0, A1 = 0  Address 0x94
 Text Label 11550 6800 0    50   ~ 0
-MODULE10_TEMP2
+T1
 Text Label 11550 8350 0    50   ~ 0
-MODULE6_TEMP2
+T9
 Text Label 11550 8750 0    50   ~ 0
-MODULE4_TEMP2
+T13
 Wire Wire Line
 	15050 10100 15050 10300
 Wire Wire Line
@@ -2244,21 +2244,8 @@ Wire Wire Line
 	16850 9700 16850 9800
 Wire Wire Line
 	8800 6050 8250 6050
-Text Label 7350 2000 0    50   ~ 0
-CELL10_VOLT
-Text Label 7350 2400 0    50   ~ 0
-CELL9_VOLT
-Text Label 7350 2700 0    50   ~ 0
-CELL8_VOLT
-Text Label 7350 3000 0    50   ~ 0
-CELL7_VOLT
-Text Label 7350 3300 0    50   ~ 0
-CELL6_VOLT
 Wire Notes Line
 	11450 10900 17550 10900
-NoConn ~ 11550 10300
-NoConn ~ 11550 10400
-NoConn ~ 11550 10500
 Wire Notes Line
 	17550 6050 17550 10900
 Wire Notes Line
@@ -2277,62 +2264,6 @@ F 6 "http://www.te.com/global-en/product-1-338068-6.html" H 7100 4000 60  0001 C
 	1    7100 2700
 	1    0    0    -1  
 $EndComp
-Text Label 7350 1900 0    50   ~ 0
-MODULE10_TEMP1
-Text Label 7350 2100 0    50   ~ 0
-MODULE10_TEMP2
-Text Label 7350 2300 0    50   ~ 0
-MODULE9_TEMP1
-Text Label 7350 2500 0    50   ~ 0
-MODULE9_TEMP2
-Text Label 7350 2600 0    50   ~ 0
-MODULE8_TEMP1
-Text Label 7350 2800 0    50   ~ 0
-MODULE8_TEMP2
-Text Label 7350 2900 0    50   ~ 0
-MODULE7_TEMP1
-Text Label 7350 3100 0    50   ~ 0
-MODULE7_TEMP2
-Text Label 7350 3200 0    50   ~ 0
-MODULE6_TEMP1
-Text Label 7350 3400 0    50   ~ 0
-MODULE6_TEMP2
-Text Label 7350 2200 0    50   ~ 0
-V-
-Text Label 9450 2200 0    50   ~ 0
-CELL5_VOLT
-Text Label 9450 1900 0    50   ~ 0
-CELL4_VOLT
-Text Label 9450 2500 0    50   ~ 0
-CELL3_VOLT
-Text Label 9450 1600 0    50   ~ 0
-CELL2_VOLT
-Text Label 9450 2700 0    50   ~ 0
-MODULE5_TEMP1
-Text Label 9450 2600 0    50   ~ 0
-MODULE5_TEMP2
-Text Label 9450 2400 0    50   ~ 0
-MODULE4_TEMP1
-Text Label 9450 2300 0    50   ~ 0
-MODULE4_TEMP2
-Text Label 9450 2100 0    50   ~ 0
-MODULE3_TEMP1
-Text Label 9450 2000 0    50   ~ 0
-MODULE3_TEMP2
-Text Label 9450 1700 0    50   ~ 0
-MODULE2_TEMP1
-Text Label 9450 1500 0    50   ~ 0
-MODULE2_TEMP2
-Text Label 9450 2900 0    50   ~ 0
-MODULE1_TEMP1
-Text Label 9450 1800 0    50   ~ 0
-MODULE1_TEMP2
-Text Label 9450 3100 0    50   ~ 0
-V+
-Text Label 9450 2800 0    50   ~ 0
-CELL1_VOLT
-Text Label 9450 3000 0    50   ~ 0
-CELL0_VOLT
 Text Label 1750 750  2    50   ~ 0
 CELL16_VOLT
 Text Label 1750 1600 2    50   ~ 0
@@ -2369,8 +2300,6 @@ F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 9300 3900 60  0001 C
 	1    9300 2600
 	1    0    0    -1  
 $EndComp
-Text Label 9450 3300 0    50   ~ 0
-GND
 NoConn ~ 9450 3400
 Wire Wire Line
 	1750 1600 2600 1600
@@ -2386,9 +2315,6 @@ Wire Wire Line
 	1750 6700 2600 6700
 Wire Wire Line
 	1750 7550 2600 7550
-NoConn ~ 11550 10200
-Text Label 9450 3200 0    50   ~ 0
-VREG
 $Comp
 L formula:T_LAN_7490100111A T1
 U 1 1 5C3D2A9C
@@ -4948,4 +4874,12 @@ Wire Wire Line
 	8600 10750 6000 10750
 Wire Wire Line
 	6000 10750 6000 15550
+Text Label 11550 10200 0    50   ~ 0
+T21
+Text Label 11550 10300 0    50   ~ 0
+T22
+Text Label 11550 10400 0    50   ~ 0
+T23
+Text Label 11550 10500 0    50   ~ 0
+T24
 $EndSCHEMATC
