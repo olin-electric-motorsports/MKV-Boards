@@ -262,62 +262,75 @@ X - 4 -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# formula_MM_F_VT_16
+# formula_MM_F_VT_10
 #
-DEF formula_MM_F_VT_16 J 0 40 Y Y 1 F N
-F0 "J" 0 900 60 H V C CNN
-F1 "formula_MM_F_VT_16" 150 -900 60 H V C CNN
-F2 "footprints:micromatch_female_vert_16" -100 800 60 H I C CNN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-6" -100 1200 60 H I C CNN
+DEF formula_MM_F_VT_10 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "formula_MM_F_VT_10" -50 50 60 H V C CNN
+F2 "footprints:micromatch_female_vert_10" -200 1100 60 H I C CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-0" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
-F5 "1-338068-6" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-1-338068-6.html" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "1-338068-0" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-338068-0.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
-S 150 -750 -150 850 0 1 0 f
-X 1 1 250 800 100 L 50 50 1 1 B
-X 10 10 250 -100 100 L 50 50 1 1 B
-X 11 11 250 -200 100 L 50 50 1 1 B
-X 12 12 250 -300 100 L 50 50 1 1 B
-X 13 13 250 -400 100 L 50 50 1 1 B
-X 14 14 250 -500 100 L 50 50 1 1 B
-X 15 15 250 -600 100 L 50 50 1 1 B
-X 16 16 250 -700 100 L 50 50 1 1 B
-X 2 2 250 700 100 L 50 50 1 1 B
-X 3 3 250 600 100 L 50 50 1 1 B
-X 4 4 250 500 100 L 50 50 1 1 B
-X 5 5 250 400 100 L 50 50 1 1 B
-X 6 6 250 300 100 L 50 50 1 1 B
-X 7 7 250 200 100 L 50 50 1 1 B
-X 8 8 250 100 100 L 50 50 1 1 B
-X 9 9 250 0 100 L 50 50 1 1 B
+S 50 150 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# formula_MM_F_VT_20
+# formula_MM_F_VT_12
 #
-DEF formula_MM_F_VT_20 J 0 40 Y Y 1 F N
-F0 "J" -100 1200 60 H V C CNN
-F1 "formula_MM_F_VT_20" 0 -950 60 H V C CNN
-F2 "footprints:micromatch_female_vert_20" -200 1100 60 H I C CNN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0" -100 1200 60 H I C CNN
+DEF formula_MM_F_VT_12 J 0 40 Y Y 1 F N
+F0 "J" 0 650 60 H V C CNN
+F1 "formula_MM_F_VT_12" 50 -700 60 H V C CNN
+F2 "footprints:micromatch_female_vert_12" -100 550 60 H I C CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-2" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
-F5 "2-338068-0" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-2-338068-0.html" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "1-338068-2" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-338068-2.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
-S 50 -850 -250 1150 0 1 0 f
+S 150 -600 -150 600 0 1 0 f
+X 1 1 250 550 100 L 50 50 1 1 B
+X 10 10 250 -350 100 L 50 50 1 1 B
+X 11 11 250 -450 100 L 50 50 1 1 B
+X 12 12 250 -550 100 L 50 50 1 1 B
+X 2 2 250 450 100 L 50 50 1 1 B
+X 3 3 250 350 100 L 50 50 1 1 B
+X 4 4 250 250 100 L 50 50 1 1 B
+X 5 5 250 150 100 L 50 50 1 1 B
+X 6 6 250 50 100 L 50 50 1 1 B
+X 7 7 250 -50 100 L 50 50 1 1 B
+X 8 8 250 -150 100 L 50 50 1 1 B
+X 9 9 250 -250 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# formula_MM_M_VT_12
+#
+DEF formula_MM_M_VT_12 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "formula_MM_M_VT_12" -50 -100 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "1-215464-2" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-215464-2.html" 0 1300 60 H I C CNN "PurchasingLink"
+DRAW
+S -250 1150 50 -50 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
 X 10 10 150 200 100 L 50 50 1 1 B
 X 11 11 150 100 100 L 50 50 1 1 B
 X 12 12 150 0 100 L 50 50 1 1 B
-X 13 13 150 -100 100 L 50 50 1 1 B
-X 14 14 150 -200 100 L 50 50 1 1 B
-X 15 15 150 -300 100 L 50 50 1 1 B
-X 16 16 150 -400 100 L 50 50 1 1 B
-X 17 17 150 -500 100 L 50 50 1 1 B
-X 18 18 150 -600 100 L 50 50 1 1 B
-X 19 19 150 -700 100 L 50 50 1 1 B
 X 2 2 150 1000 100 L 50 50 1 1 B
-X 20 20 150 -800 100 L 50 50 1 1 B
 X 3 3 150 900 100 L 50 50 1 1 B
 X 4 4 150 800 100 L 50 50 1 1 B
 X 5 5 150 700 100 L 50 50 1 1 B

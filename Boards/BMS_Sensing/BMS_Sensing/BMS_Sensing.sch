@@ -511,10 +511,10 @@ Wire Wire Line
 Text Label 1100 3700 2    50   ~ 0
 C1-
 $Comp
-L formula:200mA_Fuse F+
+L formula:200mA_Fuse F+1
 U 1 1 5F6917BF
 P 6450 900
-F 0 "F+" H 6450 1000 50  0000 C CNN
+F 0 "F+1" H 6450 1000 50  0000 C CNN
 F 1 "200mA_Fuse" H 6450 800 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 6400 900 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 6400 900 50  0001 C CNN
@@ -525,10 +525,10 @@ F 6 "" H 6450 1033 50  0000 C CNN "MFN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Bolt_connect_4-40 B+
+L formula:Bolt_connect_4-40 B+1
 U 1 1 5F6917C5
 P 7050 900
-F 0 "B+" H 7269 946 50  0000 L CNN
+F 0 "B+1" H 7269 946 50  0000 L CNN
 F 1 "Bolt_connect_4-40" H 7269 855 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 6950 950 50  0001 C CNN
 F 3 "" H 7050 1050 50  0001 C CNN
@@ -547,7 +547,7 @@ U 1 1 5F696EB9
 P 4150 950
 F 0 "RT133" H 4400 1100 50  0000 C CNN
 F 1 "Thermistor" H 4150 1208 50  0000 C CNN
-F 2 "Thermistor" H 4170 610 50  0001 C CNN
+F 2 "footprints:Thermistor" H 4170 610 50  0001 C CNN
 F 3 "" H 4150 950 50  0001 C CNN
 	1    4150 950 
 	1    0    0    -1  
@@ -558,7 +558,7 @@ U 1 1 5F696F77
 P 4150 1500
 F 0 "RT132" H 4400 1650 50  0000 C CNN
 F 1 "Thermistor" H 4150 1758 50  0000 C CNN
-F 2 "Thermistor" H 4170 1160 50  0001 C CNN
+F 2 "footprints:Thermistor" H 4170 1160 50  0001 C CNN
 F 3 "" H 4150 1500 50  0001 C CNN
 	1    4150 1500
 	1    0    0    -1  
@@ -569,7 +569,7 @@ U 1 1 5F6973BA
 P 4150 2050
 F 0 "RT131" H 4400 2200 50  0000 C CNN
 F 1 "Thermistor" H 4150 2308 50  0000 C CNN
-F 2 "Thermistor" H 4170 1710 50  0001 C CNN
+F 2 "footprints:Thermistor" H 4170 1710 50  0001 C CNN
 F 3 "" H 4150 2050 50  0001 C CNN
 	1    4150 2050
 	1    0    0    -1  
@@ -580,7 +580,7 @@ U 1 1 5F69749A
 P 4150 2600
 F 0 "RT93" H 4400 2750 50  0000 C CNN
 F 1 "Thermistor" H 4150 2858 50  0000 C CNN
-F 2 "Thermistor" H 4170 2260 50  0001 C CNN
+F 2 "footprints:Thermistor" H 4170 2260 50  0001 C CNN
 F 3 "" H 4150 2600 50  0001 C CNN
 	1    4150 2600
 	1    0    0    -1  
@@ -591,7 +591,7 @@ U 1 1 5F69750E
 P 4150 3150
 F 0 "RT92" H 4400 3300 50  0000 C CNN
 F 1 "Thermistor" H 4150 3408 50  0000 C CNN
-F 2 "Thermistor" H 4170 2810 50  0001 C CNN
+F 2 "footprints:Thermistor" H 4170 2810 50  0001 C CNN
 F 3 "" H 4150 3150 50  0001 C CNN
 	1    4150 3150
 	1    0    0    -1  
@@ -602,7 +602,7 @@ U 1 1 5F697580
 P 4150 3700
 F 0 "RT91" H 4400 3850 50  0000 C CNN
 F 1 "Thermistor" H 4150 3958 50  0000 C CNN
-F 2 "Thermistor" H 4170 3360 50  0001 C CNN
+F 2 "footprints:Thermistor" H 4170 3360 50  0001 C CNN
 F 3 "" H 4150 3700 50  0001 C CNN
 	1    4150 3700
 	1    0    0    -1  
@@ -613,7 +613,7 @@ U 1 1 5F697FB1
 P 4150 4250
 F 0 "RT53" H 4400 4400 50  0000 C CNN
 F 1 "Thermistor" H 4150 4508 50  0000 C CNN
-F 2 "Thermistor" H 4170 3910 50  0001 C CNN
+F 2 "footprints:Thermistor" H 4170 3910 50  0001 C CNN
 F 3 "" H 4150 4250 50  0001 C CNN
 	1    4150 4250
 	1    0    0    -1  
@@ -734,10 +734,10 @@ C1-
 Text Label 1950 7000 0    50   ~ 0
 V-
 $Comp
-L formula:200mA_Fuse F-
+L formula:200mA_Fuse F-1
 U 1 1 5D82809F
 P 1500 4050
-F 0 "F-" H 1500 4150 50  0000 C CNN
+F 0 "F-1" H 1500 4150 50  0000 C CNN
 F 1 "200mA_Fuse" H 1500 3950 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 1450 4050 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1450 4050 50  0001 C CNN
@@ -748,10 +748,10 @@ F 6 "" H 1500 4183 50  0000 C CNN "MFN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Bolt_connect_4-40 B-
+L formula:Bolt_connect_4-40 B-1
 U 1 1 5D8280A5
 P 2100 4050
-F 0 "B-" H 2319 4096 50  0000 L CNN
+F 0 "B-1" H 2319 4096 50  0000 L CNN
 F 1 "Bolt_connect_4-40" H 2319 4005 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 2000 4100 50  0001 C CNN
 F 3 "" H 2100 4200 50  0001 C CNN
@@ -773,7 +773,7 @@ U 1 1 5D830BA4
 P 4150 4800
 F 0 "RT52" H 4400 4950 50  0000 C CNN
 F 1 "Thermistor" H 4150 5058 50  0000 C CNN
-F 2 "Thermistor" H 4170 4460 50  0001 C CNN
+F 2 "footprints:Thermistor" H 4170 4460 50  0001 C CNN
 F 3 "" H 4150 4800 50  0001 C CNN
 	1    4150 4800
 	1    0    0    -1  
@@ -784,7 +784,7 @@ U 1 1 5D830C22
 P 4150 5350
 F 0 "RT51" H 4400 5500 50  0000 C CNN
 F 1 "Thermistor" H 4150 5608 50  0000 C CNN
-F 2 "Thermistor" H 4170 5010 50  0001 C CNN
+F 2 "footprints:Thermistor" H 4170 5010 50  0001 C CNN
 F 3 "" H 4150 5350 50  0001 C CNN
 	1    4150 5350
 	1    0    0    -1  
@@ -795,7 +795,7 @@ U 1 1 5D830CA2
 P 4150 5900
 F 0 "RT13" H 4400 6050 50  0000 C CNN
 F 1 "Thermistor" H 4150 6158 50  0000 C CNN
-F 2 "Thermistor" H 4170 5560 50  0001 C CNN
+F 2 "footprints:Thermistor" H 4170 5560 50  0001 C CNN
 F 3 "" H 4150 5900 50  0001 C CNN
 	1    4150 5900
 	1    0    0    -1  
@@ -812,7 +812,7 @@ U 1 1 5D83159E
 P 4150 6450
 F 0 "RT12" H 4400 6600 50  0000 C CNN
 F 1 "Thermistor" H 4150 6708 50  0000 C CNN
-F 2 "Thermistor" H 4170 6110 50  0001 C CNN
+F 2 "footprints:Thermistor" H 4170 6110 50  0001 C CNN
 F 3 "" H 4150 6450 50  0001 C CNN
 	1    4150 6450
 	1    0    0    -1  
@@ -825,7 +825,7 @@ U 1 1 5D83177F
 P 4150 7000
 F 0 "RT11" H 4400 7150 50  0000 C CNN
 F 1 "Thermistor" H 4150 7258 50  0000 C CNN
-F 2 "Thermistor" H 4170 6660 50  0001 C CNN
+F 2 "footprints:Thermistor" H 4170 6660 50  0001 C CNN
 F 3 "" H 4150 7000 50  0001 C CNN
 	1    4150 7000
 	1    0    0    -1  
@@ -865,7 +865,7 @@ U 1 1 5D8392E4
 P 8950 950
 F 0 "RT153" H 9200 1100 50  0000 C CNN
 F 1 "Thermistor" H 8950 1208 50  0000 C CNN
-F 2 "Thermistor" H 8970 610 50  0001 C CNN
+F 2 "footprints:Thermistor" H 8970 610 50  0001 C CNN
 F 3 "" H 8950 950 50  0001 C CNN
 	1    8950 950 
 	1    0    0    -1  
@@ -876,7 +876,7 @@ U 1 1 5D8392EA
 P 8950 1500
 F 0 "RT152" H 9200 1650 50  0000 C CNN
 F 1 "Thermistor" H 8950 1758 50  0000 C CNN
-F 2 "Thermistor" H 8970 1160 50  0001 C CNN
+F 2 "footprints:Thermistor" H 8970 1160 50  0001 C CNN
 F 3 "" H 8950 1500 50  0001 C CNN
 	1    8950 1500
 	1    0    0    -1  
@@ -887,7 +887,7 @@ U 1 1 5D8392F0
 P 8950 2050
 F 0 "RT151" H 9200 2200 50  0000 C CNN
 F 1 "Thermistor" H 8950 2308 50  0000 C CNN
-F 2 "Thermistor" H 8970 1710 50  0001 C CNN
+F 2 "footprints:Thermistor" H 8970 1710 50  0001 C CNN
 F 3 "" H 8950 2050 50  0001 C CNN
 	1    8950 2050
 	1    0    0    -1  
@@ -898,7 +898,7 @@ U 1 1 5D8392F6
 P 8950 2600
 F 0 "RT113" H 9200 2750 50  0000 C CNN
 F 1 "Thermistor" H 8950 2858 50  0000 C CNN
-F 2 "Thermistor" H 8970 2260 50  0001 C CNN
+F 2 "footprints:Thermistor" H 8970 2260 50  0001 C CNN
 F 3 "" H 8950 2600 50  0001 C CNN
 	1    8950 2600
 	1    0    0    -1  
@@ -909,7 +909,7 @@ U 1 1 5D8392FC
 P 8950 3150
 F 0 "RT112" H 9200 3300 50  0000 C CNN
 F 1 "Thermistor" H 8950 3408 50  0000 C CNN
-F 2 "Thermistor" H 8970 2810 50  0001 C CNN
+F 2 "footprints:Thermistor" H 8970 2810 50  0001 C CNN
 F 3 "" H 8950 3150 50  0001 C CNN
 	1    8950 3150
 	1    0    0    -1  
@@ -920,7 +920,7 @@ U 1 1 5D839302
 P 8950 3700
 F 0 "RT111" H 9200 3850 50  0000 C CNN
 F 1 "Thermistor" H 8950 3958 50  0000 C CNN
-F 2 "Thermistor" H 8970 3360 50  0001 C CNN
+F 2 "footprints:Thermistor" H 8970 3360 50  0001 C CNN
 F 3 "" H 8950 3700 50  0001 C CNN
 	1    8950 3700
 	1    0    0    -1  
@@ -931,7 +931,7 @@ U 1 1 5D839308
 P 8950 4250
 F 0 "RT73" H 9200 4400 50  0000 C CNN
 F 1 "Thermistor" H 8950 4508 50  0000 C CNN
-F 2 "Thermistor" H 8970 3910 50  0001 C CNN
+F 2 "footprints:Thermistor" H 8970 3910 50  0001 C CNN
 F 3 "" H 8950 4250 50  0001 C CNN
 	1    8950 4250
 	1    0    0    -1  
@@ -990,7 +990,7 @@ U 1 1 5D839329
 P 8950 4800
 F 0 "RT72" H 9200 4950 50  0000 C CNN
 F 1 "Thermistor" H 8950 5058 50  0000 C CNN
-F 2 "Thermistor" H 8970 4460 50  0001 C CNN
+F 2 "footprints:Thermistor" H 8970 4460 50  0001 C CNN
 F 3 "" H 8950 4800 50  0001 C CNN
 	1    8950 4800
 	1    0    0    -1  
@@ -1001,7 +1001,7 @@ U 1 1 5D83932F
 P 8950 5350
 F 0 "RT71" H 9200 5500 50  0000 C CNN
 F 1 "Thermistor" H 8950 5608 50  0000 C CNN
-F 2 "Thermistor" H 8970 5010 50  0001 C CNN
+F 2 "footprints:Thermistor" H 8970 5010 50  0001 C CNN
 F 3 "" H 8950 5350 50  0001 C CNN
 	1    8950 5350
 	1    0    0    -1  
@@ -1012,7 +1012,7 @@ U 1 1 5D839335
 P 8950 5900
 F 0 "RT33" H 9200 6050 50  0000 C CNN
 F 1 "Thermistor" H 8950 6158 50  0000 C CNN
-F 2 "Thermistor" H 8970 5560 50  0001 C CNN
+F 2 "footprints:Thermistor" H 8970 5560 50  0001 C CNN
 F 3 "" H 8950 5900 50  0001 C CNN
 	1    8950 5900
 	1    0    0    -1  
@@ -1029,7 +1029,7 @@ U 1 1 5D83933E
 P 8950 6450
 F 0 "RT32" H 9200 6600 50  0000 C CNN
 F 1 "Thermistor" H 8950 6708 50  0000 C CNN
-F 2 "Thermistor" H 8970 6110 50  0001 C CNN
+F 2 "footprints:Thermistor" H 8970 6110 50  0001 C CNN
 F 3 "" H 8950 6450 50  0001 C CNN
 	1    8950 6450
 	1    0    0    -1  
@@ -1042,7 +1042,7 @@ U 1 1 5D839345
 P 8950 7000
 F 0 "RT31" H 9200 7150 50  0000 C CNN
 F 1 "Thermistor" H 8950 7258 50  0000 C CNN
-F 2 "Thermistor" H 8970 6660 50  0001 C CNN
+F 2 "footprints:Thermistor" H 8970 6660 50  0001 C CNN
 F 3 "" H 8950 7000 50  0001 C CNN
 	1    8950 7000
 	1    0    0    -1  
@@ -1112,7 +1112,7 @@ U 1 1 5D853357
 P 6600 6000
 F 0 "J3" H 6250 6550 60  0000 C CNN
 F 1 "MM_M_VT_12" H 6556 7241 60  0000 C CNN
-F 2 "" H 6400 7100 60  0001 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 6400 7100 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 6500 7200 60  0001 C CNN
 F 4 "TE" H 6700 7400 60  0001 C CNN "MFN"
 F 5 "1-215464-2" H 6800 7500 60  0001 C CNN "MPN"

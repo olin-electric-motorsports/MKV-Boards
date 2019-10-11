@@ -860,10 +860,10 @@ Connection ~ 4650 4800
 Wire Wire Line
 	4650 4800 4650 5350
 $Comp
-L formula:Thermistor RT13
+L formula:Thermistor RT153
 U 1 1 5D8392E4
 P 8950 950
-F 0 "RT13" H 9200 1100 50  0000 C CNN
+F 0 "RT153" H 9200 1100 50  0000 C CNN
 F 1 "Thermistor" H 8950 1208 50  0000 C CNN
 F 2 "Thermistor" H 8970 610 50  0001 C CNN
 F 3 "" H 8950 950 50  0001 C CNN
@@ -871,10 +871,10 @@ F 3 "" H 8950 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT14
+L formula:Thermistor RT152
 U 1 1 5D8392EA
 P 8950 1500
-F 0 "RT14" H 9200 1650 50  0000 C CNN
+F 0 "RT152" H 9200 1650 50  0000 C CNN
 F 1 "Thermistor" H 8950 1758 50  0000 C CNN
 F 2 "Thermistor" H 8970 1160 50  0001 C CNN
 F 3 "" H 8950 1500 50  0001 C CNN
@@ -882,10 +882,10 @@ F 3 "" H 8950 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT15
+L formula:Thermistor RT151
 U 1 1 5D8392F0
 P 8950 2050
-F 0 "RT15" H 9200 2200 50  0000 C CNN
+F 0 "RT151" H 9200 2200 50  0000 C CNN
 F 1 "Thermistor" H 8950 2308 50  0000 C CNN
 F 2 "Thermistor" H 8970 1710 50  0001 C CNN
 F 3 "" H 8950 2050 50  0001 C CNN
@@ -893,10 +893,10 @@ F 3 "" H 8950 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT16
+L formula:Thermistor RT113
 U 1 1 5D8392F6
 P 8950 2600
-F 0 "RT16" H 9200 2750 50  0000 C CNN
+F 0 "RT113" H 9200 2750 50  0000 C CNN
 F 1 "Thermistor" H 8950 2858 50  0000 C CNN
 F 2 "Thermistor" H 8970 2260 50  0001 C CNN
 F 3 "" H 8950 2600 50  0001 C CNN
@@ -904,10 +904,10 @@ F 3 "" H 8950 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT17
+L formula:Thermistor RT112
 U 1 1 5D8392FC
 P 8950 3150
-F 0 "RT17" H 9200 3300 50  0000 C CNN
+F 0 "RT112" H 9200 3300 50  0000 C CNN
 F 1 "Thermistor" H 8950 3408 50  0000 C CNN
 F 2 "Thermistor" H 8970 2810 50  0001 C CNN
 F 3 "" H 8950 3150 50  0001 C CNN
@@ -915,10 +915,10 @@ F 3 "" H 8950 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT18
+L formula:Thermistor RT111
 U 1 1 5D839302
 P 8950 3700
-F 0 "RT18" H 9200 3850 50  0000 C CNN
+F 0 "RT111" H 9200 3850 50  0000 C CNN
 F 1 "Thermistor" H 8950 3958 50  0000 C CNN
 F 2 "Thermistor" H 8970 3360 50  0001 C CNN
 F 3 "" H 8950 3700 50  0001 C CNN
@@ -926,10 +926,10 @@ F 3 "" H 8950 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT19
+L formula:Thermistor RT73
 U 1 1 5D839308
 P 8950 4250
-F 0 "RT19" H 9200 4400 50  0000 C CNN
+F 0 "RT73" H 9200 4400 50  0000 C CNN
 F 1 "Thermistor" H 8950 4508 50  0000 C CNN
 F 2 "Thermistor" H 8970 3910 50  0001 C CNN
 F 3 "" H 8950 4250 50  0001 C CNN
@@ -985,10 +985,10 @@ Connection ~ 9450 4250
 Wire Wire Line
 	9450 3700 9450 4250
 $Comp
-L formula:Thermistor RT20
+L formula:Thermistor RT72
 U 1 1 5D839329
 P 8950 4800
-F 0 "RT20" H 9200 4950 50  0000 C CNN
+F 0 "RT72" H 9200 4950 50  0000 C CNN
 F 1 "Thermistor" H 8950 5058 50  0000 C CNN
 F 2 "Thermistor" H 8970 4460 50  0001 C CNN
 F 3 "" H 8950 4800 50  0001 C CNN
@@ -996,10 +996,10 @@ F 3 "" H 8950 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT21
+L formula:Thermistor RT71
 U 1 1 5D83932F
 P 8950 5350
-F 0 "RT21" H 9200 5500 50  0000 C CNN
+F 0 "RT71" H 9200 5500 50  0000 C CNN
 F 1 "Thermistor" H 8950 5608 50  0000 C CNN
 F 2 "Thermistor" H 8970 5010 50  0001 C CNN
 F 3 "" H 8950 5350 50  0001 C CNN
@@ -1007,10 +1007,10 @@ F 3 "" H 8950 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT22
+L formula:Thermistor RT33
 U 1 1 5D839335
 P 8950 5900
-F 0 "RT22" H 9200 6050 50  0000 C CNN
+F 0 "RT33" H 9200 6050 50  0000 C CNN
 F 1 "Thermistor" H 8950 6158 50  0000 C CNN
 F 2 "Thermistor" H 8970 5560 50  0001 C CNN
 F 3 "" H 8950 5900 50  0001 C CNN
@@ -1024,10 +1024,10 @@ C7_T1
 Text Label 8650 5900 2    50   ~ 0
 C3_T3
 $Comp
-L formula:Thermistor RT23
+L formula:Thermistor RT32
 U 1 1 5D83933E
 P 8950 6450
-F 0 "RT23" H 9200 6600 50  0000 C CNN
+F 0 "RT32" H 9200 6600 50  0000 C CNN
 F 1 "Thermistor" H 8950 6708 50  0000 C CNN
 F 2 "Thermistor" H 8970 6110 50  0001 C CNN
 F 3 "" H 8950 6450 50  0001 C CNN
@@ -1037,10 +1037,10 @@ $EndComp
 Text Label 8650 6450 2    50   ~ 0
 C3_T2
 $Comp
-L formula:Thermistor RT24
+L formula:Thermistor RT31
 U 1 1 5D839345
 P 8950 7000
-F 0 "RT24" H 9200 7150 50  0000 C CNN
+F 0 "RT31" H 9200 7150 50  0000 C CNN
 F 1 "Thermistor" H 8950 7258 50  0000 C CNN
 F 2 "Thermistor" H 8970 6660 50  0001 C CNN
 F 3 "" H 8950 7000 50  0001 C CNN
