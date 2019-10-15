@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:BMS_peripheral-cache
-LIBS:BMS_Sensing-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 18504 16535
@@ -471,14 +470,6 @@ Wire Wire Line
 	13500 5950 13150 5950
 Wire Wire Line
 	11250 6050 13350 6050
-Text Label 11250 5350 0    50   ~ 0
-T17
-Text Label 11250 5450 0    50   ~ 0
-T18
-Text Label 11250 5550 0    50   ~ 0
-T19'
-Text Label 11250 5650 0    50   ~ 0
-T20
 Wire Wire Line
 	11950 5250 11950 5350
 Connection ~ 11950 5350
@@ -2218,23 +2209,23 @@ Wire Notes Line
 Wire Notes Line
 	17250 1600 17250 6450
 Text Label 1850 850  2    50   ~ 0
-CELL16_VOLT
+C16+
 Text Label 1850 1700 2    50   ~ 0
-CELL15_VOLT
+C15-
 Text Label 1850 2550 2    50   ~ 0
-CELL14_VOLT
+C14+
 Text Label 1850 3400 2    50   ~ 0
-CELL13_VOLT
+C13-
 Text Label 1850 4250 2    50   ~ 0
-CELL12_VOLT
+C12+
 Text Label 1850 5100 2    50   ~ 0
-CELL11_VOLT
+C11-
 Text Label 1850 5950 2    50   ~ 0
-CELL10_VOLT
+C10+
 Text Label 1850 6800 2    50   ~ 0
-CELL9_VOLT
+C9-
 Text Label 1850 7650 2    50   ~ 0
-CELL8_VOLT
+C8+
 Text Notes 8900 3850 2    50   ~ 0
 Traces from Structural PCB under Peripheral PCB
 Text Notes 10750 3850 2    50   ~ 0
@@ -3184,23 +3175,6 @@ $EndComp
 Connection ~ 8950 10150
 Wire Wire Line
 	8950 10150 9200 10150
-$Comp
-L formula:C_1uF C31
-U 1 1 5DE3B388
-P 8700 10000
-F 0 "C31" H 8750 10100 50  0000 L CNN
-F 1 "1uF" H 8750 9900 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 8738 9850 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 8725 10100 50  0001 C CNN
-F 4 "DK" H 8700 10000 60  0001 C CNN "MFN"
-F 5 "1276-2887-1-ND" H 8700 10000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 9125 10500 60  0001 C CNN "PurchasingLink"
-	1    8700 10000
-	1    0    0    -1  
-$EndComp
-Connection ~ 8700 10150
-Wire Wire Line
-	8700 10150 8950 10150
 Wire Wire Line
 	9200 9550 9200 9600
 Wire Wire Line
@@ -3214,30 +3188,14 @@ Wire Wire Line
 	9200 9600 9200 9850
 Wire Wire Line
 	8350 9650 8950 9650
-Wire Wire Line
-	9450 9750 9450 10250
-Wire Wire Line
-	9450 10250 9600 10250
-Wire Wire Line
-	9600 10450 9450 10450
-Wire Wire Line
-	9450 10950 10300 10950
-Wire Wire Line
-	10300 10350 10200 10350
 Text Notes 9300 9600 0    50   ~ 0
 May get hot.\n
 Wire Wire Line
 	8950 9650 8950 9850
 Wire Wire Line
-	8350 9750 8700 9750
-Wire Wire Line
-	9800 10700 9800 10650
-Wire Wire Line
 	8350 9550 8550 9550
 Wire Wire Line
 	8550 9550 8550 10150
-Wire Wire Line
-	8550 10150 8700 10150
 Connection ~ 8550 10150
 Text Label 8700 9450 0    50   ~ 0
 VREG
@@ -3245,11 +3203,6 @@ Wire Wire Line
 	8400 9850 8350 9850
 Wire Wire Line
 	8400 9950 8350 9950
-Wire Wire Line
-	8700 9750 8700 9850
-Wire Wire Line
-	8700 9750 9450 9750
-Connection ~ 8700 9750
 NoConn ~ 8350 10250
 NoConn ~ 8350 10350
 Text Label 8350 10450 0    50   ~ 0
@@ -3335,10 +3288,6 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 10175 9600 60
 $EndComp
 Wire Wire Line
 	9750 9250 9750 9300
-Text Label 9800 10050 0    50   ~ 0
-VREG
-Text Label 10300 10350 0    50   ~ 0
-VREF2
 $Comp
 L formula:R_100 R102
 U 1 1 5DE3B3E7
@@ -3450,17 +3399,6 @@ F 3 "" H 9750 9300 50  0001 C CNN
 	1    9750 9300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR021
-U 1 1 5DE3B421
-P 9800 10700
-F 0 "#PWR021" H 9800 10450 50  0001 C CNN
-F 1 "GND" H 9805 10527 50  0000 C CNN
-F 2 "" H 9800 10700 50  0001 C CNN
-F 3 "" H 9800 10700 50  0001 C CNN
-	1    9800 10700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8900 9350 8350 9350
 Wire Wire Line
@@ -3470,20 +3408,6 @@ Wire Wire Line
 Connection ~ 9200 9100
 Wire Wire Line
 	9200 9100 9200 9150
-$Comp
-L formula:MCP6001T-I-LT U9
-U 1 1 5DE3B42F
-P 9900 10350
-F 0 "U9" H 9900 10550 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 9900 10150 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 9800 10450 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9900 10550 50  0001 C CNN
-F 4 "DK" H 10000 10650 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 10100 10750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 10200 10850 60  0001 C CNN "PurchasingLink"
-	1    9900 10350
-	1    0    0    -1  
-$EndComp
 $Comp
 L formula:NSS1C201MZ4 Q18
 U 1 1 5DE3B438
@@ -3563,10 +3487,6 @@ Wire Wire Line
 	6950 8450 6950 8850
 Wire Wire Line
 	6950 8450 7450 8450
-Wire Wire Line
-	9450 10450 9450 10950
-Wire Wire Line
-	10300 10350 10300 10950
 $Comp
 L formula:R_100 R93
 U 1 1 5DF21479
@@ -4285,21 +4205,19 @@ Wire Wire Line
 Connection ~ 2750 15650
 Connection ~ 4100 15650
 Text Label 1900 8850 2    50   ~ 0
-CELL8_VOLT
+C8+
 Text Label 1900 9700 2    50   ~ 0
-CELL7_VOLT
+C7-
 Text Label 1900 10550 2    50   ~ 0
-CELL56VOLT
+C6+
 Text Label 1900 11400 2    50   ~ 0
-CELL5_VOLT
+C5-
 Text Label 1900 12250 2    50   ~ 0
-CELL4_VOLT
-Text Label 1900 13100 2    50   ~ 0
-CELL13VOLT
+C4+
 Text Label 1900 13950 2    50   ~ 0
-CELL2_VOLT
+C2+
 Text Label 1900 14800 2    50   ~ 0
-CELL1_VOLT
+C1-
 Text Label 1900 15650 2    50   ~ 0
 CELL0_VOLT
 Wire Wire Line
@@ -4808,14 +4726,6 @@ Wire Wire Line
 	8700 10850 6100 10850
 Wire Wire Line
 	6100 10850 6100 15650
-Text Label 11250 5750 0    50   ~ 0
-T21
-Text Label 11250 5850 0    50   ~ 0
-T22
-Text Label 11250 5950 0    50   ~ 0
-T23
-Text Label 11250 6050 0    50   ~ 0
-T24
 Wire Wire Line
 	13500 10050 13000 10050
 Wire Wire Line
@@ -5296,40 +5206,57 @@ Text Label 9950 950  0    50   ~ 0
 V+
 Text Label 9950 3150 0    50   ~ 0
 GND
-Text Label 10850 2350 2    50   ~ 0
+Text Label 11250 2650 2    50   ~ 0
 C13_T3
-Text Label 10850 2450 2    50   ~ 0
+Text Label 11250 2750 2    50   ~ 0
 C13_T2
-Text Label 10850 2550 2    50   ~ 0
+Text Label 11250 2850 2    50   ~ 0
 C13_T1
-Text Label 10850 3100 2    50   ~ 0
-C9_T3
-Text Label 10850 3200 2    50   ~ 0
-C9_T2
-Text Label 10850 3300 2    50   ~ 0
-C9_T1
-Text Label 10850 3400 2    50   ~ 0
-C5_T3
-Text Label 10850 3500 2    50   ~ 0
-C5_T2
-Text Label 11250 3900 2    50   ~ 0
-C5_T1
 Text Label 11250 4000 2    50   ~ 0
-C1_T3
+C9_T3
 Text Label 11250 4100 2    50   ~ 0
-C1_T2
+C9_T2
 Text Label 11250 4200 2    50   ~ 0
+C9_T1
+Text Label 11250 4600 2    50   ~ 0
+C5_T3
+Text Label 11250 5350 2    50   ~ 0
+C5_T2
+Text Label 11250 5450 2    50   ~ 0
+C5_T1
+Text Label 11250 5850 2    50   ~ 0
+C1_T3
+Text Label 11250 5950 2    50   ~ 0
+C1_T2
+Text Label 11250 6050 2    50   ~ 0
 C1_T1
-Text Label 10850 2050 2    50   ~ 0
+Text Label 11250 2350 2    50   ~ 0
 C15_T3
-Text Label 10850 2150 2    50   ~ 0
+Text Label 11250 2450 2    50   ~ 0
 C15_T2
-Text Label 10850 2250 2    50   ~ 0
+Text Label 11250 2550 2    50   ~ 0
 C15_T1
-Text Label 10850 2650 2    50   ~ 0
+Text Label 11250 2950 2    50   ~ 0
 C11_T3
-Text Label 10850 2750 2    50   ~ 0
+Text Label 11250 3050 2    50   ~ 0
 C11_T2
-Text Label 10850 2850 2    50   ~ 0
+Text Label 11250 3900 2    50   ~ 0
 C11_T1
+Text Label 11250 4500 2    50   ~ 0
+C7_T1
+Text Label 11250 4400 2    50   ~ 0
+C7_T2
+Text Label 11250 4300 2    50   ~ 0
+C7_T3
+Text Label 11250 5750 2    50   ~ 0
+C3_T1
+Text Label 11250 5650 2    50   ~ 0
+C3_T2
+Text Label 11250 5550 2    50   ~ 0
+C3_T3
+Wire Wire Line
+	8550 10150 8950 10150
+NoConn ~ 8350 9750
+Text Label 1900 13100 2    50   ~ 0
+C3-
 $EndSCHEMATC
