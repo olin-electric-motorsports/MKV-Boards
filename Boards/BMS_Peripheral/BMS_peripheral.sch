@@ -621,7 +621,7 @@ A0 = 0, A1 = 0  Address 0x90
 Text Notes 15000 4250 0    50   ~ 0
 A0 = 1, A1 = 0  Address 0x92
 Text Notes 15000 5750 0    50   ~ 0
-A0 = 0, A1 = 0  Address 0x94
+A0 = 0, A1 = 1  Address 0x94
 Wire Wire Line
 	14750 5650 14750 5850
 Wire Wire Line
@@ -2475,24 +2475,9 @@ Wire Wire Line
 Wire Wire Line
 	15000 7800 14750 7800
 Wire Wire Line
-	14950 8250 15150 8250
-Wire Wire Line
-	15150 8350 14950 8350
-Wire Wire Line
 	14950 8350 14950 8500
 Wire Wire Line
 	14950 8500 14750 8500
-$Comp
-L formula:isoSPI-Cutout J2
-U 1 1 5D033883
-P 15300 8300
-F 0 "J2" H 15350 8500 50  0000 C CNN
-F 1 "isoSPI-Cutout" H 15300 8100 50  0000 C CNN
-F 2 "footprints:iso_spi_cutout" H 15400 8300 50  0001 C CNN
-F 3 "" H 15400 8300 50  0001 C CNN
-	1    15300 8300
-	1    0    0    -1  
-$EndComp
 $Comp
 L formula:C_10nF C20
 U 1 1 5CA14224
@@ -4219,7 +4204,7 @@ C2+
 Text Label 1900 14800 2    50   ~ 0
 C1-
 Text Label 1900 15650 2    50   ~ 0
-CELL0_VOLT
+C0
 Wire Wire Line
 	1900 9700 2750 9700
 Wire Wire Line
@@ -4885,21 +4870,6 @@ F 6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A
 	1    15000 11000
 	-1   0    0    -1  
 $EndComp
-$Comp
-L formula:isoSPI-Cutout J7
-U 1 1 5DA71143
-P 15300 10250
-F 0 "J7" H 15350 10450 50  0000 C CNN
-F 1 "isoSPI-Cutout" H 15300 10050 50  0000 C CNN
-F 2 "footprints:iso_spi_cutout" H 15400 10250 50  0001 C CNN
-F 3 "" H 15400 10250 50  0001 C CNN
-	1    15300 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15000 10200 15150 10200
-Wire Wire Line
-	15150 10300 15000 10300
 Wire Wire Line
 	15000 10300 15000 10450
 Wire Wire Line
@@ -5129,7 +5099,7 @@ C1-
 Text Label 7600 3100 0    50   ~ 0
 V-
 Text Label 7600 3200 0    50   ~ 0
-GND
+C0
 $Comp
 L formula:MM_F_VT_10 J?
 U 1 1 5E153762
@@ -5259,4 +5229,20 @@ Wire Wire Line
 NoConn ~ 8350 9750
 Text Label 1900 13100 2    50   ~ 0
 C3-
+Wire Wire Line
+	15450 8250 15450 10200
+Wire Wire Line
+	14950 8250 15450 8250
+Wire Wire Line
+	15000 10200 15450 10200
+Wire Wire Line
+	15350 8350 15350 10300
+Wire Wire Line
+	14950 8350 15350 8350
+Wire Wire Line
+	15000 10300 15350 10300
+Text Notes 15500 9000 0    50   ~ 0
+Wire isoSPI on board, \nuse twisted wires off board
+Text Notes 900  1050 0    50   ~ 0
+Cell voltage labels correspond \nto DAboard voltage tabs
 $EndSCHEMATC
