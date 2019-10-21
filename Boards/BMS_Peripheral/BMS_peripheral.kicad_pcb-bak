@@ -501,7 +501,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAE8F3)
-    (at 309.5 267 270)
+    (at 353 309 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5DF2168A)
@@ -539,15 +539,15 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAE903)
-    (at 252.708001 279.579001)
+    (at 316.5 264 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5CA14139)
     (attr smd)
-    (fp_text reference C2 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference C2 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value C_10nF (at 0 1.75) (layer F.Fab) hide
+    (fp_text value C_10nF (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
@@ -560,9 +560,9 @@
     (fp_line (start -1.75 -0.88) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.75 0.87) (end 1.75 -0.88) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.75 0.87) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 3 "Net-(C2-Pad1)"))
-    (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C2-Pad2)"))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.step
       (at (xyz 0 0 0))
@@ -577,15 +577,15 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAE913)
-    (at 248.158001 279.579001)
+    (at 316.5 270.357142 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5CA1437F)
     (attr smd)
-    (fp_text reference C3 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference C3 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value C_10nF (at 0 1.75) (layer F.Fab) hide
+    (fp_text value C_10nF (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
@@ -598,9 +598,9 @@
     (fp_line (start -1.75 -0.88) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.75 0.87) (end 1.75 -0.88) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.75 0.87) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C2-Pad2)"))
-    (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(C3-Pad2)"))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.step
       (at (xyz 0 0 0))
@@ -615,15 +615,15 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAE923)
-    (at 253.108001 276.759001)
+    (at 316.5 276.714284 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5CA1453F)
     (attr smd)
-    (fp_text reference C4 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference C4 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value C_10nF (at 0 1.75) (layer F.Fab) hide
+    (fp_text value C_10nF (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.75 0.87) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
@@ -636,9 +636,9 @@
     (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
-    (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 6 "Net-(C4-Pad2)"))
-    (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(C3-Pad2)"))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.step
       (at (xyz 0 0 0))
@@ -653,15 +653,15 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAE933)
-    (at 257.658001 274.069001)
+    (at 316.5 283.071426 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5CA1470F)
     (attr smd)
-    (fp_text reference C5 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference C5 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value C_10nF (at 0 1.75) (layer F.Fab) hide
+    (fp_text value C_10nF (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.75 0.87) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
@@ -674,9 +674,9 @@
     (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
-    (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 7 "Net-(C5-Pad2)"))
-    (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 6 "Net-(C4-Pad2)"))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.step
       (at (xyz 0 0 0))
@@ -691,7 +691,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAE943)
-    (at 309.5 273.5 270)
+    (at 353 315.5 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5DF21693)
@@ -729,15 +729,15 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAE953)
-    (at 262.208001 267.649001)
+    (at 316.5 289.428568 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5CA14C23)
     (attr smd)
-    (fp_text reference C7 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference C7 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value C_10nF (at 0 1.75) (layer F.Fab) hide
+    (fp_text value C_10nF (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
@@ -750,9 +750,9 @@
     (fp_line (start -1.75 -0.88) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.75 0.87) (end 1.75 -0.88) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.75 0.87) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 7 "Net-(C5-Pad2)"))
-    (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 9 "Net-(C7-Pad2)"))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.step
       (at (xyz 0 0 0))
@@ -767,15 +767,15 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAE963)
-    (at 257.658001 271.249001)
+    (at 316.5 295.78571 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5CA14F0A)
     (attr smd)
-    (fp_text reference C8 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference C8 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value C_10nF (at 0 1.75) (layer F.Fab) hide
+    (fp_text value C_10nF (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.75 0.87) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
@@ -788,9 +788,9 @@
     (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
-    (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(C8-Pad2)"))
-    (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 9 "Net-(C7-Pad2)"))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.step
       (at (xyz 0 0 0))
@@ -805,15 +805,15 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAE973)
-    (at 255.333001 293.564001)
+    (at 316.5 302.142852 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5CA15046)
     (attr smd)
-    (fp_text reference C9 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference C9 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value C_10nF (at 0 1.75) (layer F.Fab) hide
+    (fp_text value C_10nF (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.75 0.87) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
@@ -826,9 +826,9 @@
     (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
-    (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 11 "Net-(C10-Pad1)"))
-    (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(C8-Pad2)"))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.step
       (at (xyz 0 0 0))
@@ -843,15 +843,15 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAE983)
-    (at 254.683001 299.204001)
+    (at 316.5 308.5 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5CA15347)
     (attr smd)
-    (fp_text reference C10 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference C10 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value C_10nF (at 0 1.75) (layer F.Fab) hide
+    (fp_text value C_10nF (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.75 0.87) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
@@ -864,9 +864,9 @@
     (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
-    (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 12 "Net-(C10-Pad2)"))
-    (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1 0 270) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 11 "Net-(C10-Pad1)"))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/C_0805_OEM/C_0805.step
       (at (xyz 0 0 0))
@@ -1375,7 +1375,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAEA63)
-    (at 309.55 279 270)
+    (at 353.05 321 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5DF2169C)
@@ -1413,7 +1413,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAEA73)
-    (at 309.55 284.96 270)
+    (at 353.05 326.96 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5DF216A5)
@@ -1451,7 +1451,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAEA83)
-    (at 309.55 290.92 270)
+    (at 353.05 332.92 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5DF216AE)
@@ -1489,7 +1489,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAEA93)
-    (at 309.55 296.88 270)
+    (at 353.05 338.88 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5DF216B7)
@@ -1527,7 +1527,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAEAA3)
-    (at 309.55 302.84 270)
+    (at 353.05 344.84 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5DF216C0)
@@ -1565,7 +1565,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DAAEAB3)
-    (at 309.55 308.8 270)
+    (at 353.05 350.8 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5DF216C9)
@@ -1907,7 +1907,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEB4C)
-    (at 213.528001 309.894001)
+    (at 337 310 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5DF2148E)
@@ -1937,9 +1937,9 @@
     (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 37 "Net-(D1-Pad1)"))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 38 "Net-(D1-Pad2)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -1954,7 +1954,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEB65)
-    (at 180.918001 306.274001)
+    (at 299 264 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5E172B57)
@@ -1984,9 +1984,9 @@
     (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 39 "Net-(D2-Pad2)"))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 40 "Net-(D2-Pad1)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2001,7 +2001,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEB7E)
-    (at 256.298001 258.314001)
+    (at 299 270.214285 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5E1AADE6)
@@ -2031,9 +2031,9 @@
     (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 41 "Net-(D3-Pad1)"))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 42 "Net-(D3-Pad2)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2048,7 +2048,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEB97)
-    (at 208.578001 309.894001)
+    (at 299 276.42857 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5E1E8BF2)
@@ -2078,9 +2078,9 @@
     (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 43 "Net-(D4-Pad2)"))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 44 "Net-(D4-Pad1)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2095,7 +2095,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEBB0)
-    (at 203.628001 309.894001)
+    (at 299 282.642855 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5E22CAA1)
@@ -2125,9 +2125,9 @@
     (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 45 "Net-(D5-Pad1)"))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 46 "Net-(D5-Pad2)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2142,7 +2142,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEBC9)
-    (at 198.678001 309.894001)
+    (at 337 315.892857 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5DF214BD)
@@ -2172,9 +2172,9 @@
     (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 47 "Net-(D6-Pad2)"))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 48 "Net-(D6-Pad1)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2189,7 +2189,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEBE2)
-    (at 190.818001 311.964001)
+    (at 299 288.85714 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5E2C73EA)
@@ -2219,9 +2219,9 @@
     (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 49 "Net-(D7-Pad2)"))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 50 "Net-(D7-Pad1)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2236,7 +2236,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEBFB)
-    (at 185.868001 311.964001)
+    (at 299 295.071425 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5E31E352)
@@ -2266,9 +2266,9 @@
     (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 51 "Net-(D8-Pad1)"))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 52 "Net-(D8-Pad2)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2283,7 +2283,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEC14)
-    (at 180.918001 311.774001)
+    (at 299 301.28571 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5E37BE2D)
@@ -2313,9 +2313,9 @@
     (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 53 "Net-(D9-Pad1)"))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 54 "Net-(D9-Pad2)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2330,7 +2330,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEC2D)
-    (at 180.918001 309.024001)
+    (at 299 307.5 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5E44C2F7)
@@ -2360,9 +2360,9 @@
     (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 55 "Net-(D10-Pad1)"))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 56 "Net-(D10-Pad2)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2377,7 +2377,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEC46)
-    (at 180.918001 303.524001)
+    (at 337 321.785714 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5DF214EF)
@@ -2407,9 +2407,9 @@
     (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 57 "Net-(D11-Pad2)"))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 58 "Net-(D11-Pad1)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2424,7 +2424,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEC5F)
-    (at 268.298001 240.764001)
+    (at 337 327.678571 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5DF2151F)
@@ -2454,9 +2454,9 @@
     (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 59 "Net-(D12-Pad2)"))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 60 "Net-(D12-Pad1)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2471,7 +2471,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEC78)
-    (at 218.478001 309.894001)
+    (at 337 333.571428 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5DF2154F)
@@ -2501,9 +2501,9 @@
     (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 61 "Net-(D13-Pad1)"))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 62 "Net-(D13-Pad2)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2518,7 +2518,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAEC91)
-    (at 255.038001 261.064001)
+    (at 337 339.464285 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5DF2157E)
@@ -2548,9 +2548,9 @@
     (fp_line (start 1.95 0.85) (end -1.95 0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 0.85) (end -1.95 -0.85) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1.95 -0.85) (end 1.95 -0.85) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 63 "Net-(D14-Pad2)"))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 64 "Net-(D14-Pad1)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2565,7 +2565,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAECAA)
-    (at 255.038001 263.814001)
+    (at 337 345.357142 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5DF215AE)
@@ -2595,9 +2595,9 @@
     (fp_line (start 0.15 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0) (end -0.2 -0.35) (layer F.SilkS) (width 0.1))
     (fp_line (start -0.2 0.35) (end -0.2 0) (layer F.SilkS) (width 0.1))
-    (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 65 "Net-(D15-Pad1)"))
-    (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 66 "Net-(D15-Pad2)"))
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/LED_0805/LED 0805 Base GREEN001_sp.wrl"
       (at (xyz 0 0 0))
@@ -2612,7 +2612,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5C3D84D8) (tstamp 5DAAECC3)
-    (at 293.95 309.25 180)
+    (at 337 351.25 180)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5DF215DE)
@@ -2891,7 +2891,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAED5D)
-    (at 303.2 268 180)
+    (at 346.7 310 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5DF21642)
@@ -2927,7 +2927,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAED6F)
-    (at 302.2 212.5 180)
+    (at 308.7 264 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5C318A70)
@@ -2963,7 +2963,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAED81)
-    (at 302.2 218.75 180)
+    (at 308.7 270.25 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5C318B9C)
@@ -2999,7 +2999,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAED93)
-    (at 302.2 225 180)
+    (at 308.7 276.5 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5C318CCE)
@@ -3035,7 +3035,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAEDA5)
-    (at 302.2 231.25 180)
+    (at 308.7 282.75 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5C319756)
@@ -3071,7 +3071,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAEDB7)
-    (at 303.2 273.907142 180)
+    (at 346.7 315.907142 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5DF2164B)
@@ -3107,7 +3107,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAEDC9)
-    (at 302.2 237.5 180)
+    (at 308.7 289 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5C3199A4)
@@ -3143,7 +3143,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAEDDB)
-    (at 302.2 243.75 180)
+    (at 308.7 295.25 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5C319AD2)
@@ -3179,7 +3179,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAEDED)
-    (at 302.2 250 180)
+    (at 308.7 301.5 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5C319E9C)
@@ -3215,7 +3215,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAEDFF)
-    (at 302.2 256.25 180)
+    (at 308.7 307.75 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5C31A15B)
@@ -3294,7 +3294,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAEE27)
-    (at 303.2 279.814284 180)
+    (at 346.7 321.814284 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5DF21654)
@@ -3330,7 +3330,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAEE39)
-    (at 303.2 285.721426 180)
+    (at 346.7 327.721426 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5DF2165D)
@@ -3366,7 +3366,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAEE4B)
-    (at 303.2 291.628568 180)
+    (at 346.7 333.628568 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5DF21666)
@@ -3402,7 +3402,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAEE5D)
-    (at 303.2 297.53571 180)
+    (at 346.7 339.53571 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5DF2166F)
@@ -3438,7 +3438,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAEE6F)
-    (at 303.2 303.442852 180)
+    (at 346.7 345.442852 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5DF21678)
@@ -3474,7 +3474,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DAAEE81)
-    (at 303.2 309.35 180)
+    (at 346.7 351.35 180)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5DF21681)
@@ -3553,7 +3553,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEEA7)
-    (at 275.658001 262.949001)
+    (at 341.35 310)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF21497)
@@ -3591,7 +3591,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEEB7)
-    (at 283.198001 243.649001)
+    (at 303.45 264)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E172B63)
@@ -3629,7 +3629,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEEC7)
-    (at 266.558001 271.489001)
+    (at 303.45 270.223571)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E1AADF2)
@@ -3667,7 +3667,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEED7)
-    (at 253.873001 302.054001)
+    (at 303.45 276.447142)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E1E8BFE)
@@ -3705,7 +3705,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEEE7)
-    (at 262.008001 276.139001)
+    (at 303.45 282.670713)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E22CAAD)
@@ -3743,7 +3743,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEEF7)
-    (at 259.033001 296.414001)
+    (at 341.35 315.885714)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF214C6)
@@ -3781,7 +3781,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEF07)
-    (at 251.873001 315.764001)
+    (at 303.45 288.894284)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E2C73F6)
@@ -3819,7 +3819,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEF17)
-    (at 262.323001 306.864001)
+    (at 303.45 295.117855)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E31E35E)
@@ -3857,7 +3857,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEF27)
-    (at 265.8012 289.96718)
+    (at 303.45 301.341426)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E37BE39)
@@ -3895,7 +3895,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEF37)
-    (at 261.308001 281.899001)
+    (at 303.45 307.565)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E44C303)
@@ -3933,7 +3933,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEF47)
-    (at 266.473001 307.514001)
+    (at 341.35 321.771428)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF214F8)
@@ -4127,7 +4127,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEFA3)
-    (at 258.023001 305.054001)
+    (at 341.35 327.657142)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF21528)
@@ -4321,7 +4321,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAEFFF)
-    (at 269.498001 255.469001)
+    (at 341.35 333.542856)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF21558)
@@ -4359,7 +4359,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF00F)
-    (at 266.158001 280.129001)
+    (at 320.95 264 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E172B36)
@@ -4380,9 +4380,9 @@
     (fp_line (start -1.55 -0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 140 /~DIS~9))
-    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 115 "Net-(Q2-Pad1)"))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.step
       (at (xyz 0 0 0))
@@ -4397,7 +4397,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF01F)
-    (at 275.258001 271.589001)
+    (at 320.95 270.357142 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E1AADC5)
@@ -4418,9 +4418,9 @@
     (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
-    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 116 "Net-(Q3-Pad1)"))
-    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 141 /~DIS~8))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.step
       (at (xyz 0 0 0))
@@ -4435,7 +4435,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF02F)
-    (at 264.723001 312.624001)
+    (at 320.95 276.714284 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E1E8BD1)
@@ -4456,9 +4456,9 @@
     (fp_line (start -1.55 -0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 142 /~DIS~7))
-    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 117 "Net-(Q4-Pad1)"))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.step
       (at (xyz 0 0 0))
@@ -4473,7 +4473,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF03F)
-    (at 260.573001 315.504001)
+    (at 320.95 283.071426 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E22CA80)
@@ -4494,9 +4494,9 @@
     (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
-    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 118 "Net-(Q5-Pad1)"))
-    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 143 /~DIS~6))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.step
       (at (xyz 0 0 0))
@@ -4511,7 +4511,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DABA87D)
-    (at 279.808001 263.009001)
+    (at 341.35 339.42857)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF21587)
@@ -4549,7 +4549,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF05F)
-    (at 269.498001 252.589001)
+    (at 320.95 289.428568 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E2C73C9)
@@ -4570,9 +4570,9 @@
     (fp_line (start -1.55 -0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 144 /~DIS~4))
-    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 120 "Net-(Q7-Pad1)"))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.step
       (at (xyz 0 0 0))
@@ -4587,7 +4587,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF06F)
-    (at 275.258001 268.709001)
+    (at 320.95 295.78571 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E31E331)
@@ -4608,9 +4608,9 @@
     (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
-    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 121 "Net-(Q8-Pad1)"))
-    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 145 /~DIS~3))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.step
       (at (xyz 0 0 0))
@@ -4625,7 +4625,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF07F)
-    (at 263.183001 299.354001)
+    (at 320.95 302.142852 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E37BE0C)
@@ -4646,9 +4646,9 @@
     (fp_line (start -1.55 -0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end 1.55 -0.9) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.55 0.9) (end -1.55 0.9) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 146 /~DIS~2))
-    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 122 "Net-(Q9-Pad1)"))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.step
       (at (xyz 0 0 0))
@@ -4663,7 +4663,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF08F)
-    (at 270.708001 274.209001)
+    (at 320.95 308.5 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E44C2D6)
@@ -4684,9 +4684,9 @@
     (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
-    (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 123 "Net-(Q10-Pad1)"))
-    (pad 1 smd rect (at -0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 147 /~DIS~1))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/R_0805_OEM/res0805.step
       (at (xyz 0 0 0))
@@ -4701,7 +4701,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF09F)
-    (at 266.158001 277.249001)
+    (at 341.35 345.314284)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF215B7)
@@ -4739,7 +4739,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DABA850)
-    (at 279.808001 265.889001)
+    (at 312.55 262.5)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E172B25)
@@ -4777,7 +4777,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF0BF)
-    (at 271.108001 268.449001)
+    (at 312.55 268.375)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E1AADB4)
@@ -4815,7 +4815,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF0CF)
-    (at 273.233001 290.304001)
+    (at 312.55 274.25)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E1E8BC0)
@@ -4853,7 +4853,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF0DF)
-    (at 269.508001 285.889001)
+    (at 312.55 280.125)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E22CA6F)
@@ -4891,7 +4891,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF0EF)
-    (at 297.85 309.2)
+    (at 341.35 351.2)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF215E7)
@@ -4929,7 +4929,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DABA823)
-    (at 279.008001 274.529001)
+    (at 312.55 286)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E2C73B8)
@@ -4967,7 +4967,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DABA7F6)
-    (at 283.558001 271.649001)
+    (at 312.55 291.875)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E31E320)
@@ -5005,7 +5005,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF11F)
-    (at 279.323001 306.094001)
+    (at 312.55 297.75)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E37BDFB)
@@ -5043,7 +5043,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF12F)
-    (at 273.023001 310.574001)
+    (at 312.55 303.625)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E44C2C5)
@@ -5081,7 +5081,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF13F)
-    (at 274.458001 280.229001)
+    (at 312.55 309.5)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5EDF0A73)
@@ -6761,7 +6761,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF417)
-    (at 313.95 267.5)
+    (at 357.45 309.5)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF2147F)
@@ -6799,7 +6799,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF427)
-    (at 313.95 273.4)
+    (at 357.45 315.4)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF214AE)
@@ -6837,7 +6837,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF437)
-    (at 313.95 279.3)
+    (at 357.45 321.3)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF214E0)
@@ -6875,7 +6875,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF447)
-    (at 313.95 285.2)
+    (at 357.45 327.2)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF21510)
@@ -6913,7 +6913,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF457)
-    (at 313.95 291.1)
+    (at 357.45 333.1)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF21540)
@@ -6951,7 +6951,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF467)
-    (at 313.95 297)
+    (at 357.45 339)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF2156F)
@@ -6989,7 +6989,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF477)
-    (at 313.95 302.9)
+    (at 357.45 344.9)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF2159F)
@@ -7027,7 +7027,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF487)
-    (at 313.95 308.8)
+    (at 357.45 350.8)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF215CF)
@@ -7065,7 +7065,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF497)
-    (at 306.2 264)
+    (at 349.7 308)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF21479)
@@ -7103,7 +7103,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DABA7C9)
-    (at 306.2 268.45625)
+    (at 349.7 313.625)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF214A8)
@@ -7141,7 +7141,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF4B7)
-    (at 306.2 274.4125)
+    (at 349.7 319.25)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF214DA)
@@ -7179,7 +7179,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF4C7)
-    (at 306.2 280.36875)
+    (at 349.7 324.875)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF2150A)
@@ -7217,7 +7217,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DABA79C)
-    (at 306.2 286.325)
+    (at 349.7 330.5)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF2153A)
@@ -7255,7 +7255,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF4E7)
-    (at 306.2 292.28125)
+    (at 349.7 336.125)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF21569)
@@ -7293,7 +7293,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DABA76F)
-    (at 306.2 298.2375)
+    (at 349.7 341.75)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF21599)
@@ -7331,7 +7331,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF507)
-    (at 306.2 304.19375)
+    (at 349.7 347.375)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF215C9)
@@ -7369,7 +7369,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DAAF517)
-    (at 306.2 310.15)
+    (at 349.7 353)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DF2161F)
