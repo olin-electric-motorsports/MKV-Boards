@@ -49,32 +49,8 @@ Wire Wire Line
 Connection ~ 9000 12450
 Wire Wire Line
 	9000 12450 9000 12350
-$Comp
-L power:GND #PWR04
-U 1 1 5BCFD2C0
-P 8950 12800
-F 0 "#PWR04" H 8950 12550 50  0001 C CNN
-F 1 "GND" H 8955 12627 50  0000 C CNN
-F 2 "" H 8950 12800 50  0001 C CNN
-F 3 "" H 8950 12800 50  0001 C CNN
-	1    8950 12800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8900 12600 8950 12600
-Wire Wire Line
-	8950 12600 8950 12800
-$Comp
-L power:GND #PWR01
-U 1 1 5BCFD4B3
-P 7950 12800
-F 0 "#PWR01" H 7950 12550 50  0001 C CNN
-F 1 "GND" H 7955 12627 50  0000 C CNN
-F 2 "" H 7950 12800 50  0001 C CNN
-F 3 "" H 7950 12800 50  0001 C CNN
-	1    7950 12800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8050 12700 7950 12700
 Wire Wire Line
@@ -124,17 +100,6 @@ Wire Wire Line
 Wire Wire Line
 	14350 2350 14750 2350
 Connection ~ 14750 2350
-$Comp
-L power:GND #PWR06
-U 1 1 5BD00B38
-P 14750 3150
-F 0 "#PWR06" H 14750 2900 50  0001 C CNN
-F 1 "GND" H 14755 2977 50  0000 C CNN
-F 2 "" H 14750 3150 50  0001 C CNN
-F 3 "" H 14750 3150 50  0001 C CNN
-	1    14750 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14750 2650 14750 2750
 Connection ~ 14750 2650
@@ -151,8 +116,6 @@ Wire Wire Line
 Wire Wire Line
 	14350 2950 14750 2950
 Connection ~ 14750 2950
-Wire Wire Line
-	14750 2950 14750 3150
 Wire Wire Line
 	11250 2350 11950 2350
 Wire Wire Line
@@ -281,17 +244,6 @@ Wire Wire Line
 Wire Wire Line
 	14350 3900 14650 3900
 Connection ~ 14750 3900
-$Comp
-L power:GND #PWR07
-U 1 1 5BD1F893
-P 14750 4700
-F 0 "#PWR07" H 14750 4450 50  0001 C CNN
-F 1 "GND" H 14755 4527 50  0000 C CNN
-F 2 "" H 14750 4700 50  0001 C CNN
-F 3 "" H 14750 4700 50  0001 C CNN
-	1    14750 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14750 4200 14750 4300
 Wire Wire Line
@@ -307,8 +259,6 @@ Wire Wire Line
 Wire Wire Line
 	14350 4500 14750 4500
 Connection ~ 14750 4500
-Wire Wire Line
-	14750 4500 14750 4700
 Wire Wire Line
 	11250 3900 11950 3900
 Wire Wire Line
@@ -437,25 +387,12 @@ Wire Wire Line
 Wire Wire Line
 	14350 5350 14650 5350
 Connection ~ 14750 5350
-$Comp
-L power:GND #PWR08
-U 1 1 5BD24C2A
-P 14750 6150
-F 0 "#PWR08" H 14750 5900 50  0001 C CNN
-F 1 "GND" H 14755 5977 50  0000 C CNN
-F 2 "" H 14750 6150 50  0001 C CNN
-F 3 "" H 14750 6150 50  0001 C CNN
-	1    14750 6150
-	1    0    0    -1  
-$EndComp
 Connection ~ 14750 5650
 Wire Wire Line
 	14350 5750 14650 5750
 Wire Wire Line
 	14350 5950 14750 5950
 Connection ~ 14750 5950
-Wire Wire Line
-	14750 5950 14750 6150
 Wire Wire Line
 	11250 5350 11950 5350
 Wire Wire Line
@@ -574,8 +511,6 @@ Wire Wire Line
 	16150 4900 16050 4900
 Text Label 15650 4400 0    50   ~ 0
 VREG
-Wire Wire Line
-	15650 5200 15650 5250
 $Comp
 L formula:R_100 R82
 U 1 1 5BD83964
@@ -602,8 +537,6 @@ Wire Wire Line
 Connection ~ 16550 4900
 Text Label 16650 4900 0    50   ~ 0
 TEMP_SENSE
-Wire Notes Line
-	17250 1600 11150 1600
 Wire Wire Line
 	14650 3900 14650 4200
 Connection ~ 14650 3900
@@ -647,19 +580,6 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A10
 	1    9200 6800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 5BF3ED4F
-P 9200 7000
-F 0 "#PWR03" H 9200 6750 50  0001 C CNN
-F 1 "GND" H 9205 6827 50  0000 C CNN
-F 2 "" H 9200 7000 50  0001 C CNN
-F 3 "" H 9200 7000 50  0001 C CNN
-	1    9200 7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 6950 9200 7000
 Connection ~ 9200 6950
 Wire Wire Line
 	8350 6950 8400 6950
@@ -794,17 +714,6 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 9530 5
 	1    9050 5450
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5C1D54DA
-P 9300 5450
-F 0 "#PWR02" H 9300 5200 50  0001 C CNN
-F 1 "GND" H 9305 5277 50  0000 C CNN
-F 2 "" H 9300 5450 50  0001 C CNN
-F 3 "" H 9300 5450 50  0001 C CNN
-	1    9300 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9300 5450 9200 5450
 $Comp
@@ -835,8 +744,6 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 10175 6400 60
 	1    9750 5900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9750 6050 9750 6100
 Text Label 9800 6850 0    50   ~ 0
 VREG
 Text Label 10300 7150 0    50   ~ 0
@@ -853,20 +760,6 @@ F 4 "DK" H 7400 4850 60  0001 C CNN "MFN"
 F 5 "RNCP0805FTD100RCT-ND" H 7400 4850 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7880 5250 60  0001 C CNN "PurchasingLink"
 	1    7400 4850
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:C_0.1uF C11
-U 1 1 5C4514F6
-P 7050 4850
-F 0 "C11" V 6900 4750 50  0000 L CNN
-F 1 "C_0.1uF" V 6800 4700 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 7088 4700 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7075 4950 50  0001 C CNN
-F 4 "DK" H 7050 4850 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 7050 4850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 7475 5350 60  0001 C CNN "PurchasingLink"
-	1    7050 4850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -891,8 +784,6 @@ Wire Wire Line
 Wire Wire Line
 	13500 7450 13250 7450
 Wire Wire Line
-	13250 7750 13250 7850
-Wire Wire Line
 	12550 8400 12550 8500
 Wire Wire Line
 	12550 8500 12150 8500
@@ -903,8 +794,6 @@ Wire Wire Line
 	12550 8500 12550 8550
 Wire Wire Line
 	13250 8550 13250 8650
-Wire Wire Line
-	12150 8850 12150 8950
 Wire Wire Line
 	13000 7800 13000 7900
 Wire Wire Line
@@ -939,8 +828,6 @@ Wire Wire Line
 	8450 5750 8350 5750
 Wire Wire Line
 	8450 5850 8350 5850
-Wire Wire Line
-	12150 7850 12150 7950
 Wire Wire Line
 	11950 7600 11700 7600
 Wire Wire Line
@@ -984,12 +871,12 @@ Wire Notes Line
 	17250 7050 17250 9150
 Wire Notes Line
 	17250 9150 11150 9150
-Text Notes 11200 9100 0    50   ~ 0
-isoSPI Transformer
+Text Notes 11200 7150 0    50   ~ 0
+isoSPI Transformer for chip 1
 Wire Wire Line
 	7200 4850 7200 5150
 Text Label 7650 4700 0    50   ~ 0
-V+
+V+1
 Wire Wire Line
 	7650 4850 7550 4850
 Wire Wire Line
@@ -998,7 +885,7 @@ Wire Wire Line
 	9750 5650 9750 5750
 Connection ~ 9750 5750
 Text Label 9750 5250 0    50   ~ 0
-V+
+V+1
 Wire Wire Line
 	9750 5250 9750 5350
 Text Label 8450 7450 0    50   ~ 0
@@ -1043,51 +930,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 850  3350 950 
-Wire Wire Line
-	3150 1300 3150 1250
-Wire Wire Line
-	3350 850  3600 850 
-Connection ~ 3350 850 
-NoConn ~ 2950 1250
-Wire Wire Line
-	2700 1550 2700 1600
-$Comp
-L formula:LED_0805 D2
-U 1 1 5E172B57
-P 2400 1100
-F 0 "D2" V 2400 1200 50  0000 C CNN
-F 1 "LED_0805" V 2300 1350 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2300 1100 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2400 1200 50  0001 C CNN
-F 4 "DK" H 2400 1100 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2400 1100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2800 1600 60  0001 C CNN "PurchasingLink"
-	1    2400 1100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R2
-U 1 1 5E172B63
-P 2400 1450
-F 0 "R2" V 2480 1450 50  0000 C CNN
-F 1 "R_475" V 2300 1450 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2330 1450 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2480 1450 50  0001 C CNN
-F 4 "DK" H 2400 1450 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2400 1450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2880 1850 60  0001 C CNN "PurchasingLink"
-	1    2400 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 1250 2400 1300
-Wire Wire Line
-	2400 1600 2700 1600
-Connection ~ 2700 1600
-Wire Wire Line
-	3150 1300 3250 1300
-Wire Wire Line
 	4150 850  4150 950 
 Connection ~ 4150 850 
 Wire Wire Line
@@ -1119,54 +961,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	1    3400 2150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3350 1700 3350 1800
-Wire Wire Line
-	3150 2150 3150 2100
-Wire Wire Line
-	3350 1700 3600 1700
-Connection ~ 3350 1700
-NoConn ~ 2950 2100
-Wire Wire Line
-	2700 2400 2700 2450
-$Comp
-L formula:LED_0805 D3
-U 1 1 5E1AADE6
-P 2400 1950
-F 0 "D3" V 2400 2050 50  0000 C CNN
-F 1 "LED_0805" V 2300 2200 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2300 1950 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2400 2050 50  0001 C CNN
-F 4 "DK" H 2400 1950 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2400 1950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2800 2450 60  0001 C CNN "PurchasingLink"
-	1    2400 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R3
-U 1 1 5E1AADF2
-P 2400 2300
-F 0 "R3" V 2480 2300 50  0000 C CNN
-F 1 "R_475" V 2300 2300 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2330 2300 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2480 2300 50  0001 C CNN
-F 4 "DK" H 2400 2300 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2400 2300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2880 2700 60  0001 C CNN "PurchasingLink"
-	1    2400 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 2100 2400 2150
-Connection ~ 2400 2150
-Wire Wire Line
-	2400 2150 2400 2200
-Wire Wire Line
-	2400 2450 2700 2450
-Connection ~ 2700 2450
-Wire Wire Line
-	3150 2150 3250 2150
 Wire Wire Line
 	4150 1700 4150 1800
 Connection ~ 4150 1700
@@ -1202,51 +996,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 2550 3350 2650
-Wire Wire Line
-	3150 3000 3150 2950
-Wire Wire Line
-	3350 2550 3600 2550
-Connection ~ 3350 2550
-NoConn ~ 2950 2950
-Wire Wire Line
-	2700 3250 2700 3300
-$Comp
-L formula:LED_0805 D4
-U 1 1 5E1E8BF2
-P 2400 2800
-F 0 "D4" V 2400 2900 50  0000 C CNN
-F 1 "LED_0805" V 2300 3050 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2300 2800 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2400 2900 50  0001 C CNN
-F 4 "DK" H 2400 2800 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2400 2800 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2800 3300 60  0001 C CNN "PurchasingLink"
-	1    2400 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R4
-U 1 1 5E1E8BFE
-P 2400 3150
-F 0 "R4" V 2480 3150 50  0000 C CNN
-F 1 "R_475" V 2300 3150 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2330 3150 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2480 3150 50  0001 C CNN
-F 4 "DK" H 2400 3150 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2400 3150 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2880 3550 60  0001 C CNN "PurchasingLink"
-	1    2400 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 2950 2400 3000
-Wire Wire Line
-	2400 3300 2700 3300
-Connection ~ 2700 3300
-Wire Wire Line
-	3150 3000 3250 3000
-Wire Wire Line
 	4150 2550 4150 2650
 Connection ~ 4150 2550
 Wire Wire Line
@@ -1280,51 +1029,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	1    3400 3850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3350 3400 3350 3500
-Wire Wire Line
-	3150 3850 3150 3800
-Wire Wire Line
-	3350 3400 3600 3400
-Connection ~ 3350 3400
-NoConn ~ 2950 3800
-Wire Wire Line
-	2700 4100 2700 4150
-$Comp
-L formula:LED_0805 D5
-U 1 1 5E22CAA1
-P 2400 3650
-F 0 "D5" V 2400 3750 50  0000 C CNN
-F 1 "LED_0805" V 2300 3900 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2300 3650 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2400 3750 50  0001 C CNN
-F 4 "DK" H 2400 3650 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2400 3650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2800 4150 60  0001 C CNN "PurchasingLink"
-	1    2400 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R5
-U 1 1 5E22CAAD
-P 2400 4000
-F 0 "R5" V 2480 4000 50  0000 C CNN
-F 1 "R_475" V 2300 4000 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2330 4000 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2480 4000 50  0001 C CNN
-F 4 "DK" H 2400 4000 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2400 4000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2880 4400 60  0001 C CNN "PurchasingLink"
-	1    2400 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 3800 2400 3850
-Wire Wire Line
-	2400 4150 2700 4150
-Connection ~ 2700 4150
-Wire Wire Line
-	3150 3850 3250 3850
 Wire Wire Line
 	4150 3400 4150 3500
 Connection ~ 4150 3400
@@ -1360,51 +1064,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 4250 3350 4350
-Wire Wire Line
-	3150 4700 3150 4650
-Wire Wire Line
-	3350 4250 3600 4250
-Connection ~ 3350 4250
-NoConn ~ 2950 4650
-Wire Wire Line
-	2700 4950 2700 5000
-$Comp
-L formula:LED_0805 D7
-U 1 1 5E2C73EA
-P 2400 4500
-F 0 "D7" V 2400 4600 50  0000 C CNN
-F 1 "LED_0805" V 2300 4750 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2300 4500 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2400 4600 50  0001 C CNN
-F 4 "DK" H 2400 4500 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2400 4500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2800 5000 60  0001 C CNN "PurchasingLink"
-	1    2400 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R7
-U 1 1 5E2C73F6
-P 2400 4850
-F 0 "R7" V 2480 4850 50  0000 C CNN
-F 1 "R_475" V 2300 4850 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2330 4850 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2480 4850 50  0001 C CNN
-F 4 "DK" H 2400 4850 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2400 4850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2880 5250 60  0001 C CNN "PurchasingLink"
-	1    2400 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 4650 2400 4700
-Wire Wire Line
-	2400 5000 2700 5000
-Connection ~ 2700 5000
-Wire Wire Line
-	3150 4700 3250 4700
-Wire Wire Line
 	4150 4250 4150 4350
 Connection ~ 4150 4250
 Wire Wire Line
@@ -1436,51 +1095,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	1    3400 5550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3350 5100 3350 5200
-Wire Wire Line
-	3150 5550 3150 5500
-Wire Wire Line
-	3350 5100 3600 5100
-Connection ~ 3350 5100
-NoConn ~ 2950 5500
-Wire Wire Line
-	2700 5800 2700 5850
-$Comp
-L formula:LED_0805 D8
-U 1 1 5E31E352
-P 2400 5350
-F 0 "D8" V 2400 5450 50  0000 C CNN
-F 1 "LED_0805" V 2300 5600 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2300 5350 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2400 5450 50  0001 C CNN
-F 4 "DK" H 2400 5350 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2400 5350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2800 5850 60  0001 C CNN "PurchasingLink"
-	1    2400 5350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R8
-U 1 1 5E31E35E
-P 2400 5700
-F 0 "R8" V 2480 5700 50  0000 C CNN
-F 1 "R_475" V 2300 5700 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2330 5700 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2480 5700 50  0001 C CNN
-F 4 "DK" H 2400 5700 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2400 5700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2880 6100 60  0001 C CNN "PurchasingLink"
-	1    2400 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 5500 2400 5550
-Wire Wire Line
-	2400 5850 2700 5850
-Connection ~ 2700 5850
-Wire Wire Line
-	3150 5550 3250 5550
 Wire Wire Line
 	4150 5100 4150 5200
 Connection ~ 4150 5100
@@ -1516,51 +1130,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 5950 3350 6050
-Wire Wire Line
-	3150 6400 3150 6350
-Wire Wire Line
-	3350 5950 3600 5950
-Connection ~ 3350 5950
-NoConn ~ 2950 6350
-Wire Wire Line
-	2700 6650 2700 6700
-$Comp
-L formula:LED_0805 D9
-U 1 1 5E37BE2D
-P 2400 6200
-F 0 "D9" V 2400 6300 50  0000 C CNN
-F 1 "LED_0805" V 2300 6450 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2300 6200 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2400 6300 50  0001 C CNN
-F 4 "DK" H 2400 6200 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2400 6200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2800 6700 60  0001 C CNN "PurchasingLink"
-	1    2400 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R9
-U 1 1 5E37BE39
-P 2400 6550
-F 0 "R9" V 2480 6550 50  0000 C CNN
-F 1 "R_475" V 2300 6550 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2330 6550 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2480 6550 50  0001 C CNN
-F 4 "DK" H 2400 6550 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2400 6550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2880 6950 60  0001 C CNN "PurchasingLink"
-	1    2400 6550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 6350 2400 6400
-Wire Wire Line
-	2400 6700 2700 6700
-Connection ~ 2700 6700
-Wire Wire Line
-	3150 6400 3250 6400
-Wire Wire Line
 	4150 5950 4150 6050
 Connection ~ 4150 5950
 Wire Wire Line
@@ -1595,51 +1164,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 6800 3350 6900
-Wire Wire Line
-	3150 7250 3150 7200
-Wire Wire Line
-	3350 6800 3600 6800
-Connection ~ 3350 6800
-NoConn ~ 2950 7200
-Wire Wire Line
-	2700 7500 2700 7550
-$Comp
-L formula:LED_0805 D10
-U 1 1 5E44C2F7
-P 2400 7050
-F 0 "D10" V 2400 7150 50  0000 C CNN
-F 1 "LED_0805" V 2300 7300 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2300 7050 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2400 7150 50  0001 C CNN
-F 4 "DK" H 2400 7050 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2400 7050 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2800 7550 60  0001 C CNN "PurchasingLink"
-	1    2400 7050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R10
-U 1 1 5E44C303
-P 2400 7400
-F 0 "R10" V 2480 7400 50  0000 C CNN
-F 1 "R_475" V 2300 7400 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2330 7400 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2480 7400 50  0001 C CNN
-F 4 "DK" H 2400 7400 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2400 7400 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2880 7800 60  0001 C CNN "PurchasingLink"
-	1    2400 7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 7200 2400 7250
-Wire Wire Line
-	2400 7550 2700 7550
-Connection ~ 2700 7550
-Wire Wire Line
-	3150 7250 3250 7250
-Wire Wire Line
 	4150 6800 4150 6900
 Connection ~ 4150 6800
 Wire Wire Line
@@ -1648,11 +1172,6 @@ Wire Wire Line
 	4150 7400 4050 7400
 Wire Wire Line
 	3900 6800 4050 6800
-Wire Wire Line
-	2700 1600 2700 1700
-Connection ~ 2700 1700
-Wire Wire Line
-	2700 1700 3350 1700
 Wire Wire Line
 	4050 1450 4050 1700
 Connection ~ 4050 1700
@@ -1664,27 +1183,10 @@ Connection ~ 4050 2550
 Wire Wire Line
 	4050 2550 4150 2550
 Wire Wire Line
-	2700 2450 2700 2550
-Connection ~ 2700 2550
-Wire Wire Line
-	2700 2550 3350 2550
-Wire Wire Line
-	2700 3300 2700 3400
-Connection ~ 2700 3400
-Wire Wire Line
-	2700 3400 3350 3400
-Wire Wire Line
 	4050 3150 4050 3400
 Connection ~ 4050 3400
 Wire Wire Line
 	4050 3400 4150 3400
-Wire Wire Line
-	2700 4150 2700 4250
-Wire Wire Line
-	2700 5000 2700 5100
-Connection ~ 2700 5100
-Wire Wire Line
-	2700 5100 3350 5100
 Wire Wire Line
 	4050 4850 4050 5100
 Connection ~ 4050 5100
@@ -1696,22 +1198,10 @@ Connection ~ 4050 5950
 Wire Wire Line
 	4050 5950 4150 5950
 Wire Wire Line
-	2700 5850 2700 5950
-Connection ~ 2700 5950
-Wire Wire Line
-	2700 5950 3350 5950
-Wire Wire Line
 	4050 6550 4050 6800
 Connection ~ 4050 6800
 Wire Wire Line
 	4050 6800 4150 6800
-Wire Wire Line
-	2700 6700 2700 6800
-Connection ~ 2700 6800
-Wire Wire Line
-	2700 6800 3350 6800
-Wire Wire Line
-	2700 7550 2700 7650
 $Comp
 L formula:R_100 R41
 U 1 1 5EDF0A73
@@ -1730,9 +1220,6 @@ Wire Wire Line
 	4050 7650 3900 7650
 Wire Wire Line
 	4050 7400 4050 7650
-Wire Wire Line
-	3600 7650 2700 7650
-Connection ~ 2700 7650
 Connection ~ 4050 7650
 Wire Wire Line
 	3550 5550 5000 5550
@@ -2095,105 +1582,6 @@ Wire Wire Line
 Connection ~ 15200 4800
 Wire Wire Line
 	15200 4800 15200 4600
-$Comp
-L power:GND #PWR09
-U 1 1 5C040302
-P 6850 4850
-F 0 "#PWR09" H 6850 4600 50  0001 C CNN
-F 1 "GND" H 6855 4677 50  0000 C CNN
-F 2 "" H 6850 4850 50  0001 C CNN
-F 3 "" H 6850 4850 50  0001 C CNN
-	1    6850 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 5C040484
-P 9750 6100
-F 0 "#PWR010" H 9750 5850 50  0001 C CNN
-F 1 "GND" H 9755 5927 50  0000 C CNN
-F 2 "" H 9750 6100 50  0001 C CNN
-F 3 "" H 9750 6100 50  0001 C CNN
-	1    9750 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 5C0414FD
-P 9800 7500
-F 0 "#PWR011" H 9800 7250 50  0001 C CNN
-F 1 "GND" H 9805 7327 50  0000 C CNN
-F 2 "" H 9800 7500 50  0001 C CNN
-F 3 "" H 9800 7500 50  0001 C CNN
-	1    9800 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR016
-U 1 1 5C041DD9
-P 15650 5250
-F 0 "#PWR016" H 15650 5000 50  0001 C CNN
-F 1 "GND" H 15655 5077 50  0000 C CNN
-F 2 "" H 15650 5250 50  0001 C CNN
-F 3 "" H 15650 5250 50  0001 C CNN
-	1    15650 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 5C041FD0
-P 16550 5350
-F 0 "#PWR017" H 16550 5100 50  0001 C CNN
-F 1 "GND" H 16555 5177 50  0000 C CNN
-F 2 "" H 16550 5350 50  0001 C CNN
-F 3 "" H 16550 5350 50  0001 C CNN
-	1    16550 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR013
-U 1 1 5C0428BA
-P 12150 8950
-F 0 "#PWR013" H 12150 8700 50  0001 C CNN
-F 1 "GND" H 12155 8777 50  0000 C CNN
-F 2 "" H 12150 8950 50  0001 C CNN
-F 3 "" H 12150 8950 50  0001 C CNN
-	1    12150 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR015
-U 1 1 5C042AB1
-P 13250 8650
-F 0 "#PWR015" H 13250 8400 50  0001 C CNN
-F 1 "GND" H 13255 8477 50  0000 C CNN
-F 2 "" H 13250 8650 50  0001 C CNN
-F 3 "" H 13250 8650 50  0001 C CNN
-	1    13250 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 5C042CA8
-P 13250 7850
-F 0 "#PWR014" H 13250 7600 50  0001 C CNN
-F 1 "GND" H 13255 7677 50  0000 C CNN
-F 2 "" H 13250 7850 50  0001 C CNN
-F 3 "" H 13250 7850 50  0001 C CNN
-	1    13250 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 5C042E9F
-P 12150 7950
-F 0 "#PWR012" H 12150 7700 50  0001 C CNN
-F 1 "GND" H 12155 7777 50  0000 C CNN
-F 2 "" H 12150 7950 50  0001 C CNN
-F 3 "" H 12150 7950 50  0001 C CNN
-	1    12150 7950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15000 7550 15000 7400
 Wire Wire Line
@@ -2205,45 +1593,25 @@ Wire Wire Line
 Wire Wire Line
 	8900 6150 8350 6150
 Wire Notes Line
-	11150 6450 17250 6450
-Wire Notes Line
 	17250 1600 17250 6450
-Text Label 1850 850  2    50   ~ 0
-C16+
-Text Label 1850 1700 2    50   ~ 0
-C15-
-Text Label 1850 2550 2    50   ~ 0
-C14+
-Text Label 1850 3400 2    50   ~ 0
-C13-
-Text Label 1850 4250 2    50   ~ 0
-C12+
-Text Label 1850 5100 2    50   ~ 0
-C11-
-Text Label 1850 5950 2    50   ~ 0
-C10+
-Text Label 1850 6800 2    50   ~ 0
-C9-
-Text Label 1850 7650 2    50   ~ 0
-C8+
-Text Notes 8900 3850 2    50   ~ 0
-Traces from Structural PCB under Peripheral PCB
-Text Notes 10750 3850 2    50   ~ 0
-Ribbon cable from far side Structural PCB
-Wire Wire Line
-	1850 1700 2700 1700
-Wire Wire Line
-	1850 2550 2700 2550
-Wire Wire Line
-	1850 3400 2700 3400
-Wire Wire Line
-	1850 5100 2700 5100
-Wire Wire Line
-	1850 5950 2700 5950
-Wire Wire Line
-	1850 6800 2700 6800
-Wire Wire Line
-	1850 7650 2700 7650
+Text Label 3250 850  2    50   ~ 0
+C16
+Text Label 3250 1700 2    50   ~ 0
+C15
+Text Label 3250 2550 2    50   ~ 0
+C14
+Text Label 3250 3400 2    50   ~ 0
+C13
+Text Label 3250 4250 2    50   ~ 0
+C12
+Text Label 3250 5100 2    50   ~ 0
+C11
+Text Label 3250 5950 2    50   ~ 0
+C10
+Text Label 3250 6800 2    50   ~ 0
+C9
+Text Label 3250 7650 2    50   ~ 0
+C8
 $Comp
 L formula:T_LAN_7490100111A T1
 U 1 1 5C3D2A9C
@@ -2258,125 +1626,13 @@ F 6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A
 	1    15000 8350
 	-1   0    0    -1  
 $EndComp
-$Comp
-L formula:BSS308PE Q2
-U 1 1 5C318A70
-P 3150 1050
-F 0 "Q2" V 3493 1050 50  0000 C CNN
-F 1 "BSS308PE" V 3402 1050 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3350 1150 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3350 1100 50  0001 C CNN
-F 4 "DK" H 3150 1050 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3150 1050 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3750 1500 60  0001 C CNN "PurchasingLink"
-	1    3150 1050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q3
-U 1 1 5C318B9C
-P 3150 1900
-F 0 "Q3" V 3493 1900 50  0000 C CNN
-F 1 "BSS308PE" V 3402 1900 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3350 2000 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3350 1950 50  0001 C CNN
-F 4 "DK" H 3150 1900 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3150 1900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3750 2350 60  0001 C CNN "PurchasingLink"
-	1    3150 1900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q4
-U 1 1 5C318CCE
-P 3150 2750
-F 0 "Q4" V 3493 2750 50  0000 C CNN
-F 1 "BSS308PE" V 3402 2750 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3350 2850 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3350 2800 50  0001 C CNN
-F 4 "DK" H 3150 2750 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3150 2750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3750 3200 60  0001 C CNN "PurchasingLink"
-	1    3150 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q5
-U 1 1 5C319756
-P 3150 3600
-F 0 "Q5" V 3493 3600 50  0000 C CNN
-F 1 "BSS308PE" V 3402 3600 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3350 3700 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3350 3650 50  0001 C CNN
-F 4 "DK" H 3150 3600 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3150 3600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3750 4050 60  0001 C CNN "PurchasingLink"
-	1    3150 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q7
-U 1 1 5C3199A4
-P 3150 4450
-F 0 "Q7" V 3493 4450 50  0000 C CNN
-F 1 "BSS308PE" V 3402 4450 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3350 4550 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3350 4500 50  0001 C CNN
-F 4 "DK" H 3150 4450 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3150 4450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3750 4900 60  0001 C CNN "PurchasingLink"
-	1    3150 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q8
-U 1 1 5C319AD2
-P 3150 5300
-F 0 "Q8" V 3493 5300 50  0000 C CNN
-F 1 "BSS308PE" V 3402 5300 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3350 5400 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3350 5350 50  0001 C CNN
-F 4 "DK" H 3150 5300 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3150 5300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3750 5750 60  0001 C CNN "PurchasingLink"
-	1    3150 5300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q9
-U 1 1 5C319E9C
-P 3150 6150
-F 0 "Q9" V 3493 6150 50  0000 C CNN
-F 1 "BSS308PE" V 3402 6150 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3350 6250 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3350 6200 50  0001 C CNN
-F 4 "DK" H 3150 6150 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3150 6150 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3750 6600 60  0001 C CNN "PurchasingLink"
-	1    3150 6150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q10
-U 1 1 5C31A15B
-P 3150 7000
-F 0 "Q10" V 3493 7000 50  0000 C CNN
-F 1 "BSS308PE" V 3402 7000 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3350 7100 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3350 7050 50  0001 C CNN
-F 4 "DK" H 3150 7000 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3150 7000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3750 7450 60  0001 C CNN "PurchasingLink"
-	1    3150 7000
-	0    -1   -1   0   
-$EndComp
 Text Label 8300 3500 0    50   ~ 0
-V-
+V-2
 Text Label 8700 3500 0    50   ~ 0
-GND
+GND2
 Wire Wire Line
 	8300 3500 8700 3500
-Text Notes 8200 3600 0    50   ~ 0
+Text Notes 8100 3650 0    50   ~ 0
 Connect V- to gnd net
 Wire Wire Line
 	9300 5950 9300 5900
@@ -2742,158 +1998,6 @@ F 6 "https://www.digikey.com/product-detail/en/on-semiconductor/NSS1C201MZ4T3G/N
 	1    9100 6150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2400 950  2700 950 
-Wire Wire Line
-	2400 1800 2700 1800
-Wire Wire Line
-	2400 2650 2700 2650
-Wire Wire Line
-	2400 3500 2700 3500
-Wire Wire Line
-	2400 4350 2700 4350
-Wire Wire Line
-	2400 5200 2700 5200
-Wire Wire Line
-	2400 6050 2700 6050
-Wire Wire Line
-	2400 6900 2700 6900
-$Comp
-L formula:R_3.3_25W_TO163 R12
-U 1 1 5CB58D0D
-P 2700 1250
-F 0 "R12" V 2609 1172 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2700 1172 50  0000 R CNN
-F 2 "footprints:PWR163" H 2450 1300 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2700 1250 50  0001 C CNN
-F 4 "DK" H 2650 1500 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2750 1600 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2791 1172 50  0001 R CNN "PurchasingLink"
-	1    2700 1250
-	0    1    1    0   
-$EndComp
-Connection ~ 2700 950 
-Wire Wire Line
-	2700 950  2950 950 
-$Comp
-L formula:R_3.3_25W_TO163 R13
-U 1 1 5CB58E43
-P 2700 2100
-F 0 "R13" V 2609 2022 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2700 2022 50  0000 R CNN
-F 2 "footprints:PWR163" H 2450 2150 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2700 2100 50  0001 C CNN
-F 4 "DK" H 2650 2350 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2750 2450 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2791 2022 50  0001 R CNN "PurchasingLink"
-	1    2700 2100
-	0    1    1    0   
-$EndComp
-Connection ~ 2700 1800
-Wire Wire Line
-	2700 1800 2950 1800
-$Comp
-L formula:R_3.3_25W_TO163 R14
-U 1 1 5CB58F7B
-P 2700 2950
-F 0 "R14" V 2609 2872 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2700 2872 50  0000 R CNN
-F 2 "footprints:PWR163" H 2450 3000 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2700 2950 50  0001 C CNN
-F 4 "DK" H 2650 3200 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2750 3300 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2791 2872 50  0001 R CNN "PurchasingLink"
-	1    2700 2950
-	0    1    1    0   
-$EndComp
-Connection ~ 2700 2650
-Wire Wire Line
-	2700 2650 2950 2650
-$Comp
-L formula:R_3.3_25W_TO163 R15
-U 1 1 5CB590B5
-P 2700 3800
-F 0 "R15" V 2609 3722 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2700 3722 50  0000 R CNN
-F 2 "footprints:PWR163" H 2450 3850 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2700 3800 50  0001 C CNN
-F 4 "DK" H 2650 4050 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2750 4150 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2791 3722 50  0001 R CNN "PurchasingLink"
-	1    2700 3800
-	0    1    1    0   
-$EndComp
-Connection ~ 2700 3500
-Wire Wire Line
-	2700 3500 2950 3500
-$Comp
-L formula:R_3.3_25W_TO163 R17
-U 1 1 5CB596BC
-P 2700 4650
-F 0 "R17" V 2609 4572 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2700 4572 50  0000 R CNN
-F 2 "footprints:PWR163" H 2450 4700 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2700 4650 50  0001 C CNN
-F 4 "DK" H 2650 4900 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2750 5000 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2791 4572 50  0001 R CNN "PurchasingLink"
-	1    2700 4650
-	0    1    1    0   
-$EndComp
-Connection ~ 2700 4350
-Wire Wire Line
-	2700 4350 2950 4350
-$Comp
-L formula:R_3.3_25W_TO163 R18
-U 1 1 5CB5986F
-P 2700 5500
-F 0 "R18" V 2609 5422 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2700 5422 50  0000 R CNN
-F 2 "footprints:PWR163" H 2450 5550 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2700 5500 50  0001 C CNN
-F 4 "DK" H 2650 5750 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2750 5850 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2791 5422 50  0001 R CNN "PurchasingLink"
-	1    2700 5500
-	0    1    1    0   
-$EndComp
-Connection ~ 2700 5200
-Wire Wire Line
-	2700 5200 2950 5200
-$Comp
-L formula:R_3.3_25W_TO163 R19
-U 1 1 5CB599B7
-P 2700 6350
-F 0 "R19" V 2609 6272 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2700 6272 50  0000 R CNN
-F 2 "footprints:PWR163" H 2450 6400 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2700 6350 50  0001 C CNN
-F 4 "DK" H 2650 6600 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2750 6700 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2791 6272 50  0001 R CNN "PurchasingLink"
-	1    2700 6350
-	0    1    1    0   
-$EndComp
-Connection ~ 2700 6050
-Wire Wire Line
-	2700 6050 2950 6050
-$Comp
-L formula:R_3.3_25W_TO163 R20
-U 1 1 5CB59CC6
-P 2700 7200
-F 0 "R20" V 2609 7122 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2700 7122 50  0000 R CNN
-F 2 "footprints:PWR163" H 2450 7250 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2700 7200 50  0001 C CNN
-F 4 "DK" H 2650 7450 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2750 7550 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2791 7122 50  0001 R CNN "PurchasingLink"
-	1    2700 7200
-	0    1    1    0   
-$EndComp
-Connection ~ 2700 6900
-Wire Wire Line
-	2700 6900 2950 6900
 $Comp
 L formula:24AA01 U2
 U 1 1 5CB5A7AB
@@ -2972,7 +2076,6 @@ Wire Wire Line
 	8850 5450 8900 5450
 Wire Wire Line
 	7250 4850 7200 4850
-Connection ~ 7200 4850
 Wire Wire Line
 	7650 4850 7650 4700
 NoConn ~ 7450 6750
@@ -2990,12 +2093,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 6850 7050 6850
 Wire Wire Line
-	1850 4250 2700 4250
-Wire Wire Line
 	3900 4250 4050 4250
-Connection ~ 2700 4250
-Wire Wire Line
-	2700 4250 3350 4250
 Wire Wire Line
 	4050 4000 4050 4250
 Connection ~ 4050 4250
@@ -3015,8 +2113,6 @@ Wire Wire Line
 	6950 5250 7450 5250
 Wire Wire Line
 	3900 850  4150 850 
-Wire Wire Line
-	1850 850  3350 850 
 Wire Wire Line
 	4050 7650 8700 7650
 Wire Wire Line
@@ -3127,19 +2223,6 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A10
 	1    9200 10000
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR018
-U 1 1 5DE3B371
-P 9200 10200
-F 0 "#PWR018" H 9200 9950 50  0001 C CNN
-F 1 "GND" H 9205 10027 50  0000 C CNN
-F 2 "" H 9200 10200 50  0001 C CNN
-F 3 "" H 9200 10200 50  0001 C CNN
-	1    9200 10200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 10150 9200 10200
 Connection ~ 9200 10150
 Wire Wire Line
 	8350 10150 8400 10150
@@ -3182,16 +2265,12 @@ Wire Wire Line
 Wire Wire Line
 	8550 9550 8550 10150
 Connection ~ 8550 10150
-Text Label 8700 9450 0    50   ~ 0
-VREG
 Wire Wire Line
 	8400 9850 8350 9850
 Wire Wire Line
 	8400 9950 8350 9950
 NoConn ~ 8350 10250
 NoConn ~ 8350 10350
-Text Label 8350 10450 0    50   ~ 0
-TEMP_SENSE
 Wire Wire Line
 	8350 9150 8650 9150
 Wire Wire Line
@@ -3230,17 +2309,6 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 9530 9
 	1    9050 8650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR019
-U 1 1 5DE3B3C8
-P 9300 8650
-F 0 "#PWR019" H 9300 8400 50  0001 C CNN
-F 1 "GND" H 9305 8477 50  0000 C CNN
-F 2 "" H 9300 8650 50  0001 C CNN
-F 3 "" H 9300 8650 50  0001 C CNN
-	1    9300 8650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9300 8650 9200 8650
 $Comp
@@ -3271,8 +2339,6 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 10175 9600 60
 	1    9750 9100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9750 9250 9750 9300
 $Comp
 L formula:R_100 R102
 U 1 1 5DE3B3E7
@@ -3324,7 +2390,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 8050 7200 8350
 Text Label 7650 7900 0    50   ~ 0
-V+
+V+2
 Wire Wire Line
 	7650 8050 7550 8050
 Wire Wire Line
@@ -3333,7 +2399,7 @@ Wire Wire Line
 	9750 8850 9750 8950
 Connection ~ 9750 8950
 Text Label 9750 8450 0    50   ~ 0
-V+
+V+2
 Wire Wire Line
 	9750 8450 9750 8550
 Text Label 8450 10650 0    50   ~ 0
@@ -3362,30 +2428,6 @@ Wire Wire Line
 	8700 10550 8350 10550
 Wire Wire Line
 	7450 8850 7050 8850
-$Comp
-L power:GND #PWR05
-U 1 1 5DE3B415
-P 6850 8050
-F 0 "#PWR05" H 6850 7800 50  0001 C CNN
-F 1 "GND" H 6855 7877 50  0000 C CNN
-F 2 "" H 6850 8050 50  0001 C CNN
-F 3 "" H 6850 8050 50  0001 C CNN
-	1    6850 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR020
-U 1 1 5DE3B41B
-P 9750 9300
-F 0 "#PWR020" H 9750 9050 50  0001 C CNN
-F 1 "GND" H 9755 9127 50  0000 C CNN
-F 2 "" H 9750 9300 50  0001 C CNN
-F 3 "" H 9750 9300 50  0001 C CNN
-	1    9750 9300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 9350 8350 9350
 Wire Wire Line
 	9300 9150 9300 9100
 Wire Wire Line
@@ -3498,51 +2540,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3400 8850 3400 8950
-Wire Wire Line
-	3200 9300 3200 9250
-Wire Wire Line
-	3400 8850 3650 8850
-Connection ~ 3400 8850
-NoConn ~ 3000 9250
-Wire Wire Line
-	2750 9550 2750 9600
-$Comp
-L formula:LED_0805 D1
-U 1 1 5DF2148E
-P 2450 9100
-F 0 "D1" V 2450 9200 50  0000 C CNN
-F 1 "LED_0805" V 2350 9350 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2350 9100 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2450 9200 50  0001 C CNN
-F 4 "DK" H 2450 9100 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2450 9100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2850 9600 60  0001 C CNN "PurchasingLink"
-	1    2450 9100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R1
-U 1 1 5DF21497
-P 2450 9450
-F 0 "R1" V 2530 9450 50  0000 C CNN
-F 1 "R_475" V 2350 9450 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2380 9450 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2530 9450 50  0001 C CNN
-F 4 "DK" H 2450 9450 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2450 9450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2930 9850 60  0001 C CNN "PurchasingLink"
-	1    2450 9450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 9250 2450 9300
-Wire Wire Line
-	2450 9600 2750 9600
-Connection ~ 2750 9600
-Wire Wire Line
-	3200 9300 3300 9300
-Wire Wire Line
 	4200 8850 4200 8950
 Connection ~ 4200 8850
 Wire Wire Line
@@ -3574,54 +2571,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	1    3450 10150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3400 9700 3400 9800
-Wire Wire Line
-	3200 10150 3200 10100
-Wire Wire Line
-	3400 9700 3650 9700
-Connection ~ 3400 9700
-NoConn ~ 3000 10100
-Wire Wire Line
-	2750 10400 2750 10450
-$Comp
-L formula:LED_0805 D6
-U 1 1 5DF214BD
-P 2450 9950
-F 0 "D6" V 2450 10050 50  0000 C CNN
-F 1 "LED_0805" V 2350 10200 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2350 9950 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2450 10050 50  0001 C CNN
-F 4 "DK" H 2450 9950 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2450 9950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2850 10450 60  0001 C CNN "PurchasingLink"
-	1    2450 9950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R6
-U 1 1 5DF214C6
-P 2450 10300
-F 0 "R6" V 2530 10300 50  0000 C CNN
-F 1 "R_475" V 2350 10300 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2380 10300 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2530 10300 50  0001 C CNN
-F 4 "DK" H 2450 10300 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2450 10300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2930 10700 60  0001 C CNN "PurchasingLink"
-	1    2450 10300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 10100 2450 10150
-Connection ~ 2450 10150
-Wire Wire Line
-	2450 10150 2450 10200
-Wire Wire Line
-	2450 10450 2750 10450
-Connection ~ 2750 10450
-Wire Wire Line
-	3200 10150 3300 10150
 Wire Wire Line
 	4200 9700 4200 9800
 Connection ~ 4200 9700
@@ -3657,51 +2606,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3400 10550 3400 10650
-Wire Wire Line
-	3200 11000 3200 10950
-Wire Wire Line
-	3400 10550 3650 10550
-Connection ~ 3400 10550
-NoConn ~ 3000 10950
-Wire Wire Line
-	2750 11250 2750 11300
-$Comp
-L formula:LED_0805 D11
-U 1 1 5DF214EF
-P 2450 10800
-F 0 "D11" V 2450 10900 50  0000 C CNN
-F 1 "LED_0805" V 2350 11050 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2350 10800 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2450 10900 50  0001 C CNN
-F 4 "DK" H 2450 10800 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2450 10800 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2850 11300 60  0001 C CNN "PurchasingLink"
-	1    2450 10800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R11
-U 1 1 5DF214F8
-P 2450 11150
-F 0 "R11" V 2530 11150 50  0000 C CNN
-F 1 "R_475" V 2350 11150 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2380 11150 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2530 11150 50  0001 C CNN
-F 4 "DK" H 2450 11150 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2450 11150 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2930 11550 60  0001 C CNN "PurchasingLink"
-	1    2450 11150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 10950 2450 11000
-Wire Wire Line
-	2450 11300 2750 11300
-Connection ~ 2750 11300
-Wire Wire Line
-	3200 11000 3300 11000
-Wire Wire Line
 	4200 10550 4200 10650
 Connection ~ 4200 10550
 Wire Wire Line
@@ -3735,51 +2639,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	1    3450 11850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3400 11400 3400 11500
-Wire Wire Line
-	3200 11850 3200 11800
-Wire Wire Line
-	3400 11400 3650 11400
-Connection ~ 3400 11400
-NoConn ~ 3000 11800
-Wire Wire Line
-	2750 12100 2750 12150
-$Comp
-L formula:LED_0805 D12
-U 1 1 5DF2151F
-P 2450 11650
-F 0 "D12" V 2450 11750 50  0000 C CNN
-F 1 "LED_0805" V 2350 11900 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2350 11650 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2450 11750 50  0001 C CNN
-F 4 "DK" H 2450 11650 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2450 11650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2850 12150 60  0001 C CNN "PurchasingLink"
-	1    2450 11650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R16
-U 1 1 5DF21528
-P 2450 12000
-F 0 "R16" V 2530 12000 50  0000 C CNN
-F 1 "R_475" V 2350 12000 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2380 12000 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2530 12000 50  0001 C CNN
-F 4 "DK" H 2450 12000 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2450 12000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2930 12400 60  0001 C CNN "PurchasingLink"
-	1    2450 12000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 11800 2450 11850
-Wire Wire Line
-	2450 12150 2750 12150
-Connection ~ 2750 12150
-Wire Wire Line
-	3200 11850 3300 11850
 Wire Wire Line
 	4200 11400 4200 11500
 Connection ~ 4200 11400
@@ -3815,51 +2674,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3400 12250 3400 12350
-Wire Wire Line
-	3200 12700 3200 12650
-Wire Wire Line
-	3400 12250 3650 12250
-Connection ~ 3400 12250
-NoConn ~ 3000 12650
-Wire Wire Line
-	2750 12950 2750 13000
-$Comp
-L formula:LED_0805 D13
-U 1 1 5DF2154F
-P 2450 12500
-F 0 "D13" V 2450 12600 50  0000 C CNN
-F 1 "LED_0805" V 2350 12750 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2350 12500 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2450 12600 50  0001 C CNN
-F 4 "DK" H 2450 12500 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2450 12500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2850 13000 60  0001 C CNN "PurchasingLink"
-	1    2450 12500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R21
-U 1 1 5DF21558
-P 2450 12850
-F 0 "R21" V 2530 12850 50  0000 C CNN
-F 1 "R_475" V 2350 12850 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2380 12850 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2530 12850 50  0001 C CNN
-F 4 "DK" H 2450 12850 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2450 12850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2930 13250 60  0001 C CNN "PurchasingLink"
-	1    2450 12850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 12650 2450 12700
-Wire Wire Line
-	2450 13000 2750 13000
-Connection ~ 2750 13000
-Wire Wire Line
-	3200 12700 3300 12700
-Wire Wire Line
 	4200 12250 4200 12350
 Connection ~ 4200 12250
 Wire Wire Line
@@ -3891,51 +2705,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	1    3450 13550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3400 13100 3400 13200
-Wire Wire Line
-	3200 13550 3200 13500
-Wire Wire Line
-	3400 13100 3650 13100
-Connection ~ 3400 13100
-NoConn ~ 3000 13500
-Wire Wire Line
-	2750 13800 2750 13850
-$Comp
-L formula:LED_0805 D14
-U 1 1 5DF2157E
-P 2450 13350
-F 0 "D14" V 2450 13450 50  0000 C CNN
-F 1 "LED_0805" V 2350 13600 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2350 13350 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2450 13450 50  0001 C CNN
-F 4 "DK" H 2450 13350 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2450 13350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2850 13850 60  0001 C CNN "PurchasingLink"
-	1    2450 13350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R26
-U 1 1 5DF21587
-P 2450 13700
-F 0 "R26" V 2530 13700 50  0000 C CNN
-F 1 "R_475" V 2350 13700 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2380 13700 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2530 13700 50  0001 C CNN
-F 4 "DK" H 2450 13700 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2450 13700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2930 14100 60  0001 C CNN "PurchasingLink"
-	1    2450 13700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 13500 2450 13550
-Wire Wire Line
-	2450 13850 2750 13850
-Connection ~ 2750 13850
-Wire Wire Line
-	3200 13550 3300 13550
 Wire Wire Line
 	4200 13100 4200 13200
 Connection ~ 4200 13100
@@ -3971,51 +2740,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3400 13950 3400 14050
-Wire Wire Line
-	3200 14400 3200 14350
-Wire Wire Line
-	3400 13950 3650 13950
-Connection ~ 3400 13950
-NoConn ~ 3000 14350
-Wire Wire Line
-	2750 14650 2750 14700
-$Comp
-L formula:LED_0805 D15
-U 1 1 5DF215AE
-P 2450 14200
-F 0 "D15" V 2450 14300 50  0000 C CNN
-F 1 "LED_0805" V 2350 14450 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2350 14200 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2450 14300 50  0001 C CNN
-F 4 "DK" H 2450 14200 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2450 14200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2850 14700 60  0001 C CNN "PurchasingLink"
-	1    2450 14200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R31
-U 1 1 5DF215B7
-P 2450 14550
-F 0 "R31" V 2530 14550 50  0000 C CNN
-F 1 "R_475" V 2350 14550 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2380 14550 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2530 14550 50  0001 C CNN
-F 4 "DK" H 2450 14550 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2450 14550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2930 14950 60  0001 C CNN "PurchasingLink"
-	1    2450 14550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 14350 2450 14400
-Wire Wire Line
-	2450 14700 2750 14700
-Connection ~ 2750 14700
-Wire Wire Line
-	3200 14400 3300 14400
-Wire Wire Line
 	4200 13950 4200 14050
 Connection ~ 4200 13950
 Wire Wire Line
@@ -4050,51 +2774,6 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3400 14800 3400 14900
-Wire Wire Line
-	3200 15250 3200 15200
-Wire Wire Line
-	3400 14800 3650 14800
-Connection ~ 3400 14800
-NoConn ~ 3000 15200
-Wire Wire Line
-	2750 15500 2750 15550
-$Comp
-L formula:LED_0805 D16
-U 1 1 5DF215DE
-P 2450 15050
-F 0 "D16" V 2450 15150 50  0000 C CNN
-F 1 "LED_0805" V 2350 15300 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 2350 15050 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2450 15150 50  0001 C CNN
-F 4 "DK" H 2450 15050 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 2450 15050 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2850 15550 60  0001 C CNN "PurchasingLink"
-	1    2450 15050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_475 R36
-U 1 1 5DF215E7
-P 2450 15400
-F 0 "R36" V 2530 15400 50  0000 C CNN
-F 1 "R_475" V 2350 15400 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2380 15400 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2530 15400 50  0001 C CNN
-F 4 "DK" H 2450 15400 60  0001 C CNN "MFN"
-F 5 "311-475CRCT-ND" H 2450 15400 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 2930 15800 60  0001 C CNN "PurchasingLink"
-	1    2450 15400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 15200 2450 15250
-Wire Wire Line
-	2450 15550 2750 15550
-Connection ~ 2750 15550
-Wire Wire Line
-	3200 15250 3300 15250
-Wire Wire Line
 	4200 14800 4200 14900
 Connection ~ 4200 14800
 Wire Wire Line
@@ -4103,11 +2782,6 @@ Wire Wire Line
 	4200 15400 4100 15400
 Wire Wire Line
 	3950 14800 4100 14800
-Wire Wire Line
-	2750 9600 2750 9700
-Connection ~ 2750 9700
-Wire Wire Line
-	2750 9700 3400 9700
 Wire Wire Line
 	4100 9450 4100 9700
 Connection ~ 4100 9700
@@ -4119,27 +2793,10 @@ Connection ~ 4100 10550
 Wire Wire Line
 	4100 10550 4200 10550
 Wire Wire Line
-	2750 10450 2750 10550
-Connection ~ 2750 10550
-Wire Wire Line
-	2750 10550 3400 10550
-Wire Wire Line
-	2750 11300 2750 11400
-Connection ~ 2750 11400
-Wire Wire Line
-	2750 11400 3400 11400
-Wire Wire Line
 	4100 11150 4100 11400
 Connection ~ 4100 11400
 Wire Wire Line
 	4100 11400 4200 11400
-Wire Wire Line
-	2750 12150 2750 12250
-Wire Wire Line
-	2750 13000 2750 13100
-Connection ~ 2750 13100
-Wire Wire Line
-	2750 13100 3400 13100
 Wire Wire Line
 	4100 12850 4100 13100
 Connection ~ 4100 13100
@@ -4151,22 +2808,10 @@ Connection ~ 4100 13950
 Wire Wire Line
 	4100 13950 4200 13950
 Wire Wire Line
-	2750 13850 2750 13950
-Connection ~ 2750 13950
-Wire Wire Line
-	2750 13950 3400 13950
-Wire Wire Line
 	4100 14550 4100 14800
 Connection ~ 4100 14800
 Wire Wire Line
 	4100 14800 4200 14800
-Wire Wire Line
-	2750 14700 2750 14800
-Connection ~ 2750 14800
-Wire Wire Line
-	2750 14800 3400 14800
-Wire Wire Line
-	2750 15550 2750 15650
 $Comp
 L formula:R_100 R101
 U 1 1 5DF2161F
@@ -4185,152 +2830,17 @@ Wire Wire Line
 	4100 15650 3950 15650
 Wire Wire Line
 	4100 15400 4100 15650
-Wire Wire Line
-	3650 15650 2750 15650
-Connection ~ 2750 15650
 Connection ~ 4100 15650
-Text Label 1900 8850 2    50   ~ 0
-C8+
-Text Label 1900 9700 2    50   ~ 0
-C7-
-Text Label 1900 10550 2    50   ~ 0
-C6+
-Text Label 1900 11400 2    50   ~ 0
-C5-
-Text Label 1900 12250 2    50   ~ 0
-C4+
-Text Label 1900 13950 2    50   ~ 0
-C2+
-Text Label 1900 14800 2    50   ~ 0
-C1-
-Text Label 1900 15650 2    50   ~ 0
-C0
-Wire Wire Line
-	1900 9700 2750 9700
-Wire Wire Line
-	1900 10550 2750 10550
-Wire Wire Line
-	1900 11400 2750 11400
-Wire Wire Line
-	1900 13100 2750 13100
-Wire Wire Line
-	1900 13950 2750 13950
-Wire Wire Line
-	1900 14800 2750 14800
-Wire Wire Line
-	1900 15650 2750 15650
-$Comp
-L formula:BSS308PE Q1
-U 1 1 5DF21642
-P 3200 9050
-F 0 "Q1" V 3543 9050 50  0000 C CNN
-F 1 "BSS308PE" V 3452 9050 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3400 9150 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3400 9100 50  0001 C CNN
-F 4 "DK" H 3200 9050 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3200 9050 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3800 9500 60  0001 C CNN "PurchasingLink"
-	1    3200 9050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q6
-U 1 1 5DF2164B
-P 3200 9900
-F 0 "Q6" V 3543 9900 50  0000 C CNN
-F 1 "BSS308PE" V 3452 9900 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3400 10000 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3400 9950 50  0001 C CNN
-F 4 "DK" H 3200 9900 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3200 9900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3800 10350 60  0001 C CNN "PurchasingLink"
-	1    3200 9900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q12
-U 1 1 5DF21654
-P 3200 10750
-F 0 "Q12" V 3543 10750 50  0000 C CNN
-F 1 "BSS308PE" V 3452 10750 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3400 10850 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3400 10800 50  0001 C CNN
-F 4 "DK" H 3200 10750 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3200 10750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3800 11200 60  0001 C CNN "PurchasingLink"
-	1    3200 10750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q13
-U 1 1 5DF2165D
-P 3200 11600
-F 0 "Q13" V 3543 11600 50  0000 C CNN
-F 1 "BSS308PE" V 3452 11600 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3400 11700 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3400 11650 50  0001 C CNN
-F 4 "DK" H 3200 11600 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3200 11600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3800 12050 60  0001 C CNN "PurchasingLink"
-	1    3200 11600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q14
-U 1 1 5DF21666
-P 3200 12450
-F 0 "Q14" V 3543 12450 50  0000 C CNN
-F 1 "BSS308PE" V 3452 12450 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3400 12550 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3400 12500 50  0001 C CNN
-F 4 "DK" H 3200 12450 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3200 12450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3800 12900 60  0001 C CNN "PurchasingLink"
-	1    3200 12450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q15
-U 1 1 5DF2166F
-P 3200 13300
-F 0 "Q15" V 3543 13300 50  0000 C CNN
-F 1 "BSS308PE" V 3452 13300 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3400 13400 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3400 13350 50  0001 C CNN
-F 4 "DK" H 3200 13300 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3200 13300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3800 13750 60  0001 C CNN "PurchasingLink"
-	1    3200 13300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q16
-U 1 1 5DF21678
-P 3200 14150
-F 0 "Q16" V 3543 14150 50  0000 C CNN
-F 1 "BSS308PE" V 3452 14150 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3400 14250 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3400 14200 50  0001 C CNN
-F 4 "DK" H 3200 14150 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3200 14150 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3800 14600 60  0001 C CNN "PurchasingLink"
-	1    3200 14150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:BSS308PE Q17
-U 1 1 5DF21681
-P 3200 15000
-F 0 "Q17" V 3543 15000 50  0000 C CNN
-F 1 "BSS308PE" V 3452 15000 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 3400 15100 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3400 15050 50  0001 C CNN
-F 4 "DK" H 3200 15000 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3200 15000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3800 15450 60  0001 C CNN "PurchasingLink"
-	1    3200 15000
-	0    -1   -1   0   
-$EndComp
+Text Label 3300 8850 2    50   ~ 0
+C8
+Text Label 3300 9700 2    50   ~ 0
+C7
+Text Label 3300 10550 2    50   ~ 0
+C6
+Text Label 3300 11400 2    50   ~ 0
+C5
+Text Label 3300 12250 2    50   ~ 0
+C4
 $Comp
 L formula:C_10nF C1
 U 1 1 5DF2168A
@@ -4444,164 +2954,7 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 8950 2750 8950
-Wire Wire Line
-	2450 9800 2750 9800
-Wire Wire Line
-	2450 10650 2750 10650
-Wire Wire Line
-	2450 11500 2750 11500
-Wire Wire Line
-	2450 12350 2750 12350
-Wire Wire Line
-	2450 13200 2750 13200
-Wire Wire Line
-	2450 14050 2750 14050
-Wire Wire Line
-	2450 14900 2750 14900
-$Comp
-L formula:R_3.3_25W_TO163 R61
-U 1 1 5DF216DA
-P 2750 9250
-F 0 "R61" V 2659 9172 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2750 9172 50  0000 R CNN
-F 2 "footprints:PWR163" H 2500 9300 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2750 9250 50  0001 C CNN
-F 4 "DK" H 2700 9500 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2800 9600 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2841 9172 50  0001 R CNN "PurchasingLink"
-	1    2750 9250
-	0    1    1    0   
-$EndComp
-Connection ~ 2750 8950
-Wire Wire Line
-	2750 8950 3000 8950
-$Comp
-L formula:R_3.3_25W_TO163 R62
-U 1 1 5DF216E5
-P 2750 10100
-F 0 "R62" V 2659 10022 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2750 10022 50  0000 R CNN
-F 2 "footprints:PWR163" H 2500 10150 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2750 10100 50  0001 C CNN
-F 4 "DK" H 2700 10350 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2800 10450 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2841 10022 50  0001 R CNN "PurchasingLink"
-	1    2750 10100
-	0    1    1    0   
-$EndComp
-Connection ~ 2750 9800
-Wire Wire Line
-	2750 9800 3000 9800
-$Comp
-L formula:R_3.3_25W_TO163 R63
-U 1 1 5DF216F0
-P 2750 10950
-F 0 "R63" V 2659 10872 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2750 10872 50  0000 R CNN
-F 2 "footprints:PWR163" H 2500 11000 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2750 10950 50  0001 C CNN
-F 4 "DK" H 2700 11200 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2800 11300 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2841 10872 50  0001 R CNN "PurchasingLink"
-	1    2750 10950
-	0    1    1    0   
-$EndComp
-Connection ~ 2750 10650
-Wire Wire Line
-	2750 10650 3000 10650
-$Comp
-L formula:R_3.3_25W_TO163 R64
-U 1 1 5DF216FB
-P 2750 11800
-F 0 "R64" V 2659 11722 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2750 11722 50  0000 R CNN
-F 2 "footprints:PWR163" H 2500 11850 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2750 11800 50  0001 C CNN
-F 4 "DK" H 2700 12050 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2800 12150 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2841 11722 50  0001 R CNN "PurchasingLink"
-	1    2750 11800
-	0    1    1    0   
-$EndComp
-Connection ~ 2750 11500
-Wire Wire Line
-	2750 11500 3000 11500
-$Comp
-L formula:R_3.3_25W_TO163 R68
-U 1 1 5DF21706
-P 2750 12650
-F 0 "R68" V 2659 12572 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2750 12572 50  0000 R CNN
-F 2 "footprints:PWR163" H 2500 12700 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2750 12650 50  0001 C CNN
-F 4 "DK" H 2700 12900 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2800 13000 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2841 12572 50  0001 R CNN "PurchasingLink"
-	1    2750 12650
-	0    1    1    0   
-$EndComp
-Connection ~ 2750 12350
-Wire Wire Line
-	2750 12350 3000 12350
-$Comp
-L formula:R_3.3_25W_TO163 R72
-U 1 1 5DF21711
-P 2750 13500
-F 0 "R72" V 2659 13422 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2750 13422 50  0000 R CNN
-F 2 "footprints:PWR163" H 2500 13550 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2750 13500 50  0001 C CNN
-F 4 "DK" H 2700 13750 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2800 13850 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2841 13422 50  0001 R CNN "PurchasingLink"
-	1    2750 13500
-	0    1    1    0   
-$EndComp
-Connection ~ 2750 13200
-Wire Wire Line
-	2750 13200 3000 13200
-$Comp
-L formula:R_3.3_25W_TO163 R83
-U 1 1 5DF2171C
-P 2750 14350
-F 0 "R83" V 2659 14272 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2750 14272 50  0000 R CNN
-F 2 "footprints:PWR163" H 2500 14400 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2750 14350 50  0001 C CNN
-F 4 "DK" H 2700 14600 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2800 14700 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2841 14272 50  0001 R CNN "PurchasingLink"
-	1    2750 14350
-	0    1    1    0   
-$EndComp
-Connection ~ 2750 14050
-Wire Wire Line
-	2750 14050 3000 14050
-$Comp
-L formula:R_3.3_25W_TO163 R84
-U 1 1 5DF21727
-P 2750 15200
-F 0 "R84" V 2659 15122 50  0000 R CNN
-F 1 "R_3.3_25W_TO163" V 2750 15122 50  0000 R CNN
-F 2 "footprints:PWR163" H 2500 15250 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2750 15200 50  0001 C CNN
-F 4 "DK" H 2700 15450 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2800 15550 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2841 15122 50  0001 R CNN "PurchasingLink"
-	1    2750 15200
-	0    1    1    0   
-$EndComp
-Connection ~ 2750 14900
-Wire Wire Line
-	2750 14900 3000 14900
-Wire Wire Line
-	1900 12250 2750 12250
-Wire Wire Line
 	3950 12250 4100 12250
-Connection ~ 2750 12250
-Wire Wire Line
-	2750 12250 3400 12250
 Wire Wire Line
 	4100 12000 4100 12250
 Connection ~ 4100 12250
@@ -4609,8 +2962,6 @@ Wire Wire Line
 	4100 12250 4200 12250
 Wire Wire Line
 	3950 8850 4200 8850
-Wire Wire Line
-	1900 8850 3400 8850
 Wire Wire Line
 	4100 15650 6100 15650
 Wire Wire Line
@@ -4729,8 +3080,6 @@ Wire Wire Line
 Wire Wire Line
 	13500 10100 13250 10100
 Wire Wire Line
-	13250 10400 13250 10500
-Wire Wire Line
 	12550 11050 12550 11150
 Wire Wire Line
 	12550 11150 12150 11150
@@ -4741,8 +3090,6 @@ Wire Wire Line
 	12550 11150 12550 11200
 Wire Wire Line
 	13250 11200 13250 11300
-Wire Wire Line
-	12150 11500 12150 11600
 Wire Wire Line
 	13000 10450 13000 10550
 Wire Wire Line
@@ -4761,8 +3108,6 @@ Wire Wire Line
 	12550 11550 13500 11550
 NoConn ~ 14750 10950
 NoConn ~ 14750 10250
-Wire Wire Line
-	12150 10500 12150 10600
 Wire Wire Line
 	11950 10250 11700 10250
 Wire Wire Line
@@ -4806,52 +3151,8 @@ Wire Notes Line
 	17250 9700 17250 11800
 Wire Notes Line
 	17250 11800 11150 11800
-Text Notes 11200 11750 0    50   ~ 0
-isoSPI Transformer
-$Comp
-L power:GND #PWR023
-U 1 1 5DA71120
-P 12150 11600
-F 0 "#PWR023" H 12150 11350 50  0001 C CNN
-F 1 "GND" H 12155 11427 50  0000 C CNN
-F 2 "" H 12150 11600 50  0001 C CNN
-F 3 "" H 12150 11600 50  0001 C CNN
-	1    12150 11600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR025
-U 1 1 5DA71126
-P 13250 11300
-F 0 "#PWR025" H 13250 11050 50  0001 C CNN
-F 1 "GND" H 13255 11127 50  0000 C CNN
-F 2 "" H 13250 11300 50  0001 C CNN
-F 3 "" H 13250 11300 50  0001 C CNN
-	1    13250 11300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 5DA7112C
-P 13250 10500
-F 0 "#PWR024" H 13250 10250 50  0001 C CNN
-F 1 "GND" H 13255 10327 50  0000 C CNN
-F 2 "" H 13250 10500 50  0001 C CNN
-F 3 "" H 13250 10500 50  0001 C CNN
-	1    13250 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR022
-U 1 1 5DA71132
-P 12150 10600
-F 0 "#PWR022" H 12150 10350 50  0001 C CNN
-F 1 "GND" H 12155 10427 50  0000 C CNN
-F 2 "" H 12150 10600 50  0001 C CNN
-F 3 "" H 12150 10600 50  0001 C CNN
-	1    12150 10600
-	1    0    0    -1  
-$EndComp
+Text Notes 11200 9800 0    50   ~ 0
+isoSPI Transformer for chip 2
 Wire Wire Line
 	15000 10200 15000 10050
 Wire Wire Line
@@ -5057,7 +3358,7 @@ F 6 "http://www.te.com/global-en/product-1-338068-2.html" H 7350 2850 60  0001 C
 	1    0    0    -1  
 $EndComp
 Text Label 7600 1000 0    50   ~ 0
-C15-
+C15
 Text Label 7600 1100 0    50   ~ 0
 C13_T3
 Text Label 7600 1200 0    50   ~ 0
@@ -5065,9 +3366,9 @@ C13_T2
 Text Label 7600 1300 0    50   ~ 0
 C13_T1
 Text Label 7600 1400 0    50   ~ 0
-C13-
+C13
 Text Label 7600 1500 0    50   ~ 0
-C11-
+C11
 Text Label 7600 1600 0    50   ~ 0
 C9_T3
 Text Label 7600 1700 0    50   ~ 0
@@ -5075,9 +3376,9 @@ C9_T2
 Text Label 7600 1800 0    50   ~ 0
 C9_T1
 Text Label 7600 1900 0    50   ~ 0
-C9-
+C9
 Text Label 7600 2000 0    50   ~ 0
-C7-
+C7
 Text Label 7600 2100 0    50   ~ 0
 C5_T3
 Text Label 7600 2300 0    50   ~ 0
@@ -5085,9 +3386,9 @@ C5_T2
 Text Label 7600 2400 0    50   ~ 0
 C5_T1
 Text Label 7600 2500 0    50   ~ 0
-C5-
+C5
 Text Label 7600 2600 0    50   ~ 0
-C3-
+C3
 Text Label 7600 2700 0    50   ~ 0
 C1_T3
 Text Label 7600 2800 0    50   ~ 0
@@ -5095,27 +3396,9 @@ C1_T2
 Text Label 7600 2900 0    50   ~ 0
 C1_T1
 Text Label 7600 3000 0    50   ~ 0
-C1-
+C1
 Text Label 7600 3100 0    50   ~ 0
-V-
-Text Label 7600 3200 0    50   ~ 0
 C0
-$Comp
-L formula:MM_F_VT_10 J?
-U 1 1 5E153762
-P 9800 3350
-AR Path="/5DC492E4/5E153762" Ref="J?"  Part="1" 
-AR Path="/5E153762" Ref="J6"  Part="1" 
-F 0 "J6" H 9450 4000 60  0000 C CNN
-F 1 "MM_F_VT_10" H 9700 3400 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_10" H 9600 4450 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-0" H 9700 4550 60  0001 C CNN
-F 4 "TE" H 9900 4750 60  0001 C CNN "MFN"
-F 5 "1-338068-0" H 10000 4850 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-338068-0.html" H 9800 4650 60  0001 C CNN "PurchasingLink"
-	1    9800 3350
-	1    0    0    -1  
-$EndComp
 $Comp
 L formula:MM_M_VT_12 J?
 U 1 1 5E15376C
@@ -5132,20 +3415,20 @@ F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 9800 3350 60  0001 C
 	1    9800 2050
 	1    0    0    -1  
 $EndComp
+Text Label 9950 3250 0    50   ~ 0
+C2
+Text Label 9950 3150 0    50   ~ 0
+C4
 Text Label 9950 3050 0    50   ~ 0
-C2+
-Text Label 9950 2950 0    50   ~ 0
-C4+
-Text Label 9950 2850 0    50   ~ 0
 C3_T1
-Text Label 9950 2750 0    50   ~ 0
+Text Label 9950 2950 0    50   ~ 0
 C3_T2
-Text Label 9950 2650 0    50   ~ 0
+Text Label 9950 2850 0    50   ~ 0
 C3_T3
-Text Label 9950 2550 0    50   ~ 0
-C6+
+Text Label 9950 2750 0    50   ~ 0
+C6
 Text Label 9950 2450 0    50   ~ 0
-C8+
+C8
 Text Label 9950 2350 0    50   ~ 0
 C7_T1
 Text Label 9950 2250 0    50   ~ 0
@@ -5153,9 +3436,9 @@ C7_T2
 Text Label 9950 2050 0    50   ~ 0
 C7_T3
 Text Label 9950 1950 0    50   ~ 0
-C10+
+C10
 Text Label 9950 1850 0    50   ~ 0
-C12+
+C12
 Text Label 9950 1750 0    50   ~ 0
 C11_T1
 Text Label 9950 1650 0    50   ~ 0
@@ -5163,19 +3446,19 @@ C11_T2
 Text Label 9950 1550 0    50   ~ 0
 C11_T3
 Text Label 9950 1450 0    50   ~ 0
-C14+
-Text Label 9950 1350 0    50   ~ 0
-C16+
+C14
 Text Label 9950 1250 0    50   ~ 0
-C15_T1
+C16
 Text Label 9950 1150 0    50   ~ 0
-C15_T2
+C15_T1
 Text Label 9950 1050 0    50   ~ 0
-C15_T3
+C15_T2
 Text Label 9950 950  0    50   ~ 0
-V+
-Text Label 9950 3150 0    50   ~ 0
-GND
+C15_T3
+Text Label 9950 1350 0    50   ~ 0
+V+1
+Text Label 9950 2550 0    50   ~ 0
+V-1
 Text Label 11250 2650 2    50   ~ 0
 C13_T3
 Text Label 11250 2750 2    50   ~ 0
@@ -5227,8 +3510,6 @@ C3_T3
 Wire Wire Line
 	8550 10150 8950 10150
 NoConn ~ 8350 9750
-Text Label 1900 13100 2    50   ~ 0
-C3-
 Wire Wire Line
 	15450 8250 15450 10200
 Wire Wire Line
@@ -5243,6 +3524,294 @@ Wire Wire Line
 	15000 10300 15350 10300
 Text Notes 15500 9000 0    50   ~ 0
 Wire isoSPI on board, \nuse twisted wires off board
-Text Notes 900  1050 0    50   ~ 0
-Cell voltage labels correspond \nto DAboard voltage tabs
+Wire Notes Line
+	10850 1600 10850 6450
+Wire Notes Line
+	10850 1600 17250 1600
+Wire Notes Line
+	10850 6450 17250 6450
+NoConn ~ 8350 10450
+Text Label 3300 13100 2    50   ~ 0
+C3
+Text Label 3300 13950 2    50   ~ 0
+C2
+Text Label 3300 14800 2    50   ~ 0
+C1
+Text Label 3300 15650 2    50   ~ 0
+C0
+Wire Wire Line
+	3300 15650 3650 15650
+Wire Wire Line
+	3300 14800 3650 14800
+Wire Wire Line
+	3300 13950 3650 13950
+Wire Wire Line
+	3300 13100 3650 13100
+Wire Wire Line
+	3300 12250 3650 12250
+Wire Wire Line
+	3300 11400 3650 11400
+Wire Wire Line
+	3300 10550 3650 10550
+Wire Wire Line
+	3300 9700 3650 9700
+Wire Wire Line
+	3300 8850 3650 8850
+Wire Wire Line
+	3250 7650 3600 7650
+Wire Wire Line
+	3250 6800 3600 6800
+Wire Wire Line
+	3250 5950 3600 5950
+Wire Wire Line
+	3250 5100 3600 5100
+Wire Wire Line
+	3250 4250 3600 4250
+Wire Wire Line
+	3250 3400 3600 3400
+Wire Wire Line
+	3250 2550 3600 2550
+Wire Wire Line
+	3250 1700 3600 1700
+Wire Wire Line
+	3250 850  3600 850 
+Wire Wire Line
+	3250 1300 3200 1300
+Wire Wire Line
+	3250 2150 3200 2150
+Wire Wire Line
+	3250 3000 3200 3000
+Wire Wire Line
+	3250 3850 3200 3850
+Wire Wire Line
+	3250 4700 3200 4700
+Wire Wire Line
+	3250 5550 3200 5550
+Wire Wire Line
+	3250 6400 3200 6400
+Wire Wire Line
+	3250 7250 3200 7250
+Wire Wire Line
+	3300 9300 3250 9300
+Wire Wire Line
+	3300 10150 3250 10150
+Wire Wire Line
+	3300 11000 3250 11000
+Wire Wire Line
+	3300 11850 3250 11850
+Wire Wire Line
+	3300 12700 3250 12700
+Wire Wire Line
+	3300 13550 3250 13550
+Wire Wire Line
+	3300 14400 3250 14400
+Wire Wire Line
+	3300 15250 3250 15250
+Text Label 3200 1300 2    50   ~ 0
+Q16
+Text Label 3200 2150 2    50   ~ 0
+Q15
+Text Label 3200 3000 2    50   ~ 0
+Q14
+Text Label 3200 3850 2    50   ~ 0
+Q13
+Text Label 3200 4700 2    50   ~ 0
+Q12
+Text Label 3200 5550 2    50   ~ 0
+Q11
+Text Label 3200 6400 2    50   ~ 0
+Q10
+Text Label 3200 7250 2    50   ~ 0
+Q9
+Text Label 3250 9300 2    50   ~ 0
+Q8
+Text Label 3250 10150 2    50   ~ 0
+Q7
+Text Label 3250 11000 2    50   ~ 0
+Q6
+Text Label 3250 11850 2    50   ~ 0
+Q5
+Text Label 3250 12700 2    50   ~ 0
+Q4
+Text Label 3250 13550 2    50   ~ 0
+Q3
+Text Label 3250 14400 2    50   ~ 0
+Q2
+Text Label 3250 15250 2    50   ~ 0
+Q1
+$Comp
+L formula:MM_F_VT_16 J?
+U 1 1 5FF172F7
+P 8400 2150
+F 0 "J?" H 8456 3197 60  0000 C CNN
+F 1 "MM_F_VT_16" H 8456 3091 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_16" H 8300 2950 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-6" H 8300 3350 60  0001 C CNN
+F 4 "TE" H 8500 3550 60  0001 C CNN "MFN"
+F 5 "1-338068-6" H 8600 3650 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-338068-6.html" H 8400 3450 60  0001 C CNN "PurchasingLink"
+	1    8400 2150
+	1    0    0    -1  
+$EndComp
+Text Label 8650 1350 0    50   ~ 0
+Q16
+Text Label 8650 1450 0    50   ~ 0
+Q15
+Text Label 8650 1550 0    50   ~ 0
+Q14
+Text Label 8650 1650 0    50   ~ 0
+Q13
+Text Label 8650 1750 0    50   ~ 0
+Q12
+Text Label 8650 1850 0    50   ~ 0
+Q11
+Text Label 8650 1950 0    50   ~ 0
+Q10
+Text Label 8650 2050 0    50   ~ 0
+Q9
+Text Label 8650 2150 0    50   ~ 0
+Q8
+Text Label 8650 2250 0    50   ~ 0
+Q7
+Text Label 8650 2350 0    50   ~ 0
+Q6
+Text Label 8650 2450 0    50   ~ 0
+Q5
+Text Label 8650 2550 0    50   ~ 0
+Q4
+Text Label 8650 2650 0    50   ~ 0
+Q3
+Text Label 8650 2750 0    50   ~ 0
+Q2
+Text Label 8650 2850 0    50   ~ 0
+Q1
+Wire Wire Line
+	8900 9350 8350 9350
+Text Label 8300 3300 0    50   ~ 0
+V-1
+Text Label 8700 3300 0    50   ~ 0
+GND1
+Wire Wire Line
+	8300 3300 8700 3300
+Text Label 9300 5450 0    50   ~ 0
+GND1
+Text Label 9750 6200 2    50   ~ 0
+GND1
+Connection ~ 7200 4850
+$Comp
+L formula:C_0.1uF C11
+U 1 1 5C4514F6
+P 7050 4850
+F 0 "C11" V 6900 4750 50  0000 L CNN
+F 1 "C_0.1uF" V 6800 4700 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 7088 4700 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7075 4950 50  0001 C CNN
+F 4 "DK" H 7050 4850 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 7050 4850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 7475 5350 60  0001 C CNN "PurchasingLink"
+	1    7050 4850
+	0    1    1    0   
+$EndComp
+Text Label 6850 4850 2    50   ~ 0
+GND1
+Text Label 9200 7150 2    50   ~ 0
+GND1
+Text Label 9800 7500 2    50   ~ 0
+GND1
+Wire Wire Line
+	9200 6950 9200 7150
+Text Label 6850 8050 2    50   ~ 0
+GND2
+Text Label 9750 9450 2    50   ~ 0
+GND2
+Wire Wire Line
+	9750 9250 9750 9450
+Text Label 9200 10350 2    50   ~ 0
+GND2
+Wire Wire Line
+	9200 10150 9200 10350
+Text Label 7950 12800 2    50   ~ 0
+GND1
+Text Label 8950 12950 0    50   ~ 0
+GND1
+Wire Wire Line
+	8950 12600 8950 12950
+Text Label 12150 11750 2    50   ~ 0
+GND2
+Wire Wire Line
+	12150 11500 12150 11750
+Text Label 13250 11300 2    50   ~ 0
+GND2
+Text Label 12150 10700 2    50   ~ 0
+GND2
+Wire Wire Line
+	12150 10500 12150 10700
+Text Label 13250 10600 2    50   ~ 0
+GND2
+Wire Wire Line
+	13250 10400 13250 10600
+Text Label 12150 8050 2    50   ~ 0
+GND1
+Wire Wire Line
+	12150 7850 12150 8050
+Text Label 13250 8000 2    50   ~ 0
+GND1
+Wire Wire Line
+	13250 7750 13250 8000
+Text Label 13250 8650 2    50   ~ 0
+GND1
+Text Label 12150 9050 2    50   ~ 0
+GND1
+Wire Wire Line
+	12150 8850 12150 9050
+Text Label 15650 5350 2    50   ~ 0
+GND1
+Wire Wire Line
+	15650 5200 15650 5350
+Text Label 16550 5350 2    50   ~ 0
+GND1
+Text Label 14750 6250 2    50   ~ 0
+GND1
+Wire Wire Line
+	14750 5950 14750 6250
+Text Label 14750 4800 2    50   ~ 0
+GND1
+Wire Wire Line
+	14750 4500 14750 4800
+Text Label 14750 3250 2    50   ~ 0
+GND1
+Wire Wire Line
+	14750 2950 14750 3250
+Text Label 9300 8650 0    50   ~ 0
+GND2
+Wire Wire Line
+	9750 6050 9750 6200
+Text Label 7600 3200 0    50   ~ 0
+V-2
+Text Label 9950 2650 0    50   ~ 0
+V+2
+$Comp
+L formula:MM_F_VT_12 J?
+U 1 1 60BFA1EF
+P 9700 2800
+F 0 "J?" H 9450 2850 60  0000 C CNN
+F 1 "MM_F_VT_12" H 9700 2150 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 9600 3350 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-2" H 9600 4000 60  0001 C CNN
+F 4 "TE" H 9800 4200 60  0001 C CNN "MFN"
+F 5 "1-338068-2" H 9900 4300 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-338068-2.html" H 9700 4100 60  0001 C CNN "PurchasingLink"
+	1    9700 2800
+	1    0    0    -1  
+$EndComp
+Text Label 9950 3350 0    50   ~ 0
+GND1
+Text Notes 6500 3150 0    50   ~ 0
+V-2 is same \nas C0, for Kelvin \nconnection
+Text Notes 10150 2700 0    50   ~ 0
+C8, V-1, and \nV+2 are all the \nsame, for Kelvin \nconnection
+Text Notes 10250 1400 0    50   ~ 0
+V+1 is same \nas C16, for\nKelvin connection
+Text Notes 8050 3000 0    50   ~ 0
+Traces to transistor gates
 $EndSCHEMATC
