@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:BMS_peripheral-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr User 18504 16535
 encoding utf-8
@@ -78,10 +78,10 @@ Wire Wire Line
 Wire Wire Line
 	14350 2450 14450 2450
 $Comp
-L formula:C_1uF C21
+L formula:C_1uF C34
 U 1 1 5BCFFF3C
 P 14750 2500
-F 0 "C21" H 14865 2546 50  0000 L CNN
+F 0 "C34" H 14865 2546 50  0000 L CNN
 F 1 "C_1uF" H 14865 2455 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 14788 2350 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 14775 2600 50  0001 C CNN
@@ -224,10 +224,10 @@ Wire Wire Line
 Wire Wire Line
 	14350 4000 14450 4000
 $Comp
-L formula:C_1uF C22
+L formula:C_1uF C35
 U 1 1 5BD1F887
 P 14750 4050
-F 0 "C22" H 14865 4096 50  0000 L CNN
+F 0 "C35" H 14865 4096 50  0000 L CNN
 F 1 "C_1uF" H 14865 4005 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 14788 3900 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 14775 4150 50  0001 C CNN
@@ -365,10 +365,10 @@ Wire Wire Line
 Wire Wire Line
 	14350 5450 14450 5450
 $Comp
-L formula:C_1uF C23
+L formula:C_1uF C36
 U 1 1 5BD24C1E
 P 14750 5500
-F 0 "C23" H 14865 5546 50  0000 L CNN
+F 0 "C36" H 14865 5546 50  0000 L CNN
 F 1 "C_1uF" H 14865 5455 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 14788 5350 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 14775 5600 50  0001 C CNN
@@ -512,10 +512,10 @@ Wire Wire Line
 Text Label 15650 4400 0    50   ~ 0
 VREG
 $Comp
-L formula:R_100 R82
+L formula:R_100 R77
 U 1 1 5BD83964
 P 16350 4900
-F 0 "R82" V 16143 4900 50  0000 C CNN
+F 0 "R77" V 16143 4900 50  0000 C CNN
 F 1 "R_100" V 16234 4900 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 16280 4900 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 16430 4900 50  0001 C CNN
@@ -567,10 +567,10 @@ Temperature Sensing
 NoConn ~ 7450 5350
 NoConn ~ 7450 6550
 $Comp
-L formula:C_1uF C14
+L formula:C_1uF C22
 U 1 1 5BF0CED4
 P 9200 6800
-F 0 "C14" H 9250 6900 50  0000 L CNN
+F 0 "C22" H 9250 6900 50  0000 L CNN
 F 1 "1uF" H 9250 6700 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 9238 6650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 9225 6900 50  0001 C CNN
@@ -584,10 +584,10 @@ Connection ~ 9200 6950
 Wire Wire Line
 	8350 6950 8400 6950
 $Comp
-L formula:C_1uF C13
+L formula:C_1uF C20
 U 1 1 5BF4FDEE
 P 8950 6800
-F 0 "C13" H 9000 6900 50  0000 L CNN
+F 0 "C20" H 9000 6900 50  0000 L CNN
 F 1 "1uF" H 9000 6700 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 8988 6650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 8975 6900 50  0001 C CNN
@@ -601,10 +601,10 @@ Connection ~ 8950 6950
 Wire Wire Line
 	8950 6950 9200 6950
 $Comp
-L formula:C_1uF C12
+L formula:C_1uF C19
 U 1 1 5BF4FE6E
 P 8700 6800
-F 0 "C12" H 8750 6900 50  0000 L CNN
+F 0 "C19" H 8750 6900 50  0000 L CNN
 F 1 "1uF" H 8750 6700 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 8738 6650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 8725 6900 50  0001 C CNN
@@ -687,10 +687,10 @@ NoConn ~ 8350 6050
 NoConn ~ 8350 5550
 NoConn ~ 8350 5650
 $Comp
-L formula:R_1K R43
+L formula:R_1K R37
 U 1 1 5C1228F0
 P 8650 5450
-F 0 "R43" V 8750 5450 50  0000 C CNN
+F 0 "R37" V 8750 5450 50  0000 C CNN
 F 1 "R_1K" V 8650 5450 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 8580 5450 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 8730 5450 50  0001 C CNN
@@ -701,10 +701,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 9130 5
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_1K R44
+L formula:R_1K R40
 U 1 1 5C1229EE
 P 9050 5450
-F 0 "R44" V 8950 5450 50  0000 C CNN
+F 0 "R40" V 8950 5450 50  0000 C CNN
 F 1 "R_1K" V 9050 5450 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 8980 5450 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 9130 5450 50  0001 C CNN
@@ -717,10 +717,10 @@ $EndComp
 Wire Wire Line
 	9300 5450 9200 5450
 $Comp
-L formula:R_100 R46
+L formula:R_100 R43
 U 1 1 5C24C55E
 P 9750 5500
-F 0 "R46" H 9820 5546 50  0000 L CNN
+F 0 "R43" H 9820 5546 50  0000 L CNN
 F 1 "R_100" H 9820 5455 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 9680 5500 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 9830 5500 50  0001 C CNN
@@ -731,10 +731,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 10230 
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_0.1uF C15
+L formula:C_0.1uF C24
 U 1 1 5C2AB15F
 P 9750 5900
-F 0 "C15" H 9865 5946 50  0000 L CNN
+F 0 "C24" H 9865 5946 50  0000 L CNN
 F 1 "C_0.1uF" H 9865 5855 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 9788 5750 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 9775 6000 50  0001 C CNN
@@ -749,10 +749,10 @@ VREG
 Text Label 10300 7150 0    50   ~ 0
 VREF2
 $Comp
-L formula:R_100 R42
+L formula:R_100 R35
 U 1 1 5C41EE32
 P 7400 4850
-F 0 "R42" V 7250 4750 50  0000 L CNN
+F 0 "R35" V 7250 4750 50  0000 L CNN
 F 1 "R_100" V 7150 4750 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 7330 4850 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 7480 4850 50  0001 C CNN
@@ -905,10 +905,10 @@ Text Label 7200 5950 0    50   ~ 0
 Text Label 7200 5750 0    50   ~ 0
 ~DIS~9
 $Comp
-L formula:R_100 R32
+L formula:R_100 R17
 U 1 1 5E172B25
 P 3750 850
-F 0 "R32" V 3830 850 50  0000 C CNN
+F 0 "R17" V 3830 850 50  0000 C CNN
 F 1 "R_100" V 3650 850 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3680 850 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3830 850 50  0001 C CNN
@@ -919,10 +919,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4230 1
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R22
+L formula:R_4.99K R1
 U 1 1 5E172B36
 P 3400 1300
-F 0 "R22" V 3300 1300 50  0000 C CNN
+F 0 "R1" V 3300 1300 50  0000 C CNN
 F 1 "R_4.99K" V 3500 1300 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3400 1300 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3400 1300 50  0001 C CNN
@@ -937,10 +937,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 1450 4050 1450
 $Comp
-L formula:R_100 R33
+L formula:R_100 R18
 U 1 1 5E1AADB4
 P 3750 1700
-F 0 "R33" V 3830 1700 50  0000 C CNN
+F 0 "R18" V 3830 1700 50  0000 C CNN
 F 1 "R_100" V 3650 1700 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3680 1700 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3830 1700 50  0001 C CNN
@@ -951,10 +951,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4230 2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R23
+L formula:R_4.99K R2
 U 1 1 5E1AADC5
 P 3400 2150
-F 0 "R23" V 3300 2150 50  0000 C CNN
+F 0 "R2" V 3300 2150 50  0000 C CNN
 F 1 "R_4.99K" V 3500 2150 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3400 2150 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3400 2150 50  0001 C CNN
@@ -971,10 +971,10 @@ Wire Wire Line
 Wire Wire Line
 	3900 1700 4050 1700
 $Comp
-L formula:R_100 R34
+L formula:R_100 R19
 U 1 1 5E1E8BC0
 P 3750 2550
-F 0 "R34" V 3830 2550 50  0000 C CNN
+F 0 "R19" V 3830 2550 50  0000 C CNN
 F 1 "R_100" V 3650 2550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3680 2550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3830 2550 50  0001 C CNN
@@ -985,10 +985,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4230 2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R24
+L formula:R_4.99K R3
 U 1 1 5E1E8BD1
 P 3400 3000
-F 0 "R24" V 3300 3000 50  0000 C CNN
+F 0 "R3" V 3300 3000 50  0000 C CNN
 F 1 "R_4.99K" V 3500 3000 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3400 3000 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3400 3000 50  0001 C CNN
@@ -1005,10 +1005,10 @@ Wire Wire Line
 Wire Wire Line
 	3900 2550 4050 2550
 $Comp
-L formula:R_100 R35
+L formula:R_100 R20
 U 1 1 5E22CA6F
 P 3750 3400
-F 0 "R35" V 3830 3400 50  0000 C CNN
+F 0 "R20" V 3830 3400 50  0000 C CNN
 F 1 "R_100" V 3650 3400 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3680 3400 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3830 3400 50  0001 C CNN
@@ -1019,10 +1019,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4230 3
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R25
+L formula:R_4.99K R4
 U 1 1 5E22CA80
 P 3400 3850
-F 0 "R25" V 3300 3850 50  0000 C CNN
+F 0 "R4" V 3300 3850 50  0000 C CNN
 F 1 "R_4.99K" V 3500 3850 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3400 3850 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3400 3850 50  0001 C CNN
@@ -1039,10 +1039,10 @@ Wire Wire Line
 Wire Wire Line
 	3900 3400 4050 3400
 $Comp
-L formula:R_100 R37
+L formula:R_100 R21
 U 1 1 5E2C73B8
 P 3750 4250
-F 0 "R37" V 3830 4250 50  0000 C CNN
+F 0 "R21" V 3830 4250 50  0000 C CNN
 F 1 "R_100" V 3650 4250 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3680 4250 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3830 4250 50  0001 C CNN
@@ -1053,10 +1053,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4230 4
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R27
+L formula:R_4.99K R5
 U 1 1 5E2C73C9
 P 3400 4700
-F 0 "R27" V 3300 4700 50  0000 C CNN
+F 0 "R5" V 3300 4700 50  0000 C CNN
 F 1 "R_4.99K" V 3500 4700 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3400 4700 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3400 4700 50  0001 C CNN
@@ -1071,10 +1071,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 4850 4050 4850
 $Comp
-L formula:R_100 R38
+L formula:R_100 R22
 U 1 1 5E31E320
 P 3750 5100
-F 0 "R38" V 3830 5100 50  0000 C CNN
+F 0 "R22" V 3830 5100 50  0000 C CNN
 F 1 "R_100" V 3650 5100 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3680 5100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3830 5100 50  0001 C CNN
@@ -1085,10 +1085,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4230 5
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R28
+L formula:R_4.99K R6
 U 1 1 5E31E331
 P 3400 5550
-F 0 "R28" V 3300 5550 50  0000 C CNN
+F 0 "R6" V 3300 5550 50  0000 C CNN
 F 1 "R_4.99K" V 3500 5550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3400 5550 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3400 5550 50  0001 C CNN
@@ -1105,10 +1105,10 @@ Wire Wire Line
 Wire Wire Line
 	3900 5100 4050 5100
 $Comp
-L formula:R_100 R39
+L formula:R_100 R23
 U 1 1 5E37BDFB
 P 3750 5950
-F 0 "R39" V 3830 5950 50  0000 C CNN
+F 0 "R23" V 3830 5950 50  0000 C CNN
 F 1 "R_100" V 3650 5950 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3680 5950 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3830 5950 50  0001 C CNN
@@ -1119,10 +1119,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4230 6
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R29
+L formula:R_4.99K R7
 U 1 1 5E37BE0C
 P 3400 6400
-F 0 "R29" V 3300 6400 50  0000 C CNN
+F 0 "R7" V 3300 6400 50  0000 C CNN
 F 1 "R_4.99K" V 3500 6400 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3400 6400 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3400 6400 50  0001 C CNN
@@ -1139,10 +1139,10 @@ Wire Wire Line
 Wire Wire Line
 	3900 5950 4050 5950
 $Comp
-L formula:R_100 R40
+L formula:R_100 R24
 U 1 1 5E44C2C5
 P 3750 6800
-F 0 "R40" V 3830 6800 50  0000 C CNN
+F 0 "R24" V 3830 6800 50  0000 C CNN
 F 1 "R_100" V 3650 6800 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3680 6800 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3830 6800 50  0001 C CNN
@@ -1153,10 +1153,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4230 7
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R30
+L formula:R_4.99K R8
 U 1 1 5E44C2D6
 P 3400 7250
-F 0 "R30" V 3300 7250 50  0000 C CNN
+F 0 "R8" V 3300 7250 50  0000 C CNN
 F 1 "R_4.99K" V 3500 7250 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3400 7250 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3400 7250 50  0001 C CNN
@@ -1203,10 +1203,10 @@ Connection ~ 4050 6800
 Wire Wire Line
 	4050 6800 4150 6800
 $Comp
-L formula:R_100 R41
+L formula:R_100 R25
 U 1 1 5EDF0A73
 P 3750 7650
-F 0 "R41" V 3830 7650 50  0000 C CNN
+F 0 "R25" V 3830 7650 50  0000 C CNN
 F 1 "R_100" V 3650 7650 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3680 7650 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3830 7650 50  0001 C CNN
@@ -1242,10 +1242,10 @@ Wire Wire Line
 Wire Wire Line
 	7450 5650 7050 5650
 $Comp
-L formula:R_100K R49
+L formula:R_100K R45
 U 1 1 5CF5A087
 P 11950 2100
-F 0 "R49" V 12030 2100 50  0000 C CNN
+F 0 "R45" V 12030 2100 50  0000 C CNN
 F 1 "R_100K" V 11950 2050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 11880 2100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12030 2100 50  0001 C CNN
@@ -1256,10 +1256,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R53
+L formula:R_100K R48
 U 1 1 5CF5A9EE
 P 12150 2100
-F 0 "R53" V 12230 2100 50  0000 C CNN
+F 0 "R48" V 12230 2100 50  0000 C CNN
 F 1 "R_100K" V 12150 2050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12080 2100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12230 2100 50  0001 C CNN
@@ -1270,10 +1270,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R57
+L formula:R_100K R51
 U 1 1 5CF5AAFA
 P 12350 2100
-F 0 "R57" V 12430 2100 50  0000 C CNN
+F 0 "R51" V 12430 2100 50  0000 C CNN
 F 1 "R_100K" V 12350 2050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12280 2100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12430 2100 50  0001 C CNN
@@ -1284,10 +1284,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R65
+L formula:R_100K R54
 U 1 1 5CF5AC08
 P 12550 2100
-F 0 "R65" V 12630 2100 50  0000 C CNN
+F 0 "R54" V 12630 2100 50  0000 C CNN
 F 1 "R_100K" V 12550 2050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12480 2100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12630 2100 50  0001 C CNN
@@ -1298,10 +1298,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R69
+L formula:R_100K R65
 U 1 1 5CF5AD18
 P 12750 2100
-F 0 "R69" V 12830 2100 50  0000 C CNN
+F 0 "R65" V 12830 2100 50  0000 C CNN
 F 1 "R_100K" V 12750 2050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12680 2100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12830 2100 50  0001 C CNN
@@ -1312,10 +1312,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R73
+L formula:R_100K R68
 U 1 1 5CF5AE2A
 P 12950 2100
-F 0 "R73" V 13030 2100 50  0000 C CNN
+F 0 "R68" V 13030 2100 50  0000 C CNN
 F 1 "R_100K" V 12950 2050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12880 2100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 13030 2100 50  0001 C CNN
@@ -1326,10 +1326,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R76
+L formula:R_100K R71
 U 1 1 5CF5AF3E
 P 13150 2100
-F 0 "R76" V 13230 2100 50  0000 C CNN
+F 0 "R71" V 13230 2100 50  0000 C CNN
 F 1 "R_100K" V 13150 2050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 13080 2100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 13230 2100 50  0001 C CNN
@@ -1340,10 +1340,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R79
+L formula:R_100K R74
 U 1 1 5CF5B080
 P 13350 2100
-F 0 "R79" V 13430 2100 50  0000 C CNN
+F 0 "R74" V 13430 2100 50  0000 C CNN
 F 1 "R_100K" V 13350 2050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 13280 2100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 13430 2100 50  0001 C CNN
@@ -1354,10 +1354,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R50
+L formula:R_100K R46
 U 1 1 5CF5B315
 P 11950 3650
-F 0 "R50" V 12030 3650 50  0000 C CNN
+F 0 "R46" V 12030 3650 50  0000 C CNN
 F 1 "R_100K" V 11950 3600 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 11880 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12030 3650 50  0001 C CNN
@@ -1368,10 +1368,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R54
+L formula:R_100K R49
 U 1 1 5CF5B31F
 P 12150 3650
-F 0 "R54" V 12230 3650 50  0000 C CNN
+F 0 "R49" V 12230 3650 50  0000 C CNN
 F 1 "R_100K" V 12150 3600 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12080 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12230 3650 50  0001 C CNN
@@ -1382,10 +1382,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R58
+L formula:R_100K R52
 U 1 1 5CF5B329
 P 12350 3650
-F 0 "R58" V 12430 3650 50  0000 C CNN
+F 0 "R52" V 12430 3650 50  0000 C CNN
 F 1 "R_100K" V 12350 3600 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12280 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12430 3650 50  0001 C CNN
@@ -1396,10 +1396,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R66
+L formula:R_100K R55
 U 1 1 5CF5B333
 P 12550 3650
-F 0 "R66" V 12630 3650 50  0000 C CNN
+F 0 "R55" V 12630 3650 50  0000 C CNN
 F 1 "R_100K" V 12550 3600 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12480 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12630 3650 50  0001 C CNN
@@ -1410,10 +1410,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R70
+L formula:R_100K R66
 U 1 1 5CF5B33D
 P 12750 3650
-F 0 "R70" V 12830 3650 50  0000 C CNN
+F 0 "R66" V 12830 3650 50  0000 C CNN
 F 1 "R_100K" V 12750 3600 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12680 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12830 3650 50  0001 C CNN
@@ -1424,10 +1424,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R74
+L formula:R_100K R69
 U 1 1 5CF5B347
 P 12950 3650
-F 0 "R74" V 13030 3650 50  0000 C CNN
+F 0 "R69" V 13030 3650 50  0000 C CNN
 F 1 "R_100K" V 12950 3600 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12880 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 13030 3650 50  0001 C CNN
@@ -1438,10 +1438,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R77
+L formula:R_100K R72
 U 1 1 5CF5B351
 P 13150 3650
-F 0 "R77" V 13230 3650 50  0000 C CNN
+F 0 "R72" V 13230 3650 50  0000 C CNN
 F 1 "R_100K" V 13150 3600 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 13080 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 13230 3650 50  0001 C CNN
@@ -1452,10 +1452,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R80
+L formula:R_100K R75
 U 1 1 5CF5B35B
 P 13350 3650
-F 0 "R80" V 13430 3650 50  0000 C CNN
+F 0 "R75" V 13430 3650 50  0000 C CNN
 F 1 "R_100K" V 13350 3600 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 13280 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 13430 3650 50  0001 C CNN
@@ -1466,10 +1466,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R51
+L formula:R_100K R47
 U 1 1 5CFD091B
 P 11950 5100
-F 0 "R51" V 12030 5100 50  0000 C CNN
+F 0 "R47" V 12030 5100 50  0000 C CNN
 F 1 "R_100K" V 11950 5050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 11880 5100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12030 5100 50  0001 C CNN
@@ -1480,10 +1480,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R55
+L formula:R_100K R50
 U 1 1 5CFD0925
 P 12150 5100
-F 0 "R55" V 12230 5100 50  0000 C CNN
+F 0 "R50" V 12230 5100 50  0000 C CNN
 F 1 "R_100K" V 12150 5050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12080 5100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12230 5100 50  0001 C CNN
@@ -1494,10 +1494,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R59
+L formula:R_100K R53
 U 1 1 5CFD092F
 P 12350 5100
-F 0 "R59" V 12430 5100 50  0000 C CNN
+F 0 "R53" V 12430 5100 50  0000 C CNN
 F 1 "R_100K" V 12350 5050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12280 5100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12430 5100 50  0001 C CNN
@@ -1508,10 +1508,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R67
+L formula:R_100K R56
 U 1 1 5CFD0939
 P 12550 5100
-F 0 "R67" V 12630 5100 50  0000 C CNN
+F 0 "R56" V 12630 5100 50  0000 C CNN
 F 1 "R_100K" V 12550 5050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12480 5100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12630 5100 50  0001 C CNN
@@ -1522,10 +1522,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R71
+L formula:R_100K R67
 U 1 1 5CFD0943
 P 12750 5100
-F 0 "R71" V 12830 5100 50  0000 C CNN
+F 0 "R67" V 12830 5100 50  0000 C CNN
 F 1 "R_100K" V 12750 5050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12680 5100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12830 5100 50  0001 C CNN
@@ -1536,10 +1536,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R75
+L formula:R_100K R70
 U 1 1 5CFD094D
 P 12950 5100
-F 0 "R75" V 13030 5100 50  0000 C CNN
+F 0 "R70" V 13030 5100 50  0000 C CNN
 F 1 "R_100K" V 12950 5050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12880 5100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 13030 5100 50  0001 C CNN
@@ -1550,10 +1550,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R78
+L formula:R_100K R73
 U 1 1 5CFD0957
 P 13150 5100
-F 0 "R78" V 13230 5100 50  0000 C CNN
+F 0 "R73" V 13230 5100 50  0000 C CNN
 F 1 "R_100K" V 13150 5050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 13080 5100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 13230 5100 50  0001 C CNN
@@ -1564,10 +1564,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R81
+L formula:R_100K R76
 U 1 1 5CFD0961
 P 13350 5100
-F 0 "R81" V 13430 5100 50  0000 C CNN
+F 0 "R76" V 13430 5100 50  0000 C CNN
 F 1 "R_100K" V 13350 5050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 13280 5100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 13430 5100 50  0001 C CNN
@@ -1642,10 +1642,10 @@ Connection ~ 9200 5900
 Wire Wire Line
 	9200 5900 9200 5950
 $Comp
-L formula:MCP6001T-I-LT U4
+L formula:MCP6001T-I-LT U8
 U 1 1 5C96E245
 P 15750 4900
-F 0 "U4" H 15750 5100 50  0000 L CNN
+F 0 "U8" H 15750 5100 50  0000 L CNN
 F 1 "MCP6001T-I-LT" H 15750 4700 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 15650 5000 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 15750 5100 50  0001 C CNN
@@ -1656,10 +1656,10 @@ F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-L
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MCP6001T-I-LT U3
+L formula:MCP6001T-I-LT U4
 U 1 1 5C96E5D2
 P 9900 7150
-F 0 "U3" H 9900 7350 50  0000 L CNN
+F 0 "U4" H 9900 7350 50  0000 L CNN
 F 1 "MCP6001T-I-LT" H 9900 6950 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 9800 7250 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9900 7350 50  0001 C CNN
@@ -1711,17 +1711,6 @@ F 6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/
 	1    13950 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:isoSPI-Cutout J1
-U 1 1 5CB799CD
-P 15300 7600
-F 0 "J1" H 15350 7800 50  0000 C CNN
-F 1 "isoSPI-Cutout" H 15300 7400 50  0000 C CNN
-F 2 "footprints:iso_spi_cutout" H 15400 7600 50  0001 C CNN
-F 3 "" H 15400 7600 50  0001 C CNN
-	1    15300 7600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15000 7550 15150 7550
 Wire Wire Line
@@ -1735,10 +1724,10 @@ Wire Wire Line
 Wire Wire Line
 	14950 8500 14750 8500
 $Comp
-L formula:C_10nF C20
+L formula:C_10nF C37
 U 1 1 5CA14224
 P 16550 5100
-F 0 "C20" H 16665 5146 50  0000 L CNN
+F 0 "C37" H 16665 5146 50  0000 L CNN
 F 1 "C_10nF" H 16665 5055 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 16350 5100 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 16450 5200 50  0001 C CNN
@@ -1746,10 +1735,10 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 16450
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C2
+L formula:C_10nF C1
 U 1 1 5CA14139
 P 4150 1100
-F 0 "C2" H 4265 1146 50  0000 L CNN
+F 0 "C1" H 4265 1146 50  0000 L CNN
 F 1 "C_10nF" H 4265 1055 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 3950 1100 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4050 1200 50  0001 C CNN
@@ -1760,10 +1749,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C3
+L formula:C_10nF C2
 U 1 1 5CA1437F
 P 4150 1950
-F 0 "C3" H 4265 1996 50  0000 L CNN
+F 0 "C2" H 4265 1996 50  0000 L CNN
 F 1 "C_10nF" H 4265 1905 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 3950 1950 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4050 2050 50  0001 C CNN
@@ -1774,10 +1763,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C4
+L formula:C_10nF C3
 U 1 1 5CA1453F
 P 4150 2800
-F 0 "C4" H 4265 2846 50  0000 L CNN
+F 0 "C3" H 4265 2846 50  0000 L CNN
 F 1 "C_10nF" H 4265 2755 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 3950 2800 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4050 2900 50  0001 C CNN
@@ -1788,10 +1777,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C5
+L formula:C_10nF C4
 U 1 1 5CA1470F
 P 4150 3650
-F 0 "C5" H 4265 3696 50  0000 L CNN
+F 0 "C4" H 4265 3696 50  0000 L CNN
 F 1 "C_10nF" H 4265 3605 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 3950 3650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4050 3750 50  0001 C CNN
@@ -1802,10 +1791,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C7
+L formula:C_10nF C5
 U 1 1 5CA14C23
 P 4150 4500
-F 0 "C7" H 4265 4546 50  0000 L CNN
+F 0 "C5" H 4265 4546 50  0000 L CNN
 F 1 "C_10nF" H 4265 4455 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 3950 4500 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4050 4600 50  0001 C CNN
@@ -1816,10 +1805,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C8
+L formula:C_10nF C6
 U 1 1 5CA14F0A
 P 4150 5350
-F 0 "C8" H 4265 5396 50  0000 L CNN
+F 0 "C6" H 4265 5396 50  0000 L CNN
 F 1 "C_10nF" H 4265 5305 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 3950 5350 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4050 5450 50  0001 C CNN
@@ -1830,10 +1819,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C9
+L formula:C_10nF C7
 U 1 1 5CA15046
 P 4150 6200
-F 0 "C9" H 4265 6246 50  0000 L CNN
+F 0 "C7" H 4265 6246 50  0000 L CNN
 F 1 "C_10nF" H 4265 6155 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 3950 6200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4050 6300 50  0001 C CNN
@@ -1844,10 +1833,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C10
+L formula:C_10nF C8
 U 1 1 5CA15347
 P 4150 7050
-F 0 "C10" H 4265 7096 50  0000 L CNN
+F 0 "C8" H 4265 7096 50  0000 L CNN
 F 1 "C_10nF" H 4265 7005 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 3950 7050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4050 7150 50  0001 C CNN
@@ -1858,10 +1847,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C16
+L formula:C_10nF C26
 U 1 1 5CA169FD
 P 12150 7700
-F 0 "C16" H 12265 7746 50  0000 L CNN
+F 0 "C26" H 12265 7746 50  0000 L CNN
 F 1 "C_10nF" H 12265 7655 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 11950 7700 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 12050 7800 50  0001 C CNN
@@ -1872,10 +1861,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C17
+L formula:C_10nF C27
 U 1 1 5CA16B41
 P 12150 8700
-F 0 "C17" H 12265 8746 50  0000 L CNN
+F 0 "C27" H 12265 8746 50  0000 L CNN
 F 1 "C_10nF" H 12265 8655 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 11950 8700 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 12050 8800 50  0001 C CNN
@@ -1886,10 +1875,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C18
+L formula:C_10nF C30
 U 1 1 5CA7B718
 P 13250 7600
-F 0 "C18" H 13365 7646 50  0000 L CNN
+F 0 "C30" H 13365 7646 50  0000 L CNN
 F 1 "C_10nF" H 13365 7555 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 13050 7600 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 13150 7700 50  0001 C CNN
@@ -1900,10 +1889,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C19
+L formula:C_10nF C31
 U 1 1 5CA7BAFF
 P 13250 8400
-F 0 "C19" H 13365 8446 50  0000 L CNN
+F 0 "C31" H 13365 8446 50  0000 L CNN
 F 1 "C_10nF" H 13365 8355 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 13050 8400 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 13150 8500 50  0001 C CNN
@@ -1920,10 +1909,10 @@ Wire Wire Line
 Wire Wire Line
 	11950 8100 12550 8100
 $Comp
-L formula:R_60.4 R48
+L formula:R_60.4 R57
 U 1 1 5CAF0544
 P 12550 7350
-F 0 "R48" H 12620 7396 50  0000 L CNN
+F 0 "R57" H 12620 7396 50  0000 L CNN
 F 1 "R_60.4" H 12620 7305 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12350 7250 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 12450 7350 50  0001 C CNN
@@ -1937,10 +1926,10 @@ Connection ~ 12550 7200
 Wire Wire Line
 	12550 7200 13000 7200
 $Comp
-L formula:R_60.4 R52
+L formula:R_60.4 R58
 U 1 1 5CAF069A
 P 12550 7750
-F 0 "R52" H 12620 7796 50  0000 L CNN
+F 0 "R58" H 12620 7796 50  0000 L CNN
 F 1 "R_60.4" H 12620 7705 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12350 7650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 12450 7750 50  0001 C CNN
@@ -1954,10 +1943,10 @@ Connection ~ 12550 7900
 Wire Wire Line
 	12550 7900 13000 7900
 $Comp
-L formula:R_60.4 R56
+L formula:R_60.4 R59
 U 1 1 5CAF07D2
 P 12550 8250
-F 0 "R56" H 12620 8296 50  0000 L CNN
+F 0 "R59" H 12620 8296 50  0000 L CNN
 F 1 "R_60.4" H 12620 8205 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12350 8150 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 12450 8250 50  0001 C CNN
@@ -1985,10 +1974,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:NSS1C201MZ4 Q11
+L formula:NSS1C201MZ4 Q1
 U 1 1 5CAF2883
 P 9100 6150
-F 0 "Q11" H 9341 6332 50  0000 L CNN
+F 0 "Q1" H 9341 6332 50  0000 L CNN
 F 1 "NSS1C201MZ4" H 9341 6241 50  0000 L CNN
 F 2 "footprints:SOT-223" H 8900 6250 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF" H 9000 6350 50  0001 C CNN
@@ -1999,10 +1988,10 @@ F 6 "https://www.digikey.com/product-detail/en/on-semiconductor/NSS1C201MZ4T3G/N
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:24AA01 U2
+L formula:24AA01 U3
 U 1 1 5CB5A7AB
 P 8450 12600
-F 0 "U2" H 8425 12013 50  0000 C CNN
+F 0 "U3" H 8425 12013 50  0000 C CNN
 F 1 "24AA01" H 8425 12104 50  0000 C CNN
 F 2 "footprints:SOT-23-5_OEM_24AA01" H 8350 12700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf" H 8450 12800 50  0001 C CNN
@@ -2027,10 +2016,10 @@ F 6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_4.99K R45
+L formula:R_4.99K R39
 U 1 1 5CB5C802
 P 9000 12200
-F 0 "R45" H 9070 12382 50  0000 L CNN
+F 0 "R39" H 9070 12382 50  0000 L CNN
 F 1 "R_4.99K" H 9070 12291 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 8800 12150 50  0001 C CNN
 F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 8900 12250 50  0001 C CNN
@@ -2041,10 +2030,10 @@ F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP080
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_4.99K R47
+L formula:R_4.99K R42
 U 1 1 5CB5C93E
 P 9350 12200
-F 0 "R47" H 9420 12382 50  0000 L CNN
+F 0 "R42" H 9420 12382 50  0000 L CNN
 F 1 "R_4.99K" H 9420 12291 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 9150 12150 50  0001 C CNN
 F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 9250 12250 50  0001 C CNN
@@ -2210,10 +2199,10 @@ Connection ~ 6950 5650
 NoConn ~ 7450 8550
 NoConn ~ 7450 9750
 $Comp
-L formula:C_1uF C33
+L formula:C_1uF C23
 U 1 1 5DE3B36B
 P 9200 10000
-F 0 "C33" H 9250 10100 50  0000 L CNN
+F 0 "C23" H 9250 10100 50  0000 L CNN
 F 1 "1uF" H 9250 9900 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 9238 9850 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 9225 10100 50  0001 C CNN
@@ -2227,10 +2216,10 @@ Connection ~ 9200 10150
 Wire Wire Line
 	8350 10150 8400 10150
 $Comp
-L formula:C_1uF C32
+L formula:C_1uF C21
 U 1 1 5DE3B37D
 P 8950 10000
-F 0 "C32" H 9000 10100 50  0000 L CNN
+F 0 "C21" H 9000 10100 50  0000 L CNN
 F 1 "1uF" H 9000 9900 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 8988 9850 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 8975 10100 50  0001 C CNN
@@ -2282,10 +2271,10 @@ NoConn ~ 8350 9250
 NoConn ~ 8350 8750
 NoConn ~ 8350 8850
 $Comp
-L formula:R_1K R103
+L formula:R_1K R38
 U 1 1 5DE3B3B9
 P 8650 8650
-F 0 "R103" V 8750 8650 50  0000 C CNN
+F 0 "R38" V 8750 8650 50  0000 C CNN
 F 1 "R_1K" V 8650 8650 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 8580 8650 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 8730 8650 50  0001 C CNN
@@ -2296,10 +2285,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 9130 9
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_1K R104
+L formula:R_1K R41
 U 1 1 5DE3B3C2
 P 9050 8650
-F 0 "R104" V 8950 8650 50  0000 C CNN
+F 0 "R41" V 8950 8650 50  0000 C CNN
 F 1 "R_1K" V 9050 8650 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 8980 8650 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 9130 8650 50  0001 C CNN
@@ -2312,10 +2301,10 @@ $EndComp
 Wire Wire Line
 	9300 8650 9200 8650
 $Comp
-L formula:R_100 R105
+L formula:R_100 R44
 U 1 1 5DE3B3D2
 P 9750 8700
-F 0 "R105" H 9820 8746 50  0000 L CNN
+F 0 "R44" H 9820 8746 50  0000 L CNN
 F 1 "R_100" H 9820 8655 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 9680 8700 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 9830 8700 50  0001 C CNN
@@ -2326,10 +2315,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 10230 
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_0.1uF C34
+L formula:C_0.1uF C25
 U 1 1 5DE3B3DB
 P 9750 9100
-F 0 "C34" H 9865 9146 50  0000 L CNN
+F 0 "C25" H 9865 9146 50  0000 L CNN
 F 1 "C_0.1uF" H 9865 9055 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 9788 8950 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 9775 9200 50  0001 C CNN
@@ -2340,10 +2329,10 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 10175 9600 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100 R102
+L formula:R_100 R36
 U 1 1 5DE3B3E7
 P 7400 8050
-F 0 "R102" V 7250 7950 50  0000 L CNN
+F 0 "R36" V 7250 7950 50  0000 L CNN
 F 1 "R_100" V 7150 7950 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 7330 8050 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 7480 8050 50  0001 C CNN
@@ -2354,10 +2343,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7880 8
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:C_0.1uF C30
+L formula:C_0.1uF C18
 U 1 1 5DE3B3F0
 P 7050 8050
-F 0 "C30" V 6900 7950 50  0000 L CNN
+F 0 "C18" V 6900 7950 50  0000 L CNN
 F 1 "C_0.1uF" V 6800 7900 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 7088 7900 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7075 8150 50  0001 C CNN
@@ -2436,10 +2425,10 @@ Connection ~ 9200 9100
 Wire Wire Line
 	9200 9100 9200 9150
 $Comp
-L formula:NSS1C201MZ4 Q18
+L formula:NSS1C201MZ4 Q2
 U 1 1 5DE3B438
 P 9100 9350
-F 0 "Q18" H 9341 9532 50  0000 L CNN
+F 0 "Q2" H 9341 9532 50  0000 L CNN
 F 1 "NSS1C201MZ4" H 9341 9441 50  0000 L CNN
 F 2 "footprints:SOT-223" H 8900 9450 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF" H 9000 9550 50  0001 C CNN
@@ -2450,10 +2439,10 @@ F 6 "https://www.digikey.com/product-detail/en/on-semiconductor/NSS1C201MZ4T3G/N
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:LTC6811-1 U8
+L formula:LTC6811-1 U2
 U 1 1 5DE3B441
 P 7950 9450
-F 0 "U8" H 7900 10800 50  0000 C CNN
+F 0 "U2" H 7900 10800 50  0000 C CNN
 F 1 "LTC6811-1" H 7900 10700 50  0000 C CNN
 F 2 "footprints:TSSOP-48_LTC6811-1" H 7300 10700 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf" H 7300 10700 50  0001 C CNN
@@ -2515,10 +2504,10 @@ Wire Wire Line
 Wire Wire Line
 	6950 8450 7450 8450
 $Comp
-L formula:R_100 R93
+L formula:R_100 R26
 U 1 1 5DF21479
 P 3800 8850
-F 0 "R93" V 3880 8850 50  0000 C CNN
+F 0 "R26" V 3880 8850 50  0000 C CNN
 F 1 "R_100" V 3700 8850 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3730 8850 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3880 8850 50  0001 C CNN
@@ -2529,10 +2518,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4280 9
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R85
+L formula:R_4.99K R9
 U 1 1 5DF2147F
 P 3450 9300
-F 0 "R85" V 3350 9300 50  0000 C CNN
+F 0 "R9" V 3350 9300 50  0000 C CNN
 F 1 "R_4.99K" V 3550 9300 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3450 9300 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3450 9300 50  0001 C CNN
@@ -2547,10 +2536,10 @@ Wire Wire Line
 Wire Wire Line
 	4200 9450 4100 9450
 $Comp
-L formula:R_100 R94
+L formula:R_100 R27
 U 1 1 5DF214A8
 P 3800 9700
-F 0 "R94" V 3880 9700 50  0000 C CNN
+F 0 "R27" V 3880 9700 50  0000 C CNN
 F 1 "R_100" V 3700 9700 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3730 9700 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3880 9700 50  0001 C CNN
@@ -2561,10 +2550,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4280 1
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R86
+L formula:R_4.99K R10
 U 1 1 5DF214AE
 P 3450 10150
-F 0 "R86" V 3350 10150 50  0000 C CNN
+F 0 "R10" V 3350 10150 50  0000 C CNN
 F 1 "R_4.99K" V 3550 10150 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3450 10150 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3450 10150 50  0001 C CNN
@@ -2581,10 +2570,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 9700 4100 9700
 $Comp
-L formula:R_100 R95
+L formula:R_100 R28
 U 1 1 5DF214DA
 P 3800 10550
-F 0 "R95" V 3880 10550 50  0000 C CNN
+F 0 "R28" V 3880 10550 50  0000 C CNN
 F 1 "R_100" V 3700 10550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3730 10550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3880 10550 50  0001 C CNN
@@ -2595,10 +2584,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4280 1
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R87
+L formula:R_4.99K R11
 U 1 1 5DF214E0
 P 3450 11000
-F 0 "R87" V 3350 11000 50  0000 C CNN
+F 0 "R11" V 3350 11000 50  0000 C CNN
 F 1 "R_4.99K" V 3550 11000 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3450 11000 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3450 11000 50  0001 C CNN
@@ -2615,10 +2604,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 10550 4100 10550
 $Comp
-L formula:R_100 R96
+L formula:R_100 R29
 U 1 1 5DF2150A
 P 3800 11400
-F 0 "R96" V 3880 11400 50  0000 C CNN
+F 0 "R29" V 3880 11400 50  0000 C CNN
 F 1 "R_100" V 3700 11400 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3730 11400 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3880 11400 50  0001 C CNN
@@ -2629,10 +2618,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4280 1
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R88
+L formula:R_4.99K R12
 U 1 1 5DF21510
 P 3450 11850
-F 0 "R88" V 3350 11850 50  0000 C CNN
+F 0 "R12" V 3350 11850 50  0000 C CNN
 F 1 "R_4.99K" V 3550 11850 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3450 11850 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3450 11850 50  0001 C CNN
@@ -2649,10 +2638,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 11400 4100 11400
 $Comp
-L formula:R_100 R97
+L formula:R_100 R30
 U 1 1 5DF2153A
 P 3800 12250
-F 0 "R97" V 3880 12250 50  0000 C CNN
+F 0 "R30" V 3880 12250 50  0000 C CNN
 F 1 "R_100" V 3700 12250 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3730 12250 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3880 12250 50  0001 C CNN
@@ -2663,10 +2652,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4280 1
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R89
+L formula:R_4.99K R13
 U 1 1 5DF21540
 P 3450 12700
-F 0 "R89" V 3350 12700 50  0000 C CNN
+F 0 "R13" V 3350 12700 50  0000 C CNN
 F 1 "R_4.99K" V 3550 12700 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3450 12700 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3450 12700 50  0001 C CNN
@@ -2681,10 +2670,10 @@ Wire Wire Line
 Wire Wire Line
 	4200 12850 4100 12850
 $Comp
-L formula:R_100 R98
+L formula:R_100 R31
 U 1 1 5DF21569
 P 3800 13100
-F 0 "R98" V 3880 13100 50  0000 C CNN
+F 0 "R31" V 3880 13100 50  0000 C CNN
 F 1 "R_100" V 3700 13100 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3730 13100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3880 13100 50  0001 C CNN
@@ -2695,10 +2684,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4280 1
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R90
+L formula:R_4.99K R14
 U 1 1 5DF2156F
 P 3450 13550
-F 0 "R90" V 3350 13550 50  0000 C CNN
+F 0 "R14" V 3350 13550 50  0000 C CNN
 F 1 "R_4.99K" V 3550 13550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3450 13550 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3450 13550 50  0001 C CNN
@@ -2715,10 +2704,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 13100 4100 13100
 $Comp
-L formula:R_100 R99
+L formula:R_100 R32
 U 1 1 5DF21599
 P 3800 13950
-F 0 "R99" V 3880 13950 50  0000 C CNN
+F 0 "R32" V 3880 13950 50  0000 C CNN
 F 1 "R_100" V 3700 13950 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3730 13950 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3880 13950 50  0001 C CNN
@@ -2729,10 +2718,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4280 1
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R91
+L formula:R_4.99K R15
 U 1 1 5DF2159F
 P 3450 14400
-F 0 "R91" V 3350 14400 50  0000 C CNN
+F 0 "R15" V 3350 14400 50  0000 C CNN
 F 1 "R_4.99K" V 3550 14400 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3450 14400 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3450 14400 50  0001 C CNN
@@ -2749,10 +2738,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 13950 4100 13950
 $Comp
-L formula:R_100 R100
+L formula:R_100 R33
 U 1 1 5DF215C9
 P 3800 14800
-F 0 "R100" V 3880 14800 50  0000 C CNN
+F 0 "R33" V 3880 14800 50  0000 C CNN
 F 1 "R_100" V 3700 14800 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3730 14800 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3880 14800 50  0001 C CNN
@@ -2763,10 +2752,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4280 1
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_4.99K R92
+L formula:R_4.99K R16
 U 1 1 5DF215CF
 P 3450 15250
-F 0 "R92" V 3350 15250 50  0000 C CNN
+F 0 "R16" V 3350 15250 50  0000 C CNN
 F 1 "R_4.99K" V 3550 15250 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3450 15250 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3450 15250 50  0001 C CNN
@@ -2813,10 +2802,10 @@ Connection ~ 4100 14800
 Wire Wire Line
 	4100 14800 4200 14800
 $Comp
-L formula:R_100 R101
+L formula:R_100 R34
 U 1 1 5DF2161F
 P 3800 15650
-F 0 "R101" V 3880 15650 50  0000 C CNN
+F 0 "R34" V 3880 15650 50  0000 C CNN
 F 1 "R_100" V 3700 15650 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3730 15650 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3880 15650 50  0001 C CNN
@@ -2842,10 +2831,10 @@ C5
 Text Label 3300 12250 2    50   ~ 0
 C4
 $Comp
-L formula:C_10nF C1
+L formula:C_10nF C9
 U 1 1 5DF2168A
 P 4200 9100
-F 0 "C1" H 4315 9146 50  0000 L CNN
+F 0 "C9" H 4315 9146 50  0000 L CNN
 F 1 "C_10nF" H 4315 9055 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 4000 9100 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4100 9200 50  0001 C CNN
@@ -2856,10 +2845,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C6
+L formula:C_10nF C10
 U 1 1 5DF21693
 P 4200 9950
-F 0 "C6" H 4315 9996 50  0000 L CNN
+F 0 "C10" H 4315 9996 50  0000 L CNN
 F 1 "C_10nF" H 4315 9905 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 4000 9950 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4100 10050 50  0001 C CNN
@@ -2870,10 +2859,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C24
+L formula:C_10nF C11
 U 1 1 5DF2169C
 P 4200 10800
-F 0 "C24" H 4315 10846 50  0000 L CNN
+F 0 "C11" H 4315 10846 50  0000 L CNN
 F 1 "C_10nF" H 4315 10755 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 4000 10800 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4100 10900 50  0001 C CNN
@@ -2884,10 +2873,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C25
+L formula:C_10nF C12
 U 1 1 5DF216A5
 P 4200 11650
-F 0 "C25" H 4315 11696 50  0000 L CNN
+F 0 "C12" H 4315 11696 50  0000 L CNN
 F 1 "C_10nF" H 4315 11605 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 4000 11650 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4100 11750 50  0001 C CNN
@@ -2898,10 +2887,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C26
+L formula:C_10nF C13
 U 1 1 5DF216AE
 P 4200 12500
-F 0 "C26" H 4315 12546 50  0000 L CNN
+F 0 "C13" H 4315 12546 50  0000 L CNN
 F 1 "C_10nF" H 4315 12455 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 4000 12500 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4100 12600 50  0001 C CNN
@@ -2912,10 +2901,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C27
+L formula:C_10nF C14
 U 1 1 5DF216B7
 P 4200 13350
-F 0 "C27" H 4315 13396 50  0000 L CNN
+F 0 "C14" H 4315 13396 50  0000 L CNN
 F 1 "C_10nF" H 4315 13305 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 4000 13350 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4100 13450 50  0001 C CNN
@@ -2926,10 +2915,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C28
+L formula:C_10nF C15
 U 1 1 5DF216C0
 P 4200 14200
-F 0 "C28" H 4315 14246 50  0000 L CNN
+F 0 "C15" H 4315 14246 50  0000 L CNN
 F 1 "C_10nF" H 4315 14155 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 4000 14200 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4100 14300 50  0001 C CNN
@@ -2940,10 +2929,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C29
+L formula:C_10nF C16
 U 1 1 5DF216C9
 P 4200 15050
-F 0 "C29" H 4315 15096 50  0000 L CNN
+F 0 "C16" H 4315 15096 50  0000 L CNN
 F 1 "C_10nF" H 4315 15005 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 4000 15050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 4100 15150 50  0001 C CNN
@@ -3184,21 +3173,10 @@ Wire Wire Line
 Wire Wire Line
 	14950 11150 14750 11150
 $Comp
-L formula:isoSPI-Cutout J8
-U 1 1 5DA71151
-P 15300 10950
-F 0 "J8" H 15350 11150 50  0000 C CNN
-F 1 "isoSPI-Cutout" H 15300 10750 50  0000 C CNN
-F 2 "footprints:iso_spi_cutout" H 15400 10950 50  0001 C CNN
-F 3 "" H 15400 10950 50  0001 C CNN
-	1    15300 10950
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:C_10nF C35
+L formula:C_10nF C28
 U 1 1 5DA7115A
 P 12150 10350
-F 0 "C35" H 12265 10396 50  0000 L CNN
+F 0 "C28" H 12265 10396 50  0000 L CNN
 F 1 "C_10nF" H 12265 10305 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 11950 10350 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 12050 10450 50  0001 C CNN
@@ -3209,10 +3187,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C36
+L formula:C_10nF C29
 U 1 1 5DA71163
 P 12150 11350
-F 0 "C36" H 12265 11396 50  0000 L CNN
+F 0 "C29" H 12265 11396 50  0000 L CNN
 F 1 "C_10nF" H 12265 11305 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 11950 11350 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 12050 11450 50  0001 C CNN
@@ -3223,10 +3201,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C37
+L formula:C_10nF C32
 U 1 1 5DA7116C
 P 13250 10250
-F 0 "C37" H 13365 10296 50  0000 L CNN
+F 0 "C32" H 13365 10296 50  0000 L CNN
 F 1 "C_10nF" H 13365 10205 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 13050 10250 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 13150 10350 50  0001 C CNN
@@ -3237,10 +3215,10 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_10nF C38
+L formula:C_10nF C33
 U 1 1 5DA71175
 P 13250 11050
-F 0 "C38" H 13365 11096 50  0000 L CNN
+F 0 "C33" H 13365 11096 50  0000 L CNN
 F 1 "C_10nF" H 13365 11005 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 13050 11050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 13150 11150 50  0001 C CNN
@@ -3257,10 +3235,10 @@ Wire Wire Line
 Wire Wire Line
 	11950 10750 12550 10750
 $Comp
-L formula:R_60.4 R106
+L formula:R_60.4 R61
 U 1 1 5DA71181
 P 12550 10000
-F 0 "R106" H 12620 10046 50  0000 L CNN
+F 0 "R61" H 12620 10046 50  0000 L CNN
 F 1 "R_60.4" H 12620 9955 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12350 9900 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 12450 10000 50  0001 C CNN
@@ -3274,10 +3252,10 @@ Connection ~ 12550 9850
 Wire Wire Line
 	12550 9850 13000 9850
 $Comp
-L formula:R_60.4 R107
+L formula:R_60.4 R62
 U 1 1 5DA7118C
 P 12550 10400
-F 0 "R107" H 12620 10446 50  0000 L CNN
+F 0 "R62" H 12620 10446 50  0000 L CNN
 F 1 "R_60.4" H 12620 10355 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12350 10300 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 12450 10400 50  0001 C CNN
@@ -3291,10 +3269,10 @@ Connection ~ 12550 10550
 Wire Wire Line
 	12550 10550 13000 10550
 $Comp
-L formula:R_60.4 R108
+L formula:R_60.4 R63
 U 1 1 5DA71197
 P 12550 10900
-F 0 "R108" H 12620 10946 50  0000 L CNN
+F 0 "R63" H 12620 10946 50  0000 L CNN
 F 1 "R_60.4" H 12620 10855 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12350 10800 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 12450 10900 50  0001 C CNN
@@ -3308,10 +3286,10 @@ Connection ~ 12550 10750
 Wire Wire Line
 	12550 10750 13500 10750
 $Comp
-L formula:R_60.4 R109
+L formula:R_60.4 R64
 U 1 1 5DA711A2
 P 12550 11350
-F 0 "R109" H 12620 11396 50  0000 L CNN
+F 0 "R64" H 12620 11396 50  0000 L CNN
 F 1 "R_60.4" H 12620 11305 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12350 11250 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 12450 11350 50  0001 C CNN
@@ -3330,8 +3308,8 @@ L formula:MM_F_VT_10 J?
 U 1 1 5DDF7956
 P 7450 3400
 AR Path="/5DC492E4/5DDF7956" Ref="J?"  Part="1" 
-AR Path="/5DDF7956" Ref="J4"  Part="1" 
-F 0 "J4" H 7100 4000 60  0000 C CNN
+AR Path="/5DDF7956" Ref="J2"  Part="1" 
+F 0 "J2" H 7100 4000 60  0000 C CNN
 F 1 "MM_F_VT_10" H 7350 3450 60  0000 C CNN
 F 2 "footprints:micromatch_female_vert_10" H 7250 4500 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-0" H 7350 4600 60  0001 C CNN
@@ -3346,8 +3324,8 @@ L formula:MM_F_VT_12 J?
 U 1 1 5DDF7960
 P 7350 1550
 AR Path="/5DC492E4/5DDF7960" Ref="J?"  Part="1" 
-AR Path="/5DDF7960" Ref="J3"  Part="1" 
-F 0 "J3" H 7100 1550 60  0000 C CNN
+AR Path="/5DDF7960" Ref="J1"  Part="1" 
+F 0 "J1" H 7100 1550 60  0000 C CNN
 F 1 "MM_F_VT_12" H 7350 2250 60  0000 C CNN
 F 2 "footprints:micromatch_female_vert_12" H 7250 2100 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-2" H 7250 2750 60  0001 C CNN
@@ -3640,10 +3618,10 @@ Q2
 Text Label 3250 15250 2    50   ~ 0
 Q1
 $Comp
-L formula:MM_F_VT_16 J?
+L formula:MM_F_VT_16 J3
 U 1 1 5FF172F7
 P 8400 2150
-F 0 "J?" H 8456 3197 60  0000 C CNN
+F 0 "J3" H 8456 3197 60  0000 C CNN
 F 1 "MM_F_VT_16" H 8456 3091 60  0000 C CNN
 F 2 "footprints:micromatch_female_vert_16" H 8300 2950 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-6" H 8300 3350 60  0001 C CNN
@@ -3699,10 +3677,10 @@ Text Label 9750 6200 2    50   ~ 0
 GND1
 Connection ~ 7200 4850
 $Comp
-L formula:C_0.1uF C11
+L formula:C_0.1uF C17
 U 1 1 5C4514F6
 P 7050 4850
-F 0 "C11" V 6900 4750 50  0000 L CNN
+F 0 "C17" V 6900 4750 50  0000 L CNN
 F 1 "C_0.1uF" V 6800 4700 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 7088 4700 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7075 4950 50  0001 C CNN
@@ -3791,10 +3769,10 @@ V-2
 Text Label 9950 2650 0    50   ~ 0
 V+2
 $Comp
-L formula:MM_F_VT_12 J?
+L formula:MM_F_VT_12 J4
 U 1 1 60BFA1EF
 P 9700 2800
-F 0 "J?" H 9450 2850 60  0000 C CNN
+F 0 "J4" H 9450 2850 60  0000 C CNN
 F 1 "MM_F_VT_12" H 9700 2150 60  0000 C CNN
 F 2 "footprints:micromatch_female_vert_12" H 9600 3350 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-2" H 9600 4000 60  0001 C CNN
@@ -3814,4 +3792,32 @@ Text Notes 10250 1400 0    50   ~ 0
 V+1 is same \nas C16, for\nKelvin connection
 Text Notes 8050 3000 0    50   ~ 0
 Traces to transistor gates
+$Comp
+L formula:MicroFit_RA_V_2_SMD J6
+U 1 1 5DE56ACD
+P 15400 7600
+F 0 "J6" H 15222 7651 50  0000 R CNN
+F 1 "MicroFit_RA_V_2_SMD" H 15222 7560 50  0000 R CNN
+F 2 "footprints:MicroFit_RA_2_SMD" H 15350 7800 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/436500213_sd.pdf" H 15350 7800 50  0001 C CNN
+F 4 "MFN" H 15500 7850 50  0001 C CNN "DK"
+F 5 "436500213" H 15600 7950 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0436500213/WM1895CT-ND/269061" H 15400 7750 50  0001 C CNN "PurchasingLink"
+	1    15400 7600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L formula:MicroFit_RA_V_2_SMD J7
+U 1 1 5DEE801F
+P 15400 10950
+F 0 "J7" H 15222 11001 50  0000 R CNN
+F 1 "MicroFit_RA_V_2_SMD" H 15222 10910 50  0000 R CNN
+F 2 "footprints:MicroFit_RA_2_SMD" H 15350 11150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/436500213_sd.pdf" H 15350 11150 50  0001 C CNN
+F 4 "MFN" H 15500 11200 50  0001 C CNN "DK"
+F 5 "436500213" H 15600 11300 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0436500213/WM1895CT-ND/269061" H 15400 11100 50  0001 C CNN "PurchasingLink"
+	1    15400 10950
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
