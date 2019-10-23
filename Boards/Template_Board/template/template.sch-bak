@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:template-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1019,16 +1019,4 @@ F 3 "" H 10130 3380 50  0001 C CNN
 $EndComp
 Text Notes 8980 3080 0    89   ~ 0
 16M1 PROGRAMMING HEADER\n
-$Comp
-L power:VCC #PWR?
-U 1 1 5DB132A0
-P 820 1110
-F 0 "#PWR?" H 820 960 50  0001 C CNN
-F 1 "VCC" H 837 1283 50  0000 C CNN
-F 2 "" H 820 1110 50  0001 C CNN
-F 3 "" H 820 1110 50  0001 C CNN
-	1    820  1110
-	1    0    0    -1  
-$EndComp
-Connection ~ 820  1110
 $EndSCHEMATC
