@@ -1,4 +1,4 @@
-update=Wed 23 Oct 2019 04:41:35 PM EDT
+update=Mon 28 Oct 2019 09:40:31 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=template.net
+LastNetListRead=Cooling_Sense.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
