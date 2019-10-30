@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:DA_Board_2-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -14,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L formula:Thermistor RT?
+L formula:Thermistor RT1
 U 1 1 5DB8C5EC
 P 11100 2650
-F 0 "RT?" H 11350 2800 50  0000 C CNN
+F 0 "RT1" H 11350 2800 50  0000 C CNN
 F 1 "Thermistor" H 11100 2908 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 2310 50  0001 C CNN
 F 3 "" H 11100 2650 50  0001 C CNN
@@ -25,10 +26,10 @@ F 3 "" H 11100 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT?
+L formula:Thermistor RT2
 U 1 1 5DB8C5F3
 P 11100 3200
-F 0 "RT?" H 11350 3350 50  0000 C CNN
+F 0 "RT2" H 11350 3350 50  0000 C CNN
 F 1 "Thermistor" H 11100 3458 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 2860 50  0001 C CNN
 F 3 "" H 11100 3200 50  0001 C CNN
@@ -36,10 +37,10 @@ F 3 "" H 11100 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT?
+L formula:Thermistor RT3
 U 1 1 5DB8C5FA
 P 11100 3750
-F 0 "RT?" H 11350 3900 50  0000 C CNN
+F 0 "RT3" H 11350 3900 50  0000 C CNN
 F 1 "Thermistor" H 11100 4008 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 3410 50  0001 C CNN
 F 3 "" H 11100 3750 50  0001 C CNN
@@ -47,10 +48,10 @@ F 3 "" H 11100 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT?
+L formula:Thermistor RT4
 U 1 1 5DB8C601
 P 11100 4300
-F 0 "RT?" H 11350 4450 50  0000 C CNN
+F 0 "RT4" H 11350 4450 50  0000 C CNN
 F 1 "Thermistor" H 11100 4558 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 3960 50  0001 C CNN
 F 3 "" H 11100 4300 50  0001 C CNN
@@ -58,10 +59,10 @@ F 3 "" H 11100 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT?
+L formula:Thermistor RT5
 U 1 1 5DB8C608
 P 11100 4850
-F 0 "RT?" H 11350 5000 50  0000 C CNN
+F 0 "RT5" H 11350 5000 50  0000 C CNN
 F 1 "Thermistor" H 11100 5108 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 4510 50  0001 C CNN
 F 3 "" H 11100 4850 50  0001 C CNN
@@ -69,10 +70,10 @@ F 3 "" H 11100 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT?
+L formula:Thermistor RT6
 U 1 1 5DB8C60F
 P 11100 5400
-F 0 "RT?" H 11350 5550 50  0000 C CNN
+F 0 "RT6" H 11350 5550 50  0000 C CNN
 F 1 "Thermistor" H 11100 5658 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 5060 50  0001 C CNN
 F 3 "" H 11100 5400 50  0001 C CNN
@@ -80,10 +81,10 @@ F 3 "" H 11100 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT?
+L formula:Thermistor RT7
 U 1 1 5DB8C616
 P 11100 5950
-F 0 "RT?" H 11350 6100 50  0000 C CNN
+F 0 "RT7" H 11350 6100 50  0000 C CNN
 F 1 "Thermistor" H 11100 6208 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 5610 50  0001 C CNN
 F 3 "" H 11100 5950 50  0001 C CNN
@@ -138,10 +139,10 @@ Connection ~ 11600 5950
 Wire Wire Line
 	11600 5400 11600 5950
 $Comp
-L formula:Thermistor RT?
+L formula:Thermistor RT8
 U 1 1 5DB8C637
 P 11100 6500
-F 0 "RT?" H 11350 6650 50  0000 C CNN
+F 0 "RT8" H 11350 6650 50  0000 C CNN
 F 1 "Thermistor" H 11100 6758 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 6160 50  0001 C CNN
 F 3 "" H 11100 6500 50  0001 C CNN
@@ -149,10 +150,10 @@ F 3 "" H 11100 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT?
+L formula:Thermistor RT9
 U 1 1 5DB8C63E
 P 11100 7050
-F 0 "RT?" H 11350 7200 50  0000 C CNN
+F 0 "RT9" H 11350 7200 50  0000 C CNN
 F 1 "Thermistor" H 11100 7308 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 6710 50  0001 C CNN
 F 3 "" H 11100 7050 50  0001 C CNN
@@ -160,10 +161,10 @@ F 3 "" H 11100 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT?
+L formula:Thermistor RT10
 U 1 1 5DB8C645
 P 11100 7600
-F 0 "RT?" H 11350 7750 50  0000 C CNN
+F 0 "RT10" H 11350 7750 50  0000 C CNN
 F 1 "Thermistor" H 11100 7858 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 7260 50  0001 C CNN
 F 3 "" H 11100 7600 50  0001 C CNN
@@ -177,10 +178,10 @@ C7_T1
 Text Label 10800 7600 2    50   ~ 0
 C3_T3
 $Comp
-L formula:Thermistor RT?
+L formula:Thermistor RT11
 U 1 1 5DB8C64F
 P 11100 8150
-F 0 "RT?" H 11350 8300 50  0000 C CNN
+F 0 "RT11" H 11350 8300 50  0000 C CNN
 F 1 "Thermistor" H 11100 8408 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 7810 50  0001 C CNN
 F 3 "" H 11100 8150 50  0001 C CNN
@@ -190,10 +191,10 @@ $EndComp
 Text Label 10800 8150 2    50   ~ 0
 C3_T2
 $Comp
-L formula:Thermistor RT?
+L formula:Thermistor RT12
 U 1 1 5DB8C657
 P 11100 8700
-F 0 "RT?" H 11350 8850 50  0000 C CNN
+F 0 "RT12" H 11350 8850 50  0000 C CNN
 F 1 "Thermistor" H 11100 8958 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 8360 50  0001 C CNN
 F 3 "" H 11100 8700 50  0001 C CNN
@@ -244,8 +245,8 @@ L formula:LED_0805 D?
 U 1 1 5DB8C678
 P 2150 2250
 AR Path="/5DB8402B/5DB8C678" Ref="D?"  Part="1" 
-AR Path="/5DB8C678" Ref="D?"  Part="1" 
-F 0 "D?" V 2150 2350 50  0000 C CNN
+AR Path="/5DB8C678" Ref="D1"  Part="1" 
+F 0 "D1" V 2150 2350 50  0000 C CNN
 F 1 "LED_0805" V 2050 2500 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 2050 2250 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2150 2350 50  0001 C CNN
@@ -260,8 +261,8 @@ L formula:R_475 R?
 U 1 1 5DB8C682
 P 2150 2600
 AR Path="/5DB8402B/5DB8C682" Ref="R?"  Part="1" 
-AR Path="/5DB8C682" Ref="R?"  Part="1" 
-F 0 "R?" V 2230 2600 50  0000 C CNN
+AR Path="/5DB8C682" Ref="R1"  Part="1" 
+F 0 "R1" V 2230 2600 50  0000 C CNN
 F 1 "R_475" V 2050 2600 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 2080 2600 50  0001 C CNN
 F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2230 2600 50  0001 C CNN
@@ -289,8 +290,8 @@ L formula:BSS308PE Q?
 U 1 1 5DB8C693
 P 2900 2200
 AR Path="/5DB8402B/5DB8C693" Ref="Q?"  Part="1" 
-AR Path="/5DB8C693" Ref="Q?"  Part="1" 
-F 0 "Q?" V 3243 2200 50  0000 C CNN
+AR Path="/5DB8C693" Ref="Q1"  Part="1" 
+F 0 "Q1" V 3243 2200 50  0000 C CNN
 F 1 "BSS308PE" V 3152 2200 50  0000 C CNN
 F 2 "footprints:SOT-23-3_OEM" H 3100 2300 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3100 2250 50  0001 C CNN
@@ -307,8 +308,8 @@ L formula:R_3.3_25W_TO163 R?
 U 1 1 5DB8C69E
 P 2450 2400
 AR Path="/5DB8402B/5DB8C69E" Ref="R?"  Part="1" 
-AR Path="/5DB8C69E" Ref="R?"  Part="1" 
-F 0 "R?" V 2359 2322 50  0000 R CNN
+AR Path="/5DB8C69E" Ref="R4"  Part="1" 
+F 0 "R4" V 2359 2322 50  0000 R CNN
 F 1 "R_3.3_25W_TO163" V 2450 2322 50  0000 R CNN
 F 2 "footprints:PWR163" H 2200 2450 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2450 2400 50  0001 C CNN
@@ -344,8 +345,8 @@ L formula:LED_0805 D?
 U 1 1 5DB8C6B4
 P 2350 6850
 AR Path="/5DB8402B/5DB8C6B4" Ref="D?"  Part="1" 
-AR Path="/5DB8C6B4" Ref="D?"  Part="1" 
-F 0 "D?" V 2350 6950 50  0000 C CNN
+AR Path="/5DB8C6B4" Ref="D3"  Part="1" 
+F 0 "D3" V 2350 6950 50  0000 C CNN
 F 1 "LED_0805" V 2250 7100 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 2250 6850 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2350 6950 50  0001 C CNN
@@ -360,8 +361,8 @@ L formula:R_475 R?
 U 1 1 5DB8C6BE
 P 2350 7200
 AR Path="/5DB8402B/5DB8C6BE" Ref="R?"  Part="1" 
-AR Path="/5DB8C6BE" Ref="R?"  Part="1" 
-F 0 "R?" V 2430 7200 50  0000 C CNN
+AR Path="/5DB8C6BE" Ref="R3"  Part="1" 
+F 0 "R3" V 2430 7200 50  0000 C CNN
 F 1 "R_475" V 2250 7200 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 2280 7200 50  0001 C CNN
 F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2430 7200 50  0001 C CNN
@@ -380,8 +381,8 @@ L formula:BSS308PE Q?
 U 1 1 5DB8C6CA
 P 3100 6800
 AR Path="/5DB8402B/5DB8C6CA" Ref="Q?"  Part="1" 
-AR Path="/5DB8C6CA" Ref="Q?"  Part="1" 
-F 0 "Q?" V 3443 6800 50  0000 C CNN
+AR Path="/5DB8C6CA" Ref="Q3"  Part="1" 
+F 0 "Q3" V 3443 6800 50  0000 C CNN
 F 1 "BSS308PE" V 3352 6800 50  0000 C CNN
 F 2 "footprints:SOT-23-3_OEM" H 3300 6900 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3300 6850 50  0001 C CNN
@@ -398,8 +399,8 @@ L formula:R_3.3_25W_TO163 R?
 U 1 1 5DB8C6D5
 P 2650 7000
 AR Path="/5DB8402B/5DB8C6D5" Ref="R?"  Part="1" 
-AR Path="/5DB8C6D5" Ref="R?"  Part="1" 
-F 0 "R?" V 2559 6922 50  0000 R CNN
+AR Path="/5DB8C6D5" Ref="R7"  Part="1" 
+F 0 "R7" V 2559 6922 50  0000 R CNN
 F 1 "R_3.3_25W_TO163" V 2650 6922 50  0000 R CNN
 F 2 "footprints:PWR163" H 2400 7050 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2650 7000 50  0001 C CNN
@@ -433,8 +434,8 @@ L formula:LED_0805 D?
 U 1 1 5DB8C6EA
 P 2550 9200
 AR Path="/5DB8402B/5DB8C6EA" Ref="D?"  Part="1" 
-AR Path="/5DB8C6EA" Ref="D?"  Part="1" 
-F 0 "D?" V 2550 9300 50  0000 C CNN
+AR Path="/5DB8C6EA" Ref="D4"  Part="1" 
+F 0 "D4" V 2550 9300 50  0000 C CNN
 F 1 "LED_0805" V 2450 9450 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 2450 9200 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2550 9300 50  0001 C CNN
@@ -449,8 +450,8 @@ L formula:R_475 R?
 U 1 1 5DB8C6F4
 P 2550 9550
 AR Path="/5DB8402B/5DB8C6F4" Ref="R?"  Part="1" 
-AR Path="/5DB8C6F4" Ref="R?"  Part="1" 
-F 0 "R?" V 2630 9550 50  0000 C CNN
+AR Path="/5DB8C6F4" Ref="R5"  Part="1" 
+F 0 "R5" V 2630 9550 50  0000 C CNN
 F 1 "R_475" V 2450 9550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 2480 9550 50  0001 C CNN
 F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2630 9550 50  0001 C CNN
@@ -469,8 +470,8 @@ L formula:BSS308PE Q?
 U 1 1 5DB8C700
 P 3300 9150
 AR Path="/5DB8402B/5DB8C700" Ref="Q?"  Part="1" 
-AR Path="/5DB8C700" Ref="Q?"  Part="1" 
-F 0 "Q?" V 3643 9150 50  0000 C CNN
+AR Path="/5DB8C700" Ref="Q4"  Part="1" 
+F 0 "Q4" V 3643 9150 50  0000 C CNN
 F 1 "BSS308PE" V 3552 9150 50  0000 C CNN
 F 2 "footprints:SOT-23-3_OEM" H 3500 9250 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3500 9200 50  0001 C CNN
@@ -487,8 +488,8 @@ L formula:R_3.3_25W_TO163 R?
 U 1 1 5DB8C70B
 P 2850 9350
 AR Path="/5DB8402B/5DB8C70B" Ref="R?"  Part="1" 
-AR Path="/5DB8C70B" Ref="R?"  Part="1" 
-F 0 "R?" V 2759 9272 50  0000 R CNN
+AR Path="/5DB8C70B" Ref="R8"  Part="1" 
+F 0 "R8" V 2759 9272 50  0000 R CNN
 F 1 "R_3.3_25W_TO163" V 2850 9272 50  0000 R CNN
 F 2 "footprints:PWR163" H 2600 9400 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2850 9350 50  0001 C CNN
@@ -522,8 +523,8 @@ L formula:LED_0805 D?
 U 1 1 5DB8C720
 P 7050 3150
 AR Path="/5DB8402B/5DB8C720" Ref="D?"  Part="1" 
-AR Path="/5DB8C720" Ref="D?"  Part="1" 
-F 0 "D?" V 7050 3250 50  0000 C CNN
+AR Path="/5DB8C720" Ref="D8"  Part="1" 
+F 0 "D8" V 7050 3250 50  0000 C CNN
 F 1 "LED_0805" V 6950 3400 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 6950 3150 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 7050 3250 50  0001 C CNN
@@ -538,8 +539,8 @@ L formula:R_475 R?
 U 1 1 5DB8C72A
 P 7050 3500
 AR Path="/5DB8402B/5DB8C72A" Ref="R?"  Part="1" 
-AR Path="/5DB8C72A" Ref="R?"  Part="1" 
-F 0 "R?" V 7130 3500 50  0000 C CNN
+AR Path="/5DB8C72A" Ref="R12"  Part="1" 
+F 0 "R12" V 7130 3500 50  0000 C CNN
 F 1 "R_475" V 6950 3500 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 6980 3500 50  0001 C CNN
 F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 7130 3500 50  0001 C CNN
@@ -558,8 +559,8 @@ L formula:BSS308PE Q?
 U 1 1 5DB8C736
 P 7800 3100
 AR Path="/5DB8402B/5DB8C736" Ref="Q?"  Part="1" 
-AR Path="/5DB8C736" Ref="Q?"  Part="1" 
-F 0 "Q?" V 8143 3100 50  0000 C CNN
+AR Path="/5DB8C736" Ref="Q8"  Part="1" 
+F 0 "Q8" V 8143 3100 50  0000 C CNN
 F 1 "BSS308PE" V 8052 3100 50  0000 C CNN
 F 2 "footprints:SOT-23-3_OEM" H 8000 3200 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 8000 3150 50  0001 C CNN
@@ -576,8 +577,8 @@ L formula:R_3.3_25W_TO163 R?
 U 1 1 5DB8C741
 P 7350 3300
 AR Path="/5DB8402B/5DB8C741" Ref="R?"  Part="1" 
-AR Path="/5DB8C741" Ref="R?"  Part="1" 
-F 0 "R?" V 7259 3222 50  0000 R CNN
+AR Path="/5DB8C741" Ref="R16"  Part="1" 
+F 0 "R16" V 7259 3222 50  0000 R CNN
 F 1 "R_3.3_25W_TO163" V 7350 3222 50  0000 R CNN
 F 2 "footprints:PWR163" H 7100 3350 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 7350 3300 50  0001 C CNN
@@ -611,8 +612,8 @@ L formula:LED_0805 D?
 U 1 1 5DB8C756
 P 7000 5000
 AR Path="/5DB8402B/5DB8C756" Ref="D?"  Part="1" 
-AR Path="/5DB8C756" Ref="D?"  Part="1" 
-F 0 "D?" V 7000 5100 50  0000 C CNN
+AR Path="/5DB8C756" Ref="D7"  Part="1" 
+F 0 "D7" V 7000 5100 50  0000 C CNN
 F 1 "LED_0805" V 6900 5250 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 6900 5000 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 7000 5100 50  0001 C CNN
@@ -627,8 +628,8 @@ L formula:R_475 R?
 U 1 1 5DB8C760
 P 7000 5350
 AR Path="/5DB8402B/5DB8C760" Ref="R?"  Part="1" 
-AR Path="/5DB8C760" Ref="R?"  Part="1" 
-F 0 "R?" V 7080 5350 50  0000 C CNN
+AR Path="/5DB8C760" Ref="R11"  Part="1" 
+F 0 "R11" V 7080 5350 50  0000 C CNN
 F 1 "R_475" V 6900 5350 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 6930 5350 50  0001 C CNN
 F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 7080 5350 50  0001 C CNN
@@ -647,8 +648,8 @@ L formula:BSS308PE Q?
 U 1 1 5DB8C76C
 P 7750 4950
 AR Path="/5DB8402B/5DB8C76C" Ref="Q?"  Part="1" 
-AR Path="/5DB8C76C" Ref="Q?"  Part="1" 
-F 0 "Q?" V 8093 4950 50  0000 C CNN
+AR Path="/5DB8C76C" Ref="Q7"  Part="1" 
+F 0 "Q7" V 8093 4950 50  0000 C CNN
 F 1 "BSS308PE" V 8002 4950 50  0000 C CNN
 F 2 "footprints:SOT-23-3_OEM" H 7950 5050 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 7950 5000 50  0001 C CNN
@@ -665,8 +666,8 @@ L formula:R_3.3_25W_TO163 R?
 U 1 1 5DB8C777
 P 7300 5150
 AR Path="/5DB8402B/5DB8C777" Ref="R?"  Part="1" 
-AR Path="/5DB8C777" Ref="R?"  Part="1" 
-F 0 "R?" V 7209 5072 50  0000 R CNN
+AR Path="/5DB8C777" Ref="R15"  Part="1" 
+F 0 "R15" V 7209 5072 50  0000 R CNN
 F 1 "R_3.3_25W_TO163" V 7300 5072 50  0000 R CNN
 F 2 "footprints:PWR163" H 7050 5200 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 7300 5150 50  0001 C CNN
@@ -700,8 +701,8 @@ L formula:LED_0805 D?
 U 1 1 5DB8C78C
 P 6850 7100
 AR Path="/5DB8402B/5DB8C78C" Ref="D?"  Part="1" 
-AR Path="/5DB8C78C" Ref="D?"  Part="1" 
-F 0 "D?" V 6850 7200 50  0000 C CNN
+AR Path="/5DB8C78C" Ref="D5"  Part="1" 
+F 0 "D5" V 6850 7200 50  0000 C CNN
 F 1 "LED_0805" V 6750 7350 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 6750 7100 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 6850 7200 50  0001 C CNN
@@ -716,8 +717,8 @@ L formula:R_475 R?
 U 1 1 5DB8C796
 P 6850 7450
 AR Path="/5DB8402B/5DB8C796" Ref="R?"  Part="1" 
-AR Path="/5DB8C796" Ref="R?"  Part="1" 
-F 0 "R?" V 6930 7450 50  0000 C CNN
+AR Path="/5DB8C796" Ref="R9"  Part="1" 
+F 0 "R9" V 6930 7450 50  0000 C CNN
 F 1 "R_475" V 6750 7450 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 6780 7450 50  0001 C CNN
 F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 6930 7450 50  0001 C CNN
@@ -736,8 +737,8 @@ L formula:BSS308PE Q?
 U 1 1 5DB8C7A2
 P 7600 7050
 AR Path="/5DB8402B/5DB8C7A2" Ref="Q?"  Part="1" 
-AR Path="/5DB8C7A2" Ref="Q?"  Part="1" 
-F 0 "Q?" V 7943 7050 50  0000 C CNN
+AR Path="/5DB8C7A2" Ref="Q5"  Part="1" 
+F 0 "Q5" V 7943 7050 50  0000 C CNN
 F 1 "BSS308PE" V 7852 7050 50  0000 C CNN
 F 2 "footprints:SOT-23-3_OEM" H 7800 7150 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 7800 7100 50  0001 C CNN
@@ -754,8 +755,8 @@ L formula:R_3.3_25W_TO163 R?
 U 1 1 5DB8C7AD
 P 7150 7250
 AR Path="/5DB8402B/5DB8C7AD" Ref="R?"  Part="1" 
-AR Path="/5DB8C7AD" Ref="R?"  Part="1" 
-F 0 "R?" V 7059 7172 50  0000 R CNN
+AR Path="/5DB8C7AD" Ref="R13"  Part="1" 
+F 0 "R13" V 7059 7172 50  0000 R CNN
 F 1 "R_3.3_25W_TO163" V 7150 7172 50  0000 R CNN
 F 2 "footprints:PWR163" H 6900 7300 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 7150 7250 50  0001 C CNN
@@ -789,8 +790,8 @@ L formula:LED_0805 D?
 U 1 1 5DB8C7C2
 P 6850 8800
 AR Path="/5DB8402B/5DB8C7C2" Ref="D?"  Part="1" 
-AR Path="/5DB8C7C2" Ref="D?"  Part="1" 
-F 0 "D?" V 6850 8900 50  0000 C CNN
+AR Path="/5DB8C7C2" Ref="D6"  Part="1" 
+F 0 "D6" V 6850 8900 50  0000 C CNN
 F 1 "LED_0805" V 6750 9050 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 6750 8800 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 6850 8900 50  0001 C CNN
@@ -805,8 +806,8 @@ L formula:R_475 R?
 U 1 1 5DB8C7CC
 P 6850 9150
 AR Path="/5DB8402B/5DB8C7CC" Ref="R?"  Part="1" 
-AR Path="/5DB8C7CC" Ref="R?"  Part="1" 
-F 0 "R?" V 6930 9150 50  0000 C CNN
+AR Path="/5DB8C7CC" Ref="R10"  Part="1" 
+F 0 "R10" V 6930 9150 50  0000 C CNN
 F 1 "R_475" V 6750 9150 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 6780 9150 50  0001 C CNN
 F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 6930 9150 50  0001 C CNN
@@ -825,8 +826,8 @@ L formula:BSS308PE Q?
 U 1 1 5DB8C7D8
 P 7600 8750
 AR Path="/5DB8402B/5DB8C7D8" Ref="Q?"  Part="1" 
-AR Path="/5DB8C7D8" Ref="Q?"  Part="1" 
-F 0 "Q?" V 7943 8750 50  0000 C CNN
+AR Path="/5DB8C7D8" Ref="Q6"  Part="1" 
+F 0 "Q6" V 7943 8750 50  0000 C CNN
 F 1 "BSS308PE" V 7852 8750 50  0000 C CNN
 F 2 "footprints:SOT-23-3_OEM" H 7800 8850 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 7800 8800 50  0001 C CNN
@@ -843,8 +844,8 @@ L formula:R_3.3_25W_TO163 R?
 U 1 1 5DB8C7E3
 P 7150 8950
 AR Path="/5DB8402B/5DB8C7E3" Ref="R?"  Part="1" 
-AR Path="/5DB8C7E3" Ref="R?"  Part="1" 
-F 0 "R?" V 7059 8872 50  0000 R CNN
+AR Path="/5DB8C7E3" Ref="R14"  Part="1" 
+F 0 "R14" V 7059 8872 50  0000 R CNN
 F 1 "R_3.3_25W_TO163" V 7150 8872 50  0000 R CNN
 F 2 "footprints:PWR163" H 6900 9000 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 7150 8950 50  0001 C CNN
@@ -881,8 +882,8 @@ L formula:LED_0805 D?
 U 1 1 5DB8C7F9
 P 2350 4650
 AR Path="/5DB8402B/5DB8C7F9" Ref="D?"  Part="1" 
-AR Path="/5DB8C7F9" Ref="D?"  Part="1" 
-F 0 "D?" V 2350 4750 50  0000 C CNN
+AR Path="/5DB8C7F9" Ref="D2"  Part="1" 
+F 0 "D2" V 2350 4750 50  0000 C CNN
 F 1 "LED_0805" V 2250 4900 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 2250 4650 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2350 4750 50  0001 C CNN
@@ -897,8 +898,8 @@ L formula:R_475 R?
 U 1 1 5DB8C803
 P 2350 5000
 AR Path="/5DB8402B/5DB8C803" Ref="R?"  Part="1" 
-AR Path="/5DB8C803" Ref="R?"  Part="1" 
-F 0 "R?" V 2430 5000 50  0000 C CNN
+AR Path="/5DB8C803" Ref="R2"  Part="1" 
+F 0 "R2" V 2430 5000 50  0000 C CNN
 F 1 "R_475" V 2250 5000 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 2280 5000 50  0001 C CNN
 F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 2430 5000 50  0001 C CNN
@@ -917,8 +918,8 @@ L formula:BSS308PE Q?
 U 1 1 5DB8C80F
 P 3100 4600
 AR Path="/5DB8402B/5DB8C80F" Ref="Q?"  Part="1" 
-AR Path="/5DB8C80F" Ref="Q?"  Part="1" 
-F 0 "Q?" V 3443 4600 50  0000 C CNN
+AR Path="/5DB8C80F" Ref="Q2"  Part="1" 
+F 0 "Q2" V 3443 4600 50  0000 C CNN
 F 1 "BSS308PE" V 3352 4600 50  0000 C CNN
 F 2 "footprints:SOT-23-3_OEM" H 3300 4700 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3300 4650 50  0001 C CNN
@@ -935,8 +936,8 @@ L formula:R_3.3_25W_TO163 R?
 U 1 1 5DB8C81A
 P 2650 4800
 AR Path="/5DB8402B/5DB8C81A" Ref="R?"  Part="1" 
-AR Path="/5DB8C81A" Ref="R?"  Part="1" 
-F 0 "R?" V 2559 4722 50  0000 R CNN
+AR Path="/5DB8C81A" Ref="R6"  Part="1" 
+F 0 "R6" V 2559 4722 50  0000 R CNN
 F 1 "R_3.3_25W_TO163" V 2650 4722 50  0000 R CNN
 F 2 "footprints:PWR163" H 2400 4850 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2650 4800 50  0001 C CNN
@@ -980,10 +981,10 @@ Q1
 Wire Wire Line
 	7600 9000 8050 9000
 $Comp
-L formula:200mA_Fuse F?
+L formula:200mA_Fuse F1
 U 1 1 5DB8C836
 P 3650 2000
-F 0 "F?" H 3650 2100 50  0000 C CNN
+F 0 "F1" H 3650 2100 50  0000 C CNN
 F 1 "200mA_Fuse" H 3650 1900 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 3600 2000 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 3600 2000 50  0001 C CNN
@@ -996,10 +997,10 @@ $EndComp
 Wire Wire Line
 	3950 2000 4050 2000
 $Comp
-L formula:200mA_Fuse F?
+L formula:200mA_Fuse F2
 U 1 1 5DB8C841
 P 3850 4400
-F 0 "F?" H 3850 4500 50  0000 C CNN
+F 0 "F2" H 3850 4500 50  0000 C CNN
 F 1 "200mA_Fuse" H 3850 4300 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 3800 4400 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 3800 4400 50  0001 C CNN
@@ -1012,10 +1013,10 @@ $EndComp
 Wire Wire Line
 	4150 4400 4250 4400
 $Comp
-L formula:200mA_Fuse F?
+L formula:200mA_Fuse F3
 U 1 1 5DB8C84C
 P 3850 6600
-F 0 "F?" H 3850 6700 50  0000 C CNN
+F 0 "F3" H 3850 6700 50  0000 C CNN
 F 1 "200mA_Fuse" H 3850 6500 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 3800 6600 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 3800 6600 50  0001 C CNN
@@ -1028,10 +1029,10 @@ $EndComp
 Wire Wire Line
 	4150 6600 4250 6600
 $Comp
-L formula:200mA_Fuse F?
+L formula:200mA_Fuse F4
 U 1 1 5DB8C857
 P 4050 8950
-F 0 "F?" H 4050 9050 50  0000 C CNN
+F 0 "F4" H 4050 9050 50  0000 C CNN
 F 1 "200mA_Fuse" H 4050 8850 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 4000 8950 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 4000 8950 50  0001 C CNN
@@ -1044,10 +1045,10 @@ $EndComp
 Wire Wire Line
 	4350 8950 4450 8950
 $Comp
-L formula:200mA_Fuse F?
+L formula:200mA_Fuse F8
 U 1 1 5DB8C862
 P 8550 2900
-F 0 "F?" H 8550 3000 50  0000 C CNN
+F 0 "F8" H 8550 3000 50  0000 C CNN
 F 1 "200mA_Fuse" H 8550 2800 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 8500 2900 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8500 2900 50  0001 C CNN
@@ -1060,10 +1061,10 @@ $EndComp
 Wire Wire Line
 	8850 2900 8950 2900
 $Comp
-L formula:200mA_Fuse F?
+L formula:200mA_Fuse F7
 U 1 1 5DB8C86D
 P 8500 4750
-F 0 "F?" H 8500 4850 50  0000 C CNN
+F 0 "F7" H 8500 4850 50  0000 C CNN
 F 1 "200mA_Fuse" H 8500 4650 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 8450 4750 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8450 4750 50  0001 C CNN
@@ -1076,10 +1077,10 @@ $EndComp
 Wire Wire Line
 	8800 4750 8900 4750
 $Comp
-L formula:200mA_Fuse F?
+L formula:200mA_Fuse F5
 U 1 1 5DB8C878
 P 8350 6850
-F 0 "F?" H 8350 6950 50  0000 C CNN
+F 0 "F5" H 8350 6950 50  0000 C CNN
 F 1 "200mA_Fuse" H 8350 6750 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 8300 6850 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8300 6850 50  0001 C CNN
@@ -1092,10 +1093,10 @@ $EndComp
 Wire Wire Line
 	8650 6850 8750 6850
 $Comp
-L formula:200mA_Fuse F?
+L formula:200mA_Fuse F6
 U 1 1 5DB8C883
 P 8350 8550
-F 0 "F?" H 8350 8650 50  0000 C CNN
+F 0 "F6" H 8350 8650 50  0000 C CNN
 F 1 "200mA_Fuse" H 8350 8450 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 8300 8550 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8300 8550 50  0001 C CNN
@@ -1126,10 +1127,10 @@ Connection ~ 7800 8550
 Wire Wire Line
 	7800 8550 8050 8550
 $Comp
-L formula:Tab_connect_BMS T?
+L formula:Tab_connect_BMS T1
 U 1 1 5DB8C897
 P 1400 2000
-F 0 "T?" H 1200 2000 50  0000 C CNN
+F 0 "T1" H 1200 2000 50  0000 C CNN
 F 1 "Tab_connect_BMS" H 1456 2174 50  0000 C CNN
 F 2 "footprints:Tab_connect_BMS" H 1300 2050 50  0001 C CNN
 F 3 "N/A" H 1400 2150 50  0001 C CNN
@@ -1137,10 +1138,10 @@ F 3 "N/A" H 1400 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Tab_connect_BMS T?
+L formula:Tab_connect_BMS T2
 U 1 1 5DB8C89E
 P 1600 4400
-F 0 "T?" H 1400 4400 50  0000 C CNN
+F 0 "T2" H 1400 4400 50  0000 C CNN
 F 1 "Tab_connect_BMS" H 1656 4574 50  0000 C CNN
 F 2 "footprints:Tab_connect_BMS" H 1500 4450 50  0001 C CNN
 F 3 "N/A" H 1600 4550 50  0001 C CNN
@@ -1148,10 +1149,10 @@ F 3 "N/A" H 1600 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Tab_connect_BMS T?
+L formula:Tab_connect_BMS T3
 U 1 1 5DB8C8A5
 P 1600 6600
-F 0 "T?" H 1400 6600 50  0000 C CNN
+F 0 "T3" H 1400 6600 50  0000 C CNN
 F 1 "Tab_connect_BMS" H 1656 6774 50  0000 C CNN
 F 2 "footprints:Tab_connect_BMS" H 1500 6650 50  0001 C CNN
 F 3 "N/A" H 1600 6750 50  0001 C CNN
@@ -1159,10 +1160,10 @@ F 3 "N/A" H 1600 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Tab_connect_BMS T?
+L formula:Tab_connect_BMS T4
 U 1 1 5DB8C8AC
 P 1800 8950
-F 0 "T?" H 1600 8950 50  0000 C CNN
+F 0 "T4" H 1600 8950 50  0000 C CNN
 F 1 "Tab_connect_BMS" H 1856 9124 50  0000 C CNN
 F 2 "footprints:Tab_connect_BMS" H 1700 9000 50  0001 C CNN
 F 3 "N/A" H 1800 9100 50  0001 C CNN
@@ -1170,10 +1171,10 @@ F 3 "N/A" H 1800 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Tab_connect_BMS T?
+L formula:Tab_connect_BMS T8
 U 1 1 5DB8C8B3
 P 6300 2900
-F 0 "T?" H 6100 2900 50  0000 C CNN
+F 0 "T8" H 6100 2900 50  0000 C CNN
 F 1 "Tab_connect_BMS" H 6356 3074 50  0000 C CNN
 F 2 "footprints:Tab_connect_BMS" H 6200 2950 50  0001 C CNN
 F 3 "N/A" H 6300 3050 50  0001 C CNN
@@ -1181,10 +1182,10 @@ F 3 "N/A" H 6300 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Tab_connect_BMS T?
+L formula:Tab_connect_BMS T7
 U 1 1 5DB8C8BA
 P 6250 4750
-F 0 "T?" H 6050 4750 50  0000 C CNN
+F 0 "T7" H 6050 4750 50  0000 C CNN
 F 1 "Tab_connect_BMS" H 6306 4924 50  0000 C CNN
 F 2 "footprints:Tab_connect_BMS" H 6150 4800 50  0001 C CNN
 F 3 "N/A" H 6250 4900 50  0001 C CNN
@@ -1192,10 +1193,10 @@ F 3 "N/A" H 6250 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Tab_connect_BMS T?
+L formula:Tab_connect_BMS T5
 U 1 1 5DB8C8C1
 P 6100 6850
-F 0 "T?" H 5900 6850 50  0000 C CNN
+F 0 "T5" H 5900 6850 50  0000 C CNN
 F 1 "Tab_connect_BMS" H 6156 7024 50  0000 C CNN
 F 2 "footprints:Tab_connect_BMS" H 6000 6900 50  0001 C CNN
 F 3 "N/A" H 6100 7000 50  0001 C CNN
@@ -1203,10 +1204,10 @@ F 3 "N/A" H 6100 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Tab_connect_BMS T?
+L formula:Tab_connect_BMS T6
 U 1 1 5DB8C8C8
 P 6100 8550
-F 0 "T?" H 5900 8550 50  0000 C CNN
+F 0 "T6" H 5900 8550 50  0000 C CNN
 F 1 "Tab_connect_BMS" H 6156 8724 50  0000 C CNN
 F 2 "footprints:Tab_connect_BMS" H 6000 8600 50  0001 C CNN
 F 3 "N/A" H 6100 8700 50  0001 C CNN
@@ -1271,12 +1272,12 @@ Text Label 2450 1900 0    50   ~ 0
 PWR16
 Connection ~ 11600 4300
 $Comp
-L formula:MM_M_VT_12 J?
+L formula:MM_M_VT_12 J1
 U 1 1 5DB8C8F3
 P 13000 6950
-F 0 "J?" H 12956 8297 60  0000 C CNN
+F 0 "J1" H 12956 8297 60  0000 C CNN
 F 1 "MM_M_VT_12" H 12956 8191 60  0000 C CNN
-F 2 "" H 12800 8050 60  0001 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 12800 8050 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 12900 8150 60  0001 C CNN
 F 4 "TE" H 13100 8350 60  0001 C CNN "MFN"
 F 5 "1-215464-2" H 13200 8450 60  0001 C CNN "MPN"
@@ -1285,12 +1286,12 @@ F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 13000 8250 60  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MM_M_VT_12 J?
+L formula:MM_M_VT_12 J2
 U 1 1 5DB8C8FD
 P 13000 8450
-F 0 "J?" H 12956 9797 60  0000 C CNN
+F 0 "J2" H 12956 9797 60  0000 C CNN
 F 1 "MM_M_VT_12" H 12956 9691 60  0000 C CNN
-F 2 "" H 12800 9550 60  0001 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 12800 9550 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 12900 9650 60  0001 C CNN
 F 4 "TE" H 13100 9850 60  0001 C CNN "MFN"
 F 5 "1-215464-2" H 13200 9950 60  0001 C CNN "MPN"
@@ -1299,12 +1300,12 @@ F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 13000 9750 60  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MM_M_VT_10 J?
+L formula:MM_M_VT_10 J3
 U 1 1 5DB8C907
 P 13850 7950
-F 0 "J?" H 13906 8847 60  0000 C CNN
+F 0 "J3" H 13906 8847 60  0000 C CNN
 F 1 "MM_M_VT_10" H 13906 8741 60  0000 C CNN
-F 2 "" H 13750 8600 60  0001 C CNN
+F 2 "footprints:micromatch_female_vert_10" H 13750 8600 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-0" H 13750 9150 60  0001 C CNN
 F 4 "TE" H 13950 9350 60  0001 C CNN "MFN"
 F 5 "1-215464-0" H 14050 9450 60  0001 C CNN "MPN"
@@ -1403,12 +1404,12 @@ PWR16
 Text Label 13150 8250 0    50   ~ 0
 PWR15
 $Comp
-L formula:MM_M_VT_12 J?
+L formula:MM_M_VT_12 J4
 U 1 1 5DB8C93E
 P 13900 6950
-F 0 "J?" H 13856 8297 60  0000 C CNN
+F 0 "J4" H 13856 8297 60  0000 C CNN
 F 1 "MM_M_VT_12" H 13856 8191 60  0000 C CNN
-F 2 "" H 13700 8050 60  0001 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 13700 8050 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 13800 8150 60  0001 C CNN
 F 4 "TE" H 14000 8350 60  0001 C CNN "MFN"
 F 5 "1-215464-2" H 14100 8450 60  0001 C CNN "MPN"

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:DA_Board_1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 11693 16535 portrait
@@ -859,8 +860,6 @@ Wire Wire Line
 Wire Wire Line
 	3200 12300 3200 12400
 Connection ~ 3200 12400
-Text Label 4800 12400 0    50   ~ 0
-C2
 Wire Wire Line
 	2350 12400 3200 12400
 Wire Wire Line
@@ -990,8 +989,6 @@ Text Label 4100 11250 0    50   ~ 0
 Q4
 Wire Wire Line
 	3650 11250 4100 11250
-Text Label 4100 12850 0    50   ~ 0
-Q2
 Wire Wire Line
 	3650 12850 4100 12850
 Wire Wire Line
@@ -1551,15 +1548,11 @@ Text Label 3200 12300 0    50   ~ 0
 PWR3
 Text Label 3200 11700 0    50   ~ 0
 PWR4
-Wire Wire Line
-	3200 11550 3200 11700
 Connection ~ 3200 11550
 Text Label 3200 10700 0    50   ~ 0
 PWR5
 Text Label 3200 10300 0    50   ~ 0
 PWR6
-Wire Wire Line
-	3200 10150 3200 10300
 Connection ~ 3200 10150
 Text Label 3200 9300 0    50   ~ 0
 PWR7
@@ -1753,4 +1746,12 @@ Wire Notes Line
 	8350 12700 8350 9400
 Text Notes 8400 9500 0    50   ~ 0
 Connectors from far side DA board
+Text Label 4100 12850 0    50   ~ 0
+Q2
+Text Label 4800 12400 0    50   ~ 0
+C2
+Wire Wire Line
+	3200 10150 3200 10300
+Wire Wire Line
+	3200 11550 3200 11700
 $EndSCHEMATC
