@@ -1409,107 +1409,8 @@ Text Label 1100 8350 2    50   ~ 0
 V+1
 Wire Wire Line
 	1150 8350 1100 8350
-$Comp
-L formula:Tab_connect_BMS T16
-U 1 1 5E55ED29
-P 2150 1450
-F 0 "T16" H 1950 1450 50  0000 C CNN
-F 1 "Tab_connect_BMS" H 2206 1624 50  0000 C CNN
-F 2 "footprints:Tab_connect_BMS" H 2050 1500 50  0001 C CNN
-F 3 "N/A" H 2150 1600 50  0001 C CNN
-	1    2150 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:Tab_connect_BMS T14
-U 1 1 5E55FA6E
-P 2150 3000
-F 0 "T14" H 1950 3000 50  0000 C CNN
-F 1 "Tab_connect_BMS" H 2206 3174 50  0000 C CNN
-F 2 "footprints:Tab_connect_BMS" H 2050 3050 50  0001 C CNN
-F 3 "N/A" H 2150 3150 50  0001 C CNN
-	1    2150 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:Tab_connect_BMS T12
-U 1 1 5E5607F7
-P 2150 4650
-F 0 "T12" H 1950 4650 50  0000 C CNN
-F 1 "Tab_connect_BMS" H 2206 4824 50  0000 C CNN
-F 2 "footprints:Tab_connect_BMS" H 2050 4700 50  0001 C CNN
-F 3 "N/A" H 2150 4800 50  0001 C CNN
-	1    2150 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:Tab_connect_BMS T10
-U 1 1 5E561198
-P 2100 6200
-F 0 "T10" H 1900 6200 50  0000 C CNN
-F 1 "Tab_connect_BMS" H 2156 6374 50  0000 C CNN
-F 2 "footprints:Tab_connect_BMS" H 2000 6250 50  0001 C CNN
-F 3 "N/A" H 2100 6350 50  0001 C CNN
-	1    2100 6200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2300 6200 3150 6200
-$Comp
-L formula:Tab_connect_BMS T8
-U 1 1 5E57716E
-P 2150 7950
-F 0 "T8" H 1950 7950 50  0000 C CNN
-F 1 "Tab_connect_BMS" H 2050 8100 50  0000 C CNN
-F 2 "footprints:Tab_connect_BMS" H 2050 8000 50  0001 C CNN
-F 3 "N/A" H 2150 8100 50  0001 C CNN
-	1    2150 7950
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:Tab_connect_BMS T6
-U 1 1 5E578396
-P 2150 9400
-F 0 "T6" H 1950 9400 50  0000 C CNN
-F 1 "Tab_connect_BMS" H 2206 9574 50  0000 C CNN
-F 2 "footprints:Tab_connect_BMS" H 2050 9450 50  0001 C CNN
-F 3 "N/A" H 2150 9550 50  0001 C CNN
-	1    2150 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:Tab_connect_BMS T4
-U 1 1 5E579791
-P 2150 10800
-F 0 "T4" H 1950 10800 50  0000 C CNN
-F 1 "Tab_connect_BMS" H 2206 10974 50  0000 C CNN
-F 2 "footprints:Tab_connect_BMS" H 2050 10850 50  0001 C CNN
-F 3 "N/A" H 2150 10950 50  0001 C CNN
-	1    2150 10800
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:Tab_connect_BMS T2
-U 1 1 5E57A1AD
-P 2150 12400
-F 0 "T2" H 1950 12400 50  0000 C CNN
-F 1 "Tab_connect_BMS" H 2206 12574 50  0000 C CNN
-F 2 "footprints:Tab_connect_BMS" H 2050 12450 50  0001 C CNN
-F 3 "N/A" H 2150 12550 50  0001 C CNN
-	1    2150 12400
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:Tab_connect_BMS T0
-U 1 1 5E57B20C
-P 2150 14000
-F 0 "T0" H 1950 14000 50  0000 C CNN
-F 1 "Tab_connect_BMS" H 2206 14174 50  0000 C CNN
-F 2 "footprints:Tab_connect_BMS" H 2050 14050 50  0001 C CNN
-F 3 "N/A" H 2150 14150 50  0001 C CNN
-	1    2150 14000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 14000 2450 14000
 Wire Wire Line
@@ -1754,4 +1655,103 @@ Wire Wire Line
 	3200 10150 3200 10300
 Wire Wire Line
 	3200 11550 3200 11700
+$Comp
+L formula:Tab_Connect_BMS T16
+U 1 1 5DBC215F
+P 2050 1450
+F 0 "T16" H 2106 1715 50  0000 C CNN
+F 1 "Tab_Connect_BMS" H 2106 1624 50  0000 C CNN
+F 2 "footprints:Tab_connect_BMS" H 2050 1650 50  0001 C CNN
+F 3 "" H 2050 1650 50  0001 C CNN
+	1    2050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Tab_Connect_BMS T14
+U 1 1 5DBC2478
+P 2050 3000
+F 0 "T14" H 2106 3265 50  0000 C CNN
+F 1 "Tab_Connect_BMS" H 2106 3174 50  0000 C CNN
+F 2 "footprints:Tab_connect_BMS" H 2050 3200 50  0001 C CNN
+F 3 "" H 2050 3200 50  0001 C CNN
+	1    2050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Tab_Connect_BMS T12
+U 1 1 5DBC293E
+P 2050 4650
+F 0 "T12" H 2106 4915 50  0000 C CNN
+F 1 "Tab_Connect_BMS" H 2106 4824 50  0000 C CNN
+F 2 "footprints:Tab_connect_BMS" H 2050 4850 50  0001 C CNN
+F 3 "" H 2050 4850 50  0001 C CNN
+	1    2050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Tab_Connect_BMS T10
+U 1 1 5DBC30ED
+P 2000 6200
+F 0 "T10" H 2056 6465 50  0000 C CNN
+F 1 "Tab_Connect_BMS" H 2056 6374 50  0000 C CNN
+F 2 "footprints:Tab_connect_BMS" H 2000 6400 50  0001 C CNN
+F 3 "" H 2000 6400 50  0001 C CNN
+	1    2000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Tab_Connect_BMS T8
+U 1 1 5DBC3413
+P 2050 7950
+F 0 "T8" H 2106 8215 50  0000 C CNN
+F 1 "Tab_Connect_BMS" H 2106 8124 50  0000 C CNN
+F 2 "footprints:Tab_connect_BMS" H 2050 8150 50  0001 C CNN
+F 3 "" H 2050 8150 50  0001 C CNN
+	1    2050 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Tab_Connect_BMS T6
+U 1 1 5DBC38FD
+P 2050 9400
+F 0 "T6" H 2106 9665 50  0000 C CNN
+F 1 "Tab_Connect_BMS" H 2106 9574 50  0000 C CNN
+F 2 "footprints:Tab_connect_BMS" H 2050 9600 50  0001 C CNN
+F 3 "" H 2050 9600 50  0001 C CNN
+	1    2050 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Tab_Connect_BMS T4
+U 1 1 5DBC3E1D
+P 2050 10800
+F 0 "T4" H 2106 11065 50  0000 C CNN
+F 1 "Tab_Connect_BMS" H 2106 10974 50  0000 C CNN
+F 2 "footprints:Tab_connect_BMS" H 2050 11000 50  0001 C CNN
+F 3 "" H 2050 11000 50  0001 C CNN
+	1    2050 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Tab_Connect_BMS T0
+U 1 1 5DBC50F8
+P 2050 14000
+F 0 "T0" H 2106 14265 50  0000 C CNN
+F 1 "Tab_Connect_BMS" H 2106 14174 50  0000 C CNN
+F 2 "footprints:Tab_connect_BMS" H 2050 14200 50  0001 C CNN
+F 3 "" H 2050 14200 50  0001 C CNN
+	1    2050 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Tab_Connect_BMS T2
+U 1 1 5DBC56FE
+P 2050 12400
+F 0 "T2" H 2106 12665 50  0000 C CNN
+F 1 "Tab_Connect_BMS" H 2106 12574 50  0000 C CNN
+F 2 "footprints:Tab_connect_BMS" H 2050 12600 50  0001 C CNN
+F 3 "" H 2050 12600 50  0001 C CNN
+	1    2050 12400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

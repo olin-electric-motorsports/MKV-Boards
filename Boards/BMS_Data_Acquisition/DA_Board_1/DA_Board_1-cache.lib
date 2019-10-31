@@ -201,16 +201,16 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_Tab_connect_BMS
+# formula_Tab_Connect_BMS
 #
-DEF formula_Tab_connect_BMS T 0 40 Y Y 1 F N
-F0 "T" 0 150 50 H V C CNN
-F1 "formula_Tab_connect_BMS" 0 250 50 H V C CNN
-F2 "footprints:Tab_connect_BMS" -100 50 50 H I C CNN
-F3 "N/A" 0 150 50 H I C CNN
+DEF formula_Tab_Connect_BMS T 0 40 Y Y 1 F N
+F0 "T" 0 200 50 H V C CNN
+F1 "formula_Tab_Connect_BMS" 0 300 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
 DRAW
-P 5 0 1 0 -100 100 100 100 100 -100 -100 -100 -100 100 f
-X 1 ~ 200 0 100 L 50 50 1 1 I
+P 5 0 1 0 -200 100 200 100 200 -100 -200 -100 -200 100 N
+X 1 1 300 0 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
