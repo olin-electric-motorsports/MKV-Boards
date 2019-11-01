@@ -3793,10 +3793,10 @@ V+1 is same \nas C16, for\nKelvin connection
 Text Notes 8050 3000 0    50   ~ 0
 Traces to transistor gates
 $Comp
-L formula:MicroFit_RA_V_2_SMD J?
+L formula:MicroFit_RA_V_2_SMD J6
 U 1 1 5DE56ACD
 P 15400 7600
-F 0 "J?" H 15222 7651 50  0000 R CNN
+F 0 "J6" H 15222 7651 50  0000 R CNN
 F 1 "MicroFit_RA_V_2_SMD" H 15222 7560 50  0000 R CNN
 F 2 "footprints:MicroFit_RA_2_SMD" H 15350 7800 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/436500213_sd.pdf" H 15350 7800 50  0001 C CNN
@@ -3807,10 +3807,10 @@ F 6 "https://www.digikey.com/product-detail/en/molex/0436500213/WM1895CT-ND/2690
 	-1   0    0    -1  
 $EndComp
 $Comp
-L formula:MicroFit_RA_V_2_SMD J?
+L formula:MicroFit_RA_V_2_SMD J7
 U 1 1 5DEE801F
 P 15400 10950
-F 0 "J?" H 15222 11001 50  0000 R CNN
+F 0 "J7" H 15222 11001 50  0000 R CNN
 F 1 "MicroFit_RA_V_2_SMD" H 15222 10910 50  0000 R CNN
 F 2 "footprints:MicroFit_RA_2_SMD" H 15350 11150 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/436500213_sd.pdf" H 15350 11150 50  0001 C CNN
