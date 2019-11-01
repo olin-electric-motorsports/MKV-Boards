@@ -888,22 +888,6 @@ Text Label 9750 5250 0    50   ~ 0
 V+1
 Wire Wire Line
 	9750 5250 9750 5350
-Text Label 8450 7450 0    50   ~ 0
-~DIS~1
-Text Label 7200 7350 0    50   ~ 0
-~DIS~2
-Text Label 7200 7150 0    50   ~ 0
-~DIS~3
-Text Label 7200 6950 0    50   ~ 0
-~DIS~4
-Text Label 7200 6350 0    50   ~ 0
-~DIS~6
-Text Label 7200 6150 0    50   ~ 0
-~DIS~7
-Text Label 7200 5950 0    50   ~ 0
-~DIS~8
-Text Label 7200 5750 0    50   ~ 0
-~DIS~9
 $Comp
 L formula:R_100 R17
 U 1 1 5E172B25
