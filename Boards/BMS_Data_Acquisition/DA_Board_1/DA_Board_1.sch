@@ -1152,20 +1152,6 @@ F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 5800 11250 60  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MM_M_VT_10 J1
-U 1 1 5E20C751
-P 5650 11200
-F 0 "J1" H 5706 12097 60  0000 C CNN
-F 1 "MM_M_VT_10" H 5706 11991 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_10" H 5550 11850 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-0" H 5550 12400 60  0001 C CNN
-F 4 "TE" H 5750 12600 60  0001 C CNN "MFN"
-F 5 "1-215464-0" H 5850 12700 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-215464-0.html" H 5650 12500 60  0001 C CNN "PurchasingLink"
-	1    5650 11200
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:MM_M_VT_12 J4
 U 1 1 5E20FB90
 P 5800 13200
@@ -1323,20 +1309,6 @@ Text Notes 6150 14050 0    50   ~ 0
 C8, V-1, and \nV+2 are all the \nsame, for Kelvin \nconnection
 Text Notes 6250 12550 0    50   ~ 0
 V+1 is same \nas C16, for\nKelvin connection
-$Comp
-L formula:MM_M_VT_12 J2
-U 1 1 5E40DC14
-P 5800 14700
-F 0 "J2" H 5756 16047 60  0000 C CNN
-F 1 "MM_M_VT_12" H 5756 15941 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_12" H 5600 15800 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 5700 15900 60  0001 C CNN
-F 4 "TE" H 5900 16100 60  0001 C CNN "MFN"
-F 5 "1-215464-2" H 6000 16200 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 5800 16000 60  0001 C CNN "PurchasingLink"
-	1    5800 14700
-	1    0    0    -1  
-$EndComp
 $Comp
 L formula:200mA_Fuse F+2
 U 1 1 5E449070
@@ -1752,6 +1724,34 @@ F 1 "Tab_Connect_BMS" H 2106 12574 50  0000 C CNN
 F 2 "footprints:Tab_connect_BMS" H 2050 12600 50  0001 C CNN
 F 3 "" H 2050 12600 50  0001 C CNN
 	1    2050 12400
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MM_M_VT_12 J2
+U 1 1 5DBE8177
+P 5800 14700
+F 0 "J2" H 5756 16047 60  0000 C CNN
+F 1 "MM_M_VT_12" H 5756 15941 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 5600 15800 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 5700 15900 60  0001 C CNN
+F 4 "TE" H 5900 16100 60  0001 C CNN "MFN"
+F 5 "1-215464-2" H 6000 16200 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 5800 16000 60  0001 C CNN "PurchasingLink"
+	1    5800 14700
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MM_M_VT_10 J1
+U 1 1 5DBE78A1
+P 5650 11200
+F 0 "J1" H 5706 12097 60  0000 C CNN
+F 1 "MM_M_VT_10" H 5706 11991 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_10" H 5550 11850 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-0" H 5550 12400 60  0001 C CNN
+F 4 "TE" H 5750 12600 60  0001 C CNN "MFN"
+F 5 "1-215464-0" H 5850 12700 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-215464-0.html" H 5650 12500 60  0001 C CNN "PurchasingLink"
+	1    5650 11200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
