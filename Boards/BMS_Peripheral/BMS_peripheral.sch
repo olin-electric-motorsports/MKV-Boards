@@ -3311,7 +3311,7 @@ AR Path="/5DC492E4/5DDF7960" Ref="J?"  Part="1"
 AR Path="/5DDF7960" Ref="J1"  Part="1" 
 F 0 "J1" H 7100 1550 60  0000 C CNN
 F 1 "MM_F_VT_12" H 7350 2250 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_12" H 7250 2100 60  0001 C CNN
+F 2 "footprints:micromatch_female_vt_12" H 7250 2100 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-2" H 7250 2750 60  0001 C CNN
 F 4 "TE" H 7450 2950 60  0001 C CNN "MFN"
 F 5 "1-338068-2" H 7550 3050 60  0001 C CNN "MPN"
@@ -3369,7 +3369,7 @@ AR Path="/5DC492E4/5E15376C" Ref="J?"  Part="1"
 AR Path="/5E15376C" Ref="J5"  Part="1" 
 F 0 "J5" H 9450 2600 60  0000 C CNN
 F 1 "MM_M_VT_12" H 9756 3291 60  0000 C CNN
-F 2 "" H 9600 3150 60  0001 C CNN
+F 2 "footprints:micromatch_female_vt_12" H 9600 3150 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 9700 3250 60  0001 C CNN
 F 4 "TE" H 9900 3450 60  0001 C CNN "MFN"
 F 5 "1-215464-2" H 10000 3550 60  0001 C CNN "MPN"
@@ -3758,7 +3758,7 @@ U 1 1 60BFA1EF
 P 9700 2800
 F 0 "J4" H 9450 2850 60  0000 C CNN
 F 1 "MM_F_VT_12" H 9700 2150 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_12" H 9600 3350 60  0001 C CNN
+F 2 "footprints:micromatch_female_vt_12" H 9600 3350 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-2" H 9600 4000 60  0001 C CNN
 F 4 "TE" H 9800 4200 60  0001 C CNN "MFN"
 F 5 "1-338068-2" H 9900 4300 60  0001 C CNN "MPN"
