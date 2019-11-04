@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L formula:Thermistor RT1
+L formula:Thermistor RT153
 U 1 1 5DB8C5EC
 P 11100 2650
-F 0 "RT1" H 11350 2800 50  0000 C CNN
+F 0 "RT153" H 11350 2800 50  0000 C CNN
 F 1 "Thermistor" H 11100 2908 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 2310 50  0001 C CNN
 F 3 "" H 11100 2650 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 11100 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT2
+L formula:Thermistor RT152
 U 1 1 5DB8C5F3
 P 11100 3200
-F 0 "RT2" H 11350 3350 50  0000 C CNN
+F 0 "RT152" H 11350 3350 50  0000 C CNN
 F 1 "Thermistor" H 11100 3458 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 2860 50  0001 C CNN
 F 3 "" H 11100 3200 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "" H 11100 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT3
+L formula:Thermistor RT151
 U 1 1 5DB8C5FA
 P 11100 3750
-F 0 "RT3" H 11350 3900 50  0000 C CNN
+F 0 "RT151" H 11350 3900 50  0000 C CNN
 F 1 "Thermistor" H 11100 4008 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 3410 50  0001 C CNN
 F 3 "" H 11100 3750 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "" H 11100 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT4
+L formula:Thermistor RT113
 U 1 1 5DB8C601
 P 11100 4300
-F 0 "RT4" H 11350 4450 50  0000 C CNN
+F 0 "RT113" H 11350 4450 50  0000 C CNN
 F 1 "Thermistor" H 11100 4558 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 3960 50  0001 C CNN
 F 3 "" H 11100 4300 50  0001 C CNN
@@ -59,10 +59,10 @@ F 3 "" H 11100 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT5
+L formula:Thermistor RT112
 U 1 1 5DB8C608
 P 11100 4850
-F 0 "RT5" H 11350 5000 50  0000 C CNN
+F 0 "RT112" H 11350 5000 50  0000 C CNN
 F 1 "Thermistor" H 11100 5108 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 4510 50  0001 C CNN
 F 3 "" H 11100 4850 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "" H 11100 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT6
+L formula:Thermistor RT111
 U 1 1 5DB8C60F
 P 11100 5400
-F 0 "RT6" H 11350 5550 50  0000 C CNN
+F 0 "RT111" H 11350 5550 50  0000 C CNN
 F 1 "Thermistor" H 11100 5658 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 5060 50  0001 C CNN
 F 3 "" H 11100 5400 50  0001 C CNN
@@ -81,10 +81,10 @@ F 3 "" H 11100 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT7
+L formula:Thermistor RT73
 U 1 1 5DB8C616
 P 11100 5950
-F 0 "RT7" H 11350 6100 50  0000 C CNN
+F 0 "RT73" H 11350 6100 50  0000 C CNN
 F 1 "Thermistor" H 11100 6208 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 5610 50  0001 C CNN
 F 3 "" H 11100 5950 50  0001 C CNN
@@ -139,10 +139,10 @@ Connection ~ 11600 5950
 Wire Wire Line
 	11600 5400 11600 5950
 $Comp
-L formula:Thermistor RT8
+L formula:Thermistor RT72
 U 1 1 5DB8C637
 P 11100 6500
-F 0 "RT8" H 11350 6650 50  0000 C CNN
+F 0 "RT72" H 11350 6650 50  0000 C CNN
 F 1 "Thermistor" H 11100 6758 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 6160 50  0001 C CNN
 F 3 "" H 11100 6500 50  0001 C CNN
@@ -150,10 +150,10 @@ F 3 "" H 11100 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT9
+L formula:Thermistor RT71
 U 1 1 5DB8C63E
 P 11100 7050
-F 0 "RT9" H 11350 7200 50  0000 C CNN
+F 0 "RT71" H 11350 7200 50  0000 C CNN
 F 1 "Thermistor" H 11100 7308 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 6710 50  0001 C CNN
 F 3 "" H 11100 7050 50  0001 C CNN
@@ -161,10 +161,10 @@ F 3 "" H 11100 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Thermistor RT10
+L formula:Thermistor RT33
 U 1 1 5DB8C645
 P 11100 7600
-F 0 "RT10" H 11350 7750 50  0000 C CNN
+F 0 "RT33" H 11350 7750 50  0000 C CNN
 F 1 "Thermistor" H 11100 7858 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 7260 50  0001 C CNN
 F 3 "" H 11100 7600 50  0001 C CNN
@@ -178,10 +178,10 @@ C7_T1
 Text Label 10800 7600 2    50   ~ 0
 C3_T3
 $Comp
-L formula:Thermistor RT11
+L formula:Thermistor RT32
 U 1 1 5DB8C64F
 P 11100 8150
-F 0 "RT11" H 11350 8300 50  0000 C CNN
+F 0 "RT32" H 11350 8300 50  0000 C CNN
 F 1 "Thermistor" H 11100 8408 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 7810 50  0001 C CNN
 F 3 "" H 11100 8150 50  0001 C CNN
@@ -191,10 +191,10 @@ $EndComp
 Text Label 10800 8150 2    50   ~ 0
 C3_T2
 $Comp
-L formula:Thermistor RT12
+L formula:Thermistor RT31
 U 1 1 5DB8C657
 P 11100 8700
-F 0 "RT12" H 11350 8850 50  0000 C CNN
+F 0 "RT31" H 11350 8850 50  0000 C CNN
 F 1 "Thermistor" H 11100 8958 50  0000 C CNN
 F 2 "footprints:Thermistor" H 11120 8360 50  0001 C CNN
 F 3 "" H 11100 8700 50  0001 C CNN
@@ -1186,150 +1186,149 @@ Connection ~ 11600 4300
 $Comp
 L formula:MM_M_VT_12 J1
 U 1 1 5DB8C8F3
-P 13000 6950
-F 0 "J1" H 12956 8297 60  0000 C CNN
-F 1 "MM_M_VT_12" H 12956 8191 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_12" H 12800 8050 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 12900 8150 60  0001 C CNN
-F 4 "TE" H 13100 8350 60  0001 C CNN "MFN"
-F 5 "1-215464-2" H 13200 8450 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 13000 8250 60  0001 C CNN "PurchasingLink"
-	1    13000 6950
+P 13250 6800
+F 0 "J1" H 13206 8147 60  0000 C CNN
+F 1 "MM_M_VT_12" H 13206 8041 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 13050 7900 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 13150 8000 60  0001 C CNN
+F 4 "TE" H 13350 8200 60  0001 C CNN "MFN"
+F 5 "1-215464-2" H 13450 8300 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 13250 8100 60  0001 C CNN "PurchasingLink"
+	1    13250 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:MM_M_VT_12 J2
 U 1 1 5DB8C8FD
-P 13000 8450
-F 0 "J2" H 12956 9797 60  0000 C CNN
-F 1 "MM_M_VT_12" H 12956 9691 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_12" H 12800 9550 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 12900 9650 60  0001 C CNN
-F 4 "TE" H 13100 9850 60  0001 C CNN "MFN"
-F 5 "1-215464-2" H 13200 9950 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 13000 9750 60  0001 C CNN "PurchasingLink"
-	1    13000 8450
+P 14200 6800
+F 0 "J2" H 14156 8147 60  0000 C CNN
+F 1 "MM_M_VT_12" H 14156 8041 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 14000 7900 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 14100 8000 60  0001 C CNN
+F 4 "TE" H 14300 8200 60  0001 C CNN "MFN"
+F 5 "1-215464-2" H 14400 8300 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 14200 8100 60  0001 C CNN "PurchasingLink"
+	1    14200 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:MM_M_VT_10 J3
 U 1 1 5DB8C907
-P 13850 7950
-F 0 "J3" H 13906 8847 60  0000 C CNN
-F 1 "MM_M_VT_10" H 13906 8741 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_10" H 13750 8600 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-0" H 13750 9150 60  0001 C CNN
-F 4 "TE" H 13950 9350 60  0001 C CNN "MFN"
-F 5 "1-215464-0" H 14050 9450 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-215464-0.html" H 13850 9250 60  0001 C CNN "PurchasingLink"
-	1    13850 7950
+P 12350 6550
+F 0 "J3" H 12406 7447 60  0000 C CNN
+F 1 "MM_M_VT_10" H 12406 7341 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_10" H 12250 7200 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-0" H 12250 7750 60  0001 C CNN
+F 4 "TE" H 12450 7950 60  0001 C CNN "MFN"
+F 5 "1-215464-0" H 12550 8050 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-215464-0.html" H 12350 7850 60  0001 C CNN "PurchasingLink"
+	1    12350 6550
 	1    0    0    -1  
 $EndComp
-Text Label 13150 5850 0    50   ~ 0
+Text Label 12600 6600 0    50   ~ 0
 C15
-Text Label 13150 5950 0    50   ~ 0
+Text Label 13400 6700 0    50   ~ 0
 C13
-Text Label 13150 6050 0    50   ~ 0
+Text Label 13400 6300 0    50   ~ 0
 C11
-Text Label 13150 6150 0    50   ~ 0
+Text Label 14350 6800 0    50   ~ 0
 C9
-Text Label 13150 6250 0    50   ~ 0
+Text Label 14350 6400 0    50   ~ 0
 C7
-Text Label 13150 6350 0    50   ~ 0
+Text Label 15150 6800 0    50   ~ 0
 C5
-Text Label 13150 6450 0    50   ~ 0
+Text Label 15150 6400 0    50   ~ 0
 C3
-Text Label 13150 6550 0    50   ~ 0
+Text Label 15150 5700 0    50   ~ 0
 C1
-Text Label 13150 6650 0    50   ~ 0
+Text Label 12600 6300 0    50   ~ 0
 C15_T3
-Text Label 13150 6750 0    50   ~ 0
+Text Label 12600 6200 0    50   ~ 0
 C15_T2
-Text Label 13150 6850 0    50   ~ 0
+Text Label 12600 6100 0    50   ~ 0
 C15_T1
-Text Label 13150 6950 0    50   ~ 0
+Text Label 13400 6000 0    50   ~ 0
 C11_T3
-Text Label 13150 7350 0    50   ~ 0
+Text Label 13400 6100 0    50   ~ 0
 C11_T2
-Text Label 13150 7450 0    50   ~ 0
+Text Label 13400 6200 0    50   ~ 0
 C11_T1
-Text Label 13150 7550 0    50   ~ 0
+Text Label 14350 6100 0    50   ~ 0
 C7_T3
-Text Label 13150 7650 0    50   ~ 0
+Text Label 14350 6200 0    50   ~ 0
 C7_T2
-Text Label 13150 7750 0    50   ~ 0
+Text Label 14350 6300 0    50   ~ 0
 C7_T1
-Text Label 13150 7850 0    50   ~ 0
+Text Label 15150 6100 0    50   ~ 0
 C3_T3
-Text Label 13150 7950 0    50   ~ 0
+Text Label 15150 6200 0    50   ~ 0
 C3_T2
-Text Label 13150 8050 0    50   ~ 0
+Text Label 15150 6300 0    50   ~ 0
 C3_T1
-Text Label 13150 8350 0    50   ~ 0
+Text Label 12600 6000 0    50   ~ 0
 PWR14
-Text Label 13150 8450 0    50   ~ 0
+Text Label 13400 6800 0    50   ~ 0
 PWR13
-Text Label 14050 5850 0    50   ~ 0
+Text Label 13400 6600 0    50   ~ 0
 PWR12
-Text Label 14050 5950 0    50   ~ 0
+Text Label 13400 6400 0    50   ~ 0
 PWR11
-Text Label 14050 6050 0    50   ~ 0
+Text Label 13400 5900 0    50   ~ 0
 PWR10
-Text Label 14050 6150 0    50   ~ 0
+Text Label 13400 5700 0    50   ~ 0
 PWR9
-Text Label 14050 6250 0    50   ~ 0
+Text Label 14350 6700 0    50   ~ 0
 PWR8
-Text Label 14050 6350 0    50   ~ 0
+Text Label 14350 6500 0    50   ~ 0
 PWR7
-Text Label 14050 6450 0    50   ~ 0
+Text Label 14350 6000 0    50   ~ 0
 PWR6
-Text Label 14050 6550 0    50   ~ 0
+Text Label 14350 5800 0    50   ~ 0
 PWR5
-Text Label 14050 6650 0    50   ~ 0
+Text Label 15150 6700 0    50   ~ 0
 PWR4
-Text Label 14050 6750 0    50   ~ 0
+Text Label 15150 6500 0    50   ~ 0
 PWR3
-Text Label 14050 6850 0    50   ~ 0
+Text Label 15150 6000 0    50   ~ 0
 PWR2
-Text Label 14050 6950 0    50   ~ 0
+Text Label 15150 5800 0    50   ~ 0
 PWR1
-Text Label 14100 7300 0    50   ~ 0
+Text Label 12600 6700 0    50   ~ 0
 Q15
-Text Label 14100 7400 0    50   ~ 0
+Text Label 12600 5900 0    50   ~ 0
 Q13
-Text Label 14100 7500 0    50   ~ 0
+Text Label 13400 6500 0    50   ~ 0
 Q11
-Text Label 14100 7600 0    50   ~ 0
+Text Label 13400 5800 0    50   ~ 0
 Q9
-Text Label 14100 7700 0    50   ~ 0
+Text Label 14350 6600 0    50   ~ 0
 Q7
-Text Label 14100 7800 0    50   ~ 0
+Text Label 14350 5900 0    50   ~ 0
 Q5
-Text Label 14100 7900 0    50   ~ 0
+Text Label 15150 6600 0    50   ~ 0
 Q3
-Text Label 14100 8000 0    50   ~ 0
+Text Label 15150 5900 0    50   ~ 0
 Q1
-Text Label 14100 8100 0    50   ~ 0
+Text Label 12600 6400 0    50   ~ 0
 GND1
-Text Label 13150 8150 0    50   ~ 0
+Text Label 12600 6500 0    50   ~ 0
 PWR16
-Text Label 13150 8250 0    50   ~ 0
+Text Label 12600 6800 0    50   ~ 0
 PWR15
 $Comp
 L formula:MM_M_VT_12 J4
 U 1 1 5DB8C93E
-P 13900 6950
-F 0 "J4" H 13856 8297 60  0000 C CNN
-F 1 "MM_M_VT_12" H 13856 8191 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_12" H 13700 8050 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 13800 8150 60  0001 C CNN
-F 4 "TE" H 14000 8350 60  0001 C CNN "MFN"
-F 5 "1-215464-2" H 14100 8450 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 13900 8250 60  0001 C CNN "PurchasingLink"
-	1    13900 6950
+P 15000 6800
+F 0 "J4" H 14956 8147 60  0000 C CNN
+F 1 "MM_M_VT_12" H 14956 8041 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 14800 7900 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 14900 8000 60  0001 C CNN
+F 4 "TE" H 15100 8200 60  0001 C CNN "MFN"
+F 5 "1-215464-2" H 15200 8300 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 15000 8100 60  0001 C CNN "PurchasingLink"
+	1    15000 6800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 14100 8200
 $Comp
 L formula:Tab_Connect_BMS T1
 U 1 1 5DBACA27
@@ -1418,4 +1417,5 @@ F 3 "" H 1300 2200 50  0001 C CNN
 	1    1300 2000
 	1    0    0    -1  
 $EndComp
+NoConn ~ 14350 5700
 $EndSCHEMATC
