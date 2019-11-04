@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:DA_Board_1-cache
+LIBS:DA_Board_2-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 11693 16535 portrait
@@ -1462,153 +1463,6 @@ PWR16
 Wire Wire Line
 	3200 2200 3200 2350
 Connection ~ 3200 2200
-$Comp
-L formula:MM_M_VT_12 J6
-U 1 1 5E4EE95D
-P 9050 10950
-F 0 "J6" H 9006 12297 60  0000 C CNN
-F 1 "MM_M_VT_12" H 9006 12191 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_12" H 8850 12050 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 8950 12150 60  0001 C CNN
-F 4 "TE" H 9150 12350 60  0001 C CNN "MFN"
-F 5 "1-215464-2" H 9250 12450 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 9050 12250 60  0001 C CNN "PurchasingLink"
-	1    9050 10950
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MM_M_VT_12 J7
-U 1 1 5E4EE966
-P 9050 12450
-F 0 "J7" H 9006 13797 60  0000 C CNN
-F 1 "MM_M_VT_12" H 9006 13691 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_12" H 8850 13550 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 8950 13650 60  0001 C CNN
-F 4 "TE" H 9150 13850 60  0001 C CNN "MFN"
-F 5 "1-215464-2" H 9250 13950 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 9050 13750 60  0001 C CNN "PurchasingLink"
-	1    9050 12450
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MM_M_VT_10 J8
-U 1 1 5E4EE96F
-P 9900 11950
-F 0 "J8" H 9956 12847 60  0000 C CNN
-F 1 "MM_M_VT_10" H 9956 12741 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_10" H 9800 12600 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-0" H 9800 13150 60  0001 C CNN
-F 4 "TE" H 10000 13350 60  0001 C CNN "MFN"
-F 5 "1-215464-0" H 10100 13450 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-215464-0.html" H 9900 13250 60  0001 C CNN "PurchasingLink"
-	1    9900 11950
-	1    0    0    -1  
-$EndComp
-Text Label 9200 9850 0    50   ~ 0
-C15
-Text Label 9200 9950 0    50   ~ 0
-C13
-Text Label 9200 10050 0    50   ~ 0
-C11
-Text Label 9200 10150 0    50   ~ 0
-C9
-Text Label 9200 10250 0    50   ~ 0
-C7
-Text Label 9200 10350 0    50   ~ 0
-C5
-Text Label 9200 10450 0    50   ~ 0
-C3
-Text Label 9200 10550 0    50   ~ 0
-C1
-Text Label 9200 10650 0    50   ~ 0
-C15_T3
-Text Label 9200 10750 0    50   ~ 0
-C15_T2
-Text Label 9200 10850 0    50   ~ 0
-C15_T1
-Text Label 9200 10950 0    50   ~ 0
-C11_T3
-Text Label 9200 11350 0    50   ~ 0
-C11_T2
-Text Label 9200 11450 0    50   ~ 0
-C11_T1
-Text Label 9200 11550 0    50   ~ 0
-C7_T3
-Text Label 9200 11650 0    50   ~ 0
-C7_T2
-Text Label 9200 11750 0    50   ~ 0
-C7_T1
-Text Label 9200 11850 0    50   ~ 0
-C3_T3
-Text Label 9200 11950 0    50   ~ 0
-C3_T2
-Text Label 9200 12050 0    50   ~ 0
-C3_T1
-Text Label 9200 12350 0    50   ~ 0
-PWR14
-Text Label 9200 12450 0    50   ~ 0
-PWR13
-Text Label 10100 9850 0    50   ~ 0
-PWR12
-Text Label 10100 9950 0    50   ~ 0
-PWR11
-Text Label 10100 10050 0    50   ~ 0
-PWR10
-Text Label 10100 10150 0    50   ~ 0
-PWR9
-Text Label 10100 10250 0    50   ~ 0
-PWR8
-Text Label 10100 10350 0    50   ~ 0
-PWR7
-Text Label 10100 10450 0    50   ~ 0
-PWR6
-Text Label 10100 10550 0    50   ~ 0
-PWR5
-Text Label 10100 10650 0    50   ~ 0
-PWR4
-Text Label 10100 10750 0    50   ~ 0
-PWR3
-Text Label 10100 10850 0    50   ~ 0
-PWR2
-Text Label 10100 10950 0    50   ~ 0
-PWR1
-Text Label 10150 11300 0    50   ~ 0
-Q15
-Text Label 10150 11400 0    50   ~ 0
-Q13
-Text Label 10150 11500 0    50   ~ 0
-Q11
-Text Label 10150 11600 0    50   ~ 0
-Q9
-Text Label 10150 11700 0    50   ~ 0
-Q7
-Text Label 10150 11800 0    50   ~ 0
-Q5
-Text Label 10150 11900 0    50   ~ 0
-Q3
-Text Label 10150 12000 0    50   ~ 0
-Q1
-Text Label 10150 12100 0    50   ~ 0
-GND1
-Text Label 9200 12150 0    50   ~ 0
-PWR16
-Text Label 9200 12250 0    50   ~ 0
-PWR15
-$Comp
-L formula:MM_M_VT_12 J9
-U 1 1 5E4EE9A5
-P 9950 10950
-F 0 "J9" H 9906 12297 60  0000 C CNN
-F 1 "MM_M_VT_12" H 9906 12191 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_12" H 9750 12050 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 9850 12150 60  0001 C CNN
-F 4 "TE" H 10050 12350 60  0001 C CNN "MFN"
-F 5 "1-215464-2" H 10150 12450 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 9950 12250 60  0001 C CNN "PurchasingLink"
-	1    9950 10950
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10150 12200
 Wire Notes Line
 	8350 9400 10700 9400
 Wire Notes Line
@@ -1754,4 +1608,151 @@ F 6 "http://www.te.com/global-en/product-1-215464-0.html" H 5650 12500 60  0001 
 	1    5650 11200
 	1    0    0    -1  
 $EndComp
+$Comp
+L formula:MM_M_VT_12 J8
+U 1 1 5DC0F961
+P 9900 10950
+F 0 "J8" H 9856 12297 60  0000 C CNN
+F 1 "MM_M_VT_12" H 9856 12191 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 9700 12050 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 9800 12150 60  0001 C CNN
+F 4 "TE" H 10000 12350 60  0001 C CNN "MFN"
+F 5 "1-215464-2" H 10100 12450 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 9900 12250 60  0001 C CNN "PurchasingLink"
+	1    9900 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MM_M_VT_12 J7
+U 1 1 5DC0F96B
+P 8850 12450
+F 0 "J7" H 8806 13797 60  0000 C CNN
+F 1 "MM_M_VT_12" H 8806 13691 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 8650 13550 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 8750 13650 60  0001 C CNN
+F 4 "TE" H 8950 13850 60  0001 C CNN "MFN"
+F 5 "1-215464-2" H 9050 13950 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 8850 13750 60  0001 C CNN "PurchasingLink"
+	1    8850 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MM_M_VT_10 J6
+U 1 1 5DC0F975
+P 8700 10500
+F 0 "J6" H 8756 11397 60  0000 C CNN
+F 1 "MM_M_VT_10" H 8756 11291 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_10" H 8600 11150 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-0" H 8600 11700 60  0001 C CNN
+F 4 "TE" H 8800 11900 60  0001 C CNN "MFN"
+F 5 "1-215464-0" H 8900 12000 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-215464-0.html" H 8700 11800 60  0001 C CNN "PurchasingLink"
+	1    8700 10500
+	1    0    0    -1  
+$EndComp
+Text Label 8950 10550 0    50   ~ 0
+C15
+Text Label 10050 10850 0    50   ~ 0
+C13
+Text Label 10050 10450 0    50   ~ 0
+C11
+Text Label 9000 12450 0    50   ~ 0
+C9
+Text Label 9000 12050 0    50   ~ 0
+C7
+Text Label 10050 12400 0    50   ~ 0
+C5
+Text Label 10050 12000 0    50   ~ 0
+C3
+Text Label 10050 11300 0    50   ~ 0
+C1
+Text Label 8950 10050 0    50   ~ 0
+C15_T3
+Text Label 8950 10150 0    50   ~ 0
+C15_T2
+Text Label 8950 10250 0    50   ~ 0
+C15_T1
+Text Label 10050 10150 0    50   ~ 0
+C11_T3
+Text Label 10050 10250 0    50   ~ 0
+C11_T2
+Text Label 10050 10350 0    50   ~ 0
+C11_T1
+Text Label 9000 11750 0    50   ~ 0
+C7_T3
+Text Label 9000 11850 0    50   ~ 0
+C7_T2
+Text Label 9000 11950 0    50   ~ 0
+C7_T1
+Text Label 10050 11700 0    50   ~ 0
+C3_T3
+Text Label 10050 11800 0    50   ~ 0
+C3_T2
+Text Label 10050 11900 0    50   ~ 0
+C3_T1
+Text Label 8950 9950 0    50   ~ 0
+PWR14
+Text Label 10050 10950 0    50   ~ 0
+PWR13
+Text Label 10050 10750 0    50   ~ 0
+PWR12
+Text Label 10050 10550 0    50   ~ 0
+PWR11
+Text Label 10050 10050 0    50   ~ 0
+PWR10
+Text Label 10050 9850 0    50   ~ 0
+PWR9
+Text Label 9000 12350 0    50   ~ 0
+PWR8
+Text Label 9000 12150 0    50   ~ 0
+PWR7
+Text Label 9000 11650 0    50   ~ 0
+PWR6
+Text Label 9000 11450 0    50   ~ 0
+PWR5
+Text Label 10050 12300 0    50   ~ 0
+PWR4
+Text Label 10050 12100 0    50   ~ 0
+PWR3
+Text Label 10050 11600 0    50   ~ 0
+PWR2
+Text Label 10050 11400 0    50   ~ 0
+PWR1
+Text Label 8950 10650 0    50   ~ 0
+Q15
+Text Label 8950 9850 0    50   ~ 0
+Q13
+Text Label 10050 10650 0    50   ~ 0
+Q11
+Text Label 10050 9950 0    50   ~ 0
+Q9
+Text Label 9000 12250 0    50   ~ 0
+Q7
+Text Label 9000 11550 0    50   ~ 0
+Q5
+Text Label 10050 12200 0    50   ~ 0
+Q3
+Text Label 10050 11500 0    50   ~ 0
+Q1
+Text Label 8950 10350 0    50   ~ 0
+GND1
+Text Label 8950 10450 0    50   ~ 0
+PWR16
+Text Label 8950 10750 0    50   ~ 0
+PWR15
+$Comp
+L formula:MM_M_VT_12 J9
+U 1 1 5DC0F9AC
+P 9900 12400
+F 0 "J9" H 9856 13747 60  0000 C CNN
+F 1 "MM_M_VT_12" H 9856 13641 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_12" H 9700 13500 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 9800 13600 60  0001 C CNN
+F 4 "TE" H 10000 13800 60  0001 C CNN "MFN"
+F 5 "1-215464-2" H 10100 13900 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 9900 13700 60  0001 C CNN "PurchasingLink"
+	1    9900 12400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9000 11350
 $EndSCHEMATC
