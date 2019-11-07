@@ -2178,7 +2178,7 @@
       (net 31 /PWR16))
   )
 
-  (gr_text "BMS Data Acquisition #2 Rev 1.0\nOlin Electric Motorsports\nVienna Scheyer '21" (at 144.5006 99.3902) (layer F.Cu)
+  (gr_text "BMS Data Acquisition #2 Rev 1.0\nOlin Electric Motorsports\nVienna Scheyer '21" (at 144.5006 99.3902) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_arc (start -19.3802 91.5162) (end -19.3802 88.3412) (angle -90) (layer Edge.Cuts) (width 0.2))
