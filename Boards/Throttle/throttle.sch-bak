@@ -1744,6 +1744,22 @@ Wire Wire Line
 	9500 6050 9400 6050
 Wire Wire Line
 	10250 6100 11100 6100
+$Comp
+L throttle-rescue:TPS560430YF-formula-throttle-rescue U?
+U 1 1 5CACCB3D
+P 9850 5950
+AR Path="/5CAC90A2/5CACCB3D" Ref="U?"  Part="1" 
+AR Path="/5CACCB3D" Ref="U3"  Part="1" 
+F 0 "U3" H 9875 6415 50  0000 C CNN
+F 1 "TPS560430YF" H 9875 6324 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 9800 6650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 9850 6500 50  0001 C CNN
+F 4 "TPS560430YFDBVR" H 9800 4850 50  0001 C CNN "MPN"
+F 5 "TPS560430YFDBVR-ND" H 9850 4950 50  0001 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 10600 5050 50  0001 C CNN "Purchasing Link"
+	1    9850 5950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	9400 6050 9400 5800
 Connection ~ 9400 5800
@@ -4624,22 +4640,6 @@ F 1 "GND" H 1800 5800 50  0000 C CNN
 F 2 "" H 1800 5950 50  0001 C CNN
 F 3 "" H 1800 5950 50  0001 C CNN
 	1    1800 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:TPS560430YF U?
-U 1 1 5CACCB3D
-P 9850 5950
-AR Path="/5CAC90A2/5CACCB3D" Ref="U?"  Part="1" 
-AR Path="/5CACCB3D" Ref="U3"  Part="1" 
-F 0 "U3" H 9875 6415 50  0000 C CNN
-F 1 "TPS560430YF" H 9875 6324 50  0000 C CNN
-F 2 "footprints:SOT-23-6_OEM" H 9800 6650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 9850 6500 50  0001 C CNN
-F 4 "TPS560430YFDBVR" H 9800 4850 50  0001 C CNN "MPN"
-F 5 "TPS560430YFDBVR-ND" H 9850 4950 50  0001 C CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 10600 5050 50  0001 C CNN "Purchasing Link"
-	1    9850 5950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
