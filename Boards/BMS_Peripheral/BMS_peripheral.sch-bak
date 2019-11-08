@@ -888,22 +888,6 @@ Text Label 9750 5250 0    50   ~ 0
 V+1
 Wire Wire Line
 	9750 5250 9750 5350
-Text Label 8450 7450 0    50   ~ 0
-~DIS~1
-Text Label 7200 7350 0    50   ~ 0
-~DIS~2
-Text Label 7200 7150 0    50   ~ 0
-~DIS~3
-Text Label 7200 6950 0    50   ~ 0
-~DIS~4
-Text Label 7200 6350 0    50   ~ 0
-~DIS~6
-Text Label 7200 6150 0    50   ~ 0
-~DIS~7
-Text Label 7200 5950 0    50   ~ 0
-~DIS~8
-Text Label 7200 5750 0    50   ~ 0
-~DIS~9
 $Comp
 L formula:R_100 R17
 U 1 1 5E172B25
@@ -3385,7 +3369,7 @@ AR Path="/5DC492E4/5E15376C" Ref="J?"  Part="1"
 AR Path="/5E15376C" Ref="J5"  Part="1" 
 F 0 "J5" H 9450 2600 60  0000 C CNN
 F 1 "MM_M_VT_12" H 9756 3291 60  0000 C CNN
-F 2 "" H 9600 3150 60  0001 C CNN
+F 2 "footprints:micromatch_female_vt_12" H 9600 3150 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 9700 3250 60  0001 C CNN
 F 4 "TE" H 9900 3450 60  0001 C CNN "MFN"
 F 5 "1-215464-2" H 10000 3550 60  0001 C CNN "MPN"
@@ -3793,10 +3777,10 @@ V+1 is same \nas C16, for\nKelvin connection
 Text Notes 8050 3000 0    50   ~ 0
 Traces to transistor gates
 $Comp
-L formula:MicroFit_RA_V_2_SMD J?
+L formula:MicroFit_RA_V_2_SMD J6
 U 1 1 5DE56ACD
 P 15400 7600
-F 0 "J?" H 15222 7651 50  0000 R CNN
+F 0 "J6" H 15222 7651 50  0000 R CNN
 F 1 "MicroFit_RA_V_2_SMD" H 15222 7560 50  0000 R CNN
 F 2 "footprints:MicroFit_RA_2_SMD" H 15350 7800 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/436500213_sd.pdf" H 15350 7800 50  0001 C CNN
@@ -3807,10 +3791,10 @@ F 6 "https://www.digikey.com/product-detail/en/molex/0436500213/WM1895CT-ND/2690
 	-1   0    0    -1  
 $EndComp
 $Comp
-L formula:MicroFit_RA_V_2_SMD J?
+L formula:MicroFit_RA_V_2_SMD J7
 U 1 1 5DEE801F
 P 15400 10950
-F 0 "J?" H 15222 11001 50  0000 R CNN
+F 0 "J7" H 15222 11001 50  0000 R CNN
 F 1 "MicroFit_RA_V_2_SMD" H 15222 10910 50  0000 R CNN
 F 2 "footprints:MicroFit_RA_2_SMD" H 15350 11150 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/436500213_sd.pdf" H 15350 11150 50  0001 C CNN
