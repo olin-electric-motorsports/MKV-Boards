@@ -1,4 +1,4 @@
-16553141460070829
+16554725258590829
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73276,6 +73276,13 @@ MicroFit_RA_2
 3
 2
 footprints
+MicroFit_RA_2_SMD
+
+
+0
+4
+4
+footprints
 MicroFit_RA_06
 
 
@@ -73899,13 +73906,6 @@ micromatch_female_vert_10
 11
 11
 footprints
-micromatch_female_vert_12
-
-
-0
-13
-13
-footprints
 micromatch_female_vert_14
 
 
@@ -73933,6 +73933,13 @@ micromatch_female_vert_20
 0
 21
 21
+footprints
+micromatch_female_vt_12
+
+
+0
+13
+13
 footprints
 micromatch_via
 
