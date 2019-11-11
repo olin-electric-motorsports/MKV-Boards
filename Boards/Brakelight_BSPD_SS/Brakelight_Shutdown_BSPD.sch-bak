@@ -1268,7 +1268,7 @@ F 3 "" H 4730 2800 50  0001 C CNN
 	1    4730 2800
 	1    0    0    -1  
 $EndComp
-Text Label 3450 8250 0    50   ~ 0
+Text Label 3450 8150 0    50   ~ 0
 BSPD_CURRENT_SENSE
 Text Label 3740 2800 2    50   ~ 0
 BSPD_TEST_SWITCH
@@ -1290,8 +1290,6 @@ Connection ~ 3980 2800
 Wire Wire Line
 	3980 2500 3740 2500
 Connection ~ 3980 2500
-Text Label 3450 8750 0    50   ~ 0
-BRAKELIGHT_GATE
 Connection ~ 8390 2610
 Wire Wire Line
 	6330 1950 6480 1950
@@ -1316,7 +1314,6 @@ $EndComp
 Wire Wire Line
 	7430 2670 7430 3210
 NoConn ~ 3450 6850
-NoConn ~ 3450 6950
 Text Label 4350 7250 0    50   ~ 0
 RJ45_LED_0
 Text Label 4350 7150 0    50   ~ 0
@@ -1571,8 +1568,6 @@ Wire Wire Line
 	6980 9920 6980 9950
 Wire Wire Line
 	7380 9920 7380 9950
-Text Label 3450 8150 0    50   ~ 0
-BSPD_RELAY_SENSE
 NoConn ~ 3450 9150
 $Comp
 L power:GND #PWR?
@@ -2743,4 +2738,9 @@ Text Notes 5130 5920 0    50   ~ 0
 Shutdown Sense
 Text Notes 5120 6290 0    50   ~ 0
 When SHUTDOWN_SENSE_BSPD is\nlow (shutdown circuit is OPEN), LED\nwill turn off and CAN message will\nbe sent.\n
+Text Label 3450 6950 0    50   ~ 0
+BSPD_RELAY_SENSE
+NoConn ~ 3450 8750
+Text Label 3450 8250 0    50   ~ 0
+BRAKELIGHT_GATE
 $EndSCHEMATC
