@@ -1022,20 +1022,6 @@ Wire Wire Line
 Wire Wire Line
 	10400 1850 10500 1850
 $Comp
-L formula:R_1K_0.1 R?
-U 1 1 5DC7DC69
-P 6750 2600
-F 0 "R?" V 6543 2600 50  0001 C CNN
-F 1 "R_20m" V 6635 2600 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 6680 2600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6830 2600 50  0001 C CNN
-F 4 "DK" H 6750 2600 60  0001 C CNN "MFN"
-F 5 "P1.0KDACT-ND" H 6750 2600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 7230 3000 60  0001 C CNN "PurchasingLink"
-	1    6750 2600
-	0    1    1    0   
-$EndComp
-$Comp
 L formula:R_2.2K R?
 U 1 1 5DC7E41B
 P 6350 2975
@@ -1096,20 +1082,6 @@ ADC
 Wire Wire Line
 	6350 3125 6350 3400
 $Comp
-L formula:R_1K_0.1 R?
-U 1 1 5DC99AC4
-P 7175 2850
-F 0 "R?" H 7245 2896 50  0001 L CNN
-F 1 "LOAD" H 7245 2850 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 7105 2850 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7255 2850 50  0001 C CNN
-F 4 "DK" H 7175 2850 60  0001 C CNN "MFN"
-F 5 "P1.0KDACT-ND" H 7175 2850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 7655 3250 60  0001 C CNN "PurchasingLink"
-	1    7175 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5DC9A60E
 P 7175 3100
@@ -1132,5 +1104,27 @@ F 2 "" H 5650 2825 50  0001 C CNN
 F 3 "" H 5650 2825 50  0001 C CNN
 	1    5650 2825
 	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DC8F2EF
+P 6750 2600
+F 0 "R?" V 6543 2600 50  0000 C CNN
+F 1 "R_10m" V 6634 2600 50  0000 C CNN
+F 2 "" V 6680 2600 50  0001 C CNN
+F 3 "~" H 6750 2600 50  0001 C CNN
+	1    6750 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DC92083
+P 7175 2850
+F 0 "R?" H 7245 2896 50  0000 L CNN
+F 1 "LOAD" H 7245 2805 50  0000 L CNN
+F 2 "" V 7105 2850 50  0001 C CNN
+F 3 "~" H 7175 2850 50  0001 C CNN
+	1    7175 2850
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

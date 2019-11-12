@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:template-cache
+LIBS:GLV_BMS-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1021,4 +1021,116 @@ Wire Wire Line
 	2500 6100 2600 6100
 Wire Wire Line
 	10400 1850 10500 1850
+$Comp
+L formula:R_1K_0.1 R?
+U 1 1 5DC7DC69
+P 6750 2600
+F 0 "R?" V 6543 2600 50  0001 C CNN
+F 1 "R_20m" V 6635 2600 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 6680 2600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6830 2600 50  0001 C CNN
+F 4 "DK" H 6750 2600 60  0001 C CNN "MFN"
+F 5 "P1.0KDACT-ND" H 6750 2600 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 7230 3000 60  0001 C CNN "PurchasingLink"
+	1    6750 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_2.2K R?
+U 1 1 5DC7E41B
+P 6350 2975
+F 0 "R?" H 6420 3021 50  0001 L CNN
+F 1 "R_2.2K" H 6420 2975 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 6280 2975 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6430 2975 50  0001 C CNN
+F 4 "DK" H 6350 2975 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT2K20CT-ND" H 6350 2975 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" H 6830 3375 60  0001 C CNN "PurchasingLink"
+	1    6350 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_1K_0.1 R?
+U 1 1 5DC7EB5D
+P 6350 3550
+F 0 "R?" H 6420 3596 50  0001 L CNN
+F 1 "R_1K" H 6420 3550 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 6280 3550 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6430 3550 50  0001 C CNN
+F 4 "DK" H 6350 3550 60  0001 C CNN "MFN"
+F 5 "P1.0KDACT-ND" H 6350 3550 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 6830 3950 60  0001 C CNN "PurchasingLink"
+	1    6350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC80DCF
+P 6350 3900
+F 0 "#PWR?" H 6350 3650 50  0001 C CNN
+F 1 "GND" H 6355 3727 50  0000 C CNN
+F 2 "" H 6350 3900 50  0001 C CNN
+F 3 "" H 6350 3900 50  0001 C CNN
+	1    6350 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2825 5650 2600
+Wire Wire Line
+	5650 2600 6350 2600
+Wire Wire Line
+	6900 2600 7175 2600
+Wire Wire Line
+	7175 2600 7175 2700
+Wire Wire Line
+	6350 3700 6350 3900
+Wire Wire Line
+	6350 2825 6350 2600
+Connection ~ 6350 2600
+Wire Wire Line
+	6350 2600 6600 2600
+Text Label 3650 1700 0    50   ~ 0
+ADC
+Text Label 6350 3250 0    50   ~ 0
+ADC
+Wire Wire Line
+	6350 3125 6350 3400
+$Comp
+L formula:R_1K_0.1 R?
+U 1 1 5DC99AC4
+P 7175 2850
+F 0 "R?" H 7245 2896 50  0001 L CNN
+F 1 "LOAD" H 7245 2850 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 7105 2850 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7255 2850 50  0001 C CNN
+F 4 "DK" H 7175 2850 60  0001 C CNN "MFN"
+F 5 "P1.0KDACT-ND" H 7175 2850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 7655 3250 60  0001 C CNN "PurchasingLink"
+	1    7175 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC9A60E
+P 7175 3100
+F 0 "#PWR?" H 7175 2850 50  0001 C CNN
+F 1 "GND" H 7180 2927 50  0000 C CNN
+F 2 "" H 7175 3100 50  0001 C CNN
+F 3 "" H 7175 3100 50  0001 C CNN
+	1    7175 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7175 3000 7175 3100
+$Comp
+L power:+12V #PWR?
+U 1 1 5DCA5166
+P 5650 2825
+F 0 "#PWR?" H 5650 2675 50  0001 C CNN
+F 1 "+12V" H 5665 2998 50  0000 C CNN
+F 2 "" H 5650 2825 50  0001 C CNN
+F 3 "" H 5650 2825 50  0001 C CNN
+	1    5650 2825
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
