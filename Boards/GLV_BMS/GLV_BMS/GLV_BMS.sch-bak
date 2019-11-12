@@ -1022,115 +1022,105 @@ Wire Wire Line
 Wire Wire Line
 	10400 1850 10500 1850
 $Comp
-L formula:R_1K_0.1 R?
-U 1 1 5DC7DC69
-P 6750 2600
-F 0 "R?" V 6543 2600 50  0001 C CNN
-F 1 "R_20m" V 6635 2600 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 6680 2600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6830 2600 50  0001 C CNN
-F 4 "DK" H 6750 2600 60  0001 C CNN "MFN"
-F 5 "P1.0KDACT-ND" H 6750 2600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 7230 3000 60  0001 C CNN "PurchasingLink"
-	1    6750 2600
-	0    1    1    0   
-$EndComp
-$Comp
 L formula:R_2.2K R?
 U 1 1 5DC7E41B
-P 6350 2975
-F 0 "R?" H 6420 3021 50  0001 L CNN
-F 1 "R_2.2K" H 6420 2975 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 6280 2975 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6430 2975 50  0001 C CNN
-F 4 "DK" H 6350 2975 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT2K20CT-ND" H 6350 2975 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" H 6830 3375 60  0001 C CNN "PurchasingLink"
-	1    6350 2975
+P 7975 4425
+F 0 "R?" H 8045 4471 50  0001 L CNN
+F 1 "R_2.2K" H 8045 4425 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 7905 4425 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8055 4425 50  0001 C CNN
+F 4 "DK" H 7975 4425 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT2K20CT-ND" H 7975 4425 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" H 8455 4825 60  0001 C CNN "PurchasingLink"
+	1    7975 4425
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_1K_0.1 R?
 U 1 1 5DC7EB5D
-P 6350 3550
-F 0 "R?" H 6420 3596 50  0001 L CNN
-F 1 "R_1K" H 6420 3550 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 6280 3550 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6430 3550 50  0001 C CNN
-F 4 "DK" H 6350 3550 60  0001 C CNN "MFN"
-F 5 "P1.0KDACT-ND" H 6350 3550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 6830 3950 60  0001 C CNN "PurchasingLink"
-	1    6350 3550
+P 7975 5000
+F 0 "R?" H 8045 5046 50  0001 L CNN
+F 1 "R_1K" H 8045 5000 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 7905 5000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 8055 5000 50  0001 C CNN
+F 4 "DK" H 7975 5000 60  0001 C CNN "MFN"
+F 5 "P1.0KDACT-ND" H 7975 5000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 8455 5400 60  0001 C CNN "PurchasingLink"
+	1    7975 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DC80DCF
-P 6350 3900
-F 0 "#PWR?" H 6350 3650 50  0001 C CNN
-F 1 "GND" H 6355 3727 50  0000 C CNN
-F 2 "" H 6350 3900 50  0001 C CNN
-F 3 "" H 6350 3900 50  0001 C CNN
-	1    6350 3900
+P 7975 5350
+F 0 "#PWR?" H 7975 5100 50  0001 C CNN
+F 1 "GND" H 7980 5177 50  0000 C CNN
+F 2 "" H 7975 5350 50  0001 C CNN
+F 3 "" H 7975 5350 50  0001 C CNN
+	1    7975 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 2825 5650 2600
+	7275 4050 7975 4050
 Wire Wire Line
-	5650 2600 6350 2600
+	8525 4050 8800 4050
 Wire Wire Line
-	6900 2600 7175 2600
+	8800 4050 8800 4150
 Wire Wire Line
-	7175 2600 7175 2700
+	7975 5150 7975 5350
 Wire Wire Line
-	6350 3700 6350 3900
+	7975 4275 7975 4050
+Connection ~ 7975 4050
 Wire Wire Line
-	6350 2825 6350 2600
-Connection ~ 6350 2600
-Wire Wire Line
-	6350 2600 6600 2600
-Text Label 3650 1700 0    50   ~ 0
+	7975 4050 8225 4050
+Text Label 6925 2025 0    50   ~ 0
 ADC
-Text Label 6350 3250 0    50   ~ 0
+Text Label 7975 4700 0    50   ~ 0
 ADC
 Wire Wire Line
-	6350 3125 6350 3400
-$Comp
-L formula:R_1K_0.1 R?
-U 1 1 5DC99AC4
-P 7175 2850
-F 0 "R?" H 7245 2896 50  0001 L CNN
-F 1 "LOAD" H 7245 2850 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 7105 2850 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7255 2850 50  0001 C CNN
-F 4 "DK" H 7175 2850 60  0001 C CNN "MFN"
-F 5 "P1.0KDACT-ND" H 7175 2850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 7655 3250 60  0001 C CNN "PurchasingLink"
-	1    7175 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DC9A60E
-P 7175 3100
-F 0 "#PWR?" H 7175 2850 50  0001 C CNN
-F 1 "GND" H 7180 2927 50  0000 C CNN
-F 2 "" H 7175 3100 50  0001 C CNN
-F 3 "" H 7175 3100 50  0001 C CNN
-	1    7175 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7175 3000 7175 3100
+	7975 4575 7975 4850
 $Comp
 L power:+12V #PWR?
 U 1 1 5DCA5166
-P 5650 2825
-F 0 "#PWR?" H 5650 2675 50  0001 C CNN
-F 1 "+12V" H 5665 2998 50  0000 C CNN
-F 2 "" H 5650 2825 50  0001 C CNN
-F 3 "" H 5650 2825 50  0001 C CNN
-	1    5650 2825
+P 7275 4050
+F 0 "#PWR?" H 7275 3900 50  0001 C CNN
+F 1 "+12V" H 7290 4223 50  0000 C CNN
+F 2 "" H 7275 4050 50  0001 C CNN
+F 3 "" H 7275 4050 50  0001 C CNN
+	1    7275 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DC8F2EF
+P 8375 4050
+F 0 "R?" V 8168 4050 50  0000 C CNN
+F 1 "R_10m" V 8259 4050 50  0000 C CNN
+F 2 "" V 8305 4050 50  0001 C CNN
+F 3 "~" H 8375 4050 50  0001 C CNN
+	1    8375 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:ATmega328P-AU U?
+U 1 1 5DCCF6E4
+P 6325 2225
+F 0 "U?" H 6125 3792 50  0000 C CNN
+F 1 "ATmega328P-AU" H 6125 3701 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 6125 3775 50  0001 C CIN
+F 3 "" H 6325 2225 50  0001 C CNN
+	1    6325 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 5DCEF997
+P 8800 4150
+F 0 "#PWR?" H 8800 4250 50  0001 C CNN
+F 1 "-12V" H 8815 4323 50  0000 C CNN
+F 2 "" H 8800 4150 50  0001 C CNN
+F 3 "" H 8800 4150 50  0001 C CNN
+	1    8800 4150
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
