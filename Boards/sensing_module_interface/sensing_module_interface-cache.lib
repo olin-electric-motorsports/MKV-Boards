@@ -39,41 +39,41 @@ X 9 9 200 300 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_MM_F_RA_08
+# formula_MM_M_VT_08
 #
-DEF formula_MM_F_RA_08 J 0 40 Y Y 1 F N
-F0 "J" 0 400 60 H V C CNN
-F1 "formula_MM_F_RA_08" 50 -550 60 H V C CNN
-F2 "footprints:micromatch_female_ra_8" -100 300 60 H I C CNN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-8" 0 400 60 H I C CNN
+DEF formula_MM_M_VT_08 J 0 40 Y Y 1 F N
+F0 "J" 0 550 60 H V C CNN
+F1 "formula_MM_M_VT_08" 0 -350 60 H V C CNN
+F2 "" -100 450 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
-F5 "338070-8" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-338070-8.html" 100 500 60 H I C CNN "PurchasingLink"
+F5 "215464-8" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-215464-8.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
-S 150 -450 -150 350 0 1 0 f
-X 1 1 250 300 100 L 50 50 1 1 B
-X 2 2 250 200 100 L 50 50 1 1 B
-X 3 3 250 100 100 L 50 50 1 1 B
-X 4 4 250 0 100 L 50 50 1 1 B
-X 5 5 250 -100 100 L 50 50 1 1 B
-X 6 6 250 -200 100 L 50 50 1 1 B
-X 7 7 250 -300 100 L 50 50 1 1 B
-X 8 8 250 -400 100 L 50 50 1 1 B
+S -150 500 150 -300 0 1 0 f
+X 1 1 250 450 100 L 50 50 1 1 B
+X 2 2 250 350 100 L 50 50 1 1 B
+X 3 3 250 250 100 L 50 50 1 1 B
+X 4 4 250 150 100 L 50 50 1 1 B
+X 5 5 250 50 100 L 50 50 1 1 B
+X 6 6 250 -50 100 L 50 50 1 1 B
+X 7 7 250 -150 100 L 50 50 1 1 B
+X 8 8 250 -250 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# formula_MM_F_RA_20
+# formula_MM_M_VT_20
 #
-DEF formula_MM_F_RA_20 J 0 40 Y Y 1 F N
+DEF formula_MM_M_VT_20 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
-F1 "formula_MM_F_RA_20" 0 -950 60 H V C CNN
-F2 "footprints:micromatch_female_ra_20" -200 1100 60 H I C CNN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" -100 1200 60 H I C CNN
+F1 "formula_MM_M_VT_20" -50 -900 60 H V C CNN
+F2 "" -200 1100 60 H I C CNN
+F3 "" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
-F5 "2-338070-0" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-2-338070-0.html" 0 1300 60 H I C CNN "PurchasingLink"
+F5 "2-215464-0" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-2-215464-0.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
-S 50 -850 -250 1150 0 1 0 f
+S -250 1150 50 -850 0 1 0 f
 X 1 1 150 1100 100 L 50 50 1 1 B
 X 10 10 150 200 100 L 50 50 1 1 B
 X 11 11 150 100 100 L 50 50 1 1 B
