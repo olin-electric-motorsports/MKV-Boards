@@ -619,7 +619,7 @@ Text Notes 1800 5950 0    50   ~ 0
 Input Capacitors\n\n
 Text Notes 1450 6950 1    50   ~ 0
 12V Indicator
-Text Notes 2450 5700 0    89   ~ 0
+Text Notes 2500 5550 0    89   ~ 0
 BUCK CONVERTER\n
 Text Notes 4100 6350 0    50   ~ 0
 Inductor\n
@@ -994,10 +994,6 @@ F 3 "" H 10400 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10000 4750 10400 4750
-Text Label 10000 4850 0    50   ~ 0
-CANH
-Text Label 10000 4950 0    50   ~ 0
-CANL
 $Comp
 L power:PWR_FLAG #FLG04
 U 1 1 5DC70C10
@@ -1009,6 +1005,10 @@ F 3 "~" H 10400 4650 50  0001 C CNN
 	1    10400 4650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10000 4650 10400 4650
+Text Notes 9650 4200 0    89   ~ 0
+ULTRAFIT\n
 $Comp
 L formula:Ultrafit_4_RA J1
 U 1 1 5DC6F275
@@ -1025,8 +1025,10 @@ F 8 "https://www.digikey.com/products/en?keywords=1723101304" H 10150 5700 60  0
 	1    9650 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10000 4650 10400 4650
-Text Notes 9650 4200 0    89   ~ 0
-ULTRAFIT\n
+Text Label 10000 4850 0    50   ~ 0
+CANH
+Text Label 10000 4950 0    50   ~ 0
+CANL
+Text Notes 1350 7550 0    59   ~ 0
+This buck converter will eventually change. Adi is currently coming up with a new one\n
 $EndSCHEMATC
