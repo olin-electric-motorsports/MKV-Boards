@@ -96,39 +96,6 @@ X Pin_9 9 -200 500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_CONN_02X03
-#
-DEF formula_CONN_02X03 J 0 1 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "formula_CONN_02X03" 0 -200 50 H V C CNN
-F2 "footprints:Pin_Header_Straight_2x03" 0 -1200 50 H I C CNN
-F3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" 0 -1200 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "609-3234-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" 400 600 60 H I C CNN "PurchasingLink"
-$FPLIST
- Pin_Header_Straight_2X03
- Pin_Header_Angled_2X03
- Socket_Strip_Straight_2X03
- Socket_Strip_Angled_2X03
-$ENDFPLIST
-DRAW
-S -100 -95 -50 -105 0 1 0 N
-S -100 5 -50 -5 0 1 0 N
-S -100 105 -50 95 0 1 0 N
-S -100 150 100 -150 0 1 0 N
-S 50 -95 100 -105 0 1 0 N
-S 50 5 100 -5 0 1 0 N
-S 50 105 100 95 0 1 0 N
-X P1 1 -250 100 150 R 50 50 1 1 P
-X P2 2 250 100 150 L 50 50 1 1 P
-X P3 3 -250 0 150 R 50 50 1 1 P
-X P4 4 250 0 150 L 50 50 1 1 P
-X P5 5 -250 -100 150 R 50 50 1 1 P
-X P6 6 250 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # formula_C_0.1uF
 #
 DEF formula_C_0.1uF C 0 10 N Y 1 F N
@@ -139,31 +106,6 @@ F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "478-3352-1-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" 425 500 60 H I C CNN "PurchasingLink"
-$FPLIST
- C?
- C_????_*
- C_????
- SMD*_c
- Capacitor*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# formula_C_100pF
-#
-DEF formula_C_100pF C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "formula_C_100pF" 25 -100 50 H V L CNN
-F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
-F3 "https://katalog.we-online.de/pbs/datasheet/885012007057.pdf" 25 100 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "732-7852-1-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007057/732-7852-1-ND/5454479" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -423,32 +365,6 @@ X ~ 2 100 0 20 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_MCP2561-E_SN
-#
-DEF formula_MCP2561-E_SN U 0 40 Y Y 1 F N
-F0 "U" -400 350 50 H V L CNN
-F1 "formula_MCP2561-E_SN" 100 350 50 H V L CNN
-F2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" 0 -500 50 H I C CIN
-F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" -400 350 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "MCP2561-E/SN-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" 0 750 60 H I C CNN "PurchasingLink"
-$FPLIST
- SOIC*Pitch1.27mm*
-$ENDFPLIST
-DRAW
-S -400 300 400 -300 0 1 10 f
-X TXD 1 -500 200 100 R 50 50 1 1 I
-X VSS 2 0 -400 100 U 50 50 1 1 W
-X VDD 3 0 400 100 D 50 50 1 1 W
-X RXD 4 -500 100 100 R 50 50 1 1 O
-X SPLIT 5 500 0 100 L 50 50 1 1 P
-X CANL 6 500 -100 100 L 50 50 1 1 B
-X CANH 7 500 100 100 L 50 50 1 1 B
-X STBY 8 -500 -200 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # formula_MCP25625-x-SS
 #
 DEF formula_MCP25625-x-SS U 0 20 Y Y 1 F N
@@ -505,27 +421,6 @@ F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&Do
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "A121322CT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=A121322CT-ND" 480 400 60 H I C CNN "PurchasingLink"
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# formula_R_100
-#
-DEF formula_R_100 R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "formula_R_100" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -800 150 50 H I C CNN
-F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" -300 500 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "RNCP0805FTD100RCT-ND" -650 250 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -643,38 +538,39 @@ X SW 6 400 50 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# formula_USB_MicroB
+# formula_Ultrafit_4_RA
 #
-DEF formula_USB_MicroB U 0 40 Y Y 1 F N
-F0 "U" 150 -350 50 H V C CNN
-F1 "formula_USB_MicroB" 0 350 50 H V C CNN
-F2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" -50 350 50 H I C CNN
-F3 "https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf" -50 350 50 H I C CNN
-F4 "DK" 250 -250 50 H I C CNN "MFN"
-F5 "WM1399CT-ND" 350 -150 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex-llc/1050170001/WM1399CT-ND/2350885" 450 -50 50 H I C CNN "PurchasingLink"
+DEF formula_Ultrafit_4_RA J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "formula_Ultrafit_4_RA" 0 -200 60 H V C CNN
+F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
+F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
+F5 "Value" -850 400 60 H I C CNN "Package"
+F6 "WM11574-ND" -650 500 60 H I C CNN "MPN"
+F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
+F8 "https://www.digikey.com/products/en?keywords=1723101304" 500 850 60 H I C CNN "PurchasingLink"
 DRAW
-C -150 85 25 1 1 10 F
-C -25 135 15 1 1 10 F
-S -200 -300 200 300 1 1 10 f
-S -5 -300 5 -270 1 1 0 N
-S 10 50 -20 20 1 1 10 F
-S 200 -205 170 -195 1 1 0 N
-S 200 -105 170 -95 1 1 0 N
-S 200 -5 170 5 1 1 0 N
-S 200 195 170 205 1 1 0 N
-P 2 1 1 10 -75 85 25 85 N
-P 4 1 1 10 -125 85 -100 85 -50 135 -25 135 N
-P 4 1 1 10 -100 85 -75 85 -50 35 0 35 N
-P 4 1 1 10 25 110 25 60 75 85 25 110 F
-P 5 1 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
-P 9 1 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
-X VBUS 1 300 200 100 L 50 50 1 1 w
-X D- 2 300 -100 100 L 50 50 1 1 P
-X D+ 3 300 0 100 L 50 50 1 1 P
-X ID 4 300 -200 100 L 50 50 1 1 P
-X GND 5 0 -400 100 U 50 50 1 1 w
-X Shield 6 -100 -400 100 U 50 50 1 1 P
+S 150 250 -150 -150 0 1 0 f
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+12V
+#
+DEF power_+12V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+12V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
