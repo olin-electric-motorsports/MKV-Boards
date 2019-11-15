@@ -168,12 +168,12 @@ $EndComp
 $Comp
 L formula:NF_F_RA_2x06 U1
 U 1 1 5DCBAD7A
-P 3800 800
-F 0 "U1" H 3856 925 50  0000 C CNN
-F 1 "Nanofit_12" H 3856 834 50  0000 C CNN
-F 2 "" H 3800 800 50  0001 C CNN
-F 3 "" H 3800 800 50  0001 C CNN
-	1    3800 800 
+P 3450 800
+F 0 "U1" H 3506 925 50  0000 C CNN
+F 1 "Nanofit_12" H 3506 834 50  0000 C CNN
+F 2 "" H 3450 800 50  0001 C CNN
+F 3 "" H 3450 800 50  0001 C CNN
+	1    3450 800 
 	1    0    0    -1  
 $EndComp
 Text Label 1050 900  0    50   ~ 0
@@ -328,29 +328,23 @@ Text Label 5750 1200 0    50   ~ 0
 IMD_LED
 Text Label 5750 1300 0    50   ~ 0
 GND
-Text Label 4000 1100 0    50   ~ 0
+Text Label 3650 1100 0    50   ~ 0
 BRAKE_LED
-Text Label 4000 1200 0    50   ~ 0
+Text Label 3650 1500 0    50   ~ 0
 GND
-Text Label 4000 1300 0    50   ~ 0
+Text Label 3650 1600 0    50   ~ 0
 GND
-Text Label 4000 1400 0    50   ~ 0
+Text Label 3650 1700 0    50   ~ 0
 GND
-Text Label 4000 1500 0    50   ~ 0
+Text Label 3650 1800 0    50   ~ 0
 GND
-Text Label 4000 1600 0    50   ~ 0
+Text Label 3650 1900 0    50   ~ 0
 GND
-Text Label 4000 1700 0    50   ~ 0
+Text Label 3650 2000 0    50   ~ 0
 GND
-Text Label 4000 1800 0    50   ~ 0
-GND
-Text Label 4000 1900 0    50   ~ 0
-GND
-Text Label 4000 2000 0    50   ~ 0
-GND
-Text Label 4000 900  0    50   ~ 0
+Text Label 3650 900  0    50   ~ 0
 LV_LED
-Text Label 4000 1000 0    50   ~ 0
+Text Label 3650 1000 0    50   ~ 0
 HV_LED
 Wire Notes Line
 	550  550  550  2950
@@ -362,7 +356,7 @@ Wire Notes Line
 	6300 550  550  550 
 Text Notes 3300 2850 0    118  ~ 0
 DUX Connectors and Peripherals
-Text Notes 3700 2250 0    50   ~ 0
+Text Notes 3350 2250 0    50   ~ 0
 Layout note: \nPlace on driver's left\n
 Text Notes 4500 2150 0    50   ~ 0
 Layout note: \nPlace on driver's center\n
@@ -505,20 +499,44 @@ CANL
 $Comp
 L formula:NF_F_RA_2x02 J6
 U 1 1 5DCF3CB6
-P 4250 3550
-F 0 "J6" H 4306 3925 50  0000 C CNN
-F 1 "NF_F_RA_2x02" H 4306 3834 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105314-xx04_2x02_P2.50mm_Horizontal" H 4150 3300 50  0001 C CNN
-F 3 "" H 4250 3800 50  0001 C CNN
-	1    4250 3550
+P 4050 3450
+F 0 "J6" H 4106 3825 50  0000 C CNN
+F 1 "NF_F_RA_2x02" H 4106 3734 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105314-xx04_2x02_P2.50mm_Horizontal" H 3950 3200 50  0001 C CNN
+F 3 "" H 4050 3700 50  0001 C CNN
+	1    4050 3450
 	1    0    0    -1  
 $EndComp
-Text Label 4450 3400 0    50   ~ 0
+Text Label 4250 3300 0    50   ~ 0
 GND
-Text Label 4450 3500 0    50   ~ 0
+Text Label 4250 3400 0    50   ~ 0
 5V_STEERING
-Text Label 4450 3600 0    50   ~ 0
+Text Label 4250 3500 0    50   ~ 0
 CANH
-Text Label 4450 3700 0    50   ~ 0
+Text Label 4250 3600 0    50   ~ 0
 CANL
+NoConn ~ 7700 1700
+NoConn ~ 7700 1900
+NoConn ~ 7700 2100
+NoConn ~ 7700 2200
+NoConn ~ 7700 3800
+NoConn ~ 7700 4000
+NoConn ~ 7700 4200
+NoConn ~ 7700 4300
+Wire Notes Line
+	3800 3000 3800 4200
+Wire Notes Line
+	3800 4200 6300 4200
+Wire Notes Line
+	6300 4200 6300 3000
+Wire Notes Line
+	6300 3000 3800 3000
+Text Notes 3900 4100 0    98   ~ 0
+Steering Wheel Connectors 
+Text Label 3650 1200 0    50   ~ 0
+DRIVE_MODE_+
+Text Label 3650 1300 0    50   ~ 0
+DRIVE_MODE_SENSE
+Text Label 3650 1400 0    50   ~ 0
+DRIVE_MODE_-
 $EndSCHEMATC
