@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Template Board"
-Date "2019-08-22"
+Title "Suspension Travel"
+Date "2019-11-14"
 Rev "1"
 Comp "Olin Electric Motorsports"
-Comment1 "Aditya Sudhakar"
+Comment1 "Andrew Mascillaro"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -624,20 +624,6 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 10175 1650 60
 	1    9750 1150
 	0    1    1    0   
 $EndComp
-$Comp
-L formula:R_200 R2
-U 1 1 5D5FB79E
-P 10700 1750
-F 0 "R2" V 10790 1700 50  0000 L CNN
-F 1 "R_200" V 10610 1630 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 10630 1750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 10780 1750 50  0001 C CNN
-F 4 "DK" H 10700 1750 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 10700 1750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 11180 2150 60  0001 C CNN "PurchasingLink"
-	1    10700 1750
-	1    0    0    -1  
-$EndComp
 NoConn ~ 10400 1750
 $Comp
 L power:VCC #PWR01
@@ -904,17 +890,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 1650 10500 1600
 Wire Wire Line
-	10500 1600 10700 1600
-Connection ~ 10700 1600
-Wire Wire Line
-	10700 1600 10850 1600
-Wire Wire Line
 	10500 1850 10500 1900
-Wire Wire Line
-	10500 1900 10700 1900
-Connection ~ 10700 1900
-Wire Wire Line
-	10700 1900 10850 1900
 Wire Wire Line
 	9500 6000 9500 6150
 Wire Wire Line
@@ -1022,10 +998,10 @@ Wire Wire Line
 Wire Wire Line
 	10400 1850 10500 1850
 $Comp
-L formula:R_1K_0.1 R?
+L formula:R_1K_0.1 R4
 U 1 1 5DB7BFAF
 P 4800 1150
-F 0 "R?" H 4870 1196 50  0000 L CNN
+F 0 "R4" H 4870 1196 50  0000 L CNN
 F 1 "R_1K_0.1" H 4870 1105 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 4730 1150 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4880 1150 50  0001 C CNN
@@ -1036,10 +1012,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D1
 U 1 1 5DB8F533
 P 6900 2950
-F 0 "D?" H 6893 3166 50  0000 C CNN
+F 0 "D1" H 6893 3166 50  0000 C CNN
 F 1 "LED_0805" H 6893 3075 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 6800 2950 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 6900 3050 50  0001 C CNN
@@ -1054,10 +1030,10 @@ PROGRAMMINGLED2
 Text Label 3650 1700 0    50   ~ 0
 PROGRAMMINGLED3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR021
 U 1 1 5DB982B6
 P 6650 2950
-F 0 "#PWR?" H 6650 2700 50  0001 C CNN
+F 0 "#PWR021" H 6650 2700 50  0001 C CNN
 F 1 "GND" H 6655 2777 50  0000 C CNN
 F 2 "" H 6650 2950 50  0001 C CNN
 F 3 "" H 6650 2950 50  0001 C CNN
@@ -1069,10 +1045,10 @@ PROGRAMMINGLED1
 Wire Wire Line
 	6750 2950 6650 2950
 $Comp
-L formula:C_22uF C?
+L formula:C_22uF C6
 U 1 1 5DBF0507
 P 4800 1600
-F 0 "C?" H 4915 1646 50  0000 L CNN
+F 0 "C6" H 4915 1646 50  0000 L CNN
 F 1 "C_22uF" H 4915 1555 50  0000 L CNN
 F 2 "footprints:C_1206_OEM" H 4838 1450 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 4825 1700 50  0001 C CNN
@@ -1084,46 +1060,24 @@ F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160A
 $EndComp
 Wire Wire Line
 	4800 1300 4800 1400
-$Comp
-L formula:MM_F_RA_12 J?
-U 1 1 5DC15E40
-P 7000 1550
-F 0 "J?" H 7058 2347 60  0000 C CNN
-F 1 "MM_F_RA_12" H 7058 2241 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_12" H 6900 2100 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1-338070-2" H 7000 2200 60  0001 C CNN
-F 4 "TE" H 7200 2400 60  0001 C CNN "MFN"
-F 5 "1-338070-2" H 7200 3050 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-1-338070-2.html" H 7100 2300 60  0001 C CNN "PurchasingLink"
-	1    7000 1550
-	1    0    0    -1  
-$EndComp
 Text Label 7250 1100 0    50   ~ 0
 12V
 Text Label 7250 1000 0    50   ~ 0
 GND
 Text Label 7250 1200 0    50   ~ 0
-CAN_HIGH
+CAN_HI
 Text Label 7250 1300 0    50   ~ 0
-CAN_LOW
+CAN_LO
 Text Label 7250 1400 0    50   ~ 0
 POT1_HIGH
 Text Label 7250 1500 0    50   ~ 0
 POT1_SENSE
 Text Label 7250 1600 0    50   ~ 0
 POT1_GND
-Text Label 7250 1700 0    50   ~ 0
-POT2_HIGH
-Text Label 7250 1800 0    50   ~ 0
-POT2_SENSE
-Text Label 7250 1900 0    50   ~ 0
-POT2_GND
 Text Label 4800 750  0    50   ~ 0
 POT1_SENSE
 Text Label 3650 1300 0    50   ~ 0
 POT1_MICRO
-Text Label 3650 1400 0    50   ~ 0
-POT2_MICRO
 Text Label 3650 1500 0    50   ~ 0
 PROGRAMMINGLED1
 Text Label 4950 1400 0    50   ~ 0
@@ -1133,10 +1087,10 @@ Wire Wire Line
 Wire Wire Line
 	4800 1000 4800 750 
 $Comp
-L formula:R_200 R?
+L formula:R_200 R6
 U 1 1 5DCC038A
 P 7200 2950
-F 0 "R?" V 6993 2950 50  0000 C CNN
+F 0 "R6" V 6993 2950 50  0000 C CNN
 F 1 "R_200" V 7084 2950 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 7130 2950 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7280 2950 50  0001 C CNN
@@ -1152,10 +1106,10 @@ Connection ~ 4800 1400
 Wire Wire Line
 	4800 1400 4800 1450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR019
 U 1 1 5DCE3082
 P 4800 1900
-F 0 "#PWR?" H 4800 1650 50  0001 C CNN
+F 0 "#PWR019" H 4800 1650 50  0001 C CNN
 F 1 "GND" H 4805 1727 50  0000 C CNN
 F 2 "" H 4800 1900 50  0001 C CNN
 F 3 "" H 4800 1900 50  0001 C CNN
@@ -1163,64 +1117,10 @@ F 3 "" H 4800 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_1K_0.1 R?
-U 1 1 5DCF15D5
-P 5700 1150
-F 0 "R?" H 5770 1196 50  0000 L CNN
-F 1 "R_1K_0.1" H 5770 1105 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5630 1150 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5780 1150 50  0001 C CNN
-F 4 "DK" H 5700 1150 60  0001 C CNN "MFN"
-F 5 "P1.0KDACT-ND" H 5700 1150 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 6180 1550 60  0001 C CNN "PurchasingLink"
-	1    5700 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:C_22uF C?
-U 1 1 5DCF15DE
-P 5700 1600
-F 0 "C?" H 5815 1646 50  0000 L CNN
-F 1 "C_22uF" H 5815 1555 50  0000 L CNN
-F 2 "footprints:C_1206_OEM" H 5738 1450 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 5725 1700 50  0001 C CNN
-F 4 "DK" H 5700 1600 60  0001 C CNN "MFN"
-F 5 "445-11693-1-ND" H 5700 1600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160AB/445-11693-1-ND/3953359" H 6125 2100 60  0001 C CNN "PurchasingLink"
-	1    5700 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 1300 5700 1400
-Text Label 5700 750  0    50   ~ 0
-POT2_SENSE
-Text Label 5850 1400 0    50   ~ 0
-POT2_MICRO
-Wire Wire Line
-	5700 1750 5700 1900
-Wire Wire Line
-	5700 1000 5700 750 
-Wire Wire Line
-	5700 1400 5850 1400
-Connection ~ 5700 1400
-Wire Wire Line
-	5700 1400 5700 1450
-$Comp
-L power:GND #PWR?
-U 1 1 5DCF15EC
-P 5700 1900
-F 0 "#PWR?" H 5700 1650 50  0001 C CNN
-F 1 "GND" H 5705 1727 50  0000 C CNN
-F 2 "" H 5700 1900 50  0001 C CNN
-F 3 "" H 5700 1900 50  0001 C CNN
-	1    5700 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D2
 U 1 1 5DCFD898
 P 6900 3450
-F 0 "D?" H 6893 3666 50  0000 C CNN
+F 0 "D2" H 6893 3666 50  0000 C CNN
 F 1 "LED_0805" H 6893 3575 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 6800 3450 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 6900 3550 50  0001 C CNN
@@ -1231,10 +1131,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 7300 3950 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR022
 U 1 1 5DCFD89E
 P 6650 3450
-F 0 "#PWR?" H 6650 3200 50  0001 C CNN
+F 0 "#PWR022" H 6650 3200 50  0001 C CNN
 F 1 "GND" H 6655 3277 50  0000 C CNN
 F 2 "" H 6650 3450 50  0001 C CNN
 F 3 "" H 6650 3450 50  0001 C CNN
@@ -1246,10 +1146,10 @@ PROGRAMMINGLED2
 Wire Wire Line
 	6750 3450 6650 3450
 $Comp
-L formula:R_200 R?
+L formula:R_200 R7
 U 1 1 5DCFD8A9
 P 7200 3450
-F 0 "R?" V 6993 3450 50  0000 C CNN
+F 0 "R7" V 6993 3450 50  0000 C CNN
 F 1 "R_200" V 7084 3450 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 7130 3450 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7280 3450 50  0001 C CNN
@@ -1260,10 +1160,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7680 38
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D3
 U 1 1 5DD00512
 P 6900 3950
-F 0 "D?" H 6893 4166 50  0000 C CNN
+F 0 "D3" H 6893 4166 50  0000 C CNN
 F 1 "LED_0805" H 6893 4075 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 6800 3950 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 6900 4050 50  0001 C CNN
@@ -1274,10 +1174,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 7300 4450 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR023
 U 1 1 5DD00518
 P 6650 3950
-F 0 "#PWR?" H 6650 3700 50  0001 C CNN
+F 0 "#PWR023" H 6650 3700 50  0001 C CNN
 F 1 "GND" H 6655 3777 50  0000 C CNN
 F 2 "" H 6650 3950 50  0001 C CNN
 F 3 "" H 6650 3950 50  0001 C CNN
@@ -1289,10 +1189,10 @@ PROGRAMMINGLED3
 Wire Wire Line
 	6750 3950 6650 3950
 $Comp
-L formula:R_200 R?
+L formula:R_200 R8
 U 1 1 5DD00523
 P 7200 3950
-F 0 "R?" V 6993 3950 50  0000 C CNN
+F 0 "R8" V 6993 3950 50  0000 C CNN
 F 1 "R_200" V 7084 3950 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 7130 3950 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7280 3950 50  0001 C CNN
@@ -1302,4 +1202,94 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7680 43
 	1    7200 3950
 	0    1    1    0   
 $EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5DD011F4
+P 8250 5950
+F 0 "#PWR025" H 8250 5700 50  0001 C CNN
+F 1 "GND" H 8255 5777 50  0000 C CNN
+F 2 "" H 8250 5950 50  0001 C CNN
+F 3 "" H 8250 5950 50  0001 C CNN
+	1    8250 5950
+	1    0    0    -1  
+$EndComp
+Text Label 8250 5950 0    50   ~ 0
+POT1_GND
+$Comp
+L formula:MM_F_RA_08 J2
+U 1 1 5DD0966E
+P 7000 1300
+F 0 "J2" H 7058 1847 60  0000 C CNN
+F 1 "MM_F_RA_08" H 7058 1741 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_8" H 6900 1600 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-8" H 7000 1700 60  0001 C CNN
+F 4 "TE" H 7100 2700 60  0001 C CNN "MFN"
+F 5 "338070-8" H 7200 2800 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/usa-en/product-338070-8.html" H 7100 1800 60  0001 C CNN "PurchasingLink"
+	1    7000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5DD0BA7C
+P 7250 1700
+F 0 "#PWR020" H 7250 1450 50  0001 C CNN
+F 1 "GND" H 7255 1527 50  0000 C CNN
+F 2 "" H 7250 1700 50  0001 C CNN
+F 3 "" H 7250 1700 50  0001 C CNN
+	1    7250 1700
+	1    0    0    -1  
+$EndComp
+Text Label 7400 6000 0    50   ~ 0
+POT1_HIGH
+$Comp
+L power:VCC #PWR024
+U 1 1 5DD0E312
+P 7400 6000
+F 0 "#PWR024" H 7400 5850 50  0001 C CNN
+F 1 "VCC" H 7417 6173 50  0000 C CNN
+F 2 "" H 7400 6000 50  0001 C CNN
+F 3 "" H 7400 6000 50  0001 C CNN
+	1    7400 6000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3650 1000
+NoConn ~ 3650 1100
+NoConn ~ 3650 1200
+NoConn ~ 3650 1400
+NoConn ~ 3650 1900
+NoConn ~ 3650 2000
+NoConn ~ 3650 2300
+NoConn ~ 3650 2400
+NoConn ~ 3650 2500
+NoConn ~ 3650 2600
+NoConn ~ 3650 2800
+NoConn ~ 3650 2900
+NoConn ~ 3650 3300
+NoConn ~ 3650 3400
+NoConn ~ 3650 3500
+Wire Wire Line
+	10500 1600 10700 1600
+Wire Wire Line
+	10500 1900 10700 1900
+$Comp
+L formula:R_120_DNP R2
+U 1 1 5DCE4A2C
+P 10700 1750
+F 0 "R2" H 10770 1796 50  0000 L CNN
+F 1 "R_120_DNP" H 10770 1705 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 9500 1900 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 9500 2200 50  0001 L CNN
+F 4 "DK" H 10700 1750 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 9500 2000 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 9500 2100 60  0001 L CNN "PurchasingLink"
+	1    10700 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 10700 1600
+Wire Wire Line
+	10700 1600 10850 1600
+Connection ~ 10700 1900
+Wire Wire Line
+	10700 1900 10850 1900
 $EndSCHEMATC
