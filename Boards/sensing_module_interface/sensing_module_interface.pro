@@ -1,4 +1,4 @@
-update=Wed 23 Oct 2019 04:41:35 PM EDT
+update=Thu Nov 14 17:41:46 2019
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=template.net
+LastNetListRead=sensing_module_interface.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -71,7 +71,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
