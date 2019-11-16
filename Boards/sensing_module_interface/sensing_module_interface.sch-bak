@@ -51,9 +51,9 @@ Text Label 2450 3850 0    50   ~ 0
 Text Label 2450 3950 0    50   ~ 0
 GND
 Text Label 2450 4050 0    50   ~ 0
-CAN_HIGH
+CAN_P
 Text Label 2450 4150 0    50   ~ 0
-CAN_LOW
+CAN_N
 Text Label 2450 4250 0    50   ~ 0
 12V
 Text Label 2450 4350 0    50   ~ 0
@@ -63,17 +63,17 @@ LINEAR_POT_+
 Text Label 2450 4550 0    50   ~ 0
 HALL_EFFECT_SENSE
 Text Label 2450 4650 0    50   ~ 0
-CAN_HIGH
+CAN_P
 Text Label 2450 4750 0    50   ~ 0
-CAN_LOW
+CAN_N
 Text Label 2450 4850 0    50   ~ 0
 GND
 Text Notes 2650 4850 0    50   ~ 0
 (CAN CABLE SHIELD)
 Text Label 2450 4950 0    50   ~ 0
-CAN_HIGH
+CAN_P
 Text Label 2450 5050 0    50   ~ 0
-CAN_LOW
+CAN_N
 Text Label 2450 5150 0    50   ~ 0
 LINEAR_POT_SENSE
 Text Label 2450 5250 0    50   ~ 0
@@ -83,9 +83,9 @@ Text Label 2450 5350 0    50   ~ 0
 Text Label 2450 5450 0    50   ~ 0
 GND
 Text Label 2450 5550 0    50   ~ 0
-CAN_HIGH
+CAN_P
 Text Label 2450 5650 0    50   ~ 0
-CAN_LOW
+CAN_N
 Text Label 2450 5750 0    50   ~ 0
 12V
 Text Label 2450 5850 0    50   ~ 0
@@ -107,9 +107,9 @@ Text Label 7200 3750 0    50   ~ 0
 Text Label 7200 3850 0    50   ~ 0
 GND
 Text Label 7200 3950 0    50   ~ 0
-CAN_HIGH
+CAN_P
 Text Label 7200 4050 0    50   ~ 0
-CAN_LOW
+CAN_N
 Text Label 7200 4150 0    50   ~ 0
 HALL_EFFECT_+
 Text Label 7200 4250 0    50   ~ 0
@@ -123,9 +123,9 @@ Text Label 7200 5150 0    50   ~ 0
 Text Label 7200 5250 0    50   ~ 0
 GND
 Text Label 7200 5350 0    50   ~ 0
-CAN_HIGH
+CAN_P
 Text Label 7200 5450 0    50   ~ 0
-CAN_LOW
+CAN_N
 Text Label 7200 5850 0    50   ~ 0
 GND
 Text Label 7200 5550 0    50   ~ 0
@@ -173,9 +173,9 @@ Text Label 8750 3750 0    50   ~ 0
 Text Label 8750 3850 0    50   ~ 0
 GND
 Text Label 8750 3950 0    50   ~ 0
-CAN_HIGH
+CAN_P
 Text Label 8750 4050 0    50   ~ 0
-CAN_LOW
+CAN_N
 Text Label 8750 4150 0    50   ~ 0
 STRAIN_GAUGE_1_+
 Text Label 8750 4250 0    50   ~ 0

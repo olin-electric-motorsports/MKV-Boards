@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 26)
+    (drawings 28)
     (tracks 575)
     (zones 0)
     (modules 18)
@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -178,7 +178,7 @@
   (module footprints:micromatch_female_ra_8 (layer F.Cu) (tedit 59EE7FEF) (tstamp 5DCE2D74)
     (at 142.748 110.236 90)
     (path /5DCDB2E4)
-    (fp_text reference J15 (at 5.08 5.08 90) (layer F.SilkS)
+    (fp_text reference J15 (at 0 8.128 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MM_M_VT_08 (at 6.35 0) (layer F.Fab) hide
@@ -1228,7 +1228,7 @@
   (module footprints:micromatch_female_ra_8 (layer F.Cu) (tedit 59EE7FEF) (tstamp 5DCE2D62)
     (at 142.748 123.952 90)
     (path /5DCDABD7)
-    (fp_text reference J14 (at 5.08 5.08 90) (layer F.SilkS)
+    (fp_text reference J14 (at 0 8.128 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MM_M_VT_08 (at 6.35 0) (layer F.Fab) hide
@@ -1270,7 +1270,7 @@
   (module footprints:micromatch_female_ra_20 (layer F.Cu) (tedit 59EE7AE1) (tstamp 5DCE2D92)
     (at 123.952 96.52 90)
     (path /5DD7FE9F)
-    (fp_text reference J16 (at 5.08 5.08 90) (layer F.SilkS)
+    (fp_text reference J16 (at 5.588 -6.096 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MM_M_VT_20 (at 6.35 0) (layer F.Fab) hide
@@ -1370,6 +1370,12 @@
     )
   )
 
+  (gr_text "CHECK BOARD ORIENTATION BEFORE\nPLUGGING IN AND POWERING ON" (at 140.716 116.84) (layer F.SilkS) (tstamp 5DCF4E2C)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "CHECK BOARD ORIENTATION BEFORE\nPLUGGING IN AND POWERING ON" (at 140.716 103.632) (layer F.SilkS) (tstamp 5DCF4DF6)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (dimension 8.128 (width 0.15) (layer Dwgs.User) (tstamp 5DCDFA14)
     (gr_text "0.3200 in" (at 167.864 115.824 270) (layer Dwgs.User) (tstamp 5DCDFA14)
       (effects (font (size 1 1) (thickness 0.15)))
