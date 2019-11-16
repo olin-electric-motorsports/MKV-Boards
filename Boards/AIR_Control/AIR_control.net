@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/isabel/Documents/Formula/MKV-Boards/Boards/AIR_Control/AIR_control.sch)
-    (date "Mon 28 Oct 2019 09:56:50 PM EDT")
+    (date "Mon 11 Nov 2019 07:59:48 PM EST")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
