@@ -859,25 +859,7 @@ $EndComp
 Wire Wire Line
 	7200 3000 7200 2950
 Wire Wire Line
-	7200 2950 7400 2950
-Wire Wire Line
 	7200 3200 7200 3250
-Wire Wire Line
-	7200 3250 7400 3250
-$Comp
-L formula:R_200 R_DNP1
-U 1 1 5DAB3A00
-P 7400 3100
-F 0 "R_DNP1" V 7500 3000 50  0000 L CNN
-F 1 "R_200" V 7300 3000 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 7330 3100 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7480 3100 50  0001 C CNN
-F 4 "DK" H 7400 3100 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 7400 3100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7880 3500 60  0001 C CNN "PurchasingLink"
-	1    7400 3100
-	1    0    0    -1  
-$EndComp
 NoConn ~ 7200 3100
 $Comp
 L power:GND #PWR034
@@ -2113,12 +2095,6 @@ Wire Notes Line
 Wire Notes Line
 	6350 900  6350 2150
 Wire Wire Line
-	7400 3250 7550 3250
-Connection ~ 7400 3250
-Wire Wire Line
-	7400 2950 7550 2950
-Connection ~ 7400 2950
-Wire Wire Line
 	4900 2900 4950 2900
 Connection ~ 4900 2900
 Wire Wire Line
@@ -2404,4 +2380,28 @@ Wire Wire Line
 	1150 5000 1350 5000
 Wire Wire Line
 	1350 5000 1350 5150
+Wire Wire Line
+	7200 2950 7350 2950
+Wire Wire Line
+	7200 3250 7350 3250
+$Comp
+L formula:R_120_DNP R_DNP1
+U 1 1 5DD1AD56
+P 7350 3100
+F 0 "R_DNP1" H 7420 3146 50  0000 L CNN
+F 1 "R_120_DNP" H 7420 3055 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 6150 3250 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 6150 3550 50  0001 L CNN
+F 4 "DK" H 7350 3100 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 6150 3350 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 6150 3450 60  0001 L CNN "PurchasingLink"
+	1    7350 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 2950
+Wire Wire Line
+	7350 2950 7550 2950
+Connection ~ 7350 3250
+Wire Wire Line
+	7350 3250 7550 3250
 $EndSCHEMATC

@@ -145,26 +145,8 @@ Text Label 1150 4400 0    50   ~ 0
 Air-12V
 Text Label 1150 4500 0    50   ~ 0
 Air-GND
-$Comp
-L formula:MicroFit_RA_V_2 J2
-U 1 1 5DA98DF4
-P 900 4950
-F 0 "J2" H 900 4800 50  0000 C CNN
-F 1 "MicroFit_RA_V_2" H 958 5134 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_V_2" H 850 5150 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" H 850 5150 50  0001 C CNN
-F 4 "MFN" H 1000 5200 50  0001 C CNN "DK"
-F 5 "WM1865-ND" H 1100 5300 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 900 5100 50  0001 C CNN "PurchasingLink"
-	1    900  4950
-	1    0    0    -1  
-$EndComp
 Text Label 1150 4900 0    50   ~ 0
 Shutdown_In
-Wire Wire Line
-	1150 5000 1350 5000
-Wire Wire Line
-	1350 5000 1350 5150
 $Comp
 L power:GND #PWR03
 U 1 1 5DA99C73
@@ -2404,4 +2386,22 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 398
 	1    3500 1450
 	1    0    0    -1  
 $EndComp
+$Comp
+L formula:MicroFit_RA_V_2 J2
+U 1 1 5DA98DF4
+P 900 4950
+F 0 "J2" H 900 4800 50  0000 C CNN
+F 1 "MicroFit_RA_V_2" H 958 5134 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_V_2" H 850 5150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" H 850 5150 50  0001 C CNN
+F 4 "MFN" H 1000 5200 50  0001 C CNN "DK"
+F 5 "WM1865-ND" H 1100 5300 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 900 5100 50  0001 C CNN "PurchasingLink"
+	1    900  4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5000 1350 5000
+Wire Wire Line
+	1350 5000 1350 5150
 $EndSCHEMATC
