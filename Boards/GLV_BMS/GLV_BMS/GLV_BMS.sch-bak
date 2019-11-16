@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Template Board"
+Title "Grounded Low Voltage Battery Monitor System Board"
 Date "2019-08-22"
 Rev "1"
 Comp "Olin Electric Motorsports"
-Comment1 "Aditya Sudhakar"
+Comment1 "Nabih Estefan"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -150,7 +150,7 @@ U 1 1 5C08921B
 P 5050 6350
 F 0 "COUT102" H 4950 6600 50  0000 L CNN
 F 1 "C_33uF" H 5060 6250 50  0000 L CNN
-F 2 "footprints:Fuse_1812" H 5100 5950 50  0001 C CNN
+F 2 "footprints:C_1812_OEM" H 5100 5950 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 5050 7000 50  0001 C CNN
 F 4 "C4532X7R1C336M250KC" H 5100 5850 60  0001 C CNN "MFN"
 F 5 "445-3924-1-ND" H 5050 6700 60  0001 C CNN "MPN"
@@ -338,7 +338,7 @@ U 1 1 5BEE27A2
 P 4250 6200
 F 0 "L101" H 4250 6300 50  0000 C CNN
 F 1 "L_100uH" H 4250 6150 50  0000 C CNN
-F 2 "footprints:L_100uH" H 4150 6000 50  0001 C CNN
+F 2 "formula:L_100uH" H 4150 6000 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 4150 6050 50  0001 C CNN
 F 4 "Digikey" H 4350 6000 50  0001 C CNN "MFN"
 F 5 "445-15759-1-ND" H 4250 6450 50  0001 C CNN "MPN"
@@ -402,7 +402,7 @@ $Comp
 L formula:ATMEGA16M1 U2
 U 1 1 5D58A7A6
 P 2550 2700
-F 0 "U2" H 3450 4560 50  0000 C CNN
+F 0 "U2" H 1650 4650 50  0000 C CNN
 F 1 "ATMEGA16M1" H 1850 4550 50  0000 C CNN
 F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2550 2700 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1600 4530 50  0001 C CNN
@@ -877,7 +877,7 @@ U 1 1 5C75D405
 P 2950 6250
 F 0 "U101" H 2975 6715 50  0000 C CNN
 F 1 "TPS560430YF" H 2975 6624 50  0000 C CNN
-F 2 "footprints:SOT-23-6_OEM" H 2900 6950 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 2900 6950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 2950 6800 50  0001 C CNN
 F 4 "TPS560430YFDBVR" H 2900 5150 50  0001 C CNN "MPN"
 F 5 "TPS560430YFDBVR-ND" H 2950 5250 50  0001 C CNN "MFN"
@@ -971,7 +971,7 @@ $Comp
 L formula:R_2.2K R?
 U 1 1 5DC7E41B
 P 2675 4725
-F 0 "R?" H 2745 4771 50  0001 L CNN
+F 0 "R?" V 2500 4650 50  0000 L CNN
 F 1 "R_2.2K" V 2575 4600 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 2605 4725 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2755 4725 50  0001 C CNN
@@ -985,7 +985,7 @@ $Comp
 L formula:R_1K_0.1 R?
 U 1 1 5DC7EB5D
 P 2675 5000
-F 0 "R?" H 2745 5046 50  0001 L CNN
+F 0 "R?" V 2450 5000 50  0000 L CNN
 F 1 "R_1K" V 2575 4925 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 2605 5000 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 2755 5000 50  0001 C CNN
@@ -1021,7 +1021,7 @@ Wire Wire Line
 	2825 4500 3075 4500
 Text Label 3650 1700 0    50   ~ 0
 ADC
-Text Label 2525 4875 2    50   ~ 0
+Text Label 2375 4875 2    50   ~ 0
 ADC
 $Comp
 L power:+12V #PWR?
@@ -1176,7 +1176,7 @@ XTAL1
 Text Label 5400 2350 0    50   ~ 0
 XTAL2
 Wire Wire Line
-	2525 4725 2525 5000
+	2525 4725 2525 4875
 Text Notes 5025 1075 0    50   ~ 0
 For the 328P\n\n\n
 Text Label 10275 1350 0    50   ~ 0
@@ -1227,7 +1227,7 @@ $Comp
 L formula:R_10K R?
 U 1 1 5DDBB827
 P 8300 2500
-F 0 "R?" V 8300 2475 50  0000 C CNN
+F 0 "R?" V 8450 2425 50  0000 C CNN
 F 1 "R_10K" V 8375 2500 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 8230 2500 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 8380 2500 50  0001 C CNN
@@ -1377,88 +1377,6 @@ F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-323
 	1    8925 1325
 	1    0    0    -1  
 $EndComp
-Text Notes 8625 1875 0    50   ~ 0
-Interface via PWM at AtMega 16M1\n
-Connection ~ 9475 2150
-Connection ~ 8700 2125
-$Comp
-L power:GND #PWR?
-U 1 1 5DF5DD30
-P 9475 2450
-F 0 "#PWR?" H 9475 2200 50  0001 C CNN
-F 1 "GND" H 9480 2277 50  0000 C CNN
-F 2 "" H 9475 2450 50  0001 C CNN
-F 3 "" H 9475 2450 50  0001 C CNN
-	1    9475 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DF5D5D3
-P 8700 2425
-F 0 "#PWR?" H 8700 2175 50  0001 C CNN
-F 1 "GND" H 8705 2252 50  0000 C CNN
-F 2 "" H 8700 2425 50  0001 C CNN
-F 3 "" H 8700 2425 50  0001 C CNN
-	1    8700 2425
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:C_0.1uF C?
-U 1 1 5DF5C40E
-P 9475 2300
-F 0 "C?" H 9600 2225 50  0000 L CNN
-F 1 "C_0.1uF" H 9575 2150 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 9513 2150 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 9500 2400 50  0001 C CNN
-F 4 "DK" H 9475 2300 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 9475 2300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 9900 2800 60  0001 C CNN "PurchasingLink"
-	1    9475 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:C_0.1uF C?
-U 1 1 5DF5BD3B
-P 8700 2275
-F 0 "C?" H 8825 2250 50  0000 L CNN
-F 1 "C_0.1uF" H 8800 2150 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 8738 2125 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8725 2375 50  0001 C CNN
-F 4 "DK" H 8700 2275 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 8700 2275 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 9125 2775 60  0001 C CNN "PurchasingLink"
-	1    8700 2275
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_100K R?
-U 1 1 5DF5B045
-P 9625 2150
-F 0 "R?" V 9625 2150 50  0000 C CNN
-F 1 "R_100K" V 9509 2150 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 9555 2150 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9705 2150 50  0001 C CNN
-F 4 "DK" H 9625 2150 60  0001 C CNN "MFN"
-F 5 "P100KCCT-ND" H 9625 2150 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 10105 2550 60  0001 C CNN "PurchasingLink"
-	1    9625 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_100K R?
-U 1 1 5DF5A2C3
-P 8850 2125
-F 0 "R?" V 8850 2125 50  0000 C CNN
-F 1 "R_100K" V 8734 2125 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 8780 2125 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8930 2125 50  0001 C CNN
-F 4 "DK" H 8850 2125 60  0001 C CNN "MFN"
-F 5 "P100KCCT-ND" H 8850 2125 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 9330 2525 60  0001 C CNN "PurchasingLink"
-	1    8850 2125
-	0    1    1    0   
-$EndComp
 Text Notes 5000 850  0    89   ~ 0
 Crystals\n\n
 Text Notes 7175 1000 0    89   ~ 0
@@ -1488,7 +1406,7 @@ Wire Notes Line
 Wire Notes Line
 	575  7700 6850 7700
 Wire Notes Line
-	1925 4225 1925 5450
+	1625 4225 1625 5450
 Wire Notes Line
 	600  550  600  4225
 Wire Wire Line
@@ -1500,22 +1418,10 @@ Wire Notes Line
 	5850 3725 8850 3725
 Wire Notes Line
 	8850 2800 8850 4800
-Wire Wire Line
-	7925 2000 8700 2000
-Wire Wire Line
-	8700 2000 8700 2125
-Wire Wire Line
-	7925 1900 9475 1900
-Wire Wire Line
-	9475 1900 9475 2150
 Wire Notes Line
 	10600 1675 8325 1675
-Wire Notes Line
-	10050 1675 10050 2800
-Text Notes 3025 5050 0    50   ~ 0
-Circuit \n-not final-\nmeasuring voltage and current\n
-Wire Notes Line
-	4450 550  4450 5425
+Text Notes 1725 5350 0    50   ~ 0
+Circuit \n-not final-\nmeasuring voltage \nand current\n
 Wire Notes Line
 	5850 3725 5850 550 
 Wire Notes Line
@@ -1524,12 +1430,127 @@ Wire Notes Line
 	10600 550  10600 1675
 Wire Notes Line
 	600  550  10600 550 
-Text Label 9000 2125 0    50   ~ 0
-PWM_1
-Text Label 9775 2150 0    50   ~ 0
-PWM_0
 Text Label 3650 2000 0    50   ~ 0
 PWM_1
 Text Label 3650 1900 0    50   ~ 0
 PWM_0
+Wire Wire Line
+	2375 4875 2525 4875
+Connection ~ 2525 4875
+Wire Wire Line
+	2525 4875 2525 5000
+Text Label 9775 2150 0    50   ~ 0
+PWM_0
+Text Label 9000 2125 0    50   ~ 0
+PWM_1
+Wire Notes Line
+	10050 1675 10050 2800
+Wire Wire Line
+	9475 1900 9475 2150
+Wire Wire Line
+	7925 1900 9475 1900
+Wire Wire Line
+	8700 2000 8700 2125
+Wire Wire Line
+	7925 2000 8700 2000
+$Comp
+L formula:R_100K R?
+U 1 1 5DF5A2C3
+P 8850 2125
+F 0 "R?" V 8850 2125 50  0000 C CNN
+F 1 "R_100K" V 8734 2125 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 8780 2125 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 8930 2125 50  0001 C CNN
+F 4 "DK" H 8850 2125 60  0001 C CNN "MFN"
+F 5 "P100KCCT-ND" H 8850 2125 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 9330 2525 60  0001 C CNN "PurchasingLink"
+	1    8850 2125
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_100K R?
+U 1 1 5DF5B045
+P 9625 2150
+F 0 "R?" V 9625 2150 50  0000 C CNN
+F 1 "R_100K" V 9509 2150 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 9555 2150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9705 2150 50  0001 C CNN
+F 4 "DK" H 9625 2150 60  0001 C CNN "MFN"
+F 5 "P100KCCT-ND" H 9625 2150 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 10105 2550 60  0001 C CNN "PurchasingLink"
+	1    9625 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:C_0.1uF C?
+U 1 1 5DF5BD3B
+P 8700 2275
+F 0 "C?" H 8825 2250 50  0000 L CNN
+F 1 "C_0.1uF" H 8800 2150 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 8738 2125 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8725 2375 50  0001 C CNN
+F 4 "DK" H 8700 2275 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 8700 2275 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 9125 2775 60  0001 C CNN "PurchasingLink"
+	1    8700 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_0.1uF C?
+U 1 1 5DF5C40E
+P 9475 2300
+F 0 "C?" H 9600 2225 50  0000 L CNN
+F 1 "C_0.1uF" H 9575 2150 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 9513 2150 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 9500 2400 50  0001 C CNN
+F 4 "DK" H 9475 2300 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 9475 2300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 9900 2800 60  0001 C CNN "PurchasingLink"
+	1    9475 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF5D5D3
+P 8700 2425
+F 0 "#PWR?" H 8700 2175 50  0001 C CNN
+F 1 "GND" H 8705 2252 50  0000 C CNN
+F 2 "" H 8700 2425 50  0001 C CNN
+F 3 "" H 8700 2425 50  0001 C CNN
+	1    8700 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF5DD30
+P 9475 2450
+F 0 "#PWR?" H 9475 2200 50  0001 C CNN
+F 1 "GND" H 9480 2277 50  0000 C CNN
+F 2 "" H 9475 2450 50  0001 C CNN
+F 3 "" H 9475 2450 50  0001 C CNN
+	1    9475 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 2125
+Connection ~ 9475 2150
+Text Notes 8625 1875 0    50   ~ 0
+Interface via PWM at AtMega 16M1\n
+Text Notes 10075 2100 0    50   ~ 0
+<----- This will change \n           when Manu \n           figures the I2C \n           to SPI interaction\n
+Text Notes 3375 4550 0    50   ~ 0
+<------------- This Resistor has no footnote\n                        We still dont have it in parts \n                        (it will also be offloaded to the battery)
+Wire Notes Line
+	4450 4225 4450 550 
+Text Notes 3150 5275 0    50   ~ 0
+/\\n |\n |\n |\n |\n  ------------- Also Missing Gas Gauge\n                        We still dont have it in parts \n                        It was already spec'd 
+Text Notes 6800 4850 0    98   ~ 0
+Board is missing:\n- I2C to SPI connection\n- Shunt Resistor\n- Gas Gauge
+Text Label 7925 3200 0    50   ~ 0
+INFO1
+Text Label 7925 3300 0    50   ~ 0
+INFO2
+Text Label 3650 2800 0    50   ~ 0
+INFO1
+Text Label 3650 2900 0    50   ~ 0
+INFO2
 $EndSCHEMATC
