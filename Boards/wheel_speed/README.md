@@ -8,7 +8,7 @@ Multiple hall effect sensors were considered, but the sensor chosen was the [Lit
 
 ### Interface
 
-This board interfaces to the main vehicle harness through an 8-pin Molex MicroMod connector. The pinout is:
+This board interfaces to the main vehicle harness through an 8-pin Molex MicroFit connector. The pinout is:
 
 1. GND (BK)
 2. +12V (RD)
