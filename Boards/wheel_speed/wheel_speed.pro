@@ -1,4 +1,4 @@
-update=Sun 17 Nov 2019 09:44:32 AM EST
+update=Wed 23 Oct 2019 04:41:35 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=AIR_control.net
+LastNetListRead=template.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -41,8 +41,6 @@ MinHoleToHole=0.25
 TrackWidth1=0.1524
 TrackWidth2=0.254
 TrackWidth3=0.381
-TrackWidth4=0.635
-TrackWidth5=0.762
 ViaDiameter1=0.6096
 ViaDrill1=0.3048
 ViaDiameter2=0.6096
@@ -50,9 +48,6 @@ ViaDrill2=0.3048
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
-dPairWidth2=0.225298
-dPairGap2=0.249936
-dPairViaGap2=0
 SilkLineWidth=0.15
 SilkTextSizeV=1
 SilkTextSizeH=1
