@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/lucky/Desktop/Formula/2020/MKV-Boards/Boards/sensing_module_interface/sensing_module_interface.sch)
-    (date "Thu 14 Nov 2019 05:36:08 PM EST")
+    (date "Fri 15 Nov 2019 03:56:56 PM EST")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -301,7 +301,7 @@
         (pin (num 2) (name 2) (type BiDi)))))
   (libraries
     (library (logical formula)
-      (uri /home/lucky/Desktop/Formula/2019/OEM_Preferred_Parts/schematic/formula.lib)))
+      (uri /home/lucky/Desktop/Formula/OEM_Preferred_Parts/schematic/formula.lib)))
   (nets
     (net (code 1) (name /STRAIN_GAUGE_2_+)
       (node (ref J3) (pin 1))
@@ -375,7 +375,7 @@
     (net (code 24) (name /STRAIN_GAUGE_1_+)
       (node (ref J2) (pin 1))
       (node (ref J16) (pin 5)))
-    (net (code 25) (name /CAN_LOW)
+    (net (code 25) (name /CAN_N)
       (node (ref J1) (pin 11))
       (node (ref J1) (pin 14))
       (node (ref J1) (pin 20))
@@ -411,7 +411,7 @@
       (node (ref J15) (pin 2))
       (node (ref J1) (pin 18))
       (node (ref J14) (pin 8)))
-    (net (code 31) (name /CAN_HIGH)
+    (net (code 31) (name /CAN_P)
       (node (ref J16) (pin 3))
       (node (ref J14) (pin 3))
       (node (ref J1) (pin 4))
