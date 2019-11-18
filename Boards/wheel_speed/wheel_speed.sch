@@ -1052,25 +1052,12 @@ Wire Wire Line
 	6750 2250 6750 2150
 Text Label 5800 2250 0    50   ~ 0
 12V
-Text Label 5800 1950 0    50   ~ 0
-CAN_HI
 Text Label 5800 2050 0    50   ~ 0
+CAN_HI
+Text Label 5800 1950 0    50   ~ 0
 CAN_LO
-Text Label 5800 1850 0    50   ~ 0
+Text Label 5800 1750 0    50   ~ 0
 SENSE_IN
-Text Label 6750 1300 0    50   ~ 0
-5V
-$Comp
-L power:GND #PWR0114
-U 1 1 5DD1C3AF
-P 6750 1850
-F 0 "#PWR0114" H 6750 1600 50  0001 C CNN
-F 1 "GND" H 6755 1677 50  0000 C CNN
-F 2 "" H 6750 1850 50  0001 C CNN
-F 3 "" H 6750 1850 50  0001 C CNN
-	1    6750 1850
-	1    0    0    -1  
-$EndComp
 Text Label 3650 1500 0    50   ~ 0
 SENSE_IN
 Text Label 3650 1300 0    50   ~ 0
@@ -1169,45 +1156,6 @@ Wire Wire Line
 Connection ~ 5900 4650
 Wire Wire Line
 	5900 4650 5750 4650
-$Comp
-L formula:C_0.1uF C6
-U 1 1 5DD4FC93
-P 6750 1550
-F 0 "C6" H 6865 1596 50  0000 L CNN
-F 1 "C_0.1uF" H 6865 1505 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 6788 1400 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6775 1650 50  0001 C CNN
-F 4 "DK" H 6750 1550 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 6750 1550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 7175 2050 60  0001 C CNN "PurchasingLink"
-	1    6750 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 1300 6750 1350
-Wire Wire Line
-	6750 1350 6000 1350
-Wire Wire Line
-	6000 1350 6000 1550
-Wire Wire Line
-	6000 1550 5800 1550
-Connection ~ 6750 1350
-Wire Wire Line
-	6750 1350 6750 1400
-Wire Wire Line
-	6750 1850 6750 1750
-Wire Wire Line
-	6750 1750 6000 1750
-Connection ~ 6750 1750
-Wire Wire Line
-	6750 1750 6750 1700
-Wire Wire Line
-	5800 1650 6000 1650
-Wire Wire Line
-	6000 1650 6000 1750
-Connection ~ 6000 1750
-Wire Wire Line
-	6000 1750 5800 1750
 NoConn ~ 3650 1100
 NoConn ~ 3650 1200
 NoConn ~ 3650 1600
@@ -1416,4 +1364,47 @@ Wire Wire Line
 	5900 5300 5900 5200
 Wire Wire Line
 	6750 2150 5800 2150
+Wire Wire Line
+	5800 1850 6350 1850
+Wire Wire Line
+	5800 1650 6100 1650
+Wire Wire Line
+	6100 1650 6100 1550
+Wire Wire Line
+	6100 1550 5800 1550
+$Comp
+L power:GND #PWR0114
+U 1 1 5DD1C3AF
+P 6900 1600
+F 0 "#PWR0114" H 6900 1350 50  0001 C CNN
+F 1 "GND" H 6905 1427 50  0000 C CNN
+F 2 "" H 6900 1600 50  0001 C CNN
+F 3 "" H 6900 1600 50  0001 C CNN
+	1    6900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_0.1uF C6
+U 1 1 5DD4FC93
+P 6350 1700
+F 0 "C6" H 6465 1746 50  0000 L CNN
+F 1 "C_0.1uF" H 6465 1655 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 6388 1550 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6375 1800 50  0001 C CNN
+F 4 "DK" H 6350 1700 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 6350 1700 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 6775 2200 60  0001 C CNN "PurchasingLink"
+	1    6350 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 1550
+Wire Wire Line
+	6350 1550 6100 1550
+Wire Wire Line
+	6350 1550 6900 1550
+Wire Wire Line
+	6900 1550 6900 1600
+Connection ~ 6350 1550
+Text Label 5800 1850 0    50   ~ 0
+5V
 $EndSCHEMATC
