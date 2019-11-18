@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title "Template Board"
 Date "2019-08-22"
 Rev "1"
@@ -2010,11 +2010,4 @@ Wire Wire Line
 	6300 7150 6300 7050
 Wire Wire Line
 	6300 7550 6300 7450
-$Sheet
-S 7650 5500 1800 550 
-U 5E13A73B
-F0 "Sheet5E13A73A" 50
-F1 "file5E13A73A.sch" 50
-F2 "pin1" I L 7650 5800 50 
-$EndSheet
 $EndSCHEMATC
