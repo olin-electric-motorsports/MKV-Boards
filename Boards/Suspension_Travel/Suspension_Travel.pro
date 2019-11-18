@@ -1,4 +1,4 @@
-update=Thu 31 Oct 2019 06:05:11 PM EDT
+update=Mon 18 Nov 2019 02:37:43 PM EST
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=template.net
+LastNetListRead=Suspension_Travel.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -61,7 +61,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
