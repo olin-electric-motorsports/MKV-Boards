@@ -1,15 +1,15 @@
 EESchema Schematic File Version 4
 LIBS:wheel_speed-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Template Board"
-Date "2019-08-22"
+Title "Wheel Speed Sensing"
+Date "2019-11-17"
 Rev "1"
 Comp "Olin Electric Motorsports"
-Comment1 "Aditya Sudhakar"
+Comment1 "Wesley Soo-Hoo"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -396,8 +396,6 @@ Text Notes 6500 6000 0    50   ~ 0
 5V
 Text Notes 6250 7300 1    50   ~ 0
 5V Indicator
-Text Notes 10600 7650 0    50   ~ 0
-2
 $Comp
 L formula:ATMEGA16M1 U2
 U 1 1 5D58A7A6
