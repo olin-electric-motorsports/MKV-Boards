@@ -2010,4 +2010,6 @@ Wire Wire Line
 	6300 7150 6300 7050
 Wire Wire Line
 	6300 7550 6300 7450
+Text Notes 5100 4900 0    50   ~ 0
+TO DO:\nCreate a new hierarchical sheet\nMove sensor checks logic circuits to new sheet\nMake sure everything still works
 $EndSCHEMATC
