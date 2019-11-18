@@ -1543,7 +1543,7 @@ Wire Notes Line
 	4450 4225 4450 550 
 Text Notes 3150 5275 0    50   ~ 0
 /\\n |\n |\n |\n |\n  ------------- Also Missing Gas Gauge\n                        We still dont have it in parts \n                        It was already spec'd 
-Text Notes 6800 4850 0    98   ~ 0
+Text Notes 4500 4250 0    98   ~ 0
 Board is missing:\n- I2C to SPI connection\n- Shunt Resistor\n- Gas Gauge
 Text Label 7925 3200 0    50   ~ 0
 INFO1
@@ -1553,4 +1553,15 @@ Text Label 3650 2800 0    50   ~ 0
 INFO1
 Text Label 3650 2900 0    50   ~ 0
 INFO2
+$Comp
+L formula:bq20z644-R1_Gas_Gauge U?
+U 1 1 5DD07E14
+P 7800 5100
+F 0 "U?" H 7825 6375 50  0000 C CNN
+F 1 "bq20z644-R1_Gas_Gauge" H 7825 6284 50  0000 C CNN
+F 2 "" H 7450 5200 50  0001 C CNN
+F 3 "" H 7450 5200 50  0001 C CNN
+	1    7800 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
