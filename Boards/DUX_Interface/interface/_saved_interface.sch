@@ -660,4 +660,22 @@ Wire Notes Line
 	900  5700 900  6650
 Wire Notes Line
 	3750 5700 3750 6650
+$Comp
+L formula:R_120_DNP R1
+U 1 1 5DD2F1A4
+P 9150 4650
+F 0 "R1" V 8943 4650 50  0000 C CNN
+F 1 "R_120_DNP" V 9034 4650 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 7950 4800 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 7950 5100 50  0001 L CNN
+F 4 "DK" H 9150 4650 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 7950 4900 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 7950 5000 60  0001 L CNN "PurchasingLink"
+	1    9150 4650
+	0    1    1    0   
+$EndComp
+Text Label 9000 4650 2    50   ~ 0
+CANH
+Text Label 9300 4650 0    50   ~ 0
+CANL
 $EndSCHEMATC
