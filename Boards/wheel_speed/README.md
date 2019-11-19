@@ -10,14 +10,12 @@ Multiple hall effect sensors were considered, but the sensor chosen was the [Lit
 
 This board interfaces to the main vehicle harness through an 8-pin Molex MicroFit connector. The pinout is:
 
-1. GND (BK)
-2. +12V (RD)
-3. CAN_LOW (GN)
-4. CAN_HIGH (YE)
-5. SENSE_IN (WH)
-6. GND (BK)
-7. GND (BK)
-8. +5V (RD)
-
-Colors are assumed -- check the harness documentation to find the actual wire colors. (TODO update this)
+1. +12V
+2. GND
+3. CAN_LOW
+4. CAN_HIGH
+5. SENSE_IN
+6. GND
+7. GND
+8. +5V
 
