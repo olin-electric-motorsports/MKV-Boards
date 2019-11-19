@@ -7467,8 +7467,8 @@ Text Label 6900 2200 2    50   ~ 0
 MOSI
 Text Label 6900 2000 2    50   ~ 0
 SCK
-Text Notes 850  4950 0    50   ~ 0
-SCHEMATIC NOTE: LEDs still need to be added.\nPOPULATION NOTE: DNP Crystal Circuit
+Text Notes 850  4800 0    50   ~ 0
+POPULATION NOTE: DNP Crystal Circuit
 Wire Wire Line
 	3850 3200 3800 3200
 $Comp
@@ -7640,15 +7640,15 @@ Wire Notes Line
 $Comp
 L formula:LED_0805 D1
 U 1 1 5DE871A0
-P 3400 4100
-F 0 "D1" V 3439 3983 50  0000 R CNN
-F 1 "LED_0805" V 3348 3983 50  0000 R CNN
-F 2 "footprints:LED_0805_OEM" H 3300 4100 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 3400 4200 50  0001 C CNN
-F 4 "DK" H 3400 4100 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 3400 4100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 3800 4600 60  0001 C CNN "PurchasingLink"
-	1    3400 4100
+P 3650 4100
+F 0 "D1" V 3689 3983 50  0000 R CNN
+F 1 "LED_0805" V 3598 3983 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 3550 4100 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 3650 4200 50  0001 C CNN
+F 4 "DK" H 3650 4100 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 3650 4100 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4050 4600 60  0001 C CNN "PurchasingLink"
+	1    3650 4100
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
@@ -7658,20 +7658,16 @@ Wire Notes Line
 $Comp
 L power:GND #PWR01
 U 1 1 5DE8803A
-P 3400 4350
-F 0 "#PWR01" H 3400 4100 50  0001 C CNN
-F 1 "GND" H 3405 4177 50  0000 C CNN
-F 2 "" H 3400 4350 50  0001 C CNN
-F 3 "" H 3400 4350 50  0001 C CNN
-	1    3400 4350
+P 3650 4350
+F 0 "#PWR01" H 3650 4100 50  0001 C CNN
+F 1 "GND" H 3655 4177 50  0000 C CNN
+F 2 "" H 3650 4350 50  0001 C CNN
+F 3 "" H 3650 4350 50  0001 C CNN
+	1    3650 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 4350 3400 4250
-Wire Wire Line
-	3400 3950 3400 3900
-Wire Wire Line
-	3400 3900 3150 3900
+	3650 4350 3650 4250
 Wire Notes Line
 	6200 2600 9650 2600
 Wire Notes Line
@@ -8322,4 +8318,24 @@ F 3 "" H 2550 2900 50  0001 C CNN
 	1    2550 2900
 	1    0    0    -1  
 $EndComp
+$Comp
+L formula:R_200 R6
+U 1 1 5DD90D84
+P 3400 3900
+F 0 "R6" V 3300 3900 50  0000 C CNN
+F 1 "R_200" V 3200 3900 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3330 3900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3480 3900 50  0001 C CNN
+F 4 "DK" H 3400 3900 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 3400 3900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 3880 4300 60  0001 C CNN "PurchasingLink"
+	1    3400 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 3900 3250 3900
+Wire Wire Line
+	3550 3900 3650 3900
+Wire Wire Line
+	3650 3900 3650 3950
 $EndSCHEMATC
