@@ -111,20 +111,6 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 6230 47
 $EndComp
 Text Notes 900  850  0    118  ~ 0
 Connectors
-$Comp
-L formula:MicroFit_RA_10 J1
-U 1 1 5DA9623C
-P 900 4150
-F 0 "J1" H 958 4925 50  0000 C CNN
-F 1 "MicroFit_RA_10" H 958 4834 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_10" H 1000 4800 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430451000_sd.pdf" H 1000 4800 50  0001 C CNN
-F 4 "DK" H 900 4800 50  0001 C CNN "MFN"
-F 5 "WM1817-ND" H 1000 4900 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430451000/WM1817-ND/252530" H 1100 5000 50  0001 C CNN "PurchasingLink"
-	1    900  4150
-	1    0    0    -1  
-$EndComp
 Text Label 1150 3600 0    50   ~ 0
 Precharge+
 Text Label 1150 3700 0    50   ~ 0
@@ -2404,4 +2390,18 @@ Wire Wire Line
 Connection ~ 7350 3250
 Wire Wire Line
 	7350 3250 7550 3250
+$Comp
+L formula:MicroFit_VT_10 J1
+U 1 1 5DD43D1A
+P 900 4150
+F 0 "J1" H 958 4925 50  0000 C CNN
+F 1 "MicroFit_VT_10" H 958 4834 50  0000 C CNN
+F 2 "footprints:MicroFit_VT_10" H 1000 4800 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451012_sd.pdf" H 1000 4800 50  0001 C CNN
+F 4 "DK" H 900 4800 50  0001 C CNN "MFN"
+F 5 "WM1793-ND" H 1000 4900 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430451012/WM1793-ND/252506" H 1100 5000 50  0001 C CNN "PurchasingLink"
+	1    900  4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
