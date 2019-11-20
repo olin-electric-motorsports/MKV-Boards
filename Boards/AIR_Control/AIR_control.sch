@@ -522,11 +522,11 @@ Text Label 1150 2350 0    50   ~ 0
 RJ45_LED2
 Text Label 5350 6150 0    50   ~ 0
 BMS_Sense
-Text Label 5350 4550 0    50   ~ 0
+Text Label 5350 5250 0    50   ~ 0
 IMD_Sense
-Text Label 5350 4650 0    50   ~ 0
+Text Label 5350 5750 0    50   ~ 0
 PrechargeCTL
-Text Label 5350 5550 0    50   ~ 0
+Text Label 5350 5650 0    50   ~ 0
 AIR+LSD
 Text Label 5350 5150 0    50   ~ 0
 SS_HVD
@@ -542,15 +542,15 @@ Text Label 5350 6550 0    50   ~ 0
 P_LED_1
 Text Label 5350 6650 0    50   ~ 0
 P_LED_2
-Text Label 5350 5750 0    50   ~ 0
+Text Label 5350 4450 0    50   ~ 0
 AIR+Weld_Detect
-Text Label 5350 5850 0    50   ~ 0
+Text Label 5350 5550 0    50   ~ 0
 AIR-Weld_Detect
 Text Label 5350 4950 0    50   ~ 0
 SS_MainTSConn
-NoConn ~ 5350 5250
-NoConn ~ 5350 4450
-NoConn ~ 5350 5650
+NoConn ~ 5350 4550
+NoConn ~ 5350 4650
+NoConn ~ 5350 5850
 Text Label 5350 6250 0    50   ~ 0
 MISO
 Text Label 5350 6350 0    50   ~ 0

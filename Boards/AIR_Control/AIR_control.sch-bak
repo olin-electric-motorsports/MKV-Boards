@@ -520,19 +520,19 @@ Text Label 1150 2250 0    50   ~ 0
 RJ45_LED1
 Text Label 1150 2350 0    50   ~ 0
 RJ45_LED2
-Text Label 5350 4450 0    50   ~ 0
+Text Label 5350 6150 0    50   ~ 0
 BMS_Sense
-Text Label 5350 4550 0    50   ~ 0
+Text Label 5350 5250 0    50   ~ 0
 IMD_Sense
 Text Label 5350 4650 0    50   ~ 0
 PrechargeCTL
-Text Label 5350 4750 0    50   ~ 0
+Text Label 5350 5650 0    50   ~ 0
 AIR+LSD
-Text Label 5350 4850 0    50   ~ 0
-SS_HVD
 Text Label 5350 5150 0    50   ~ 0
+SS_HVD
+Text Label 5350 4850 0    50   ~ 0
 SS_IMD
-Text Label 5350 5250 0    50   ~ 0
+Text Label 5350 6050 0    50   ~ 0
 SS_BMS
 Text Label 5350 5350 0    50   ~ 0
 CANTX
@@ -542,15 +542,15 @@ Text Label 5350 6550 0    50   ~ 0
 P_LED_1
 Text Label 5350 6650 0    50   ~ 0
 P_LED_2
-Text Label 5350 5750 0    50   ~ 0
+Text Label 5350 4450 0    50   ~ 0
 AIR+Weld_Detect
-Text Label 5350 5850 0    50   ~ 0
+Text Label 5350 5550 0    50   ~ 0
 AIR-Weld_Detect
-Text Label 5350 6050 0    50   ~ 0
+Text Label 5350 4950 0    50   ~ 0
 SS_MainTSConn
-NoConn ~ 5350 6150
-NoConn ~ 5350 5550
-NoConn ~ 5350 5650
+NoConn ~ 5350 4550
+NoConn ~ 5350 5750
+NoConn ~ 5350 5850
 Text Label 5350 6250 0    50   ~ 0
 MISO
 Text Label 5350 6350 0    50   ~ 0
@@ -2160,7 +2160,7 @@ Wire Wire Line
 Connection ~ 8000 1700
 Text Label 8100 1200 0    50   ~ 0
 Air-GND
-Text Label 5350 4950 0    50   ~ 0
+Text Label 5350 4750 0    50   ~ 0
 SS_TSMS
 $Comp
 L formula:R_1K R33
