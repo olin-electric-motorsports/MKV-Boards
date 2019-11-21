@@ -1513,6 +1513,8 @@ Wire Wire Line
 Connection ~ 5200 1850
 Wire Notes Line
 	600  1050 600  2000
+Text Label 1650 1750 2    59   ~ 0
+THROTTLE1_RIGHT_SENSE
 Text Label 5400 1850 1    59   ~ 0
 THROTTLE1SENSING
 Wire Wire Line
@@ -1581,6 +1583,8 @@ F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 	1    1900 1450
 	1    0    0    -1  
 $EndComp
+Text Label 3050 1850 1    59   ~ 0
+THROTTLE2SENSING
 Wire Wire Line
 	4200 1950 4200 2350
 Connection ~ 4200 1750
@@ -1876,10 +1880,26 @@ Text Label 1800 5750 0    59   ~ 0
 SS_INERTIA_SWITCH
 Text Label 1800 5850 0    59   ~ 0
 SS_COCKPIT_ESTOP
+Text Label 1800 4450 0    59   ~ 0
+GND_THROTTLE1
 Text Label 1800 4650 0    59   ~ 0
 THROTTLE2_LEFT_SENSE
 Text Label 1800 4750 0    59   ~ 0
 GND_THROTTLE2
+$Comp
+L throttle-rescue:R_0-formula-throttle-rescue R3
+U 1 1 5CB125BE
+P 1950 4550
+F 0 "R3" V 1950 4550 50  0000 C CNN
+F 1 "R_0" V 1900 4700 50  0000 C CNN
+F 2 "footprints:R_0603_1608Metric" H 1880 4550 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 2030 4550 50  0001 C CNN
+F 4 "DK" H 1950 4550 60  0001 C CNN "MFN"
+F 5 "P0.0GCT-ND" H 1950 4550 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 2430 4950 60  0001 C CNN "PurchasingLink"
+	1    1950 4550
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	2100 4550 2300 4550
 Text Label 1800 3550 0    59   ~ 0
@@ -1890,6 +1910,20 @@ Text Label 1800 5050 0    59   ~ 0
 5V_DRIVEMODE
 Wire Wire Line
 	2100 4250 2300 4250
+$Comp
+L throttle-rescue:R_0-formula-throttle-rescue R2
+U 1 1 5CB123B0
+P 1950 4250
+F 0 "R2" V 1950 4250 50  0000 C CNN
+F 1 "R_0" V 2000 4100 50  0000 C CNN
+F 2 "footprints:R_0603_1608Metric" H 1880 4250 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 2030 4250 50  0001 C CNN
+F 4 "DK" H 1950 4250 60  0001 C CNN "MFN"
+F 5 "P0.0GCT-ND" H 1950 4250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 2430 4650 60  0001 C CNN "PurchasingLink"
+	1    1950 4250
+	0    -1   -1   0   
+$EndComp
 Text Label 1800 4950 0    59   ~ 0
 LED2
 Text Label 1800 4850 0    59   ~ 0
@@ -2052,6 +2086,20 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4130 58
 $EndComp
 Text Label 5900 5150 0    59   ~ 0
 DRIVE_MODE_SENSE
+$Comp
+L throttle-rescue:R_22K-formula-throttle-rescue R12
+U 1 1 5BFC36CE
+P 5600 5700
+F 0 "R12" H 5750 5650 50  0000 R CNN
+F 1 "R_22K" H 5900 5750 50  0000 R CNN
+F 2 "footprints:R_0805_OEM" H 5530 5700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5680 5700 50  0001 C CNN
+F 4 "DK" H 5600 5700 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT22K0CT-ND" H 5600 5700 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" H 6080 6100 60  0001 C CNN "PurchasingLink"
+	1    5600 5700
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
 	5600 5150 5600 5550
 $Comp
@@ -7565,56 +7613,8 @@ D8 65 D0 5F 06 00 00 CF 63 31 BA B9 B9 6A FC FF 66 55 90 E8 B2 46 AD 1F 00 00 00
 AE 42 60 82 
 EndData
 $EndBitmap
-Text Label 1650 1750 2    59   ~ 0
-THROTTLE1_RIGHT_SENSE
-Text Label 3050 1850 1    59   ~ 0
-THROTTLE2SENSING
 Text Label 4100 1750 2    59   ~ 0
 THROTTLE2_LEFT_SENSE
-Text Label 1800 4450 0    59   ~ 0
-GND_THROTTLE1
-$Comp
-L throttle-rescue:R_0-formula-throttle-rescue R3
-U 1 1 5CB125BE
-P 1950 4550
-F 0 "R3" V 1950 4550 50  0000 C CNN
-F 1 "R_0" V 1900 4700 50  0000 C CNN
-F 2 "footprints:R_0603_1608Metric" H 1880 4550 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 2030 4550 50  0001 C CNN
-F 4 "DK" H 1950 4550 60  0001 C CNN "MFN"
-F 5 "P0.0GCT-ND" H 1950 4550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 2430 4950 60  0001 C CNN "PurchasingLink"
-	1    1950 4550
-	0    1    1    0   
-$EndComp
-$Comp
-L throttle-rescue:R_0-formula-throttle-rescue R2
-U 1 1 5CB123B0
-P 1950 4250
-F 0 "R2" V 1950 4250 50  0000 C CNN
-F 1 "R_0" V 2000 4100 50  0000 C CNN
-F 2 "footprints:R_0603_1608Metric" H 1880 4250 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 2030 4250 50  0001 C CNN
-F 4 "DK" H 1950 4250 60  0001 C CNN "MFN"
-F 5 "P0.0GCT-ND" H 1950 4250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 2430 4650 60  0001 C CNN "PurchasingLink"
-	1    1950 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L throttle-rescue:R_22K-formula-throttle-rescue R12
-U 1 1 5BFC36CE
-P 5600 5700
-F 0 "R12" H 5750 5650 50  0000 R CNN
-F 1 "R_22K" H 5900 5750 50  0000 R CNN
-F 2 "footprints:R_0805_OEM" H 5530 5700 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5680 5700 50  0001 C CNN
-F 4 "DK" H 5600 5700 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT22K0CT-ND" H 5600 5700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" H 6080 6100 60  0001 C CNN "PurchasingLink"
-	1    5600 5700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	12400 1500 12200 1500
 Connection ~ 12200 1500
