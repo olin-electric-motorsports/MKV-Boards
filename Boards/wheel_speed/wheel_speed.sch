@@ -1222,32 +1222,10 @@ Wire Wire Line
 	6800 4650 6600 4650
 Wire Wire Line
 	6400 4650 6200 4650
-$Comp
-L Device:Jumper_NC_Small JP2
-U 1 1 5DD276AD
-P 6500 4650
-F 0 "JP2" H 6500 4862 50  0000 C CNN
-F 1 "LEFT_RIGHT" H 6500 4771 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6500 4650 50  0001 C CNN
-F 3 "~" H 6500 4650 50  0001 C CNN
-	1    6500 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6600 3300 6800 3300
 Wire Wire Line
 	6400 3300 6200 3300
-$Comp
-L Device:Jumper_NC_Small JP1
-U 1 1 5DD275B4
-P 6500 3300
-F 0 "JP1" H 6500 3512 50  0000 C CNN
-F 1 "FRONT_BACK" H 6500 3421 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6500 3300 50  0001 C CNN
-F 3 "~" H 6500 3300 50  0001 C CNN
-	1    6500 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10100 4600 10100 4500
 Wire Wire Line
@@ -1405,4 +1383,26 @@ Wire Wire Line
 Connection ~ 6350 1550
 Text Label 5800 1850 0    50   ~ 0
 5V
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5DD5B46C
+P 6500 3300
+F 0 "JP1" H 6500 3485 50  0000 C CNN
+F 1 "FRONT_BACK" H 6500 3394 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6500 3300 50  0001 C CNN
+F 3 "~" H 6500 3300 50  0001 C CNN
+	1    6500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5DD5E554
+P 6500 4650
+F 0 "JP2" H 6500 4835 50  0000 C CNN
+F 1 "LEFT_RIGHT" H 6500 4744 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6500 4650 50  0001 C CNN
+F 3 "~" H 6500 4650 50  0001 C CNN
+	1    6500 4650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
