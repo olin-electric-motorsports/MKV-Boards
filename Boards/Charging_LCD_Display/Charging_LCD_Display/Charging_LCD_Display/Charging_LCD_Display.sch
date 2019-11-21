@@ -1056,4 +1056,6 @@ Wire Wire Line
 	8400 2700 8800 2700
 Wire Wire Line
 	8400 2800 8800 2800
+Text Notes 6400 4750 0    98   ~ 0
+Dear Lucky and Corey,\n\nThis buck converter will be changed as it supplies insufficient\namperage once Adi is done making a new one. I apologize for\nany inconvenience.\n\nRespectfully,\n\nTolulope Oshinowo
 $EndSCHEMATC

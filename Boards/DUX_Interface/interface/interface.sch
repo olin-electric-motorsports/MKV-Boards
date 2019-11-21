@@ -127,7 +127,7 @@ Back (Exterior)
 Text Notes 3950 5000 0    197  ~ 0
 Front (Interior)
 $Comp
-L formula:NF_F_RA_2x02 U2
+L formula:NanoFit_RA_04 U2
 U 1 1 5DCB468B
 P 4600 1050
 F 0 "U2" H 4600 1300 50  0000 C CNN
@@ -138,7 +138,7 @@ F 3 "" H 4600 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:NF_F_RA_2x02 U3
+L formula:NanoFit_RA_04 U3
 U 1 1 5DCB561E
 P 4600 1700
 F 0 "U3" H 4600 1950 50  0000 C CNN
@@ -149,25 +149,25 @@ F 3 "" H 4600 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:NF_F_RA_2x05 U4
+L formula:NanoFit_RA_10 U4
 U 1 1 5DCB9D7D
-P 5550 800
-F 0 "U4" H 5550 800 50  0000 C CNN
-F 1 "Nanofit_10" H 5550 900 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical" H 5550 800 50  0001 C CNN
-F 3 "" H 5550 800 50  0001 C CNN
-	1    5550 800 
+P 5550 1350
+F 0 "U4" H 5550 1900 50  0000 C CNN
+F 1 "Nanofit_10" H 5550 2000 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical" H 5550 1350 50  0001 C CNN
+F 3 "" H 5550 1350 50  0001 C CNN
+	1    5550 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:NF_F_RA_2x06 U1
+L formula:NanoFit_RA_12 U1
 U 1 1 5DCBAD7A
-P 3450 800
-F 0 "U1" H 3506 925 50  0000 C CNN
-F 1 "Nanofit_12" H 3506 834 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105310-xx12_2x06_P2.50mm_Vertical" H 3450 800 50  0001 C CNN
-F 3 "" H 3450 800 50  0001 C CNN
-	1    3450 800 
+P 3450 1450
+F 0 "U1" H 3450 2100 50  0000 C CNN
+F 1 "Nanofit_12" H 3450 2200 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105310-xx12_2x06_P2.50mm_Vertical" H 3450 1450 50  0001 C CNN
+F 3 "" H 3450 1450 50  0001 C CNN
+	1    3450 1450
 	1    0    0    -1  
 $EndComp
 Text Label 1050 900  0    50   ~ 0
@@ -485,7 +485,7 @@ CANH
 Text Label 9450 4250 0    50   ~ 0
 CANL
 $Comp
-L formula:NF_F_RA_2x02 J6
+L formula:NanoFit_RA_04 J6
 U 1 1 5DCF3CB6
 P 4050 3450
 F 0 "J6" H 4106 3825 50  0000 C CNN
