@@ -744,7 +744,7 @@ U 1 1 5DD0A6A6
 P 2250 3600
 F 0 "U1" H 2300 4717 50  0000 C CNN
 F 1 "Raspberry Pi Zero W" H 2300 4626 50  0000 C CNN
-F 2 "" H 2250 3600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 2250 3600 50  0001 C CNN
 F 3 "~" H 2250 3600 50  0001 C CNN
 	1    2250 3600
 	1    0    0    -1  
