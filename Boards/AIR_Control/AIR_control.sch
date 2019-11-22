@@ -111,20 +111,6 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 6230 47
 $EndComp
 Text Notes 900  850  0    118  ~ 0
 Connectors
-$Comp
-L formula:MicroFit_RA_10 J1
-U 1 1 5DA9623C
-P 900 4150
-F 0 "J1" H 958 4925 50  0000 C CNN
-F 1 "MicroFit_RA_10" H 958 4834 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_10" H 1000 4800 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430451000_sd.pdf" H 1000 4800 50  0001 C CNN
-F 4 "DK" H 900 4800 50  0001 C CNN "MFN"
-F 5 "WM1817-ND" H 1000 4900 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430451000/WM1817-ND/252530" H 1100 5000 50  0001 C CNN "PurchasingLink"
-	1    900  4150
-	1    0    0    -1  
-$EndComp
 Text Label 1150 3600 0    50   ~ 0
 Precharge+
 Text Label 1150 3700 0    50   ~ 0
@@ -145,26 +131,8 @@ Text Label 1150 4400 0    50   ~ 0
 Air-12V
 Text Label 1150 4500 0    50   ~ 0
 Air-GND
-$Comp
-L formula:MicroFit_RA_V_2 J2
-U 1 1 5DA98DF4
-P 900 4950
-F 0 "J2" H 900 4800 50  0000 C CNN
-F 1 "MicroFit_RA_V_2" H 958 5134 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_V_2" H 850 5150 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" H 850 5150 50  0001 C CNN
-F 4 "MFN" H 1000 5200 50  0001 C CNN "DK"
-F 5 "WM1865-ND" H 1100 5300 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 900 5100 50  0001 C CNN "PurchasingLink"
-	1    900  4950
-	1    0    0    -1  
-$EndComp
 Text Label 1150 4900 0    50   ~ 0
 Shutdown_In
-Wire Wire Line
-	1150 5000 1350 5000
-Wire Wire Line
-	1350 5000 1350 5150
 $Comp
 L power:GND #PWR03
 U 1 1 5DA99C73
@@ -552,37 +520,37 @@ Text Label 1150 2250 0    50   ~ 0
 RJ45_LED1
 Text Label 1150 2350 0    50   ~ 0
 RJ45_LED2
-Text Label 5350 4450 0    50   ~ 0
+Text Label 5350 6150 0    50   ~ 0
 BMS_Sense
-Text Label 5350 4550 0    50   ~ 0
-IMD_Sense
-Text Label 5350 4650 0    50   ~ 0
-PrechargeCTL
-Text Label 5350 4750 0    50   ~ 0
-AIR+LSD
-Text Label 5350 4850 0    50   ~ 0
-SS_HVD
-Text Label 5350 5150 0    50   ~ 0
-SS_IMD
 Text Label 5350 5250 0    50   ~ 0
+IMD_Sense
+Text Label 5350 5750 0    50   ~ 0
+PrechargeCTL
+Text Label 5350 5650 0    50   ~ 0
+AIR+LSD
+Text Label 5350 5150 0    50   ~ 0
+SS_HVD
+Text Label 5350 4850 0    50   ~ 0
+SS_IMD
+Text Label 5350 6050 0    50   ~ 0
 SS_BMS
 Text Label 5350 5350 0    50   ~ 0
 CANTX
 Text Label 5350 5450 0    50   ~ 0
 CANRX
-Text Label 5350 5550 0    50   ~ 0
+Text Label 5350 6550 0    50   ~ 0
 P_LED_1
-Text Label 5350 5650 0    50   ~ 0
+Text Label 5350 6650 0    50   ~ 0
 P_LED_2
-Text Label 5350 5750 0    50   ~ 0
+Text Label 5350 4450 0    50   ~ 0
 AIR+Weld_Detect
-Text Label 5350 5850 0    50   ~ 0
+Text Label 5350 5550 0    50   ~ 0
 AIR-Weld_Detect
-Text Label 5350 6050 0    50   ~ 0
+Text Label 5350 4950 0    50   ~ 0
 SS_MainTSConn
-NoConn ~ 5350 6150
-NoConn ~ 5350 6550
-NoConn ~ 5350 6650
+NoConn ~ 5350 4550
+NoConn ~ 5350 4650
+NoConn ~ 5350 5850
 Text Label 5350 6250 0    50   ~ 0
 MISO
 Text Label 5350 6350 0    50   ~ 0
@@ -602,7 +570,7 @@ $Comp
 L formula:R_10K R30
 U 1 1 5DD20D41
 P 5750 6800
-F 0 "R30" V 5750 6800 50  0000 C CNN
+F 0 "R30" V 6250 7500 50  0000 C CNN
 F 1 "R_10K" V 5750 7100 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 5680 6800 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5830 6800 50  0001 C CNN
@@ -877,25 +845,7 @@ $EndComp
 Wire Wire Line
 	7200 3000 7200 2950
 Wire Wire Line
-	7200 2950 7400 2950
-Wire Wire Line
 	7200 3200 7200 3250
-Wire Wire Line
-	7200 3250 7400 3250
-$Comp
-L formula:R_200 R_DNP1
-U 1 1 5DAB3A00
-P 7400 3100
-F 0 "R_DNP1" V 7500 3000 50  0000 L CNN
-F 1 "R_200" V 7300 3000 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 7330 3100 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7480 3100 50  0001 C CNN
-F 4 "DK" H 7400 3100 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 7400 3100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7880 3500 60  0001 C CNN "PurchasingLink"
-	1    7400 3100
-	1    0    0    -1  
-$EndComp
 NoConn ~ 7200 3100
 $Comp
 L power:GND #PWR034
@@ -1524,20 +1474,6 @@ Wire Wire Line
 	3500 1300 3200 1300
 Connection ~ 3500 1300
 $Comp
-L formula:R_10K R6
-U 1 1 5DAC7086
-P 3500 1450
-F 0 "R6" H 3570 1496 50  0000 L CNN
-F 1 "R_10K" H 3570 1405 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 3430 1450 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 3580 1450 50  0001 C CNN
-F 4 "DK" H 3500 1450 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 3500 1450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3980 1850 60  0001 C CNN "PurchasingLink"
-	1    3500 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_200 R5
 U 1 1 5DAC1491
 P 3200 1450
@@ -2145,12 +2081,6 @@ Wire Notes Line
 Wire Notes Line
 	6350 900  6350 2150
 Wire Wire Line
-	7400 3250 7550 3250
-Connection ~ 7400 3250
-Wire Wire Line
-	7400 2950 7550 2950
-Connection ~ 7400 2950
-Wire Wire Line
 	4900 2900 4950 2900
 Connection ~ 4900 2900
 Wire Wire Line
@@ -2230,7 +2160,7 @@ Wire Wire Line
 Connection ~ 8000 1700
 Text Label 8100 1200 0    50   ~ 0
 Air-GND
-Text Label 5350 4950 0    50   ~ 0
+Text Label 5350 4750 0    50   ~ 0
 SS_TSMS
 $Comp
 L formula:R_1K R33
@@ -2404,4 +2334,74 @@ Wire Notes Line
 	6850 7800 8350 7800
 Text Label 5350 6750 0    50   ~ 0
 P_LED_3
+$Comp
+L formula:R_10K R6
+U 1 1 5DAC7086
+P 3500 1450
+F 0 "R6" H 3570 1496 50  0000 L CNN
+F 1 "R_10K" H 3570 1405 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 3430 1450 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 3580 1450 50  0001 C CNN
+F 4 "DK" H 3500 1450 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 3500 1450 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3980 1850 60  0001 C CNN "PurchasingLink"
+	1    3500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MicroFit_RA_V_2 J2
+U 1 1 5DA98DF4
+P 900 4950
+F 0 "J2" H 900 4800 50  0000 C CNN
+F 1 "MicroFit_RA_V_2" H 958 5134 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_V_2" H 850 5150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" H 850 5150 50  0001 C CNN
+F 4 "MFN" H 1000 5200 50  0001 C CNN "DK"
+F 5 "WM1865-ND" H 1100 5300 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 900 5100 50  0001 C CNN "PurchasingLink"
+	1    900  4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5000 1350 5000
+Wire Wire Line
+	1350 5000 1350 5150
+Wire Wire Line
+	7200 2950 7350 2950
+Wire Wire Line
+	7200 3250 7350 3250
+$Comp
+L formula:R_120_DNP R_DNP1
+U 1 1 5DD1AD56
+P 7350 3100
+F 0 "R_DNP1" H 7420 3146 50  0000 L CNN
+F 1 "R_120_DNP" H 7420 3055 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 6150 3250 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 6150 3550 50  0001 L CNN
+F 4 "DK" H 7350 3100 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 6150 3350 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 6150 3450 60  0001 L CNN "PurchasingLink"
+	1    7350 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 2950
+Wire Wire Line
+	7350 2950 7550 2950
+Connection ~ 7350 3250
+Wire Wire Line
+	7350 3250 7550 3250
+$Comp
+L formula:MicroFit_VT_10 J1
+U 1 1 5DD43D1A
+P 900 4150
+F 0 "J1" H 958 4925 50  0000 C CNN
+F 1 "MicroFit_VT_10" H 958 4834 50  0000 C CNN
+F 2 "footprints:MicroFit_VT_10" H 1000 4800 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451012_sd.pdf" H 1000 4800 50  0001 C CNN
+F 4 "DK" H 900 4800 50  0001 C CNN "MFN"
+F 5 "WM1793-ND" H 1000 4900 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430451012/WM1793-ND/252506" H 1100 5000 50  0001 C CNN "PurchasingLink"
+	1    900  4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
