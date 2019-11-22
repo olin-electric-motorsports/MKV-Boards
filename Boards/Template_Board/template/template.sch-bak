@@ -338,7 +338,7 @@ U 1 1 5BEE27A2
 P 4250 6200
 F 0 "L101" H 4250 6300 50  0000 C CNN
 F 1 "L_100uH" H 4250 6150 50  0000 C CNN
-F 2 "footprints:L_100uH" H 4150 6000 50  0001 C CNN
+F 2 "footprints:L_100uH_OEM" H 4150 6000 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 4150 6050 50  0001 C CNN
 F 4 "Digikey" H 4350 6000 50  0001 C CNN "MFN"
 F 5 "445-15759-1-ND" H 4250 6450 50  0001 C CNN "MPN"

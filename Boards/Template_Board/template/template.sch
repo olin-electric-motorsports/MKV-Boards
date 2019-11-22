@@ -335,6 +335,7 @@ Output Capacitors\n
 $Comp
 L template-rescue:L_100uH-formula L101
 U 1 1 5BEE27A2
+<<<<<<< HEAD
 P 4350 6200
 F 0 "L101" H 4350 6300 50  0000 C CNN
 F 1 "L_100uH" H 4350 6150 50  0000 C CNN
@@ -344,6 +345,17 @@ F 4 "Digikey" H 4450 6000 50  0001 C CNN "MFN"
 F 5 "445-15759-1-ND" H 4350 6450 50  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 4650 6400 50  0001 C CNN "Link"
 	1    4350 6200
+=======
+P 4250 6200
+F 0 "L101" H 4250 6300 50  0000 C CNN
+F 1 "L_100uH" H 4250 6150 50  0000 C CNN
+F 2 "footprints:L_100uH_OEM" H 4150 6000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 4150 6050 50  0001 C CNN
+F 4 "Digikey" H 4350 6000 50  0001 C CNN "MFN"
+F 5 "445-15759-1-ND" H 4250 6450 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 4550 6400 50  0001 C CNN "Link"
+	1    4250 6200
+>>>>>>> 711dde159e7ca73838779415daa606d78ca295f5
 	1    0    0    -1  
 $EndComp
 $Comp

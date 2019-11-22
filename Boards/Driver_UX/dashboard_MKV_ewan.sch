@@ -12441,7 +12441,7 @@ L dashboard_MKV_ewan-rescue:Crystal_SMD-formula Y2
 U 1 1 59E10C38
 P 3650 3950
 F 0 "Y2" H 2850 3950 50  0000 L CNN
-F 1 "Crystal_SMD" H 2950 3950 50  0000 L CNN
+F 1 "Crystal_SMD" V 2950 3950 50  0000 L CNN
 F 2 "footprints:Crystal_SMD_FA238" H 3600 4025 50  0001 C CNN
 F 3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf" H 3700 4125 50  0001 C CNN
 F 4 "DK" H 3650 3950 60  0001 C CNN "MFN"
@@ -12754,7 +12754,7 @@ L dashboard_MKV_ewan-rescue:SSM3K333R-formula Q1
 U 1 1 5C5AAEC7
 P 5200 2550
 F 0 "Q1" H 5406 2596 50  0000 L CNN
-F 1 "SSM3K333R" H 5406 2505 50  0000 L CNN
+F 1 "SSM3K333R" H 5350 2750 50  0000 L CNN
 F 2 "footprints:SOT-23F" H 5400 2475 50  0001 L CIN
 F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 5400 2625 50  0001 L CNN
 F 4 "DK" H 5700 2925 60  0001 C CNN "MFN"
@@ -12932,20 +12932,6 @@ F 7 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/88501200705
 	1    0    0    -1  
 $EndComp
 $Comp
-L dashboard_MKV_ewan-rescue:ATMEGA16M1-formula U1
-U 1 1 5BFF5D2D
-P 2400 2550
-F 0 "U1" H 1600 4400 50  0000 C CNN
-F 1 "ATMEGA16M1" H 2450 4450 50  0000 C CNN
-F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2400 2550 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1450 4380 50  0001 C CNN
-F 4 "DK" H 2400 2550 60  0001 C CNN "MFN"
-F 5 "ATMEGA16M1-AU-ND" H 2400 2550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 1850 4780 60  0001 C CNN "PurchasingLink"
-	1    2400 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L dashboard_MKV_ewan-rescue:R_100-formula R7
 U 1 1 59E06840
 P 1100 1000
@@ -12960,8 +12946,6 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 1580 1
 	1    1100 1000
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	650  550  5700 550 
 Wire Notes Line
 	650  550  650  4550
 $Comp
@@ -13032,17 +13016,6 @@ Wire Notes Line
 	5900 550  10400 550 
 Text Notes 5500 3650 1    50   ~ 0
 low side drive for buzzer
-$Comp
-L dashboard_MKV_ewan-rescue:ATmega328-AU-formula U3
-U 1 1 5C61F91D
-P 7500 2200
-F 0 "U3" H 7300 3767 50  0000 C CNN
-F 1 "ATmega328P-AU" H 7300 3676 50  0000 C CNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 7300 3750 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf" H 7500 2200 50  0001 C CNN
-	1    7500 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6350 3100 6350 3550
 NoConn ~ 3500 2750
@@ -13301,8 +13274,6 @@ Wire Notes Line
 	10400 550  10400 3950
 Wire Notes Line
 	650  4550 4200 4550
-Wire Notes Line
-	4200 3950 5700 3950
 Wire Notes Line
 	4200 3950 4200 4550
 $Comp
@@ -14068,4 +14039,35 @@ Wire Wire Line
 NoConn ~ 8100 1100
 Text Label 8100 1200 0    50   ~ 0
 CS
+$Comp
+L dashboard_MKV_ewan-rescue:ATMEGA16M1-formula U1
+U 1 1 5BFF5D2D
+P 2400 2550
+F 0 "U1" H 1600 4400 50  0000 C CNN
+F 1 "ATMEGA16M1" H 2450 4450 50  0000 C CNN
+F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2400 2550 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1450 4380 50  0001 C CNN
+F 4 "DK" H 2400 2550 60  0001 C CNN "MFN"
+F 5 "ATMEGA16M1-AU-ND" H 2400 2550 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 1850 4780 60  0001 C CNN "PurchasingLink"
+	1    2400 2550
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5850 550  5850 3950
+Wire Notes Line
+	650  550  5850 550 
+Wire Notes Line
+	4200 3950 5850 3950
+$Comp
+L dashboard_MKV_ewan-rescue:ATmega328-AU-formula U3
+U 1 1 5C61F91D
+P 7500 2200
+F 0 "U3" H 7300 3767 50  0000 C CNN
+F 1 "ATmega328P-AU" H 7300 3676 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 7300 3750 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf" H 7500 2200 50  0001 C CNN
+	1    7500 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
