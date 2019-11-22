@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/lucky/Desktop/Formula/2020/MKV-Boards/Boards/sensing_module_interface/sensing_module_interface.sch)
-    (date "Fri 15 Nov 2019 03:56:56 PM EST")
+    (date "Fri 15 Nov 2019 08:36:41 PM EST")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
