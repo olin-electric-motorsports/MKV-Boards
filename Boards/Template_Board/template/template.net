@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/lucky/Desktop/Formula/2020/MKV-Boards/Boards/Template_Board/template/template.sch)
-    (date "Wed 23 Oct 2019 04:42:12 PM EDT")
+    (date "Thu 21 Nov 2019 04:24:49 PM EST")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -182,7 +182,7 @@
       (tstamp 5C754D87))
     (comp (ref L101)
       (value L_100uH)
-      (footprint footprints:L_100uH)
+      (footprint footprints:L_100uH_OEM)
       (datasheet https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf)
       (fields
         (field (name Link) https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055)
@@ -498,6 +498,7 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
     (libpart (lib formula) (part C_33uF)
+      (docs https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf)
       (footprints
         (fp C?)
         (fp C_????_*)
@@ -507,8 +508,7 @@
       (fields
         (field (name Reference) C)
         (field (name Value) C_33uF)
-        (field (name Footprint) footprints:C_1812_OEM)
-        (field (name Datasheet) https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf)
+        (field (name Footprint) footprints:Fuse_1812)
         (field (name MFN) C4532X7R1C336M250KC)
         (field (name MPN) 445-3924-1-ND)
         (field (name PurchasingLink) https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431))
@@ -601,11 +601,11 @@
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
     (libpart (lib formula) (part L_100uH)
+      (docs https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf)
       (fields
         (field (name Reference) L)
         (field (name Value) L_100uH)
-        (field (name Footprint) formula:L_100uH)
-        (field (name Datasheet) https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf)
+        (field (name Footprint) footprints:L_100uH_OEM)
         (field (name MFN) Digikey)
         (field (name MPN) 445-15759-1-ND)
         (field (name Link) https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055))
@@ -729,11 +729,11 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
     (libpart (lib formula) (part TPS560430YF)
+      (docs http://www.ti.com/lit/ds/symlink/tps560430.pdf)
       (fields
         (field (name Reference) U)
         (field (name Value) TPS560430YF)
-        (field (name Footprint) Package_TO_SOT_SMD:SOT-23-6_Handsoldering)
-        (field (name Datasheet) http://www.ti.com/lit/ds/symlink/tps560430.pdf)
+        (field (name Footprint) footprints:SOT-23-6_OEM)
         (field (name MPN) TPS560430YFDBVR)
         (field (name MFN) TPS560430YFDBVR-ND)
         (field (name "Purchasing Link") https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813))
@@ -746,7 +746,7 @@
         (pin (num 6) (name SW) (type output)))))
   (libraries
     (library (logical formula)
-      (uri /home/lucky/Desktop/Formula/2019/OEM_Preferred_Parts/schematic/formula.lib)))
+      (uri /home/lucky/Desktop/Formula/OEM_Preferred_Parts/schematic/formula.lib)))
   (nets
     (net (code 1) (name "Net-(U2-Pad21)")
       (node (ref U2) (pin 21)))
