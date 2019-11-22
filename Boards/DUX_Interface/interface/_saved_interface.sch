@@ -431,7 +431,7 @@ ESTOP>HVD
 Text Label 9450 1550 0    50   ~ 0
 GND
 Text Label 9450 1650 0    50   ~ 0
-5V_THROTTLE
+GND
 Text Label 9450 1750 0    50   ~ 0
 GND
 Text Label 9450 1850 0    50   ~ 0
@@ -451,7 +451,7 @@ STEERING_POT_SENSE
 Text Label 9450 2550 0    50   ~ 0
 STEERING_POT_-
 Text Label 9450 2650 0    50   ~ 0
-5V_DUX
+GND
 Text Label 9450 2750 0    50   ~ 0
 GND
 Text Label 9450 2850 0    50   ~ 0
