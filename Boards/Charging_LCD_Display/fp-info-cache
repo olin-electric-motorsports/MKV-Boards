@@ -1,4 +1,4 @@
-16554914330140829
+16572230058858829
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73241,6 +73241,13 @@ LTC6820_OEM
 16
 16
 footprints
+L_100uH_OEM
+Resistor SMD 2512, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 2512
+0
+2
+2
+footprints
 Logo_Large
 
 
@@ -73310,6 +73317,20 @@ MicroFit_RA_V_2
 0
 3
 2
+footprints
+MicroFit_VT_4
+Molex Micro-Fit 3.0 Connector System, 43045-0412 (compatible alternatives: 43045-0413, 43045-0424), 2 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 side entry
+0
+4
+4
+footprints
+MicroFit_VT_6
+Molex Micro-Fit 3.0 Connector System, 43045-0612 (compatible alternatives: 43045-0613, 43045-0624), 3 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 side entry
+0
+6
+6
 footprints
 MicroFit_VT_10
 
@@ -73388,6 +73409,55 @@ connector molex nano-fit 105313-xx04
 2
 2
 footprints
+NanoFit_RA_4
+Molex Nano-Fit Power Connectors, 105314-xx04, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+4
+4
+footprints
+NanoFit_RA_6
+Molex Nano-Fit Power Connectors, 105314-xx06, 3 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+6
+6
+footprints
+NanoFit_RA_8
+Molex Nano-Fit Power Connectors, 105314-xx08, 4 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+8
+8
+footprints
+NanoFit_RA_10
+Molex Nano-Fit Power Connectors, 105314-xx10, 5 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+10
+10
+footprints
+NanoFit_RA_12
+Molex Nano-Fit Power Connectors, 105314-xx12, 6 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+12
+12
+footprints
+NanoFit_VT_10
+Molex Nano-Fit Power Connectors, 105310-xx10, 5 Pins per row (http://www.molex.com/pdm_docs/sd/1053101208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit side entry
+0
+10
+10
+footprints
+NanoFit_VT_12
+Molex Nano-Fit Power Connectors, 105310-xx12, 6 Pins per row (http://www.molex.com/pdm_docs/sd/1053101208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit side entry
+0
+12
+12
+footprints
 OLIN_O
 
 Olin O logo
@@ -73415,6 +73485,13 @@ PWR163
 0
 3
 3
+footprints
+PinHeader_2x20_P2.54mm_Vertical
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
 footprints
 Pin_Header_Straight_2x03
 Through hole pin header
