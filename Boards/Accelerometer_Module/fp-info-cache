@@ -1,4 +1,4 @@
-16570652780319829
+16572227161354829
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73240,6 +73240,13 @@ LTC6820_OEM
 0
 16
 16
+footprints
+L_100uH_OEM
+Resistor SMD 2512, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 2512
+0
+2
+2
 footprints
 Logo_Large
 
