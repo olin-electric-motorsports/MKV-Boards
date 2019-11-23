@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/isabel/Documents/Formula/MKV-Boards/Boards/AIR_Control/AIR_control.sch)
-    (date "Tue 19 Nov 2019 08:45:18 PM EST")
+    (date "Thu 21 Nov 2019 08:25:18 PM EST")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1462,7 +1462,7 @@
     (net (code 1) (name /SS_BMS)
       (node (ref R22) (pin 2))
       (node (ref Q5) (pin 3))
-      (node (ref U3) (pin 29)))
+      (node (ref U3) (pin 28)))
     (net (code 2) (name /SS_HVD)
       (node (ref R15) (pin 2))
       (node (ref Q3) (pin 3))
@@ -1641,7 +1641,7 @@
       (node (ref R12) (pin 1))
       (node (ref J4) (pin 17)))
     (net (code 29) (name /SS_MainTSConn)
-      (node (ref U3) (pin 28))
+      (node (ref U3) (pin 29))
       (node (ref Q4) (pin 3))
       (node (ref R16) (pin 2)))
     (net (code 30) (name "Net-(D6-Pad2)")
