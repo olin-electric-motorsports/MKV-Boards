@@ -542,7 +542,6 @@ Text Label 5350 6050 0    50   ~ 0
 SS_MainTSConn
 NoConn ~ 5350 4550
 NoConn ~ 5350 4650
-NoConn ~ 5350 5850
 Text Label 5350 6250 0    50   ~ 0
 MISO
 Text Label 5350 6350 0    50   ~ 0
@@ -2519,10 +2518,10 @@ Final_shutdown
 Text Label 1150 4700 0    50   ~ 0
 Final_Shutdown
 $Comp
-L formula:MicroFit_12 J?
+L formula:MicroFit_12 J1
 U 1 1 5DDE1F94
 P 600 3400
-F 0 "J?" H 983 3447 60  0000 C CNN
+F 0 "J1" H 983 3447 60  0000 C CNN
 F 1 "MicroFit_12" H 983 3341 60  0000 C CNN
 F 2 "" H 750 3200 60  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/276/0436501212_PCB_HEADERS-148915.pdf" H 850 3300 60  0001 C CNN
@@ -2537,10 +2536,10 @@ Wire Wire Line
 Wire Wire Line
 	1850 4600 1850 4700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR049
 U 1 1 5DE18CE9
 P 1850 4700
-F 0 "#PWR?" H 1850 4450 50  0001 C CNN
+F 0 "#PWR049" H 1850 4450 50  0001 C CNN
 F 1 "GND" H 1855 4527 50  0000 C CNN
 F 2 "" H 1850 4700 50  0001 C CNN
 F 3 "" H 1850 4700 50  0001 C CNN
@@ -2553,4 +2552,6 @@ Wire Wire Line
 	1800 5100 1800 4950
 Wire Wire Line
 	1150 4950 1800 4950
+Text Label 5350 5850 0    50   ~ 0
+SS_HVDConn
 $EndSCHEMATC
