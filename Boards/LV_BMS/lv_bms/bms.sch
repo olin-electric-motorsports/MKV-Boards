@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:template-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -828,7 +827,6 @@ F 3 "" H 800 850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1450 1300 1150 1300
-Connection ~ 1150 1300
 $Comp
 L formula:C_0.1uF C2
 U 1 1 5D58E34B
@@ -845,12 +843,6 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 1225 1650 60 
 $EndComp
 Wire Wire Line
 	800  850  800  1000
-Wire Wire Line
-	800  1000 1150 1000
-Connection ~ 800  1000
-Connection ~ 1150 1000
-Wire Wire Line
-	1150 1000 1450 1000
 Wire Wire Line
 	1300 4050 1300 3900
 Wire Wire Line
@@ -895,26 +887,11 @@ Wire Wire Line
 Wire Wire Line
 	9600 1150 9600 1300
 Wire Wire Line
-	9900 1350 9900 1150
-Connection ~ 9900 1150
-Wire Wire Line
-	9900 1150 9900 1000
-Wire Wire Line
 	10400 1650 10500 1650
 Wire Wire Line
 	10500 1650 10500 1600
 Wire Wire Line
-	10500 1600 10700 1600
-Connection ~ 10700 1600
-Wire Wire Line
-	10700 1600 10850 1600
-Wire Wire Line
 	10500 1850 10500 1900
-Wire Wire Line
-	10500 1900 10700 1900
-Connection ~ 10700 1900
-Wire Wire Line
-	10700 1900 10850 1900
 Wire Wire Line
 	9500 6000 9500 6150
 Wire Wire Line
@@ -966,18 +943,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 6400 3600 6400
 Wire Wire Line
-	4350 6200 4650 6200
-Connection ~ 5850 6200
-Connection ~ 4650 6200
-Wire Wire Line
-	4650 6200 5050 6200
-Connection ~ 5050 6200
-Wire Wire Line
-	5050 6200 5450 6200
-Connection ~ 5450 6200
-Wire Wire Line
-	5450 6200 5850 6200
-Wire Wire Line
 	6150 6200 6400 6200
 Wire Wire Line
 	6400 6200 6400 6050
@@ -998,17 +963,6 @@ Connection ~ 800  6100
 Wire Wire Line
 	800  6100 800  6250
 Wire Wire Line
-	1300 6100 1550 6100
-Connection ~ 1550 6100
-Wire Wire Line
-	1550 6100 1950 6100
-Connection ~ 1950 6100
-Wire Wire Line
-	1950 6100 2250 6100
-Connection ~ 2250 6100
-Wire Wire Line
-	2250 6100 2500 6100
-Wire Wire Line
 	1550 6400 1550 6500
 Wire Wire Line
 	1550 6800 1550 6950
@@ -1021,4 +975,27 @@ Wire Wire Line
 	2500 6100 2600 6100
 Wire Wire Line
 	10400 1850 10500 1850
+Wire Wire Line
+	800  1000 1450 1000
+Wire Wire Line
+	9900 1000 9900 1350
+Wire Wire Line
+	10500 1600 10850 1600
+Wire Wire Line
+	10500 1900 10850 1900
+Wire Wire Line
+	4350 6200 5850 6200
+Wire Wire Line
+	1300 6100 2500 6100
+$Comp
+L formula:BQ79606A-Q1 U?
+U 1 1 5DD8030B
+P 7250 1300
+F 0 "U?" H 7225 1425 50  0000 C CNN
+F 1 "BQ79606A-Q1" H 7225 1334 50  0000 C CNN
+F 2 "" H 7250 1300 50  0001 C CNN
+F 3 "" H 7250 1300 50  0001 C CNN
+	1    7250 1300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

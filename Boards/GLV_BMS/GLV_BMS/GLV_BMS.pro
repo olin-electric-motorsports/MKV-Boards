@@ -1,4 +1,4 @@
-update=Thu 14 Nov 2019 09:27:52 PM EST
+update=Thu 21 Nov 2019 09:55:13 PM EST
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=dashboard_MKV_ewan.net
+LastNetListRead=GLV_BMS.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
