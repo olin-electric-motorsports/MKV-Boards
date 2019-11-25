@@ -640,7 +640,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 3900 5150 60 
 $EndComp
 Text Notes 3250 3950 0    50   ~ 0
 5V Indication Light\n
-Text Label 3450 4200 0    50   ~ 0
+Text Label 3500 4200 0    50   ~ 0
 1L
 Text Label 2800 4200 0    50   ~ 0
 2L
