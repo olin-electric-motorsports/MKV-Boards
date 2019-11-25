@@ -602,40 +602,40 @@ Text Notes 2600 3950 0    50   ~ 0
 $Comp
 L formula:R_200 R4
 U 1 1 5DDBC225
-P 3450 4350
-F 0 "R4" H 3520 4396 50  0000 L CNN
-F 1 "R_200" H 3520 4305 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 3380 4350 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3530 4350 50  0001 C CNN
-F 4 "DK" H 3450 4350 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 3450 4350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 3930 4750 60  0001 C CNN "PurchasingLink"
-	1    3450 4350
+P 3500 4350
+F 0 "R4" H 3570 4396 50  0000 L CNN
+F 1 "R_200" H 3570 4305 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 3430 4350 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3580 4350 50  0001 C CNN
+F 4 "DK" H 3500 4350 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 3500 4350 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 3980 4750 60  0001 C CNN "PurchasingLink"
+	1    3500 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 5DDBC22C
-P 3450 4800
-F 0 "#PWR020" H 3450 4550 50  0001 C CNN
-F 1 "GND" H 3455 4627 50  0000 C CNN
-F 2 "" H 3450 4800 50  0001 C CNN
-F 3 "" H 3450 4800 50  0001 C CNN
-	1    3450 4800
+P 3500 4800
+F 0 "#PWR020" H 3500 4550 50  0001 C CNN
+F 1 "GND" H 3505 4627 50  0000 C CNN
+F 2 "" H 3500 4800 50  0001 C CNN
+F 3 "" H 3500 4800 50  0001 C CNN
+	1    3500 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:LED_0805 D3
 U 1 1 5DDBC235
-P 3450 4650
-F 0 "D3" V 3488 4533 50  0000 R CNN
-F 1 "LED_0805" V 3397 4533 50  0000 R CNN
-F 2 "footprints:LED_0805_OEM" H 3350 4650 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 3450 4750 50  0001 C CNN
-F 4 "DK" H 3450 4650 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 3450 4650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 3850 5150 60  0001 C CNN "PurchasingLink"
-	1    3450 4650
+P 3500 4650
+F 0 "D3" V 3538 4533 50  0000 R CNN
+F 1 "LED_0805" V 3447 4533 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 3400 4650 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 3500 4750 50  0001 C CNN
+F 4 "DK" H 3500 4650 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 3500 4650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 3900 5150 60  0001 C CNN "PurchasingLink"
+	1    3500 4650
 	0    -1   -1   0   
 $EndComp
 Text Notes 3250 3950 0    50   ~ 0
