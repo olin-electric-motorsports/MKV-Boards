@@ -512,9 +512,9 @@ Text Label 1150 2050 0    50   ~ 0
 RJ45_LED1
 Text Label 1150 2150 0    50   ~ 0
 RJ45_LED2
-Text Label 5350 6150 0    50   ~ 0
+Text Label 5350 4550 0    50   ~ 0
 BMS_Sense
-Text Label 5350 5250 0    50   ~ 0
+Text Label 5350 4650 0    50   ~ 0
 IMD_Sense
 Text Label 5350 5750 0    50   ~ 0
 PrechargeCTL
@@ -540,8 +540,6 @@ Text Label 5350 5550 0    50   ~ 0
 AIR-Weld_Detect
 Text Label 5350 6050 0    50   ~ 0
 SS_MainTSConn
-NoConn ~ 5350 4550
-NoConn ~ 5350 4650
 Text Label 5350 6250 0    50   ~ 0
 MISO
 Text Label 5350 6350 0    50   ~ 0
@@ -2517,20 +2515,6 @@ Text Label 1150 3700 0    50   ~ 0
 Final_shutdown
 Text Label 1150 4700 0    50   ~ 0
 Final_Shutdown
-$Comp
-L formula:MicroFit_12 J1
-U 1 1 5DDE1F94
-P 600 3400
-F 0 "J1" H 983 3447 60  0000 C CNN
-F 1 "MicroFit_12" H 983 3341 60  0000 C CNN
-F 2 "" H 750 3200 60  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/276/0436501212_PCB_HEADERS-148915.pdf" H 850 3300 60  0001 C CNN
-F 4 "Mouser" H 950 3400 60  0001 C CNN "MFN"
-F 5 "538-43650-1212" H 1050 3500 60  0001 C CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Molex/43650-1212?qs=sGAEpiMZZMs%252bGHln7q6pmzorV8rj9woRbgLd20ftk7I%3d" H 1150 3600 60  0001 C CNN "PurchasingLink"
-	1    600  3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1150 4600 1850 4600
 Wire Wire Line
@@ -2554,4 +2538,20 @@ Wire Wire Line
 	1150 4950 1800 4950
 Text Label 5350 5850 0    50   ~ 0
 SS_HVDConn
+$Comp
+L formula:MicroFit_12 J1
+U 1 1 5DDE1F94
+P 600 3400
+F 0 "J1" H 983 3447 60  0000 C CNN
+F 1 "MicroFit_12" H 983 3341 60  0000 C CNN
+F 2 "" H 750 3200 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/276/0436501212_PCB_HEADERS-148915.pdf" H 850 3300 60  0001 C CNN
+F 4 "Mouser" H 950 3400 60  0001 C CNN "MFN"
+F 5 "538-43650-1212" H 1050 3500 60  0001 C CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Molex/43650-1212?qs=sGAEpiMZZMs%252bGHln7q6pmzorV8rj9woRbgLd20ftk7I%3d" H 1150 3600 60  0001 C CNN "PurchasingLink"
+	1    600  3400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5350 5250
+NoConn ~ 5350 6150
 $EndSCHEMATC
