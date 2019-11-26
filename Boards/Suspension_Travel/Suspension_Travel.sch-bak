@@ -624,20 +624,6 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 10175 1650 60
 	1    9750 1150
 	0    1    1    0   
 $EndComp
-$Comp
-L formula:R_200 R2
-U 1 1 5D5FB79E
-P 10700 1750
-F 0 "R2" V 10790 1700 50  0000 L CNN
-F 1 "R_200" V 10610 1630 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 10630 1750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 10780 1750 50  0001 C CNN
-F 4 "DK" H 10700 1750 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 10700 1750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 11180 2150 60  0001 C CNN "PurchasingLink"
-	1    10700 1750
-	1    0    0    -1  
-$EndComp
 NoConn ~ 10400 1750
 $Comp
 L power:VCC #PWR01
@@ -904,17 +890,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 1650 10500 1600
 Wire Wire Line
-	10500 1600 10700 1600
-Connection ~ 10700 1600
-Wire Wire Line
-	10700 1600 10850 1600
-Wire Wire Line
 	10500 1850 10500 1900
-Wire Wire Line
-	10500 1900 10700 1900
-Connection ~ 10700 1900
-Wire Wire Line
-	10700 1900 10850 1900
 Wire Wire Line
 	9500 6000 9500 6150
 Wire Wire Line
@@ -1089,9 +1065,9 @@ Text Label 7250 1100 0    50   ~ 0
 Text Label 7250 1000 0    50   ~ 0
 GND
 Text Label 7250 1200 0    50   ~ 0
-CAN_HIGH
+CAN_HI
 Text Label 7250 1300 0    50   ~ 0
-CAN_LOW
+CAN_LO
 Text Label 7250 1400 0    50   ~ 0
 POT1_HIGH
 Text Label 7250 1500 0    50   ~ 0
@@ -1292,4 +1268,28 @@ NoConn ~ 3650 2900
 NoConn ~ 3650 3300
 NoConn ~ 3650 3400
 NoConn ~ 3650 3500
+Wire Wire Line
+	10500 1600 10700 1600
+Wire Wire Line
+	10500 1900 10700 1900
+$Comp
+L formula:R_120_DNP R2
+U 1 1 5DCE4A2C
+P 10700 1750
+F 0 "R2" H 10770 1796 50  0000 L CNN
+F 1 "R_120_DNP" H 10770 1705 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 9500 1900 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 9500 2200 50  0001 L CNN
+F 4 "DK" H 10700 1750 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 9500 2000 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 9500 2100 60  0001 L CNN "PurchasingLink"
+	1    10700 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 10700 1600
+Wire Wire Line
+	10700 1600 10850 1600
+Connection ~ 10700 1900
+Wire Wire Line
+	10700 1900 10850 1900
 $EndSCHEMATC
