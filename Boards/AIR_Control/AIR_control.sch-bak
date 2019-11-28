@@ -500,9 +500,9 @@ Text Label 5350 4550 0    50   ~ 0
 BMS_Sense
 Text Label 5350 4650 0    50   ~ 0
 IMD_Sense
-Text Label 5350 5750 0    50   ~ 0
+Text Label 5350 4450 0    50   ~ 0
 PrechargeCTL
-Text Label 5350 5650 0    50   ~ 0
+Text Label 5350 5750 0    50   ~ 0
 AIR+LSD
 Text Label 5350 5150 0    50   ~ 0
 SS_HVD
@@ -518,9 +518,9 @@ Text Label 5350 6550 0    50   ~ 0
 P_LED_1
 Text Label 5350 6650 0    50   ~ 0
 P_LED_2
-Text Label 5350 4450 0    50   ~ 0
-AIR+Weld_Detect
 Text Label 5350 5550 0    50   ~ 0
+AIR+Weld_Detect
+Text Label 5350 5650 0    50   ~ 0
 AIR-Weld_Detect
 Text Label 5350 6050 0    50   ~ 0
 SS_MainTSConn
