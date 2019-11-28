@@ -330,8 +330,6 @@ Text Notes 4000 6850 0    50   ~ 0
 Inductor\n
 Text Notes 3350 6350 0    50   ~ 0
 Bootstrap Capacitor\n
-Text Notes 4650 6400 0    50   ~ 0
-Output Capacitors\n
 $Comp
 L formula:L_100uH L101
 U 1 1 5BEE27A2
@@ -381,19 +379,6 @@ F 3 "" H 5350 6950 50  0001 C CNN
 $EndComp
 Text Notes 5700 6550 0    50   ~ 0
 VCC Jumper\n
-$Comp
-L power:VCC #PWR0112
-U 1 1 5C74E72F
-P 6300 6500
-F 0 "#PWR0112" H 6300 6350 50  0001 C CNN
-F 1 "VCC" H 6317 6673 50  0000 C CNN
-F 2 "" H 6300 6500 50  0001 C CNN
-F 3 "" H 6300 6500 50  0001 C CNN
-	1    6300 6500
-	1    0    0    -1  
-$EndComp
-Text Notes 6400 6450 0    50   ~ 0
-5V
 Text Notes 6200 7350 1    50   ~ 0
 5V Indicator
 Text Notes 10600 7650 0    50   ~ 0
@@ -1019,111 +1004,49 @@ F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 5000 3450 60  0001 C CN
 	1    5000 2150
 	1    0    0    -1  
 $EndComp
-Text Label 5150 1650 0    50   ~ 0
-RADIATOR_TEMP_SENSE
-Text Label 5150 1950 0    50   ~ 0
-MOTOR_TEMP_SENSE
-Text Label 5150 2250 0    50   ~ 0
-CONTROLLER_TEMP_SENSE
-Text Label 5150 2550 0    50   ~ 0
-PUMP_PRESSURE_SENSE
-Text Label 5150 2850 0    50   ~ 0
-CONTROLLER_PRESSURE_SENSE
 Text Label 5150 1350 0    50   ~ 0
 CAN_LO
 Text Label 5150 1250 0    50   ~ 0
 CAN_HI
-Text Label 3550 1050 0    50   ~ 0
-RADIATOR_TEMP_SENSE
-Text Label 3550 1350 0    50   ~ 0
-MOTOR_TEMP_SENSE
-Text Label 3550 1450 0    50   ~ 0
-CONTROLLER_TEMP_SENSE
-Text Label 3550 1550 0    50   ~ 0
-PUMP_PRESSURE_SENSE
-Text Label 3550 2150 0    50   ~ 0
-CONTROLLER_PRESSURE_SENSE
-Text Label 3550 2250 0    50   ~ 0
-PUMP_CONTROL
 $Comp
 L formula:LED_0805 D2
 U 1 1 5DBF4B0C
-P 8950 4350
-F 0 "D2" H 8943 4095 50  0000 C CNN
-F 1 "LED_0805" H 8943 4186 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 8850 4350 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8950 4450 50  0001 C CNN
-F 4 "DK" H 8950 4350 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 8950 4350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 9350 4850 60  0001 C CNN "PurchasingLink"
-	1    8950 4350
-	-1   0    0    1   
-$EndComp
-$Comp
-L formula:LED_0805 D3
-U 1 1 5DBF5315
-P 8950 4700
-F 0 "D3" H 8943 4445 50  0000 C CNN
-F 1 "LED_0805" H 8943 4536 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 8850 4700 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8950 4800 50  0001 C CNN
-F 4 "DK" H 8950 4700 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 8950 4700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 9350 5200 60  0001 C CNN "PurchasingLink"
-	1    8950 4700
+P 8750 4400
+F 0 "D2" H 8743 4145 50  0000 C CNN
+F 1 "LED_0805" H 8743 4236 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 8650 4400 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8750 4500 50  0001 C CNN
+F 4 "DK" H 8750 4400 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 8750 4400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 9150 4900 60  0001 C CNN "PurchasingLink"
+	1    8750 4400
 	-1   0    0    1   
 $EndComp
 $Comp
 L formula:LED_0805 D1
 U 1 1 5DBF4365
-P 8950 4000
-F 0 "D1" H 8943 3745 50  0000 C CNN
-F 1 "LED_0805" H 8943 3836 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 8850 4000 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8950 4100 50  0001 C CNN
-F 4 "DK" H 8950 4000 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 8950 4000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 9350 4500 60  0001 C CNN "PurchasingLink"
-	1    8950 4000
+P 8750 4050
+F 0 "D1" H 8743 3795 50  0000 C CNN
+F 1 "LED_0805" H 8743 3886 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 8650 4050 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8750 4150 50  0001 C CNN
+F 4 "DK" H 8750 4050 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 8750 4050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 9150 4550 60  0001 C CNN "PurchasingLink"
+	1    8750 4050
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR020
-U 1 1 5DC0C20C
-P 9300 4800
-F 0 "#PWR020" H 9300 4550 50  0001 C CNN
-F 1 "GND" H 9305 4627 50  0000 C CNN
-F 2 "" H 9300 4800 50  0001 C CNN
-F 3 "" H 9300 4800 50  0001 C CNN
-	1    9300 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	9100 4000 9300 4000
+	8900 4050 9100 4050
 Wire Wire Line
-	9300 4000 9300 4350
+	9100 4050 9100 4400
 Wire Wire Line
-	9100 4350 9300 4350
-Connection ~ 9300 4350
-Wire Wire Line
-	9300 4350 9300 4700
-Wire Wire Line
-	9100 4700 9300 4700
-Connection ~ 9300 4700
-Wire Wire Line
-	9300 4700 9300 4800
-Text Label 8500 4000 2    50   ~ 0
+	8900 4400 9100 4400
+Connection ~ 9100 4400
+Text Label 8300 4050 2    50   ~ 0
 COOLING_ACTIVE
-Text Label 8500 4350 2    50   ~ 0
-TEMP_STATUS
-Text Label 8500 4700 2    50   ~ 0
-PRESSURE_STATUS
-Text Label 3550 2350 0    50   ~ 0
-COOLING_ACTIVE
-Text Label 3550 3150 0    50   ~ 0
-TEMP_STATUS
-Text Label 3550 3250 0    50   ~ 0
-PRESSURE_STATUS
+Text Label 8300 4400 2    50   ~ 0
+TEMP_GOOD
 Wire Wire Line
 	4100 3400 4100 3550
 Wire Wire Line
@@ -1134,53 +1057,35 @@ Connection ~ 4100 3550
 $Comp
 L formula:R_200 R4
 U 1 1 5DCAEC1D
-P 8650 4000
-F 0 "R4" V 8857 4000 50  0000 C CNN
-F 1 "R_200" V 8766 4000 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 8580 4000 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8730 4000 50  0001 C CNN
-F 4 "DK" H 8650 4000 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 8650 4000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9130 4400 60  0001 C CNN "PurchasingLink"
-	1    8650 4000
+P 8450 4050
+F 0 "R4" V 8657 4050 50  0000 C CNN
+F 1 "R_200" V 8566 4050 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 8380 4050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8530 4050 50  0001 C CNN
+F 4 "DK" H 8450 4050 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 8450 4050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 8930 4450 60  0001 C CNN "PurchasingLink"
+	1    8450 4050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L formula:R_200 R5
 U 1 1 5DCB5996
-P 8650 4350
-F 0 "R5" V 8857 4350 50  0000 C CNN
-F 1 "R_200" V 8766 4350 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 8580 4350 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8730 4350 50  0001 C CNN
-F 4 "DK" H 8650 4350 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 8650 4350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9130 4750 60  0001 C CNN "PurchasingLink"
-	1    8650 4350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_200 R6
-U 1 1 5DCB5DB7
-P 8650 4700
-F 0 "R6" V 8857 4700 50  0000 C CNN
-F 1 "R_200" V 8766 4700 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 8580 4700 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8730 4700 50  0001 C CNN
-F 4 "DK" H 8650 4700 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 8650 4700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9130 5100 60  0001 C CNN "PurchasingLink"
-	1    8650 4700
+P 8450 4400
+F 0 "R5" V 8657 4400 50  0000 C CNN
+F 1 "R_200" V 8566 4400 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 8380 4400 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8530 4400 50  0001 C CNN
+F 4 "DK" H 8450 4400 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 8450 4400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 8930 4800 60  0001 C CNN "PurchasingLink"
+	1    8450 4400
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
-	7750 3650 9450 3650
+	7550 3700 9250 3700
 Wire Notes Line
-	9450 3650 9450 5050
-Wire Notes Line
-	9450 5050 7750 5050
-Wire Notes Line
-	7750 5050 7750 3650
+	9250 4750 7550 4750
 $Comp
 L formula:R_200 R7
 U 1 1 5DCE9EE6
@@ -1304,7 +1209,7 @@ Wire Notes Line
 	11000 5050 9650 5050
 Wire Notes Line
 	9650 5050 9650 3650
-Text Notes 7900 3550 0    89   ~ 0
+Text Notes 7700 3600 0    89   ~ 0
 SYSTEM STATUS LEDS\n
 Text Notes 11000 3600 2    89   ~ 0
 PROGRAMMING LEDS\n
@@ -1327,133 +1232,27 @@ Text Label 3550 950  0    50   ~ 0
 LED_2
 Text Label 3550 1150 0    50   ~ 0
 LED_3
-Text Label 5150 2950 0    50   ~ 0
+Text Label 5150 1450 0    50   ~ 0
 PUMP_RELAY
 Wire Wire Line
 	1050 1150 1350 1150
 Wire Wire Line
 	1050 1200 1050 1150
 Connection ~ 1050 1150
-Text Label 5150 1450 0    50   ~ 0
-RADIATOR_POWER
-Text Label 5150 1550 0    50   ~ 0
-RADIATOR_GROUND
-Text Label 5150 2350 0    50   ~ 0
-PUMP_PRESSURE_POWER
-Text Label 5150 2450 0    50   ~ 0
-PUMP_PRESSURE_GROUND
-Text Label 5150 1750 0    50   ~ 0
-MOTOR_TEMP_POWER
-Text Label 5150 1850 0    50   ~ 0
-MOTOR_TEMP_GROUND
-Text Label 5150 2050 0    50   ~ 0
-CONTROLLER_TEMP_POWER
-Text Label 5150 2150 0    50   ~ 0
-CONTROLLER_TEMP_GROUND
-Text Label 5150 2650 0    50   ~ 0
-CONTROLLER_PRESSURE_POWER
-Text Label 5150 2750 0    50   ~ 0
-CONTROLLER_PRESSURE_GROUND
 Text Notes 10800 1600 0    50   ~ 0
 DNP
-Text Notes 5600 3500 0    89   ~ 0
+Text Notes 5800 3600 0    89   ~ 0
 SENSOR CHECKS\n
 Wire Wire Line
 	6300 7150 6300 7050
 Wire Wire Line
 	6300 7550 6300 7450
 $Sheet
-S 5500 4550 1600 1250
+S 5650 3750 1600 1250
 U 5DD7ADE7
 F0 "Logic_Sheet" 50
 F1 "Logic_Sheet.sch" 50
 $EndSheet
-Text HLabel 6000 3700 2    50   Input ~ 0
-RADIATOR_TEMP_SENSE_CHECK
-Text HLabel 6000 3850 2    50   Input ~ 0
-MOTOR_TEMP_SENSE_CHECK
-Text HLabel 6000 4000 2    50   Input ~ 0
-CONTROLLER_TEMP_SENSE_CHECK
-Text HLabel 6000 4150 2    50   Input ~ 0
-PUMP_PRESSURE_SENSE_CHECK
-Text HLabel 6000 4300 2    50   Input ~ 0
-CONTROLLER_PRESSURE_SENSE_CHECK
-Text Label 5900 3700 2    50   ~ 0
-RADIATOR_TEMP_SENSE
-Text Label 5900 3850 2    50   ~ 0
-MOTOR_TEMP_SENSE
-Text Label 5900 4000 2    50   ~ 0
-CONTROLLER_TEMP_SENSE
-Text Label 5900 4150 2    50   ~ 0
-PUMP_PRESSURE_SENSE
-Text Label 5900 4300 2    50   ~ 0
-CONTROLLER_PRESSURE_SENSE
-Wire Wire Line
-	5900 3700 6000 3700
-Wire Wire Line
-	5900 3850 6000 3850
-Wire Wire Line
-	5900 4000 6000 4000
-Wire Wire Line
-	5900 4150 6000 4150
-Wire Wire Line
-	5900 4300 6000 4300
-$Comp
-L power:GND #PWR?
-U 1 1 5DFF9148
-P 2900 5650
-F 0 "#PWR?" H 2900 5400 50  0001 C CNN
-F 1 "GND" H 2905 5477 50  0000 C CNN
-F 2 "" H 2900 5650 50  0001 C CNN
-F 3 "" H 2900 5650 50  0001 C CNN
-	1    2900 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 5DFF9A88
-P 1600 5000
-F 0 "#PWR?" H 1600 4850 50  0001 C CNN
-F 1 "VCC" H 1617 5173 50  0000 C CNN
-F 2 "" H 1600 5000 50  0001 C CNN
-F 3 "" H 1600 5000 50  0001 C CNN
-	1    1600 5000
-	1    0    0    -1  
-$EndComp
-Text Label 1600 5150 0    50   ~ 0
-RADIATOR_POWER
-Text Label 1600 5250 0    50   ~ 0
-MOTOR_TEMP_POWER
-Text Label 1600 5350 0    50   ~ 0
-CONTROLLER_TEMP_POWER
-Text Label 1600 5450 0    50   ~ 0
-PUMP_PRESSURE_POWER
-Text Label 1600 5550 0    50   ~ 0
-CONTROLLER_PRESSURE_POWER
-Wire Wire Line
-	1600 5000 1600 5550
-Text Label 2900 5150 0    50   ~ 0
-RADIATOR_GROUND
-Text Label 2900 5250 0    50   ~ 0
-MOTOR_TEMP_GROUND
-Text Label 2900 5350 0    50   ~ 0
-CONTROLLER_TEMP_GROUND
-Text Label 2900 5450 0    50   ~ 0
-PUMP_PRESSURE_GROUND
-Text Label 2900 5550 0    50   ~ 0
-CONTROLLER_PRESSURE_GROUND
-Wire Wire Line
-	2900 5150 2900 5650
-Text Notes 3500 4650 2    89   ~ 0
-SENSOR POWER/GROUND
-Wire Notes Line
-	1500 4750 4200 4750
-Wire Notes Line
-	4200 4750 4200 5900
-Wire Notes Line
-	4200 5900 1500 5900
-Wire Notes Line
-	1500 4750 1500 5900
 $Comp
 L formula:SSM3K333R Q?
 U 1 1 5E0A4B82
@@ -1562,12 +1361,78 @@ Wire Notes Line
 	8750 2300 6750 2300
 Wire Notes Line
 	6750 2300 6750 1150
+Text HLabel 5150 1550 2    50   Input ~ 0
+SENSE_1+
+Text HLabel 5150 1650 2    50   Input ~ 0
+SENSE_1-
+Text HLabel 3550 3150 2    50   Input ~ 0
+SENSE_1_OUT
+Text HLabel 5150 1750 2    50   Input ~ 0
+SENSE_2+
+Text HLabel 5150 1850 2    50   Input ~ 0
+SENSE_2-
+Text HLabel 5150 1950 2    50   Input ~ 0
+SENSE_3+
+Text HLabel 5150 2050 2    50   Input ~ 0
+SENSE_3-
+Text HLabel 5150 2150 2    50   Input ~ 0
+SENSE_4+
+Text HLabel 5150 2250 2    50   Input ~ 0
+SENSE_4-
+Text HLabel 5150 2350 2    50   Input ~ 0
+SENSE_5+
+Text HLabel 5150 2450 2    50   Input ~ 0
+SENSE_5-
+Text HLabel 5150 2550 2    50   Input ~ 0
+SENSE_6+
+Text HLabel 5150 2650 2    50   Input ~ 0
+SENSE_6-
+Text HLabel 5150 2750 2    50   Input ~ 0
+SENSE_7+
+Text HLabel 5150 2850 2    50   Input ~ 0
+SENSE_7-
+$Comp
+L power:GND #PWR?
+U 1 1 5DF048E8
+P 5150 2950
+F 0 "#PWR?" H 5150 2700 50  0001 C CNN
+F 1 "GND" H 5155 2777 50  0000 C CNN
+F 2 "" H 5150 2950 50  0001 C CNN
+F 3 "" H 5150 2950 50  0001 C CNN
+	1    5150 2950
+	1    0    0    -1  
+$EndComp
+Text HLabel 3550 3250 2    50   Input ~ 0
+SENSE_2_OUT
+Text HLabel 3550 1550 2    50   Input ~ 0
+SENSE_3_OUT
+Text HLabel 3550 1050 2    50   Input ~ 0
+SENSE_4_OUT
+Text HLabel 3550 1350 2    50   Input ~ 0
+SENSE_5_OUT
+Text HLabel 3550 1450 2    50   Input ~ 0
+SENSE_6_OUT
+Text HLabel 3550 2150 2    50   Input ~ 0
+SENSE_7_OUT
+Text Label 3550 2250 0    50   ~ 0
+COOLING_ACTIVE
+Wire Wire Line
+	9100 4400 9100 4500
+$Comp
+L power:GND #PWR020
+U 1 1 5DC0C20C
+P 9100 4500
+F 0 "#PWR020" H 9100 4250 50  0001 C CNN
+F 1 "GND" H 9105 4327 50  0000 C CNN
+F 2 "" H 9100 4500 50  0001 C CNN
+F 3 "" H 9100 4500 50  0001 C CNN
+	1    9100 4500
+	1    0    0    -1  
+$EndComp
 Wire Notes Line
-	4700 3600 7550 3600
+	9250 4750 9250 3700
 Wire Notes Line
-	7550 3600 7550 5950
-Wire Notes Line
-	7550 5950 4700 5950
-Wire Notes Line
-	4700 5950 4700 3600
+	7550 4750 7550 3700
+Text Label 3550 2350 0    50   ~ 0
+TEMP_GOOD
 $EndSCHEMATC
