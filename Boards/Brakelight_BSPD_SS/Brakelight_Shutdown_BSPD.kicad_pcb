@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 57)
+    (drawings 58)
     (tracks 893)
     (zones 0)
     (modules 85)
@@ -4077,6 +4077,9 @@
     )
   )
 
+  (gr_text "Rev 1" (at 111.76 94.234 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.2)))
+  )
   (gr_text "5V\nIndicator" (at 156.718 58.42) (layer F.SilkS) (tstamp 5DDA484F)
     (effects (font (size 0.8 0.8) (thickness 0.1)) (justify left))
   )
