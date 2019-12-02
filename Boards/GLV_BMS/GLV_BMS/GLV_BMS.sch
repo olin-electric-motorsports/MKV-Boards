@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:GLV_BMS-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1161,19 +1160,13 @@ Wire Notes Line
 	11050 5425 9300 5425
 Wire Notes Line
 	575  7700 6850 7700
-Wire Notes Line
-	600  550  600  4225
 Wire Wire Line
 	1075 3900 1300 3900
 Connection ~ 1300 3900
 Wire Notes Line
-	600  4225 4450 4225
-Wire Notes Line
 	4450 3325 5850 3325
 Wire Notes Line
 	600  550  10600 550 
-Wire Notes Line
-	4450 4225 4450 550 
 Text Label 7925 3200 0    50   ~ 0
 INFO1
 Text Label 7925 3300 0    50   ~ 0
@@ -1195,17 +1188,7 @@ Wire Notes Line
 Wire Wire Line
 	10075 3100 10175 3100
 Wire Wire Line
-	10375 3150 10525 3150
-Connection ~ 10375 3150
-Wire Wire Line
-	10175 3150 10375 3150
-Wire Wire Line
 	10175 3100 10175 3150
-Wire Wire Line
-	10375 2850 10525 2850
-Connection ~ 10375 2850
-Wire Wire Line
-	10175 2850 10375 2850
 Wire Wire Line
 	10175 2900 10175 2850
 Wire Wire Line
@@ -1273,20 +1256,6 @@ F 3 "" H 9575 2250 50  0001 C CNN
 $EndComp
 NoConn ~ 10075 3000
 $Comp
-L formula:R_200 R2
-U 1 1 5D5FB79E
-P 10375 3000
-F 0 "R2" V 10465 2950 50  0000 L CNN
-F 1 "R_200" V 10285 2880 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 10305 3000 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 10455 3000 50  0001 C CNN
-F 4 "DK" H 10375 3000 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 10375 3000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 10855 3400 60  0001 C CNN "PurchasingLink"
-	1    10375 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:C_0.1uF C1
 U 1 1 5D5FB603
 P 9425 2400
@@ -1343,9 +1312,6 @@ Wire Notes Line
 	575  5450 575  7700
 Text Label 3650 1600 0    50   ~ 0
 CON
-NoConn ~ 3650 1200
-NoConn ~ 3650 1300
-NoConn ~ 3650 1400
 NoConn ~ 3650 1500
 NoConn ~ 3650 2400
 NoConn ~ 3650 2600
@@ -1454,6 +1420,171 @@ Wire Wire Line
 	7775 4250 8250 4250
 Text Label 3650 2300 0    50   ~ 0
 ALERT
-Text Notes 4450 4625 0    50   ~ 0
-Explain Gas Gauge is on manu's board here\n
+$Comp
+L formula:R_120_DNP R7
+U 1 1 5DDB12E1
+P 10350 3000
+F 0 "R7" H 10420 3046 50  0000 L CNN
+F 1 "R_120_DNP" H 10420 2955 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 9150 3150 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 9150 3450 50  0001 L CNN
+F 4 "DK" H 10350 3000 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 9150 3250 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 9150 3350 60  0001 L CNN "PurchasingLink"
+	1    10350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_200 R2
+U 1 1 5DDB7271
+P 1025 4575
+F 0 "R2" H 955 4529 50  0000 R CNN
+F 1 "R_200" H 955 4620 50  0000 R CNN
+F 2 "footprints:R_0805_OEM" H 955 4575 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1105 4575 50  0001 C CNN
+F 4 "DK" H 1025 4575 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 1025 4575 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 1505 4975 60  0001 C CNN "PurchasingLink"
+	1    1025 4575
+	-1   0    0    1   
+$EndComp
+$Comp
+L formula:LED_0805 D1
+U 1 1 5DDB85FD
+P 1025 4875
+F 0 "D1" V 1064 4758 50  0000 R CNN
+F 1 "LED_0805" V 973 4758 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 925 4875 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1025 4975 50  0001 C CNN
+F 4 "DK" H 1025 4875 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 1025 4875 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1425 5375 60  0001 C CNN "PurchasingLink"
+	1    1025 4875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5DDBA13F
+P 1025 5025
+F 0 "#PWR027" H 1025 4775 50  0001 C CNN
+F 1 "GND" H 1030 4852 50  0000 C CNN
+F 2 "" H 1025 5025 50  0001 C CNN
+F 3 "" H 1025 5025 50  0001 C CNN
+	1    1025 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10175 2850 10350 2850
+Wire Wire Line
+	10175 3150 10350 3150
+Connection ~ 10350 2850
+Wire Wire Line
+	10350 2850 10525 2850
+Connection ~ 10350 3150
+Wire Wire Line
+	10350 3150 10525 3150
+$Comp
+L formula:R_200 R5
+U 1 1 5DE131AA
+P 1625 4550
+F 0 "R5" H 1555 4504 50  0000 R CNN
+F 1 "R_200" H 1555 4595 50  0000 R CNN
+F 2 "footprints:R_0805_OEM" H 1555 4550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1705 4550 50  0001 C CNN
+F 4 "DK" H 1625 4550 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 1625 4550 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2105 4950 60  0001 C CNN "PurchasingLink"
+	1    1625 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L formula:LED_0805 D2
+U 1 1 5DE1380F
+P 1625 4850
+F 0 "D2" V 1664 4733 50  0000 R CNN
+F 1 "LED_0805" V 1573 4733 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 1525 4850 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1625 4950 50  0001 C CNN
+F 4 "DK" H 1625 4850 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 1625 4850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2025 5350 60  0001 C CNN "PurchasingLink"
+	1    1625 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5DE13F3D
+P 1625 5000
+F 0 "#PWR031" H 1625 4750 50  0001 C CNN
+F 1 "GND" H 1630 4827 50  0000 C CNN
+F 2 "" H 1625 5000 50  0001 C CNN
+F 3 "" H 1625 5000 50  0001 C CNN
+	1    1625 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LED_0805 D3
+U 1 1 5DE14996
+P 2200 4825
+F 0 "D3" V 2239 4708 50  0000 R CNN
+F 1 "LED_0805" V 2148 4708 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 2100 4825 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2200 4925 50  0001 C CNN
+F 4 "DK" H 2200 4825 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 2200 4825 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2600 5325 60  0001 C CNN "PurchasingLink"
+	1    2200 4825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:R_200 R6
+U 1 1 5DE150E7
+P 2200 4525
+F 0 "R6" H 2130 4479 50  0000 R CNN
+F 1 "R_200" H 2130 4570 50  0000 R CNN
+F 2 "footprints:R_0805_OEM" H 2130 4525 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2280 4525 50  0001 C CNN
+F 4 "DK" H 2200 4525 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 2200 4525 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2680 4925 60  0001 C CNN "PurchasingLink"
+	1    2200 4525
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 5DE1E5BD
+P 2200 4975
+F 0 "#PWR032" H 2200 4725 50  0001 C CNN
+F 1 "GND" H 2205 4802 50  0000 C CNN
+F 2 "" H 2200 4975 50  0001 C CNN
+F 3 "" H 2200 4975 50  0001 C CNN
+	1    2200 4975
+	1    0    0    -1  
+$EndComp
+Text Label 1025 4425 0    50   ~ 0
+LED_1
+Text Label 1625 4400 0    50   ~ 0
+LED_2
+Text Label 2200 4375 0    50   ~ 0
+LED_3
+Text Label 3650 1200 0    50   ~ 0
+LED_1
+Text Label 3650 1300 0    50   ~ 0
+LED_2
+Text Label 3650 1400 0    50   ~ 0
+LED_3
+Text Notes 2850 5225 0    94   ~ 0
+There are 7 values that are recieved external from the board. \nThose are 12+ and GND, both CAN HI and LO, and the other\n three are the three values given from the Gas Gauge that is \non Manu's PCB.\n\n
+Wire Notes Line
+	4450 4225 4450 550 
+Wire Notes Line
+	600  4225 4450 4225
+Wire Notes Line
+	600  550  600  4225
+Wire Notes Line
+	725  4225 725  5450
+Wire Notes Line
+	2750 4225 2750 5450
+Text Notes 1150 5375 0    94   ~ 0
+Debugging LEDs
 $EndSCHEMATC
