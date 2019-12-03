@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:wheel_speed-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -150,7 +150,7 @@ U 1 1 5C08921B
 P 5050 6350
 F 0 "COUT102" H 4950 6600 50  0000 L CNN
 F 1 "C_33uF" H 5060 6250 50  0000 L CNN
-F 2 "footprints:Fuse_1812" H 5100 5950 50  0001 C CNN
+F 2 "footprints:C_1812_OEM" H 5100 5950 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 5050 7000 50  0001 C CNN
 F 4 "C4532X7R1C336M250KC" H 5100 5850 60  0001 C CNN "MFN"
 F 5 "445-3924-1-ND" H 5050 6700 60  0001 C CNN "MPN"
@@ -338,7 +338,7 @@ U 1 1 5BEE27A2
 P 4250 6200
 F 0 "L101" H 4250 6300 50  0000 C CNN
 F 1 "L_100uH" H 4250 6150 50  0000 C CNN
-F 2 "footprints:L_100uH" H 4150 6000 50  0001 C CNN
+F 2 "formula:L_100uH" H 4150 6000 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 4150 6050 50  0001 C CNN
 F 4 "Digikey" H 4350 6000 50  0001 C CNN "MFN"
 F 5 "445-15759-1-ND" H 4250 6450 50  0001 C CNN "MPN"
@@ -622,20 +622,6 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 10175 1650 60
 	1    9750 1150
 	0    1    1    0   
 $EndComp
-$Comp
-L formula:R_200 R2
-U 1 1 5D5FB79E
-P 10700 1750
-F 0 "R2" V 10790 1700 50  0000 L CNN
-F 1 "R_200" V 10610 1630 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 10630 1750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 10780 1750 50  0001 C CNN
-F 4 "DK" H 10700 1750 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 10700 1750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 11180 2150 60  0001 C CNN "PurchasingLink"
-	1    10700 1750
-	1    0    0    -1  
-$EndComp
 NoConn ~ 10400 1750
 $Comp
 L power:VCC #PWR01
@@ -902,17 +888,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 1650 10500 1600
 Wire Wire Line
-	10500 1600 10700 1600
-Connection ~ 10700 1600
-Wire Wire Line
-	10700 1600 10850 1600
-Wire Wire Line
 	10500 1850 10500 1900
-Wire Wire Line
-	10500 1900 10700 1900
-Connection ~ 10700 1900
-Wire Wire Line
-	10700 1900 10850 1900
 Wire Wire Line
 	9500 6000 9500 6150
 Wire Wire Line
@@ -929,7 +905,7 @@ U 1 1 5C75D405
 P 2950 6250
 F 0 "U101" H 2975 6715 50  0000 C CNN
 F 1 "TPS560430YF" H 2975 6624 50  0000 C CNN
-F 2 "footprints:SOT-23-6_OEM" H 2900 6950 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 2900 6950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 2950 6800 50  0001 C CNN
 F 4 "TPS560430YFDBVR" H 2900 5150 50  0001 C CNN "MPN"
 F 5 "TPS560430YFDBVR-ND" H 2950 5250 50  0001 C CNN "MFN"
@@ -1192,20 +1168,6 @@ DEBUG
 Text Label 9450 4500 2    50   ~ 0
 DEBUG
 $Comp
-L formula:R_120 R6
-U 1 1 5DD726CC
-P 10100 4750
-F 0 "R6" H 10170 4796 50  0000 L CNN
-F 1 "R_120" H 10170 4705 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 8900 4900 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 8900 5200 50  0001 L CNN
-F 4 "DK" H 10100 4750 60  0001 C CNN "MFN"
-F 5 "667-ERJ-6ENF1200V" H 8900 5000 60  0001 L CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 8900 5100 60  0001 L CNN "PurchasingLink"
-	1    10100 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0119
 U 1 1 5DD72F25
 P 10100 5050
@@ -1222,32 +1184,10 @@ Wire Wire Line
 	6800 4650 6600 4650
 Wire Wire Line
 	6400 4650 6200 4650
-$Comp
-L Device:Jumper_NC_Small JP2
-U 1 1 5DD276AD
-P 6500 4650
-F 0 "JP2" H 6500 4862 50  0000 C CNN
-F 1 "LEFT_RIGHT" H 6500 4771 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6500 4650 50  0001 C CNN
-F 3 "~" H 6500 4650 50  0001 C CNN
-	1    6500 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6600 3300 6800 3300
 Wire Wire Line
 	6400 3300 6200 3300
-$Comp
-L Device:Jumper_NC_Small JP1
-U 1 1 5DD275B4
-P 6500 3300
-F 0 "JP1" H 6500 3512 50  0000 C CNN
-F 1 "FRONT_BACK" H 6500 3421 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6500 3300 50  0001 C CNN
-F 3 "~" H 6500 3300 50  0001 C CNN
-	1    6500 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10100 4600 10100 4500
 Wire Wire Line
@@ -1275,20 +1215,6 @@ Wire Wire Line
 Connection ~ 6200 3300
 Wire Wire Line
 	6200 3300 5900 3300
-$Comp
-L formula:R_120 R7
-U 1 1 5DDC1E4F
-P 6800 3700
-F 0 "R7" H 6870 3746 50  0000 L CNN
-F 1 "R_120" H 6870 3655 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5600 3850 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 5600 4150 50  0001 L CNN
-F 4 "DK" H 6800 3700 60  0001 C CNN "MFN"
-F 5 "667-ERJ-6ENF1200V" H 5600 3950 60  0001 L CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 5600 4050 60  0001 L CNN "PurchasingLink"
-	1    6800 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6800 3550 6800 3500
 Wire Wire Line
@@ -1327,20 +1253,6 @@ Wire Wire Line
 Connection ~ 6200 4650
 Wire Wire Line
 	6200 4650 5900 4650
-$Comp
-L formula:R_120 R8
-U 1 1 5DDE207C
-P 6800 5050
-F 0 "R8" H 6870 5096 50  0000 L CNN
-F 1 "R_120" H 6870 5005 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5600 5200 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 5600 5500 50  0001 L CNN
-F 4 "DK" H 6800 5050 60  0001 C CNN "MFN"
-F 5 "667-ERJ-6ENF1200V" H 5600 5300 60  0001 L CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 5600 5400 60  0001 L CNN "PurchasingLink"
-	1    6800 5050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6800 4900 6800 4850
 Wire Wire Line
@@ -1405,4 +1317,92 @@ Wire Wire Line
 Connection ~ 6350 1550
 Text Label 5800 1850 0    50   ~ 0
 5V
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5DD5B46C
+P 6500 3300
+F 0 "JP1" H 6500 3485 50  0000 C CNN
+F 1 "FRONT_BACK" H 6500 3394 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6500 3300 50  0001 C CNN
+F 3 "~" H 6500 3300 50  0001 C CNN
+	1    6500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5DD5E554
+P 6500 4650
+F 0 "JP2" H 6500 4835 50  0000 C CNN
+F 1 "LEFT_RIGHT" H 6500 4744 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6500 4650 50  0001 C CNN
+F 3 "~" H 6500 4650 50  0001 C CNN
+	1    6500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_120_DNP R2
+U 1 1 5DD91C2A
+P 10650 1750
+F 0 "R2" H 10720 1796 50  0000 L CNN
+F 1 "R_120_DNP" H 10720 1705 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 9450 1900 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 9450 2200 50  0001 L CNN
+F 4 "DK" H 10650 1750 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 9450 2000 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 9450 2100 60  0001 L CNN "PurchasingLink"
+	1    10650 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 1600 10650 1600
+Wire Wire Line
+	10500 1900 10650 1900
+Connection ~ 10650 1600
+Wire Wire Line
+	10650 1600 10850 1600
+Connection ~ 10650 1900
+Wire Wire Line
+	10650 1900 10850 1900
+$Comp
+L formula:R_200 R7
+U 1 1 5DDD2D9C
+P 6800 5050
+F 0 "R7" H 6870 5096 50  0000 L CNN
+F 1 "R_200" H 6870 5005 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 6730 5050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6880 5050 50  0001 C CNN
+F 4 "DK" H 6800 5050 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 6800 5050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7280 5450 60  0001 C CNN "PurchasingLink"
+	1    6800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_200 R6
+U 1 1 5DDD3AD7
+P 6800 3700
+F 0 "R6" H 6870 3746 50  0000 L CNN
+F 1 "R_200" H 6870 3655 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 6730 3700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6880 3700 50  0001 C CNN
+F 4 "DK" H 6800 3700 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 6800 3700 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7280 4100 60  0001 C CNN "PurchasingLink"
+	1    6800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_200 R8
+U 1 1 5DDD4C64
+P 10100 4750
+F 0 "R8" H 10170 4796 50  0000 L CNN
+F 1 "R_200" H 10170 4705 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 10030 4750 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 10180 4750 50  0001 C CNN
+F 4 "DK" H 10100 4750 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 10100 4750 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 10580 5150 60  0001 C CNN "PurchasingLink"
+	1    10100 4750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
