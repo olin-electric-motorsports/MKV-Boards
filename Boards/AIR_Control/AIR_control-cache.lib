@@ -243,8 +243,8 @@ ENDDEF
 DEF formula_C_33uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "formula_C_33uF" 100 -300 50 H V L CNN
-F2 "footprints:C_1812_OEM" 50 -400 50 H I C CNN
-F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 0 650 50 H I C CNN
+F2 "footprints:Fuse_1812" 50 -400 50 H I C CNN
+F3 "" 0 650 50 H I C CNN
 F4 "C4532X7R1C336M250KC" 50 -500 60 H I C CNN "MFN"
 F5 "445-3924-1-ND" 0 350 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431" 250 500 60 H I C CNN "PurchasingLink"
@@ -389,11 +389,11 @@ ENDDEF
 #
 # formula_L_100uH
 #
-DEF formula_L_100uH L 0 40 Y Y 1 F N
+DEF formula_L_100uH L 0 40 N N 1 F N
 F0 "L" 0 -50 50 H V C CNN
 F1 "formula_L_100uH" 0 100 50 H V C CNN
-F2 "formula:L_100uH" -100 -200 50 H I C CNN
-F3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" -100 -150 50 H I C CNN
+F2 "footprints:L_100uH_OEM" -100 -200 50 H I C CNN
+F3 "" -100 -150 50 H I C CNN
 F4 "Digikey" 100 -200 50 H I C CNN "MFN"
 F5 "445-15759-1-ND" 0 250 50 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "Link"
@@ -468,33 +468,6 @@ X 9 9 150 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# formula_MicroFit_12
-#
-DEF formula_MicroFit_12 J 0 38 Y Y 1 F N
-F0 "J" 250 -100 60 H V C CNN
-F1 "formula_MicroFit_12" 450 -1400 60 H V C CNN
-F2 "" 150 -200 60 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/276/0436501212_PCB_HEADERS-148915.pdf" 250 -100 60 H I C CNN
-F4 "Mouser" 350 0 60 H I C CNN "MFN"
-F5 "538-43650-1212" 450 100 60 H I C CNN "MPN"
-F6 "https://www.mouser.com/ProductDetail/Molex/43650-1212?qs=sGAEpiMZZMs%252bGHln7q6pmzorV8rj9woRbgLd20ftk7I%3d" 550 200 60 H I C CNN "PurchasingLink"
-DRAW
-S 350 -150 200 -1350 0 1 0 f
-X 1 1 550 -200 200 L 50 50 1 1 I
-X 10 10 550 -1100 200 L 50 50 1 1 I
-X 11 11 550 -1200 200 L 50 50 1 1 I
-X 12 12 550 -1300 200 L 50 50 1 1 I
-X 2 2 550 -300 200 L 50 50 1 1 I
-X 3 3 550 -400 200 L 50 50 1 1 I
-X 4 4 550 -500 200 L 50 50 1 1 I
-X 5 5 550 -600 200 L 50 50 1 1 I
-X 6 6 550 -700 200 L 50 50 1 1 I
-X 7 7 550 -800 200 L 50 50 1 1 I
-X 8 8 550 -900 200 L 50 50 1 1 I
-X 9 9 550 -1000 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # formula_MicroFit_RA_V_2
 #
 DEF formula_MicroFit_RA_V_2 J 0 40 Y Y 1 F N
@@ -509,6 +482,30 @@ DRAW
 S 150 -100 -150 100 1 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
 X 2 2 250 -50 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# formula_MicroFit_VT_12
+#
+DEF formula_MicroFit_VT_12 J 0 40 Y Y 1 F N
+F0 "J" 50 950 100 H V C CNN
+F1 "formula_MicroFit_VT_12" 0 750 100 H V C CNN
+F2 "footprints:MicroFit_VT_12" 0 -750 100 H I C CNN
+F3 "" 50 -50 100 H I C CNN
+DRAW
+S -100 600 100 -600 0 1 0 f
+X ~ 1 200 550 100 L 50 50 1 1 I
+X ~ 10 200 -350 100 L 50 50 1 1 I
+X ~ 11 200 -450 100 L 50 50 1 1 I
+X ~ 12 200 -550 100 L 50 50 1 1 I
+X ~ 2 200 450 100 L 50 50 1 1 I
+X ~ 3 200 350 100 L 50 50 1 1 I
+X ~ 4 200 250 100 L 50 50 1 1 I
+X ~ 5 200 150 100 L 50 50 1 1 I
+X ~ 6 200 50 100 L 50 50 1 1 I
+X ~ 7 200 -50 100 L 50 50 1 1 I
+X ~ 8 200 -150 100 L 50 50 1 1 I
+X ~ 9 200 -250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -701,8 +698,8 @@ ENDDEF
 DEF formula_TPS560430YF U 0 40 Y Y 1 F N
 F0 "U" -550 -400 50 H V C CNN
 F1 "formula_TPS560430YF" 0 400 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" -50 700 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" 0 550 50 H I C CNN
+F2 "footprints:SOT-23-6_OEM" -50 700 50 H I C CNN
+F3 "" 0 550 50 H I C CNN
 F4 "TPS560430YFDBVR" -50 -1100 50 H I C CNN "MPN"
 F5 "TPS560430YFDBVR-ND" 0 -1000 50 H I C CNN "MFN"
 F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "Purchasing Link"

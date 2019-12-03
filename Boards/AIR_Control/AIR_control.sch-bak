@@ -109,22 +109,6 @@ Text Notes 900  850  0    118  ~ 0
 Connectors
 Text Label 1150 3600 0    50   ~ 0
 Precharge_LSD
-Text Label 1150 3800 0    50   ~ 0
-Air+Aux+
-Text Label 1150 3900 0    50   ~ 0
-Air+Aux-
-Text Label 1150 4000 0    50   ~ 0
-Air+Coil+
-Text Label 1150 4100 0    50   ~ 0
-Air+Coil-
-Text Label 1150 4200 0    50   ~ 0
-Air-Aux+
-Text Label 1150 4300 0    50   ~ 0
-Air-Aux-
-Text Label 1150 4400 0    50   ~ 0
-Air-Coil+
-Text Label 1150 4500 0    50   ~ 0
-Air-Coil-
 $Comp
 L power:GND #PWR03
 U 1 1 5DA99C73
@@ -512,13 +496,13 @@ Text Label 1150 2050 0    50   ~ 0
 RJ45_LED1
 Text Label 1150 2150 0    50   ~ 0
 RJ45_LED2
-Text Label 5350 6150 0    50   ~ 0
+Text Label 5350 4550 0    50   ~ 0
 BMS_Sense
-Text Label 5350 5250 0    50   ~ 0
+Text Label 5350 4650 0    50   ~ 0
 IMD_Sense
-Text Label 5350 5750 0    50   ~ 0
+Text Label 5350 4450 0    50   ~ 0
 PrechargeCTL
-Text Label 5350 5650 0    50   ~ 0
+Text Label 5350 5750 0    50   ~ 0
 AIR+LSD
 Text Label 5350 5150 0    50   ~ 0
 SS_HVD
@@ -534,15 +518,12 @@ Text Label 5350 6550 0    50   ~ 0
 P_LED_1
 Text Label 5350 6650 0    50   ~ 0
 P_LED_2
-Text Label 5350 4450 0    50   ~ 0
-AIR+Weld_Detect
 Text Label 5350 5550 0    50   ~ 0
+AIR+Weld_Detect
+Text Label 5350 5650 0    50   ~ 0
 AIR-Weld_Detect
 Text Label 5350 6050 0    50   ~ 0
 SS_MainTSConn
-NoConn ~ 5350 4550
-NoConn ~ 5350 4650
-NoConn ~ 5350 5850
 Text Label 5350 6250 0    50   ~ 0
 MISO
 Text Label 5350 6350 0    50   ~ 0
@@ -2223,7 +2204,7 @@ F 3 "" H 12300 4950 50  0001 C CNN
 $EndComp
 Connection ~ 12300 4950
 Text Label 11300 4350 2    50   ~ 0
-Shutdown_In
+ShutdownSense_TSMS
 $Comp
 L formula:R_10K R35
 U 1 1 5DBE371E
@@ -2515,23 +2496,9 @@ ShutdownSense_HVDConn
 Text Label 1150 2950 0    50   ~ 0
 ShutdownSense_TSMS
 Text Label 1150 3700 0    50   ~ 0
-Final_shutdown
+Final_Shutdown
 Text Label 1150 4700 0    50   ~ 0
 Final_Shutdown
-$Comp
-L formula:MicroFit_12 J1
-U 1 1 5DDE1F94
-P 600 3400
-F 0 "J1" H 983 3447 60  0000 C CNN
-F 1 "MicroFit_12" H 983 3341 60  0000 C CNN
-F 2 "" H 750 3200 60  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/276/0436501212_PCB_HEADERS-148915.pdf" H 850 3300 60  0001 C CNN
-F 4 "Mouser" H 950 3400 60  0001 C CNN "MFN"
-F 5 "538-43650-1212" H 1050 3500 60  0001 C CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Molex/43650-1212?qs=sGAEpiMZZMs%252bGHln7q6pmzorV8rj9woRbgLd20ftk7I%3d" H 1150 3600 60  0001 C CNN "PurchasingLink"
-	1    600  3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1150 4600 1850 4600
 Wire Wire Line
@@ -2553,4 +2520,35 @@ Wire Wire Line
 	1800 5100 1800 4950
 Wire Wire Line
 	1150 4950 1800 4950
+Text Label 5350 5850 0    50   ~ 0
+SS_HVDConn
+NoConn ~ 5350 5250
+NoConn ~ 5350 6150
+$Comp
+L formula:MicroFit_VT_12 J1
+U 1 1 5DE04813
+P 950 4150
+F 0 "J1" H 1008 4946 59  0000 C CNN
+F 1 "MicroFit_VT_12" H 1008 4841 59  0000 C CNN
+F 2 "footprints:MicroFit_VT_12" H 950 3400 100 0001 C CNN
+F 3 "" H 1000 4100 100 0001 C CNN
+	1    950  4150
+	1    0    0    -1  
+$EndComp
+Text Label 1150 4500 0    50   ~ 0
+Air-Coil-
+Text Label 1150 4400 0    50   ~ 0
+Air-Coil+
+Text Label 1150 4300 0    50   ~ 0
+Air-Aux-
+Text Label 1150 4200 0    50   ~ 0
+Air-Aux+
+Text Label 1150 4100 0    50   ~ 0
+Air+Coil-
+Text Label 1150 4000 0    50   ~ 0
+Air+Coil+
+Text Label 1150 3900 0    50   ~ 0
+Air+Aux-
+Text Label 1150 3800 0    50   ~ 0
+Air+Aux+
 $EndSCHEMATC
