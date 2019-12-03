@@ -281,20 +281,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2050 7150 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L template-rescue:R_200-formula R101
-U 1 1 5C754D87
-P 1650 6250
-F 0 "R101" H 1720 6296 50  0000 L CNN
-F 1 "R_200" H 1720 6205 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1580 6250 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1730 6250 50  0001 C CNN
-F 4 "DK" H 1650 6250 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 1650 6250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2130 6650 60  0001 C CNN "PurchasingLink"
-	1    1650 6250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0103
 U 1 1 5C754D8E
 P 1650 6950
@@ -333,39 +319,16 @@ Bootstrap Capacitor\n
 Text Notes 4850 5950 0    50   ~ 0
 Output Capacitors\n
 $Comp
-L template-rescue:L_100uH-formula L101
-U 1 1 5BEE27A2
-<<<<<<< HEAD
-P 4350 6200
-F 0 "L101" H 4350 6300 50  0000 C CNN
-F 1 "L_100uH" H 4350 6150 50  0000 C CNN
-F 2 "footprints:L_100uH" H 4250 6000 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 4250 6050 50  0001 C CNN
-F 4 "Digikey" H 4450 6000 50  0001 C CNN "MFN"
-F 5 "445-15759-1-ND" H 4350 6450 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 4650 6400 50  0001 C CNN "Link"
-	1    4350 6200
-=======
-P 4250 6200
-F 0 "L101" H 4250 6300 50  0000 C CNN
-F 1 "L_100uH" H 4250 6150 50  0000 C CNN
-F 2 "footprints:L_100uH_OEM" H 4150 6000 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 4150 6050 50  0001 C CNN
-F 4 "Digikey" H 4350 6000 50  0001 C CNN "MFN"
-F 5 "445-15759-1-ND" H 4250 6450 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 4550 6400 50  0001 C CNN "Link"
-	1    4250 6200
->>>>>>> 711dde159e7ca73838779415daa606d78ca295f5
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0109
+L template-rescue:L_100uH-formula #PWR0109
 U 1 1 5C781579
 P 4750 6500
 F 0 "#PWR0109" H 4750 6250 50  0001 C CNN
 F 1 "GND" H 4755 6327 50  0000 C CNN
 F 2 "" H 4750 6500 50  0001 C CNN
 F 3 "" H 4750 6500 50  0001 C CNN
+F 4 "Digikey" H 4850 6300 50  0001 C CNN "MFN"
+F 5 "445-15759-1-ND" H 4750 6750 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 5050 6700 50  0001 C CNN "Link"
 	1    4750 6500
 	1    0    0    -1  
 $EndComp
@@ -991,11 +954,6 @@ Wire Wire Line
 Wire Wire Line
 	900  6100 1100 6100
 Connection ~ 900  6100
-Wire Wire Line
-	1400 6100 1650 6100
-Connection ~ 1650 6100
-Wire Wire Line
-	1650 6100 2050 6100
 Connection ~ 2050 6100
 Wire Wire Line
 	2050 6100 2350 6100
@@ -1033,4 +991,23 @@ F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/
 	1    3050 6250
 	1    0    0    -1  
 $EndComp
+$Comp
+L formula:R_1K R101
+U 1 1 5DE6EFCB
+P 1650 6250
+F 0 "R101" H 1720 6296 50  0000 L CNN
+F 1 "R_1K" H 1720 6205 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1580 6250 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1730 6250 50  0001 C CNN
+F 4 "DK" H 1650 6250 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 1650 6250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 2130 6650 60  0001 C CNN "PurchasingLink"
+	1    1650 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 6100 1650 6100
+Wire Wire Line
+	1650 6100 2050 6100
+Connection ~ 1650 6100
 $EndSCHEMATC
