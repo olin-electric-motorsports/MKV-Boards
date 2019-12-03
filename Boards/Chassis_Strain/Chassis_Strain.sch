@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Chassis_Strain-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 14
 Title "Template Board"
 Date "2019-08-22"
 Rev "1"
@@ -330,8 +329,6 @@ Text Notes 4100 6400 0    50   ~ 0
 Inductor\n
 Text Notes 3450 5900 0    50   ~ 0
 Bootstrap Capacitor\n
-Text Notes 4750 5950 0    50   ~ 0
-Output Capacitors\n
 $Comp
 L Chassis_Strain-rescue:L_100uH-formula L101
 U 1 1 5BEE27A2
@@ -398,24 +395,6 @@ Text Notes 6250 7300 1    50   ~ 0
 5V Indicator
 Text Notes 10600 7650 0    50   ~ 0
 2
-$Comp
-L Chassis_Strain-rescue:ATMEGA16M1-formula U2
-U 1 1 5D58A7A6
-P 2550 2700
-F 0 "U2" H 3450 4560 50  0000 C CNN
-F 1 "ATMEGA16M1" H 1850 4550 50  0000 C CNN
-F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2550 2700 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1600 4530 50  0001 C CNN
-F 4 "DK" H 2550 2700 60  0001 C CNN "MFN"
-F 5 "ATMEGA16M1-AU-ND" H 2550 2700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 2000 4930 60  0001 C CNN "PurchasingLink"
-	1    2550 2700
-	1    0    0    -1  
-$EndComp
-Text Label 3650 2100 0    50   ~ 0
-CAN_TX
-Text Label 3650 2200 0    50   ~ 0
-CAN_RX
 Text Label 3650 3000 0    50   ~ 0
 MISO
 Text Label 3650 3100 0    50   ~ 0
@@ -624,20 +603,6 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 10175 1650 60
 	1    9750 1150
 	0    1    1    0   
 $EndComp
-$Comp
-L Chassis_Strain-rescue:R_200-formula R2
-U 1 1 5D5FB79E
-P 10700 1750
-F 0 "R2" V 10790 1700 50  0000 L CNN
-F 1 "R_200" V 10610 1630 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 10630 1750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 10780 1750 50  0001 C CNN
-F 4 "DK" H 10700 1750 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 10700 1750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 11180 2150 60  0001 C CNN "PurchasingLink"
-	1    10700 1750
-	1    0    0    -1  
-$EndComp
 NoConn ~ 10400 1750
 $Comp
 L power:VCC #PWR01
@@ -693,8 +658,6 @@ Text Label 10850 1900 0    50   ~ 0
 CAN_LO
 Text Notes 9300 750  0    89   ~ 0
 CAN TRANSCEIVER\n
-Text Notes 2250 800  0    89   ~ 0
-ATMEGA 16M1\n
 Text Notes 3550 4900 0    89   ~ 0
 16 MHz CRYSTAL\n
 Text Notes 9650 5700 0    89   ~ 0
@@ -904,17 +867,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 1650 10500 1600
 Wire Wire Line
-	10500 1600 10700 1600
-Connection ~ 10700 1600
-Wire Wire Line
-	10700 1600 10850 1600
-Wire Wire Line
 	10500 1850 10500 1900
-Wire Wire Line
-	10500 1900 10700 1900
-Connection ~ 10700 1900
-Wire Wire Line
-	10700 1900 10850 1900
 Wire Wire Line
 	9500 6000 9500 6150
 Wire Wire Line
@@ -1021,214 +974,126 @@ Wire Wire Line
 	2500 6100 2600 6100
 Wire Wire Line
 	10400 1850 10500 1850
+Text Notes 2250 800  0    89   ~ 0
+ATMEGA 16M1\n
+Text Label 3650 2200 0    50   ~ 0
+CAN_RX
+Text Label 3650 2100 0    50   ~ 0
+CAN_TX
 $Comp
-L power:VCC #PWR?
-U 1 1 5DD62810
-P 4350 1100
-F 0 "#PWR?" H 4350 950 50  0001 C CNN
-F 1 "VCC" V 4368 1227 50  0000 L CNN
-F 2 "" H 4350 1100 50  0001 C CNN
-F 3 "" H 4350 1100 50  0001 C CNN
-	1    4350 1100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Formula:R_120 R?
-U 1 1 5DD63294
-P 4600 950
-F 0 "R?" V 4393 950 50  0001 C CNN
-F 1 "R_120" V 4485 950 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3400 1100 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3400 1400 50  0001 L CNN
-F 4 "DK" H 4600 950 60  0001 C CNN "MFN"
-F 5 "667-ERJ-6ENF1200V" H 3400 1200 60  0001 L CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 3400 1300 60  0001 L CNN "PurchasingLink"
-	1    4600 950 
-	0    1    1    0   
-$EndComp
-$Comp
-L Formula:R_120 R?
-U 1 1 5DD63D87
-P 4600 1250
-F 0 "R?" V 4393 1250 50  0001 C CNN
-F 1 "R_120" V 4485 1250 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3400 1400 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3400 1700 50  0001 L CNN
-F 4 "DK" H 4600 1250 60  0001 C CNN "MFN"
-F 5 "667-ERJ-6ENF1200V" H 3400 1500 60  0001 L CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 3400 1600 60  0001 L CNN "PurchasingLink"
-	1    4600 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4350 1100 4350 950 
-Wire Wire Line
-	4350 950  4450 950 
-Wire Wire Line
-	4350 1100 4350 1250
-Wire Wire Line
-	4350 1250 4450 1250
-Connection ~ 4350 1100
-$Comp
-L Formula:R_Strain_Gauge R?
-U 1 1 5DD68454
-P 5100 950
-F 0 "R?" V 4855 950 50  0001 C CNN
-F 1 "R_Strain_Gauge" V 4947 950 50  0000 C CNN
-F 2 "" V 5030 950 50  0001 C CNN
-F 3 "http://datasheets.globalspec.com/ds/580/OMEGAEngineering/A8335787-996B-432A-9EB0-AFA91F83BF20" V 5200 850 50  0001 C CNN
-F 4 "OMEGA" V 5300 950 60  0001 C CNN "MFN"
-F 5 "SGT-1/350-XY41" V 5400 1050 60  0001 C CNN "MPN"
-F 6 "https://www.omega.com/pptst/SGT_2-ELEMENT90.html" V 5500 1150 60  0001 C CNN "PurchasingLink"
-	1    5100 950 
-	0    1    1    0   
-$EndComp
-$Comp
-L Formula:R_120 R?
-U 1 1 5DD69704
-P 5100 1250
-F 0 "R?" V 4893 1250 50  0001 C CNN
-F 1 "R_120" V 4985 1250 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3900 1400 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3900 1700 50  0001 L CNN
-F 4 "DK" H 5100 1250 60  0001 C CNN "MFN"
-F 5 "667-ERJ-6ENF1200V" H 3900 1500 60  0001 L CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 3900 1600 60  0001 L CNN "PurchasingLink"
-	1    5100 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4750 950  4850 950 
-Wire Wire Line
-	4750 1250 4850 1250
-$Comp
-L power:GND #PWR?
-U 1 1 5DD6DD60
-P 5250 1350
-F 0 "#PWR?" H 5250 1100 50  0001 C CNN
-F 1 "GND" H 5255 1177 50  0000 C CNN
-F 2 "" H 5250 1350 50  0001 C CNN
-F 3 "" H 5250 1350 50  0001 C CNN
-	1    5250 1350
+L Chassis_Strain-rescue:ATMEGA16M1-formula U2
+U 1 1 5D58A7A6
+P 2550 2700
+F 0 "U2" H 3450 4560 50  0000 C CNN
+F 1 "ATMEGA16M1" H 1850 4550 50  0000 C CNN
+F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2550 2700 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1600 4530 50  0001 C CNN
+F 4 "DK" H 2550 2700 60  0001 C CNN "MFN"
+F 5 "ATMEGA16M1-AU-ND" H 2550 2700 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 2000 4930 60  0001 C CNN "PurchasingLink"
+	1    2550 2700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 950  5250 1250
+Text Notes 4750 5950 0    50   ~ 0
+Output Capacitors\n
 $Comp
-L Formula:MCP6001T-I-LT U?
-U 1 1 5DD72AAC
-P 6200 1100
-F 0 "U?" H 6544 1146 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 6544 1055 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6100 1200 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6200 1300 50  0001 C CNN
-F 4 "DK" H 6300 1400 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 6400 1500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 6500 1600 60  0001 C CNN "PurchasingLink"
-	1    6200 1100
+L Formula:MM_F_RA_20 J101
+U 1 1 5DDA44EA
+P 6750 3100
+F 0 "J101" H 6708 4447 60  0000 C CNN
+F 1 "MM_F_RA_20" H 6708 4341 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_20" H 6550 4200 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 6650 4300 60  0001 C CNN
+F 4 "TE" H 6850 4500 60  0001 C CNN "MFN"
+F 5 "2-338070-0" H 6950 4600 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 6750 4400 60  0001 C CNN "PurchasingLink"
+	1    6750 3100
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 5050 750  1550 3350
+U 5DD64290
+F0 "strain_gauge_cluster" 50
+F1 "strain_gauge_circuit_file5DD6428F.sch" 50
+F2 "r_strain_1_+" O R 6600 900 50 
+F3 "r_strain_1_-" I R 6600 1000 50 
+F4 "strain_gauge_vout_1" O L 5050 900 50 
+F5 "r_strain_2_+" O R 6600 1100 50 
+F6 "r_strain_2_-" I R 6600 1200 50 
+F7 "strain_gauge_vout_2" O L 5050 1100 50 
+F8 "r_strain_3_+" O R 6600 1300 50 
+F9 "r_strain_3_-" I R 6600 1400 50 
+F10 "strain_gauge_vout_3" O L 5050 1300 50 
+F11 "r_strain_4_+" O R 6600 1500 50 
+F12 "r_strain_4_-" I R 6600 1600 50 
+F13 "strain_gauge_vout_4" O L 5050 1500 50 
+F14 "r_strain_5_+" O R 6600 2000 50 
+F15 "r_strain_5_-" I R 6600 2100 50 
+F16 "strain_gauge_vout_5" O L 5050 2000 50 
+F17 "r_strain_6_+" O R 6600 2200 50 
+F18 "r_strain_6_-" I R 6600 2300 50 
+F19 "strain_gauge_vout_6" O L 5050 2200 50 
+F20 "r_strain_7_+" O R 6600 2400 50 
+F21 "r_strain_7_-" I R 6600 2500 50 
+F22 "strain_gauge_vout_7" O L 5050 2400 50 
+F23 "r_strain_8_+" O R 6600 2600 50 
+F24 "r_strain_8_-" I R 6600 2700 50 
+F25 "strain_gauge_vout_8" O L 5050 2600 50 
+F26 "r_strain_9_+" O R 6600 2800 50 
+F27 "r_strain_9_-" I R 6600 2900 50 
+F28 "strain_gauge_vout_9" O L 5050 2800 50 
+F29 "r_strain_10_+" O R 6600 3000 50 
+F30 "r_strain_10_-" I R 6600 3100 50 
+F31 "strain_gauge_vout_10" O L 5050 3000 50 
+F32 "r_strain_11_+" O R 6600 3200 50 
+F33 "r_strain_11_-" I R 6600 3300 50 
+F34 "strain_gauge_vout_11" O L 5050 3200 50 
+F35 "r_strain_12_+" O R 6600 3400 50 
+F36 "r_strain_12_-" I R 6600 3500 50 
+F37 "strain_gauge_vout_12" O L 5050 3400 50 
+$EndSheet
+Text Label 5000 900  2    50   ~ 0
+strain_gauge_to_adc_1
+Text Label 3650 2500 0    50   ~ 0
+strain_gauge_to_adc_1
+$Comp
+L Formula:MM_F_RA_08 J102
+U 1 1 5DDA2419
+P 6850 1200
+F 0 "J102" H 6908 1747 60  0000 C CNN
+F 1 "MM_F_RA_08" H 6908 1641 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_8" H 6750 1500 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-8" H 6850 1600 60  0001 C CNN
+F 4 "TE" H 6950 2600 60  0001 C CNN "MFN"
+F 5 "338070-8" H 7050 2700 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/usa-en/product-338070-8.html" H 6950 1700 60  0001 C CNN "PurchasingLink"
+	1    6850 1200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 1600 10700 1600
+Wire Wire Line
+	10500 1900 10700 1900
+$Comp
+L Formula:R_120_DNP R?
+U 1 1 5DE5D920
+P 10700 1750
+F 0 "R?" H 10770 1796 50  0000 L CNN
+F 1 "R_120_DNP" H 10770 1705 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 9500 1900 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 9500 2200 50  0001 L CNN
+F 4 "DK" H 10700 1750 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 9500 2000 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 9500 2100 60  0001 L CNN "PurchasingLink"
+	1    10700 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 5DD74F4D
-P 6100 800
-F 0 "#PWR?" H 6100 650 50  0001 C CNN
-F 1 "VCC" H 6117 973 50  0000 C CNN
-F 2 "" H 6100 800 50  0001 C CNN
-F 3 "" H 6100 800 50  0001 C CNN
-	1    6100 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DD75B59
-P 6000 1700
-F 0 "#PWR?" H 6000 1450 50  0001 C CNN
-F 1 "GND" H 6005 1527 50  0000 C CNN
-F 2 "" H 6000 1700 50  0001 C CNN
-F 3 "" H 6000 1700 50  0001 C CNN
-	1    6000 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Formula:R_120 R?
-U 1 1 5DD7D148
-P 5600 1000
-F 0 "R?" V 5393 1000 50  0001 C CNN
-F 1 "R_120" V 5485 1000 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 4400 1150 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 4400 1450 50  0001 L CNN
-F 4 "DK" H 5600 1000 60  0001 C CNN "MFN"
-F 5 "667-ERJ-6ENF1200V" H 4400 1250 60  0001 L CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 4400 1350 60  0001 L CNN "PurchasingLink"
-	1    5600 1000
-	0    1    1    0   
-$EndComp
+Connection ~ 10700 1600
 Wire Wire Line
-	5750 1000 5900 1000
+	10700 1600 10850 1600
+Connection ~ 10700 1900
 Wire Wire Line
-	5450 1000 5450 700 
+	10700 1900 10850 1900
 Wire Wire Line
-	5450 700  4850 700 
-Wire Wire Line
-	4850 700  4850 950 
-Connection ~ 4850 950 
-Wire Wire Line
-	4850 950  4950 950 
-$Comp
-L Formula:R_120 R?
-U 1 1 5DD81FB5
-P 5600 1200
-F 0 "R?" V 5393 1200 50  0001 C CNN
-F 1 "R_120" V 5485 1200 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 4400 1350 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 4400 1650 50  0001 L CNN
-F 4 "DK" H 5600 1200 60  0001 C CNN "MFN"
-F 5 "667-ERJ-6ENF1200V" H 4400 1450 60  0001 L CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 4400 1550 60  0001 L CNN "PurchasingLink"
-	1    5600 1200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5250 1250 5250 1350
-Connection ~ 5250 1250
-Wire Wire Line
-	4850 1250 4850 1600
-Wire Wire Line
-	4850 1600 5450 1600
-Wire Wire Line
-	5450 1600 5450 1200
-Connection ~ 4850 1250
-Wire Wire Line
-	4850 1250 4950 1250
-Wire Wire Line
-	5750 1200 5850 1200
-$Comp
-L Formula:R_4.99K R?
-U 1 1 5DD8DA66
-P 5850 1450
-F 0 "R?" H 5920 1632 50  0001 L CNN
-F 1 "R_4.99K" H 5920 1450 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5650 1400 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 5750 1500 50  0001 C CNN
-F 4 "RNCP0805FTD4K99CT-ND " H 5920 1450 50  0001 L CNN "MPN"
-F 5 "DK" H 5920 1359 50  0001 L CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" H 5920 1268 50  0001 L CNN "PurchasingLink"
-	1    5850 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5850 1300 5850 1200
-Connection ~ 5850 1200
-Wire Wire Line
-	5850 1200 5900 1200
-Wire Wire Line
-	5850 1600 5850 1700
-Wire Wire Line
-	5850 1700 6000 1700
-Wire Wire Line
-	6100 1700 6000 1700
-Wire Wire Line
-	6100 1400 6100 1700
-Connection ~ 6000 1700
+	5000 900  5050 900 
 $EndSCHEMATC

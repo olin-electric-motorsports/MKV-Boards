@@ -1,0 +1,374 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 4300 2450 0    89   ~ 0
+Strain Gauge Circuit
+Connection ~ 5400 3800
+Wire Wire Line
+	5500 3500 5500 3800
+Wire Wire Line
+	5500 3800 5400 3800
+Wire Wire Line
+	5250 3800 5400 3800
+Wire Wire Line
+	5250 3700 5250 3800
+Wire Wire Line
+	5250 3300 5300 3300
+Connection ~ 5250 3300
+Wire Wire Line
+	5250 3400 5250 3300
+$Comp
+L Formula:R_4.99K R?
+U 1 1 5DE68332
+P 5250 3550
+AR Path="/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE63AE5/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE73B41/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE75D90/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE75FAE/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE761FC/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7647B/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE76AB9/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE76CAC/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE77004/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE77316/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7755D/5DE68332" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7788B/5DE68332" Ref="R?"  Part="1" 
+F 0 "R?" H 5320 3732 50  0001 L CNN
+F 1 "R_4.99K" H 5320 3550 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 5050 3500 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 5150 3600 50  0001 C CNN
+F 4 "RNCP0805FTD4K99CT-ND " H 5320 3550 50  0001 L CNN "MPN"
+F 5 "DK" H 5320 3459 50  0001 L CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" H 5320 3368 50  0001 L CNN "PurchasingLink"
+	1    5250 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3300 5250 3300
+Wire Wire Line
+	4250 3350 4350 3350
+Connection ~ 4250 3350
+Wire Wire Line
+	4850 3700 4850 3300
+Wire Wire Line
+	4250 3700 4850 3700
+Wire Wire Line
+	4250 3350 4250 3700
+Connection ~ 4650 3350
+Wire Wire Line
+	4650 3350 4650 3450
+$Comp
+L Formula:R_120 R?
+U 1 1 5DE68343
+P 5000 3300
+AR Path="/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE63AE5/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE73B41/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE75D90/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE75FAE/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE761FC/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7647B/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE76AB9/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE76CAC/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE77004/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE77316/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7755D/5DE68343" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7788B/5DE68343" Ref="R?"  Part="1" 
+F 0 "R?" V 4793 3300 50  0001 C CNN
+F 1 "R_120" V 4885 3300 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3800 3450 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3800 3750 50  0001 L CNN
+F 4 "DK" H 5000 3300 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 3800 3550 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 3800 3650 60  0001 L CNN "PurchasingLink"
+	1    5000 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 3050 4350 3050
+Connection ~ 4250 3050
+Wire Wire Line
+	4250 2800 4250 3050
+Wire Wire Line
+	4850 2800 4250 2800
+Wire Wire Line
+	4850 3100 4850 2800
+Wire Wire Line
+	5150 3100 5300 3100
+$Comp
+L Formula:R_120 R?
+U 1 1 5DE68352
+P 5000 3100
+AR Path="/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE63AE5/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE73B41/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE75D90/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE75FAE/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE761FC/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7647B/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE76AB9/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE76CAC/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE77004/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE77316/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7755D/5DE68352" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7788B/5DE68352" Ref="R?"  Part="1" 
+F 0 "R?" V 4793 3100 50  0001 C CNN
+F 1 "R_120" V 4885 3100 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3800 3250 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3800 3550 50  0001 L CNN
+F 4 "DK" H 5000 3100 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 3800 3350 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 3800 3450 60  0001 L CNN "PurchasingLink"
+	1    5000 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE68358
+P 5400 3800
+AR Path="/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE63AE5/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE73B41/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE75D90/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE75FAE/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE761FC/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE7647B/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE76AB9/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE76CAC/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE77004/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE77316/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE7755D/5DE68358" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE7788B/5DE68358" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5400 3550 50  0001 C CNN
+F 1 "GND" H 5405 3627 50  0000 C CNN
+F 2 "" H 5400 3800 50  0001 C CNN
+F 3 "" H 5400 3800 50  0001 C CNN
+	1    5400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DE6835E
+P 5500 2900
+AR Path="/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE63AE5/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE73B41/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE75D90/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE75FAE/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE761FC/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE7647B/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE76AB9/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE76CAC/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE77004/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE77316/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE7755D/5DE6835E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE7788B/5DE6835E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5500 2750 50  0001 C CNN
+F 1 "VCC" H 5517 3073 50  0000 C CNN
+F 2 "" H 5500 2900 50  0001 C CNN
+F 3 "" H 5500 2900 50  0001 C CNN
+	1    5500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Formula:MCP6001T-I-LT U?
+U 1 1 5DE68367
+P 5600 3200
+AR Path="/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE63AE5/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE73B41/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE75D90/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE75FAE/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE761FC/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE7647B/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE76AB9/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE76CAC/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE77004/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE77316/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE7755D/5DE68367" Ref="U?"  Part="1" 
+AR Path="/5DD64290/5DE7788B/5DE68367" Ref="U?"  Part="1" 
+F 0 "U?" H 5944 3167 50  0001 L CNN
+F 1 "MCP6001T-I-LT" H 5629 3037 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 5500 3300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5600 3400 50  0001 C CNN
+F 4 "DK" H 5700 3500 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 5800 3600 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 5900 3700 60  0001 C CNN "PurchasingLink"
+	1    5600 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3050 4650 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5DE6836E
+P 4650 3450
+AR Path="/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE63AE5/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE73B41/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE75D90/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE75FAE/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE761FC/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE7647B/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE76AB9/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE76CAC/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE77004/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE77316/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE7755D/5DE6836E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE7788B/5DE6836E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 3200 50  0001 C CNN
+F 1 "GND" H 4655 3277 50  0000 C CNN
+F 2 "" H 4650 3450 50  0001 C CNN
+F 3 "" H 4650 3450 50  0001 C CNN
+	1    4650 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3350 4250 3350
+Wire Wire Line
+	4150 3050 4250 3050
+$Comp
+L Formula:R_120 R?
+U 1 1 5DE68379
+P 4500 3350
+AR Path="/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE63AE5/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE73B41/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE75D90/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE75FAE/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE761FC/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7647B/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE76AB9/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE76CAC/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE77004/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE77316/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7755D/5DE68379" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7788B/5DE68379" Ref="R?"  Part="1" 
+F 0 "R?" V 4293 3350 50  0001 C CNN
+F 1 "R_120" V 4385 3350 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3300 3500 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3300 3800 50  0001 L CNN
+F 4 "DK" H 4500 3350 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 3300 3600 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 3300 3700 60  0001 L CNN "PurchasingLink"
+	1    4500 3350
+	0    1    1    0   
+$EndComp
+Connection ~ 3750 3200
+Wire Wire Line
+	3750 3350 3850 3350
+Wire Wire Line
+	3750 3200 3750 3350
+Wire Wire Line
+	3750 3050 3850 3050
+Wire Wire Line
+	3750 3200 3750 3050
+$Comp
+L Formula:R_120 R?
+U 1 1 5DE68387
+P 4000 3350
+AR Path="/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE63AE5/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE73B41/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE75D90/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE75FAE/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE761FC/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7647B/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE76AB9/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE76CAC/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE77004/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE77316/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7755D/5DE68387" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7788B/5DE68387" Ref="R?"  Part="1" 
+F 0 "R?" V 3793 3350 50  0001 C CNN
+F 1 "R_120" V 3885 3350 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 2800 3500 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 2800 3800 50  0001 L CNN
+F 4 "DK" H 4000 3350 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 2800 3600 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 2800 3700 60  0001 L CNN "PurchasingLink"
+	1    4000 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Formula:R_120 R?
+U 1 1 5DE68390
+P 4000 3050
+AR Path="/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE63AE5/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE73B41/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE75D90/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE75FAE/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE761FC/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7647B/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE76AB9/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE76CAC/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE77004/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE77316/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7755D/5DE68390" Ref="R?"  Part="1" 
+AR Path="/5DD64290/5DE7788B/5DE68390" Ref="R?"  Part="1" 
+F 0 "R?" V 3793 3050 50  0001 C CNN
+F 1 "R_120" V 3885 3050 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 2800 3200 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 2800 3500 50  0001 L CNN
+F 4 "DK" H 4000 3050 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 2800 3300 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 2800 3400 60  0001 L CNN "PurchasingLink"
+	1    4000 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DE68396
+P 3750 3200
+AR Path="/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE63AE5/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE73B41/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE75D90/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE75FAE/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE761FC/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE7647B/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE76AB9/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE76CAC/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE77004/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE77316/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE7755D/5DE68396" Ref="#PWR?"  Part="1" 
+AR Path="/5DD64290/5DE7788B/5DE68396" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3750 3050 50  0001 C CNN
+F 1 "VCC" V 3768 3327 50  0000 L CNN
+F 2 "" H 3750 3200 50  0001 C CNN
+F 3 "" H 3750 3200 50  0001 C CNN
+	1    3750 3200
+	0    -1   -1   0   
+$EndComp
+Text HLabel 4350 3050 1    50   Output ~ 0
+r_strain_+
+Text HLabel 4650 3050 1    50   Input ~ 0
+r_strain_-
+Text HLabel 5900 3200 2    50   Output ~ 0
+strain_gauge_vout
+$EndSCHEMATC
