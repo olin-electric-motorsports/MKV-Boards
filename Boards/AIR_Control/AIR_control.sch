@@ -500,11 +500,11 @@ Text Label 5350 4450 0    50   ~ 0
 PrechargeCTL
 Text Label 5350 5750 0    50   ~ 0
 AIR+LSD
-Text Label 5350 4550 0    50   ~ 0
-SS_HVD
-Text Label 5350 5850 0    50   ~ 0
-SS_IMD
 Text Label 5350 4950 0    50   ~ 0
+SS_HVD
+Text Label 5350 4650 0    50   ~ 0
+SS_IMD
+Text Label 5350 5850 0    50   ~ 0
 SS_BMS
 Text Label 5350 5350 0    50   ~ 0
 CANTX
@@ -2112,7 +2112,7 @@ Wire Wire Line
 Connection ~ 8000 1700
 Text Label 8100 1200 0    50   ~ 0
 Air-Coil-
-Text Label 5350 4850 0    50   ~ 0
+Text Label 5350 4550 0    50   ~ 0
 SS_TSMS
 $Comp
 L formula:R_1K R33
@@ -2298,20 +2298,6 @@ F 4 "DK" H 3500 1450 60  0001 C CNN "MFN"
 F 5 "CRS0805-FX-1002ELFCT-ND" H 3500 1450 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3980 1850 60  0001 C CNN "PurchasingLink"
 	1    3500 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MicroFit_RA_V_2 J2
-U 1 1 5DA98DF4
-P 900 5000
-F 0 "J2" H 900 4850 50  0000 C CNN
-F 1 "MicroFit_RA_V_2" H 958 5184 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_V_2" H 850 5200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" H 850 5200 50  0001 C CNN
-F 4 "MFN" H 1000 5250 50  0001 C CNN "DK"
-F 5 "WM1865-ND" H 1100 5350 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 900 5150 50  0001 C CNN "PurchasingLink"
-	1    900  5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2500,7 +2486,7 @@ Wire Wire Line
 	1800 5100 1800 4950
 Wire Wire Line
 	1150 4950 1800 4950
-Text Label 5350 4650 0    50   ~ 0
+Text Label 5350 4850 0    50   ~ 0
 SS_HVDConn
 NoConn ~ 5350 5250
 NoConn ~ 5350 6150
@@ -2552,4 +2538,18 @@ $EndComp
 Wire Wire Line
 	10400 4150 10600 4150
 Connection ~ 10400 4150
+$Comp
+L formula:MicroFit_V_2 J2
+U 1 1 5DE9EAE3
+P 900 5000
+F 0 "J2" H 700 5000 50  0000 C CNN
+F 1 "MicroFit_V_2" H 958 5184 50  0000 C CNN
+F 2 "footprints:MicroFit_V_2" H 850 5200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450225_sd.pdf" H 850 5200 50  0001 C CNN
+F 4 "MFN" H 1000 5250 50  0001 C CNN "DK"
+F 5 "WM10660-ND" H 1100 5350 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180" H 900 5150 50  0001 C CNN "PurchasingLink"
+	1    900  5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
