@@ -280,20 +280,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1950 7150 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Chassis_Strain-rescue:R_200-formula R101
-U 1 1 5C754D87
-P 1550 6250
-F 0 "R101" H 1620 6296 50  0000 L CNN
-F 1 "R_200" H 1620 6205 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1480 6250 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1630 6250 50  0001 C CNN
-F 4 "DK" H 1550 6250 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 1550 6250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2030 6650 60  0001 C CNN "PurchasingLink"
-	1    1550 6250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0103
 U 1 1 5C754D8E
 P 1550 6950
@@ -944,11 +930,6 @@ Wire Wire Line
 Connection ~ 800  6100
 Wire Wire Line
 	800  6100 800  6250
-Wire Wire Line
-	1300 6100 1550 6100
-Connection ~ 1550 6100
-Wire Wire Line
-	1550 6100 1950 6100
 Connection ~ 1950 6100
 Wire Wire Line
 	1950 6100 2250 6100
@@ -1203,4 +1184,23 @@ Text Label 7350 4700 2    50   ~ 0
 mux_select_S1
 Text Label 7350 4800 2    50   ~ 0
 mux_select_S2
+Wire Wire Line
+	1300 6100 1550 6100
+$Comp
+L Formula:R_1K R101
+U 1 1 5DE75BBA
+P 1550 6250
+F 0 "R101" H 1620 6296 50  0000 L CNN
+F 1 "R_1K" H 1620 6205 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1480 6250 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1630 6250 50  0001 C CNN
+F 4 "DK" H 1550 6250 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 1550 6250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 2030 6650 60  0001 C CNN "PurchasingLink"
+	1    1550 6250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 6100
+Wire Wire Line
+	1550 6100 1950 6100
 $EndSCHEMATC

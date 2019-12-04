@@ -1189,4 +1189,18 @@ Text Label 8200 5200 0    50   ~ 0
 sg_to_mux_Y6
 Text Label 8200 5300 0    50   ~ 0
 sg_to_mux_Y7
+Text Label 3650 2300 0    50   ~ 0
+mux_enable_input
+Text Label 3650 2400 0    50   ~ 0
+mux_select_S0
+Text Label 3650 2500 0    50   ~ 0
+mux_select_S1
+Text Label 3650 2600 0    50   ~ 0
+mux_select_S2
+Text Label 7350 4600 2    50   ~ 0
+mux_select_S0
+Text Label 7350 4700 2    50   ~ 0
+mux_select_S1
+Text Label 7350 4800 2    50   ~ 0
+mux_select_S2
 $EndSCHEMATC
