@@ -1421,10 +1421,10 @@ Wire Wire Line
 Text Label 3650 2300 0    50   ~ 0
 ALERT
 $Comp
-L formula:R_120_DNP R?
+L formula:R_120_DNP R7
 U 1 1 5DDB12E1
 P 10350 3000
-F 0 "R?" H 10420 3046 50  0000 L CNN
+F 0 "R7" H 10420 3046 50  0000 L CNN
 F 1 "R_120_DNP" H 10420 2955 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 9150 3150 50  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 9150 3450 50  0001 L CNN
@@ -1435,10 +1435,10 @@ F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R2
 U 1 1 5DDB7271
 P 1025 4575
-F 0 "R?" H 955 4529 50  0000 R CNN
+F 0 "R2" H 955 4529 50  0000 R CNN
 F 1 "R_200" H 955 4620 50  0000 R CNN
 F 2 "footprints:R_0805_OEM" H 955 4575 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1105 4575 50  0001 C CNN
@@ -1449,10 +1449,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 1505 49
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D1
 U 1 1 5DDB85FD
 P 1025 4875
-F 0 "D?" V 1064 4758 50  0000 R CNN
+F 0 "D1" V 1064 4758 50  0000 R CNN
 F 1 "LED_0805" V 973 4758 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 925 4875 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1025 4975 50  0001 C CNN
@@ -1463,10 +1463,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1425 5375 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR027
 U 1 1 5DDBA13F
 P 1025 5025
-F 0 "#PWR?" H 1025 4775 50  0001 C CNN
+F 0 "#PWR027" H 1025 4775 50  0001 C CNN
 F 1 "GND" H 1030 4852 50  0000 C CNN
 F 2 "" H 1025 5025 50  0001 C CNN
 F 3 "" H 1025 5025 50  0001 C CNN
@@ -1484,10 +1484,10 @@ Connection ~ 10350 3150
 Wire Wire Line
 	10350 3150 10525 3150
 $Comp
-L formula:R_200 R?
+L formula:R_200 R5
 U 1 1 5DE131AA
 P 1625 4550
-F 0 "R?" H 1555 4504 50  0000 R CNN
+F 0 "R5" H 1555 4504 50  0000 R CNN
 F 1 "R_200" H 1555 4595 50  0000 R CNN
 F 2 "footprints:R_0805_OEM" H 1555 4550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1705 4550 50  0001 C CNN
@@ -1498,10 +1498,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2105 49
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D2
 U 1 1 5DE1380F
 P 1625 4850
-F 0 "D?" V 1664 4733 50  0000 R CNN
+F 0 "D2" V 1664 4733 50  0000 R CNN
 F 1 "LED_0805" V 1573 4733 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 1525 4850 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1625 4950 50  0001 C CNN
@@ -1512,10 +1512,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2025 5350 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR031
 U 1 1 5DE13F3D
 P 1625 5000
-F 0 "#PWR?" H 1625 4750 50  0001 C CNN
+F 0 "#PWR031" H 1625 4750 50  0001 C CNN
 F 1 "GND" H 1630 4827 50  0000 C CNN
 F 2 "" H 1625 5000 50  0001 C CNN
 F 3 "" H 1625 5000 50  0001 C CNN
@@ -1523,10 +1523,10 @@ F 3 "" H 1625 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D3
 U 1 1 5DE14996
 P 2200 4825
-F 0 "D?" V 2239 4708 50  0000 R CNN
+F 0 "D3" V 2239 4708 50  0000 R CNN
 F 1 "LED_0805" V 2148 4708 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 2100 4825 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2200 4925 50  0001 C CNN
@@ -1537,10 +1537,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2600 5325 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R6
 U 1 1 5DE150E7
 P 2200 4525
-F 0 "R?" H 2130 4479 50  0000 R CNN
+F 0 "R6" H 2130 4479 50  0000 R CNN
 F 1 "R_200" H 2130 4570 50  0000 R CNN
 F 2 "footprints:R_0805_OEM" H 2130 4525 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2280 4525 50  0001 C CNN
@@ -1551,10 +1551,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2680 49
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR032
 U 1 1 5DE1E5BD
 P 2200 4975
-F 0 "#PWR?" H 2200 4725 50  0001 C CNN
+F 0 "#PWR032" H 2200 4725 50  0001 C CNN
 F 1 "GND" H 2205 4802 50  0000 C CNN
 F 2 "" H 2200 4975 50  0001 C CNN
 F 3 "" H 2200 4975 50  0001 C CNN

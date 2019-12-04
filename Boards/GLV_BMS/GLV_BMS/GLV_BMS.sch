@@ -280,20 +280,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1950 7150 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_200 R101
-U 1 1 5C754D87
-P 1550 6250
-F 0 "R101" H 1620 6296 50  0000 L CNN
-F 1 "R_200" H 1620 6205 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1480 6250 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1630 6250 50  0001 C CNN
-F 4 "DK" H 1550 6250 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 1550 6250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2030 6650 60  0001 C CNN "PurchasingLink"
-	1    1550 6250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0103
 U 1 1 5C754D8E
 P 1550 6950
@@ -818,11 +804,6 @@ Wire Wire Line
 Connection ~ 800  6100
 Wire Wire Line
 	800  6100 800  6250
-Wire Wire Line
-	1300 6100 1550 6100
-Connection ~ 1550 6100
-Wire Wire Line
-	1550 6100 1950 6100
 Connection ~ 1950 6100
 Wire Wire Line
 	1950 6100 2250 6100
@@ -1182,9 +1163,7 @@ MISO_2
 Text Label 3650 1700 0    50   ~ 0
 SCK_2
 Text Label 7925 1200 0    50   ~ 0
-CON
-Wire Notes Line
-	8700 1675 8700 3675
+CS_2
 Wire Wire Line
 	10075 3100 10175 3100
 Wire Wire Line
@@ -1292,19 +1271,6 @@ Power Flags\n
 Wire Notes Line
 	5850 3675 5850 550 
 Wire Notes Line
-	5850 3675 10875 3675
-$Comp
-L formula:ATmega328P-AU U3
-U 1 1 5DCCF6E4
-P 7325 2200
-F 0 "U3" H 6525 3750 50  0000 C CNN
-F 1 "ATmega328P-AU" H 6750 3650 50  0000 C CNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 7125 3750 50  0001 C CIN
-F 3 "" H 7325 2200 50  0001 C CNN
-	1    7325 2200
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
 	9300 5425 9300 6325
 Wire Notes Line
 	9300 6325 11050 6325
@@ -1313,7 +1279,6 @@ Wire Notes Line
 Text Label 3650 1600 0    50   ~ 0
 CON
 NoConn ~ 3650 1500
-NoConn ~ 3650 2400
 NoConn ~ 3650 2600
 NoConn ~ 3650 3300
 NoConn ~ 3650 3400
@@ -1347,79 +1312,13 @@ Wire Notes Line
 	575  5450 6850 5450
 Wire Notes Line
 	6850 7725 6850 5450
-NoConn ~ 3650 1900
 NoConn ~ 3650 2000
-$Comp
-L formula:MM_F_RA_20 J3
-U 1 1 5DFBE61C
-P 7625 5250
-F 0 "J3" H 7583 6597 60  0000 C CNN
-F 1 "MM_F_RA_20" H 7583 6491 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_20" H 7425 6350 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 7525 6450 60  0001 C CNN
-F 4 "TE" H 7725 6650 60  0001 C CNN "MFN"
-F 5 "2-338070-0" H 7825 6750 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 7625 6550 60  0001 C CNN "PurchasingLink"
-	1    7625 5250
-	1    0    0    -1  
-$EndComp
 Text Label 7775 4350 0    50   ~ 0
 CAN_HI
 Text Label 7775 4450 0    50   ~ 0
 CAN_LO
-Text Label 7775 4550 0    50   ~ 0
-SDA
-Text Label 7775 4650 0    50   ~ 0
-SCL
-Wire Wire Line
-	7775 4150 7975 4150
-Wire Wire Line
-	8575 3900 8575 3975
-$Comp
-L power:+12V #PWR023
-U 1 1 5DFF48CD
-P 8250 4250
-F 0 "#PWR023" H 8250 4100 50  0001 C CNN
-F 1 "+12V" H 8265 4423 50  0000 C CNN
-F 2 "" H 8250 4250 50  0001 C CNN
-F 3 "" H 8250 4250 50  0001 C CNN
-	1    8250 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 5DFF5422
-P 8575 3975
-F 0 "#PWR024" H 8575 3725 50  0001 C CNN
-F 1 "GND" H 8580 3802 50  0000 C CNN
-F 2 "" H 8575 3975 50  0001 C CNN
-F 3 "" H 8575 3975 50  0001 C CNN
-	1    8575 3975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7975 3900 7975 4150
-Wire Wire Line
-	7975 3900 8575 3900
-Text Label 7775 4750 0    50   ~ 0
-ALERT
-NoConn ~ 7775 4850
-NoConn ~ 7775 4950
-NoConn ~ 7775 5050
-NoConn ~ 7775 5150
-NoConn ~ 7775 5250
-NoConn ~ 7775 5350
-NoConn ~ 7775 5450
-NoConn ~ 7775 5550
-NoConn ~ 7775 5650
-NoConn ~ 7775 5750
-NoConn ~ 7775 5850
-NoConn ~ 7775 5950
-NoConn ~ 7775 6050
-Wire Wire Line
-	7775 4250 8250 4250
-Text Label 3650 2300 0    50   ~ 0
-ALERT
+Text Label 3650 2400 0    50   ~ 0
+ALERT_COOLING
 $Comp
 L formula:R_120_DNP R7
 U 1 1 5DDB12E1
@@ -1587,4 +1486,135 @@ Wire Notes Line
 	2750 4225 2750 5450
 Text Notes 1150 5375 0    94   ~ 0
 Debugging LEDs
+$Comp
+L formula:ATmega328P-AU U3
+U 1 1 5DCCF6E4
+P 7325 2200
+F 0 "U3" H 6525 3750 50  0000 C CNN
+F 1 "ATmega328P-AU" H 6750 3650 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 7125 3750 50  0001 C CIN
+F 3 "" H 7325 2200 50  0001 C CNN
+	1    7325 2200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5850 3675 10875 3675
+Wire Notes Line
+	8700 1675 8700 3675
+$Comp
+L power:GND #PWR?
+U 1 1 5DEB0A63
+P 8250 4250
+F 0 "#PWR?" H 8250 4000 50  0001 C CNN
+F 1 "GND" H 8255 4077 50  0000 C CNN
+F 2 "" H 8250 4250 50  0001 C CNN
+F 3 "" H 8250 4250 50  0001 C CNN
+	1    8250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5DEB13A2
+P 8250 4150
+F 0 "#PWR?" H 8250 4000 50  0001 C CNN
+F 1 "+12V" H 8265 4323 50  0000 C CNN
+F 2 "" H 8250 4150 50  0001 C CNN
+F 3 "" H 8250 4150 50  0001 C CNN
+	1    8250 4150
+	1    0    0    -1  
+$EndComp
+Text Label 7950 4150 0    50   ~ 0
+12V
+Wire Wire Line
+	7775 4250 8250 4250
+Wire Wire Line
+	7775 4150 8250 4150
+$Comp
+L formula:MM_F_RA_20 J3
+U 1 1 5DFBE61C
+P 7625 5250
+F 0 "J3" H 7583 6597 60  0000 C CNN
+F 1 "MM_F_RA_20" H 7583 6491 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_20" H 7425 6350 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 7525 6450 60  0001 C CNN
+F 4 "TE" H 7725 6650 60  0001 C CNN "MFN"
+F 5 "2-338070-0" H 7825 6750 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 7625 6550 60  0001 C CNN "PurchasingLink"
+	1    7625 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DEBBD8A
+P 8000 5450
+F 0 "#PWR?" H 8000 5200 50  0001 C CNN
+F 1 "GND" H 8005 5277 50  0000 C CNN
+F 2 "" H 8000 5450 50  0001 C CNN
+F 3 "" H 8000 5450 50  0001 C CNN
+	1    8000 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 5450 7775 5450
+Wire Wire Line
+	7775 5450 7775 5550
+Connection ~ 7775 5450
+Connection ~ 7775 5550
+Wire Wire Line
+	7775 5550 7775 5650
+Connection ~ 7775 5650
+Wire Wire Line
+	7775 5650 7775 5750
+Connection ~ 7775 5750
+Wire Wire Line
+	7775 5750 7775 5850
+Connection ~ 7775 5850
+Wire Wire Line
+	7775 5850 7775 5950
+Connection ~ 7775 5950
+Wire Wire Line
+	7775 5950 7775 6050
+Text Label 7775 5350 0    50   ~ 0
+ALERT_COOLING
+Text Label 7775 5250 0    50   ~ 0
+ALERT_GLV
+Text Label 7775 4950 0    50   ~ 0
+MOSI_2
+Text Label 7775 4850 0    50   ~ 0
+MISO_2
+Text Label 7775 4750 0    50   ~ 0
+SCL
+Text Label 7775 5150 0    50   ~ 0
+CS_GLV
+Text Label 7775 5050 0    50   ~ 0
+SCK_2
+Text Label 7775 4550 0    50   ~ 0
+5V_GLV
+Text Label 7775 4650 0    50   ~ 0
+SDA
+Text Label 6400 6125 0    50   ~ 0
+5V_GLV
+Text Label 3650 2300 0    50   ~ 0
+ALERT_GLV
+Text Label 3650 1900 0    50   ~ 0
+CS_GLV
+Wire Wire Line
+	1300 6100 1550 6100
+$Comp
+L formula:R_1K R101
+U 1 1 5DF01584
+P 1550 6250
+F 0 "R101" H 1620 6296 50  0000 L CNN
+F 1 "R_1K" H 1620 6205 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1480 6250 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1630 6250 50  0001 C CNN
+F 4 "DK" H 1550 6250 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 1550 6250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 2030 6650 60  0001 C CNN "PurchasingLink"
+	1    1550 6250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 6100
+Wire Wire Line
+	1550 6100 1950 6100
 $EndSCHEMATC
