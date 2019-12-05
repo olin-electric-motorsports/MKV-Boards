@@ -1340,10 +1340,10 @@ Wire Wire Line
 Wire Wire Line
 	6700 6820 6850 6820
 $Comp
-L formula:R_120_DNP R?
+L formula:R_120_DNP R2
 U 1 1 5DF2A95B
 P 6850 6670
-F 0 "R?" H 6920 6716 50  0000 L CNN
+F 0 "R2" H 6920 6716 50  0000 L CNN
 F 1 "R_120_DNP" H 6920 6625 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 5650 6820 50  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 5650 7120 50  0001 L CNN
@@ -1360,10 +1360,10 @@ Connection ~ 6850 6820
 Wire Wire Line
 	6850 6820 7025 6820
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5DEE3629
 P 1150 5270
-F 0 "#PWR?" H 1150 5020 50  0001 C CNN
+F 0 "#PWR0101" H 1150 5020 50  0001 C CNN
 F 1 "GND" H 1155 5097 50  0000 C CNN
 F 2 "" H 1150 5270 50  0001 C CNN
 F 3 "" H 1150 5270 50  0001 C CNN
@@ -1371,10 +1371,10 @@ F 3 "" H 1150 5270 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D1
 U 1 1 5DF3040B
 P 12570 2460
-F 0 "D?" H 12608 2343 50  0000 R CNN
+F 0 "D1" H 12608 2343 50  0000 R CNN
 F 1 "LED_0805" H 12720 2560 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 12470 2460 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12570 2560 50  0001 C CNN
@@ -1385,10 +1385,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 12970 2960 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:R_1K R?
+L formula:R_1K R4
 U 1 1 5DF3270E
 P 12270 2460
-F 0 "R?" V 12370 2410 50  0000 L CNN
+F 0 "R4" V 12370 2410 50  0000 L CNN
 F 1 "R_1K" V 12170 2360 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12200 2460 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 12350 2460 50  0001 C CNN
@@ -1399,10 +1399,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 12750 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D2
 U 1 1 5DF3D09B
 P 12570 2860
-F 0 "D?" H 12608 2743 50  0000 R CNN
+F 0 "D2" H 12608 2743 50  0000 R CNN
 F 1 "LED_0805" H 12720 2960 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 12470 2860 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12570 2960 50  0001 C CNN
@@ -1413,10 +1413,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 12970 3360 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:R_1K R?
+L formula:R_1K R5
 U 1 1 5DF3D0A8
 P 12270 2860
-F 0 "R?" V 12370 2810 50  0000 L CNN
+F 0 "R5" V 12370 2810 50  0000 L CNN
 F 1 "R_1K" V 12170 2760 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12200 2860 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 12350 2860 50  0001 C CNN
@@ -1427,10 +1427,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 12750 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D3
 U 1 1 5DF4801D
 P 12580 3230
-F 0 "D?" H 12618 3113 50  0000 R CNN
+F 0 "D3" H 12618 3113 50  0000 R CNN
 F 1 "LED_0805" H 12730 3330 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 12480 3230 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12580 3330 50  0001 C CNN
@@ -1441,10 +1441,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 12980 3730 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:R_1K R?
+L formula:R_1K R6
 U 1 1 5DF48026
 P 12280 3230
-F 0 "R?" V 12380 3180 50  0000 L CNN
+F 0 "R6" V 12380 3180 50  0000 L CNN
 F 1 "R_1K" V 12180 3130 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12210 3230 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 12360 3230 50  0001 C CNN
@@ -1455,10 +1455,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 12760 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D4
 U 1 1 5DF4C2F5
 P 12580 3600
-F 0 "D?" H 12618 3483 50  0000 R CNN
+F 0 "D4" H 12618 3483 50  0000 R CNN
 F 1 "LED_0805" H 12730 3700 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 12480 3600 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12580 3700 50  0001 C CNN
@@ -1469,10 +1469,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 12980 4100 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:R_1K R?
+L formula:R_1K R7
 U 1 1 5DF4C2FE
 P 12280 3600
-F 0 "R?" V 12380 3550 50  0000 L CNN
+F 0 "R7" V 12380 3550 50  0000 L CNN
 F 1 "R_1K" V 12180 3500 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12210 3600 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 12360 3600 50  0001 C CNN
@@ -1483,10 +1483,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 12760 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D5
 U 1 1 5DF585FD
 P 12580 3960
-F 0 "D?" H 12618 3843 50  0000 R CNN
+F 0 "D5" H 12618 3843 50  0000 R CNN
 F 1 "LED_0805" H 12730 4060 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 12480 3960 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12580 4060 50  0001 C CNN
@@ -1497,10 +1497,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 12980 4460 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:R_1K R?
+L formula:R_1K R8
 U 1 1 5DF58606
 P 12280 3960
-F 0 "R?" V 12380 3910 50  0000 L CNN
+F 0 "R8" V 12380 3910 50  0000 L CNN
 F 1 "R_1K" V 12180 3860 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12210 3960 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 12360 3960 50  0001 C CNN
@@ -1511,10 +1511,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 12760 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D6
 U 1 1 5DF5860F
 P 12580 4360
-F 0 "D?" H 12618 4243 50  0000 R CNN
+F 0 "D6" H 12618 4243 50  0000 R CNN
 F 1 "LED_0805" H 12730 4460 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 12480 4360 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12580 4460 50  0001 C CNN
@@ -1525,10 +1525,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 12980 4860 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:R_1K R?
+L formula:R_1K R9
 U 1 1 5DF58618
 P 12280 4360
-F 0 "R?" V 12380 4310 50  0000 L CNN
+F 0 "R9" V 12380 4310 50  0000 L CNN
 F 1 "R_1K" V 12180 4260 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12210 4360 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 12360 4360 50  0001 C CNN
@@ -1539,10 +1539,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 12760 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D9
 U 1 1 5DF58621
 P 12590 4730
-F 0 "D?" H 12628 4613 50  0000 R CNN
+F 0 "D9" H 12628 4613 50  0000 R CNN
 F 1 "LED_0805" H 12740 4830 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 12490 4730 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12590 4830 50  0001 C CNN
@@ -1553,10 +1553,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 12990 5230 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:R_1K R?
+L formula:R_1K R10
 U 1 1 5DF5862A
 P 12290 4730
-F 0 "R?" V 12390 4680 50  0000 L CNN
+F 0 "R10" V 12390 4680 50  0000 L CNN
 F 1 "R_1K" V 12190 4630 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12220 4730 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 12370 4730 50  0001 C CNN
@@ -1567,10 +1567,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 12770 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D10
 U 1 1 5DF58633
 P 12590 5100
-F 0 "D?" H 12628 4983 50  0000 R CNN
+F 0 "D10" H 12628 4983 50  0000 R CNN
 F 1 "LED_0805" H 12740 5200 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 12490 5100 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12590 5200 50  0001 C CNN
@@ -1581,10 +1581,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 12990 5600 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:R_1K R?
+L formula:R_1K R11
 U 1 1 5DF5863C
 P 12290 5100
-F 0 "R?" V 12390 5050 50  0000 L CNN
+F 0 "R11" V 12390 5050 50  0000 L CNN
 F 1 "R_1K" V 12190 5000 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12220 5100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 12370 5100 50  0001 C CNN
@@ -1595,10 +1595,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 12770 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D11
 U 1 1 5DF677DD
 P 12600 5440
-F 0 "D?" H 12638 5323 50  0000 R CNN
+F 0 "D11" H 12638 5323 50  0000 R CNN
 F 1 "LED_0805" H 12750 5540 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 12500 5440 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12600 5540 50  0001 C CNN
@@ -1609,10 +1609,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 13000 5940 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:R_1K R?
+L formula:R_1K R12
 U 1 1 5DF677E6
 P 12300 5440
-F 0 "R?" V 12400 5390 50  0000 L CNN
+F 0 "R12" V 12400 5390 50  0000 L CNN
 F 1 "R_1K" V 12200 5340 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12230 5440 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 12380 5440 50  0001 C CNN
@@ -1623,10 +1623,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 12780 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D12
 U 1 1 5DF677EF
 P 12610 5810
-F 0 "D?" H 12648 5693 50  0000 R CNN
+F 0 "D12" H 12648 5693 50  0000 R CNN
 F 1 "LED_0805" H 12760 5910 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 12510 5810 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12610 5910 50  0001 C CNN
@@ -1637,10 +1637,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 13010 6310 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:R_1K R?
+L formula:R_1K R13
 U 1 1 5DF677F8
 P 12310 5810
-F 0 "R?" V 12410 5760 50  0000 L CNN
+F 0 "R13" V 12410 5760 50  0000 L CNN
 F 1 "R_1K" V 12210 5710 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12240 5810 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 12390 5810 50  0001 C CNN
@@ -1651,10 +1651,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 12790 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D13
 U 1 1 5DF67801
 P 12610 6180
-F 0 "D?" H 12648 6063 50  0000 R CNN
+F 0 "D13" H 12648 6063 50  0000 R CNN
 F 1 "LED_0805" H 12760 6280 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 12510 6180 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12610 6280 50  0001 C CNN
@@ -1665,10 +1665,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 13010 6680 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:R_1K R?
+L formula:R_1K R14
 U 1 1 5DF6780A
 P 12310 6180
-F 0 "R?" V 12410 6130 50  0000 L CNN
+F 0 "R14" V 12410 6130 50  0000 L CNN
 F 1 "R_1K" V 12210 6080 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 12240 6180 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 12390 6180 50  0001 C CNN
@@ -1686,27 +1686,27 @@ Wire Wire Line
 	12730 3600 12880 3600
 Wire Wire Line
 	12730 3960 12880 3960
-Text Label 3450 6950 0    50   ~ 0
-SS_BSPD
-Text Label 3450 6850 0    50   ~ 0
-SS_GLV_Battery_Fuse
-Text Label 3450 7050 0    50   ~ 0
-SS_Crash_Sensor
 Text Label 3450 7150 0    50   ~ 0
-SS_BOTS
+SS_BSPD
+Text Label 3450 8350 0    50   ~ 0
+SS_GLV_Battery_Fuse
 Text Label 3450 7250 0    50   ~ 0
-SS_ESTOP_Driver
+SS_Crash_Sensor
+Text Label 3450 8450 0    50   ~ 0
+SS_BOTS
 Text Label 3450 7350 0    50   ~ 0
-SS_HVD
+SS_ESTOP_Driver
 Text Label 3450 7450 0    50   ~ 0
-SS_Connector_2_HVD
+SS_HVD
 Text Label 3450 7550 0    50   ~ 0
+SS_Connector_2_HVD
+Text Label 3450 8650 0    50   ~ 0
 SS_Main_Pack_Connector
 Text Label 3450 7750 0    50   ~ 0
 SS_BMS
-Text Label 3450 7850 0    50   ~ 0
+Text Label 3450 8750 0    50   ~ 0
 SS_IMD
-Text Label 3450 8150 0    50   ~ 0
+Text Label 3450 7850 0    50   ~ 0
 SS_TSMS
 Wire Wire Line
 	12880 2460 12880 2860
@@ -1754,9 +1754,9 @@ Wire Wire Line
 Wire Wire Line
 	9170 3170 9430 3170
 Connection ~ 9170 3170
-Text Label 3450 8650 0    50   ~ 0
+Text Label 3450 9250 0    50   ~ 0
 SS_GLVMS_Pin
-Text Label 3450 8750 0    50   ~ 0
+Text Label 3450 9350 0    50   ~ 0
 SS_ESTOP_Pin
 Text Label 12120 2460 2    50   ~ 0
 SS_GLV_Battery_Fuse
@@ -1781,10 +1781,10 @@ SS_IMD
 Text Label 12120 2860 2    50   ~ 0
 SS_TSMS
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5E119982
 P 12880 6180
-F 0 "#PWR?" H 12880 5930 50  0001 C CNN
+F 0 "#PWR0102" H 12880 5930 50  0001 C CNN
 F 1 "GND" H 12885 6007 50  0000 C CNN
 F 2 "" H 12880 6180 50  0001 C CNN
 F 3 "" H 12880 6180 50  0001 C CNN
@@ -1832,11 +1832,7 @@ Connection ~ 1150 5170
 Wire Wire Line
 	1150 5170 1150 5270
 NoConn ~ 3450 8250
-NoConn ~ 3450 8350
-NoConn ~ 3450 8450
 NoConn ~ 3450 9150
-NoConn ~ 3450 9250
-NoConn ~ 3450 9350
 $Comp
 L formula:R_1K R101
 U 1 1 5E1597C0
@@ -1851,4 +1847,8 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 6490 9
 	1    6010 9030
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3450 7050
+NoConn ~ 3450 8150
+NoConn ~ 3450 6850
+NoConn ~ 3450 6950
 $EndSCHEMATC
