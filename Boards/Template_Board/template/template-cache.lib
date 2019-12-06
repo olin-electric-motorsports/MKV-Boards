@@ -1,6 +1,27 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# formula_R_1K
+#
+DEF formula_R_1K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula_R_1K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P
@@ -253,15 +274,9 @@ ENDDEF
 #
 DEF template-rescue_C_33uF-formula C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-<<<<<<< HEAD
 F1 "template-rescue_C_33uF-formula" 100 -300 50 H V L CNN
 F2 "footprints:C_1812_OEM" 50 -400 50 H I C CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 0 650 50 H I C CNN
-=======
-F1 "formula_C_33uF" 100 -300 50 H V L CNN
-F2 "footprints:Fuse_1812" 50 -400 50 H I C CNN
-F3 "" 0 650 50 H I C CNN
->>>>>>> 711dde159e7ca73838779415daa606d78ca295f5
 F4 "C4532X7R1C336M250KC" 50 -500 60 H I C CNN "MFN"
 F5 "445-3924-1-ND" 0 350 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431" 250 500 60 H I C CNN "PurchasingLink"
@@ -408,15 +423,9 @@ ENDDEF
 #
 DEF template-rescue_L_100uH-formula L 0 40 Y Y 1 F N
 F0 "L" 0 -50 50 H V C CNN
-<<<<<<< HEAD
 F1 "template-rescue_L_100uH-formula" 0 100 50 H V C CNN
 F2 "formula:L_100uH" -100 -200 50 H I C CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" -100 -150 50 H I C CNN
-=======
-F1 "formula_L_100uH" 0 100 50 H V C CNN
-F2 "footprints:L_100uH_OEM" -100 -200 50 H I C CNN
-F3 "" -100 -150 50 H I C CNN
->>>>>>> 711dde159e7ca73838779415daa606d78ca295f5
 F4 "Digikey" 100 -200 50 H I C CNN "MFN"
 F5 "445-15759-1-ND" 0 250 50 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "Link"
@@ -586,15 +595,9 @@ ENDDEF
 #
 DEF template-rescue_TPS560430YF-formula U 0 40 Y Y 1 F N
 F0 "U" -550 -400 50 H V C CNN
-<<<<<<< HEAD
 F1 "template-rescue_TPS560430YF-formula" 0 400 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" -50 700 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" 0 550 50 H I C CNN
-=======
-F1 "formula_TPS560430YF" 0 400 50 H V C CNN
-F2 "footprints:SOT-23-6_OEM" -50 700 50 H I C CNN
-F3 "" 0 550 50 H I C CNN
->>>>>>> 711dde159e7ca73838779415daa606d78ca295f5
 F4 "TPS560430YFDBVR" -50 -1100 50 H I C CNN "MPN"
 F5 "TPS560430YFDBVR-ND" 0 -1000 50 H I C CNN "MFN"
 F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "Purchasing Link"
