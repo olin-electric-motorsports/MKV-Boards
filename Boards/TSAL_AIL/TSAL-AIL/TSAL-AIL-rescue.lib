@@ -1,28 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_R
+# BU4S11G2-TR-Formula
 #
-DEF Device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# TSAL-AIL-rescue_BU4S11G2-TR-Formula
-#
-DEF TSAL-AIL-rescue_BU4S11G2-TR-Formula U 0 40 Y Y 1 F N
+DEF BU4S11G2-TR-Formula U 0 40 Y Y 1 F N
 F0 "U" 450 150 60 H V C CNN
-F1 "TSAL-AIL-rescue_BU4S11G2-TR-Formula" 450 250 60 H V C CNN
+F1 "BU4S11G2-TR-Formula" 450 250 60 H V C CNN
 F2 "" 100 0 60 H V C CNN
 F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/logic_switch/standard_logic/bu4s11g2-e.pdf" 600 550 60 H V C CNN
 F4 "DK" -350 -500 60 H V C CNN "MFN"
@@ -41,11 +24,11 @@ X VCC 5 0 350 200 D 50 28 1 1 B
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_CPC1025NTR-Formula
+# CPC1025NTR-Formula
 #
-DEF TSAL-AIL-rescue_CPC1025NTR-Formula U 0 40 Y Y 1 F N
+DEF CPC1025NTR-Formula U 0 40 Y Y 1 F N
 F0 "U" -200 200 50 H V L CNN
-F1 "TSAL-AIL-rescue_CPC1025NTR-Formula" 0 200 50 H V L CNN
+F1 "CPC1025NTR-Formula" 0 200 50 H V L CNN
 F2 "Package_DIP:DIP-4_W7.62mm" -200 -200 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -72,11 +55,11 @@ X ~ 4 300 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_C_0.1uF-Formula
+# C_0.1uF-Formula
 #
-DEF TSAL-AIL-rescue_C_0.1uF-Formula C 0 10 N Y 1 F N
+DEF C_0.1uF-Formula C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "TSAL-AIL-rescue_C_0.1uF-Formula" 25 -100 50 H V L CNN
+F1 "C_0.1uF-Formula" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -97,11 +80,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_C_10uF-Formula
+# C_10uF-Formula
 #
-DEF TSAL-AIL-rescue_C_10uF-Formula C 0 10 N Y 1 F N
+DEF C_10uF-Formula C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "TSAL-AIL-rescue_C_10uF-Formula" 25 -100 50 H V L CNN
+F1 "C_10uF-Formula" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -122,11 +105,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_C_1uF-Formula
+# C_1uF-Formula
 #
-DEF TSAL-AIL-rescue_C_1uF-Formula C 0 10 N Y 1 F N
+DEF C_1uF-Formula C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "TSAL-AIL-rescue_C_1uF-Formula" 25 -100 50 H V L CNN
+F1 "C_1uF-Formula" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -147,11 +130,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_F_21mA_420V-Formula
+# F_21mA_420V-Formula
 #
-DEF TSAL-AIL-rescue_F_21mA_420V-Formula F 0 0 N Y 1 F N
+DEF F_21mA_420V-Formula F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "TSAL-AIL-rescue_F_21mA_420V-Formula" -75 0 50 V V C CNN
+F1 "F_21mA_420V-Formula" -75 0 50 V V C CNN
 F2 "footprints:F_21mA_420V" -600 -200 50 V I C CNN
 F3 "https://en.tdk.eu/inf/55/db/PTC/PTC_OC_Leaded_380V_500V.pdf" 650 150 50 V I C CNN
 F4 "DK" -900 400 60 H I C CNN "MFN"
@@ -168,11 +151,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_LED_0805-Formula
+# LED_0805-Formula
 #
-DEF TSAL-AIL-rescue_LED_0805-Formula D 0 40 N N 1 F N
+DEF LED_0805-Formula D 0 40 N N 1 F N
 F0 "D" 0 -100 50 H V C CNN
-F1 "TSAL-AIL-rescue_LED_0805-Formula" 0 100 50 H V C CNN
+F1 "LED_0805-Formula" 0 100 50 H V C CNN
 F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
 F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -192,11 +175,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_LR8K4-G-Formula
+# LR8K4-G-Formula
 #
-DEF TSAL-AIL-rescue_LR8K4-G-Formula U 0 40 Y Y 1 F N
+DEF LR8K4-G-Formula U 0 40 Y Y 1 F N
 F0 "U" -300 150 50 H V L CNN
-F1 "TSAL-AIL-rescue_LR8K4-G-Formula" 0 150 50 H V L CNN
+F1 "LR8K4-G-Formula" 0 150 50 H V L CNN
 F2 "Package_TO_SOT_SMD:TO-252-2" 0 500 50 H I C CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf" 0 300 50 H I C CNN
 F4 "Mouser" 0 400 60 H I C CNN "MFN"
@@ -214,11 +197,11 @@ X ADJ 3 0 -300 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_MCP6001-Formula
+# MCP6001-Formula
 #
-DEF TSAL-AIL-rescue_MCP6001-Formula U 0 20 Y Y 1 F N
+DEF MCP6001-Formula U 0 20 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "TSAL-AIL-rescue_MCP6001-Formula" 0 -200 50 H V L CNN
+F1 "MCP6001-Formula" 0 -200 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" -100 100 50 H I C CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C CNN
 F4 "DK" 100 300 60 H I C CNN "MFN"
@@ -237,11 +220,11 @@ X - 4 -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_MM_F_RA_06-Formula
+# MM_F_RA_06-Formula
 #
-DEF TSAL-AIL-rescue_MM_F_RA_06-Formula J 0 40 Y Y 1 F N
+DEF MM_F_RA_06-Formula J 0 40 Y Y 1 F N
 F0 "J" 0 350 60 H V C CNN
-F1 "TSAL-AIL-rescue_MM_F_RA_06-Formula" 100 -400 60 H V C CNN
+F1 "MM_F_RA_06-Formula" 100 -400 60 H V C CNN
 F2 "footprints:micromatch_female_ra_6" -100 250 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-6" 0 350 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
@@ -258,11 +241,11 @@ X 6 6 250 -250 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_NanoFit_2-Formula
+# NanoFit_2-Formula
 #
-DEF TSAL-AIL-rescue_NanoFit_2-Formula J 0 40 Y Y 1 F N
+DEF NanoFit_2-Formula J 0 40 Y Y 1 F N
 F0 "J" 350 -50 60 H V C CNN
-F1 "TSAL-AIL-rescue_NanoFit_2-Formula" 500 -500 60 H V C CNN
+F1 "NanoFit_2-Formula" 500 -500 60 H V C CNN
 F2 "footprints:NanoFit_Molex_1x02x2.50mm_Angled_OEM" 250 -150 60 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" 350 -50 60 H I C CNN
 F4 "DK" 450 50 50 H I C CNN "MFN"
@@ -275,11 +258,11 @@ X 2 2 100 -350 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_R_1.43K-Formula
+# R_1.43K-Formula
 #
-DEF TSAL-AIL-rescue_R_1.43K-Formula R 0 0 N Y 1 F N
+DEF R_1.43K-Formula R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "TSAL-AIL-rescue_R_1.43K-Formula" -100 0 50 V V C CNN
+F1 "R_1.43K-Formula" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -200 300 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/RN73_Series_2011.pdf" 50 -300 50 H I C CNN
 F4 "DK" 0 -500 60 H I C CNN "MFN"
@@ -296,11 +279,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_R_10K-Formula
+# R_10K-Formula
 #
-DEF TSAL-AIL-rescue_R_10K-Formula R 0 0 N Y 1 F N
+DEF R_10K-Formula R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "TSAL-AIL-rescue_R_10K-Formula" -100 0 50 V V C CNN
+F1 "R_10K-Formula" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -317,11 +300,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_R_1K-Formula
+# R_1K-Formula
 #
-DEF TSAL-AIL-rescue_R_1K-Formula R 0 0 N Y 1 F N
+DEF R_1K-Formula R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "TSAL-AIL-rescue_R_1K-Formula" -100 0 50 V V C CNN
+F1 "R_1K-Formula" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -338,11 +321,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_R_270K-Formula
+# R_270K-Formula
 #
-DEF TSAL-AIL-rescue_R_270K-Formula R 0 0 N Y 1 F N
+DEF R_270K-Formula R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "TSAL-AIL-rescue_R_270K-Formula" -100 0 50 V V C CNN
+F1 "R_270K-Formula" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 100 50 V I C CNN
 F4 "DK" 180 100 60 V I C CNN "MFN"
@@ -359,11 +342,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_R_3K-Formula
+# R_3K-Formula
 #
-DEF TSAL-AIL-rescue_R_3K-Formula R 0 0 N Y 1 F N
+DEF R_3K-Formula R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "TSAL-AIL-rescue_R_3K-Formula" -100 0 50 V V C CNN
+F1 "R_3K-Formula" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -380,11 +363,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_R_499-Formula
+# R_499-Formula
 #
-DEF TSAL-AIL-rescue_R_499-Formula R 0 0 N Y 1 F N
+DEF R_499-Formula R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "TSAL-AIL-rescue_R_499-Formula" -100 0 50 V V C CNN
+F1 "R_499-Formula" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -401,11 +384,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_SSM3K333R-Formula
+# SSM3K333R-Formula
 #
-DEF TSAL-AIL-rescue_SSM3K333R-Formula Q 0 0 Y N 1 F N
+DEF SSM3K333R-Formula Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "TSAL-AIL-rescue_SSM3K333R-Formula" 200 0 50 H V L CNN
+F1 "SSM3K333R-Formula" 200 0 50 H V L CNN
 F2 "footprints:SOT-23F" 200 -75 50 H I L CIN
 F3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" 200 75 50 H I L CNN
 F4 "DK" 500 375 60 H I C CNN "MFN"
@@ -438,11 +421,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TSAL-AIL-rescue_Ultrafit_4_RA-Formula
+# Ultrafit_4_RA-Formula
 #
-DEF TSAL-AIL-rescue_Ultrafit_4_RA-Formula J 0 40 Y N 1 F N
+DEF Ultrafit_4_RA-Formula J 0 40 Y N 1 F N
 F0 "J" 0 300 60 H V C CNN
-F1 "TSAL-AIL-rescue_Ultrafit_4_RA-Formula" 0 -200 60 H V C CNN
+F1 "Ultrafit_4_RA-Formula" 0 -200 60 H V C CNN
 F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
 F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
@@ -456,19 +439,6 @@ X 1 1 350 200 200 L 50 50 1 1 P
 X 2 2 350 100 200 L 50 50 1 1 P
 X 3 3 350 0 200 L 50 50 1 1 P
 X 4 4 350 -100 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
