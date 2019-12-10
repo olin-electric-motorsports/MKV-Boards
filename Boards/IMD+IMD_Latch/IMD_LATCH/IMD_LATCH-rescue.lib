@@ -57,6 +57,31 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# C_2.2uF-formula
+#
+DEF C_2.2uF-formula C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C_2.2uF-formula" 25 -100 50 H V L CNN
+F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
+F3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" 25 100 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "311-1451-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # C_22uF-Formula
 #
 DEF C_22uF-Formula C 0 10 N Y 1 F N
@@ -227,6 +252,27 @@ X 2 2 250 -50 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# R_1.82M-formula
+#
+DEF R_1.82M-formula R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1.82M-formula" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805FT1M82CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT1M82/RMCF0805FT1M82CT-ND/2418309" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_120K-Formula
 #
 DEF R_120K-Formula R 0 0 N Y 1 F N
@@ -274,6 +320,27 @@ ENDDEF
 DEF R_2.2K-Formula R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R_2.2K-Formula" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805FT2K20CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_2.2K-formula
+#
+DEF R_2.2K-formula R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_2.2K-formula" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -390,6 +457,50 @@ X V- 2 -100 -300 150 U 50 50 1 1 I
 X - 3 -300 -100 100 R 50 50 1 1 I
 X ~ 4 300 0 100 L 50 50 1 1 O
 X V+ 5 -100 300 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TLV3701QDBVRG4Q1-formula
+#
+DEF TLV3701QDBVRG4Q1-formula U 0 10 Y Y 1 F N
+F0 "U" 50 200 50 H V C CNN
+F1 "TLV3701QDBVRG4Q1-formula" 150 -200 50 H V C CNN
+F2 "footprints:SOT-23-5_OEM" 0 100 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf" 0 200 50 H I C CNN
+F4 "DK" 350 500 60 H I C CNN "MFN"
+F5 "497-10249-1-ND" 250 400 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q1/296-32395-6-ND/3507000" 150 300 60 H I C CNN "PurchasingLink"
+$FPLIST
+ SOT?23*
+ *SC?70*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X + 1 -300 100 100 R 50 50 1 1 I
+X V- 2 -100 -300 150 U 50 50 1 1 I
+X - 3 -300 -100 100 R 50 50 1 1 I
+X ~ 4 300 0 100 L 50 50 1 1 O
+X V+ 5 -100 300 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# UF_5_VT-formula
+#
+DEF UF_5_VT-formula J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "UF_5_VT-formula" 0 -350 60 H V C CNN
+F2 "" -100 250 60 H I C CNN
+F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "WM11667-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" 500 850 60 H I C CNN "PurchasingLink"
+DRAW
+S 150 250 -150 -250 0 1 0 f
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+X ~ 5 350 -200 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

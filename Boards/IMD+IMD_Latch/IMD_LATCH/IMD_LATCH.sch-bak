@@ -696,43 +696,10 @@ F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 	1    1400 1000
 	0    1    1    0   
 $EndComp
-$Comp
-L IMD_LATCH-rescue:C_22uF-Formula C1
-U 1 1 5DE30F28
-P 1550 1150
-F 0 "C1" H 1435 1104 50  0000 R CNN
-F 1 "C_22uF" H 1435 1195 50  0000 R CNN
-F 2 "footprints:C_1206_OEM" H 1588 1000 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 1575 1250 50  0001 C CNN
-F 4 "DK" H 1550 1150 60  0001 C CNN "MFN"
-F 5 "445-11693-1-ND" H 1550 1150 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160AB/445-11693-1-ND/3953359" H 1975 1650 60  0001 C CNN "PurchasingLink"
-	1    1550 1150
-	-1   0    0    1   
-$EndComp
-$Comp
-L IMD_LATCH-rescue:R_604K-Formula R7
-U 1 1 5DE3186E
-P 2000 1150
-F 0 "R7" H 2070 1196 50  0000 L CNN
-F 1 "R_604K" H 2070 1105 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1930 1150 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2080 1150 50  0001 C CNN
-F 4 "DK" H 2000 1150 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT604KCT-ND" H 2000 1150 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214" H 2480 1550 60  0001 C CNN "PurchasingLink"
-	1    2000 1150
-	1    0    0    -1  
-$EndComp
-Connection ~ 2000 1000
-Wire Wire Line
-	1550 1000 2000 1000
-Connection ~ 1550 1000
 Wire Wire Line
 	1550 1300 2000 1300
 Wire Wire Line
 	2000 1300 2000 1450
-Connection ~ 2000 1300
 $Comp
 L power:GND #PWR08
 U 1 1 5DE336DB
@@ -798,6 +765,39 @@ Wire Wire Line
 	650  2150 650  2200
 Wire Wire Line
 	2400 1000 2400 1850
+$Comp
+L formula:R_1.82M R7
+U 1 1 5DE66D2E
+P 2000 1150
+F 0 "R7" H 2070 1196 50  0000 L CNN
+F 1 "R_1.82M" H 2070 1105 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1930 1150 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2080 1150 50  0001 C CNN
+F 4 "DK" H 2000 1150 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT1M82CT-ND" H 2000 1150 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT1M82/RMCF0805FT1M82CT-ND/2418309" H 2480 1550 60  0001 C CNN "PurchasingLink"
+	1    2000 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1000 2000 1000
+Connection ~ 2000 1000
 Wire Wire Line
 	2000 1000 2400 1000
+Connection ~ 2000 1300
+$Comp
+L formula:C_2.2uF C1
+U 1 1 5DE6EA75
+P 1550 1150
+F 0 "C1" H 1665 1196 50  0000 L CNN
+F 1 "C_2.2uF" H 1665 1105 50  0000 L CNN
+F 2 "footprints:C_0603_1608Metric" H 1588 1000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 1575 1250 50  0001 C CNN
+F 4 "DK" H 1550 1150 60  0001 C CNN "MFN"
+F 5 "311-1451-1-ND" H 1550 1150 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 1975 1650 60  0001 C CNN "PurchasingLink"
+	1    1550 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 1000
 $EndSCHEMATC
