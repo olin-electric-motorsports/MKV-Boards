@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Brakelight_Shutdown_BSPD-cache
 EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
@@ -1201,7 +1200,7 @@ SHUTDOWN_SENSE_BSPD
 Text Label 1210 5870 0    50   ~ 0
 BSPD_RELAY_LSD
 Text Label 1210 5770 0    50   ~ 0
-RJ45_LED_0
+RJ45_LED_O
 Text Label 1210 5370 0    50   ~ 0
 BRAKE_PRESSURE-
 Text Label 1210 5270 0    50   ~ 0
@@ -1276,7 +1275,7 @@ Wire Wire Line
 	7430 2670 7430 3210
 NoConn ~ 3450 6850
 Text Label 4350 7250 0    50   ~ 0
-RJ45_LED_0
+RJ45_LED_O
 Text Label 4350 7150 0    50   ~ 0
 RJ45_LED_G
 $Comp
@@ -1794,22 +1793,6 @@ F 5 "475-1410-1-ND" H 6010 9430 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 6410 9930 60  0001 C CNN "PurchasingLink"
 	1    6010 9430
 	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_200 R?
-U 1 1 5CC794AD
-P 6010 9030
-AR Path="/5CC68CC1/5CC794AD" Ref="R?"  Part="1" 
-AR Path="/5CC794AD" Ref="R101"  Part="1" 
-F 0 "R101" H 6080 9076 50  0000 L CNN
-F 1 "R_200" H 6080 8985 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5940 9030 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6090 9030 50  0001 C CNN
-F 4 "DK" H 6010 9030 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 6010 9030 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 6490 9430 60  0001 C CNN "PurchasingLink"
-	1    6010 9030
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -2848,4 +2831,18 @@ Wire Wire Line
 Connection ~ 14920 3760
 Wire Wire Line
 	14920 3760 15085 3760
+$Comp
+L formula:R_1K R101
+U 1 1 5DE90F79
+P 6010 9030
+F 0 "R101" H 6080 9076 50  0000 L CNN
+F 1 "R_1K" H 6080 8985 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 5940 9030 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 6090 9030 50  0001 C CNN
+F 4 "DK" H 6010 9030 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 6010 9030 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 6490 9430 60  0001 C CNN "PurchasingLink"
+	1    6010 9030
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
