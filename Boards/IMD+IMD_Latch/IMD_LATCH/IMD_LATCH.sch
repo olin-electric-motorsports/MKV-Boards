@@ -232,8 +232,6 @@ NoConn ~ 6650 3450
 NoConn ~ 6650 3550
 Text Label 5700 3050 2    50   ~ 0
 delay_side_out
-Text Label 5700 3150 2    50   ~ 0
-IMD_Output
 $Comp
 L power:GND #PWR015
 U 1 1 5DEC1E7A
@@ -598,10 +596,6 @@ F 6 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5
 	1    700  4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 4400 1050 4400
-Text Label 1100 4400 0    50   ~ 0
-IMD_Output
 $Comp
 L power:GND #PWR07
 U 1 1 5DE52F85
@@ -619,8 +613,6 @@ Text Notes 2900 800  0    50   ~ 0
 t= -ln((10-x)/10)*2.662\n\n
 Text Notes 600  700  0    50   ~ 0
 Delay Side\nA delay to give the IMD time to power up
-Text Notes 900  2150 0    50   ~ 0
-8V output\n
 $Comp
 L power:GND #PWR01
 U 1 1 5DE38963
@@ -800,4 +792,58 @@ F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-
 	1    0    0    -1  
 $EndComp
 Connection ~ 1550 1000
+$Comp
+L formula:R_2.2K R?
+U 1 1 5DEA1AC3
+P 1850 4550
+F 0 "R?" H 1920 4596 50  0000 L CNN
+F 1 "R_2.2K" H 1920 4505 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1780 4550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1930 4550 50  0001 C CNN
+F 4 "DK" H 1850 4550 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT2K20CT-ND" H 1850 4550 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" H 2330 4950 60  0001 C CNN "PurchasingLink"
+	1    1850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:TLV3701QDBVRG4Q1 U?
+U 1 1 5DEA27E2
+P 2950 4500
+F 0 "U?" H 3294 4664 50  0000 L CNN
+F 1 "TLV3701QDBVRG4Q1" H 3294 4731 50  0000 L CNN
+F 2 "footprints:SOT-23-5_OEM" H 2950 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf" H 2950 4700 50  0001 C CNN
+F 4 "DK" H 3300 5000 60  0001 C CNN "MFN"
+F 5 "497-10249-1-ND" H 3200 4900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q1/296-32395-6-ND/3507000" H 3100 4800 60  0001 C CNN "PurchasingLink"
+	1    2950 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 4400 1850 4400
+Wire Wire Line
+	2650 4400 1850 4400
+Connection ~ 1850 4400
+$Comp
+L power:GND #PWR?
+U 1 1 5DEA844C
+P 1850 4700
+F 0 "#PWR?" H 1850 4450 50  0001 C CNN
+F 1 "GND" H 1855 4527 50  0000 C CNN
+F 2 "" H 1850 4700 50  0001 C CNN
+F 3 "" H 1850 4700 50  0001 C CNN
+	1    1850 4700
+	1    0    0    -1  
+$EndComp
+Text Label 2650 4600 2    50   ~ 0
+8v_output
+Text Label 650  2150 0    50   ~ 0
+8v_output
+Text Label 3250 4500 0    50   ~ 0
+IMD_Side_Output
+Text Label 5700 3150 2    50   ~ 0
+IMD_Side_Output
+Text Label 1050 4400 0    50   ~ 0
+IMD_Output
 $EndSCHEMATC
