@@ -25,10 +25,6 @@ F 3 "" H 1550 1100 50  0001 C CNN
 	1    1550 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1150 1550 1700 1550
-Wire Wire Line
-	1700 1550 1700 1350
 $Comp
 L power:VCC #PWR06
 U 1 1 5DA61619
@@ -496,17 +492,17 @@ Text Label 1150 2050 0    50   ~ 0
 RJ45_LED1
 Text Label 1150 2150 0    50   ~ 0
 RJ45_LED2
-Text Label 5350 4550 0    50   ~ 0
+Text Label 5350 5150 0    50   ~ 0
 BMS_Sense
-Text Label 5350 4650 0    50   ~ 0
+Text Label 5350 6050 0    50   ~ 0
 IMD_Sense
 Text Label 5350 4450 0    50   ~ 0
 PrechargeCTL
 Text Label 5350 5750 0    50   ~ 0
 AIR+LSD
-Text Label 5350 5150 0    50   ~ 0
+Text Label 5350 4550 0    50   ~ 0
 SS_HVD
-Text Label 5350 4850 0    50   ~ 0
+Text Label 5350 5850 0    50   ~ 0
 SS_IMD
 Text Label 5350 4950 0    50   ~ 0
 SS_BMS
@@ -522,7 +518,7 @@ Text Label 5350 5550 0    50   ~ 0
 AIR+Weld_Detect
 Text Label 5350 5650 0    50   ~ 0
 AIR-Weld_Detect
-Text Label 5350 6050 0    50   ~ 0
+Text Label 5350 4750 0    50   ~ 0
 SS_MainTSConn
 Text Label 5350 6250 0    50   ~ 0
 MISO
@@ -2116,7 +2112,7 @@ Wire Wire Line
 Connection ~ 8000 1700
 Text Label 8100 1200 0    50   ~ 0
 Air-Coil-
-Text Label 5350 4750 0    50   ~ 0
+Text Label 5350 4850 0    50   ~ 0
 SS_TSMS
 $Comp
 L formula:R_1K R33
@@ -2368,20 +2364,6 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 108
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:SSM3K333R Q8
-U 1 1 5DDDBCDF
-P 10300 4350
-F 0 "Q8" H 10506 4396 50  0000 L CNN
-F 1 "SSM3K333R" H 10506 4305 50  0000 L CNN
-F 2 "footprints:SOT-23F" H 10500 4275 50  0001 L CIN
-F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 10500 4425 50  0001 L CNN
-F 4 "DK" H 10800 4725 60  0001 C CNN "MFN"
-F 5 "SSM3K333RLFCT-ND" H 10700 4625 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 10600 4525 60  0001 C CNN "PurchasingLink"
-	1    10300 4350
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_100K R26
 U 1 1 5DDDD70E
 P 10050 4500
@@ -2452,9 +2434,7 @@ F 3 "" H 10400 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 10400 4950
-Wire Wire Line
-	10400 4200 10600 4200
-Text Label 10600 4200 0    50   ~ 0
+Text Label 10600 4150 0    50   ~ 0
 SS_HVDConn
 Text Label 9600 4350 2    50   ~ 0
 ShutdownSense_HVDConn
@@ -2520,7 +2500,7 @@ Wire Wire Line
 	1800 5100 1800 4950
 Wire Wire Line
 	1150 4950 1800 4950
-Text Label 5350 5850 0    50   ~ 0
+Text Label 5350 4650 0    50   ~ 0
 SS_HVDConn
 NoConn ~ 5350 5250
 NoConn ~ 5350 6150
@@ -2551,4 +2531,25 @@ Text Label 1150 3900 0    50   ~ 0
 Air+Aux-
 Text Label 1150 3800 0    50   ~ 0
 Air+Aux+
+Wire Wire Line
+	1150 1550 1700 1550
+Wire Wire Line
+	1700 1550 1700 1350
+$Comp
+L formula:SSM3K333R Q8
+U 1 1 5DDDBCDF
+P 10300 4350
+F 0 "Q8" H 10506 4396 50  0000 L CNN
+F 1 "SSM3K333R" H 10506 4305 50  0000 L CNN
+F 2 "footprints:SOT-23F" H 10500 4275 50  0001 L CIN
+F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 10500 4425 50  0001 L CNN
+F 4 "DK" H 10800 4725 60  0001 C CNN "MFN"
+F 5 "SSM3K333RLFCT-ND" H 10700 4625 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 10600 4525 60  0001 C CNN "PurchasingLink"
+	1    10300 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 4150 10600 4150
+Connection ~ 10400 4150
 $EndSCHEMATC
