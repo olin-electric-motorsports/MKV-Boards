@@ -1,4 +1,4 @@
-16551413208591829
+16580102295752829
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73241,6 +73241,13 @@ LTC6820_OEM
 16
 16
 footprints
+L_100uH_OEM
+Resistor SMD 2512, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 2512
+0
+2
+2
+footprints
 Logo_Large
 
 
@@ -73276,6 +73283,20 @@ MicroFit_RA_2
 3
 2
 footprints
+MicroFit_RA_2_SMD
+
+
+0
+4
+4
+footprints
+MicroFit_RA_4
+Molex Micro-Fit 3.0 Connector System, 43045-0400 (compatible alternatives: 43045-0401, 43045-0402), 2 Pins per row (https://www.molex.com/pdm_docs/sd/430450200_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 top entry
+0
+4
+4
+footprints
 MicroFit_RA_06
 
 
@@ -73304,12 +73325,33 @@ MicroFit_RA_V_2
 3
 2
 footprints
+MicroFit_VT_4
+Molex Micro-Fit 3.0 Connector System, 43045-0412 (compatible alternatives: 43045-0413, 43045-0424), 2 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 side entry
+0
+4
+4
+footprints
+MicroFit_VT_6
+Molex Micro-Fit 3.0 Connector System, 43045-0612 (compatible alternatives: 43045-0613, 43045-0624), 3 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 side entry
+0
+6
+6
+footprints
 MicroFit_VT_10
 
 
 0
 12
 10
+footprints
+MicroFit_VT_12
+Molex Micro-Fit 3.0 Connector System, 43045-1212 (compatible alternatives: 43045-1213, 43045-1224), 6 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 side entry
+0
+12
+12
 footprints
 MicroFit_V_2
 
@@ -73381,6 +73423,55 @@ connector molex nano-fit 105313-xx04
 2
 2
 footprints
+NanoFit_RA_4
+Molex Nano-Fit Power Connectors, 105314-xx04, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+4
+4
+footprints
+NanoFit_RA_6
+Molex Nano-Fit Power Connectors, 105314-xx06, 3 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+6
+6
+footprints
+NanoFit_RA_8
+Molex Nano-Fit Power Connectors, 105314-xx08, 4 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+8
+8
+footprints
+NanoFit_RA_10
+Molex Nano-Fit Power Connectors, 105314-xx10, 5 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+10
+10
+footprints
+NanoFit_RA_12
+Molex Nano-Fit Power Connectors, 105314-xx12, 6 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+12
+12
+footprints
+NanoFit_VT_10
+Molex Nano-Fit Power Connectors, 105310-xx10, 5 Pins per row (http://www.molex.com/pdm_docs/sd/1053101208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit side entry
+0
+10
+10
+footprints
+NanoFit_VT_12
+Molex Nano-Fit Power Connectors, 105310-xx12, 6 Pins per row (http://www.molex.com/pdm_docs/sd/1053101208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit side entry
+0
+12
+12
+footprints
 OLIN_O
 
 Olin O logo
@@ -73408,6 +73499,34 @@ PWR163
 0
 3
 3
+footprints
+PinHeader_1x10_P2.54mm_Vertical
+Through hole straight pin header, 1x10, 2.54mm pitch, single row
+Through hole pin header THT 1x10 2.54mm single row
+0
+10
+10
+footprints
+PinHeader_1x11_P2.54mm_Vertical
+Through hole straight pin header, 1x11, 2.54mm pitch, single row
+Through hole pin header THT 1x11 2.54mm single row
+0
+11
+11
+footprints
+PinHeader_2x20_P2.54mm_Vertical
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
+footprints
+PinSocket_2x02_P2.54mm_Vertical
+Through hole straight socket strip, 2x02, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x02 2.54mm double row
+0
+4
+4
 footprints
 Pin_Header_Straight_2x03
 Through hole pin header
@@ -73899,13 +74018,6 @@ micromatch_female_vert_10
 11
 11
 footprints
-micromatch_female_vert_12
-
-
-0
-13
-13
-footprints
 micromatch_female_vert_14
 
 
@@ -73933,6 +74045,13 @@ micromatch_female_vert_20
 0
 21
 21
+footprints
+micromatch_female_vt_12
+
+
+0
+13
+13
 footprints
 micromatch_via
 

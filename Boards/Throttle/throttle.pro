@@ -1,4 +1,4 @@
-update=Mon 11 Nov 2019 20:43:29 EST
+update=Mon 18 Nov 2019 18:57:19 EST
 version=1
 last_client=eeschema
 [general]
@@ -31,6 +31,7 @@ MinHoleToHole=0.25
 TrackWidth1=0.1524
 TrackWidth2=0.254
 TrackWidth3=0.381
+TrackWidth4=0.762
 ViaDiameter1=0.6096
 ViaDrill1=0.3048
 dPairWidth1=0.2
@@ -59,7 +60,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
