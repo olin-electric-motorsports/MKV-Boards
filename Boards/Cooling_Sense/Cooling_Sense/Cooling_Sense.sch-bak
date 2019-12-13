@@ -1191,7 +1191,6 @@ Text Label 5250 1250 0    50   ~ 0
 12V
 Text Label 5250 1150 0    50   ~ 0
 GND
-NoConn ~ 3550 2350
 NoConn ~ 3550 1850
 NoConn ~ 3550 2450
 NoConn ~ 3550 2650
@@ -1481,4 +1480,6 @@ Text Label 3550 3150 0    50   ~ 0
 READ_1
 Text Label 3550 3250 0    50   ~ 0
 READ_2
+Text Label 3550 2350 0    50   ~ 0
+PUMP_CONTROL
 $EndSCHEMATC
