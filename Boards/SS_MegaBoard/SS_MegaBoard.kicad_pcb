@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -235,7 +235,7 @@
     )
   )
 
-  (module footprints:micromatch_female_vert_20 (layer F.Cu) (tedit 5C3D138E) (tstamp 5E1A875D)
+  (module footprints:micromatch_female_vert_20 (layer F.Cu) (tedit 5C3D138E) (tstamp 5DF2F8E5)
     (at 73.7235 63.1317 90)
     (path /5DE4BBDA)
     (fp_text reference J2 (at 5.08 5.08 90) (layer F.SilkS)

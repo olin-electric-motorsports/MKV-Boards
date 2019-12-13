@@ -1,4 +1,220 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:AIR_MINUS-cache
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Formula:LI12-1A85(NO) K?
+U 1 1 5DAE5E76
+P 1400 1400
+F 0 "K?" V 1867 1400 50  0000 C CNN
+F 1 "LI12-1A85(NO)" V 1776 1400 50  0000 C CNN
+F 2 "footprints:Meder-LI12" H 1850 1350 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Meder%20PDFs/LI12-1A85_Spec.pdf" H 1850 1050 50  0001 L CNN
+F 4 "DK" H 2250 1950 60  0001 C CNN "MFN"
+F 5 "374-1110-ND" H 2150 1850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/LI12-1A85/374-1110-ND/655844" H 2350 2050 60  0001 C CNN "PurchasingLink"
+	1    1400 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Formula:SS110LW D?
+U 1 1 5DAE7FAE
+P 1400 2100
+F 0 "D?" H 1400 2316 50  0000 C CNN
+F 1 "SS110LW" H 1400 2225 50  0000 C CNN
+F 2 "footprints:D_SOD-123W_OEM" H 1300 2100 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" H 1400 2200 50  0001 C CNN
+F 4 "DK" H 1600 2400 60  0001 C CNN "MFN"
+F 5 "SS110LWRVGCT-ND" H 1500 2300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/SS110LW-RVG/SS110LWRVGCT-ND/7359346" H 1700 2500 60  0001 C CNN "PurchasingLink"
+	1    1400 2100
+	1    0    0    -1  
+$EndComp
+Text Notes 1100 850  0    50   ~ 0
+[Relay, STSP-NO]\n
+Text Label 1700 1300 0    50   ~ 0
+TS-
+Text Label 1700 1600 0    50   ~ 0
+Precharge-
+Text Label 1100 1600 2    50   ~ 0
+Precharge+
+Wire Wire Line
+	1700 1600 1700 2100
+Wire Wire Line
+	1700 2100 1550 2100
+Wire Wire Line
+	1250 2100 1100 2100
+Wire Wire Line
+	1100 2100 1100 1600
+$Comp
+L Formula:R_3K_HS R?
+U 1 1 5DAEBB45
+P 950 1300
+F 0 "R?" V 1175 1300 50  0000 C CNN
+F 1 "R_3K_HS" V 1084 1300 50  0000 C CNN
+F 2 "footprints:R_3k_HS_TO247" H 880 1300 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/ohmite/pdf/acl_ap101.pdf" H 1030 1300 50  0001 C CNN
+F 4 "DK" H 950 1300 60  0001 C CNN "MFN"
+F 5 "AP1013KJ-ND" H 950 1300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/ohmite/AP101-3K-J/AP101-3K-J-ND/5878525" H 1430 1700 60  0001 C CNN "PurchasingLink"
+F 7 "345-1223-ND" V 1530 1800 60  0001 C CNN "MPN2"
+F 8 "https://www.digikey.com/product-detail/en/wakefield-vette/657-15ABPEN/345-1223-ND/3945700" V 1630 1900 60  0001 C CNN "PurchasingLink2"
+	1    950  1300
+	0    -1   -1   0   
+$EndComp
+Text Notes 600  1000 0    50   ~ 0
+[Resistor, \nHeat Sink]\n
+Text Notes 1050 2250 0    50   ~ 0
+[Diode, SCHOTTKY]\n
+Wire Notes Line
+	2150 750  2150 2300
+Wire Notes Line
+	2150 2300 600  2300
+Wire Notes Line
+	600  2300 600  750 
+$Comp
+L Formula:200mA_Fuse F?
+U 1 1 5DAFEE05
+P 2800 1000
+F 0 "F?" H 2800 1225 50  0000 C CNN
+F 1 "200mA_Fuse" H 2800 1134 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 2750 1000 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2750 1000 50  0001 C CNN
+F 4 "507-1767-1-ND " H 2800 1225 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 2800 1224 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 2800 1133 50  0001 C CNN "MFN"
+	1    2800 1000
+	1    0    0    -1  
+$EndComp
+Text Label 3100 1000 0    50   ~ 0
+TS_Fuse-
+Text Label 2500 1000 2    50   ~ 0
+TS-
+Text Label 3100 1950 0    50   ~ 0
+AUX+
+Text Label 3100 2050 0    50   ~ 0
+AUX-
+Text Label 3100 2150 0    50   ~ 0
+Coil-
+$Comp
+L Formula:UF_4_VT J?
+U 1 1 5DB02E97
+P 1950 3000
+F 0 "J?" H 2058 3437 60  0000 C CNN
+F 1 "UF_4_VT" H 2058 3331 60  0000 C CNN
+F 2 "footprints:Ultrafit_4" H 1850 3250 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 1950 3350 60  0001 C CNN
+F 4 "DK" H 1950 3000 60  0001 C CNN "MFN"
+F 5 "WM11574-ND" H 1950 3000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 2450 3850 60  0001 C CNN "PurchasingLink"
+	1    1950 3000
+	1    0    0    -1  
+$EndComp
+Text Label 2300 2800 0    50   ~ 0
+AUX+
+Text Label 2300 2900 0    50   ~ 0
+AUX-
+Text Label 2300 3000 0    50   ~ 0
+Coil+
+Text Label 2300 3100 0    50   ~ 0
+Coil-
+$Comp
+L Formula:R_10K R?
+U 1 1 5DC4D26F
+P 4150 1000
+F 0 "R?" V 3943 1000 50  0000 C CNN
+F 1 "R_10K" V 4034 1000 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4080 1000 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4230 1000 50  0001 C CNN
+F 4 "DK" H 4150 1000 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 4150 1000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4630 1400 60  0001 C CNN "PurchasingLink"
+	1    4150 1000
+	0    1    1    0   
+$EndComp
+Text Label 4000 1000 2    50   ~ 0
+TS-
+Text Label 4300 1000 0    50   ~ 0
+TSMP_
+Wire Notes Line
+	600  750  2150 750 
+$Comp
+L Formula:MicroFit_RA_06 J?
+U 1 1 5DE9F345
+P 4700 2700
+F 0 "J?" H 4758 3197 60  0000 C CNN
+F 1 "MicroFit_RA_06" H 4758 3091 60  0000 C CNN
+F 2 "footprints:MicroFit_RA_6" H 4600 2950 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450601_sd.pdf" H 4700 3050 60  0001 C CNN
+F 4 "Molex" H 4800 4100 60  0001 C CNN "MFN"
+F 5 "WM4037-ND" H 4900 4200 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450601/WM4037-ND/2421555" H 4700 4000 60  0001 C CNN "PurchasingLink"
+	1    4700 2700
+	1    0    0    -1  
+$EndComp
+Text Label 3100 1750 0    50   ~ 0
+GND
+Text Label 3100 1850 0    50   ~ 0
+Final_Shutdown
+$Comp
+L Formula:MicroFit_RA_06 J?
+U 1 1 5DB019DF
+P 2850 2000
+F 0 "J?" H 2908 2497 60  0000 C CNN
+F 1 "MicroFit_RA_06" H 2908 2391 60  0000 C CNN
+F 2 "footprints:MicroFit_RA_6" H 2750 2250 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450601_sd.pdf" H 2850 2350 60  0001 C CNN
+F 4 "Molex" H 2950 3400 60  0001 C CNN "MFN"
+F 5 "WM4037-ND" H 3050 3500 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450601/WM4037-ND/2421555" H 2850 3300 60  0001 C CNN "PurchasingLink"
+	1    2850 2000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3100 2250
+Text Label 4950 2450 0    50   ~ 0
+UC+
+Text Label 4950 2550 0    50   ~ 0
+GND
+Text Label 4950 2650 0    50   ~ 0
+Vout
+Text Label 4950 2750 0    50   ~ 0
+Vref
+Text Label 4950 2850 0    50   ~ 0
+OCD
+NoConn ~ 4950 2950
+Text Notes 4500 2100 0    50   ~ 0
+This is the MicroFit for the mounted current sensor\n
+Text Notes 3150 3900 0    50   ~ 0
+- add MicroFit 4 to library\n\n- Use VT MicroFit 6 for current sensor
+$Comp
+L Formula:MicroFit_RA_4 J?
+U 1 1 5DF102AC
+P 3550 3100
+F 0 "J?" H 3608 3475 50  0000 C CNN
+F 1 "MicroFit_RA_4" H 3608 3384 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_4" H 3550 2800 50  0001 C CNN
+F 3 "" H 3550 3100 100 0001 C CNN
+	1    3550 3100
+	1    0    0    -1  
+$EndComp
+Text Label 3750 2950 0    50   ~ 0
+TSAL-
+Text Label 3750 3050 0    50   ~ 0
+TS_Fused-
+Text Label 3750 3150 0    50   ~ 0
+TSMP-
+Text Label 3750 3250 0    50   ~ 0
+DischargeTS-
 $EndSCHEMATC
