@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# C_0.1uF_0603-footprints-Buck_HighCurrent-rescue
+# C_0.1uF_0603-footprints
 #
-DEF C_0.1uF_0603-footprints-Buck_HighCurrent-rescue C 0 10 N Y 1 F N
+DEF C_0.1uF_0603-footprints C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_0.1uF_0603-footprints-Buck_HighCurrent-rescue" 25 -100 50 H V L CNN
+F1 "C_0.1uF_0603-footprints" 25 -100 50 H V L CNN
 F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -26,11 +26,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_100nF-footprints-Buck_HighCurrent-rescue
+# C_100nF-footprints
 #
-DEF C_100nF-footprints-Buck_HighCurrent-rescue C 0 10 N Y 1 F N
+DEF C_100nF-footprints C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_100nF-footprints-Buck_HighCurrent-rescue" 25 -100 50 H V L CNN
+F1 "C_100nF-footprints" 25 -100 50 H V L CNN
 F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -51,11 +51,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_10uF-footprints-Buck_HighCurrent-rescue
+# C_10uF-footprints
 #
-DEF C_10uF-footprints-Buck_HighCurrent-rescue C 0 10 N Y 1 F N
+DEF C_10uF-footprints C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_10uF-footprints-Buck_HighCurrent-rescue" 25 -100 50 H V L CNN
+F1 "C_10uF-footprints" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -76,11 +76,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_10uF_25V-footprints-Buck_HighCurrent-rescue
+# C_10uF_25V-footprints
 #
-DEF C_10uF_25V-footprints-Buck_HighCurrent-rescue C 0 40 Y Y 1 F N
+DEF C_10uF_25V-footprints C 0 40 Y Y 1 F N
 F0 "C" 50 -100 50 H V C CNN
-F1 "C_10uF_25V-footprints-Buck_HighCurrent-rescue" 0 100 50 H V C CNN
+F1 "C_10uF_25V-footprints" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -91,11 +91,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_22uF-footprints-Buck_HighCurrent-rescue
+# C_22uF-footprints
 #
-DEF C_22uF-footprints-Buck_HighCurrent-rescue C 0 10 N Y 1 F N
+DEF C_22uF-footprints C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_22uF-footprints-Buck_HighCurrent-rescue" 25 -100 50 H V L CNN
+F1 "C_22uF-footprints" 25 -100 50 H V L CNN
 F2 "footprints:C_1206_OEM" 38 -150 50 H I C CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -116,11 +116,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_33uF-footprints-Buck_HighCurrent-rescue
+# C_33uF-footprints
 #
-DEF C_33uF-footprints-Buck_HighCurrent-rescue C 0 10 N Y 1 F N
+DEF C_33uF-footprints C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_33uF-footprints-Buck_HighCurrent-rescue" 100 -300 50 H V L CNN
+F1 "C_33uF-footprints" 100 -300 50 H V L CNN
 F2 "footprints:C_1812_OEM" 50 -400 50 H I C CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 0 650 50 H I C CNN
 F4 "C4532X7R1C336M250KC" 50 -500 60 H I C CNN "MFN"
@@ -141,11 +141,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_18V-footprints-Buck_HighCurrent-rescue
+# D_Zener_18V-footprints
 #
-DEF D_Zener_18V-footprints-Buck_HighCurrent-rescue D 0 40 N N 1 F N
+DEF D_Zener_18V-footprints D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_18V-footprints-Buck_HighCurrent-rescue" 0 -100 50 H V C CNN
+F1 "D_Zener_18V-footprints" 0 -100 50 H V C CNN
 F2 "footprints:DO-214AA" -100 0 50 H I C CNN
 F3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" 0 100 50 H I C CNN
 F4 "DK" 200 300 60 H I C CNN "MFN"
@@ -169,11 +169,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# F_2.6A_16V-footprints-Buck_HighCurrent-rescue
+# F_2.6A_16V-footprints
 #
-DEF F_2.6A_16V-footprints-Buck_HighCurrent-rescue F 0 40 Y Y 1 F N
+DEF F_2.6A_16V-footprints F 0 40 Y Y 1 F N
 F0 "F" -100 0 50 V V C CNN
-F1 "F_2.6A_16V-footprints-Buck_HighCurrent-rescue" 100 0 50 V V C CNN
+F1 "F_2.6A_16V-footprints" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0260BF2B/507-1780-6-ND/4156287" 0 0 50 H V C CNN "Digikey"
@@ -185,11 +185,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# IHLP2020BZER4R7M11-footprints-Buck_HighCurrent-rescue
+# IHLP2020BZER4R7M11-footprints
 #
-DEF IHLP2020BZER4R7M11-footprints-Buck_HighCurrent-rescue L 0 65 N N 1 F N
+DEF IHLP2020BZER4R7M11-footprints L 0 65 N N 1 F N
 F0 "L" 275 200 60 H V C CNN
-F1 "IHLP2020BZER4R7M11-footprints-Buck_HighCurrent-rescue" 275 -225 60 H V C CNN
+F1 "IHLP2020BZER4R7M11-footprints" 275 -225 60 H V C CNN
 F2 "IND_IHLP-2020BZ" 275 -285 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP2020BZER4R7M11/541-1222-1-ND/2025112" 0 0 50 H I C CNN "Vendor Link"
@@ -213,11 +213,11 @@ X 2 2 0 0 100 R 59 59 1 0 U
 ENDDRAW
 ENDDEF
 #
-# LED_0805-footprints-Buck_HighCurrent-rescue
+# LED_0805-footprints
 #
-DEF LED_0805-footprints-Buck_HighCurrent-rescue D 0 40 N N 1 F N
+DEF LED_0805-footprints D 0 40 N N 1 F N
 F0 "D" 0 -100 50 H V C CNN
-F1 "LED_0805-footprints-Buck_HighCurrent-rescue" 0 100 50 H V C CNN
+F1 "LED_0805-footprints" 0 100 50 H V C CNN
 F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
 F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -237,11 +237,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_0_2512-footprints-Buck_HighCurrent-rescue
+# R_0_2512-footprints
 #
-DEF R_0_2512-footprints-Buck_HighCurrent-rescue R 0 0 N Y 1 F N
+DEF R_0_2512-footprints R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_0_2512-footprints-Buck_HighCurrent-rescue" -100 0 50 V V C CNN
+F1 "R_0_2512-footprints" -100 0 50 V V C CNN
 F2 "footprints:R_2512_OEM" -70 0 50 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -258,11 +258,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_1-footprints-Buck_HighCurrent-rescue
+# R_1-footprints
 #
-DEF R_1-footprints-Buck_HighCurrent-rescue R 0 40 Y Y 1 F N
+DEF R_1-footprints R 0 40 Y Y 1 F N
 F0 "R" -100 50 50 H V C CNN
-F1 "R_1-footprints-Buck_HighCurrent-rescue" 100 0 50 V V C CNN
+F1 "R_1-footprints" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-071RL/311-1.00HRCT-ND/729789" 0 0 50 H I C CNN "Link"
@@ -273,11 +273,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_10K-footprints-Buck_HighCurrent-rescue
+# R_10K-footprints
 #
-DEF R_10K-footprints-Buck_HighCurrent-rescue R 0 0 N Y 1 F N
+DEF R_10K-footprints R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_10K-footprints-Buck_HighCurrent-rescue" -100 0 50 V V C CNN
+F1 "R_10K-footprints" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -294,11 +294,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_200-footprints-Buck_HighCurrent-rescue
+# R_200-footprints
 #
-DEF R_200-footprints-Buck_HighCurrent-rescue R 0 0 N Y 1 F N
+DEF R_200-footprints R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_200-footprints-Buck_HighCurrent-rescue" -100 0 50 V V C CNN
+F1 "R_200-footprints" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -315,11 +315,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_22K-footprints-Buck_HighCurrent-rescue
+# R_22K-footprints
 #
-DEF R_22K-footprints-Buck_HighCurrent-rescue R 0 0 N Y 1 F N
+DEF R_22K-footprints R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_22K-footprints-Buck_HighCurrent-rescue" -100 0 50 V V C CNN
+F1 "R_22K-footprints" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -336,11 +336,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_51.1K-footprints-Buck_HighCurrent-rescue
+# R_51.1K-footprints
 #
-DEF R_51.1K-footprints-Buck_HighCurrent-rescue R 0 0 N Y 1 F N
+DEF R_51.1K-footprints R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_51.1K-footprints-Buck_HighCurrent-rescue" -100 0 50 V V C CNN
+F1 "R_51.1K-footprints" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -1100 300 50 H I L CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" -1100 400 50 H I L CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -357,11 +357,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TP-footprints-Buck_HighCurrent-rescue
+# TP-footprints
 #
-DEF TP-footprints-Buck_HighCurrent-rescue TP 0 0 N N 1 F N
+DEF TP-footprints TP 0 0 N N 1 F N
 F0 "TP" 0 0 50 H V C CNN
-F1 "TP-footprints-Buck_HighCurrent-rescue" 0 0 50 H V C CNN
+F1 "TP-footprints" 0 0 50 H V C CNN
 F2 "footprints:tp_1.6mm" -100 -100 50 H I C CNN
 F3 "http://www.keyelco.com/product-pdf.cfm?p=1314" 0 0 50 H I C CNN
 F4 "DK" 100 100 50 H I C CNN "MFN"
@@ -373,11 +373,11 @@ X TP 1 0 -200 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TPS563231-footprints-Buck_HighCurrent-rescue
+# TPS563231-footprints
 #
-DEF TPS563231-footprints-Buck_HighCurrent-rescue U 0 40 Y Y 1 F N
+DEF TPS563231-footprints U 0 40 Y Y 1 F N
 F0 "U" -250 -100 50 H V C CNN
-F1 "TPS563231-footprints-Buck_HighCurrent-rescue" 0 650 50 H V C CNN
+F1 "TPS563231-footprints" 0 650 50 H V C CNN
 F2 "" 0 150 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 DRAW
