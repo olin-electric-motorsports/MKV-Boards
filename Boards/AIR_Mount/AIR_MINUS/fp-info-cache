@@ -1,4 +1,4 @@
-16580136267302829
+16581717725832829
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73170,6 +73170,13 @@ Fuse TE5 Littlefuse/Wickmann No. 460 No560
 0
 2
 2
+footprints
+HO_60_250-p0100
+
+
+0
+9
+9
 footprints
 L78M05CDT-TR
 

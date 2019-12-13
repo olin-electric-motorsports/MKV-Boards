@@ -198,4 +198,23 @@ Text Notes 4500 2100 0    50   ~ 0
 This is the MicroFit for the mounted current sensor\n
 Text Notes 3150 3900 0    50   ~ 0
 - add MicroFit 4 to library\n\n- Use VT MicroFit 6 for current sensor
+$Comp
+L Formula:MicroFit_RA_4 J?
+U 1 1 5DF102AC
+P 3550 3100
+F 0 "J?" H 3608 3475 50  0000 C CNN
+F 1 "MicroFit_RA_4" H 3608 3384 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_4" H 3550 2800 50  0001 C CNN
+F 3 "" H 3550 3100 100 0001 C CNN
+	1    3550 3100
+	1    0    0    -1  
+$EndComp
+Text Label 3750 2950 0    50   ~ 0
+TSAL-
+Text Label 3750 3050 0    50   ~ 0
+TS_Fused-
+Text Label 3750 3150 0    50   ~ 0
+TSMP-
+Text Label 3750 3250 0    50   ~ 0
+DischargeTS-
 $EndSCHEMATC

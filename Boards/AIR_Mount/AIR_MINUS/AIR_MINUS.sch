@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AIR_MINUS-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -150,20 +149,6 @@ Text Label 4300 1000 0    50   ~ 0
 TSMP_
 Wire Notes Line
 	600  750  2150 750 
-$Comp
-L Formula:MicroFit_RA_06 J?
-U 1 1 5DE9F345
-P 4700 2700
-F 0 "J?" H 4758 3197 60  0000 C CNN
-F 1 "MicroFit_RA_06" H 4758 3091 60  0000 C CNN
-F 2 "footprints:MicroFit_RA_6" H 4600 2950 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450601_sd.pdf" H 4700 3050 60  0001 C CNN
-F 4 "Molex" H 4800 4100 60  0001 C CNN "MFN"
-F 5 "WM4037-ND" H 4900 4200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430450601/WM4037-ND/2421555" H 4700 4000 60  0001 C CNN "PurchasingLink"
-	1    4700 2700
-	1    0    0    -1  
-$EndComp
 Text Label 3100 1750 0    50   ~ 0
 GND
 Text Label 3100 1850 0    50   ~ 0
@@ -196,8 +181,6 @@ OCD
 NoConn ~ 4950 2950
 Text Notes 4500 2100 0    50   ~ 0
 This is the MicroFit for the mounted current sensor\n
-Text Notes 3150 3900 0    50   ~ 0
-- add MicroFit 4 to library\n\n- Use VT MicroFit 6 for current sensor
 $Comp
 L Formula:MicroFit_RA_4 J?
 U 1 1 5DF102AC
@@ -217,4 +200,15 @@ Text Label 3750 3150 0    50   ~ 0
 TSMP-
 Text Label 3750 3250 0    50   ~ 0
 DischargeTS-
+$Comp
+L Formula:MicroFit_VT_6 U?
+U 1 1 5DF2D88E
+P 4750 2700
+F 0 "U?" H 4808 3175 50  0000 C CNN
+F 1 "MicroFit_VT_6" H 4808 3084 50  0000 C CNN
+F 2 "footprints:MicroFit_VT_6" H 4750 2300 50  0001 C CNN
+F 3 "" H 4750 2700 50  0001 C CNN
+	1    4750 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
