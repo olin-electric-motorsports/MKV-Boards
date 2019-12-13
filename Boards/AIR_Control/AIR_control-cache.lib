@@ -243,8 +243,8 @@ ENDDEF
 DEF formula_C_33uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "formula_C_33uF" 100 -300 50 H V L CNN
-F2 "footprints:C_1812_OEM" 50 -400 50 H I C CNN
-F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 0 650 50 H I C CNN
+F2 "footprints:Fuse_1812" 50 -400 50 H I C CNN
+F3 "" 0 650 50 H I C CNN
 F4 "C4532X7R1C336M250KC" 50 -500 60 H I C CNN "MFN"
 F5 "445-3924-1-ND" 0 350 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431" 250 500 60 H I C CNN "PurchasingLink"
@@ -389,11 +389,11 @@ ENDDEF
 #
 # formula_L_100uH
 #
-DEF formula_L_100uH L 0 40 Y Y 1 F N
+DEF formula_L_100uH L 0 40 N N 1 F N
 F0 "L" 0 -50 50 H V C CNN
 F1 "formula_L_100uH" 0 100 50 H V C CNN
-F2 "formula:L_100uH" -100 -200 50 H I C CNN
-F3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" -100 -150 50 H I C CNN
+F2 "footprints:L_100uH_OEM" -100 -200 50 H I C CNN
+F3 "" -100 -150 50 H I C CNN
 F4 "Digikey" 100 -200 50 H I C CNN "MFN"
 F5 "445-15759-1-ND" 0 250 50 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "Link"
@@ -468,41 +468,40 @@ X 9 9 150 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# formula_MicroFit_RA_10
+# formula_MicroFit_VT_12
 #
-DEF formula_MicroFit_RA_10 J 0 40 Y Y 1 F N
-F0 "J" -100 550 50 H V C CNN
-F1 "formula_MicroFit_RA_10" 0 -450 50 H V C CNN
-F2 "footprints:MicroFit_RA_10" 100 650 50 H I C CNN
-F3 "https://www.molex.com/pdm_docs/sd/430451000_sd.pdf" 100 650 50 H I C CNN
-F4 "DK" 0 650 50 H I C CNN "MFN"
-F5 "WM1817-ND" 100 750 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0430451000/WM1817-ND/252530" 200 850 50 H I C CNN "PurchasingLink"
+DEF formula_MicroFit_VT_12 J 0 40 Y Y 1 F N
+F0 "J" 50 950 100 H V C CNN
+F1 "formula_MicroFit_VT_12" 0 750 100 H V C CNN
+F2 "footprints:MicroFit_VT_12" 0 -750 100 H I C CNN
+F3 "" 50 -50 100 H I C CNN
 DRAW
-S 150 -400 -150 600 1 1 0 f
-X 1 1 250 550 100 L 50 50 1 1 B
-X 10 10 250 -350 100 L 50 50 1 1 B
-X 2 2 250 450 100 L 50 50 1 1 B
-X 3 3 250 350 100 L 50 50 1 1 B
-X 4 4 250 250 100 L 50 50 1 1 B
-X 5 5 250 150 100 L 50 50 1 1 B
-X 6 6 250 50 100 L 50 50 1 1 B
-X 7 7 250 -50 100 L 50 50 1 1 B
-X 8 8 250 -150 100 L 50 50 1 1 B
-X 9 9 250 -250 100 L 50 50 1 1 B
+S -100 600 100 -600 0 1 0 f
+X ~ 1 200 550 100 L 50 50 1 1 I
+X ~ 10 200 -350 100 L 50 50 1 1 I
+X ~ 11 200 -450 100 L 50 50 1 1 I
+X ~ 12 200 -550 100 L 50 50 1 1 I
+X ~ 2 200 450 100 L 50 50 1 1 I
+X ~ 3 200 350 100 L 50 50 1 1 I
+X ~ 4 200 250 100 L 50 50 1 1 I
+X ~ 5 200 150 100 L 50 50 1 1 I
+X ~ 6 200 50 100 L 50 50 1 1 I
+X ~ 7 200 -50 100 L 50 50 1 1 I
+X ~ 8 200 -150 100 L 50 50 1 1 I
+X ~ 9 200 -250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# formula_MicroFit_RA_V_2
+# formula_MicroFit_V_2
 #
-DEF formula_MicroFit_RA_V_2 J 0 40 Y Y 1 F N
+DEF formula_MicroFit_V_2 J 0 40 Y Y 1 F N
 F0 "J" -100 50 50 H V C CNN
-F1 "formula_MicroFit_RA_V_2" 0 -150 50 H V C CNN
-F2 "footprints:MicroFit_RA_V_2" -50 200 50 H I C CNN
-F3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" -50 200 50 H I C CNN
+F1 "formula_MicroFit_V_2" 0 -150 50 H V C CNN
+F2 "footprints:MicroFit_V_2" -50 200 50 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/430450225_sd.pdf" -50 200 50 H I C CNN
 F4 "MFN" 100 250 50 H I C CNN "DK"
-F5 "WM1865-ND" 200 350 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" 0 150 50 H I C CNN "PurchasingLink"
+F5 "WM10660-ND" 200 350 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180" 0 150 50 H I C CNN "PurchasingLink"
 DRAW
 S 150 -100 -150 100 1 1 0 f
 X 1 1 250 50 100 L 50 50 1 1 B
@@ -562,6 +561,27 @@ F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_R_120_DNP
+#
+DEF formula_R_120_DNP R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula_R_120_DNP" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -1200 150 50 H I L CNN
+F3 "" -1200 450 50 H I L CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "667-ERJ-6ENF1200V" -1200 250 60 H I L CNN "MPN"
+F6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" -1200 350 60 H I L CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -678,8 +698,8 @@ ENDDEF
 DEF formula_TPS560430YF U 0 40 Y Y 1 F N
 F0 "U" -550 -400 50 H V C CNN
 F1 "formula_TPS560430YF" 0 400 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" -50 700 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" 0 550 50 H I C CNN
+F2 "footprints:SOT-23-6_OEM" -50 700 50 H I C CNN
+F3 "" 0 550 50 H I C CNN
 F4 "TPS560430YFDBVR" -50 -1100 50 H I C CNN "MPN"
 F5 "TPS560430YFDBVR-ND" 0 -1000 50 H I C CNN "MFN"
 F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "Purchasing Link"
