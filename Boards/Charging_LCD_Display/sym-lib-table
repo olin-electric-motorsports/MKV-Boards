@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name template-rescue)(type Legacy)(uri ${KIPRJMOD}/template-rescue.lib)(options "")(descr ""))
+  (lib (name Charging_LCD_Display-rescue)(type Legacy)(uri ${KIPRJMOD}/Charging_LCD_Display-rescue.lib)(options "")(descr ""))
+  (lib (name Buck_HighCurrent-rescue)(type Legacy)(uri ${KIPRJMOD}/Buck_HighCurrent-rescue.lib)(options "")(descr ""))
 )
