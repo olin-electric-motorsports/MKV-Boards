@@ -48,7 +48,7 @@ F 3 "" H 1950 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_2.2uF C102
+L Suspension_Travel-rescue:C_2.2uF-formula C102
 U 1 1 5BEE2647
 P 2250 6250
 F 0 "C102" H 2300 6100 50  0000 L CNN
@@ -62,7 +62,7 @@ F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_0.1uF C101
+L Suspension_Travel-rescue:C_0.1uF-formula C101
 U 1 1 5BEE2923
 P 1950 6250
 F 0 "C101" H 2000 6100 50  0000 L CNN
@@ -76,7 +76,7 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 2375 6750 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R103
+L Suspension_Travel-rescue:R_100K-formula R103
 U 1 1 5BEE2A52
 P 3850 6900
 F 0 "R103" V 3950 6850 50  0000 L CNN
@@ -90,7 +90,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:C_0.1uF C103
+L Suspension_Travel-rescue:C_0.1uF-formula C103
 U 1 1 5BEE239B
 P 3850 6050
 F 0 "C103" V 3790 6190 50  0000 C CNN
@@ -117,7 +117,7 @@ $EndComp
 Text Label 9800 6150 0    50   ~ 0
 12V
 $Comp
-L formula:C_22uF COUT101
+L Suspension_Travel-rescue:C_22uF-formula COUT101
 U 1 1 5C061BB4
 P 4650 6350
 F 0 "COUT101" H 4540 6600 50  0000 L CNN
@@ -131,7 +131,7 @@ F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160A
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_47uF COUT103
+L Suspension_Travel-rescue:C_47uF-formula COUT103
 U 1 1 5C062E7A
 P 5450 6350
 F 0 "COUT103" H 5350 6600 50  0000 L CNN
@@ -145,35 +145,36 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A47
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_33uF COUT102
+L Suspension_Travel-rescue:C_33uF-formula COUT102
 U 1 1 5C08921B
 P 5050 6350
 F 0 "COUT102" H 4950 6600 50  0000 L CNN
 F 1 "C_33uF" H 5060 6250 50  0000 L CNN
-F 2 "footprints:C_1812_OEM" H 5100 5950 50  0001 C CNN
+F 2 "footprints:Fuse_1812" H 5100 5950 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 5050 7000 50  0001 C CNN
-F 4 "C4532X7R1C336M250KC" H 5100 5850 60  0001 C CNN "MFN"
+F 4 "DK" H 5100 5850 60  0001 C CNN "MFN"
 F 5 "445-3924-1-ND" H 5050 6700 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431" H 5300 6850 60  0001 C CNN "PurchasingLink"
 	1    5050 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_25K R102
+L Suspension_Travel-rescue:R_25K-formula R102
 U 1 1 5C0B315C
 P 3350 6900
 F 0 "R102" V 3450 6850 50  0000 L CNN
 F 1 "R_25K" V 3250 6800 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 3400 6350 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English" H 3350 6500 50  0001 C CNN
-F 4 "A124124CT-ND" H 2750 6900 60  0001 C CNN "MFN"
+F 4 "DK" H 2750 6900 60  0001 C CNN "MFN"
 F 5 "CPF-A-0805B25KE" H 3400 7400 60  0001 C CNN "Digi-key Part Number"
 F 6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044" H 3400 7300 60  0001 C CNN "PurchasingLink"
+F 7 "A124124CT-ND" H 0   0   50  0001 C CNN "MPN"
 	1    3350 6900
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:F_500mA_16V F101
+L Suspension_Travel-rescue:F_500mA_16V-formula F101
 U 1 1 5C0BFA29
 P 1150 6100
 F 0 "F101" V 1230 6100 50  0000 C CNN
@@ -187,7 +188,7 @@ F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-178
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_0_2512 R104
+L Suspension_Travel-rescue:R_0_2512-formula R104
 U 1 1 5C0C29A9
 P 6000 6200
 F 0 "R104" V 5800 6200 50  0000 C CNN
@@ -201,7 +202,7 @@ F 6 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 6480 6600 60  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D103
+L Suspension_Travel-rescue:LED_0805-formula D103
 U 1 1 5C0C344A
 P 6400 7050
 F 0 "D103" V 6600 7030 50  0000 R CNN
@@ -215,7 +216,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 6800 7550 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_200 R105
+L Suspension_Travel-rescue:R_200-formula R105
 U 1 1 5C0C44F9
 P 6400 6450
 F 0 "R105" H 6470 6496 50  0000 L CNN
@@ -240,7 +241,7 @@ F 3 "" H 6400 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:D_Zener_18V D101
+L Suspension_Travel-rescue:D_Zener_18V-formula D101
 U 1 1 5C623D49
 P 800 6400
 F 0 "D101" H 790 6590 50  0000 C CNN
@@ -267,7 +268,7 @@ $EndComp
 Text Label 800  5800 0    50   ~ 0
 12V
 $Comp
-L formula:LED_0805 D102
+L Suspension_Travel-rescue:LED_0805-formula D102
 U 1 1 5C754D7D
 P 1550 6650
 F 0 "D102" V 1588 6533 50  0000 R CNN
@@ -279,20 +280,6 @@ F 5 "475-1410-1-ND" H 1550 6650 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1950 7150 60  0001 C CNN "PurchasingLink"
 	1    1550 6650
 	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_200 R101
-U 1 1 5C754D87
-P 1550 6250
-F 0 "R101" H 1620 6296 50  0000 L CNN
-F 1 "R_200" H 1620 6205 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1480 6250 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1630 6250 50  0001 C CNN
-F 4 "DK" H 1550 6250 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 1550 6250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2030 6650 60  0001 C CNN "PurchasingLink"
-	1    1550 6250
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0103
@@ -333,16 +320,17 @@ Bootstrap Capacitor\n
 Text Notes 4750 5950 0    50   ~ 0
 Output Capacitors\n
 $Comp
-L formula:L_100uH L101
+L Suspension_Travel-rescue:L_100uH-formula L101
 U 1 1 5BEE27A2
 P 4250 6200
 F 0 "L101" H 4250 6300 50  0000 C CNN
 F 1 "L_100uH" H 4250 6150 50  0000 C CNN
-F 2 "formula:L_100uH" H 4150 6000 50  0001 C CNN
+F 2 "footprints:L_100uH_OEM" H 4150 6000 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 4150 6050 50  0001 C CNN
 F 4 "Digikey" H 4350 6000 50  0001 C CNN "MFN"
 F 5 "445-15759-1-ND" H 4250 6450 50  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 4550 6400 50  0001 C CNN "Link"
+F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    4250 6200
 	1    0    0    -1  
 $EndComp
@@ -399,7 +387,7 @@ Text Notes 6250 7300 1    50   ~ 0
 Text Notes 10600 7650 0    50   ~ 0
 2
 $Comp
-L formula:ATMEGA16M1 U2
+L Suspension_Travel-rescue:ATMEGA16M1-formula U2
 U 1 1 5D58A7A6
 P 2550 2700
 F 0 "U2" H 3450 4560 50  0000 C CNN
@@ -425,7 +413,7 @@ SCK
 Text Label 4300 3700 0    50   ~ 0
 RESET
 $Comp
-L formula:R_100 R1
+L Suspension_Travel-rescue:R_100-formula R1
 U 1 1 5D58E16F
 P 1150 1150
 F 0 "R1" V 1050 1100 50  0000 L CNN
@@ -439,7 +427,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 1630 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_100pF C3
+L Suspension_Travel-rescue:C_100pF-formula C3
 U 1 1 5D58E505
 P 1150 1450
 F 0 "C3" V 1200 1300 50  0000 L CNN
@@ -475,7 +463,7 @@ F 3 "" H 1150 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Crystal_SMD Y1
+L Suspension_Travel-rescue:Crystal_SMD-formula Y1
 U 1 1 5D5EB332
 P 4100 4100
 F 0 "Y1" H 3810 4170 50  0000 L CNN
@@ -489,7 +477,7 @@ F 6 "https://www.digikey.com/product-detail/en/txc-corporation/7M-16.000MAAJ-T/8
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_30pF C4
+L Suspension_Travel-rescue:C_30pF-formula C4
 U 1 1 5D5EB5B2
 P 3900 4350
 F 0 "C4" H 3790 4430 50  0000 L CNN
@@ -503,7 +491,7 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_30pF C5
+L Suspension_Travel-rescue:C_30pF-formula C5
 U 1 1 5D5EB694
 P 4300 4350
 F 0 "C5" H 4320 4430 50  0000 L CNN
@@ -517,7 +505,7 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_10K R3
+L Suspension_Travel-rescue:R_10K-formula R3
 U 1 1 5D5EB7F3
 P 4150 3500
 F 0 "R3" V 4070 3500 50  0000 C CNN
@@ -597,7 +585,7 @@ F 3 "" H 1300 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MCP2561-E_SN U1
+L Suspension_Travel-rescue:MCP2561-E_SN-formula U1
 U 1 1 5D5FAEDE
 P 9900 1750
 F 0 "U1" H 10260 2100 50  0000 C CNN
@@ -611,7 +599,7 @@ F 6 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" H 9900 2500 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_0.1uF C1
+L Suspension_Travel-rescue:C_0.1uF-formula C1
 U 1 1 5D5FB603
 P 9750 1150
 F 0 "C1" V 9700 1260 50  0000 C CNN
@@ -756,7 +744,7 @@ $EndComp
 Text Label 10900 6000 2    50   ~ 0
 GND
 $Comp
-L formula:CONN_02X03 J1
+L Suspension_Travel-rescue:CONN_02X03-formula J1
 U 1 1 5D628C9D
 P 9950 3450
 F 0 "J1" H 9950 3660 50  0000 C CNN
@@ -816,7 +804,7 @@ Wire Wire Line
 	1450 1300 1150 1300
 Connection ~ 1150 1300
 $Comp
-L formula:C_0.1uF C2
+L Suspension_Travel-rescue:C_0.1uF-formula C2
 U 1 1 5D58E34B
 P 800 1150
 F 0 "C2" V 850 1010 50  0000 L CNN
@@ -902,15 +890,15 @@ Wire Wire Line
 Wire Wire Line
 	10900 6000 10900 6150
 $Comp
-L formula:TPS560430YF U101
+L Suspension_Travel-rescue:TPS560430YF-formula U101
 U 1 1 5C75D405
 P 2950 6250
 F 0 "U101" H 2975 6715 50  0000 C CNN
 F 1 "TPS560430YF" H 2975 6624 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 2900 6950 50  0001 C CNN
+F 2 "footprints:SOT-23-6_OEM" H 2900 6950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 2950 6800 50  0001 C CNN
-F 4 "TPS560430YFDBVR" H 2900 5150 50  0001 C CNN "MPN"
-F 5 "TPS560430YFDBVR-ND" H 2950 5250 50  0001 C CNN "MFN"
+F 4 "TPS560430YFDBVR-ND" H 2900 5150 50  0001 C CNN "MPN"
+F 5 "DK" H 2950 5250 50  0001 C CNN "MFN"
 F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 3700 5350 50  0001 C CNN "Purchasing Link"
 	1    2950 6250
 	1    0    0    -1  
@@ -973,11 +961,6 @@ Wire Wire Line
 Connection ~ 800  6100
 Wire Wire Line
 	800  6100 800  6250
-Wire Wire Line
-	1300 6100 1550 6100
-Connection ~ 1550 6100
-Wire Wire Line
-	1550 6100 1950 6100
 Connection ~ 1950 6100
 Wire Wire Line
 	1950 6100 2250 6100
@@ -998,7 +981,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 1850 10500 1850
 $Comp
-L formula:R_1K_0.1 R4
+L Suspension_Travel-rescue:R_1K_0.1-formula R4
 U 1 1 5DB7BFAF
 P 4800 1150
 F 0 "R4" H 4870 1196 50  0000 L CNN
@@ -1012,7 +995,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:LED_0805 D1
+L Suspension_Travel-rescue:LED_0805-formula D1
 U 1 1 5DB8F533
 P 6900 2950
 F 0 "D1" H 6893 3166 50  0000 C CNN
@@ -1045,7 +1028,7 @@ PROGRAMMINGLED1
 Wire Wire Line
 	6750 2950 6650 2950
 $Comp
-L formula:C_22uF C6
+L Suspension_Travel-rescue:C_22uF-formula C6
 U 1 1 5DBF0507
 P 4800 1600
 F 0 "C6" H 4915 1646 50  0000 L CNN
@@ -1060,9 +1043,9 @@ F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160A
 $EndComp
 Wire Wire Line
 	4800 1300 4800 1400
-Text Label 7250 1100 0    50   ~ 0
-12V
 Text Label 7250 1000 0    50   ~ 0
+12V
+Text Label 7250 1100 0    50   ~ 0
 GND
 Text Label 7250 1200 0    50   ~ 0
 CAN_HI
@@ -1083,7 +1066,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 1000 4800 750 
 $Comp
-L formula:R_200 R6
+L Suspension_Travel-rescue:R_200-formula R6
 U 1 1 5DCC038A
 P 7200 2950
 F 0 "R6" V 6993 2950 50  0000 C CNN
@@ -1113,7 +1096,7 @@ F 3 "" H 4800 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:LED_0805 D2
+L Suspension_Travel-rescue:LED_0805-formula D2
 U 1 1 5DCFD898
 P 6900 3450
 F 0 "D2" H 6893 3666 50  0000 C CNN
@@ -1142,7 +1125,7 @@ PROGRAMMINGLED2
 Wire Wire Line
 	6750 3450 6650 3450
 $Comp
-L formula:R_200 R7
+L Suspension_Travel-rescue:R_200-formula R7
 U 1 1 5DCFD8A9
 P 7200 3450
 F 0 "R7" V 6993 3450 50  0000 C CNN
@@ -1156,7 +1139,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7680 38
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:LED_0805 D3
+L Suspension_Travel-rescue:LED_0805-formula D3
 U 1 1 5DD00512
 P 6900 3950
 F 0 "D3" H 6893 4166 50  0000 C CNN
@@ -1185,7 +1168,7 @@ PROGRAMMINGLED3
 Wire Wire Line
 	6750 3950 6650 3950
 $Comp
-L formula:R_200 R8
+L Suspension_Travel-rescue:R_200-formula R8
 U 1 1 5DD00523
 P 7200 3950
 F 0 "R8" V 6993 3950 50  0000 C CNN
@@ -1212,7 +1195,7 @@ $EndComp
 Text Label 8250 5950 0    50   ~ 0
 POT1_GND
 $Comp
-L formula:MM_F_RA_08 J2
+L Suspension_Travel-rescue:MM_F_RA_08-formula J2
 U 1 1 5DD0966E
 P 7000 1300
 F 0 "J2" H 7058 1847 60  0000 C CNN
@@ -1268,7 +1251,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 1900 10700 1900
 $Comp
-L formula:R_120_DNP R2
+L Suspension_Travel-rescue:R_120_DNP-formula R2
 U 1 1 5DCE4A2C
 P 10700 1750
 F 0 "R2" H 10770 1796 50  0000 L CNN
@@ -1292,4 +1275,23 @@ POT1_MICRO
 Text Label 3650 1500 0    50   ~ 0
 PROGRAMMINGLED1
 NoConn ~ 3650 1300
+Wire Wire Line
+	1300 6100 1550 6100
+$Comp
+L formula:R_1K R101
+U 1 1 5DF48174
+P 1550 6250
+F 0 "R101" H 1620 6296 50  0000 L CNN
+F 1 "R_1K" H 1620 6205 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1480 6250 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1630 6250 50  0001 C CNN
+F 4 "DK" H 1550 6250 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 1550 6250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 2030 6650 60  0001 C CNN "PurchasingLink"
+	1    1550 6250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 6100
+Wire Wire Line
+	1550 6100 1950 6100
 $EndSCHEMATC
