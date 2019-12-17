@@ -500,11 +500,11 @@ Text Label 5350 4450 0    50   ~ 0
 PrechargeCTL
 Text Label 5350 5750 0    50   ~ 0
 AIR+LSD
-Text Label 5350 4550 0    50   ~ 0
-SS_HVD
-Text Label 5350 5850 0    50   ~ 0
-SS_IMD
 Text Label 5350 4950 0    50   ~ 0
+SS_HVD
+Text Label 5350 4650 0    50   ~ 0
+SS_IMD
+Text Label 5350 5850 0    50   ~ 0
 SS_BMS
 Text Label 5350 5350 0    50   ~ 0
 CANTX
@@ -1025,20 +1025,6 @@ F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-178
 $EndComp
 Wire Wire Line
 	8500 5750 8650 5750
-$Comp
-L formula:R_200 R101
-U 1 1 5DB3C5F0
-P 8950 5900
-F 0 "R101" V 9050 5850 50  0000 L CNN
-F 1 "R_200" V 8850 5750 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 8880 5900 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 9030 5900 50  0001 C CNN
-F 4 "DK" H 8950 5900 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 8950 5900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9430 6300 60  0001 C CNN "PurchasingLink"
-	1    8950 5900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9300 5750 9600 5750
 Connection ~ 9600 5750
@@ -1050,7 +1036,6 @@ Connection ~ 8500 5750
 Connection ~ 9300 5750
 Wire Wire Line
 	8950 5750 9300 5750
-Connection ~ 8950 5750
 Wire Wire Line
 	10600 5850 10900 5850
 Wire Wire Line
@@ -2112,7 +2097,7 @@ Wire Wire Line
 Connection ~ 8000 1700
 Text Label 8100 1200 0    50   ~ 0
 Air-Coil-
-Text Label 5350 4850 0    50   ~ 0
+Text Label 5350 4550 0    50   ~ 0
 SS_TSMS
 $Comp
 L formula:R_1K R33
@@ -2298,20 +2283,6 @@ F 4 "DK" H 3500 1450 60  0001 C CNN "MFN"
 F 5 "CRS0805-FX-1002ELFCT-ND" H 3500 1450 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3980 1850 60  0001 C CNN "PurchasingLink"
 	1    3500 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MicroFit_RA_V_2 J2
-U 1 1 5DA98DF4
-P 900 5000
-F 0 "J2" H 900 4850 50  0000 C CNN
-F 1 "MicroFit_RA_V_2" H 958 5184 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_V_2" H 850 5200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" H 850 5200 50  0001 C CNN
-F 4 "MFN" H 1000 5250 50  0001 C CNN "DK"
-F 5 "WM1865-ND" H 1100 5350 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 900 5150 50  0001 C CNN "PurchasingLink"
-	1    900  5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2500,7 +2471,7 @@ Wire Wire Line
 	1800 5100 1800 4950
 Wire Wire Line
 	1150 4950 1800 4950
-Text Label 5350 4650 0    50   ~ 0
+Text Label 5350 4850 0    50   ~ 0
 SS_HVDConn
 NoConn ~ 5350 5250
 NoConn ~ 5350 6150
@@ -2552,4 +2523,33 @@ $EndComp
 Wire Wire Line
 	10400 4150 10600 4150
 Connection ~ 10400 4150
+$Comp
+L formula:MicroFit_V_2 J2
+U 1 1 5DE9EAE3
+P 900 5000
+F 0 "J2" H 700 5000 50  0000 C CNN
+F 1 "MicroFit_V_2" H 958 5184 50  0000 C CNN
+F 2 "footprints:MicroFit_V_2" H 850 5200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450225_sd.pdf" H 850 5200 50  0001 C CNN
+F 4 "MFN" H 1000 5250 50  0001 C CNN "DK"
+F 5 "WM10660-ND" H 1100 5350 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180" H 900 5150 50  0001 C CNN "PurchasingLink"
+	1    900  5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_1K R101
+U 1 1 5DEA856F
+P 8950 5900
+F 0 "R101" V 9050 5800 50  0000 L CNN
+F 1 "R_1K" V 8850 5800 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 8880 5900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 9030 5900 50  0001 C CNN
+F 4 "DK" H 8950 5900 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 8950 5900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 9430 6300 60  0001 C CNN "PurchasingLink"
+	1    8950 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 8950 5750
 $EndSCHEMATC
