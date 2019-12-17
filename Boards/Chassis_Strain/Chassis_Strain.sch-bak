@@ -149,7 +149,7 @@ U 1 1 5C08921B
 P 5050 6350
 F 0 "COUT102" H 4950 6600 50  0000 L CNN
 F 1 "C_33uF" H 5060 6250 50  0000 L CNN
-F 2 "footprints:Fuse_1812" H 5100 5950 50  0001 C CNN
+F 2 "footprints:C_1812_OEM" H 5100 5950 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 5050 7000 50  0001 C CNN
 F 4 "C4532X7R1C336M250KC" H 5100 5850 60  0001 C CNN "MFN"
 F 5 "445-3924-1-ND" H 5050 6700 60  0001 C CNN "MPN"
@@ -321,7 +321,7 @@ U 1 1 5BEE27A2
 P 4250 6200
 F 0 "L101" H 4250 6300 50  0000 C CNN
 F 1 "L_100uH" H 4250 6150 50  0000 C CNN
-F 2 "footprints:L_100uH" H 4150 6000 50  0001 C CNN
+F 2 "footprints:L_100uH_OEM" H 4150 6000 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 4150 6050 50  0001 C CNN
 F 4 "Digikey" H 4350 6000 50  0001 C CNN "MFN"
 F 5 "445-15759-1-ND" H 4250 6450 50  0001 C CNN "MPN"
@@ -864,7 +864,7 @@ U 1 1 5C75D405
 P 2950 6250
 F 0 "U101" H 2975 6715 50  0000 C CNN
 F 1 "TPS560430YF" H 2975 6624 50  0000 C CNN
-F 2 "footprints:SOT-23-6_OEM" H 2900 6950 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 2900 6950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 2950 6800 50  0001 C CNN
 F 4 "TPS560430YFDBVR" H 2900 5150 50  0001 C CNN "MPN"
 F 5 "TPS560430YFDBVR-ND" H 2950 5250 50  0001 C CNN "MFN"
@@ -1045,7 +1045,7 @@ sg_to_atmega_adc_4
 Text Label 3650 1200 0    50   ~ 0
 sg_to_atmega_adc_5
 Text Label 3650 1500 0    50   ~ 0
-mux_output_to_atmega_adc_6
+mux_out_to_atmega_adc_6
 Text Label 7350 4900 2    50   ~ 0
 mux_enable_input
 Wire Wire Line
@@ -1061,17 +1061,6 @@ Text Label 6050 1600 2    50   ~ 0
 sg_to_atmega_adc_5
 Wire Wire Line
 	6950 5000 7250 5000
-$Comp
-L power:VCC #PWR0116
-U 1 1 5DE70FEF
-P 7350 5200
-F 0 "#PWR0116" H 7350 5050 50  0001 C CNN
-F 1 "VCC" V 7368 5327 50  0000 L CNN
-F 2 "" H 7350 5200 50  0001 C CNN
-F 3 "" H 7350 5200 50  0001 C CNN
-	1    7350 5200
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Formula:74HC4051 U102
 U 1 1 5DE6B705
@@ -1136,7 +1125,7 @@ Connection ~ 1550 6100
 Wire Wire Line
 	1550 6100 1950 6100
 Text Label 6050 3500 2    50   ~ 0
-sg_to_mux_y7
+sg_to_mux_Y7
 Text Label 6050 3300 2    50   ~ 0
 sg_to_mux_Y6
 Text Label 6050 3100 2    50   ~ 0
@@ -1203,7 +1192,7 @@ F35 "r_strain_12_+" O R 7600 3850 50
 F36 "r_strain_12_-" I R 7600 3950 50 
 F37 "strain_gauge_vout_12" O L 6050 3500 50 
 $EndSheet
-Text Label 8200 1000 2    50   ~ 0
+Text Label 8050 1000 2    50   ~ 0
 12V
 $Comp
 L power:GND #PWR0117
@@ -1342,4 +1331,53 @@ Wire Wire Line
 	3650 1100 4000 1100
 Wire Wire Line
 	3650 700  3650 1000
+$Comp
+L power:VCC #PWR0116
+U 1 1 5DE70FEF
+P 6200 5200
+F 0 "#PWR0116" H 6200 5050 50  0001 C CNN
+F 1 "VCC" H 6218 5327 50  0000 L CNN
+F 2 "" H 6200 5200 50  0001 C CNN
+F 3 "" H 6200 5200 50  0001 C CNN
+	1    6200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Formula:C_0.1uF C104
+U 1 1 5DFE3335
+P 6200 5350
+F 0 "C104" H 6315 5396 50  0000 L CNN
+F 1 "C_0.1uF" H 6315 5305 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 6238 5200 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6225 5450 50  0001 C CNN
+F 4 "DK" H 6200 5350 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 6200 5350 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 6625 5850 60  0001 C CNN "PurchasingLink"
+	1    6200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5DFE3F49
+P 6200 5500
+F 0 "#PWR0118" H 6200 5250 50  0001 C CNN
+F 1 "GND" H 6205 5327 50  0000 C CNN
+F 2 "" H 6200 5500 50  0001 C CNN
+F 3 "" H 6200 5500 50  0001 C CNN
+	1    6200 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5200 7350 5200
+Connection ~ 6200 5200
+NoConn ~ 3650 1300
+NoConn ~ 3650 2800
+NoConn ~ 3650 2900
+NoConn ~ 3650 3500
+NoConn ~ 3650 1900
+NoConn ~ 3650 1600
+NoConn ~ 3650 1400
+NoConn ~ 3650 2000
+Wire Wire Line
+	8050 1000 8200 1000
 $EndSCHEMATC
