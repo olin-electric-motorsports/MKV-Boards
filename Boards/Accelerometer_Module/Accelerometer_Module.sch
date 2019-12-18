@@ -392,13 +392,9 @@ ATMEGA328P\n
 Text Notes 7650 3900 1    89   ~ 0
 SD CARD SOCKET
 Wire Notes Line
-	11100 4300 11100 2250
-Wire Notes Line
 	7700 4300 11100 4300
 Wire Notes Line
-	7700 4300 7700 2250
-Wire Notes Line
-	7700 2250 11100 2250
+	7700 2150 11100 2150
 Wire Notes Line
 	5500 2350 5500 3100
 Wire Notes Line
@@ -7186,7 +7182,11 @@ P 7650 1100
 F 0 "U2" H 7625 1387 60  0000 C CNN
 F 1 "LIS3DHTR" H 7625 1281 60  0000 C CNN
 F 2 "footprints:LIS3DHTR" H 7700 1500 60  0001 C CNN
-F 3 "" H 6700 1100 60  0000 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/3c/ae/50/85/d6/b1/46/fe/CD00274221.pdf/files/CD00274221.pdf/jcr:content/translations/en.CD00274221.pdf" H 6700 1100 60  0000 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN " PurchasingLink"
+F 5 "497-10613-1-ND " H 0   0   50  0001 C CNN "MPN"
+F 6 "DK" H 0   0   50  0001 C CNN "MFN"
+F 7 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    7650 1100
 	1    0    0    -1  
 $EndComp
@@ -7411,34 +7411,6 @@ F 3 "" H 3700 1150 50  0001 C CNN
 	1    3700 1150
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:R_200 R2
-U 1 1 5DDFAE72
-P 3500 1550
-F 0 "R2" V 3293 1550 50  0000 C CNN
-F 1 "R_200" V 3384 1550 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3430 1550 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3580 1550 50  0001 C CNN
-F 4 "DK" H 3500 1550 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 3500 1550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 3980 1950 60  0001 C CNN "PurchasingLink"
-	1    3500 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_200 R5
-U 1 1 5DDFC549
-P 3500 1650
-F 0 "R5" V 3400 1650 50  0000 C CNN
-F 1 "R_200" V 3300 1650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3430 1650 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3580 1650 50  0001 C CNN
-F 4 "DK" H 3500 1650 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 3500 1650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 3980 2050 60  0001 C CNN "PurchasingLink"
-	1    3500 1650
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3050 1650 3350 1650
 Wire Wire Line
@@ -7507,23 +7479,12 @@ P 2450 2650
 F 0 "U1" H 2250 4217 50  0000 C CNN
 F 1 "ATmega328P-AU" H 2250 4126 50  0000 C CNN
 F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 2250 4200 50  0001 C CIN
-F 3 "" H 2450 2650 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf" H 2450 2650 50  0001 C CNN
+F 4 "DK" H 0   0   50  0001 C CNN "MFN"
+F 5 "ATMEGA328P-15AZTR-ND" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-15AZ/ATMEGA328P-15AZTR-ND/1914586" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    2450 2650
 	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_200 R4
-U 1 1 5DD90D84
-P 3950 3650
-F 0 "R4" V 3850 3650 50  0000 C CNN
-F 1 "R_200" V 3750 3650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3880 3650 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4030 3650 50  0001 C CNN
-F 4 "DK" H 3950 3650 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 3950 3650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4430 4050 60  0001 C CNN "PurchasingLink"
-	1    3950 3650
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4100 3650 4300 3650
@@ -7626,7 +7587,7 @@ F 0 "COUT102" H 4950 6750 50  0000 L CNN
 F 1 "C_33uF" H 5060 6400 50  0000 L CNN
 F 2 "footprints:Fuse_1812" H 5100 6100 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 5050 7150 50  0001 C CNN
-F 4 "C4532X7R1C336M250KC" H 5100 6000 60  0001 C CNN "MFN"
+F 4 "DK" H 5100 6000 60  0001 C CNN "MFN"
 F 5 "445-3924-1-ND" H 5050 6850 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431" H 5300 7000 60  0001 C CNN "PurchasingLink"
 	1    5050 6500
@@ -7640,9 +7601,10 @@ F 0 "R102" V 3450 7000 50  0000 L CNN
 F 1 "R_25K" V 3250 6950 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 3400 6500 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English" H 3350 6650 50  0001 C CNN
-F 4 "A124124CT-ND" H 2750 7050 60  0001 C CNN "MFN"
+F 4 "DK" H 2750 7050 60  0001 C CNN "MFN"
 F 5 "CPF-A-0805B25KE" H 3400 7550 60  0001 C CNN "Digi-key Part Number"
 F 6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044" H 3400 7450 60  0001 C CNN "PurchasingLink"
+F 7 "A124124CT-ND" H 0   0   50  0001 C CNN "MPN"
 	1    3350 7050
 	0    1    1    0   
 $EndComp
@@ -7687,20 +7649,6 @@ F 5 "475-1410-1-ND" H 6400 7200 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 6800 7700 60  0001 C CNN "PurchasingLink"
 	1    6400 7200
 	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:R_200 R105
-U 1 1 5C0C44F9
-P 6400 6600
-F 0 "R105" H 6470 6646 50  0000 L CNN
-F 1 "R_200" H 6470 6555 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 6330 6600 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6480 6600 50  0001 C CNN
-F 4 "DK" H 6400 6600 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 6400 6600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 6880 7000 60  0001 C CNN "PurchasingLink"
-	1    6400 6600
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR016
@@ -7755,20 +7703,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1950 7300 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_200 R101
-U 1 1 5C754D87
-P 1550 6400
-F 0 "R101" H 1620 6446 50  0000 L CNN
-F 1 "R_200" H 1620 6355 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1480 6400 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1630 6400 50  0001 C CNN
-F 4 "DK" H 1550 6400 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 1550 6400 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2030 6800 60  0001 C CNN "PurchasingLink"
-	1    1550 6400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR05
 U 1 1 5C754D8E
 P 1550 7100
@@ -7782,7 +7716,7 @@ $EndComp
 Text Notes 1800 6150 0    50   ~ 0
 Input Capacitors\n\n
 Text Notes 1450 7150 1    50   ~ 0
-12V Indicator
+9V Indicator
 Text Notes 700  6800 1    50   ~ 0
 Protection\n
 Text Notes 2950 5650 0    89   ~ 0
@@ -7866,9 +7800,10 @@ F 0 "U101" H 2975 6865 50  0000 C CNN
 F 1 "TPS560430YF" H 2975 6774 50  0000 C CNN
 F 2 "footprints:SOT-23-6_OEM" H 2900 7100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 2950 6950 50  0001 C CNN
-F 4 "TPS560430YFDBVR" H 2900 5300 50  0001 C CNN "MPN"
-F 5 "TPS560430YFDBVR-ND" H 2950 5400 50  0001 C CNN "MFN"
+F 4 "TPS560430YFDBVR-ND" H 2900 5300 50  0001 C CNN "MPN"
+F 5 "DK" H 2950 5400 50  0001 C CNN "MFN"
 F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 3700 5500 50  0001 C CNN "Purchasing Link"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    2950 6400
 	1    0    0    -1  
 $EndComp
@@ -7930,11 +7865,6 @@ Wire Wire Line
 Connection ~ 800  6250
 Wire Wire Line
 	800  6250 800  6400
-Wire Wire Line
-	1300 6250 1550 6250
-Connection ~ 1550 6250
-Wire Wire Line
-	1550 6250 1950 6250
 Connection ~ 1950 6250
 Wire Wire Line
 	1550 6550 1550 6650
@@ -10191,6 +10121,9 @@ F 0 "U3" H 8350 6150 50  0000 C CNN
 F 1 "INA260" H 8350 6050 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8150 5100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina260.pdf" H 8150 5600 50  0001 C CNN
+F 4 "DK" H 0   0   50  0001 C CNN "MFN"
+F 5 "296-47777-1-ND" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/INA260AIPWR/296-47777-1-ND/8133126" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    8150 5700
 	1    0    0    -1  
 $EndComp
@@ -10353,20 +10286,6 @@ ALERT
 Wire Wire Line
 	3050 3650 3800 3650
 $Comp
-L formula:R_200 R1
-U 1 1 5DEEA713
-P 3300 3750
-F 0 "R1" V 3100 3750 50  0000 C CNN
-F 1 "R_200" V 3200 3750 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3230 3750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3380 3750 50  0001 C CNN
-F 4 "DK" H 3300 3750 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 3300 3750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 3780 4150 60  0001 C CNN "PurchasingLink"
-	1    3300 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L formula:LED_0805_Red D1
 U 1 1 5DEEFDA2
 P 3550 3950
@@ -10455,6 +10374,7 @@ F 3 "https://product.tdk.com/info/en/documents/catalog/inductor_commercial_decou
 F 4 "Digikey" H 4350 6150 50  0001 C CNN "MFN"
 F 5 "445-1539-1-ND" H 4250 6600 50  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLCV32T-150K-PF/445-1539-1-ND/571847" H 4550 6550 50  0001 C CNN "Link"
+F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/NLCV32T-150K-PF/445-1539-1-ND/571847" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    4250 6350
 	1    0    0    -1  
 $EndComp
@@ -12773,52 +12693,10 @@ Wire Notes Line
 	7450 3200 7450 4500
 Wire Notes Line
 	5300 3200 5300 4500
-$Comp
-L formula:R_200 R12
-U 1 1 5DF0C6B3
-P 5600 3600
-F 0 "R12" V 5500 3600 50  0000 C CNN
-F 1 "R_200" V 5400 3600 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5530 3600 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5680 3600 50  0001 C CNN
-F 4 "DK" H 5600 3600 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 5600 3600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 6080 4000 60  0001 C CNN "PurchasingLink"
-	1    5600 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 3750 5600 3800
-$Comp
-L formula:R_200 R13
-U 1 1 5DF0CF00
-P 6250 3600
-F 0 "R13" V 6150 3600 50  0000 C CNN
-F 1 "R_200" V 6050 3600 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 6180 3600 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6330 3600 50  0001 C CNN
-F 4 "DK" H 6250 3600 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 6250 3600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 6730 4000 60  0001 C CNN "PurchasingLink"
-	1    6250 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6250 3750 6250 3800
-$Comp
-L formula:R_200 R14
-U 1 1 5DF0D631
-P 6850 3600
-F 0 "R14" V 6750 3600 50  0000 C CNN
-F 1 "R_200" V 6650 3600 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 6780 3600 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6930 3600 50  0001 C CNN
-F 4 "DK" H 6850 3600 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 6850 3600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7330 4000 60  0001 C CNN "PurchasingLink"
-	1    6850 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 3750 6850 3800
 Wire Notes Line
@@ -12828,15 +12706,15 @@ Wire Notes Line
 $Comp
 L formula:R_10K R11
 U 1 1 5DE15475
-P 2050 4450
-F 0 "R11" V 2250 4350 50  0000 L CNN
-F 1 "R_10K" V 2150 4350 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1980 4450 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 2130 4450 50  0001 C CNN
-F 4 "DK" H 2050 4450 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 2050 4450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 2530 4850 60  0001 C CNN "PurchasingLink"
-	1    2050 4450
+P 2950 4500
+F 0 "R11" V 3150 4400 50  0000 L CNN
+F 1 "R_10K" V 3050 4400 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 2880 4500 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 3030 4500 50  0001 C CNN
+F 4 "DK" H 2950 4500 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 2950 4500 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3430 4900 60  0001 C CNN "PurchasingLink"
+	1    2950 4500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -12847,24 +12725,167 @@ Wire Wire Line
 	2500 4350 1700 4350
 Wire Wire Line
 	1700 4350 1700 4300
-Wire Wire Line
-	1700 4350 1700 4450
-Wire Wire Line
-	1700 4450 1900 4450
-Connection ~ 1700 4350
 $Comp
 L power:GND #PWR0105
 U 1 1 5DE13BAB
-P 2350 4500
-F 0 "#PWR0105" H 2350 4250 50  0001 C CNN
-F 1 "GND" H 2355 4327 50  0000 C CNN
-F 2 "" H 2350 4500 50  0001 C CNN
-F 3 "" H 2350 4500 50  0001 C CNN
-	1    2350 4500
+P 2700 4500
+F 0 "#PWR0105" H 2700 4250 50  0001 C CNN
+F 1 "GND" H 2705 4327 50  0000 C CNN
+F 2 "" H 2700 4500 50  0001 C CNN
+F 3 "" H 2700 4500 50  0001 C CNN
+	1    2700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5DE83FB5
+P 9150 2400
+F 0 "#PWR0106" H 9150 2250 50  0001 C CNN
+F 1 "VCC" H 9167 2573 50  0000 C CNN
+F 2 "" H 9150 2400 50  0001 C CNN
+F 3 "" H 9150 2400 50  0001 C CNN
+	1    9150 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 9150 2400
+Wire Notes Line
+	11100 2150 11100 4300
+Wire Notes Line
+	7700 2150 7700 4300
+Wire Wire Line
+	2800 4500 2700 4500
+Wire Wire Line
+	3100 4500 3100 4350
+Connection ~ 3100 4350
+$Comp
+L formula:R_499 R101
+U 1 1 5DF32EB6
+P 1550 6400
+F 0 "R101" H 1620 6446 50  0000 L CNN
+F 1 "R_499" H 1620 6355 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1480 6400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 1630 6400 50  0001 C CNN
+F 4 "DK" H 1550 6400 60  0001 C CNN "MFN"
+F 5 "P499CCT-ND" H 1550 6400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF4990V/P499CCT-ND/118870" H 2030 6800 60  0001 C CNN "PurchasingLink"
+	1    1550 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 4450 2350 4450
+	1300 6250 1550 6250
+Connection ~ 1550 6250
 Wire Wire Line
-	2350 4450 2350 4500
+	1550 6250 1950 6250
+$Comp
+L formula:R_100 R105
+U 1 1 5DF41EAB
+P 6400 6600
+F 0 "R105" H 6470 6646 50  0000 L CNN
+F 1 "R_100" H 6470 6555 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 5600 6750 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 6100 7100 50  0001 C CNN
+F 4 "DK" H 6400 6600 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 5750 6850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 6880 7000 60  0001 C CNN "PurchasingLink"
+	1    6400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_100 R1
+U 1 1 5DF54AE1
+P 3300 3750
+F 0 "R1" V 3100 3750 50  0000 C CNN
+F 1 "R_100" V 3200 3750 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 2500 3900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3000 4250 50  0001 C CNN
+F 4 "DK" H 3300 3750 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 2650 4000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 3780 4150 60  0001 C CNN "PurchasingLink"
+	1    3300 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:R_100 R4
+U 1 1 5DF58B44
+P 3950 3650
+F 0 "R4" V 3743 3650 50  0000 C CNN
+F 1 "R_100" V 3834 3650 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3150 3800 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3650 4150 50  0001 C CNN
+F 4 "DK" H 3950 3650 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 3300 3900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4430 4050 60  0001 C CNN "PurchasingLink"
+	1    3950 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_100 R5
+U 1 1 5DF591B3
+P 3500 1650
+F 0 "R5" V 3300 1650 50  0000 C CNN
+F 1 "R_100" V 3400 1650 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 2700 1800 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3200 2150 50  0001 C CNN
+F 4 "DK" H 3500 1650 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 2850 1900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 3980 2050 60  0001 C CNN "PurchasingLink"
+	1    3500 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:R_100 R2
+U 1 1 5DF5CFDA
+P 3500 1550
+F 0 "R2" V 3293 1550 50  0000 C CNN
+F 1 "R_100" V 3384 1550 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 2700 1700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3200 2050 50  0001 C CNN
+F 4 "DK" H 3500 1550 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 2850 1800 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 3980 1950 60  0001 C CNN "PurchasingLink"
+	1    3500 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_100 R12
+U 1 1 5DF5EA95
+P 5600 3600
+F 0 "R12" H 5670 3646 50  0000 L CNN
+F 1 "R_100" H 5670 3555 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 4800 3750 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5300 4100 50  0001 C CNN
+F 4 "DK" H 5600 3600 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 4950 3850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 6080 4000 60  0001 C CNN "PurchasingLink"
+	1    5600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_100 R13
+U 1 1 5DF60F28
+P 6250 3600
+F 0 "R13" H 6320 3646 50  0000 L CNN
+F 1 "R_100" H 6320 3555 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 5450 3750 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5950 4100 50  0001 C CNN
+F 4 "DK" H 6250 3600 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 5600 3850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 6730 4000 60  0001 C CNN "PurchasingLink"
+	1    6250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_100 R14
+U 1 1 5DF614F3
+P 6850 3600
+F 0 "R14" H 6920 3646 50  0000 L CNN
+F 1 "R_100" H 6920 3555 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 6050 3750 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 6550 4100 50  0001 C CNN
+F 4 "DK" H 6850 3600 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 6200 3850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7330 4000 60  0001 C CNN "PurchasingLink"
+	1    6850 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
