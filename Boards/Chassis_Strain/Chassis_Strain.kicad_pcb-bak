@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 6)
     (tracks 318)
     (zones 0)
     (modules 147)
@@ -6539,6 +6539,12 @@
     )
   )
 
+  (gr_text "Into MUX" (at 177.673 222.631) (layer F.Cu)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "Not into MUX\n" (at 217.678 80.137) (layer F.Cu)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text GND (at 107.65282 95.3389) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )

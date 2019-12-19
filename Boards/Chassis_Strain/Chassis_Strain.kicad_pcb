@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 6)
+    (drawings 9)
     (tracks 318)
     (zones 0)
     (modules 147)
@@ -63,7 +63,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFFF77F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -6539,10 +6539,19 @@
     )
   )
 
+  (gr_text "Strain gauge circuits going into\nATMEGA directly will go here" (at 188.087 120.269) (layer Eco2.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "Strain gauge circuits going into multiplexer will go here" (at 138.557 144.399) (layer Eco2.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "<- One strain gauge circuit\n" (at 188.849 109.728) (layer Eco2.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "Into MUX" (at 177.673 222.631) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "Not into MUX\n" (at 217.678 80.137) (layer F.Cu)
+  (gr_text "Not into MUX\n" (at 218.186 79.375) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text GND (at 107.65282 95.3389) (layer F.SilkS)
