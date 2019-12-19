@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:bms-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -596,20 +597,6 @@ F 3 "" H 1300 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MCP2561-E_SN U1
-U 1 1 5D5FAEDE
-P 9900 1750
-F 0 "U1" H 10260 2100 50  0000 C CNN
-F 1 "MCP2561-E_SN" H 10250 1390 50  0000 C CNN
-F 2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" H 9900 1250 50  0001 C CIN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" H 9500 2100 50  0001 C CNN
-F 4 "DK" H 9900 1750 60  0001 C CNN "MFN"
-F 5 "MCP2561-E/SN-ND" H 9900 1750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" H 9900 2500 60  0001 C CNN "PurchasingLink"
-	1    9900 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:C_0.1uF C1
 U 1 1 5D5FB603
 P 9750 1150
@@ -669,17 +656,6 @@ F 1 "GND" H 9905 1977 50  0000 C CNN
 F 2 "" H 9900 2150 50  0001 C CNN
 F 3 "" H 9900 2150 50  0001 C CNN
 	1    9900 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5D607469
-P 9400 1950
-F 0 "#PWR05" H 9400 1700 50  0001 C CNN
-F 1 "GND" H 9405 1777 50  0000 C CNN
-F 2 "" H 9400 1950 50  0001 C CNN
-F 3 "" H 9400 1950 50  0001 C CNN
-	1    9400 1950
 	1    0    0    -1  
 $EndComp
 Text Label 9400 1550 2    50   ~ 0
@@ -812,8 +788,6 @@ F 3 "" H 10200 3350 50  0001 C CNN
 	1    10200 3350
 	1    0    0    -1  
 $EndComp
-Text Notes 8950 3100 0    89   ~ 0
-16M1 PROGRAMMING HEADER\n
 $Comp
 L power:VCC #PWR018
 U 1 1 5DB132A0
@@ -886,8 +860,6 @@ Wire Wire Line
 	4450 3500 4450 3350
 Wire Wire Line
 	9600 1150 9600 1300
-Wire Wire Line
-	10400 1650 10500 1650
 Wire Wire Line
 	10500 1650 10500 1600
 Wire Wire Line
@@ -974,8 +946,6 @@ Connection ~ 2500 6100
 Wire Wire Line
 	2500 6100 2600 6100
 Wire Wire Line
-	10400 1850 10500 1850
-Wire Wire Line
 	800  1000 1450 1000
 Wire Wire Line
 	9900 1000 9900 1350
@@ -990,12 +960,305 @@ Wire Wire Line
 $Comp
 L formula:BQ79606A-Q1 U?
 U 1 1 5DD8030B
-P 7250 1300
-F 0 "U?" H 7225 1425 50  0000 C CNN
-F 1 "BQ79606A-Q1" H 7225 1334 50  0000 C CNN
-F 2 "" H 7250 1300 50  0001 C CNN
-F 3 "" H 7250 1300 50  0001 C CNN
-	1    7250 1300
+P 8050 1200
+F 0 "U?" H 8025 1325 50  0000 C CNN
+F 1 "BQ79606A-Q1" H 8025 1234 50  0000 C CNN
+F 2 "" H 8050 1200 50  0001 C CNN
+F 3 "" H 8050 1200 50  0001 C CNN
+	1    8050 1200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10400 1850 10500 1850
+Wire Wire Line
+	10400 1650 10500 1650
+$Comp
+L formula:MCP2561-E_SN U1
+U 1 1 5D5FAEDE
+P 9900 1750
+F 0 "U1" H 10260 2100 50  0000 C CNN
+F 1 "MCP2561-E_SN" H 10250 1390 50  0000 C CNN
+F 2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" H 9900 1250 50  0001 C CIN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" H 9500 2100 50  0001 C CNN
+F 4 "DK" H 9900 1750 60  0001 C CNN "MFN"
+F 5 "MCP2561-E/SN-ND" H 9900 1750 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" H 9900 2500 60  0001 C CNN "PurchasingLink"
+	1    9900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5D607469
+P 9400 1950
+F 0 "#PWR05" H 9400 1700 50  0001 C CNN
+F 1 "GND" H 9405 1777 50  0000 C CNN
+F 2 "" H 9400 1950 50  0001 C CNN
+F 3 "" H 9400 1950 50  0001 C CNN
+	1    9400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DEDF280
+P 8900 1600
+F 0 "#PWR?" H 8900 1350 50  0001 C CNN
+F 1 "GND" H 8905 1427 50  0000 C CNN
+F 2 "" H 8900 1600 50  0001 C CNN
+F 3 "" H 8900 1600 50  0001 C CNN
+	1    8900 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF07920
+P 8700 3500
+F 0 "#PWR?" H 8700 3250 50  0001 C CNN
+F 1 "GND" H 8705 3327 50  0000 C CNN
+F 2 "" H 8700 3500 50  0001 C CNN
+F 3 "" H 8700 3500 50  0001 C CNN
+	1    8700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF08E68
+P 8700 2600
+F 0 "#PWR?" H 8700 2350 50  0001 C CNN
+F 1 "GND" H 8705 2427 50  0000 C CNN
+F 2 "" H 8700 2600 50  0001 C CNN
+F 3 "" H 8700 2600 50  0001 C CNN
+	1    8700 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2600 8700 2600
+Wire Wire Line
+	8550 3500 8700 3500
+Text Label 6000 4850 2    50   ~ 0
+BattConn1
+Text Notes 4950 4550 0    89   ~ 0
+Battery Connection Screw Terminal\n
+Text Label 7500 2300 2    50   ~ 0
+BattConn1
+Text Label 7500 2100 2    50   ~ 0
+BattConn2
+Text Label 7500 1900 2    50   ~ 0
+BattConn3
+Text Label 7500 1700 2    50   ~ 0
+BattConn4
+Text Label 7500 1500 2    50   ~ 0
+BattConn5
+Text Label 6000 4950 2    50   ~ 0
+BattConn2
+Text Label 6000 5050 2    50   ~ 0
+BattConn3
+Text Label 6000 5150 2    50   ~ 0
+BattConn4
+Text Label 6000 5250 2    50   ~ 0
+BattConn5
+Text Notes 7900 4050 0    89   ~ 0
+Temperature Measurement Circuit\n
+Text Label 7500 2700 2    50   ~ 0
+AVSSGnd
+Wire Wire Line
+	8550 3400 8700 3400
+Text Label 8700 3400 0    50   ~ 0
+ThermVOut1
+Wire Wire Line
+	8550 1600 8900 1600
+Text Label 8800 1700 0    50   ~ 0
+5VThermIn
+Wire Wire Line
+	8550 1700 8800 1700
+$Comp
+L formula:R_1K_0.1 R?
+U 1 1 5E0A9132
+P 9400 4850
+F 0 "R?" H 9470 4896 50  0000 L CNN
+F 1 "R_1K_0.1" H 9470 4805 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 9330 4850 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 9480 4850 50  0001 C CNN
+F 4 "DK" H 9400 4850 60  0001 C CNN "MFN"
+F 5 "P1.0KDACT-ND" H 9400 4850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 9880 5250 60  0001 C CNN "PurchasingLink"
+	1    9400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Thermistor TH?
+U 1 1 5E0A9138
+P 9400 4500
+F 0 "TH?" H 9505 4546 50  0000 L CNN
+F 1 "Thermistor" H 9505 4455 50  0000 L CNN
+F 2 "" H 9400 4500 50  0001 C CNN
+F 3 "~" H 9400 4500 50  0001 C CNN
+	1    9400 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 4650 9400 4650
+Wire Wire Line
+	9400 4650 9400 4700
+Connection ~ 9400 4700
+Text Label 9650 4650 0    50   ~ 0
+ThermVOut3
+Connection ~ 8600 5000
+Connection ~ 8600 4300
+Wire Wire Line
+	8150 5000 8600 5000
+Wire Wire Line
+	8150 4300 8600 4300
+Text Label 8100 4650 0    50   ~ 0
+ThermVOut1
+Connection ~ 7850 4700
+Wire Wire Line
+	7850 4650 7850 4700
+Wire Wire Line
+	8100 4650 7850 4650
+$Comp
+L Device:Thermistor TH?
+U 1 1 5E0A56F3
+P 7850 4500
+F 0 "TH?" H 7955 4546 50  0000 L CNN
+F 1 "Thermistor" H 7955 4455 50  0000 L CNN
+F 2 "" H 7850 4500 50  0001 C CNN
+F 3 "~" H 7850 4500 50  0001 C CNN
+	1    7850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_1K_0.1 R?
+U 1 1 5E0A56ED
+P 7850 4850
+F 0 "R?" H 7920 4896 50  0000 L CNN
+F 1 "R_1K_0.1" H 7920 4805 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 7780 4850 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7930 4850 50  0001 C CNN
+F 4 "DK" H 7850 4850 60  0001 C CNN "MFN"
+F 5 "P1.0KDACT-ND" H 7850 4850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 8330 5250 60  0001 C CNN "PurchasingLink"
+	1    7850 4850
+	1    0    0    -1  
+$EndComp
+Text Label 8850 4650 0    50   ~ 0
+ThermVout2
+Connection ~ 8600 4700
+Wire Wire Line
+	8600 4650 8600 4700
+Wire Wire Line
+	8850 4650 8600 4650
+$Comp
+L Device:Thermistor TH?
+U 1 1 5DF725F6
+P 8600 4500
+F 0 "TH?" H 8705 4546 50  0000 L CNN
+F 1 "Thermistor" H 8705 4455 50  0000 L CNN
+F 2 "" H 8600 4500 50  0001 C CNN
+F 3 "~" H 8600 4500 50  0001 C CNN
+	1    8600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_1K_0.1 R?
+U 1 1 5DF66B96
+P 8600 4850
+F 0 "R?" H 8670 4896 50  0000 L CNN
+F 1 "R_1K_0.1" H 8670 4805 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 8530 4850 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 8680 4850 50  0001 C CNN
+F 4 "DK" H 8600 4850 60  0001 C CNN "MFN"
+F 5 "P1.0KDACT-ND" H 8600 4850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 9080 5250 60  0001 C CNN "PurchasingLink"
+	1    8600 4850
+	1    0    0    -1  
+$EndComp
+Text Label 8150 4200 0    50   ~ 0
+5VThermIn
+Connection ~ 8150 4300
+Wire Wire Line
+	8150 4300 8150 4200
+Wire Wire Line
+	7850 4300 8150 4300
+Wire Wire Line
+	8150 5000 7850 5000
+Connection ~ 8150 5000
+Wire Wire Line
+	8150 5150 8150 5000
+Text Label 8150 5150 3    50   ~ 0
+AVSSGnd
+Wire Wire Line
+	8600 5000 9400 5000
+Wire Wire Line
+	8600 4300 9400 4300
+Connection ~ 9400 4300
+Connection ~ 9400 5000
+Wire Wire Line
+	9400 5000 10300 5000
+Wire Wire Line
+	9400 4300 10300 4300
+$Comp
+L formula:R_1K_0.1 R?
+U 1 1 5E0AB025
+P 10300 4850
+F 0 "R?" H 10370 4896 50  0000 L CNN
+F 1 "R_1K_0.1" H 10370 4805 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 10230 4850 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 10380 4850 50  0001 C CNN
+F 4 "DK" H 10300 4850 60  0001 C CNN "MFN"
+F 5 "P1.0KDACT-ND" H 10300 4850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 10780 5250 60  0001 C CNN "PurchasingLink"
+	1    10300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Thermistor TH?
+U 1 1 5E0AB02B
+P 10300 4500
+F 0 "TH?" H 10405 4546 50  0000 L CNN
+F 1 "Thermistor" H 10405 4455 50  0000 L CNN
+F 2 "" H 10300 4500 50  0001 C CNN
+F 3 "~" H 10300 4500 50  0001 C CNN
+	1    10300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 4650 10300 4650
+Wire Wire Line
+	10300 4650 10300 4700
+Connection ~ 10300 4700
+Text Label 10550 4650 0    50   ~ 0
+ThermVOut4
+Wire Wire Line
+	8550 3300 8700 3300
+Wire Wire Line
+	8550 3200 8700 3200
+Wire Wire Line
+	8550 3100 8700 3100
+Text Label 8700 3300 0    50   ~ 0
+ThermVOut2
+Text Label 8700 3200 0    50   ~ 0
+ThermVOut3
+Text Label 8700 3100 0    50   ~ 0
+ThermVOut4
+Text Notes 9250 3150 0    89   ~ 0
+16M1 PROGRAMMING HEADER\n
+$Comp
+L Connector:Screw_Terminal_01x06 J?
+U 1 1 5E158DD8
+P 6200 4950
+F 0 "J?" H 6280 4942 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" H 6280 4851 50  0000 L CNN
+F 2 "" H 6200 4950 50  0001 C CNN
+F 3 "~" H 6200 4950 50  0001 C CNN
+	1    6200 4950
+	1    0    0    -1  
+$EndComp
+Text Label 6000 4750 2    50   ~ 0
+BattConn0
+Text Label 7500 2600 2    50   ~ 0
+BattConn0
+Wire Wire Line
+	8550 2100 8800 2100
+Text Label 8800 2100 0    50   ~ 0
+BMSTXOut
 $EndSCHEMATC
