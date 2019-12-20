@@ -1033,8 +1033,8 @@ L throttle-rescue:R_100K-formula-throttle-rescue R?
 U 1 1 5CACCA73
 P 11350 6550
 AR Path="/5CAC90A2/5CACCA73" Ref="R?"  Part="1" 
-AR Path="/5CACCA73" Ref="R25"  Part="1" 
-F 0 "R25" V 11450 6450 50  0000 L CNN
+AR Path="/5CACCA73" Ref="R103"  Part="1" 
+F 0 "R103" V 11450 6450 50  0000 L CNN
 F 1 "R_100K" V 11250 6400 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 11280 6550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 11430 6550 50  0001 C CNN
@@ -1049,8 +1049,8 @@ L throttle-rescue:C_22uF-formula-throttle-rescue COUT?
 U 1 1 5CACCA7E
 P 11350 6050
 AR Path="/5CAC90A2/5CACCA7E" Ref="COUT?"  Part="1" 
-AR Path="/5CACCA7E" Ref="COUT1"  Part="1" 
-F 0 "COUT1" H 11250 6300 50  0000 L CNN
+AR Path="/5CACCA7E" Ref="COUT101"  Part="1" 
+F 0 "COUT101" H 11250 6300 50  0000 L CNN
 F 1 "C_22uF" H 11400 5950 50  0000 L CNN
 F 2 "footprints:C_1206_OEM" H 11400 5650 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 11400 6400 50  0001 C CNN
@@ -1065,8 +1065,8 @@ L throttle-rescue:C_47uF-formula-throttle-rescue COUT?
 U 1 1 5CACCA88
 P 12050 6050
 AR Path="/5CAC90A2/5CACCA88" Ref="COUT?"  Part="1" 
-AR Path="/5CACCA88" Ref="COUT3"  Part="1" 
-F 0 "COUT3" H 11950 6300 50  0000 L CNN
+AR Path="/5CACCA88" Ref="COUT103"  Part="1" 
+F 0 "COUT103" H 11950 6300 50  0000 L CNN
 F 1 "C_47uF" H 12100 5950 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 12088 5900 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/22/CL21A476MQYNNNG.pdf" H 12075 6150 50  0001 C CNN
@@ -1081,8 +1081,8 @@ L throttle-rescue:C_33uF-formula-throttle-rescue COUT?
 U 1 1 5CACCA92
 P 11700 6050
 AR Path="/5CAC90A2/5CACCA92" Ref="COUT?"  Part="1" 
-AR Path="/5CACCA92" Ref="COUT2"  Part="1" 
-F 0 "COUT2" H 11600 6300 50  0000 L CNN
+AR Path="/5CACCA92" Ref="COUT102"  Part="1" 
+F 0 "COUT102" H 11600 6300 50  0000 L CNN
 F 1 "C_33uF" H 11750 5950 50  0000 L CNN
 F 2 "footprints:Fuse_1812" H 11750 5650 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 11700 6700 50  0001 C CNN
@@ -1097,8 +1097,8 @@ L throttle-rescue:R_0_2512-formula-throttle-rescue R?
 U 1 1 5CACCAB0
 P 12850 5900
 AR Path="/5CAC90A2/5CACCAB0" Ref="R?"  Part="1" 
-AR Path="/5CACCAB0" Ref="R27"  Part="1" 
-F 0 "R27" V 12650 5900 50  0000 C CNN
+AR Path="/5CACCAB0" Ref="R104"  Part="1" 
+F 0 "R104" V 12650 5900 50  0000 C CNN
 F 1 "R_0_2512" V 12750 5900 50  0000 C CNN
 F 2 "footprints:R_2512_OEM" H 12780 5900 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 12930 5900 50  0001 C CNN
@@ -1107,38 +1107,6 @@ F 5 "A121322CT-ND" H 12850 5900 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 13330 6300 60  0001 C CNN "PurchasingLink"
 	1    12850 5900
 	0    -1   -1   0   
-$EndComp
-$Comp
-L throttle-rescue:LED_0805-formula-throttle-rescue D?
-U 1 1 5CACCABA
-P 13250 6650
-AR Path="/5CAC90A2/5CACCABA" Ref="D?"  Part="1" 
-AR Path="/5CACCABA" Ref="D9"  Part="1" 
-F 0 "D9" V 13288 6533 50  0000 R CNN
-F 1 "LED_0805" V 13197 6533 50  0000 R CNN
-F 2 "footprints:LED_0805_OEM" H 13150 6650 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 13250 6750 50  0001 C CNN
-F 4 "DK" H 13250 6650 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 13250 6650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 13650 7150 60  0001 C CNN "PurchasingLink"
-	1    13250 6650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L throttle-rescue:R_200-formula-throttle-rescue R?
-U 1 1 5CACCAC4
-P 13250 6100
-AR Path="/5CAC90A2/5CACCAC4" Ref="R?"  Part="1" 
-AR Path="/5CACCAC4" Ref="R28"  Part="1" 
-F 0 "R28" H 13320 6146 50  0000 L CNN
-F 1 "R_200" H 13320 6055 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 13180 6100 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 13330 6100 50  0001 C CNN
-F 4 "DK" H 13250 6100 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 13250 6100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 13730 6500 60  0001 C CNN "PurchasingLink"
-	1    13250 6100
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -1691,8 +1659,8 @@ L throttle-rescue:C_0.1uF-formula-throttle-rescue C?
 U 1 1 5CACCB58
 P 10450 5750
 AR Path="/5CAC90A2/5CACCB58" Ref="C?"  Part="1" 
-AR Path="/5CACCB58" Ref="C5"  Part="1" 
-F 0 "C5" H 10200 5750 50  0000 C CNN
+AR Path="/5CACCB58" Ref="C103"  Part="1" 
+F 0 "C103" H 10200 5750 50  0000 C CNN
 F 1 "C_0.1uF" H 10200 5650 50  0000 C CNN
 F 2 "footprints:C_0805_OEM" H 10488 5600 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 10475 5850 50  0001 C CNN
@@ -1735,22 +1703,6 @@ Wire Wire Line
 	10250 6100 11100 6100
 Wire Wire Line
 	9500 6050 9400 6050
-$Comp
-L throttle-rescue:L_100uH-formula-throttle-rescue L?
-U 1 1 5CACCB14
-P 10700 5900
-AR Path="/5CAC90A2/5CACCB14" Ref="L?"  Part="1" 
-AR Path="/5CACCB14" Ref="L1"  Part="1" 
-F 0 "L1" H 10700 5750 50  0000 C CNN
-F 1 "L_100uH" H 10700 5850 50  0000 C CNN
-F 2 "footprints:L_100uH" H 10600 5700 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 10600 5750 50  0001 C CNN
-F 4 "Digikey" H 10800 5700 50  0001 C CNN "MFN"
-F 5 "445-15759-1-ND" H 10700 6150 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 11000 6100 50  0001 C CNN "Link"
-	1    10700 5900
-	1    0    0    -1  
-$EndComp
 Text Notes 10200 5500 0    50   ~ 0
 Bootstrap Capacitor\n
 Text Notes 10850 5850 0    50   ~ 0
@@ -1788,38 +1740,6 @@ Wire Wire Line
 	8400 5800 8400 5950
 Wire Wire Line
 	8400 6250 8400 6350
-$Comp
-L throttle-rescue:R_200-formula-throttle-rescue R?
-U 1 1 5CACCAF1
-P 8400 6100
-AR Path="/5CAC90A2/5CACCAF1" Ref="R?"  Part="1" 
-AR Path="/5CACCAF1" Ref="R18"  Part="1" 
-F 0 "R18" H 8470 6146 50  0000 L CNN
-F 1 "R_200" H 8470 6055 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 8330 6100 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8480 6100 50  0001 C CNN
-F 4 "DK" H 8400 6100 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 8400 6100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 8880 6500 60  0001 C CNN "PurchasingLink"
-	1    8400 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L throttle-rescue:LED_0805-formula-throttle-rescue D?
-U 1 1 5CACCAE7
-P 8400 6500
-AR Path="/5CAC90A2/5CACCAE7" Ref="D?"  Part="1" 
-AR Path="/5CACCAE7" Ref="D7"  Part="1" 
-F 0 "D7" V 8438 6383 50  0000 R CNN
-F 1 "LED_0805" V 8347 6383 50  0000 R CNN
-F 2 "footprints:LED_0805_OEM" H 8300 6500 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8400 6600 50  0001 C CNN
-F 4 "DK" H 8400 6500 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 8400 6500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8800 7000 60  0001 C CNN "PurchasingLink"
-	1    8400 6500
-	0    -1   -1   0   
-$EndComp
 Text Label 7700 5450 0    50   ~ 0
 12V
 Wire Wire Line
@@ -1840,44 +1760,12 @@ $EndComp
 Wire Wire Line
 	7700 6550 7700 6700
 $Comp
-L throttle-rescue:D_Zener_18V-formula-throttle-rescue D?
-U 1 1 5CACCAD4
-P 7700 6400
-AR Path="/5CAC90A2/5CACCAD4" Ref="D?"  Part="1" 
-AR Path="/5CACCAD4" Ref="D5"  Part="1" 
-F 0 "D5" H 7650 6600 50  0000 C CNN
-F 1 "D_Zener_18V" H 7550 6500 50  0000 C CNN
-F 2 "footprints:DO-214AA" H 7600 6400 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 7700 6500 50  0001 C CNN
-F 4 "DK" H 7900 6700 60  0001 C CNN "MFN"
-F 5 "SMBJ5355B-TPMSCT-ND" H 7800 6600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 8100 6900 60  0001 C CNN "PurchasingLink"
-	1    7700 6400
-	0    1    1    0   
-$EndComp
-$Comp
-L throttle-rescue:F_500mA_16V-formula-throttle-rescue F?
-U 1 1 5CACCAA6
-P 8000 5800
-AR Path="/5CAC90A2/5CACCAA6" Ref="F?"  Part="1" 
-AR Path="/5CACCAA6" Ref="F1"  Part="1" 
-F 0 "F1" V 8100 5800 50  0000 C CNN
-F 1 "F_500mA_16V" V 7850 5800 50  0000 C CNN
-F 2 "footprints:Fuse_1210" V 7930 5800 50  0001 C CNN
-F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 8080 5800 50  0001 C CNN
-F 4 "DK" H 8000 5800 60  0001 C CNN "MFN"
-F 5 "507-1786-1-ND" H 8000 5800 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 8480 6200 60  0001 C CNN "PurchasingLink"
-	1    8000 5800
-	0    1    1    0   
-$EndComp
-$Comp
 L throttle-rescue:R_25K-formula-throttle-rescue R?
 U 1 1 5CACCA9C
 P 10850 6550
 AR Path="/5CAC90A2/5CACCA9C" Ref="R?"  Part="1" 
-AR Path="/5CACCA9C" Ref="R24"  Part="1" 
-F 0 "R24" V 10950 6450 50  0000 L CNN
+AR Path="/5CACCA9C" Ref="R102"  Part="1" 
+F 0 "R102" V 10950 6450 50  0000 L CNN
 F 1 "R_25K" V 10750 6450 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 10900 6000 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English" H 10850 6150 50  0001 C CNN
@@ -1889,38 +1777,6 @@ F 6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/C
 $EndComp
 Wire Wire Line
 	9900 6350 9900 6400
-$Comp
-L throttle-rescue:C_0.1uF-formula-throttle-rescue C?
-U 1 1 5CACCA69
-P 8850 5950
-AR Path="/5CAC90A2/5CACCA69" Ref="C?"  Part="1" 
-AR Path="/5CACCA69" Ref="C3"  Part="1" 
-F 0 "C3" H 8900 5800 50  0000 L CNN
-F 1 "C_0.1uF" H 8700 6250 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 8888 5800 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8875 6050 50  0001 C CNN
-F 4 "DK" H 8850 5950 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 8850 5950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 9275 6450 60  0001 C CNN "PurchasingLink"
-	1    8850 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L throttle-rescue:C_2.2uF-formula-throttle-rescue C?
-U 1 1 5CACCA5F
-P 9150 5950
-AR Path="/5CAC90A2/5CACCA5F" Ref="C?"  Part="1" 
-AR Path="/5CACCA5F" Ref="C4"  Part="1" 
-F 0 "C4" H 9200 5800 50  0000 L CNN
-F 1 "C_2.2uF" H 9050 6250 50  0000 L CNN
-F 2 "footprints:C_0603_1608Metric" H 9188 5800 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 9175 6050 50  0001 C CNN
-F 4 "DK" H 9150 5950 60  0001 C CNN "MFN"
-F 5 "311-1451-1-ND" H 9150 5950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 9575 6450 60  0001 C CNN "PurchasingLink"
-	1    9150 5950
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5CACCA56
@@ -2149,22 +2005,6 @@ Wire Wire Line
 	12200 1200 12000 1200
 Connection ~ 12200 1200
 Connection ~ 12000 1200
-$Comp
-L formula:TPS560430YF U?
-U 1 1 5CACCB3D
-P 9850 5950
-AR Path="/5CAC90A2/5CACCB3D" Ref="U?"  Part="1" 
-AR Path="/5CACCB3D" Ref="U3"  Part="1" 
-F 0 "U3" H 9875 6415 50  0000 C CNN
-F 1 "TPS560430YF" H 9875 6324 50  0000 C CNN
-F 2 "footprints:SOT-23-6_OEM" H 9800 6650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 9850 6500 50  0001 C CNN
-F 4 "TPS560430YFDBVR" H 9800 4850 50  0001 C CNN "MPN"
-F 5 "TPS560430YFDBVR-ND" H 9850 4950 50  0001 C CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 10600 5050 50  0001 C CNN "Purchasing Link"
-	1    9850 5950
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	4400 7450 6000 7450
 Wire Notes Line
@@ -7069,5 +6909,165 @@ F 6 "Value" H 15150 6800 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 15575 7300 60  0001 C CNN "PurchasingLink"
 	1    15150 6800
 	0    -1   -1   0   
+$EndComp
+$Comp
+L throttle-rescue:C_0.1uF-formula-throttle-rescue C?
+U 1 1 5CACCA69
+P 8850 5950
+AR Path="/5CAC90A2/5CACCA69" Ref="C?"  Part="1" 
+AR Path="/5CACCA69" Ref="C101"  Part="1" 
+F 0 "C101" H 8900 5800 50  0000 L CNN
+F 1 "C_0.1uF" H 8700 6250 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 8888 5800 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8875 6050 50  0001 C CNN
+F 4 "DK" H 8850 5950 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 8850 5950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 9275 6450 60  0001 C CNN "PurchasingLink"
+	1    8850 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L throttle-rescue:C_2.2uF-formula-throttle-rescue C?
+U 1 1 5CACCA5F
+P 9150 5950
+AR Path="/5CAC90A2/5CACCA5F" Ref="C?"  Part="1" 
+AR Path="/5CACCA5F" Ref="C102"  Part="1" 
+F 0 "C102" H 9200 5800 50  0000 L CNN
+F 1 "C_2.2uF" H 9050 6250 50  0000 L CNN
+F 2 "footprints:C_0603_1608Metric" H 9188 5800 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 9175 6050 50  0001 C CNN
+F 4 "DK" H 9150 5950 60  0001 C CNN "MFN"
+F 5 "311-1451-1-ND" H 9150 5950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 9575 6450 60  0001 C CNN "PurchasingLink"
+	1    9150 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L throttle-rescue:LED_0805-formula-throttle-rescue D?
+U 1 1 5CACCABA
+P 13250 6650
+AR Path="/5CAC90A2/5CACCABA" Ref="D?"  Part="1" 
+AR Path="/5CACCABA" Ref="D103"  Part="1" 
+F 0 "D103" V 13288 6533 50  0000 R CNN
+F 1 "LED_0805" V 13197 6533 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 13150 6650 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 13250 6750 50  0001 C CNN
+F 4 "DK" H 13250 6650 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 13250 6650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 13650 7150 60  0001 C CNN "PurchasingLink"
+	1    13250 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L throttle-rescue:R_200-formula-throttle-rescue R?
+U 1 1 5CACCAC4
+P 13250 6100
+AR Path="/5CAC90A2/5CACCAC4" Ref="R?"  Part="1" 
+AR Path="/5CACCAC4" Ref="R105"  Part="1" 
+F 0 "R105" H 13320 6146 50  0000 L CNN
+F 1 "R_200" H 13320 6055 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 13180 6100 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 13330 6100 50  0001 C CNN
+F 4 "DK" H 13250 6100 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 13250 6100 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 13730 6500 60  0001 C CNN "PurchasingLink"
+	1    13250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L throttle-rescue:L_100uH-formula-throttle-rescue L?
+U 1 1 5CACCB14
+P 10700 5900
+AR Path="/5CAC90A2/5CACCB14" Ref="L?"  Part="1" 
+AR Path="/5CACCB14" Ref="L101"  Part="1" 
+F 0 "L101" H 10700 5750 50  0000 C CNN
+F 1 "L_100uH" H 10700 5850 50  0000 C CNN
+F 2 "footprints:L_100uH" H 10600 5700 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 10600 5750 50  0001 C CNN
+F 4 "Digikey" H 10800 5700 50  0001 C CNN "MFN"
+F 5 "445-15759-1-ND" H 10700 6150 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 11000 6100 50  0001 C CNN "Link"
+	1    10700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:TPS560430YF U?
+U 1 1 5CACCB3D
+P 9850 5950
+AR Path="/5CAC90A2/5CACCB3D" Ref="U?"  Part="1" 
+AR Path="/5CACCB3D" Ref="U101"  Part="1" 
+F 0 "U101" H 9875 6415 50  0000 C CNN
+F 1 "TPS560430YF" H 9875 6324 50  0000 C CNN
+F 2 "footprints:SOT-23-6_OEM" H 9800 6650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 9850 6500 50  0001 C CNN
+F 4 "TPS560430YFDBVR" H 9800 4850 50  0001 C CNN "MPN"
+F 5 "TPS560430YFDBVR-ND" H 9850 4950 50  0001 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 10600 5050 50  0001 C CNN "Purchasing Link"
+	1    9850 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L throttle-rescue:R_200-formula-throttle-rescue R?
+U 1 1 5CACCAF1
+P 8400 6100
+AR Path="/5CAC90A2/5CACCAF1" Ref="R?"  Part="1" 
+AR Path="/5CACCAF1" Ref="R101"  Part="1" 
+F 0 "R101" H 8470 6146 50  0000 L CNN
+F 1 "R_200" H 8470 6055 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 8330 6100 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8480 6100 50  0001 C CNN
+F 4 "DK" H 8400 6100 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 8400 6100 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 8880 6500 60  0001 C CNN "PurchasingLink"
+	1    8400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L throttle-rescue:LED_0805-formula-throttle-rescue D?
+U 1 1 5CACCAE7
+P 8400 6500
+AR Path="/5CAC90A2/5CACCAE7" Ref="D?"  Part="1" 
+AR Path="/5CACCAE7" Ref="D102"  Part="1" 
+F 0 "D102" V 8438 6383 50  0000 R CNN
+F 1 "LED_0805" V 8347 6383 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 8300 6500 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8400 6600 50  0001 C CNN
+F 4 "DK" H 8400 6500 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 8400 6500 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8800 7000 60  0001 C CNN "PurchasingLink"
+	1    8400 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L throttle-rescue:D_Zener_18V-formula-throttle-rescue D?
+U 1 1 5CACCAD4
+P 7700 6400
+AR Path="/5CAC90A2/5CACCAD4" Ref="D?"  Part="1" 
+AR Path="/5CACCAD4" Ref="D101"  Part="1" 
+F 0 "D101" H 7650 6600 50  0000 C CNN
+F 1 "D_Zener_18V" H 7550 6500 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 7600 6400 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 7700 6500 50  0001 C CNN
+F 4 "DK" H 7900 6700 60  0001 C CNN "MFN"
+F 5 "SMBJ5355B-TPMSCT-ND" H 7800 6600 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 8100 6900 60  0001 C CNN "PurchasingLink"
+	1    7700 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L throttle-rescue:F_500mA_16V-formula-throttle-rescue F?
+U 1 1 5CACCAA6
+P 8000 5800
+AR Path="/5CAC90A2/5CACCAA6" Ref="F?"  Part="1" 
+AR Path="/5CACCAA6" Ref="F101"  Part="1" 
+F 0 "F101" V 8100 5800 50  0000 C CNN
+F 1 "F_500mA_16V" V 7850 5800 50  0000 C CNN
+F 2 "footprints:Fuse_1210" V 7930 5800 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 8080 5800 50  0001 C CNN
+F 4 "DK" H 8000 5800 60  0001 C CNN "MFN"
+F 5 "507-1786-1-ND" H 8000 5800 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 8480 6200 60  0001 C CNN "PurchasingLink"
+	1    8000 5800
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
