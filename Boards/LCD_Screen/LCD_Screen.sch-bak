@@ -404,7 +404,7 @@ F 3 "" H 10350 6050 50  0001 C CNN
 	1    10350 6050
 	1    0    0    -1  
 $EndComp
-Text Notes 950  3610 0    89   ~ 0
+Text Notes 900  3710 0    89   ~ 0
 CAN CONTROLLER WITH INTEGRATED TRANSCEIVER\n
 $Comp
 L power:GND #PWR010
