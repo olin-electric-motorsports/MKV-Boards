@@ -1,176 +1,176 @@
-12-23 16:05:09 replicate_layout.action_replicate_layout 295:Replicate layout plugin version: 46 started
-12-23 16:05:09 replicate_layout.action_replicate_layout 327:Preparing replicator with R405 as a reference
-12-23 16:05:09 replicate_layout.replicatelayout 201:getting project hierarchy from schematics
-12-23 16:05:09 replicate_layout.replicatelayout 203:Project hierarchy looks like:
+12-23 17:37:39 replicate_layout.action_replicate_layout 295:Replicate layout plugin version: 46 started
+12-23 17:37:39 replicate_layout.action_replicate_layout 327:Preparing replicator with C401 as a reference
+12-23 17:37:39 replicate_layout.replicatelayout 201:getting project hierarchy from schematics
+12-23 17:37:39 replicate_layout.replicatelayout 203:Project hierarchy looks like:
 {'5DE75FAE': ['strain_gauge_circuit4', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit.sch'], '5DE73B41': ['strain_gauge_circuit2', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit.sch'], '5DE761FC': ['strain_gauge_circuit5', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit.sch'], '5DE7647B': ['strain_gauge_circuit6.sch', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit.sch'], '5DE7788B': ['strain_gauge_circuit12.sch', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit.sch'], '5DE75D90': ['strain_gauge_circuit3', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit.sch'], '5DE77004': ['strain_gauge_circuit9.sch', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit.sch'], '5DE77316': ['strain_gauge_circuit10.sch', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit.sch'], '5DE76CAC': ['strain_gauge_circuit8.sch', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit.sch'], '5DD64290': ['strain_gauge_cluster', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit_file5DD6428F.sch'], '5DE63AE5': ['strain_gauge_circuit1', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit.sch'], '5DE76AB9': ['strain_gauge_circuit7.sch', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit.sch'], '5DE7755D': ['strain_gauge_circuit11.sch', u'/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/strain_gauge_circuit.sch']}
-12-23 16:05:09 replicate_layout.replicatelayout 211:getting a list of all footprints on board
-12-23 16:05:09 replicate_layout.action_replicate_layout 353:Pivot footprint is u'R405'
+12-23 17:37:39 replicate_layout.replicatelayout 211:getting a list of all footprints on board
+12-23 17:37:39 replicate_layout.action_replicate_layout 353:Pivot footprint is u'C401'
 Located on:['strain_gauge_cluster', 'strain_gauge_circuit1']
 With filenames:[u'strain_gauge_circuit_file5DD6428F.sch', u'strain_gauge_circuit.sch']
 With sheet_id:['strain_gauge_cluster', 'strain_gauge_circuit1']
-12-23 16:05:09 replicate_layout.action_replicate_layout 357:Corresponding footprints are 
-[(u'R605', ['strain_gauge_cluster', 'strain_gauge_circuit4']), (u'R305', ['strain_gauge_cluster', 'strain_gauge_circuit2']), (u'R405', ['strain_gauge_cluster', 'strain_gauge_circuit1']), (u'R505', ['strain_gauge_cluster', 'strain_gauge_circuit3']), (u'R705', ['strain_gauge_cluster', 'strain_gauge_circuit5']), (u'R805', ['strain_gauge_cluster', 'strain_gauge_circuit6.sch']), (u'R905', ['strain_gauge_cluster', 'strain_gauge_circuit7.sch']), (u'R1005', ['strain_gauge_cluster', 'strain_gauge_circuit8.sch']), (u'R1105', ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']), (u'R1205', ['strain_gauge_cluster', 'strain_gauge_circuit10.sch']), (u'R1305', ['strain_gauge_cluster', 'strain_gauge_circuit11.sch']), (u'R1405', ['strain_gauge_cluster', 'strain_gauge_circuit12.sch'])]
-12-23 16:05:09 replicate_layout.action_replicate_layout 370:Showing dialog
-12-23 16:05:09 replicate_layout.action_replicate_layout 374:Pcbnew position: wx.Point(65, 24)
-12-23 16:05:09 replicate_layout.action_replicate_layout 380:Display 0: wx.Rect(0, 0, 1920, 1080)
-12-23 16:05:09 replicate_layout.action_replicate_layout 384:Toolbar position: wx.Point(1678, 119)
-12-23 16:05:09 replicate_layout.action_replicate_layout 391:Dialog position: wx.Point(1365, 119)
-12-23 16:05:09 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'strain_gauge_cluster', file:u'strain_gauge_circuit_file5DD6428F.sch'
-12-23 16:05:09 replicate_layout.replicatelayout 245:Sheet ids up to the level:['strain_gauge_cluster']
-12-23 16:05:09 replicate_layout.replicatelayout 249:Footprints on the sheets:
-[u'R605', u'R305', u'R405', u'R505', u'R705', u'R805', u'R905', u'R1005', u'R1105', u'R1205', u'R1305', u'R1405']
-12-23 16:05:09 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
-[u'/5DD64290/5DE75FAE/5DE68343', u'/5DD64290/5DE73B41/5DE68343', u'/5DD64290/5DE63AE5/5DE68343', u'/5DD64290/5DE75D90/5DE68343', u'/5DD64290/5DE761FC/5DE68343', u'/5DD64290/5DE7647B/5DE68343', u'/5DD64290/5DE76AB9/5DE68343', u'/5DD64290/5DE76CAC/5DE68343', u'/5DD64290/5DE77004/5DE68343', u'/5DD64290/5DE77316/5DE68343', u'/5DD64290/5DE7755D/5DE68343', u'/5DD64290/5DE7788B/5DE68343']
-12-23 16:05:09 replicate_layout.replicatelayout 268:All sheets to replicate:
+12-23 17:37:39 replicate_layout.action_replicate_layout 357:Corresponding footprints are 
+[(u'C601', ['strain_gauge_cluster', 'strain_gauge_circuit4']), (u'C401', ['strain_gauge_cluster', 'strain_gauge_circuit1']), (u'C301', ['strain_gauge_cluster', 'strain_gauge_circuit2']), (u'C501', ['strain_gauge_cluster', 'strain_gauge_circuit3']), (u'C701', ['strain_gauge_cluster', 'strain_gauge_circuit5']), (u'C801', ['strain_gauge_cluster', 'strain_gauge_circuit6.sch']), (u'C901', ['strain_gauge_cluster', 'strain_gauge_circuit7.sch']), (u'C1001', ['strain_gauge_cluster', 'strain_gauge_circuit8.sch']), (u'C1101', ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']), (u'C1201', ['strain_gauge_cluster', 'strain_gauge_circuit10.sch']), (u'C1301', ['strain_gauge_cluster', 'strain_gauge_circuit11.sch']), (u'C1401', ['strain_gauge_cluster', 'strain_gauge_circuit12.sch'])]
+12-23 17:37:39 replicate_layout.action_replicate_layout 370:Showing dialog
+12-23 17:37:39 replicate_layout.action_replicate_layout 374:Pcbnew position: wx.Point(65, -4)
+12-23 17:37:39 replicate_layout.action_replicate_layout 380:Display 0: wx.Rect(0, 0, 1920, 1080)
+12-23 17:37:39 replicate_layout.action_replicate_layout 384:Toolbar position: wx.Point(1678, 119)
+12-23 17:37:39 replicate_layout.action_replicate_layout 391:Dialog position: wx.Point(1365, 119)
+12-23 17:37:39 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'strain_gauge_cluster', file:u'strain_gauge_circuit_file5DD6428F.sch'
+12-23 17:37:39 replicate_layout.replicatelayout 245:Sheet ids up to the level:['strain_gauge_cluster']
+12-23 17:37:39 replicate_layout.replicatelayout 249:Footprints on the sheets:
+[u'C601', u'C401', u'C301', u'C501', u'C701', u'C801', u'C901', u'C1001', u'C1101', u'C1201', u'C1301', u'C1401']
+12-23 17:37:39 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
+[u'/5DD64290/5DE75FAE/5DFDF474', u'/5DD64290/5DE63AE5/5DFDF474', u'/5DD64290/5DE73B41/5DFDF474', u'/5DD64290/5DE75D90/5DFDF474', u'/5DD64290/5DE761FC/5DFDF474', u'/5DD64290/5DE7647B/5DFDF474', u'/5DD64290/5DE76AB9/5DFDF474', u'/5DD64290/5DE76CAC/5DFDF474', u'/5DD64290/5DE77004/5DFDF474', u'/5DD64290/5DE77316/5DFDF474', u'/5DD64290/5DE7755D/5DFDF474', u'/5DD64290/5DE7788B/5DFDF474']
+12-23 17:37:39 replicate_layout.replicatelayout 268:All sheets to replicate:
 [['strain_gauge_cluster'], ['strain_gauge_cluster'], ['strain_gauge_cluster'], ['strain_gauge_cluster'], ['strain_gauge_cluster'], ['strain_gauge_cluster'], ['strain_gauge_cluster'], ['strain_gauge_cluster'], ['strain_gauge_cluster'], ['strain_gauge_cluster'], ['strain_gauge_cluster'], ['strain_gauge_cluster']]
-12-23 16:05:09 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
+12-23 17:37:39 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
 [['strain_gauge_cluster']]
-12-23 16:05:09 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
+12-23 17:37:39 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
 []
-12-23 16:05:16 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'strain_gauge_circuit1', file:u'strain_gauge_circuit.sch'
-12-23 16:05:16 replicate_layout.replicatelayout 245:Sheet ids up to the level:['strain_gauge_cluster', 'strain_gauge_circuit1']
-12-23 16:05:16 replicate_layout.replicatelayout 249:Footprints on the sheets:
-[u'R605', u'R305', u'R405', u'R505', u'R705', u'R805', u'R905', u'R1005', u'R1105', u'R1205', u'R1305', u'R1405']
-12-23 16:05:16 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
-[u'/5DD64290/5DE75FAE/5DE68343', u'/5DD64290/5DE73B41/5DE68343', u'/5DD64290/5DE63AE5/5DE68343', u'/5DD64290/5DE75D90/5DE68343', u'/5DD64290/5DE761FC/5DE68343', u'/5DD64290/5DE7647B/5DE68343', u'/5DD64290/5DE76AB9/5DE68343', u'/5DD64290/5DE76CAC/5DE68343', u'/5DD64290/5DE77004/5DE68343', u'/5DD64290/5DE77316/5DE68343', u'/5DD64290/5DE7755D/5DE68343', u'/5DD64290/5DE7788B/5DE68343']
-12-23 16:05:16 replicate_layout.replicatelayout 268:All sheets to replicate:
-[['strain_gauge_cluster', 'strain_gauge_circuit4'], ['strain_gauge_cluster', 'strain_gauge_circuit2'], ['strain_gauge_cluster', 'strain_gauge_circuit1'], ['strain_gauge_cluster', 'strain_gauge_circuit3'], ['strain_gauge_cluster', 'strain_gauge_circuit5'], ['strain_gauge_cluster', 'strain_gauge_circuit6.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit7.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit8.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit9.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit10.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit11.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']]
-12-23 16:05:16 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
+12-23 17:37:41 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'strain_gauge_circuit1', file:u'strain_gauge_circuit.sch'
+12-23 17:37:41 replicate_layout.replicatelayout 245:Sheet ids up to the level:['strain_gauge_cluster', 'strain_gauge_circuit1']
+12-23 17:37:41 replicate_layout.replicatelayout 249:Footprints on the sheets:
+[u'C601', u'C401', u'C301', u'C501', u'C701', u'C801', u'C901', u'C1001', u'C1101', u'C1201', u'C1301', u'C1401']
+12-23 17:37:41 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
+[u'/5DD64290/5DE75FAE/5DFDF474', u'/5DD64290/5DE63AE5/5DFDF474', u'/5DD64290/5DE73B41/5DFDF474', u'/5DD64290/5DE75D90/5DFDF474', u'/5DD64290/5DE761FC/5DFDF474', u'/5DD64290/5DE7647B/5DFDF474', u'/5DD64290/5DE76AB9/5DFDF474', u'/5DD64290/5DE76CAC/5DFDF474', u'/5DD64290/5DE77004/5DFDF474', u'/5DD64290/5DE77316/5DFDF474', u'/5DD64290/5DE7755D/5DFDF474', u'/5DD64290/5DE7788B/5DFDF474']
+12-23 17:37:41 replicate_layout.replicatelayout 268:All sheets to replicate:
+[['strain_gauge_cluster', 'strain_gauge_circuit4'], ['strain_gauge_cluster', 'strain_gauge_circuit1'], ['strain_gauge_cluster', 'strain_gauge_circuit2'], ['strain_gauge_cluster', 'strain_gauge_circuit3'], ['strain_gauge_cluster', 'strain_gauge_circuit5'], ['strain_gauge_cluster', 'strain_gauge_circuit6.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit7.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit8.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit9.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit10.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit11.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']]
+12-23 17:37:41 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
 [['strain_gauge_cluster', 'strain_gauge_circuit1'], ['strain_gauge_cluster', 'strain_gauge_circuit10.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit11.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit12.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit2'], ['strain_gauge_cluster', 'strain_gauge_circuit3'], ['strain_gauge_cluster', 'strain_gauge_circuit4'], ['strain_gauge_cluster', 'strain_gauge_circuit5'], ['strain_gauge_cluster', 'strain_gauge_circuit6.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit7.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit8.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']]
-12-23 16:05:16 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
+12-23 17:37:41 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
 [['strain_gauge_cluster', 'strain_gauge_circuit10.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit11.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit12.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit2'], ['strain_gauge_cluster', 'strain_gauge_circuit3'], ['strain_gauge_cluster', 'strain_gauge_circuit4'], ['strain_gauge_cluster', 'strain_gauge_circuit5'], ['strain_gauge_cluster', 'strain_gauge_circuit6.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit7.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit8.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']]
-12-23 16:05:23 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'strain_gauge_circuit1', file:u'strain_gauge_circuit.sch'
-12-23 16:05:23 replicate_layout.replicatelayout 245:Sheet ids up to the level:['strain_gauge_cluster', 'strain_gauge_circuit1']
-12-23 16:05:23 replicate_layout.replicatelayout 249:Footprints on the sheets:
-[u'R605', u'R305', u'R405', u'R505', u'R705', u'R805', u'R905', u'R1005', u'R1105', u'R1205', u'R1305', u'R1405']
-12-23 16:05:23 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
-[u'/5DD64290/5DE75FAE/5DE68343', u'/5DD64290/5DE73B41/5DE68343', u'/5DD64290/5DE63AE5/5DE68343', u'/5DD64290/5DE75D90/5DE68343', u'/5DD64290/5DE761FC/5DE68343', u'/5DD64290/5DE7647B/5DE68343', u'/5DD64290/5DE76AB9/5DE68343', u'/5DD64290/5DE76CAC/5DE68343', u'/5DD64290/5DE77004/5DE68343', u'/5DD64290/5DE77316/5DE68343', u'/5DD64290/5DE7755D/5DE68343', u'/5DD64290/5DE7788B/5DE68343']
-12-23 16:05:23 replicate_layout.replicatelayout 268:All sheets to replicate:
-[['strain_gauge_cluster', 'strain_gauge_circuit4'], ['strain_gauge_cluster', 'strain_gauge_circuit2'], ['strain_gauge_cluster', 'strain_gauge_circuit1'], ['strain_gauge_cluster', 'strain_gauge_circuit3'], ['strain_gauge_cluster', 'strain_gauge_circuit5'], ['strain_gauge_cluster', 'strain_gauge_circuit6.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit7.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit8.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit9.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit10.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit11.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']]
-12-23 16:05:23 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
+12-23 17:37:44 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'strain_gauge_circuit1', file:u'strain_gauge_circuit.sch'
+12-23 17:37:44 replicate_layout.replicatelayout 245:Sheet ids up to the level:['strain_gauge_cluster', 'strain_gauge_circuit1']
+12-23 17:37:44 replicate_layout.replicatelayout 249:Footprints on the sheets:
+[u'C601', u'C401', u'C301', u'C501', u'C701', u'C801', u'C901', u'C1001', u'C1101', u'C1201', u'C1301', u'C1401']
+12-23 17:37:44 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
+[u'/5DD64290/5DE75FAE/5DFDF474', u'/5DD64290/5DE63AE5/5DFDF474', u'/5DD64290/5DE73B41/5DFDF474', u'/5DD64290/5DE75D90/5DFDF474', u'/5DD64290/5DE761FC/5DFDF474', u'/5DD64290/5DE7647B/5DFDF474', u'/5DD64290/5DE76AB9/5DFDF474', u'/5DD64290/5DE76CAC/5DFDF474', u'/5DD64290/5DE77004/5DFDF474', u'/5DD64290/5DE77316/5DFDF474', u'/5DD64290/5DE7755D/5DFDF474', u'/5DD64290/5DE7788B/5DFDF474']
+12-23 17:37:44 replicate_layout.replicatelayout 268:All sheets to replicate:
+[['strain_gauge_cluster', 'strain_gauge_circuit4'], ['strain_gauge_cluster', 'strain_gauge_circuit1'], ['strain_gauge_cluster', 'strain_gauge_circuit2'], ['strain_gauge_cluster', 'strain_gauge_circuit3'], ['strain_gauge_cluster', 'strain_gauge_circuit5'], ['strain_gauge_cluster', 'strain_gauge_circuit6.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit7.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit8.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit9.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit10.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit11.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']]
+12-23 17:37:44 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
 [['strain_gauge_cluster', 'strain_gauge_circuit1'], ['strain_gauge_cluster', 'strain_gauge_circuit10.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit11.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit12.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit2'], ['strain_gauge_cluster', 'strain_gauge_circuit3'], ['strain_gauge_cluster', 'strain_gauge_circuit4'], ['strain_gauge_cluster', 'strain_gauge_circuit5'], ['strain_gauge_cluster', 'strain_gauge_circuit6.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit7.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit8.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']]
-12-23 16:05:23 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
+12-23 17:37:44 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
 [['strain_gauge_cluster', 'strain_gauge_circuit10.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit11.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit12.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit2'], ['strain_gauge_cluster', 'strain_gauge_circuit3'], ['strain_gauge_cluster', 'strain_gauge_circuit4'], ['strain_gauge_cluster', 'strain_gauge_circuit5'], ['strain_gauge_cluster', 'strain_gauge_circuit6.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit7.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit8.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']]
-12-23 16:05:23 replicate_layout.action_replicate_layout 170:Replicating layout
-12-23 16:05:23 replicate_layout.replicatelayout 959:Starting replication of sheets: [['strain_gauge_cluster', 'strain_gauge_circuit10.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit11.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit12.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit2'], ['strain_gauge_cluster', 'strain_gauge_circuit3'], ['strain_gauge_cluster', 'strain_gauge_circuit4'], ['strain_gauge_cluster', 'strain_gauge_circuit5'], ['strain_gauge_cluster', 'strain_gauge_circuit6.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit7.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit8.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']]
+12-23 17:37:44 replicate_layout.action_replicate_layout 170:Replicating layout
+12-23 17:37:44 replicate_layout.replicatelayout 959:Starting replication of sheets: [['strain_gauge_cluster', 'strain_gauge_circuit10.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit11.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit12.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit2'], ['strain_gauge_cluster', 'strain_gauge_circuit3'], ['strain_gauge_cluster', 'strain_gauge_circuit4'], ['strain_gauge_cluster', 'strain_gauge_circuit5'], ['strain_gauge_cluster', 'strain_gauge_circuit6.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit7.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit8.sch'], ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']]
 on level: ['strain_gauge_cluster', 'strain_gauge_circuit1']
 with tracks=True, zone=True, text=True, containing=True, remov=True
-12-23 16:05:23 root 250:updating GUI message: 'Preparing for replication'
-12-23 16:05:23 root 255:updating GUI with: 0
-12-23 16:05:23 replicate_layout.replicatelayout 534:Getting the list of pivot footprints
-12-23 16:05:23 root 255:updating GUI with: 0
-12-23 16:05:23 replicate_layout.replicatelayout 538:Getting the list of all the remaining footprints
-12-23 16:05:23 replicate_layout.replicatelayout 542:Getting nets local to pivot footprints
-12-23 16:05:23 replicate_layout.replicatelayout 546:Getting pivot bounding box
-12-23 16:05:23 root 255:updating GUI with: 37
-12-23 16:05:23 replicate_layout.replicatelayout 550:Getting pivot tracks
-12-23 16:05:24 replicate_layout.replicatelayout 554:Getting pivot zones
-12-23 16:05:24 root 255:updating GUI with: 62
-12-23 16:05:24 replicate_layout.replicatelayout 558:Getting pivot text items
-12-23 16:05:24 replicate_layout.replicatelayout 562:Getting pivot text items
-12-23 16:05:24 replicate_layout.replicatelayout 985:Removing tracks and zones, before module placement
-12-23 16:05:24 root 250:updating GUI message: 'Removing zones and tracks'
-12-23 16:05:24 root 255:updating GUI with: 9
-12-23 16:05:24 root 255:updating GUI with: 18
-12-23 16:05:24 root 255:updating GUI with: 27
-12-23 16:05:24 root 255:updating GUI with: 36
-12-23 16:05:24 root 255:updating GUI with: 45
-12-23 16:05:24 root 255:updating GUI with: 54
-12-23 16:05:24 root 255:updating GUI with: 63
-12-23 16:05:24 root 255:updating GUI with: 72
-12-23 16:05:24 root 255:updating GUI with: 81
-12-23 16:05:24 root 255:updating GUI with: 90
-12-23 16:05:24 root 250:updating GUI message: 'Replicating footprints'
-12-23 16:05:24 root 255:updating GUI with: 0
-12-23 16:05:24 replicate_layout.replicatelayout 568:Replicating footprints
-12-23 16:05:24 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit10.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit11.sch']
-12-23 16:05:24 root 255:updating GUI with: 14
-12-23 16:05:24 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit2']
-12-23 16:05:24 root 255:updating GUI with: 29
-12-23 16:05:24 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit3']
-12-23 16:05:24 root 255:updating GUI with: 44
-12-23 16:05:24 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit4']
-12-23 16:05:24 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit5']
-12-23 16:05:24 root 255:updating GUI with: 59
-12-23 16:05:24 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit6.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit7.sch']
-12-23 16:05:24 root 255:updating GUI with: 74
-12-23 16:05:24 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit8.sch']
-12-23 16:05:24 root 255:updating GUI with: 89
-12-23 16:05:24 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 993:Removing tracks and zones, after module placement
-12-23 16:05:24 root 250:updating GUI message: 'Removing zones and tracks'
-12-23 16:05:24 root 255:updating GUI with: 9
-12-23 16:05:24 root 255:updating GUI with: 18
-12-23 16:05:24 root 255:updating GUI with: 27
-12-23 16:05:24 root 255:updating GUI with: 36
-12-23 16:05:24 root 255:updating GUI with: 45
-12-23 16:05:24 root 255:updating GUI with: 54
-12-23 16:05:24 root 255:updating GUI with: 63
-12-23 16:05:24 root 255:updating GUI with: 72
-12-23 16:05:24 root 255:updating GUI with: 81
-12-23 16:05:24 root 255:updating GUI with: 90
-12-23 16:05:24 root 250:updating GUI message: 'Replicating tracks'
-12-23 16:05:24 root 255:updating GUI with: 0
-12-23 16:05:24 replicate_layout.replicatelayout 687:Replicating tracks
-12-23 16:05:24 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit10.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit11.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']
-12-23 16:05:24 root 255:updating GUI with: 18
-12-23 16:05:24 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit2']
-12-23 16:05:24 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit3']
-12-23 16:05:24 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit4']
-12-23 16:05:24 root 255:updating GUI with: 45
-12-23 16:05:24 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit5']
-12-23 16:05:24 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit6.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit7.sch']
-12-23 16:05:24 root 255:updating GUI with: 72
-12-23 16:05:24 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit8.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']
-12-23 16:05:24 root 250:updating GUI message: 'Replicating zones'
-12-23 16:05:24 replicate_layout.replicatelayout 738:Replicating zones
-12-23 16:05:24 root 255:updating GUI with: 0
-12-23 16:05:24 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit10.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit11.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit2']
-12-23 16:05:24 root 255:updating GUI with: 36
-12-23 16:05:24 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit3']
-12-23 16:05:24 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit4']
-12-23 16:05:24 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit5']
-12-23 16:05:24 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit6.sch']
-12-23 16:05:24 root 255:updating GUI with: 72
-12-23 16:05:24 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit7.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit8.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']
-12-23 16:05:24 root 250:updating GUI message: 'Replicating text'
-12-23 16:05:24 replicate_layout.replicatelayout 804:Replicating text
-12-23 16:05:24 root 255:updating GUI with: 0
-12-23 16:05:24 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit10.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit11.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit2']
-12-23 16:05:24 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit3']
-12-23 16:05:24 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit4']
-12-23 16:05:24 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit5']
-12-23 16:05:24 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit6.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit7.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit8.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']
-12-23 16:05:24 root 250:updating GUI message: 'Replicating drawings'
-12-23 16:05:24 replicate_layout.replicatelayout 834:Replicating drawings
-12-23 16:05:24 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit10.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit11.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit2']
-12-23 16:05:24 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit3']
-12-23 16:05:24 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit4']
-12-23 16:05:24 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit5']
-12-23 16:05:24 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit6.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit7.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit8.sch']
-12-23 16:05:24 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']
-12-23 16:05:24 root 250:updating GUI message: 'Removing duplicates'
-12-23 16:05:24 replicate_layout.action_replicate_layout 190:Replication complete
+12-23 17:37:44 root 250:updating GUI message: 'Preparing for replication'
+12-23 17:37:44 root 255:updating GUI with: 0
+12-23 17:37:44 replicate_layout.replicatelayout 534:Getting the list of pivot footprints
+12-23 17:37:44 root 255:updating GUI with: 0
+12-23 17:37:44 replicate_layout.replicatelayout 538:Getting the list of all the remaining footprints
+12-23 17:37:44 replicate_layout.replicatelayout 542:Getting nets local to pivot footprints
+12-23 17:37:44 replicate_layout.replicatelayout 546:Getting pivot bounding box
+12-23 17:37:44 root 255:updating GUI with: 37
+12-23 17:37:44 replicate_layout.replicatelayout 550:Getting pivot tracks
+12-23 17:37:44 replicate_layout.replicatelayout 554:Getting pivot zones
+12-23 17:37:44 root 255:updating GUI with: 62
+12-23 17:37:44 replicate_layout.replicatelayout 558:Getting pivot text items
+12-23 17:37:44 replicate_layout.replicatelayout 562:Getting pivot text items
+12-23 17:37:44 replicate_layout.replicatelayout 985:Removing tracks and zones, before module placement
+12-23 17:37:44 root 250:updating GUI message: 'Removing zones and tracks'
+12-23 17:37:44 root 255:updating GUI with: 9
+12-23 17:37:44 root 255:updating GUI with: 18
+12-23 17:37:44 root 255:updating GUI with: 27
+12-23 17:37:44 root 255:updating GUI with: 36
+12-23 17:37:44 root 255:updating GUI with: 45
+12-23 17:37:44 root 255:updating GUI with: 54
+12-23 17:37:44 root 255:updating GUI with: 63
+12-23 17:37:44 root 255:updating GUI with: 72
+12-23 17:37:44 root 255:updating GUI with: 81
+12-23 17:37:44 root 255:updating GUI with: 90
+12-23 17:37:44 root 250:updating GUI message: 'Replicating footprints'
+12-23 17:37:44 root 255:updating GUI with: 0
+12-23 17:37:44 replicate_layout.replicatelayout 568:Replicating footprints
+12-23 17:37:44 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit10.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit11.sch']
+12-23 17:37:44 root 255:updating GUI with: 14
+12-23 17:37:44 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit2']
+12-23 17:37:44 root 255:updating GUI with: 29
+12-23 17:37:44 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit3']
+12-23 17:37:44 root 255:updating GUI with: 44
+12-23 17:37:44 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit4']
+12-23 17:37:44 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit5']
+12-23 17:37:44 root 255:updating GUI with: 59
+12-23 17:37:44 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit6.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit7.sch']
+12-23 17:37:44 root 255:updating GUI with: 74
+12-23 17:37:44 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit8.sch']
+12-23 17:37:44 root 255:updating GUI with: 89
+12-23 17:37:44 replicate_layout.replicatelayout 574:Replicating footprints on sheet ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 993:Removing tracks and zones, after module placement
+12-23 17:37:44 root 250:updating GUI message: 'Removing zones and tracks'
+12-23 17:37:44 root 255:updating GUI with: 9
+12-23 17:37:44 root 255:updating GUI with: 18
+12-23 17:37:44 root 255:updating GUI with: 27
+12-23 17:37:44 root 255:updating GUI with: 36
+12-23 17:37:44 root 255:updating GUI with: 45
+12-23 17:37:44 root 255:updating GUI with: 54
+12-23 17:37:44 root 255:updating GUI with: 63
+12-23 17:37:44 root 255:updating GUI with: 72
+12-23 17:37:44 root 255:updating GUI with: 81
+12-23 17:37:44 root 255:updating GUI with: 90
+12-23 17:37:44 root 250:updating GUI message: 'Replicating tracks'
+12-23 17:37:44 root 255:updating GUI with: 0
+12-23 17:37:44 replicate_layout.replicatelayout 687:Replicating tracks
+12-23 17:37:44 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit10.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit11.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']
+12-23 17:37:44 root 255:updating GUI with: 18
+12-23 17:37:44 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit2']
+12-23 17:37:44 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit3']
+12-23 17:37:44 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit4']
+12-23 17:37:44 root 255:updating GUI with: 45
+12-23 17:37:44 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit5']
+12-23 17:37:44 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit6.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit7.sch']
+12-23 17:37:44 root 255:updating GUI with: 72
+12-23 17:37:44 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit8.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 693:Replicating tracks on sheet ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']
+12-23 17:37:44 root 250:updating GUI message: 'Replicating zones'
+12-23 17:37:44 replicate_layout.replicatelayout 738:Replicating zones
+12-23 17:37:44 root 255:updating GUI with: 0
+12-23 17:37:44 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit10.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit11.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit2']
+12-23 17:37:44 root 255:updating GUI with: 36
+12-23 17:37:44 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit3']
+12-23 17:37:44 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit4']
+12-23 17:37:44 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit5']
+12-23 17:37:44 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit6.sch']
+12-23 17:37:44 root 255:updating GUI with: 72
+12-23 17:37:44 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit7.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit8.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 745:Replicating zones on sheet ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']
+12-23 17:37:44 root 250:updating GUI message: 'Replicating text'
+12-23 17:37:44 replicate_layout.replicatelayout 804:Replicating text
+12-23 17:37:44 root 255:updating GUI with: 0
+12-23 17:37:44 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit10.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit11.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit2']
+12-23 17:37:44 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit3']
+12-23 17:37:44 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit4']
+12-23 17:37:44 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit5']
+12-23 17:37:44 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit6.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit7.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit8.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 811:Replicating text on sheet ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']
+12-23 17:37:44 root 250:updating GUI message: 'Replicating drawings'
+12-23 17:37:44 replicate_layout.replicatelayout 834:Replicating drawings
+12-23 17:37:44 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit10.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit11.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit12.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit2']
+12-23 17:37:44 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit3']
+12-23 17:37:44 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit4']
+12-23 17:37:44 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit5']
+12-23 17:37:44 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit6.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit7.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit8.sch']
+12-23 17:37:44 replicate_layout.replicatelayout 840:Replicating drawings on sheet ['strain_gauge_cluster', 'strain_gauge_circuit9.sch']
+12-23 17:37:44 root 250:updating GUI message: 'Removing duplicates'
+12-23 17:37:45 replicate_layout.action_replicate_layout 190:Replication complete
