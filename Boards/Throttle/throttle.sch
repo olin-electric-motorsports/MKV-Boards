@@ -1740,8 +1740,6 @@ Wire Wire Line
 	8400 5800 8400 5950
 Wire Wire Line
 	8400 6250 8400 6350
-Text Label 7700 5450 0    50   ~ 0
-12V
 Wire Wire Line
 	7700 5800 7700 6250
 $Comp
@@ -7070,4 +7068,6 @@ F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-178
 	1    8000 5800
 	0    1    1    0   
 $EndComp
+Text Label 7700 5450 0    59   ~ 0
+12V
 $EndSCHEMATC
