@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 20)
+    (drawings 24)
     (tracks 1348)
     (zones 0)
     (modules 145)
@@ -1711,7 +1711,7 @@
     (tags "Diode SOD523")
     (path /5C623D49)
     (attr smd)
-    (fp_text reference D101 (at 1.651 1.9177 270) (layer F.SilkS)
+    (fp_text reference D101 (at 1.651 2.0447 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value D_Zener_18V (at 0 2.286 90) (layer F.Fab) hide
@@ -5978,6 +5978,18 @@
     )
   )
 
+  (gr_text PB1 (at 144.2085 106.934 90) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.075)))
+  )
+  (gr_text PB0 (at 144.2085 102.9335 90) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.075)))
+  )
+  (gr_text "5V LED" (at 120.3325 114.046 90) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.075)))
+  )
+  (gr_text "12V LED" (at 113.538 103.6955 270) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.075)))
+  )
   (gr_line (start 165.5064 141.44244) (end 165.5064 91.91244) (layer Edge.Cuts) (width 0.2) (tstamp 5E029EA8))
   (gr_line (start 128.651 145.25244) (end 113.8809 145.25244) (layer Dwgs.User) (width 0.2))
   (gr_line (start 162.687 145.25244) (end 162.687 139.954) (layer Dwgs.User) (width 0.2))
@@ -6003,7 +6015,7 @@
   (gr_text GND (at 136.5885 113.411) (layer F.SilkS) (tstamp 5DFD8B24)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text 12V (at 113.157 105.0925 90) (layer F.SilkS) (tstamp 5DFD8B21)
+  (gr_text 12V (at 115.316 108.0135) (layer F.SilkS) (tstamp 5DFD8B21)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
