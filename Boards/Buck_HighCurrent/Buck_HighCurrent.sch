@@ -485,80 +485,6 @@ $EndComp
 Wire Wire Line
 	7300 3750 7000 3750
 $Comp
-L footprints:TP TP3
-U 1 1 5DDA5938
-P 10150 2400
-F 0 "TP3" V 10104 2428 50  0000 L CNN
-F 1 "TP" V 10195 2428 50  0000 L CNN
-F 2 "footprints:tp_1.6mm" H 10050 2300 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 10150 2400 50  0001 C CNN
-F 4 "DK" H 10250 2500 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 10350 2600 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 10450 2700 50  0001 C CNN "PurchasingLink"
-	1    10150 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L footprints:TP TP4
-U 1 1 5DDA7C84
-P 10150 3650
-F 0 "TP4" V 10104 3678 50  0000 L CNN
-F 1 "TP" V 10195 3678 50  0000 L CNN
-F 2 "footprints:tp_1.6mm" H 10050 3550 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 10150 3650 50  0001 C CNN
-F 4 "DK" H 10250 3750 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 10350 3850 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 10450 3950 50  0001 C CNN "PurchasingLink"
-	1    10150 3650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9500 3350 9500 3650
-Wire Wire Line
-	9500 2400 9950 2400
-Wire Wire Line
-	9950 3650 9500 3650
-Connection ~ 9500 3650
-Wire Wire Line
-	9500 3650 9500 3750
-$Comp
-L footprints:TP TP1
-U 1 1 5DDB2371
-P 1550 3500
-F 0 "TP1" V 1504 3528 50  0000 L CNN
-F 1 "TP" V 1595 3528 50  0000 L CNN
-F 2 "footprints:tp_1.6mm" H 1450 3400 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 1550 3500 50  0001 C CNN
-F 4 "DK" H 1650 3600 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 1750 3700 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 1850 3800 50  0001 C CNN "PurchasingLink"
-	1    1550 3500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1750 3500 2100 3500
-Wire Wire Line
-	2100 3200 2100 3500
-Connection ~ 2100 3500
-Wire Wire Line
-	2100 3500 2100 3650
-$Comp
-L footprints:TP TP2
-U 1 1 5DDB56F7
-P 1600 2450
-F 0 "TP2" V 1554 2478 50  0000 L CNN
-F 1 "TP" V 1645 2478 50  0000 L CNN
-F 2 "footprints:tp_1.6mm" H 1500 2350 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 1600 2450 50  0001 C CNN
-F 4 "DK" H 1700 2550 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 1800 2650 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 1900 2750 50  0001 C CNN "PurchasingLink"
-	1    1600 2450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1800 2450 2100 2450
-$Comp
 L footprints:R_10K R2
 U 1 1 5DDB9CFE
 P 6000 3600
@@ -602,4 +528,8 @@ Wire Wire Line
 	7600 3750 7850 3750
 Wire Wire Line
 	7850 3400 8600 3400
+Wire Wire Line
+	2100 3200 2100 3650
+Wire Wire Line
+	9500 3350 9500 3750
 $EndSCHEMATC

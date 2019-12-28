@@ -524,8 +524,6 @@ NoConn ~ 1800 6100
 NoConn ~ 1800 6200
 Wire Wire Line
 	2750 1500 2750 1600
-Wire Wire Line
-	2750 1500 2250 1500
 $Comp
 L LCD_Screen-rescue:C_0.1uF_0603-footprints-Buck_HighCurrent-rescue C5
 U 1 1 5DD296FF
@@ -579,8 +577,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2650 2600 60 
 	1    2250 2100
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2250 1500 2250 1600
 $Comp
 L power:GND #PWR013
 U 1 1 5DD27775
@@ -623,20 +619,6 @@ F 3 "" H 1700 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1700 1950 1700 1500
-$Comp
-L LCD_Screen-rescue:F_2.6A_16V-footprints-Buck_HighCurrent-rescue F1
-U 1 1 5DD2DCBD
-P 1950 1500
-F 0 "F1" V 1850 1500 50  0000 C CNN
-F 1 "F_2.6A_16V" V 2050 1500 50  0000 C CNN
-F 2 "Fuse:Fuse_1812_4532Metric" H 1950 1500 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1950 1500 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0260BF2B/507-1780-6-ND/4156287" H 2010 1409 50  0001 L CNN "Digikey"
-	1    1950 1500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1700 1500 1800 1500
 Wire Wire Line
 	4050 1750 3850 1750
 Wire Wire Line
@@ -677,7 +659,6 @@ Wire Wire Line
 	2750 1900 2750 2100
 Wire Wire Line
 	2750 1500 3150 1500
-Connection ~ 2750 1500
 Wire Wire Line
 	3150 1500 3550 1500
 Connection ~ 3150 1500
@@ -693,9 +674,6 @@ Wire Wire Line
 	3550 1500 3850 1500
 Connection ~ 3550 1500
 Connection ~ 3850 1500
-Wire Wire Line
-	2100 1500 2250 1500
-Connection ~ 2250 1500
 Wire Wire Line
 	4800 1900 5050 1900
 Wire Wire Line
@@ -1070,6 +1048,28 @@ F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1
 	1    3350 5150
 	1    0    0    -1  
 $EndComp
-Text Notes 3500 5150 0    50   ~ 0
+Text Notes 3550 5150 0    50   ~ 0
 DNP
+Connection ~ 2750 1500
+Wire Wire Line
+	1700 1500 1800 1500
+Connection ~ 2250 1500
+Wire Wire Line
+	2100 1500 2250 1500
+$Comp
+L LCD_Screen-rescue:F_2.6A_16V-footprints-Buck_HighCurrent-rescue F1
+U 1 1 5DD2DCBD
+P 1950 1500
+F 0 "F1" V 1850 1500 50  0000 C CNN
+F 1 "F_2.6A_16V" V 2050 1500 50  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric" H 1950 1500 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1950 1500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0260BF2B/507-1780-6-ND/4156287" H 2010 1409 50  0001 L CNN "Digikey"
+	1    1950 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 1500 2250 1600
+Wire Wire Line
+	2750 1500 2250 1500
 $EndSCHEMATC

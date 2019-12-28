@@ -31,20 +31,6 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L Charging_LCD_Display-rescue:R_200-footprints-Buck_HighCurrent-rescue-Buck_HighCurrent-rescue R1
-U 1 1 5DD24939
-P 2700 1350
-F 0 "R1" H 2650 1700 50  0000 L CNN
-F 1 "R_100" V 2800 1250 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 2630 1350 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2780 1350 50  0001 C CNN
-F 4 "DK" H 2700 1350 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 2700 1350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 3180 1750 60  0001 C CNN "PurchasingLink"
-	1    2700 1350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Charging_LCD_Display-rescue:LED_0805-footprints-Buck_HighCurrent-rescue-Buck_HighCurrent-rescue D2
 U 1 1 5DD25EAF
 P 2700 1700
@@ -1109,4 +1095,18 @@ Wire Wire Line
 Wire Wire Line
 	4500 1100 4300 1100
 Connection ~ 4300 1100
+$Comp
+L footprints:R_1K R1
+U 1 1 5DFFFFE8
+P 2700 1350
+F 0 "R1" H 2770 1396 50  0000 L CNN
+F 1 "R_1K" H 2770 1305 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 2630 1350 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 2780 1350 50  0001 C CNN
+F 4 "DK" H 2700 1350 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 2700 1350 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 3180 1750 60  0001 C CNN "PurchasingLink"
+	1    2700 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
