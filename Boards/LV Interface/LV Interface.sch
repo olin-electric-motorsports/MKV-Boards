@@ -34,7 +34,7 @@ U 1 1 5DCF20B5
 P 1050 6050
 F 0 "J2" H 1006 6947 60  0000 C CNN
 F 1 "Ampseal_14_VT" H 1006 6841 60  0000 C CNN
-F 2 "" H 850 6350 60  0001 C CNN
+F 2 "footprints:Ampseal_14" H 850 6350 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776261%7FA7%7Fpdf%7FEnglish%7FENG_CD_776261_A7.pdf%7F1-776261-1" H 850 6350 60  0001 C CNN
 F 4 "TE" H 900 6900 60  0001 C CNN "MFN"
 F 5 " 1-776261-1" H 1000 7000 60  0001 C CNN "MPN"
@@ -99,7 +99,7 @@ Text Label 1200 1150 0    50   ~ 0
 GND
 Text Label 1200 1250 0    50   ~ 0
 12V
-Text Label 1200 1950 0    50   ~ 0
+Text Label 1250 5500 0    50   ~ 0
 BRAKELIGHT 12V
 Text Label 1200 2150 0    50   ~ 0
 12V
@@ -119,7 +119,7 @@ Text Label 3250 3600 2    50   ~ 0
 BSPD TEST SWITCH +
 Text Label 3250 3450 2    50   ~ 0
 BSPD TEST SWITCH -
-Text Label 1200 3050 0    50   ~ 0
+Text Label 1250 5900 0    50   ~ 0
 BSPD CURRENT SENSE
 Text Label 1200 3150 0    50   ~ 0
 CAN HIGH
@@ -133,35 +133,35 @@ Text Label 1200 3550 0    50   ~ 0
 E-STOP-R > BSPD
 Text Label 1200 3650 0    50   ~ 0
 FUSE > E-STOP-L
-Text Label 1200 3750 0    50   ~ 0
-CAN HIGH
-Text Label 1200 3850 0    50   ~ 0
-CAN LOW
-Text Label 1200 4150 0    50   ~ 0
-COOLING PUMP +
-Text Label 1200 4250 0    50   ~ 0
-COOLING PUMP LSD
-Text Label 1200 4350 0    50   ~ 0
-BRAKE PRESSURE +
 Text Label 1200 4450 0    50   ~ 0
+CAN HIGH
+Text Label 1200 4550 0    50   ~ 0
+CAN LOW
+Text Label 1200 3750 0    50   ~ 0
+COOLING PUMP +
+Text Label 1200 3950 0    50   ~ 0
+COOLING PUMP LSD
+Text Label 1250 6000 0    50   ~ 0
+BRAKE PRESSURE +
+Text Label 1250 6100 0    50   ~ 0
 BRAKE PRESSURE SENSE
-Text Label 1250 5400 0    50   ~ 0
+Text Label 1200 2850 0    50   ~ 0
 MOTOR TEMP +
-Text Label 1250 5500 0    50   ~ 0
+Text Label 1200 2950 0    50   ~ 0
 MOTOR TEMP -
 Text Label 1250 6400 0    50   ~ 0
 CAN LOW
 Text Label 1250 6300 0    50   ~ 0
 CAN HIGH
-Text Label 1250 5900 0    50   ~ 0
+Text Label 1200 4050 0    50   ~ 0
 MC TEMP +
-Text Label 1250 6000 0    50   ~ 0
+Text Label 1200 4150 0    50   ~ 0
 MC TEMP -
 Text Label 1250 6500 0    50   ~ 0
 CAN_GND
-Text Label 1250 6100 0    50   ~ 0
+Text Label 1200 4250 0    50   ~ 0
 RADIATOR TEMP +
-Text Label 1250 6200 0    50   ~ 0
+Text Label 1200 4350 0    50   ~ 0
 RADIATOR TEMP -
 Text Label 1250 6600 0    50   ~ 0
 12V
@@ -334,7 +334,7 @@ U 1 1 5DD22CED
 P 3300 6760
 F 0 "U2" H 3300 6985 50  0000 C CNN
 F 1 "Fuse_Holder_Blade" H 3300 6894 50  0000 C CNN
-F 2 "" H 3300 6760 50  0001 C CNN
+F 2 "footprints:Fuse_Block_Holder" H 3300 6760 50  0001 C CNN
 F 3 "" H 3300 6760 50  0001 C CNN
 	1    3300 6760
 	1    0    0    -1  
@@ -349,7 +349,7 @@ U 1 1 5DD23405
 P 3300 7110
 F 0 "U3" H 3300 7335 50  0000 C CNN
 F 1 "Fuse_Holder_Blade" H 3300 7244 50  0000 C CNN
-F 2 "" H 3300 7110 50  0001 C CNN
+F 2 "footprints:Fuse_Block_Holder" H 3300 7110 50  0001 C CNN
 F 3 "" H 3300 7110 50  0001 C CNN
 	1    3300 7110
 	1    0    0    -1  
@@ -522,7 +522,7 @@ F 3 "" H 2050 2450 50  0001 C CNN
 	1    2050 2450
 	1    0    0    -1  
 $EndComp
-Text Label 1200 2050 0    50   ~ 0
+Text Label 1250 5600 0    50   ~ 0
 BRAKELIGHT LSD
 Wire Wire Line
 	1200 3350 1650 3350
@@ -850,9 +850,9 @@ Text Notes 3100 6450 0    100  ~ 0
 Fuses\n
 Text Notes 7750 4150 0    100  ~ 0
 BSPD RJ45\n
-Text Label 1200 2850 0    50   ~ 0
+Text Label 1250 5700 0    50   ~ 0
 BSPD TEST SWITCH +
-Text Label 1200 2950 0    50   ~ 0
+Text Label 1250 5800 0    50   ~ 0
 BSPD TEST SWITCH -
 Wire Wire Line
 	3250 3450 3350 3450
@@ -891,10 +891,10 @@ Connection ~ 10200 2950
 Wire Wire Line
 	10200 2950 10200 3050
 Wire Wire Line
-	1200 1950 2050 1950
-Text Label 2050 1950 0    50   ~ 0
+	1250 5500 2100 5500
+Text Label 2100 5500 0    50   ~ 0
 12V
-Text Label 1200 4550 0    50   ~ 0
+Text Label 1250 6200 0    50   ~ 0
 BRAKE PRESSURE -
 Text Label 10500 5100 0    50   ~ 0
 BSPD RELAY LSD
@@ -933,7 +933,7 @@ F 6 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5
 	1    5800 6850
 	1    0    0    -1  
 $EndComp
-Text Label 1200 3950 0    50   ~ 0
+Text Label 1200 3050 0    50   ~ 0
 12V
 Text Label 4400 1550 0    50   ~ 0
 SS ESTOP
@@ -1199,7 +1199,7 @@ U 1 1 5DE372EC
 P 3300 7500
 F 0 "U4" H 3300 7725 50  0000 C CNN
 F 1 "Fuse_Holder_Blade" H 3300 7634 50  0000 C CNN
-F 2 "" H 3300 7500 50  0001 C CNN
+F 2 "footprints:Fuse_Block_Holder" H 3300 7500 50  0001 C CNN
 F 3 "" H 3300 7500 50  0001 C CNN
 	1    3300 7500
 	1    0    0    -1  
@@ -1225,7 +1225,7 @@ F 3 "" H 6200 6950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 6900 6200 6900
-Text Label 1200 4050 0    50   ~ 0
+Text Label 1200 3850 0    50   ~ 0
 12V_Cooling_Out
 Text Label 5450 2250 0    50   ~ 0
 EXTRA TEMP 1 +
@@ -1346,28 +1346,28 @@ Text Label 1200 1750 0    50   ~ 0
 EXTRA TEMP 3 +
 Text Label 1200 1850 0    50   ~ 0
 EXTRA TEMP 3 -
-Text Label 1250 5600 0    50   ~ 0
+Text Label 1200 1950 0    50   ~ 0
 EXTRA TEMP 4 +
-Text Label 1250 5700 0    50   ~ 0
+Text Label 1200 2050 0    50   ~ 0
 EXTRA TEMP 4 -
 Wire Wire Line
-	1950 5800 1950 5650
+	1950 5400 1950 5250
 Wire Wire Line
-	1950 5650 2100 5650
+	1950 5250 2100 5250
 $Comp
 L power:GND #PWR032
 U 1 1 5DEED01B
-P 2100 5650
-F 0 "#PWR032" H 2100 5400 50  0001 C CNN
-F 1 "GND" H 2105 5477 50  0000 C CNN
-F 2 "" H 2100 5650 50  0001 C CNN
-F 3 "" H 2100 5650 50  0001 C CNN
-	1    2100 5650
+P 2100 5250
+F 0 "#PWR032" H 2100 5000 50  0001 C CNN
+F 1 "GND" H 2105 5077 50  0000 C CNN
+F 2 "" H 2100 5250 50  0001 C CNN
+F 3 "" H 2100 5250 50  0001 C CNN
+	1    2100 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 5800 1950 5800
-Text Label 1250 5800 0    50   ~ 0
+	1250 5400 1950 5400
+Text Label 1250 5400 0    50   ~ 0
 GND
 $Comp
 L formula:UF_2_VT J13
