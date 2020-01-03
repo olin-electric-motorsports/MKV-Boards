@@ -145,23 +145,23 @@ Text Label 1250 6000 0    50   ~ 0
 BRAKE PRESSURE +
 Text Label 1250 6100 0    50   ~ 0
 BRAKE PRESSURE SENSE
-Text Label 1200 2850 0    50   ~ 0
+Text Label 1200 4050 0    50   ~ 0
 MOTOR TEMP +
-Text Label 1200 2950 0    50   ~ 0
+Text Label 1200 4150 0    50   ~ 0
 MOTOR TEMP -
 Text Label 1250 6400 0    50   ~ 0
 CAN LOW
 Text Label 1250 6300 0    50   ~ 0
 CAN HIGH
-Text Label 1200 4050 0    50   ~ 0
+Text Label 1200 4250 0    50   ~ 0
 MC TEMP +
-Text Label 1200 4150 0    50   ~ 0
+Text Label 1200 4350 0    50   ~ 0
 MC TEMP -
 Text Label 1250 6500 0    50   ~ 0
 CAN_GND
-Text Label 1200 4250 0    50   ~ 0
+Text Label 1200 2850 0    50   ~ 0
 RADIATOR TEMP +
-Text Label 1200 4350 0    50   ~ 0
+Text Label 1200 2950 0    50   ~ 0
 RADIATOR TEMP -
 Text Label 1250 6600 0    50   ~ 0
 12V
@@ -251,7 +251,7 @@ Text Label 6050 6800 0    50   ~ 0
 BATTERY +
 Text Label 6050 6900 0    50   ~ 0
 BATTERY RETURN (GND)
-Text Label 3100 4750 0    50   ~ 0
+Text Label 3100 4650 0    50   ~ 0
 CAN LOW
 Text Label 7370 4870 2    50   ~ 0
 CAN HIGH
@@ -985,11 +985,11 @@ Text Label 4000 4350 0    50   ~ 0
 GND
 Text Label 4000 4450 0    50   ~ 0
 12V
-Text Label 4000 4950 0    50   ~ 0
-MISO_GLV
 Text Label 4000 5050 0    50   ~ 0
-MOSI_GLV
+MISO_GLV
 Text Label 4000 5150 0    50   ~ 0
+MOSI_GLV
+Text Label 4000 5350 0    50   ~ 0
 SCK_GLV
 Text Label 4000 5250 0    50   ~ 0
 CS_GLV
@@ -1014,31 +1014,17 @@ F 3 "" H 8650 1850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8500 1850 8500 2050
-$Comp
-L formula:MM_F_RA_20 J5
-U 1 1 5DE502F2
-P 2950 5450
-F 0 "J5" H 2906 6797 60  0000 C CNN
-F 1 "MM_F_RA_20" H 2906 6691 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_20" H 2750 6550 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 2850 6650 60  0001 C CNN
-F 4 "TE" H 3050 6850 60  0001 C CNN "MFN"
-F 5 "2-338070-0" H 3150 6950 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 2950 6750 60  0001 C CNN "PurchasingLink"
-	1    2950 5450
-	1    0    0    -1  
-$EndComp
 Text Label 3100 5050 0    50   ~ 0
 MISO_GLV
 Text Label 3100 5150 0    50   ~ 0
 MOSI_GLV
-Text Label 3100 5250 0    50   ~ 0
-SCK_GLV
 Text Label 3100 5350 0    50   ~ 0
+SCK_GLV
+Text Label 3100 5250 0    50   ~ 0
 CS_GLV
-Text Label 3100 4850 0    50   ~ 0
-SCL_GLV
 Text Label 3100 4950 0    50   ~ 0
+SCL_GLV
+Text Label 3100 4850 0    50   ~ 0
 SDA_GLV
 $Comp
 L formula:INA260 U6
@@ -1066,7 +1052,7 @@ F 3 "" H 3450 4200 50  0001 C CNN
 	1    3450 4200
 	1    0    0    -1  
 $EndComp
-Text Label 3100 4650 0    50   ~ 0
+Text Label 3100 4550 0    50   ~ 0
 CAN HIGH
 Wire Wire Line
 	3300 4350 3100 4350
@@ -1081,7 +1067,7 @@ F 3 "" H 5750 6300 50  0001 C CNN
 	1    5750 6300
 	1    0    0    -1  
 $EndComp
-Text Label 4000 4750 0    50   ~ 0
+Text Label 4000 4950 0    50   ~ 0
 SCL_GLV
 Text Label 4000 4850 0    50   ~ 0
 SDA_GLV
@@ -1112,12 +1098,12 @@ Text Label 5350 5700 2    50   ~ 0
 12V_Cooling_Fused
 Wire Wire Line
 	5350 5700 5350 5800
-Text Label 3100 4550 0    50   ~ 0
+Text Label 3100 4750 0    50   ~ 0
 5V_GLV
 Text Label 5750 5500 0    50   ~ 0
 5V_GLV
 Text Label 6150 5700 0    50   ~ 0
-ALERT_GLV
+ALERT_Cool
 Wire Wire Line
 	6150 6100 6250 6100
 Wire Wire Line
@@ -1258,45 +1244,20 @@ F 3 "" H 5900 3050 50  0001 C CNN
 	1    5900 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 5450 3100 5550
-Connection ~ 3100 5550
-Wire Wire Line
-	3100 5550 3100 5650
 Connection ~ 3100 5650
 Wire Wire Line
-	3100 5650 3100 5750
-Connection ~ 3100 5750
-Wire Wire Line
-	3100 5750 3100 5850
-Connection ~ 3100 5850
-Wire Wire Line
-	3100 5850 3100 5950
-Connection ~ 3100 5950
-Wire Wire Line
-	3100 5950 3100 6050
-Connection ~ 3100 6050
-Wire Wire Line
-	3100 6050 3100 6150
-Connection ~ 3100 6150
-Wire Wire Line
-	3100 6150 3100 6250
-Wire Wire Line
-	3100 5450 3250 5450
+	3100 5650 3250 5650
 $Comp
 L power:GND #PWR08
 U 1 1 5DE7714C
-P 3250 5450
-F 0 "#PWR08" H 3250 5200 50  0001 C CNN
-F 1 "GND" H 3255 5277 50  0000 C CNN
-F 2 "" H 3250 5450 50  0001 C CNN
-F 3 "" H 3250 5450 50  0001 C CNN
-	1    3250 5450
+P 3250 5650
+F 0 "#PWR08" H 3250 5400 50  0001 C CNN
+F 1 "GND" H 3255 5477 50  0000 C CNN
+F 2 "" H 3250 5650 50  0001 C CNN
+F 3 "" H 3250 5650 50  0001 C CNN
+	1    3250 5650
 	1    0    0    -1  
 $EndComp
-Connection ~ 3100 5450
-Wire Wire Line
-	4000 5350 4000 5450
 Connection ~ 4000 5450
 Wire Wire Line
 	4000 5450 4000 5550
@@ -1322,16 +1283,16 @@ Connection ~ 4000 6150
 Wire Wire Line
 	4000 6150 4000 6250
 Wire Wire Line
-	4000 5350 4150 5350
+	4000 5450 4150 5450
 $Comp
 L power:GND #PWR023
 U 1 1 5DE87522
-P 4150 5350
-F 0 "#PWR023" H 4150 5100 50  0001 C CNN
-F 1 "GND" H 4155 5177 50  0000 C CNN
-F 2 "" H 4150 5350 50  0001 C CNN
-F 3 "" H 4150 5350 50  0001 C CNN
-	1    4150 5350
+P 4150 5450
+F 0 "#PWR023" H 4150 5200 50  0001 C CNN
+F 1 "GND" H 4155 5277 50  0000 C CNN
+F 2 "" H 4150 5450 50  0001 C CNN
+F 3 "" H 4150 5450 50  0001 C CNN
+	1    4150 5450
 	1    0    0    -1  
 $EndComp
 Text Label 1200 1350 0    50   ~ 0
@@ -1410,4 +1371,41 @@ Wire Wire Line
 	9900 5600 10050 5600
 Wire Notes Line
 	9300 500  9300 3750
+Wire Wire Line
+	3100 6150 3100 6250
+Connection ~ 3100 6150
+Wire Wire Line
+	3100 6050 3100 6150
+Connection ~ 3100 6050
+Wire Wire Line
+	3100 5950 3100 6050
+Connection ~ 3100 5950
+Wire Wire Line
+	3100 5850 3100 5950
+Connection ~ 3100 5850
+Wire Wire Line
+	3100 5650 3100 5750
+Wire Wire Line
+	3100 5750 3100 5850
+Connection ~ 3100 5750
+$Comp
+L formula:MM_F_RA_20 J5
+U 1 1 5DE502F2
+P 2950 5450
+F 0 "J5" H 2906 6797 60  0000 C CNN
+F 1 "MM_F_RA_20" H 2906 6691 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_20" H 2750 6550 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 2850 6650 60  0001 C CNN
+F 4 "TE" H 3050 6850 60  0001 C CNN "MFN"
+F 5 "2-338070-0" H 3150 6950 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 2950 6750 60  0001 C CNN "PurchasingLink"
+	1    2950 5450
+	1    0    0    -1  
+$EndComp
+Text Label 3100 5450 0    50   ~ 0
+ALERT_GLV
+Text Label 3100 5550 0    50   ~ 0
+ALERT_Cool
+Text Label 4000 4750 0    50   ~ 0
+5V_GLV
 $EndSCHEMATC
