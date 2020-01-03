@@ -411,20 +411,6 @@ Wire Wire Line
 Wire Wire Line
 	9900 5100 9900 5600
 $Comp
-L formula:MM_M_VT_20 J9
-U 1 1 5DD2488B
-P 6750 2200
-F 0 "J9" H 6706 3547 60  0000 C CNN
-F 1 "MM_M_VT_20" H 6706 3441 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_20" H 6550 3300 60  0001 C CNN
-F 3 "" H 6650 3400 60  0001 C CNN
-F 4 "TE" H 6850 3600 60  0001 C CNN "MFN"
-F 5 "2-215464-0" H 6950 3700 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 6750 3500 60  0001 C CNN "PurchasingLink"
-	1    6750 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:MM_M_VT_20 J10
 U 1 1 5DD2492D
 P 10050 2250
@@ -438,12 +424,6 @@ F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 10050 3550 60  0001 
 	1    10050 2250
 	1    0    0    -1  
 $EndComp
-Text Label 6900 1200 0    50   ~ 0
-12V
-Text Label 6900 1300 0    50   ~ 0
-CAN HIGH
-Text Label 6900 1400 0    50   ~ 0
-CAN LOW
 Text Label 10200 1250 0    50   ~ 0
 12V
 Text Label 10200 1350 0    50   ~ 0
@@ -625,17 +605,6 @@ GND
 Wire Wire Line
 	2950 3050 3400 3050
 $Comp
-L power:GND #PWR019
-U 1 1 5DD2FA65
-P 7050 1500
-F 0 "#PWR019" H 7050 1250 50  0001 C CNN
-F 1 "GND" H 7055 1327 50  0000 C CNN
-F 2 "" H 7050 1500 50  0001 C CNN
-F 3 "" H 7050 1500 50  0001 C CNN
-	1    7050 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:MM_M_VT_20 J7
 U 1 1 5DD2FB18
 P 4250 2250
@@ -674,50 +643,6 @@ Connection ~ 4400 2950
 Wire Wire Line
 	4400 2950 4400 3050
 Wire Wire Line
-	6900 1500 6900 1600
-Connection ~ 6900 1600
-Wire Wire Line
-	6900 1600 6900 1700
-Connection ~ 6900 1700
-Wire Wire Line
-	6900 1700 6900 1800
-Connection ~ 6900 1800
-Wire Wire Line
-	6900 1800 6900 1900
-Connection ~ 6900 1900
-Wire Wire Line
-	6900 1900 6900 2000
-Connection ~ 6900 2000
-Wire Wire Line
-	6900 2000 6900 2100
-Connection ~ 6900 2100
-Wire Wire Line
-	6900 2100 6900 2200
-Connection ~ 6900 2200
-Wire Wire Line
-	6900 2200 6900 2300
-Connection ~ 6900 2300
-Wire Wire Line
-	6900 2300 6900 2400
-Connection ~ 6900 2400
-Wire Wire Line
-	6900 2400 6900 2500
-Connection ~ 6900 2500
-Wire Wire Line
-	6900 2500 6900 2600
-Connection ~ 6900 2600
-Wire Wire Line
-	6900 2600 6900 2700
-Connection ~ 6900 2700
-Wire Wire Line
-	6900 2700 6900 2800
-Connection ~ 6900 2800
-Wire Wire Line
-	6900 2800 6900 2900
-Connection ~ 6900 2900
-Wire Wire Line
-	6900 2900 6900 3000
-Wire Wire Line
 	10200 1550 10200 1650
 Connection ~ 10200 1650
 Wire Wire Line
@@ -751,9 +676,6 @@ $EndComp
 Wire Wire Line
 	10350 1550 10200 1550
 Connection ~ 10200 1550
-Wire Wire Line
-	7050 1500 6900 1500
-Connection ~ 6900 1500
 $Comp
 L power:GND #PWR017
 U 1 1 5DD38B1D
@@ -784,25 +706,6 @@ F 3 "" H 5800 950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5450 1150 5650 1150
-Text Label 6900 1100 0    50   ~ 0
-GND
-Wire Wire Line
-	7100 1100 7100 900 
-Wire Wire Line
-	7100 900  7250 900 
-$Comp
-L power:GND #PWR020
-U 1 1 5DD3ADB8
-P 7250 900
-F 0 "#PWR020" H 7250 650 50  0001 C CNN
-F 1 "GND" H 7255 727 50  0000 C CNN
-F 2 "" H 7250 900 50  0001 C CNN
-F 3 "" H 7250 900 50  0001 C CNN
-	1    7250 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 1100 7100 1100
 Text Label 10200 1150 0    50   ~ 0
 GND
 Wire Wire Line
@@ -832,8 +735,6 @@ Text Notes 4000 950  0    100  ~ 0
 Shutdown\n\n
 Text Notes 5150 800  0    100  ~ 0
 Cooling\n
-Text Notes 6600 750  0    100  ~ 0
-Spare\n
 Text Notes 9850 800  0    100  ~ 0
 Telemetry\n
 Text Notes 7950 1700 0    100  ~ 0
@@ -1330,41 +1231,8 @@ Wire Wire Line
 	1250 5400 1950 5400
 Text Label 1250 5400 0    50   ~ 0
 GND
-$Comp
-L formula:UF_2_VT J13
-U 1 1 5DF08790
-P 5800 7400
-F 0 "J13" H 5856 7697 60  0000 C CNN
-F 1 "UF_2_VT" H 5856 7591 60  0000 C CNN
-F 2 "footprints:Ultrafit_2" H 5700 7450 60  0001 C CNN
-F 3 "" H 5800 7550 60  0001 C CNN
-F 4 "DK" H 6000 7750 60  0001 C CNN "MFN"
-F 5 "WM11570-ND" H 6100 7850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 5900 7650 60  0001 C CNN "PurchasingLink"
-	1    5800 7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 7450 6200 7500
-$Comp
-L power:GND #PWR033
-U 1 1 5DF08798
-P 6200 7500
-F 0 "#PWR033" H 6200 7250 50  0001 C CNN
-F 1 "GND" H 6205 7327 50  0000 C CNN
-F 2 "" H 6200 7500 50  0001 C CNN
-F 3 "" H 6200 7500 50  0001 C CNN
-	1    6200 7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 7450 6200 7450
-Text Label 6050 7350 0    50   ~ 0
-COOLING PUMP +
 Text Notes 4850 6900 0    100  ~ 0
 GLV Batt \n
-Text Notes 4850 7450 0    100  ~ 0
-Cooling\n Batt \n
 Wire Wire Line
 	10500 5600 10350 5600
 Wire Wire Line
@@ -1408,4 +1276,103 @@ Text Label 3100 5550 0    50   ~ 0
 ALERT_Cool
 Text Label 4000 4750 0    50   ~ 0
 5V_GLV
+Text Notes 6600 750  0    100  ~ 0
+Spare\n
+Wire Wire Line
+	6900 1100 7100 1100
+$Comp
+L power:GND #PWR020
+U 1 1 5DD3ADB8
+P 7250 900
+F 0 "#PWR020" H 7250 650 50  0001 C CNN
+F 1 "GND" H 7255 727 50  0000 C CNN
+F 2 "" H 7250 900 50  0001 C CNN
+F 3 "" H 7250 900 50  0001 C CNN
+	1    7250 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 900  7250 900 
+Wire Wire Line
+	7100 1100 7100 900 
+Text Label 6900 1100 0    50   ~ 0
+GND
+Wire Wire Line
+	7050 1500 6900 1500
+$Comp
+L power:GND #PWR019
+U 1 1 5DD2FA65
+P 7050 1500
+F 0 "#PWR019" H 7050 1250 50  0001 C CNN
+F 1 "GND" H 7055 1327 50  0000 C CNN
+F 2 "" H 7050 1500 50  0001 C CNN
+F 3 "" H 7050 1500 50  0001 C CNN
+	1    7050 1500
+	1    0    0    -1  
+$EndComp
+Text Label 6900 1400 0    50   ~ 0
+CAN LOW
+Text Label 6900 1300 0    50   ~ 0
+CAN HIGH
+Text Label 6900 1200 0    50   ~ 0
+12V
+Connection ~ 6900 1900
+Wire Wire Line
+	6900 1800 6900 1900
+Connection ~ 6900 1800
+Wire Wire Line
+	6900 1700 6900 1800
+Connection ~ 6900 1700
+Wire Wire Line
+	6900 1600 6900 1700
+Wire Wire Line
+	6900 1500 6900 1600
+Connection ~ 6900 1600
+Connection ~ 6900 1500
+Wire Wire Line
+	6900 2900 6900 3000
+Connection ~ 6900 2900
+Wire Wire Line
+	6900 2800 6900 2900
+Connection ~ 6900 2800
+Wire Wire Line
+	6900 2700 6900 2800
+Connection ~ 6900 2700
+Wire Wire Line
+	6900 2600 6900 2700
+Connection ~ 6900 2600
+Wire Wire Line
+	6900 2500 6900 2600
+Connection ~ 6900 2500
+Wire Wire Line
+	6900 2400 6900 2500
+Connection ~ 6900 2400
+Wire Wire Line
+	6900 2300 6900 2400
+Connection ~ 6900 2300
+Wire Wire Line
+	6900 2200 6900 2300
+Connection ~ 6900 2200
+Wire Wire Line
+	6900 2100 6900 2200
+Connection ~ 6900 2100
+Wire Wire Line
+	6900 2000 6900 2100
+Wire Wire Line
+	6900 1900 6900 2000
+Connection ~ 6900 2000
+$Comp
+L formula:MM_M_VT_20 J9
+U 1 1 5DD2488B
+P 6750 2200
+F 0 "J9" H 6706 3547 60  0000 C CNN
+F 1 "MM_M_VT_20" H 6706 3441 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_20" H 6550 3300 60  0001 C CNN
+F 3 "" H 6650 3400 60  0001 C CNN
+F 4 "TE" H 6850 3600 60  0001 C CNN "MFN"
+F 5 "2-215464-0" H 6950 3700 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 6750 3500 60  0001 C CNN "PurchasingLink"
+	1    6750 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
