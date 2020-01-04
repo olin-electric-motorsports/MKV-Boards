@@ -139,26 +139,19 @@ $EndComp
 $Comp
 L IMD_LATCH-rescue:D_Zener_18V-Formula D1
 U 1 1 5DEA1387
-P 7550 5100
-F 0 "D1" V 7450 5150 50  0000 L CNN
-F 1 "D_Zener_18V" H 7300 4975 50  0000 L CNN
-F 2 "footprints:DO-214AA" H 7450 5100 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 7550 5200 50  0001 C CNN
-F 4 "DK" H 7750 5400 60  0001 C CNN "MFN"
-F 5 "SMBJ5355B-TPMSCT-ND" H 7650 5300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 7950 5600 60  0001 C CNN "PurchasingLink"
-	1    7550 5100
+P 7500 5675
+F 0 "D1" V 7400 5725 50  0000 L CNN
+F 1 "D_Zener_18V" H 7250 5550 50  0000 L CNN
+F 2 "footprints:DO-214AA" H 7400 5675 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 7500 5775 50  0001 C CNN
+F 4 "DK" H 7700 5975 60  0001 C CNN "MFN"
+F 5 "SMBJ5355B-TPMSCT-ND" H 7600 5875 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 7900 6175 60  0001 C CNN "PurchasingLink"
+	1    7500 5675
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7550 4875 7800 4875
-Wire Wire Line
-	7800 4875 7800 4775
-Wire Wire Line
-	7800 4875 7800 4975
-Connection ~ 7800 4875
-Wire Wire Line
-	7800 5275 7800 5425
+	7800 5275 7800 5325
 Wire Wire Line
 	7800 5425 8450 5425
 Wire Wire Line
@@ -175,12 +168,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR02
 U 1 1 5DEA4CE3
-P 7550 5250
-F 0 "#PWR02" H 7550 5000 50  0001 C CNN
-F 1 "GND" H 7555 5077 50  0000 C CNN
-F 2 "" H 7550 5250 50  0001 C CNN
-F 3 "" H 7550 5250 50  0001 C CNN
-	1    7550 5250
+P 7500 5825
+F 0 "#PWR02" H 7500 5575 50  0001 C CNN
+F 1 "GND" H 7505 5652 50  0000 C CNN
+F 2 "" H 7500 5825 50  0001 C CNN
+F 3 "" H 7500 5825 50  0001 C CNN
+	1    7500 5825
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -464,7 +457,7 @@ F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 $EndComp
 Text Label 1300 1650 2    50   ~ 0
 12V_Fused
-Text Label 3200 2300 0    50   ~ 0
+Text Label 3200 2025 2    50   ~ 0
 12V_Fused
 $Comp
 L power:GND #PWR010
@@ -714,12 +707,8 @@ Wire Wire Line
 Wire Wire Line
 	2825 4400 2825 5375
 Wire Wire Line
-	7550 4875 7550 4950
-Wire Wire Line
 	8450 5425 8525 5425
 Connection ~ 8450 5425
-Text Label 3325 4000 0    50   ~ 0
-12V_Fused
 $Comp
 L power:GND #PWR0103
 U 1 1 5E1C1CB1
@@ -955,10 +944,10 @@ Wire Wire Line
 Text Notes 8000 4950 0    50   ~ 0
 POWER MANAGEMENT / FUSING\n\n
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0104
 U 1 1 5E23166B
 P 6400 7100
-F 0 "#PWR?" H 6400 6950 50  0001 C CNN
+F 0 "#PWR0104" H 6400 6950 50  0001 C CNN
 F 1 "+12V" H 6415 7273 50  0000 C CNN
 F 2 "" H 6400 7100 50  0001 C CNN
 F 3 "" H 6400 7100 50  0001 C CNN
@@ -966,10 +955,10 @@ F 3 "" H 6400 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 5E232244
 P 6050 7100
-F 0 "#PWR?" H 6050 6850 50  0001 C CNN
+F 0 "#PWR0105" H 6050 6850 50  0001 C CNN
 F 1 "GND" H 6055 6927 50  0000 C CNN
 F 2 "" H 6050 7100 50  0001 C CNN
 F 3 "" H 6050 7100 50  0001 C CNN
@@ -977,10 +966,10 @@ F 3 "" H 6050 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0101
 U 1 1 5E23331B
 P 6050 7100
-F 0 "#FLG?" H 6050 7175 50  0001 C CNN
+F 0 "#FLG0101" H 6050 7175 50  0001 C CNN
 F 1 "PWR_FLAG" H 6050 7273 50  0000 C CNN
 F 2 "" H 6050 7100 50  0001 C CNN
 F 3 "~" H 6050 7100 50  0001 C CNN
@@ -988,14 +977,89 @@ F 3 "~" H 6050 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0102
 U 1 1 5E233B51
 P 6400 7100
-F 0 "#FLG?" H 6400 7175 50  0001 C CNN
+F 0 "#FLG0102" H 6400 7175 50  0001 C CNN
 F 1 "PWR_FLAG" H 6400 7273 50  0000 C CNN
 F 2 "" H 6400 7100 50  0001 C CNN
 F 3 "~" H 6400 7100 50  0001 C CNN
 	1    6400 7100
 	-1   0    0    1   
 $EndComp
+$Comp
+L footprints:C_0.1uF C3
+U 1 1 5E24B59E
+P 3425 2250
+F 0 "C3" V 3173 2250 50  0000 C CNN
+F 1 "C_0.1uF" V 3264 2250 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 3463 2100 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3450 2350 50  0001 C CNN
+F 4 "DK" H 3425 2250 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 3425 2250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 3850 2750 60  0001 C CNN "PurchasingLink"
+	1    3425 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 2025 3200 2250
+Wire Wire Line
+	3275 2250 3200 2250
+Connection ~ 3200 2250
+Wire Wire Line
+	3200 2250 3200 2300
+$Comp
+L power:GND #PWR0106
+U 1 1 5E256312
+P 3575 2250
+F 0 "#PWR0106" H 3575 2000 50  0001 C CNN
+F 1 "GND" H 3580 2077 50  0000 C CNN
+F 2 "" H 3575 2250 50  0001 C CNN
+F 3 "" H 3575 2250 50  0001 C CNN
+	1    3575 2250
+	1    0    0    -1  
+$EndComp
+Text Label 3325 3725 2    50   ~ 0
+12V_Fused
+$Comp
+L footprints:C_0.1uF C4
+U 1 1 5E259A2A
+P 3550 3950
+F 0 "C4" V 3298 3950 50  0000 C CNN
+F 1 "C_0.1uF" V 3389 3950 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 3588 3800 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3575 4050 50  0001 C CNN
+F 4 "DK" H 3550 3950 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 3550 3950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 3975 4450 60  0001 C CNN "PurchasingLink"
+	1    3550 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3325 3725 3325 3950
+Wire Wire Line
+	3400 3950 3325 3950
+Connection ~ 3325 3950
+Wire Wire Line
+	3325 3950 3325 4000
+$Comp
+L power:GND #PWR0107
+U 1 1 5E259A34
+P 3700 3950
+F 0 "#PWR0107" H 3700 3700 50  0001 C CNN
+F 1 "GND" H 3705 3777 50  0000 C CNN
+F 2 "" H 3700 3950 50  0001 C CNN
+F 3 "" H 3700 3950 50  0001 C CNN
+	1    3700 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4775 7800 4975
+Wire Wire Line
+	7500 5525 7500 5325
+Wire Wire Line
+	7500 5325 7800 5325
+Connection ~ 7800 5325
+Wire Wire Line
+	7800 5325 7800 5425
 $EndSCHEMATC
