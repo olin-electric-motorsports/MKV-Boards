@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name template-rescue)(type Legacy)(uri ${KIPRJMOD}/template-rescue.lib)(options "")(descr ""))
-  (lib (name LCD_Screen-rescue)(type Legacy)(uri ${KIPRJMOD}/LCD_Screen-rescue.lib)(options "")(descr ""))
+  (lib (name template-rescue)(type Legacy)(uri ${KIPRJMOD}/template-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name LCD_Screen-rescue)(type Legacy)(uri ${KIPRJMOD}/LCD_Screen-rescue.lib)(options "")(descr "")(disabled))
 )

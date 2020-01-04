@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:LCD_Screen-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -356,7 +356,7 @@ P 10350 5900
 F 0 "#FLG03" H 10350 5975 50  0001 C CNN
 F 1 "PWR_FLAG" H 10350 6074 50  0000 C CNN
 F 2 "" H 10350 5900 50  0001 C CNN
-F 3 "~" H 10350 5900 50  0001 C CNN
+F 3 "" H 10350 5900 50  0001 C CNN
 	1    10350 5900
 	1    0    0    -1  
 $EndComp
@@ -367,7 +367,7 @@ P 9950 5900
 F 0 "#FLG02" H 9950 5975 50  0001 C CNN
 F 1 "PWR_FLAG" H 9950 6074 50  0000 C CNN
 F 2 "" H 9950 5900 50  0001 C CNN
-F 3 "~" H 9950 5900 50  0001 C CNN
+F 3 "" H 9950 5900 50  0001 C CNN
 	1    9950 5900
 	1    0    0    -1  
 $EndComp
@@ -378,7 +378,7 @@ P 9550 5900
 F 0 "#FLG01" H 9550 5975 50  0001 C CNN
 F 1 "PWR_FLAG" H 9550 6074 50  0000 C CNN
 F 2 "" H 9550 5900 50  0001 C CNN
-F 3 "~" H 9550 5900 50  0001 C CNN
+F 3 "" H 9550 5900 50  0001 C CNN
 	1    9550 5900
 	1    0    0    -1  
 $EndComp
@@ -461,13 +461,13 @@ MOSI
 Text Label 6250 6000 2    50   ~ 0
 MISO
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even U2
+L formula:Raspberry_Pi_Zero U2
 U 1 1 5DCDFF6E
 P 6450 5900
 F 0 "U2" H 6500 7017 50  0000 C CNN
 F 1 "Raspberry_Pi_Zero" H 6500 6926 50  0000 C CNN
 F 2 "footprints:PinHeader_2x20_P2.54mm_Vertical" H 6450 5900 50  0001 C CNN
-F 3 "~" H 6450 5900 50  0001 C CNN
+F 3 "" H 6450 5900 50  0001 C CNN
 	1    6450 5900
 	1    0    0    -1  
 $EndComp
@@ -478,7 +478,7 @@ P 2400 6000
 F 0 "U1" H 2400 4607 50  0000 C CNN
 F 1 "MCP25625-x-SS" H 2400 4528 50  0000 C CNN
 F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 2500 5700 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005282B.pdf" H 2400 6600 50  0001 C CNN
+F 3 "" H 2400 6600 50  0001 C CNN
 	1    2400 6000
 	1    0    0    -1  
 $EndComp
@@ -527,7 +527,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 1500 2250 1500
 $Comp
-L LCD_Screen-rescue:C_0.1uF_0603-footprints-Buck_HighCurrent-rescue C5
+L formula:C_0.1uF_0603 C5
 U 1 1 5DD296FF
 P 2750 1750
 F 0 "C5" H 2700 2050 50  0000 L CNN
@@ -552,21 +552,21 @@ F 3 "" H 2750 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LCD_Screen-rescue:R_200-footprints-Buck_HighCurrent-rescue R1
+L formula:R_1K R1
 U 1 1 5DD24939
 P 2250 1750
 F 0 "R1" H 2200 2100 50  0000 L CNN
 F 1 "R_1K" V 2350 1650 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 2180 1750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2330 1750 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 2330 1750 50  0001 C CNN
 F 4 "DK" H 2250 1750 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 2250 1750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2730 2150 60  0001 C CNN "PurchasingLink"
+F 5 "RNCP0805FTD1K00CT-ND" H 2250 1750 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 2730 2150 60  0001 C CNN "PurchasingLink"
 	1    2250 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L LCD_Screen-rescue:LED_0805-footprints-Buck_HighCurrent-rescue D2
+L formula:LED_0805 D2
 U 1 1 5DD25EAF
 P 2250 2100
 F 0 "D2" V 2300 2300 50  0000 R CNN
@@ -597,7 +597,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 1900 2250 1950
 $Comp
-L LCD_Screen-rescue:D_Zener_18V-footprints-Buck_HighCurrent-rescue D1
+L formula:D_Zener_18V D1
 U 1 1 5DD288D2
 P 1700 2100
 F 0 "D1" V 1650 1900 50  0000 L CNN
@@ -624,16 +624,16 @@ $EndComp
 Wire Wire Line
 	1700 1950 1700 1500
 $Comp
-L LCD_Screen-rescue:F_2.6A_16V-footprints-Buck_HighCurrent-rescue F1
+L formula:F_2.6A_16V F1
 U 1 1 5DD2DCBD
 P 1950 1500
-F 0 "F1" V 1850 1500 50  0000 C CNN
-F 1 "F_2.6A_16V" V 2050 1500 50  0000 C CNN
-F 2 "Fuse:Fuse_1812_4532Metric" H 1950 1500 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1950 1500 50  0001 C CNN
+F 0 "F1" H 1950 1600 50  0000 C CNN
+F 1 "F_2.6A_16V" H 1950 1400 50  0000 C CNN
+F 2 "footprints:Fuse_1812_4532Metric" H 1950 1500 50  0001 C CNN
+F 3 "" H 1950 1500 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0260BF2B/507-1780-6-ND/4156287" H 2010 1409 50  0001 L CNN "Digikey"
 	1    1950 1500
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1700 1500 1800 1500
@@ -652,7 +652,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 1600 3550 1500
 $Comp
-L LCD_Screen-rescue:C_10uF_25V-footprints-Buck_HighCurrent-rescue C7
+L formula:C_10uF_25V C7
 U 1 1 5DD2E6F4
 P 3550 1750
 F 0 "C7" H 3500 2050 50  0000 L CNN
@@ -663,7 +663,7 @@ F 3 "" H 3550 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LCD_Screen-rescue:C_10uF_25V-footprints-Buck_HighCurrent-rescue C6
+L formula:C_10uF_25V C6
 U 1 1 5DD2D3E3
 P 3150 1750
 F 0 "C6" H 3100 2050 50  0000 L CNN
@@ -712,7 +712,7 @@ F 3 "" H 5050 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LCD_Screen-rescue:C_0.1uF_0603-footprints-Buck_HighCurrent-rescue C8
+L formula:C_0.1uF_0603 C8
 U 1 1 5DD434B0
 P 5250 1450
 F 0 "C8" V 4998 1450 50  0000 C CNN
@@ -737,19 +737,19 @@ Connection ~ 5700 1450
 Wire Wire Line
 	5700 1450 5900 1450
 $Comp
-L LCD_Screen-rescue:IHLP2020BZER4R7M11-footprints-Buck_HighCurrent-rescue L1
+L formula:IHLP2020BZER4R7M11 L1
 U 1 1 5DD494D5
-P 5900 1450
-F 0 "L1" H 6200 1750 60  0000 C CNN
-F 1 "L_4.7uH_3.2A" H 6200 1650 60  0000 C CNN
-F 2 "footprints:IHLP2020BZER4R7M11" H 6175 1165 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/34261/ihlp2020bz11.pdf" H 5900 1450 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP2020BZER4R7M11/541-1222-1-ND/2025112" H 5900 1450 50  0001 C CNN "Vendor Link"
-	1    5900 1450
+P 6200 1450
+F 0 "L1" H 6500 1750 60  0000 C CNN
+F 1 "L_4.7uH_3.2A" H 6500 1650 60  0000 C CNN
+F 2 "footprints:IHLP2020BZER4R7M11" H 6475 1165 60  0001 C CNN
+F 3 "" H 6200 1450 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP2020BZER4R7M11/541-1222-1-ND/2025112" H 6200 1450 50  0001 C CNN "Vendor Link"
+	1    6200 1450
 	1    0    0    -1  
 $EndComp
 $Comp
-L LCD_Screen-rescue:C_22uF-footprints-Buck_HighCurrent-rescue C11
+L formula:C_22uF C11
 U 1 1 5DD4C422
 P 7150 1700
 F 0 "C11" H 7100 2050 50  0000 L CNN
@@ -763,7 +763,7 @@ F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160A
 	1    0    0    -1  
 $EndComp
 $Comp
-L LCD_Screen-rescue:R_51.1K-footprints-Buck_HighCurrent-rescue R5
+L formula:R_51.1K R5
 U 1 1 5DD4EB26
 P 6550 2450
 F 0 "R5" V 6450 2350 50  0000 C CNN
@@ -777,7 +777,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L LCD_Screen-rescue:R_22K-footprints-Buck_HighCurrent-rescue R6
+L formula:R_22K R6
 U 1 1 5DD4F8B6
 P 6900 2450
 F 0 "R6" V 6800 2500 50  0000 C CNN
@@ -857,7 +857,7 @@ Connection ~ 5600 2450
 Wire Wire Line
 	5600 2450 5600 2500
 $Comp
-L LCD_Screen-rescue:R_0_2512-footprints-Buck_HighCurrent-rescue R8
+L formula:R_0_2512 R8
 U 1 1 5DD64EC7
 P 8700 1450
 F 0 "R8" V 8493 1450 50  0000 C CNN
@@ -878,7 +878,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 1450 9100 1300
 $Comp
-L LCD_Screen-rescue:R_200-footprints-Buck_HighCurrent-rescue R9
+L formula:R_200 R9
 U 1 1 5DD69219
 P 9100 1900
 F 0 "R9" H 9200 2000 50  0000 L CNN
@@ -892,7 +892,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9580 23
 	1    0    0    -1  
 $EndComp
 $Comp
-L LCD_Screen-rescue:LED_0805-footprints-Buck_HighCurrent-rescue D3
+L formula:LED_0805 D3
 U 1 1 5DD69222
 P 9100 2250
 F 0 "D3" V 9150 2150 50  0000 R CNN
@@ -933,7 +933,7 @@ F 3 "" H 9100 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LCD_Screen-rescue:C_10uF-footprints-Buck_HighCurrent-rescue C10
+L formula:C_10uF C10
 U 1 1 5DD6B930
 P 6700 1700
 F 0 "C10" H 6650 2050 50  0000 L CNN
@@ -954,7 +954,7 @@ Connection ~ 1700 1500
 Wire Wire Line
 	7050 2450 7450 2450
 $Comp
-L LCD_Screen-rescue:C_100nF-footprints-Buck_HighCurrent-rescue C9
+L formula:C_100nF C9
 U 1 1 5DD78F6F
 P 6450 2800
 F 0 "C9" V 6500 2900 50  0000 L CNN
@@ -968,19 +968,19 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B10
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LCD_Screen-rescue:R_1-footprints-Buck_HighCurrent-rescue R7
+L formula:R_1 R7
 U 1 1 5DD86588
 P 7050 2800
-F 0 "R7" V 7150 2750 50  0000 L CNN
-F 1 "R_1" V 6950 2750 50  0000 L CNN
-F 2 "footprints:R_0603_1608Metric" H 7050 2800 50  0001 C CNN
+F 0 "R7" H 7000 2900 50  0000 L CNN
+F 1 "R_1" H 7000 2700 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 7050 2800 50  0001 C CNN
 F 3 "" H 7050 2800 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-071RL/311-1.00HRCT-ND/729789" H 7050 2800 50  0001 C CNN "Link"
 	1    7050 2800
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L LCD_Screen-rescue:TPS563231-footprints-Buck_HighCurrent-rescue U3
+L formula:TPS563231 U3
 U 1 1 5DD8A4F8
 P 4450 1950
 F 0 "U3" H 4425 2715 50  0000 C CNN
@@ -993,7 +993,7 @@ $EndComp
 Wire Wire Line
 	6900 2800 6600 2800
 $Comp
-L LCD_Screen-rescue:R_10K-footprints-Buck_HighCurrent-rescue R4
+L formula:R_10K R4
 U 1 1 5DDB9CFE
 P 5600 2650
 F 0 "R4" H 5400 2700 50  0000 L CNN
@@ -1007,14 +1007,14 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 608
 	1    0    0    -1  
 $EndComp
 $Comp
-L LCD_Screen-rescue:C_33uF-footprints-Buck_HighCurrent-rescue C12
+L formula:C_33uF C12
 U 1 1 5DD4CD92
 P 7650 1700
 F 0 "C12" H 7600 2050 50  0000 L CNN
 F 1 "C_33uF" V 7800 1550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1812_4532Metric" H 7700 1300 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 7650 2350 50  0001 C CNN
-F 4 "C4532X7R1C336M250KC" H 7700 1200 60  0001 C CNN "MFN"
+F 2 "footprints:Fuse_1812" H 7700 1300 50  0001 C CNN
+F 3 "" H 7650 2350 50  0001 C CNN
+F 4 "DK" H 7700 1200 60  0001 C CNN "MFN"
 F 5 "445-3924-1-ND" H 7650 2050 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431" H 7900 2200 60  0001 C CNN "PurchasingLink"
 	1    7650 1700
@@ -1063,7 +1063,7 @@ P 3350 5150
 F 0 "R2" H 3420 5196 50  0000 L CNN
 F 1 "R_120_DNP" H 3420 5105 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 2150 5300 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 2150 5600 50  0001 L CNN
+F 3 "" H 2150 5600 50  0001 L CNN
 F 4 "DK" H 3350 5150 60  0001 C CNN "MFN"
 F 5 "667-ERJ-6ENF1200V" H 2150 5400 60  0001 L CNN "MPN"
 F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 2150 5500 60  0001 L CNN "PurchasingLink"
