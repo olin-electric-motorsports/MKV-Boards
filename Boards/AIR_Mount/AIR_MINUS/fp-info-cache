@@ -1,4 +1,4 @@
-16581717733862829
+16584876476902829
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73178,6 +73178,13 @@ HO_60_250-p0100
 9
 9
 footprints
+IHLP2020BZER4R7M11
+
+
+0
+2
+2
+footprints
 L78M05CDT-TR
 
 
@@ -73814,6 +73821,13 @@ D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
 0
 5
 2
+footprints
+TPS563208DDCR
+
+
+0
+6
+6
 footprints
 TQFP-32_7x7mm_Pitch0.8mm
 32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
