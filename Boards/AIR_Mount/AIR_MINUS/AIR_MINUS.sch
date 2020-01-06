@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:AIR_MINUS-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Formula:LI12-1A85(NO) K?
+L Formula:LI12-1A85(NO) K1
 U 1 1 5DAE5E76
 P 1400 1400
-F 0 "K?" V 1867 1400 50  0000 C CNN
+F 0 "K1" V 1867 1400 50  0000 C CNN
 F 1 "LI12-1A85(NO)" V 1776 1400 50  0000 C CNN
 F 2 "footprints:Meder-LI12" H 1850 1350 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Meder%20PDFs/LI12-1A85_Spec.pdf" H 1850 1050 50  0001 L CNN
@@ -28,10 +29,10 @@ F 6 "https://www.digikey.com/product-detail/en/LI12-1A85/374-1110-ND/655844" H 2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Formula:SS110LW D?
+L Formula:SS110LW D1
 U 1 1 5DAE7FAE
 P 1400 2100
-F 0 "D?" H 1400 2316 50  0000 C CNN
+F 0 "D1" H 1400 2316 50  0000 C CNN
 F 1 "SS110LW" H 1400 2225 50  0000 C CNN
 F 2 "footprints:D_SOD-123W_OEM" H 1300 2100 50  0001 C CNN
 F 3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" H 1400 2200 50  0001 C CNN
@@ -58,10 +59,10 @@ Wire Wire Line
 Wire Wire Line
 	1100 2100 1100 1600
 $Comp
-L Formula:R_3K_HS R?
+L Formula:R_3K_HS R1
 U 1 1 5DAEBB45
 P 950 1300
-F 0 "R?" V 1175 1300 50  0000 C CNN
+F 0 "R1" V 1175 1300 50  0000 C CNN
 F 1 "R_3K_HS" V 1084 1300 50  0000 C CNN
 F 2 "footprints:R_3k_HS_TO247" H 880 1300 50  0001 C CNN
 F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/ohmite/pdf/acl_ap101.pdf" H 1030 1300 50  0001 C CNN
@@ -84,10 +85,10 @@ Wire Notes Line
 Wire Notes Line
 	600  2300 600  750 
 $Comp
-L Formula:200mA_Fuse F?
+L Formula:200mA_Fuse F1
 U 1 1 5DAFEE05
 P 2800 1000
-F 0 "F?" H 2800 1225 50  0000 C CNN
+F 0 "F1" H 2800 1225 50  0000 C CNN
 F 1 "200mA_Fuse" H 2800 1134 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 2750 1000 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2750 1000 50  0001 C CNN
@@ -108,10 +109,10 @@ AUX-
 Text Label 3100 2150 0    50   ~ 0
 Coil-
 $Comp
-L Formula:UF_4_VT J?
+L Formula:UF_4_VT J1
 U 1 1 5DB02E97
 P 1950 3000
-F 0 "J?" H 2058 3437 60  0000 C CNN
+F 0 "J1" H 2058 3437 60  0000 C CNN
 F 1 "UF_4_VT" H 2058 3331 60  0000 C CNN
 F 2 "footprints:Ultrafit_4" H 1850 3250 60  0001 C CNN
 F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 1950 3350 60  0001 C CNN
@@ -130,10 +131,10 @@ Coil+
 Text Label 2300 3100 0    50   ~ 0
 Coil-
 $Comp
-L Formula:R_10K R?
+L Formula:R_10K R2
 U 1 1 5DC4D26F
 P 4150 1000
-F 0 "R?" V 3943 1000 50  0000 C CNN
+F 0 "R2" V 3943 1000 50  0000 C CNN
 F 1 "R_10K" V 4034 1000 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 4080 1000 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4230 1000 50  0001 C CNN
@@ -154,12 +155,12 @@ GND
 Text Label 3100 1850 0    50   ~ 0
 Final_Shutdown
 $Comp
-L Formula:MicroFit_RA_06 J?
+L Formula:MicroFit_RA_06 J2
 U 1 1 5DB019DF
 P 2850 2000
-F 0 "J?" H 2908 2497 60  0000 C CNN
+F 0 "J2" H 2908 2497 60  0000 C CNN
 F 1 "MicroFit_RA_06" H 2908 2391 60  0000 C CNN
-F 2 "footprints:MicroFit_RA_6" H 2750 2250 60  0001 C CNN
+F 2 "footprints:MicroFit_RA_06" H 2750 2250 60  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/430450601_sd.pdf" H 2850 2350 60  0001 C CNN
 F 4 "Molex" H 2950 3400 60  0001 C CNN "MFN"
 F 5 "WM4037-ND" H 3050 3500 60  0001 C CNN "MPN"
@@ -182,33 +183,33 @@ NoConn ~ 4950 2950
 Text Notes 4500 2100 0    50   ~ 0
 This is the MicroFit for the mounted current sensor\n
 $Comp
-L Formula:MicroFit_RA_4 J?
-U 1 1 5DF102AC
-P 3550 3100
-F 0 "J?" H 3608 3475 50  0000 C CNN
-F 1 "MicroFit_RA_4" H 3608 3384 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_4" H 3550 2800 50  0001 C CNN
-F 3 "" H 3550 3100 100 0001 C CNN
-	1    3550 3100
-	1    0    0    -1  
-$EndComp
-Text Label 3750 2950 0    50   ~ 0
-TSAL-
-Text Label 3750 3050 0    50   ~ 0
-TS_Fused-
-Text Label 3750 3150 0    50   ~ 0
-TSMP-
-Text Label 3750 3250 0    50   ~ 0
-DischargeTS-
-$Comp
-L Formula:MicroFit_VT_6 U?
+L Formula:MicroFit_VT_6 U1
 U 1 1 5DF2D88E
 P 4750 2700
-F 0 "U?" H 4808 3175 50  0000 C CNN
+F 0 "U1" H 4808 3175 50  0000 C CNN
 F 1 "MicroFit_VT_6" H 4808 3084 50  0000 C CNN
 F 2 "footprints:MicroFit_VT_6" H 4750 2300 50  0001 C CNN
 F 3 "" H 4750 2700 50  0001 C CNN
 	1    4750 2700
+	1    0    0    -1  
+$EndComp
+Text Label 3750 3250 0    50   ~ 0
+DischargeTS-
+Text Label 3750 3150 0    50   ~ 0
+TSMP-
+Text Label 3750 3050 0    50   ~ 0
+TS_Fused-
+Text Label 3750 2950 0    50   ~ 0
+TSAL-
+$Comp
+L Formula:MicroFit_RA_4 J3
+U 1 1 5DF102AC
+P 3550 3100
+F 0 "J3" H 3608 3475 50  0000 C CNN
+F 1 "MicroFit_RA_4" H 3608 3384 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_4" H 3550 2800 50  0001 C CNN
+F 3 "" H 3550 3100 100 0001 C CNN
+	1    3550 3100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
