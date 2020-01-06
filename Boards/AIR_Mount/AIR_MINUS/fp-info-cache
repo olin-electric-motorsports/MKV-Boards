@@ -1,4 +1,4 @@
-16584876476902829
+16594346400985829
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73059,6 +73059,13 @@ capacitor 1206
 2
 2
 footprints
+C_1812_4532Metric
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+footprints
 C_Radial_D10_L13_P5_OEM
 
 
@@ -73157,6 +73164,13 @@ Fuse_1812
 2
 2
 footprints
+Fuse_1812_4532Metric
+Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+footprints
 Fuse_Block_Holder
 
 
@@ -73179,6 +73193,13 @@ HO_60_250-p0100
 9
 footprints
 IHLP2020BZER4R7M11
+
+
+0
+2
+2
+footprints
+IHLP2020BZER4R7M11-L_4.7_3.2A
 
 
 0
@@ -73486,9 +73507,23 @@ connector Molex Nano-Fit side entry
 12
 12
 footprints
+OE Logo ft
+
+
+0
+0
+0
+footprints
 OLIN_O
 
 Olin O logo
+0
+0
+0
+footprints
+Olin_Electric_Smaller
+
+
 0
 0
 0
@@ -73856,6 +73891,13 @@ T_LAN_7490100111A
 0
 16
 16
+footprints
+TacoCorey
+
+
+0
+0
+0
 footprints
 Thermistor
 

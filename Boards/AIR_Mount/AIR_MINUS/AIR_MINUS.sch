@@ -147,7 +147,7 @@ $EndComp
 Text Label 4000 1000 2    50   ~ 0
 TS-
 Text Label 4300 1000 0    50   ~ 0
-TSMP_
+TSMP-
 Wire Notes Line
 	600  750  2150 750 
 Text Label 3100 1750 0    50   ~ 0
@@ -209,7 +209,7 @@ $EndComp
 Text Label 3750 2950 0    50   ~ 0
 TS_Fused-
 Text Label 3750 3150 0    50   ~ 0
-TS_Fused-
+TSMP-
 Text Label 3750 3250 0    50   ~ 0
 TS_Fused-
 $Comp
