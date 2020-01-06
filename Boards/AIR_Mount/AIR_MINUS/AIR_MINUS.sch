@@ -99,7 +99,7 @@ F 6 "DK" H 2800 1133 50  0001 C CNN "MFN"
 	1    0    0    -1  
 $EndComp
 Text Label 3100 1000 0    50   ~ 0
-TS_Fuse-
+TS_Fused-
 Text Label 2500 1000 2    50   ~ 0
 TS-
 Text Label 3100 1950 0    50   ~ 0
