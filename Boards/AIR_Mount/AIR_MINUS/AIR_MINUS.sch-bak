@@ -99,7 +99,7 @@ F 6 "DK" H 2800 1133 50  0001 C CNN "MFN"
 	1    0    0    -1  
 $EndComp
 Text Label 3100 1000 0    50   ~ 0
-TS_Fuse-
+TS_Fused-
 Text Label 2500 1000 2    50   ~ 0
 TS-
 Text Label 3100 1950 0    50   ~ 0
@@ -153,7 +153,7 @@ Wire Notes Line
 Text Label 3100 1750 0    50   ~ 0
 GND
 Text Label 3100 1850 0    50   ~ 0
-Final_Shutdown
+Coil+
 $Comp
 L Formula:MicroFit_RA_06 J2
 U 1 1 5DB019DF
@@ -193,14 +193,8 @@ F 3 "" H 4750 2700 50  0001 C CNN
 	1    4750 2700
 	1    0    0    -1  
 $EndComp
-Text Label 3750 3250 0    50   ~ 0
-DischargeTS-
-Text Label 3750 3150 0    50   ~ 0
-TSMP-
 Text Label 3750 3050 0    50   ~ 0
 TS_Fused-
-Text Label 3750 2950 0    50   ~ 0
-TSAL-
 $Comp
 L Formula:MicroFit_RA_4 J3
 U 1 1 5DF102AC
@@ -212,4 +206,35 @@ F 3 "" H 3550 3100 100 0001 C CNN
 	1    3550 3100
 	1    0    0    -1  
 $EndComp
+Text Label 3750 2950 0    50   ~ 0
+TS_Fused-
+Text Label 3750 3150 0    50   ~ 0
+TS_Fused-
+Text Label 3750 3250 0    50   ~ 0
+TS_Fused-
+$Comp
+L Formula:HO_60_250-p0100 U?
+U 1 1 5E139A02
+P 5750 2350
+F 0 "U?" H 5808 2425 50  0000 C CNN
+F 1 "HO_60_250-p0100" H 5808 2334 50  0000 C CNN
+F 2 "" H 6050 2200 50  0001 C CNN
+F 3 "" H 6050 2200 50  0001 C CNN
+	1    5750 2350
+	1    0    0    -1  
+$EndComp
+Text Label 6000 2500 0    50   ~ 0
+UC+
+Text Label 6000 2600 0    50   ~ 0
+GND
+Text Label 6000 2700 0    50   ~ 0
+Vout
+Text Label 6000 2800 0    50   ~ 0
+Vref
+Text Label 6000 2900 0    50   ~ 0
+OCD
+NoConn ~ 6000 3000
+NoConn ~ 6000 3100
+NoConn ~ 6000 3200
+NoConn ~ 6000 3300
 $EndSCHEMATC
