@@ -1,0 +1,84 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# formula_NanoFit_2
+#
+DEF formula_NanoFit_2 J 0 40 Y Y 1 F N
+F0 "J" 350 -50 60 H V C CNN
+F1 "formula_NanoFit_2" 500 -500 60 H V C CNN
+F2 "footprints:NanoFit_Molex_1x02x2.50mm_Angled_OEM" 250 -150 60 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" 350 -50 60 H I C CNN
+F4 "DK" 450 50 50 H I C CNN "MFN"
+F5 "WM14972-ND" 550 150 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=nanofit+2&k=&pkeyword=nanofit+2&pv88=2&pv69=367&sf=0&FV=ffe0013a&quantity=&ColumnSort=0&page=1&pageSize=25" 650 250 50 H I C CNN "PurchasingLink"
+DRAW
+S 300 -100 800 -450 0 1 0 f
+X 1 1 100 -200 200 R 50 50 1 1 I
+X 2 2 100 -350 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# formula_R_178K
+#
+DEF formula_R_178K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula_R_178K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" 500 0 50 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 300 0 50 V I C CNN
+F4 "DK" 180 100 60 V I C CNN "MFN"
+F5 "P178KDATR-ND" 280 200 60 V I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1783V/P178KDATR-ND/2025864" 380 300 60 V I C CNN "Webpage"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_R_270K
+#
+DEF formula_R_270K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula_R_270K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 100 50 V I C CNN
+F4 "DK" 180 100 60 V I C CNN "MFN"
+F5 "P270KDACT-ND" 280 200 60 V I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB274V/P270KDACT-ND/1466005" 380 300 60 V I C CNN "Webpage"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_Ultrafit_4_RA
+#
+DEF formula_Ultrafit_4_RA J 0 40 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "formula_Ultrafit_4_RA" 0 -200 60 H V C CNN
+F2 "footprints:Ultrafit_4_RA" -500 650 60 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" 450 1100 60 H I C CNN
+F4 "Digi-Key" -700 1250 60 H I C CNN "MFN"
+F5 "Value" -850 400 60 H I C CNN "Package"
+F6 "WM11574-ND" -650 500 60 H I C CNN "MPN"
+F7 "WM11564-ND" 400 750 60 H I C CNN "MPN2"
+F8 "https://www.digikey.com/products/en?keywords=1723101304" 500 850 60 H I C CNN "PurchasingLink"
+DRAW
+S 150 250 -150 -150 0 1 0 f
+X 1 1 350 200 200 L 50 50 1 1 P
+X 2 2 350 100 200 L 50 50 1 1 P
+X 3 3 350 0 200 L 50 50 1 1 P
+X 4 4 350 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
