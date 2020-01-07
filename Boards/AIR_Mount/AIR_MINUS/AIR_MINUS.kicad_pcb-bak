@@ -64,7 +64,7 @@
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
-      (usegerberextensions false)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "AIR_MINUS_GERB"))
   )
 
   (net 0 "")
@@ -869,7 +869,7 @@
   (segment (start 146.1036 126.7432) (end 146.1036 125.476) (width 0.762) (layer F.Cu) (net 22))
   (segment (start 146.03979 126.80701) (end 146.1036 126.7432) (width 0.762) (layer F.Cu) (net 22))
 
-  (zone (net 12) (net_name /GND) (layer B.Cu) (tstamp 5E13B77A) (hatch edge 0.508)
+  (zone (net 12) (net_name /GND) (layer B.Cu) (tstamp 5E13BC5A) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
