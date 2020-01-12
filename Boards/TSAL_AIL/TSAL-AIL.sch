@@ -468,7 +468,7 @@ TS-
 Wire Wire Line
 	3200 4400 3900 4400
 Text Label 3900 4400 0    50   ~ 0
-AIL+
+AIL-
 Text Label 3200 4400 2    50   ~ 0
 TS-
 Wire Wire Line
