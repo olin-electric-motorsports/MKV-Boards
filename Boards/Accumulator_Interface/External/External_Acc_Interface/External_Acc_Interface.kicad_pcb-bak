@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 10)
     (tracks 0)
     (zones 0)
     (modules 5)
@@ -188,7 +188,7 @@
   )
 
   (module footprints:Ampseal_35 (layer F.Cu) (tedit 5C8B01DC) (tstamp 5E1D5117)
-    (at 11.825 89.575)
+    (at 2.5 88.375)
     (path /5DE9B0DD)
     (fp_text reference J1 (at -3.81 10.16) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -348,6 +348,11 @@
       (net 22 "Net-(J2-Pad26)"))
     (pad 21 thru_hole circle (at 50.8 0) (size 1.524 1.524) (drill 0.71) (layers *.Cu *.Mask)
       (net 23 "Net-(J2-Pad21)"))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/BBS-126-G-A/BBS-126-G-A.stp
+      (offset (xyz 31.7 0 3))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module footprints:26pos_screwsocket_.1in (layer B.Cu) (tedit 5C9A4FB4) (tstamp 5E1D515B)
@@ -415,10 +420,15 @@
       (net 42 /MISO_BMS))
     (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.71) (layers *.Cu *.Mask)
       (net 43 /5V_BMS))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/BBS-126-G-A/BBS-126-G-A.stp
+      (offset (xyz 31.7 0 3))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module footprints:RJ45-Vertical (layer F.Cu) (tedit 5C8B020C) (tstamp 5E1D5172)
-    (at 85.725 66.025)
+    (at 53.525 66.175)
     (path /5DEACC93)
     (fp_text reference U1 (at 7.366 3.81) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -467,7 +477,7 @@
   )
 
   (module footprints:RJ45-Vertical (layer F.Cu) (tedit 5C8B020C) (tstamp 5E1D5189)
-    (at 15.85 66.025)
+    (at 16.775 66.175)
     (path /5DEC1056)
     (fp_text reference U2 (at 7.366 3.81) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -515,13 +525,15 @@
     )
   )
 
-  (gr_arc (start 3.81 52.934402) (end 1.81 49.4703) (angle -60) (layer Edge.Cuts) (width 0.2))
-  (gr_arc (start 3.81 103.115) (end -0.19 103.115) (angle -90) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 1.810001 49.4703) (end 11.75 44.3) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 103.000001 107.115001) (end 3.81 107.115001) (layer Edge.Cuts) (width 0.2))
-  (gr_arc (start 103.000001 103.115) (end 103.000001 107.115) (angle -90) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start -0.189999 103.115) (end -0.189999 52.934402) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 11.75 44.3) (end 107 44.3) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 107 44.3) (end 107 103.115) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 29.90695 46.935) (end 29.90695 42.935) (angle -35.54) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 107.875 46.935) (end 107.875 101.775) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 103.875001 46.935) (end 107.875001 46.935) (angle -90) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start -7.800084 68.955148) (end 27.581865 43.680161) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 103.875001 101.775) (end 103.875001 105.775) (angle -90) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 103.875001 105.775001) (end -5.475 105.775001) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start -5.475 72.209987) (end -7.800084 68.955148) (angle -54.46) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start -9.474999 101.775) (end -9.474999 72.209987) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 29.90695 42.935001) (end 103.875001 42.935001) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start -5.475 101.775) (end -9.475 101.775) (angle -90) (layer Edge.Cuts) (width 0.2))
 
 )
