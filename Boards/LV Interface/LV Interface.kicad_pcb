@@ -36,7 +36,7 @@
   )
 
   (setup
-    (last_trace_width 0.1524)
+    (last_trace_width 0.25)
     (user_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.762)
@@ -713,6 +713,11 @@
       (net 7 GND))
     (pad 20 thru_hole circle (at 2.54 19.05 270) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 7 GND))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Micromatch_Male_MOB_20/c-2-215464-0-c-3d.stp
+      (offset (xyz 1.269999980926514 -6.984999895095826 3.809999942779541))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module footprints:Ultrafit_2 (layer F.Cu) (tedit 5C9D736E) (tstamp 5DF12994)
@@ -1805,10 +1810,6 @@
   (segment (start 104.10444 42.302919) (end 104.10444 75.94854) (width 0.1524) (layer In2.Cu) (net 48))
   (segment (start 104.10444 75.94854) (end 117.29271 89.13681) (width 0.1524) (layer In2.Cu) (net 48))
   (segment (start 117.29271 89.13681) (end 139.107948 89.13681) (width 0.1524) (layer In2.Cu) (net 48))
-  (segment (start 79.737886 38.98197) (end 85.89264 32.827214) (width 0.762) (layer F.Cu) (net 51))
-  (segment (start 60.05 33.98) (end 65.05197 38.98197) (width 0.762) (layer F.Cu) (net 51))
-  (segment (start 65.05197 38.98197) (end 79.737886 38.98197) (width 0.762) (layer F.Cu) (net 51))
-  (segment (start 85.89264 32.827214) (end 86.099295 32.620559) (width 0.762) (layer F.Cu) (net 51))
   (segment (start 139.954 20.67946) (end 141.65654 20.67946) (width 0.762) (layer F.Cu) (net 50))
   (segment (start 138.25654 20.67946) (end 139.954 20.67946) (width 0.762) (layer F.Cu) (net 50))
   (segment (start 139.954 20.67946) (end 124.755399 35.878061) (width 0.762) (layer F.Cu) (net 50))
@@ -1818,6 +1819,10 @@
   (segment (start 64.05 33.98) (end 68.08996 38.01996) (width 0.762) (layer F.Cu) (net 50))
   (segment (start 112.756319 29.925161) (end 118.709219 35.878061) (width 0.762) (layer F.Cu) (net 50))
   (segment (start 118.709219 35.878061) (end 124.755399 35.878061) (width 0.762) (layer F.Cu) (net 50))
+  (segment (start 79.737886 38.98197) (end 85.89264 32.827214) (width 0.762) (layer F.Cu) (net 51))
+  (segment (start 60.05 33.98) (end 65.05197 38.98197) (width 0.762) (layer F.Cu) (net 51))
+  (segment (start 65.05197 38.98197) (end 79.737886 38.98197) (width 0.762) (layer F.Cu) (net 51))
+  (segment (start 85.89264 32.827214) (end 86.099295 32.620559) (width 0.762) (layer F.Cu) (net 51))
   (segment (start 85.930486 32.827214) (end 87.870529 30.887171) (width 0.762) (layer F.Cu) (net 51))
   (segment (start 85.89264 32.827214) (end 85.930486 32.827214) (width 0.762) (layer F.Cu) (net 51))
   (segment (start 87.870529 30.887171) (end 112.357843 30.887171) (width 0.762) (layer F.Cu) (net 51))
