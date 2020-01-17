@@ -36,7 +36,7 @@ Text Label 9670 5000 2    50   ~ 0
 SCK3.3V
 Text Label 9670 5100 2    50   ~ 0
 RESET3.3V
-Text Label 10170 5000 0    50   ~ 0
+Text Label 10170 4990 0    50   ~ 0
 MOSI3.3V
 $Comp
 L power:GND #PWR09
@@ -62,10 +62,35 @@ F 3 "" H 10170 4900 50  0001 C CNN
 $EndComp
 Text Notes 8890 4630 0    89   ~ 0
 328P PROGRAMMING HEADER\n
+$Comp
+L formula:MLX90621ESF-BAB-000-TU U5
+U 1 1 5DDABAE3
+P 7210 5660
+F 0 "U5" H 7554 5706 50  0000 L CNN
+F 1 "MLX90621ESF-BAB-000-TU" H 7554 5615 50  0000 L CNN
+F 2 "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.65x2.55mm" H 7210 5260 50  0001 C CNN
+F 3 "https://www.melexis.com/-/media/files/documents/datasheets/mlx90621-datasheet-melexis.pdf" H 7010 5960 50  0001 C CNN
+F 4 "DK" H 0   0   50  0001 C CNN "MF"
+F 5 "MLX90621ESF-BAB-000-TU-ND " H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/melexis-technologies-nv/MLX90621ESF-BAB-000-TU/MLX90621ESF-BAB-000-TU-ND/4968086?utm_adgroup=Sensors%20&%20Transducers" H 0   0   50  0001 C CNN "PurchaseLink"
+	1    7210 5660
+	1    0    0    -1  
+$EndComp
 Text Label 6120 5560 2    50   ~ 0
 SCL
 Text Label 6120 5660 2    50   ~ 0
 SDA
+$Comp
+L power:GND #PWR037
+U 1 1 5DDC4732
+P 7210 6050
+F 0 "#PWR037" H 7210 5800 50  0001 C CNN
+F 1 "GND" H 7215 5877 50  0000 C CNN
+F 2 "" H 7210 6050 50  0001 C CNN
+F 3 "" H 7210 6050 50  0001 C CNN
+	1    7210 6050
+	1    0    0    -1  
+$EndComp
 Text Notes 6640 4750 0    89   ~ 0
 TEMPERATURE SENSOR\n
 $Comp
@@ -90,7 +115,14 @@ Connection ~ 7210 5210
 Wire Wire Line
 	7210 5210 7210 5360
 Wire Wire Line
+	7210 5960 7210 6000
+Wire Wire Line
 	7920 5510 7920 6000
+Wire Wire Line
+	7920 6000 7210 6000
+Connection ~ 7210 6000
+Wire Wire Line
+	7210 6000 7210 6050
 $Comp
 L formula:TPS560430YF U101
 U 1 1 5DD8B4FD
@@ -732,7 +764,7 @@ U 1 1 5DEA7716
 P 5580 3200
 F 0 "U3" H 5630 3275 50  0000 C CNN
 F 1 "TXB0104" H 5630 3184 50  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 5480 3100 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5480 3100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 5580 3200 50  0001 C CNN
 F 4 "DK" H 5680 3300 50  0001 C CNN "MFN"
 F 5 "296-21929-1-ND" H 5780 3400 50  0001 C CNN "MPN"
@@ -1761,38 +1793,6 @@ F 5 "445-15759-1-ND" H 4530 6780 50  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 4830 6730 50  0001 C CNN "Link"
 F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    4530 6530
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7210 6000 7210 6050
-Connection ~ 7210 6000
-Wire Wire Line
-	7920 6000 7210 6000
-Wire Wire Line
-	7210 5960 7210 6000
-$Comp
-L power:GND #PWR037
-U 1 1 5DDC4732
-P 7210 6050
-F 0 "#PWR037" H 7210 5800 50  0001 C CNN
-F 1 "GND" H 7215 5877 50  0000 C CNN
-F 2 "" H 7210 6050 50  0001 C CNN
-F 3 "" H 7210 6050 50  0001 C CNN
-	1    7210 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MLX90621ESF-BAB-000-TU U5
-U 1 1 5DDABAE3
-P 7210 5660
-F 0 "U5" H 7554 5706 50  0000 L CNN
-F 1 "MLX90621ESF-BAB-000-TU" H 7554 5615 50  0000 L CNN
-F 2 "footprints:MLX90621ESF-BAB-000-TU" H 7210 5260 50  0001 C CNN
-F 3 "https://www.melexis.com/-/media/files/documents/datasheets/mlx90621-datasheet-melexis.pdf" H 7010 5960 50  0001 C CNN
-F 4 "DK" H 0   0   50  0001 C CNN "MF"
-F 5 "MLX90621ESF-BAB-000-TU-ND " H 0   0   50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/melexis-technologies-nv/MLX90621ESF-BAB-000-TU/MLX90621ESF-BAB-000-TU-ND/4968086?utm_adgroup=Sensors%20&%20Transducers" H 0   0   50  0001 C CNN "PurchaseLink"
-	1    7210 5660
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -15,1718 +15,1573 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR0116
-U 1 1 5DE378C2
-P 1150 1400
-F 0 "#PWR0116" H 1150 1150 50  0001 C CNN
-F 1 "GND" H 1155 1227 50  0000 C CNN
-F 2 "" H 1150 1400 50  0001 C CNN
-F 3 "" H 1150 1400 50  0001 C CNN
-	1    1150 1400
+L Device:R R?
+U 1 1 5DDBF07A
+P 1650 900
+AR Path="/5DDBF07A" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF07A" Ref="R?"  Part="1" 
+F 0 "R?" H 1720 946 50  0000 L CNN
+F 1 "R" H 1720 855 50  0000 L CNN
+F 2 "" V 1580 900 50  0001 C CNN
+F 3 "~" H 1650 900 50  0001 C CNN
+	1    1650 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_1K R11
-U 1 1 5DE391AC
-P 1150 1250
-F 0 "R11" H 1220 1296 50  0000 L CNN
-F 1 "R_1K" H 1220 1205 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1080 1250 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1230 1250 50  0001 C CNN
-F 4 "DK" H 1150 1250 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 1150 1250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 1630 1650 60  0001 C CNN "PurchasingLink"
-	1    1150 1250
+L Device:R R?
+U 1 1 5DDBF080
+P 1650 1300
+AR Path="/5DDBF080" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF080" Ref="R?"  Part="1" 
+F 0 "R?" H 1720 1346 50  0000 L CNN
+F 1 "R" H 1720 1255 50  0000 L CNN
+F 2 "" V 1580 1300 50  0001 C CNN
+F 3 "~" H 1650 1300 50  0001 C CNN
+	1    1650 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_3K R12
-U 1 1 5DE39FEA
-P 1300 1100
-F 0 "R12" V 1093 1100 50  0000 C CNN
-F 1 "R_3K" V 1184 1100 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1230 1100 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1380 1100 50  0001 C CNN
-F 4 "DK" H 1300 1100 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 1300 1100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 1780 1500 60  0001 C CNN "PurchasingLink"
-	1    1300 1100
-	0    1    1    0   
+L power:GND #PWR?
+U 1 1 5DDBF086
+P 1650 1450
+AR Path="/5DDBF086" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF086" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1650 1200 50  0001 C CNN
+F 1 "GND" H 1655 1277 50  0000 C CNN
+F 2 "" H 1650 1450 50  0001 C CNN
+F 3 "" H 1650 1450 50  0001 C CNN
+	1    1650 1450
+	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_3K R14
-U 1 1 5DE3AC79
-P 1450 1250
-F 0 "R14" H 1380 1204 50  0000 R CNN
-F 1 "R_3K" H 1380 1295 50  0000 R CNN
-F 2 "footprints:R_0805_OEM" H 1380 1250 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1530 1250 50  0001 C CNN
-F 4 "DK" H 1450 1250 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 1450 1250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 1930 1650 60  0001 C CNN "PurchasingLink"
-	1    1450 1250
+L power:VCC #PWR?
+U 1 1 5DDBF08C
+P 2200 900
+AR Path="/5DDBF08C" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF08C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2200 750 50  0001 C CNN
+F 1 "VCC" H 2217 1073 50  0000 C CNN
+F 2 "" H 2200 900 50  0001 C CNN
+F 3 "" H 2200 900 50  0001 C CNN
+	1    2200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDBF092
+P 2200 1500
+AR Path="/5DDBF092" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF092" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2200 1250 50  0001 C CNN
+F 1 "GND" H 2205 1327 50  0000 C CNN
+F 2 "" H 2200 1500 50  0001 C CNN
+F 3 "" H 2200 1500 50  0001 C CNN
+	1    2200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MCP6001T-I-LT U?
+U 1 1 5DDBF09B
+P 2300 1200
+AR Path="/5DDBF09B" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF09B" Ref="U?"  Part="1" 
+F 0 "U?" H 2644 1246 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 2644 1155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 2200 1300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2300 1400 50  0001 C CNN
+F 4 "DK" H 2400 1500 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 2500 1600 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 2600 1700 60  0001 C CNN "PurchasingLink"
+	1    2300 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1050 1650 1100
+Wire Wire Line
+	2000 1100 1650 1100
+Connection ~ 1650 1100
+Wire Wire Line
+	1650 1100 1650 1150
+$Comp
+L Device:R R?
+U 1 1 5DDBF0A6
+P 1650 2150
+AR Path="/5DDBF0A6" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0A6" Ref="R?"  Part="1" 
+F 0 "R?" H 1720 2196 50  0000 L CNN
+F 1 "R" H 1720 2105 50  0000 L CNN
+F 2 "" V 1580 2150 50  0001 C CNN
+F 3 "~" H 1650 2150 50  0001 C CNN
+	1    1650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DDBF0AC
+P 1650 2000
+AR Path="/5DDBF0AC" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0AC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1650 1850 50  0001 C CNN
+F 1 "VCC" H 1667 2173 50  0000 C CNN
+F 2 "" H 1650 2000 50  0001 C CNN
+F 3 "" H 1650 2000 50  0001 C CNN
+	1    1650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DDBF0B2
+P 1650 2550
+AR Path="/5DDBF0B2" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0B2" Ref="R?"  Part="1" 
+F 0 "R?" H 1720 2596 50  0000 L CNN
+F 1 "R" H 1720 2505 50  0000 L CNN
+F 2 "" V 1580 2550 50  0001 C CNN
+F 3 "~" H 1650 2550 50  0001 C CNN
+	1    1650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDBF0B8
+P 1650 2700
+AR Path="/5DDBF0B8" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0B8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1650 2450 50  0001 C CNN
+F 1 "GND" H 1655 2527 50  0000 C CNN
+F 2 "" H 1650 2700 50  0001 C CNN
+F 3 "" H 1650 2700 50  0001 C CNN
+	1    1650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC2G02 U?
+U 1 1 5DDBF0BE
+P 2900 1650
+AR Path="/5DDBF0BE" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0BE" Ref="U?"  Part="1" 
+F 0 "U?" H 2875 1917 50  0000 C CNN
+F 1 "74LVC2G02" H 2875 1826 50  0000 C CNN
+F 2 "" H 2900 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2900 1650 50  0001 C CNN
+	1    2900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1200 2600 1600
+Wire Wire Line
+	1650 2300 1650 2350
+$Comp
+L formula:MCP6001T-I-LT U?
+U 1 1 5DDBF0C9
+P 2300 2250
+AR Path="/5DDBF0C9" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0C9" Ref="U?"  Part="1" 
+F 0 "U?" H 2644 2296 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 2644 2205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 2200 2350 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2300 2450 50  0001 C CNN
+F 4 "DK" H 2400 2550 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 2500 2650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 2600 2750 60  0001 C CNN "PurchasingLink"
+	1    2300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2350 1650 2350
+Connection ~ 1650 2350
+Wire Wire Line
+	1650 2350 1650 2400
+Wire Wire Line
+	2600 2250 2600 1700
+$Comp
+L power:VCC #PWR?
+U 1 1 5DDBF0D3
+P 2200 1950
+AR Path="/5DDBF0D3" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0D3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2200 1800 50  0001 C CNN
+F 1 "VCC" H 2217 2123 50  0000 C CNN
+F 2 "" H 2200 1950 50  0001 C CNN
+F 3 "" H 2200 1950 50  0001 C CNN
+	1    2200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDBF0D9
+P 2200 2550
+AR Path="/5DDBF0D9" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0D9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2200 2300 50  0001 C CNN
+F 1 "GND" H 2205 2377 50  0000 C CNN
+F 2 "" H 2200 2550 50  0001 C CNN
+F 3 "" H 2200 2550 50  0001 C CNN
+	1    2200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDBF0DF
+P 3450 1650
+AR Path="/5DDBF0DF" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0DF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3450 1400 50  0001 C CNN
+F 1 "GND" H 3455 1477 50  0000 C CNN
+F 2 "" H 3450 1650 50  0001 C CNN
+F 3 "" H 3450 1650 50  0001 C CNN
+	1    3450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LED_0805 D?
+U 1 1 5DDBF0E8
+P 3300 1650
+AR Path="/5DDBF0E8" Ref="D?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0E8" Ref="D?"  Part="1" 
+F 0 "D?" H 3293 1395 50  0000 C CNN
+F 1 "LED_0805" H 3293 1486 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 3200 1650 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 3300 1750 50  0001 C CNN
+F 4 "DK" H 3300 1650 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 3300 1650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 3700 2150 60  0001 C CNN "PurchasingLink"
+	1    3300 1650
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0117
-U 1 1 5DE3D7F9
-P 1450 1400
-F 0 "#PWR0117" H 1450 1150 50  0001 C CNN
-F 1 "GND" H 1455 1227 50  0000 C CNN
-F 2 "" H 1450 1400 50  0001 C CNN
-F 3 "" H 1450 1400 50  0001 C CNN
-	1    1450 1400
-	1    0    0    -1  
-$EndComp
-Text HLabel 1050 1100 0    50   Input ~ 0
-SENSE_1-
-Text HLabel 1050 1750 0    50   Input ~ 0
-SENSE_1+
-$Comp
-L formula:R_3K R13
-U 1 1 5DE4292E
-P 1300 1750
-F 0 "R13" V 1093 1750 50  0000 C CNN
-F 1 "R_3K" V 1184 1750 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1230 1750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1380 1750 50  0001 C CNN
-F 4 "DK" H 1300 1750 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 1300 1750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 1780 2150 60  0001 C CNN "PurchasingLink"
-	1    1300 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_3K R15
-U 1 1 5DE433C6
-P 2150 1750
-F 0 "R15" V 1943 1750 50  0000 C CNN
-F 1 "R_3K" V 2034 1750 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2080 1750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2230 1750 50  0001 C CNN
-F 4 "DK" H 2150 1750 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 2150 1750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 2630 2150 60  0001 C CNN "PurchasingLink"
-	1    2150 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR0118
-U 1 1 5DE477CD
-P 1900 900
-F 0 "#PWR0118" H 1900 750 50  0001 C CNN
-F 1 "VCC" H 1917 1073 50  0000 C CNN
-F 2 "" H 1900 900 50  0001 C CNN
-F 3 "" H 1900 900 50  0001 C CNN
-	1    1900 900 
+L power:VCC #PWR?
+U 1 1 5DDBF0EE
+P 2900 1550
+AR Path="/5DDBF0EE" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0EE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2900 1400 50  0001 C CNN
+F 1 "VCC" H 2917 1723 50  0000 C CNN
+F 2 "" H 2900 1550 50  0001 C CNN
+F 3 "" H 2900 1550 50  0001 C CNN
+	1    2900 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0119
-U 1 1 5DE47CD6
-P 1900 1500
-F 0 "#PWR0119" H 1900 1250 50  0001 C CNN
-F 1 "GND" H 1905 1327 50  0000 C CNN
-F 2 "" H 1900 1500 50  0001 C CNN
-F 3 "" H 1900 1500 50  0001 C CNN
-	1    1900 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_10K R16
-U 1 1 5DE4A7D0
-P 2800 1200
-F 0 "R16" V 2593 1200 50  0000 C CNN
-F 1 "R_10K" V 2684 1200 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2730 1200 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 2880 1200 50  0001 C CNN
-F 4 "DK" H 2800 1200 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 2800 1200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3280 1600 60  0001 C CNN "PurchasingLink"
-	1    2800 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U3
-U 1 1 5DE37ECE
-P 2000 1200
-F 0 "U3" H 2344 1246 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 2344 1155 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 1900 1300 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2000 1400 50  0001 C CNN
-F 4 "DK" H 2100 1500 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 2200 1600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 2300 1700 60  0001 C CNN "PurchasingLink"
-	1    2000 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U4
-U 1 1 5DE4CA16
-P 3400 1100
-F 0 "U4" H 3744 1146 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 3744 1055 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 3300 1200 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3400 1300 50  0001 C CNN
-F 4 "DK" H 3500 1400 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 3600 1500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 3700 1600 60  0001 C CNN "PurchasingLink"
-	1    3400 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_22K R17
-U 1 1 5DE5E70B
-P 3550 1650
-F 0 "R17" V 3343 1650 50  0000 C CNN
-F 1 "R_22K" V 3434 1650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3480 1650 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3630 1650 50  0001 C CNN
-F 4 "DK" H 3550 1650 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT22K0CT-ND" H 3550 1650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" H 4030 2050 60  0001 C CNN "PurchasingLink"
-	1    3550 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0120
-U 1 1 5DE629BD
-P 3300 1400
-F 0 "#PWR0120" H 3300 1150 50  0001 C CNN
-F 1 "GND" H 3305 1227 50  0000 C CNN
-F 2 "" H 3300 1400 50  0001 C CNN
-F 3 "" H 3300 1400 50  0001 C CNN
-	1    3300 1400
-	1    0    0    -1  
-$EndComp
-Text HLabel 4350 1100 2    50   Input ~ 0
-SENSE_1_OUT
-Wire Wire Line
-	4350 1100 3700 1100
-$Comp
-L power:VCC #PWR0121
-U 1 1 5DE6B532
-P 3300 800
-F 0 "#PWR0121" H 3300 650 50  0001 C CNN
-F 1 "VCC" H 3317 973 50  0000 C CNN
-F 2 "" H 3300 800 50  0001 C CNN
-F 3 "" H 3300 800 50  0001 C CNN
-	1    3300 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0122
-U 1 1 5DE6B76B
-P 3000 950
-F 0 "#PWR0122" H 3000 700 50  0001 C CNN
-F 1 "GND" H 3005 777 50  0000 C CNN
-F 2 "" H 3000 950 50  0001 C CNN
-F 3 "" H 3000 950 50  0001 C CNN
-	1    3000 950 
+L power:GND #PWR?
+U 1 1 5DDBF0F4
+P 2900 1750
+AR Path="/5DDBF0F4" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0F4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2900 1500 50  0001 C CNN
+F 1 "GND" H 2905 1577 50  0000 C CNN
+F 2 "" H 2900 1750 50  0001 C CNN
+F 3 "" H 2900 1750 50  0001 C CNN
+	1    2900 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 950  3100 950 
-Wire Wire Line
-	3100 950  3100 1000
-Wire Wire Line
-	3100 1200 2950 1200
-Wire Wire Line
-	2650 1200 2300 1200
-Wire Wire Line
-	2000 1750 1700 1750
-Wire Wire Line
-	1700 1750 1700 1300
-Wire Wire Line
-	2300 1750 2300 1200
-Connection ~ 2300 1200
-Wire Wire Line
-	3700 1100 3700 1650
-Connection ~ 3700 1100
-Wire Wire Line
-	3400 1650 3100 1650
-Wire Wire Line
-	3100 1650 3100 1200
-Connection ~ 3100 1200
-Wire Wire Line
-	1050 1100 1150 1100
-Connection ~ 1150 1100
-Wire Wire Line
-	1450 1100 1700 1100
-Connection ~ 1450 1100
-Connection ~ 1700 1750
-Wire Wire Line
-	1450 1750 1700 1750
-Wire Wire Line
-	1150 1750 1050 1750
+	2000 1300 2000 1750
 $Comp
-L power:GND #PWR019
-U 1 1 5DE9AA70
-P 1150 2650
-F 0 "#PWR019" H 1150 2400 50  0001 C CNN
-F 1 "GND" H 1155 2477 50  0000 C CNN
-F 2 "" H 1150 2650 50  0001 C CNN
-F 3 "" H 1150 2650 50  0001 C CNN
-	1    1150 2650
+L Device:R R?
+U 1 1 5DDBF0FB
+P 1900 1600
+AR Path="/5DDBF0FB" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF0FB" Ref="R?"  Part="1" 
+F 0 "R?" H 1970 1646 50  0000 L CNN
+F 1 "R" H 1970 1555 50  0000 L CNN
+F 2 "" V 1830 1600 50  0001 C CNN
+F 3 "~" H 1900 1600 50  0001 C CNN
+	1    1900 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_1K R18
-U 1 1 5DE9AA7D
-P 1150 2500
-F 0 "R18" H 1220 2546 50  0000 L CNN
-F 1 "R_1K" H 1220 2455 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1080 2500 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1230 2500 50  0001 C CNN
-F 4 "DK" H 1150 2500 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 1150 2500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 1630 2900 60  0001 C CNN "PurchasingLink"
-	1    1150 2500
+L power:VCC #PWR?
+U 1 1 5DDBF101
+P 1900 1450
+AR Path="/5DDBF101" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF101" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1900 1300 50  0001 C CNN
+F 1 "VCC" H 1917 1623 50  0000 C CNN
+F 2 "" H 1900 1450 50  0001 C CNN
+F 3 "" H 1900 1450 50  0001 C CNN
+	1    1900 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1750 1900 1750
+Wire Wire Line
+	1900 1750 2000 1750
+Connection ~ 1900 1750
+Connection ~ 2000 1750
+Wire Wire Line
+	2000 1750 2000 2150
+$Comp
+L power:VCC #PWR?
+U 1 1 5DDBF8BB
+P 1650 750
+AR Path="/5DDBF8BB" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DDBF8BB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1650 600 50  0001 C CNN
+F 1 "VCC" H 1667 923 50  0000 C CNN
+F 2 "" H 1650 750 50  0001 C CNN
+F 3 "" H 1650 750 50  0001 C CNN
+	1    1650 750 
+	1    0    0    -1  
+$EndComp
+Text Notes 3550 1650 0    50   ~ 0
+If LED is on, sensor is good
+Text HLabel 1800 1750 0    50   Input ~ 0
+RADIATOR_TEMP_SENSE_CHECK
+$Comp
+L Device:R R?
+U 1 1 5DF098ED
+P 1750 3550
+AR Path="/5DF098ED" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF098ED" Ref="R?"  Part="1" 
+F 0 "R?" H 1820 3596 50  0000 L CNN
+F 1 "R" H 1820 3505 50  0000 L CNN
+F 2 "" V 1680 3550 50  0001 C CNN
+F 3 "~" H 1750 3550 50  0001 C CNN
+	1    1750 3550
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_3K R21
-U 1 1 5DE9AA8A
-P 1300 2350
-F 0 "R21" V 1093 2350 50  0000 C CNN
-F 1 "R_3K" V 1184 2350 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1230 2350 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1380 2350 50  0001 C CNN
-F 4 "DK" H 1300 2350 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 1300 2350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 1780 2750 60  0001 C CNN "PurchasingLink"
-	1    1300 2350
-	0    1    1    0   
+L Device:R R?
+U 1 1 5DF098F7
+P 1750 3950
+AR Path="/5DF098F7" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF098F7" Ref="R?"  Part="1" 
+F 0 "R?" H 1820 3996 50  0000 L CNN
+F 1 "R" H 1820 3905 50  0000 L CNN
+F 2 "" V 1680 3950 50  0001 C CNN
+F 3 "~" H 1750 3950 50  0001 C CNN
+	1    1750 3950
+	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_3K R27
-U 1 1 5DE9AA97
-P 1450 2500
-F 0 "R27" H 1380 2454 50  0000 R CNN
-F 1 "R_3K" H 1380 2545 50  0000 R CNN
-F 2 "footprints:R_0805_OEM" H 1380 2500 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1530 2500 50  0001 C CNN
-F 4 "DK" H 1450 2500 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 1450 2500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 1930 2900 60  0001 C CNN "PurchasingLink"
-	1    1450 2500
+L power:GND #PWR?
+U 1 1 5DF09901
+P 1750 4100
+AR Path="/5DF09901" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF09901" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1750 3850 50  0001 C CNN
+F 1 "GND" H 1755 3927 50  0000 C CNN
+F 2 "" H 1750 4100 50  0001 C CNN
+F 3 "" H 1750 4100 50  0001 C CNN
+	1    1750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF0990B
+P 2300 3550
+AR Path="/5DF0990B" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF0990B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 3400 50  0001 C CNN
+F 1 "VCC" H 2317 3723 50  0000 C CNN
+F 2 "" H 2300 3550 50  0001 C CNN
+F 3 "" H 2300 3550 50  0001 C CNN
+	1    2300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF09915
+P 2300 4150
+AR Path="/5DF09915" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF09915" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 3900 50  0001 C CNN
+F 1 "GND" H 2305 3977 50  0000 C CNN
+F 2 "" H 2300 4150 50  0001 C CNN
+F 3 "" H 2300 4150 50  0001 C CNN
+	1    2300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MCP6001T-I-LT U?
+U 1 1 5DF09922
+P 2400 3850
+AR Path="/5DF09922" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DF09922" Ref="U?"  Part="1" 
+F 0 "U?" H 2744 3896 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 2744 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 2300 3950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2400 4050 50  0001 C CNN
+F 4 "DK" H 2500 4150 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 2600 4250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 2700 4350 60  0001 C CNN "PurchasingLink"
+	1    2400 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3700 1750 3750
+Wire Wire Line
+	2100 3750 1750 3750
+Connection ~ 1750 3750
+Wire Wire Line
+	1750 3750 1750 3800
+$Comp
+L Device:R R?
+U 1 1 5DF09930
+P 1750 4800
+AR Path="/5DF09930" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF09930" Ref="R?"  Part="1" 
+F 0 "R?" H 1820 4846 50  0000 L CNN
+F 1 "R" H 1820 4755 50  0000 L CNN
+F 2 "" V 1680 4800 50  0001 C CNN
+F 3 "~" H 1750 4800 50  0001 C CNN
+	1    1750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF0993A
+P 1750 4650
+AR Path="/5DF0993A" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF0993A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1750 4500 50  0001 C CNN
+F 1 "VCC" H 1767 4823 50  0000 C CNN
+F 2 "" H 1750 4650 50  0001 C CNN
+F 3 "" H 1750 4650 50  0001 C CNN
+	1    1750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DF09944
+P 1750 5200
+AR Path="/5DF09944" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF09944" Ref="R?"  Part="1" 
+F 0 "R?" H 1820 5246 50  0000 L CNN
+F 1 "R" H 1820 5155 50  0000 L CNN
+F 2 "" V 1680 5200 50  0001 C CNN
+F 3 "~" H 1750 5200 50  0001 C CNN
+	1    1750 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF0994E
+P 1750 5350
+AR Path="/5DF0994E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF0994E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1750 5100 50  0001 C CNN
+F 1 "GND" H 1755 5177 50  0000 C CNN
+F 2 "" H 1750 5350 50  0001 C CNN
+F 3 "" H 1750 5350 50  0001 C CNN
+	1    1750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC2G02 U?
+U 1 1 5DF09958
+P 3000 4300
+AR Path="/5DF09958" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DF09958" Ref="U?"  Part="1" 
+F 0 "U?" H 2975 4567 50  0000 C CNN
+F 1 "74LVC2G02" H 2975 4476 50  0000 C CNN
+F 2 "" H 3000 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3000 4300 50  0001 C CNN
+	1    3000 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3850 2700 4250
+Wire Wire Line
+	1750 4950 1750 5000
+$Comp
+L formula:MCP6001T-I-LT U?
+U 1 1 5DF09967
+P 2400 4900
+AR Path="/5DF09967" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DF09967" Ref="U?"  Part="1" 
+F 0 "U?" H 2744 4946 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 2744 4855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 2300 5000 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2400 5100 50  0001 C CNN
+F 4 "DK" H 2500 5200 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 2600 5300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 2700 5400 60  0001 C CNN "PurchasingLink"
+	1    2400 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 5000 1750 5000
+Connection ~ 1750 5000
+Wire Wire Line
+	1750 5000 1750 5050
+Wire Wire Line
+	2700 4900 2700 4350
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF09975
+P 2300 4600
+AR Path="/5DF09975" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF09975" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 4450 50  0001 C CNN
+F 1 "VCC" H 2317 4773 50  0000 C CNN
+F 2 "" H 2300 4600 50  0001 C CNN
+F 3 "" H 2300 4600 50  0001 C CNN
+	1    2300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF0997F
+P 2300 5200
+AR Path="/5DF0997F" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF0997F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 4950 50  0001 C CNN
+F 1 "GND" H 2305 5027 50  0000 C CNN
+F 2 "" H 2300 5200 50  0001 C CNN
+F 3 "" H 2300 5200 50  0001 C CNN
+	1    2300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF09989
+P 3550 4300
+AR Path="/5DF09989" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF09989" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 4050 50  0001 C CNN
+F 1 "GND" H 3555 4127 50  0000 C CNN
+F 2 "" H 3550 4300 50  0001 C CNN
+F 3 "" H 3550 4300 50  0001 C CNN
+	1    3550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LED_0805 D?
+U 1 1 5DF09996
+P 3400 4300
+AR Path="/5DF09996" Ref="D?"  Part="1" 
+AR Path="/5DD7ADE7/5DF09996" Ref="D?"  Part="1" 
+F 0 "D?" H 3393 4045 50  0000 C CNN
+F 1 "LED_0805" H 3393 4136 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 3300 4300 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 3400 4400 50  0001 C CNN
+F 4 "DK" H 3400 4300 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 3400 4300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 3800 4800 60  0001 C CNN "PurchasingLink"
+	1    3400 4300
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR024
-U 1 1 5DE9AAA1
-P 1450 2650
-F 0 "#PWR024" H 1450 2400 50  0001 C CNN
-F 1 "GND" H 1455 2477 50  0000 C CNN
-F 2 "" H 1450 2650 50  0001 C CNN
-F 3 "" H 1450 2650 50  0001 C CNN
-	1    1450 2650
-	1    0    0    -1  
-$EndComp
-Text HLabel 1050 2350 0    50   Input ~ 0
-SENSE_2-
-Text HLabel 1050 3000 0    50   Input ~ 0
-SENSE_2+
-$Comp
-L formula:R_3K R22
-U 1 1 5DE9AAB0
-P 1300 3000
-F 0 "R22" V 1093 3000 50  0000 C CNN
-F 1 "R_3K" V 1184 3000 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1230 3000 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1380 3000 50  0001 C CNN
-F 4 "DK" H 1300 3000 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 1300 3000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 1780 3400 60  0001 C CNN "PurchasingLink"
-	1    1300 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_3K R30
-U 1 1 5DE9AABD
-P 2150 3000
-F 0 "R30" V 1943 3000 50  0000 C CNN
-F 1 "R_3K" V 2034 3000 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2080 3000 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2230 3000 50  0001 C CNN
-F 4 "DK" H 2150 3000 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 2150 3000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 2630 3400 60  0001 C CNN "PurchasingLink"
-	1    2150 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR027
-U 1 1 5DE9AAC7
-P 1900 2150
-F 0 "#PWR027" H 1900 2000 50  0001 C CNN
-F 1 "VCC" H 1917 2323 50  0000 C CNN
-F 2 "" H 1900 2150 50  0001 C CNN
-F 3 "" H 1900 2150 50  0001 C CNN
-	1    1900 2150
+L power:VCC #PWR?
+U 1 1 5DF099A0
+P 3000 4200
+AR Path="/5DF099A0" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF099A0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3000 4050 50  0001 C CNN
+F 1 "VCC" H 3017 4373 50  0000 C CNN
+F 2 "" H 3000 4200 50  0001 C CNN
+F 3 "" H 3000 4200 50  0001 C CNN
+	1    3000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR028
-U 1 1 5DE9AAD1
-P 1900 2750
-F 0 "#PWR028" H 1900 2500 50  0001 C CNN
-F 1 "GND" H 1905 2577 50  0000 C CNN
-F 2 "" H 1900 2750 50  0001 C CNN
-F 3 "" H 1900 2750 50  0001 C CNN
-	1    1900 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_10K R33
-U 1 1 5DE9AADE
-P 2800 2450
-F 0 "R33" V 2593 2450 50  0000 C CNN
-F 1 "R_10K" V 2684 2450 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2730 2450 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 2880 2450 50  0001 C CNN
-F 4 "DK" H 2800 2450 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 2800 2450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3280 2850 60  0001 C CNN "PurchasingLink"
-	1    2800 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U5
-U 1 1 5DE9AAEB
-P 2000 2450
-F 0 "U5" H 2344 2496 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 2344 2405 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 1900 2550 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2000 2650 50  0001 C CNN
-F 4 "DK" H 2100 2750 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 2200 2850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 2300 2950 60  0001 C CNN "PurchasingLink"
-	1    2000 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U8
-U 1 1 5DE9AAF8
-P 3400 2350
-F 0 "U8" H 3744 2396 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 3744 2305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 3300 2450 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3400 2550 50  0001 C CNN
-F 4 "DK" H 3500 2650 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 3600 2750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 3700 2850 60  0001 C CNN "PurchasingLink"
-	1    3400 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_22K R36
-U 1 1 5DE9AB05
-P 3550 2900
-F 0 "R36" V 3343 2900 50  0000 C CNN
-F 1 "R_22K" V 3434 2900 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3480 2900 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3630 2900 50  0001 C CNN
-F 4 "DK" H 3550 2900 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT22K0CT-ND" H 3550 2900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" H 4030 3300 60  0001 C CNN "PurchasingLink"
-	1    3550 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR037
-U 1 1 5DE9AB0F
-P 3300 2650
-F 0 "#PWR037" H 3300 2400 50  0001 C CNN
-F 1 "GND" H 3305 2477 50  0000 C CNN
-F 2 "" H 3300 2650 50  0001 C CNN
-F 3 "" H 3300 2650 50  0001 C CNN
-	1    3300 2650
-	1    0    0    -1  
-$EndComp
-Text HLabel 4350 2350 2    50   Input ~ 0
-SENSE_2_OUT
-Wire Wire Line
-	4350 2350 3700 2350
-$Comp
-L power:VCC #PWR036
-U 1 1 5DE9AB1B
-P 3300 2050
-F 0 "#PWR036" H 3300 1900 50  0001 C CNN
-F 1 "VCC" H 3317 2223 50  0000 C CNN
-F 2 "" H 3300 2050 50  0001 C CNN
-F 3 "" H 3300 2050 50  0001 C CNN
-	1    3300 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR033
-U 1 1 5DE9AB25
-P 3000 2200
-F 0 "#PWR033" H 3000 1950 50  0001 C CNN
-F 1 "GND" H 3005 2027 50  0000 C CNN
-F 2 "" H 3000 2200 50  0001 C CNN
-F 3 "" H 3000 2200 50  0001 C CNN
-	1    3000 2200
+L power:GND #PWR?
+U 1 1 5DF099AA
+P 3000 4400
+AR Path="/5DF099AA" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF099AA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3000 4150 50  0001 C CNN
+F 1 "GND" H 3005 4227 50  0000 C CNN
+F 2 "" H 3000 4400 50  0001 C CNN
+F 3 "" H 3000 4400 50  0001 C CNN
+	1    3000 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 2200 3100 2200
-Wire Wire Line
-	3100 2200 3100 2250
-Wire Wire Line
-	3100 2450 2950 2450
-Wire Wire Line
-	2650 2450 2300 2450
-Wire Wire Line
-	2000 3000 1700 3000
-Wire Wire Line
-	1700 3000 1700 2550
-Wire Wire Line
-	2300 3000 2300 2450
-Connection ~ 2300 2450
-Wire Wire Line
-	3700 2350 3700 2900
-Connection ~ 3700 2350
-Wire Wire Line
-	3400 2900 3100 2900
-Wire Wire Line
-	3100 2900 3100 2450
-Connection ~ 3100 2450
-Wire Wire Line
-	1050 2350 1150 2350
-Connection ~ 1150 2350
-Wire Wire Line
-	1450 2350 1700 2350
-Connection ~ 1450 2350
-Connection ~ 1700 3000
-Wire Wire Line
-	1450 3000 1700 3000
-Wire Wire Line
-	1150 3000 1050 3000
+	2100 3950 2100 4400
 $Comp
-L power:GND #PWR022
-U 1 1 5DEB9A7D
-P 1150 3850
-F 0 "#PWR022" H 1150 3600 50  0001 C CNN
-F 1 "GND" H 1155 3677 50  0000 C CNN
-F 2 "" H 1150 3850 50  0001 C CNN
-F 3 "" H 1150 3850 50  0001 C CNN
-	1    1150 3850
+L Device:R R?
+U 1 1 5DF099B5
+P 2000 4250
+AR Path="/5DF099B5" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF099B5" Ref="R?"  Part="1" 
+F 0 "R?" H 2070 4296 50  0000 L CNN
+F 1 "R" H 2070 4205 50  0000 L CNN
+F 2 "" V 1930 4250 50  0001 C CNN
+F 3 "~" H 2000 4250 50  0001 C CNN
+	1    2000 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_1K R19
-U 1 1 5DEB9A8A
-P 1150 3700
-F 0 "R19" H 1220 3746 50  0000 L CNN
-F 1 "R_1K" H 1220 3655 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1080 3700 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1230 3700 50  0001 C CNN
-F 4 "DK" H 1150 3700 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 1150 3700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 1630 4100 60  0001 C CNN "PurchasingLink"
-	1    1150 3700
+L power:VCC #PWR?
+U 1 1 5DF099BF
+P 2000 4100
+AR Path="/5DF099BF" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF099BF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2000 3950 50  0001 C CNN
+F 1 "VCC" H 2017 4273 50  0000 C CNN
+F 2 "" H 2000 4100 50  0001 C CNN
+F 3 "" H 2000 4100 50  0001 C CNN
+	1    2000 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4400 2000 4400
+Wire Wire Line
+	2000 4400 2100 4400
+Connection ~ 2000 4400
+Connection ~ 2100 4400
+Wire Wire Line
+	2100 4400 2100 4800
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF099CE
+P 1750 3400
+AR Path="/5DF099CE" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF099CE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1750 3250 50  0001 C CNN
+F 1 "VCC" H 1767 3573 50  0000 C CNN
+F 2 "" H 1750 3400 50  0001 C CNN
+F 3 "" H 1750 3400 50  0001 C CNN
+	1    1750 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 3650 4300 0    50   ~ 0
+If LED is on, sensor is good
+Text HLabel 1900 4400 0    50   Input ~ 0
+CONTROLLER_TEMP_SENSE_CHECK
+$Comp
+L Device:R R?
+U 1 1 5DF47881
+P 6200 900
+AR Path="/5DF47881" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47881" Ref="R?"  Part="1" 
+F 0 "R?" H 6270 946 50  0000 L CNN
+F 1 "R" H 6270 855 50  0000 L CNN
+F 2 "" V 6130 900 50  0001 C CNN
+F 3 "~" H 6200 900 50  0001 C CNN
+	1    6200 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_3K R23
-U 1 1 5DEB9A97
-P 1300 3550
-F 0 "R23" V 1093 3550 50  0000 C CNN
-F 1 "R_3K" V 1184 3550 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1230 3550 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1380 3550 50  0001 C CNN
-F 4 "DK" H 1300 3550 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 1300 3550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 1780 3950 60  0001 C CNN "PurchasingLink"
-	1    1300 3550
-	0    1    1    0   
+L Device:R R?
+U 1 1 5DF4788B
+P 6200 1300
+AR Path="/5DF4788B" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF4788B" Ref="R?"  Part="1" 
+F 0 "R?" H 6270 1346 50  0000 L CNN
+F 1 "R" H 6270 1255 50  0000 L CNN
+F 2 "" V 6130 1300 50  0001 C CNN
+F 3 "~" H 6200 1300 50  0001 C CNN
+	1    6200 1300
+	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_3K R28
-U 1 1 5DEB9AA4
-P 1450 3700
-F 0 "R28" H 1380 3654 50  0000 R CNN
-F 1 "R_3K" H 1380 3745 50  0000 R CNN
-F 2 "footprints:R_0805_OEM" H 1380 3700 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1530 3700 50  0001 C CNN
-F 4 "DK" H 1450 3700 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 1450 3700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 1930 4100 60  0001 C CNN "PurchasingLink"
-	1    1450 3700
+L power:GND #PWR?
+U 1 1 5DF47895
+P 6200 1450
+AR Path="/5DF47895" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47895" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6200 1200 50  0001 C CNN
+F 1 "GND" H 6205 1277 50  0000 C CNN
+F 2 "" H 6200 1450 50  0001 C CNN
+F 3 "" H 6200 1450 50  0001 C CNN
+	1    6200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF4789F
+P 6750 900
+AR Path="/5DF4789F" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF4789F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6750 750 50  0001 C CNN
+F 1 "VCC" H 6767 1073 50  0000 C CNN
+F 2 "" H 6750 900 50  0001 C CNN
+F 3 "" H 6750 900 50  0001 C CNN
+	1    6750 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF478A9
+P 6750 1500
+AR Path="/5DF478A9" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF478A9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6750 1250 50  0001 C CNN
+F 1 "GND" H 6755 1327 50  0000 C CNN
+F 2 "" H 6750 1500 50  0001 C CNN
+F 3 "" H 6750 1500 50  0001 C CNN
+	1    6750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MCP6001T-I-LT U?
+U 1 1 5DF478B6
+P 6850 1200
+AR Path="/5DF478B6" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DF478B6" Ref="U?"  Part="1" 
+F 0 "U?" H 7194 1246 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 7194 1155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6750 1300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6850 1400 50  0001 C CNN
+F 4 "DK" H 6950 1500 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 7050 1600 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 7150 1700 60  0001 C CNN "PurchasingLink"
+	1    6850 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1050 6200 1100
+Wire Wire Line
+	6550 1100 6200 1100
+Connection ~ 6200 1100
+Wire Wire Line
+	6200 1100 6200 1150
+$Comp
+L Device:R R?
+U 1 1 5DF478C4
+P 6200 2150
+AR Path="/5DF478C4" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF478C4" Ref="R?"  Part="1" 
+F 0 "R?" H 6270 2196 50  0000 L CNN
+F 1 "R" H 6270 2105 50  0000 L CNN
+F 2 "" V 6130 2150 50  0001 C CNN
+F 3 "~" H 6200 2150 50  0001 C CNN
+	1    6200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF478CE
+P 6200 2000
+AR Path="/5DF478CE" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF478CE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6200 1850 50  0001 C CNN
+F 1 "VCC" H 6217 2173 50  0000 C CNN
+F 2 "" H 6200 2000 50  0001 C CNN
+F 3 "" H 6200 2000 50  0001 C CNN
+	1    6200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DF478D8
+P 6200 2550
+AR Path="/5DF478D8" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF478D8" Ref="R?"  Part="1" 
+F 0 "R?" H 6270 2596 50  0000 L CNN
+F 1 "R" H 6270 2505 50  0000 L CNN
+F 2 "" V 6130 2550 50  0001 C CNN
+F 3 "~" H 6200 2550 50  0001 C CNN
+	1    6200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF478E2
+P 6200 2700
+AR Path="/5DF478E2" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF478E2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6200 2450 50  0001 C CNN
+F 1 "GND" H 6205 2527 50  0000 C CNN
+F 2 "" H 6200 2700 50  0001 C CNN
+F 3 "" H 6200 2700 50  0001 C CNN
+	1    6200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC2G02 U?
+U 1 1 5DF478EC
+P 7450 1650
+AR Path="/5DF478EC" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DF478EC" Ref="U?"  Part="1" 
+F 0 "U?" H 7425 1917 50  0000 C CNN
+F 1 "74LVC2G02" H 7425 1826 50  0000 C CNN
+F 2 "" H 7450 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7450 1650 50  0001 C CNN
+	1    7450 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1200 7150 1600
+Wire Wire Line
+	6200 2300 6200 2350
+$Comp
+L formula:MCP6001T-I-LT U?
+U 1 1 5DF478FB
+P 6850 2250
+AR Path="/5DF478FB" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DF478FB" Ref="U?"  Part="1" 
+F 0 "U?" H 7194 2296 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 7194 2205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6750 2350 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6850 2450 50  0001 C CNN
+F 4 "DK" H 6950 2550 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 7050 2650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 7150 2750 60  0001 C CNN "PurchasingLink"
+	1    6850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2350 6200 2350
+Connection ~ 6200 2350
+Wire Wire Line
+	6200 2350 6200 2400
+Wire Wire Line
+	7150 2250 7150 1700
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF47909
+P 6750 1950
+AR Path="/5DF47909" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47909" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6750 1800 50  0001 C CNN
+F 1 "VCC" H 6767 2123 50  0000 C CNN
+F 2 "" H 6750 1950 50  0001 C CNN
+F 3 "" H 6750 1950 50  0001 C CNN
+	1    6750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF47913
+P 6750 2550
+AR Path="/5DF47913" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47913" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6750 2300 50  0001 C CNN
+F 1 "GND" H 6755 2377 50  0000 C CNN
+F 2 "" H 6750 2550 50  0001 C CNN
+F 3 "" H 6750 2550 50  0001 C CNN
+	1    6750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF4791D
+P 8000 1650
+AR Path="/5DF4791D" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF4791D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 1400 50  0001 C CNN
+F 1 "GND" H 8005 1477 50  0000 C CNN
+F 2 "" H 8000 1650 50  0001 C CNN
+F 3 "" H 8000 1650 50  0001 C CNN
+	1    8000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LED_0805 D?
+U 1 1 5DF4792A
+P 7850 1650
+AR Path="/5DF4792A" Ref="D?"  Part="1" 
+AR Path="/5DD7ADE7/5DF4792A" Ref="D?"  Part="1" 
+F 0 "D?" H 7843 1395 50  0000 C CNN
+F 1 "LED_0805" H 7843 1486 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 7750 1650 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 7850 1750 50  0001 C CNN
+F 4 "DK" H 7850 1650 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 7850 1650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8250 2150 60  0001 C CNN "PurchasingLink"
+	1    7850 1650
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR025
-U 1 1 5DEB9AAE
-P 1450 3850
-F 0 "#PWR025" H 1450 3600 50  0001 C CNN
-F 1 "GND" H 1455 3677 50  0000 C CNN
-F 2 "" H 1450 3850 50  0001 C CNN
-F 3 "" H 1450 3850 50  0001 C CNN
-	1    1450 3850
-	1    0    0    -1  
-$EndComp
-Text HLabel 1050 3550 0    50   Input ~ 0
-SENSE_3-
-Text HLabel 1050 4200 0    50   Input ~ 0
-SENSE_3+
-$Comp
-L formula:R_3K R24
-U 1 1 5DEB9ABD
-P 1300 4200
-F 0 "R24" V 1093 4200 50  0000 C CNN
-F 1 "R_3K" V 1184 4200 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1230 4200 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1380 4200 50  0001 C CNN
-F 4 "DK" H 1300 4200 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 1300 4200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 1780 4600 60  0001 C CNN "PurchasingLink"
-	1    1300 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_3K R31
-U 1 1 5DEB9ACA
-P 2150 4200
-F 0 "R31" V 1943 4200 50  0000 C CNN
-F 1 "R_3K" V 2034 4200 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2080 4200 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2230 4200 50  0001 C CNN
-F 4 "DK" H 2150 4200 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 2150 4200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 2630 4600 60  0001 C CNN "PurchasingLink"
-	1    2150 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR029
-U 1 1 5DEB9AD4
-P 1900 3350
-F 0 "#PWR029" H 1900 3200 50  0001 C CNN
-F 1 "VCC" H 1917 3523 50  0000 C CNN
-F 2 "" H 1900 3350 50  0001 C CNN
-F 3 "" H 1900 3350 50  0001 C CNN
-	1    1900 3350
+L power:VCC #PWR?
+U 1 1 5DF47934
+P 7450 1550
+AR Path="/5DF47934" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47934" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7450 1400 50  0001 C CNN
+F 1 "VCC" H 7467 1723 50  0000 C CNN
+F 2 "" H 7450 1550 50  0001 C CNN
+F 3 "" H 7450 1550 50  0001 C CNN
+	1    7450 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR030
-U 1 1 5DEB9ADE
-P 1900 3950
-F 0 "#PWR030" H 1900 3700 50  0001 C CNN
-F 1 "GND" H 1905 3777 50  0000 C CNN
-F 2 "" H 1900 3950 50  0001 C CNN
-F 3 "" H 1900 3950 50  0001 C CNN
-	1    1900 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_10K R34
-U 1 1 5DEB9AEB
-P 2800 3650
-F 0 "R34" V 2593 3650 50  0000 C CNN
-F 1 "R_10K" V 2684 3650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2730 3650 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 2880 3650 50  0001 C CNN
-F 4 "DK" H 2800 3650 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 2800 3650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3280 4050 60  0001 C CNN "PurchasingLink"
-	1    2800 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U6
-U 1 1 5DEB9AF8
-P 2000 3650
-F 0 "U6" H 2344 3696 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 2344 3605 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 1900 3750 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2000 3850 50  0001 C CNN
-F 4 "DK" H 2100 3950 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 2200 4050 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 2300 4150 60  0001 C CNN "PurchasingLink"
-	1    2000 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U9
-U 1 1 5DEB9B05
-P 3400 3550
-F 0 "U9" H 3744 3596 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 3744 3505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 3300 3650 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3400 3750 50  0001 C CNN
-F 4 "DK" H 3500 3850 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 3600 3950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 3700 4050 60  0001 C CNN "PurchasingLink"
-	1    3400 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_22K R37
-U 1 1 5DEB9B12
-P 3550 4100
-F 0 "R37" V 3343 4100 50  0000 C CNN
-F 1 "R_22K" V 3434 4100 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3480 4100 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3630 4100 50  0001 C CNN
-F 4 "DK" H 3550 4100 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT22K0CT-ND" H 3550 4100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" H 4030 4500 60  0001 C CNN "PurchasingLink"
-	1    3550 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR039
-U 1 1 5DEB9B1C
-P 3300 3850
-F 0 "#PWR039" H 3300 3600 50  0001 C CNN
-F 1 "GND" H 3305 3677 50  0000 C CNN
-F 2 "" H 3300 3850 50  0001 C CNN
-F 3 "" H 3300 3850 50  0001 C CNN
-	1    3300 3850
-	1    0    0    -1  
-$EndComp
-Text HLabel 4350 3550 2    50   Input ~ 0
-SENSE_3_OUT
-Wire Wire Line
-	4350 3550 3700 3550
-$Comp
-L power:VCC #PWR038
-U 1 1 5DEB9B28
-P 3300 3250
-F 0 "#PWR038" H 3300 3100 50  0001 C CNN
-F 1 "VCC" H 3317 3423 50  0000 C CNN
-F 2 "" H 3300 3250 50  0001 C CNN
-F 3 "" H 3300 3250 50  0001 C CNN
-	1    3300 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR034
-U 1 1 5DEB9B32
-P 3000 3400
-F 0 "#PWR034" H 3000 3150 50  0001 C CNN
-F 1 "GND" H 3005 3227 50  0000 C CNN
-F 2 "" H 3000 3400 50  0001 C CNN
-F 3 "" H 3000 3400 50  0001 C CNN
-	1    3000 3400
+L power:GND #PWR?
+U 1 1 5DF4793E
+P 7450 1750
+AR Path="/5DF4793E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF4793E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7450 1500 50  0001 C CNN
+F 1 "GND" H 7455 1577 50  0000 C CNN
+F 2 "" H 7450 1750 50  0001 C CNN
+F 3 "" H 7450 1750 50  0001 C CNN
+	1    7450 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 3400 3100 3400
-Wire Wire Line
-	3100 3400 3100 3450
-Wire Wire Line
-	3100 3650 2950 3650
-Wire Wire Line
-	2650 3650 2300 3650
-Wire Wire Line
-	2000 4200 1700 4200
-Wire Wire Line
-	1700 4200 1700 3750
-Wire Wire Line
-	2300 4200 2300 3650
-Connection ~ 2300 3650
-Wire Wire Line
-	3700 3550 3700 4100
-Connection ~ 3700 3550
-Wire Wire Line
-	3400 4100 3100 4100
-Wire Wire Line
-	3100 4100 3100 3650
-Connection ~ 3100 3650
-Wire Wire Line
-	1050 3550 1150 3550
-Connection ~ 1150 3550
-Wire Wire Line
-	1450 3550 1700 3550
-Connection ~ 1450 3550
-Connection ~ 1700 4200
-Wire Wire Line
-	1450 4200 1700 4200
-Wire Wire Line
-	1150 4200 1050 4200
+	6550 1300 6550 1750
 $Comp
-L power:GND #PWR023
-U 1 1 5DEB9B50
-P 1150 5100
-F 0 "#PWR023" H 1150 4850 50  0001 C CNN
-F 1 "GND" H 1155 4927 50  0000 C CNN
-F 2 "" H 1150 5100 50  0001 C CNN
-F 3 "" H 1150 5100 50  0001 C CNN
-	1    1150 5100
+L Device:R R?
+U 1 1 5DF47949
+P 6450 1600
+AR Path="/5DF47949" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47949" Ref="R?"  Part="1" 
+F 0 "R?" H 6520 1646 50  0000 L CNN
+F 1 "R" H 6520 1555 50  0000 L CNN
+F 2 "" V 6380 1600 50  0001 C CNN
+F 3 "~" H 6450 1600 50  0001 C CNN
+	1    6450 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_1K R20
-U 1 1 5DEB9B5D
-P 1150 4950
-F 0 "R20" H 1220 4996 50  0000 L CNN
-F 1 "R_1K" H 1220 4905 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1080 4950 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1230 4950 50  0001 C CNN
-F 4 "DK" H 1150 4950 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 1150 4950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 1630 5350 60  0001 C CNN "PurchasingLink"
-	1    1150 4950
+L power:VCC #PWR?
+U 1 1 5DF47953
+P 6450 1450
+AR Path="/5DF47953" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47953" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6450 1300 50  0001 C CNN
+F 1 "VCC" H 6467 1623 50  0000 C CNN
+F 2 "" H 6450 1450 50  0001 C CNN
+F 3 "" H 6450 1450 50  0001 C CNN
+	1    6450 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1750 6450 1750
+Wire Wire Line
+	6450 1750 6550 1750
+Connection ~ 6450 1750
+Connection ~ 6550 1750
+Wire Wire Line
+	6550 1750 6550 2150
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF47962
+P 6200 750
+AR Path="/5DF47962" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47962" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6200 600 50  0001 C CNN
+F 1 "VCC" H 6217 923 50  0000 C CNN
+F 2 "" H 6200 750 50  0001 C CNN
+F 3 "" H 6200 750 50  0001 C CNN
+	1    6200 750 
+	1    0    0    -1  
+$EndComp
+Text Notes 8100 1650 0    50   ~ 0
+If LED is on, sensor is good
+Text HLabel 6350 1750 0    50   Input ~ 0
+MOTOR_TEMP_SENSE_CHECK
+$Comp
+L Device:R R?
+U 1 1 5DF4796E
+P 6150 3500
+AR Path="/5DF4796E" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF4796E" Ref="R?"  Part="1" 
+F 0 "R?" H 6220 3546 50  0000 L CNN
+F 1 "R" H 6220 3455 50  0000 L CNN
+F 2 "" V 6080 3500 50  0001 C CNN
+F 3 "~" H 6150 3500 50  0001 C CNN
+	1    6150 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_3K R25
-U 1 1 5DEB9B6A
-P 1300 4800
-F 0 "R25" V 1093 4800 50  0000 C CNN
-F 1 "R_3K" V 1184 4800 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1230 4800 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1380 4800 50  0001 C CNN
-F 4 "DK" H 1300 4800 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 1300 4800 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 1780 5200 60  0001 C CNN "PurchasingLink"
-	1    1300 4800
-	0    1    1    0   
+L Device:R R?
+U 1 1 5DF47978
+P 6150 3900
+AR Path="/5DF47978" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47978" Ref="R?"  Part="1" 
+F 0 "R?" H 6220 3946 50  0000 L CNN
+F 1 "R" H 6220 3855 50  0000 L CNN
+F 2 "" V 6080 3900 50  0001 C CNN
+F 3 "~" H 6150 3900 50  0001 C CNN
+	1    6150 3900
+	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_3K R29
-U 1 1 5DEB9B77
-P 1450 4950
-F 0 "R29" H 1380 4904 50  0000 R CNN
-F 1 "R_3K" H 1380 4995 50  0000 R CNN
-F 2 "footprints:R_0805_OEM" H 1380 4950 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1530 4950 50  0001 C CNN
-F 4 "DK" H 1450 4950 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 1450 4950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 1930 5350 60  0001 C CNN "PurchasingLink"
-	1    1450 4950
+L power:GND #PWR?
+U 1 1 5DF47982
+P 6150 4050
+AR Path="/5DF47982" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47982" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6150 3800 50  0001 C CNN
+F 1 "GND" H 6155 3877 50  0000 C CNN
+F 2 "" H 6150 4050 50  0001 C CNN
+F 3 "" H 6150 4050 50  0001 C CNN
+	1    6150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF4798C
+P 6700 3500
+AR Path="/5DF4798C" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF4798C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6700 3350 50  0001 C CNN
+F 1 "VCC" H 6717 3673 50  0000 C CNN
+F 2 "" H 6700 3500 50  0001 C CNN
+F 3 "" H 6700 3500 50  0001 C CNN
+	1    6700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF47996
+P 6700 4100
+AR Path="/5DF47996" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47996" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6700 3850 50  0001 C CNN
+F 1 "GND" H 6705 3927 50  0000 C CNN
+F 2 "" H 6700 4100 50  0001 C CNN
+F 3 "" H 6700 4100 50  0001 C CNN
+	1    6700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MCP6001T-I-LT U?
+U 1 1 5DF479A3
+P 6800 3800
+AR Path="/5DF479A3" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DF479A3" Ref="U?"  Part="1" 
+F 0 "U?" H 7144 3846 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 7144 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6700 3900 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6800 4000 50  0001 C CNN
+F 4 "DK" H 6900 4100 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 7000 4200 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 7100 4300 60  0001 C CNN "PurchasingLink"
+	1    6800 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3650 6150 3700
+Wire Wire Line
+	6500 3700 6150 3700
+Connection ~ 6150 3700
+Wire Wire Line
+	6150 3700 6150 3750
+$Comp
+L Device:R R?
+U 1 1 5DF479B1
+P 6150 4750
+AR Path="/5DF479B1" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF479B1" Ref="R?"  Part="1" 
+F 0 "R?" H 6220 4796 50  0000 L CNN
+F 1 "R" H 6220 4705 50  0000 L CNN
+F 2 "" V 6080 4750 50  0001 C CNN
+F 3 "~" H 6150 4750 50  0001 C CNN
+	1    6150 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF479BB
+P 6150 4600
+AR Path="/5DF479BB" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF479BB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6150 4450 50  0001 C CNN
+F 1 "VCC" H 6167 4773 50  0000 C CNN
+F 2 "" H 6150 4600 50  0001 C CNN
+F 3 "" H 6150 4600 50  0001 C CNN
+	1    6150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DF479C5
+P 6150 5150
+AR Path="/5DF479C5" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF479C5" Ref="R?"  Part="1" 
+F 0 "R?" H 6220 5196 50  0000 L CNN
+F 1 "R" H 6220 5105 50  0000 L CNN
+F 2 "" V 6080 5150 50  0001 C CNN
+F 3 "~" H 6150 5150 50  0001 C CNN
+	1    6150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF479CF
+P 6150 5300
+AR Path="/5DF479CF" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF479CF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6150 5050 50  0001 C CNN
+F 1 "GND" H 6155 5127 50  0000 C CNN
+F 2 "" H 6150 5300 50  0001 C CNN
+F 3 "" H 6150 5300 50  0001 C CNN
+	1    6150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC2G02 U?
+U 1 1 5DF479D9
+P 7400 4250
+AR Path="/5DF479D9" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DF479D9" Ref="U?"  Part="1" 
+F 0 "U?" H 7375 4517 50  0000 C CNN
+F 1 "74LVC2G02" H 7375 4426 50  0000 C CNN
+F 2 "" H 7400 4250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7400 4250 50  0001 C CNN
+	1    7400 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3800 7100 4200
+Wire Wire Line
+	6150 4900 6150 4950
+$Comp
+L formula:MCP6001T-I-LT U?
+U 1 1 5DF479E8
+P 6800 4850
+AR Path="/5DF479E8" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DF479E8" Ref="U?"  Part="1" 
+F 0 "U?" H 7144 4896 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 7144 4805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6700 4950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6800 5050 50  0001 C CNN
+F 4 "DK" H 6900 5150 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 7000 5250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 7100 5350 60  0001 C CNN "PurchasingLink"
+	1    6800 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4950 6150 4950
+Connection ~ 6150 4950
+Wire Wire Line
+	6150 4950 6150 5000
+Wire Wire Line
+	7100 4850 7100 4300
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF479F6
+P 6700 4550
+AR Path="/5DF479F6" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF479F6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6700 4400 50  0001 C CNN
+F 1 "VCC" H 6717 4723 50  0000 C CNN
+F 2 "" H 6700 4550 50  0001 C CNN
+F 3 "" H 6700 4550 50  0001 C CNN
+	1    6700 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF47A00
+P 6700 5150
+AR Path="/5DF47A00" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47A00" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6700 4900 50  0001 C CNN
+F 1 "GND" H 6705 4977 50  0000 C CNN
+F 2 "" H 6700 5150 50  0001 C CNN
+F 3 "" H 6700 5150 50  0001 C CNN
+	1    6700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF47A0A
+P 7950 4250
+AR Path="/5DF47A0A" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47A0A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7950 4000 50  0001 C CNN
+F 1 "GND" H 7955 4077 50  0000 C CNN
+F 2 "" H 7950 4250 50  0001 C CNN
+F 3 "" H 7950 4250 50  0001 C CNN
+	1    7950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LED_0805 D?
+U 1 1 5DF47A17
+P 7800 4250
+AR Path="/5DF47A17" Ref="D?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47A17" Ref="D?"  Part="1" 
+F 0 "D?" H 7793 3995 50  0000 C CNN
+F 1 "LED_0805" H 7793 4086 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 7700 4250 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 7800 4350 50  0001 C CNN
+F 4 "DK" H 7800 4250 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 7800 4250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8200 4750 60  0001 C CNN "PurchasingLink"
+	1    7800 4250
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR026
-U 1 1 5DEB9B81
-P 1450 5100
-F 0 "#PWR026" H 1450 4850 50  0001 C CNN
-F 1 "GND" H 1455 4927 50  0000 C CNN
-F 2 "" H 1450 5100 50  0001 C CNN
-F 3 "" H 1450 5100 50  0001 C CNN
-	1    1450 5100
-	1    0    0    -1  
-$EndComp
-Text HLabel 1050 4800 0    50   Input ~ 0
-SENSE_4-
-Text HLabel 1050 5450 0    50   Input ~ 0
-SENSE_4+
-$Comp
-L formula:R_3K R26
-U 1 1 5DEB9B90
-P 1300 5450
-F 0 "R26" V 1093 5450 50  0000 C CNN
-F 1 "R_3K" V 1184 5450 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1230 5450 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1380 5450 50  0001 C CNN
-F 4 "DK" H 1300 5450 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 1300 5450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 1780 5850 60  0001 C CNN "PurchasingLink"
-	1    1300 5450
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_3K R32
-U 1 1 5DEB9B9D
-P 2150 5450
-F 0 "R32" V 1943 5450 50  0000 C CNN
-F 1 "R_3K" V 2034 5450 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2080 5450 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2230 5450 50  0001 C CNN
-F 4 "DK" H 2150 5450 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 2150 5450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 2630 5850 60  0001 C CNN "PurchasingLink"
-	1    2150 5450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR031
-U 1 1 5DEB9BA7
-P 1900 4600
-F 0 "#PWR031" H 1900 4450 50  0001 C CNN
-F 1 "VCC" H 1917 4773 50  0000 C CNN
-F 2 "" H 1900 4600 50  0001 C CNN
-F 3 "" H 1900 4600 50  0001 C CNN
-	1    1900 4600
+L power:VCC #PWR?
+U 1 1 5DF47A21
+P 7400 4150
+AR Path="/5DF47A21" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47A21" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7400 4000 50  0001 C CNN
+F 1 "VCC" H 7417 4323 50  0000 C CNN
+F 2 "" H 7400 4150 50  0001 C CNN
+F 3 "" H 7400 4150 50  0001 C CNN
+	1    7400 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR032
-U 1 1 5DEB9BB1
-P 1900 5200
-F 0 "#PWR032" H 1900 4950 50  0001 C CNN
-F 1 "GND" H 1905 5027 50  0000 C CNN
-F 2 "" H 1900 5200 50  0001 C CNN
-F 3 "" H 1900 5200 50  0001 C CNN
-	1    1900 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_10K R35
-U 1 1 5DEB9BBE
-P 2800 4900
-F 0 "R35" V 2593 4900 50  0000 C CNN
-F 1 "R_10K" V 2684 4900 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2730 4900 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 2880 4900 50  0001 C CNN
-F 4 "DK" H 2800 4900 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 2800 4900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3280 5300 60  0001 C CNN "PurchasingLink"
-	1    2800 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U7
-U 1 1 5DEB9BCB
-P 2000 4900
-F 0 "U7" H 2344 4946 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 2344 4855 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 1900 5000 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2000 5100 50  0001 C CNN
-F 4 "DK" H 2100 5200 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 2200 5300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 2300 5400 60  0001 C CNN "PurchasingLink"
-	1    2000 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U10
-U 1 1 5DEB9BD8
-P 3400 4800
-F 0 "U10" H 3744 4846 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 3744 4755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 3300 4900 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3400 5000 50  0001 C CNN
-F 4 "DK" H 3500 5100 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 3600 5200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 3700 5300 60  0001 C CNN "PurchasingLink"
-	1    3400 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_22K R38
-U 1 1 5DEB9BE5
-P 3550 5350
-F 0 "R38" V 3343 5350 50  0000 C CNN
-F 1 "R_22K" V 3434 5350 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3480 5350 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3630 5350 50  0001 C CNN
-F 4 "DK" H 3550 5350 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT22K0CT-ND" H 3550 5350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" H 4030 5750 60  0001 C CNN "PurchasingLink"
-	1    3550 5350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR041
-U 1 1 5DEB9BEF
-P 3300 5100
-F 0 "#PWR041" H 3300 4850 50  0001 C CNN
-F 1 "GND" H 3305 4927 50  0000 C CNN
-F 2 "" H 3300 5100 50  0001 C CNN
-F 3 "" H 3300 5100 50  0001 C CNN
-	1    3300 5100
-	1    0    0    -1  
-$EndComp
-Text HLabel 4350 4800 2    50   Input ~ 0
-SENSE_4_OUT
-Wire Wire Line
-	4350 4800 3700 4800
-$Comp
-L power:VCC #PWR040
-U 1 1 5DEB9BFB
-P 3300 4500
-F 0 "#PWR040" H 3300 4350 50  0001 C CNN
-F 1 "VCC" H 3317 4673 50  0000 C CNN
-F 2 "" H 3300 4500 50  0001 C CNN
-F 3 "" H 3300 4500 50  0001 C CNN
-	1    3300 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR035
-U 1 1 5DEB9C05
-P 3000 4650
-F 0 "#PWR035" H 3000 4400 50  0001 C CNN
-F 1 "GND" H 3005 4477 50  0000 C CNN
-F 2 "" H 3000 4650 50  0001 C CNN
-F 3 "" H 3000 4650 50  0001 C CNN
-	1    3000 4650
+L power:GND #PWR?
+U 1 1 5DF47A2B
+P 7400 4350
+AR Path="/5DF47A2B" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47A2B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7400 4100 50  0001 C CNN
+F 1 "GND" H 7405 4177 50  0000 C CNN
+F 2 "" H 7400 4350 50  0001 C CNN
+F 3 "" H 7400 4350 50  0001 C CNN
+	1    7400 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 4650 3100 4650
-Wire Wire Line
-	3100 4650 3100 4700
-Wire Wire Line
-	3100 4900 2950 4900
-Wire Wire Line
-	2650 4900 2300 4900
-Wire Wire Line
-	2000 5450 1700 5450
-Wire Wire Line
-	1700 5450 1700 5000
-Wire Wire Line
-	2300 5450 2300 4900
-Connection ~ 2300 4900
-Wire Wire Line
-	3700 4800 3700 5350
-Connection ~ 3700 4800
-Wire Wire Line
-	3400 5350 3100 5350
-Wire Wire Line
-	3100 5350 3100 4900
-Connection ~ 3100 4900
-Wire Wire Line
-	1050 4800 1150 4800
-Connection ~ 1150 4800
-Wire Wire Line
-	1450 4800 1700 4800
-Connection ~ 1450 4800
-Connection ~ 1700 5450
-Wire Wire Line
-	1450 5450 1700 5450
-Wire Wire Line
-	1150 5450 1050 5450
+	6500 3900 6500 4350
 $Comp
-L power:GND #PWR042
-U 1 1 5DEE8069
-P 5700 1400
-F 0 "#PWR042" H 5700 1150 50  0001 C CNN
-F 1 "GND" H 5705 1227 50  0000 C CNN
-F 2 "" H 5700 1400 50  0001 C CNN
-F 3 "" H 5700 1400 50  0001 C CNN
-	1    5700 1400
+L Device:R R?
+U 1 1 5DF47A36
+P 6400 4200
+AR Path="/5DF47A36" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47A36" Ref="R?"  Part="1" 
+F 0 "R?" H 6470 4246 50  0000 L CNN
+F 1 "R" H 6470 4155 50  0000 L CNN
+F 2 "" V 6330 4200 50  0001 C CNN
+F 3 "~" H 6400 4200 50  0001 C CNN
+	1    6400 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_1K R39
-U 1 1 5DEE8076
-P 5700 1250
-F 0 "R39" H 5770 1296 50  0000 L CNN
-F 1 "R_1K" H 5770 1205 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5630 1250 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5780 1250 50  0001 C CNN
-F 4 "DK" H 5700 1250 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 5700 1250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 6180 1650 60  0001 C CNN "PurchasingLink"
-	1    5700 1250
+L power:VCC #PWR?
+U 1 1 5DF47A40
+P 6400 4050
+AR Path="/5DF47A40" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47A40" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6400 3900 50  0001 C CNN
+F 1 "VCC" H 6417 4223 50  0000 C CNN
+F 2 "" H 6400 4050 50  0001 C CNN
+F 3 "" H 6400 4050 50  0001 C CNN
+	1    6400 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4350 6400 4350
+Wire Wire Line
+	6400 4350 6500 4350
+Connection ~ 6400 4350
+Connection ~ 6500 4350
+Wire Wire Line
+	6500 4350 6500 4750
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF47A4F
+P 6150 3350
+AR Path="/5DF47A4F" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF47A4F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6150 3200 50  0001 C CNN
+F 1 "VCC" H 6167 3523 50  0000 C CNN
+F 2 "" H 6150 3350 50  0001 C CNN
+F 3 "" H 6150 3350 50  0001 C CNN
+	1    6150 3350
+	1    0    0    -1  
+$EndComp
+Text Notes 8050 4250 0    50   ~ 0
+If LED is on, sensor is good
+$Comp
+L Device:R R?
+U 1 1 5DF6AD9B
+P 4200 5550
+AR Path="/5DF6AD9B" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6AD9B" Ref="R?"  Part="1" 
+F 0 "R?" H 4270 5596 50  0000 L CNN
+F 1 "R" H 4270 5505 50  0000 L CNN
+F 2 "" V 4130 5550 50  0001 C CNN
+F 3 "~" H 4200 5550 50  0001 C CNN
+	1    4200 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_3K R42
-U 1 1 5DEE8083
-P 5850 1100
-F 0 "R42" V 5643 1100 50  0000 C CNN
-F 1 "R_3K" V 5734 1100 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5780 1100 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5930 1100 50  0001 C CNN
-F 4 "DK" H 5850 1100 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 5850 1100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 6330 1500 60  0001 C CNN "PurchasingLink"
-	1    5850 1100
-	0    1    1    0   
+L Device:R R?
+U 1 1 5DF6ADA5
+P 4200 5950
+AR Path="/5DF6ADA5" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6ADA5" Ref="R?"  Part="1" 
+F 0 "R?" H 4270 5996 50  0000 L CNN
+F 1 "R" H 4270 5905 50  0000 L CNN
+F 2 "" V 4130 5950 50  0001 C CNN
+F 3 "~" H 4200 5950 50  0001 C CNN
+	1    4200 5950
+	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_3K R48
-U 1 1 5DEE8090
-P 6000 1250
-F 0 "R48" H 5930 1204 50  0000 R CNN
-F 1 "R_3K" H 5930 1295 50  0000 R CNN
-F 2 "footprints:R_0805_OEM" H 5930 1250 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6080 1250 50  0001 C CNN
-F 4 "DK" H 6000 1250 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 6000 1250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 6480 1650 60  0001 C CNN "PurchasingLink"
-	1    6000 1250
+L power:GND #PWR?
+U 1 1 5DF6ADAF
+P 4200 6100
+AR Path="/5DF6ADAF" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6ADAF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4200 5850 50  0001 C CNN
+F 1 "GND" H 4205 5927 50  0000 C CNN
+F 2 "" H 4200 6100 50  0001 C CNN
+F 3 "" H 4200 6100 50  0001 C CNN
+	1    4200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF6ADB9
+P 4750 5550
+AR Path="/5DF6ADB9" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6ADB9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 5400 50  0001 C CNN
+F 1 "VCC" H 4767 5723 50  0000 C CNN
+F 2 "" H 4750 5550 50  0001 C CNN
+F 3 "" H 4750 5550 50  0001 C CNN
+	1    4750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF6ADC3
+P 4750 6150
+AR Path="/5DF6ADC3" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6ADC3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 5900 50  0001 C CNN
+F 1 "GND" H 4755 5977 50  0000 C CNN
+F 2 "" H 4750 6150 50  0001 C CNN
+F 3 "" H 4750 6150 50  0001 C CNN
+	1    4750 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MCP6001T-I-LT U?
+U 1 1 5DF6ADD0
+P 4850 5850
+AR Path="/5DF6ADD0" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6ADD0" Ref="U?"  Part="1" 
+F 0 "U?" H 5194 5896 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 5194 5805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 4750 5950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4850 6050 50  0001 C CNN
+F 4 "DK" H 4950 6150 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 5050 6250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 5150 6350 60  0001 C CNN "PurchasingLink"
+	1    4850 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5700 4200 5750
+Wire Wire Line
+	4550 5750 4200 5750
+Connection ~ 4200 5750
+Wire Wire Line
+	4200 5750 4200 5800
+$Comp
+L Device:R R?
+U 1 1 5DF6ADDE
+P 4200 6800
+AR Path="/5DF6ADDE" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6ADDE" Ref="R?"  Part="1" 
+F 0 "R?" H 4270 6846 50  0000 L CNN
+F 1 "R" H 4270 6755 50  0000 L CNN
+F 2 "" V 4130 6800 50  0001 C CNN
+F 3 "~" H 4200 6800 50  0001 C CNN
+	1    4200 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF6ADE8
+P 4200 6650
+AR Path="/5DF6ADE8" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6ADE8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4200 6500 50  0001 C CNN
+F 1 "VCC" H 4217 6823 50  0000 C CNN
+F 2 "" H 4200 6650 50  0001 C CNN
+F 3 "" H 4200 6650 50  0001 C CNN
+	1    4200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DF6ADF2
+P 4200 7200
+AR Path="/5DF6ADF2" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6ADF2" Ref="R?"  Part="1" 
+F 0 "R?" H 4270 7246 50  0000 L CNN
+F 1 "R" H 4270 7155 50  0000 L CNN
+F 2 "" V 4130 7200 50  0001 C CNN
+F 3 "~" H 4200 7200 50  0001 C CNN
+	1    4200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF6ADFC
+P 4200 7350
+AR Path="/5DF6ADFC" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6ADFC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4200 7100 50  0001 C CNN
+F 1 "GND" H 4205 7177 50  0000 C CNN
+F 2 "" H 4200 7350 50  0001 C CNN
+F 3 "" H 4200 7350 50  0001 C CNN
+	1    4200 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC2G02 U?
+U 1 1 5DF6AE06
+P 5450 6300
+AR Path="/5DF6AE06" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6AE06" Ref="U?"  Part="1" 
+F 0 "U?" H 5425 6567 50  0000 C CNN
+F 1 "74LVC2G02" H 5425 6476 50  0000 C CNN
+F 2 "" H 5450 6300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5450 6300 50  0001 C CNN
+	1    5450 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5850 5150 6250
+Wire Wire Line
+	4200 6950 4200 7000
+$Comp
+L formula:MCP6001T-I-LT U?
+U 1 1 5DF6AE15
+P 4850 6900
+AR Path="/5DF6AE15" Ref="U?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6AE15" Ref="U?"  Part="1" 
+F 0 "U?" H 5194 6946 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 5194 6855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 4750 7000 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4850 7100 50  0001 C CNN
+F 4 "DK" H 4950 7200 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 5050 7300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 5150 7400 60  0001 C CNN "PurchasingLink"
+	1    4850 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 7000 4200 7000
+Connection ~ 4200 7000
+Wire Wire Line
+	4200 7000 4200 7050
+Wire Wire Line
+	5150 6900 5150 6350
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF6AE23
+P 4750 6600
+AR Path="/5DF6AE23" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6AE23" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 6450 50  0001 C CNN
+F 1 "VCC" H 4767 6773 50  0000 C CNN
+F 2 "" H 4750 6600 50  0001 C CNN
+F 3 "" H 4750 6600 50  0001 C CNN
+	1    4750 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF6AE2D
+P 4750 7200
+AR Path="/5DF6AE2D" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6AE2D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 6950 50  0001 C CNN
+F 1 "GND" H 4755 7027 50  0000 C CNN
+F 2 "" H 4750 7200 50  0001 C CNN
+F 3 "" H 4750 7200 50  0001 C CNN
+	1    4750 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF6AE37
+P 6000 6300
+AR Path="/5DF6AE37" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6AE37" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6000 6050 50  0001 C CNN
+F 1 "GND" H 6005 6127 50  0000 C CNN
+F 2 "" H 6000 6300 50  0001 C CNN
+F 3 "" H 6000 6300 50  0001 C CNN
+	1    6000 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LED_0805 D?
+U 1 1 5DF6AE44
+P 5850 6300
+AR Path="/5DF6AE44" Ref="D?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6AE44" Ref="D?"  Part="1" 
+F 0 "D?" H 5843 6045 50  0000 C CNN
+F 1 "LED_0805" H 5843 6136 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 5750 6300 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 5850 6400 50  0001 C CNN
+F 4 "DK" H 5850 6300 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 5850 6300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 6250 6800 60  0001 C CNN "PurchasingLink"
+	1    5850 6300
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR045
-U 1 1 5DEE809A
-P 6000 1400
-F 0 "#PWR045" H 6000 1150 50  0001 C CNN
-F 1 "GND" H 6005 1227 50  0000 C CNN
-F 2 "" H 6000 1400 50  0001 C CNN
-F 3 "" H 6000 1400 50  0001 C CNN
-	1    6000 1400
-	1    0    0    -1  
-$EndComp
-Text HLabel 5600 1100 0    50   Input ~ 0
-SENSE_5-
-Text HLabel 5600 1750 0    50   Input ~ 0
-SENSE_5+
-$Comp
-L formula:R_3K R43
-U 1 1 5DEE80A9
-P 5850 1750
-F 0 "R43" V 5643 1750 50  0000 C CNN
-F 1 "R_3K" V 5734 1750 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5780 1750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5930 1750 50  0001 C CNN
-F 4 "DK" H 5850 1750 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 5850 1750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 6330 2150 60  0001 C CNN "PurchasingLink"
-	1    5850 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_3K R51
-U 1 1 5DEE80B6
-P 6700 1750
-F 0 "R51" V 6493 1750 50  0000 C CNN
-F 1 "R_3K" V 6584 1750 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 6630 1750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6780 1750 50  0001 C CNN
-F 4 "DK" H 6700 1750 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 6700 1750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 7180 2150 60  0001 C CNN "PurchasingLink"
-	1    6700 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR048
-U 1 1 5DEE80C0
-P 6450 900
-F 0 "#PWR048" H 6450 750 50  0001 C CNN
-F 1 "VCC" H 6467 1073 50  0000 C CNN
-F 2 "" H 6450 900 50  0001 C CNN
-F 3 "" H 6450 900 50  0001 C CNN
-	1    6450 900 
+L power:VCC #PWR?
+U 1 1 5DF6AE4E
+P 5450 6200
+AR Path="/5DF6AE4E" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6AE4E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5450 6050 50  0001 C CNN
+F 1 "VCC" H 5467 6373 50  0000 C CNN
+F 2 "" H 5450 6200 50  0001 C CNN
+F 3 "" H 5450 6200 50  0001 C CNN
+	1    5450 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR049
-U 1 1 5DEE80CA
-P 6450 1500
-F 0 "#PWR049" H 6450 1250 50  0001 C CNN
-F 1 "GND" H 6455 1327 50  0000 C CNN
-F 2 "" H 6450 1500 50  0001 C CNN
-F 3 "" H 6450 1500 50  0001 C CNN
-	1    6450 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_10K R54
-U 1 1 5DEE80D7
-P 7350 1200
-F 0 "R54" V 7143 1200 50  0000 C CNN
-F 1 "R_10K" V 7234 1200 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 7280 1200 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7430 1200 50  0001 C CNN
-F 4 "DK" H 7350 1200 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 7350 1200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 7830 1600 60  0001 C CNN "PurchasingLink"
-	1    7350 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U11
-U 1 1 5DEE80E4
-P 6550 1200
-F 0 "U11" H 6894 1246 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 6894 1155 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6450 1300 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6550 1400 50  0001 C CNN
-F 4 "DK" H 6650 1500 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 6750 1600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 6850 1700 60  0001 C CNN "PurchasingLink"
-	1    6550 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U14
-U 1 1 5DEE80F1
-P 7950 1100
-F 0 "U14" H 8294 1146 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 8294 1055 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 7850 1200 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7950 1300 50  0001 C CNN
-F 4 "DK" H 8050 1400 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 8150 1500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 8250 1600 60  0001 C CNN "PurchasingLink"
-	1    7950 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_22K R57
-U 1 1 5DEE80FE
-P 8100 1650
-F 0 "R57" V 7893 1650 50  0000 C CNN
-F 1 "R_22K" V 7984 1650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 8030 1650 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8180 1650 50  0001 C CNN
-F 4 "DK" H 8100 1650 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT22K0CT-ND" H 8100 1650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" H 8580 2050 60  0001 C CNN "PurchasingLink"
-	1    8100 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR058
-U 1 1 5DEE8108
-P 7850 1400
-F 0 "#PWR058" H 7850 1150 50  0001 C CNN
-F 1 "GND" H 7855 1227 50  0000 C CNN
-F 2 "" H 7850 1400 50  0001 C CNN
-F 3 "" H 7850 1400 50  0001 C CNN
-	1    7850 1400
-	1    0    0    -1  
-$EndComp
-Text HLabel 8900 1100 2    50   Input ~ 0
-SENSE_5_OUT
-Wire Wire Line
-	8900 1100 8250 1100
-$Comp
-L power:VCC #PWR057
-U 1 1 5DEE8114
-P 7850 800
-F 0 "#PWR057" H 7850 650 50  0001 C CNN
-F 1 "VCC" H 7867 973 50  0000 C CNN
-F 2 "" H 7850 800 50  0001 C CNN
-F 3 "" H 7850 800 50  0001 C CNN
-	1    7850 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR054
-U 1 1 5DEE811E
-P 7550 950
-F 0 "#PWR054" H 7550 700 50  0001 C CNN
-F 1 "GND" H 7555 777 50  0000 C CNN
-F 2 "" H 7550 950 50  0001 C CNN
-F 3 "" H 7550 950 50  0001 C CNN
-	1    7550 950 
+L power:GND #PWR?
+U 1 1 5DF6AE58
+P 5450 6400
+AR Path="/5DF6AE58" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6AE58" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5450 6150 50  0001 C CNN
+F 1 "GND" H 5455 6227 50  0000 C CNN
+F 2 "" H 5450 6400 50  0001 C CNN
+F 3 "" H 5450 6400 50  0001 C CNN
+	1    5450 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7550 950  7650 950 
-Wire Wire Line
-	7650 950  7650 1000
-Wire Wire Line
-	7650 1200 7500 1200
-Wire Wire Line
-	7200 1200 6850 1200
-Wire Wire Line
-	6550 1750 6250 1750
-Wire Wire Line
-	6250 1750 6250 1300
-Wire Wire Line
-	6850 1750 6850 1200
-Connection ~ 6850 1200
-Wire Wire Line
-	8250 1100 8250 1650
-Connection ~ 8250 1100
-Wire Wire Line
-	7950 1650 7650 1650
-Wire Wire Line
-	7650 1650 7650 1200
-Connection ~ 7650 1200
-Wire Wire Line
-	5600 1100 5700 1100
-Connection ~ 5700 1100
-Wire Wire Line
-	6000 1100 6250 1100
-Connection ~ 6000 1100
-Connection ~ 6250 1750
-Wire Wire Line
-	6000 1750 6250 1750
-Wire Wire Line
-	5700 1750 5600 1750
+	4550 5950 4550 6400
 $Comp
-L power:GND #PWR043
-U 1 1 5DEE813C
-P 5700 2650
-F 0 "#PWR043" H 5700 2400 50  0001 C CNN
-F 1 "GND" H 5705 2477 50  0000 C CNN
-F 2 "" H 5700 2650 50  0001 C CNN
-F 3 "" H 5700 2650 50  0001 C CNN
-	1    5700 2650
+L Device:R R?
+U 1 1 5DF6AE63
+P 4450 6250
+AR Path="/5DF6AE63" Ref="R?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6AE63" Ref="R?"  Part="1" 
+F 0 "R?" H 4520 6296 50  0000 L CNN
+F 1 "R" H 4520 6205 50  0000 L CNN
+F 2 "" V 4380 6250 50  0001 C CNN
+F 3 "~" H 4450 6250 50  0001 C CNN
+	1    4450 6250
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_1K R40
-U 1 1 5DEE8149
-P 5700 2500
-F 0 "R40" H 5770 2546 50  0000 L CNN
-F 1 "R_1K" H 5770 2455 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5630 2500 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5780 2500 50  0001 C CNN
-F 4 "DK" H 5700 2500 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 5700 2500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 6180 2900 60  0001 C CNN "PurchasingLink"
-	1    5700 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_3K R44
-U 1 1 5DEE8156
-P 5850 2350
-F 0 "R44" V 5643 2350 50  0000 C CNN
-F 1 "R_3K" V 5734 2350 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5780 2350 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5930 2350 50  0001 C CNN
-F 4 "DK" H 5850 2350 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 5850 2350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 6330 2750 60  0001 C CNN "PurchasingLink"
-	1    5850 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_3K R49
-U 1 1 5DEE8163
-P 6000 2500
-F 0 "R49" H 5930 2454 50  0000 R CNN
-F 1 "R_3K" H 5930 2545 50  0000 R CNN
-F 2 "footprints:R_0805_OEM" H 5930 2500 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6080 2500 50  0001 C CNN
-F 4 "DK" H 6000 2500 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 6000 2500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 6480 2900 60  0001 C CNN "PurchasingLink"
-	1    6000 2500
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR046
-U 1 1 5DEE816D
-P 6000 2650
-F 0 "#PWR046" H 6000 2400 50  0001 C CNN
-F 1 "GND" H 6005 2477 50  0000 C CNN
-F 2 "" H 6000 2650 50  0001 C CNN
-F 3 "" H 6000 2650 50  0001 C CNN
-	1    6000 2650
-	1    0    0    -1  
-$EndComp
-Text HLabel 5600 2350 0    50   Input ~ 0
-SENSE_6-
-Text HLabel 5600 3000 0    50   Input ~ 0
-SENSE_6+
-$Comp
-L formula:R_3K R45
-U 1 1 5DEE817C
-P 5850 3000
-F 0 "R45" V 5643 3000 50  0000 C CNN
-F 1 "R_3K" V 5734 3000 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5780 3000 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5930 3000 50  0001 C CNN
-F 4 "DK" H 5850 3000 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 5850 3000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 6330 3400 60  0001 C CNN "PurchasingLink"
-	1    5850 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_3K R52
-U 1 1 5DEE8189
-P 6700 3000
-F 0 "R52" V 6493 3000 50  0000 C CNN
-F 1 "R_3K" V 6584 3000 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 6630 3000 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6780 3000 50  0001 C CNN
-F 4 "DK" H 6700 3000 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 6700 3000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 7180 3400 60  0001 C CNN "PurchasingLink"
-	1    6700 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR050
-U 1 1 5DEE8193
-P 6450 2150
-F 0 "#PWR050" H 6450 2000 50  0001 C CNN
-F 1 "VCC" H 6467 2323 50  0000 C CNN
-F 2 "" H 6450 2150 50  0001 C CNN
-F 3 "" H 6450 2150 50  0001 C CNN
-	1    6450 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR051
-U 1 1 5DEE819D
-P 6450 2750
-F 0 "#PWR051" H 6450 2500 50  0001 C CNN
-F 1 "GND" H 6455 2577 50  0000 C CNN
-F 2 "" H 6450 2750 50  0001 C CNN
-F 3 "" H 6450 2750 50  0001 C CNN
-	1    6450 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_10K R55
-U 1 1 5DEE81AA
-P 7350 2450
-F 0 "R55" V 7143 2450 50  0000 C CNN
-F 1 "R_10K" V 7234 2450 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 7280 2450 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7430 2450 50  0001 C CNN
-F 4 "DK" H 7350 2450 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 7350 2450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 7830 2850 60  0001 C CNN "PurchasingLink"
-	1    7350 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U12
-U 1 1 5DEE81B7
-P 6550 2450
-F 0 "U12" H 6894 2496 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 6894 2405 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6450 2550 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6550 2650 50  0001 C CNN
-F 4 "DK" H 6650 2750 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 6750 2850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 6850 2950 60  0001 C CNN "PurchasingLink"
-	1    6550 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U15
-U 1 1 5DEE81C4
-P 7950 2350
-F 0 "U15" H 8294 2396 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 8294 2305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 7850 2450 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7950 2550 50  0001 C CNN
-F 4 "DK" H 8050 2650 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 8150 2750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 8250 2850 60  0001 C CNN "PurchasingLink"
-	1    7950 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_22K R58
-U 1 1 5DEE81D1
-P 8100 2900
-F 0 "R58" V 7893 2900 50  0000 C CNN
-F 1 "R_22K" V 7984 2900 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 8030 2900 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8180 2900 50  0001 C CNN
-F 4 "DK" H 8100 2900 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT22K0CT-ND" H 8100 2900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" H 8580 3300 60  0001 C CNN "PurchasingLink"
-	1    8100 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR060
-U 1 1 5DEE81DB
-P 7850 2650
-F 0 "#PWR060" H 7850 2400 50  0001 C CNN
-F 1 "GND" H 7855 2477 50  0000 C CNN
-F 2 "" H 7850 2650 50  0001 C CNN
-F 3 "" H 7850 2650 50  0001 C CNN
-	1    7850 2650
-	1    0    0    -1  
-$EndComp
-Text HLabel 8900 2350 2    50   Input ~ 0
-SENSE_6_OUT
-Wire Wire Line
-	8900 2350 8250 2350
-$Comp
-L power:VCC #PWR059
-U 1 1 5DEE81E7
-P 7850 2050
-F 0 "#PWR059" H 7850 1900 50  0001 C CNN
-F 1 "VCC" H 7867 2223 50  0000 C CNN
-F 2 "" H 7850 2050 50  0001 C CNN
-F 3 "" H 7850 2050 50  0001 C CNN
-	1    7850 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR055
-U 1 1 5DEE81F1
-P 7550 2200
-F 0 "#PWR055" H 7550 1950 50  0001 C CNN
-F 1 "GND" H 7555 2027 50  0000 C CNN
-F 2 "" H 7550 2200 50  0001 C CNN
-F 3 "" H 7550 2200 50  0001 C CNN
-	1    7550 2200
+L power:VCC #PWR?
+U 1 1 5DF6AE6D
+P 4450 6100
+AR Path="/5DF6AE6D" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6AE6D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4450 5950 50  0001 C CNN
+F 1 "VCC" H 4467 6273 50  0000 C CNN
+F 2 "" H 4450 6100 50  0001 C CNN
+F 3 "" H 4450 6100 50  0001 C CNN
+	1    4450 6100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7550 2200 7650 2200
+	4350 6400 4450 6400
 Wire Wire Line
-	7650 2200 7650 2250
+	4450 6400 4550 6400
+Connection ~ 4450 6400
+Connection ~ 4550 6400
 Wire Wire Line
-	7650 2450 7500 2450
-Wire Wire Line
-	7200 2450 6850 2450
-Wire Wire Line
-	6550 3000 6250 3000
-Wire Wire Line
-	6250 3000 6250 2550
-Wire Wire Line
-	6850 3000 6850 2450
-Connection ~ 6850 2450
-Wire Wire Line
-	8250 2350 8250 2900
-Connection ~ 8250 2350
-Wire Wire Line
-	7950 2900 7650 2900
-Wire Wire Line
-	7650 2900 7650 2450
-Connection ~ 7650 2450
-Wire Wire Line
-	5600 2350 5700 2350
-Connection ~ 5700 2350
-Wire Wire Line
-	6000 2350 6250 2350
-Connection ~ 6000 2350
-Connection ~ 6250 3000
-Wire Wire Line
-	6000 3000 6250 3000
-Wire Wire Line
-	5700 3000 5600 3000
+	4550 6400 4550 6800
 $Comp
-L power:GND #PWR044
-U 1 1 5DEE820F
-P 5700 3850
-F 0 "#PWR044" H 5700 3600 50  0001 C CNN
-F 1 "GND" H 5705 3677 50  0000 C CNN
-F 2 "" H 5700 3850 50  0001 C CNN
-F 3 "" H 5700 3850 50  0001 C CNN
-	1    5700 3850
+L power:VCC #PWR?
+U 1 1 5DF6AE7C
+P 4200 5400
+AR Path="/5DF6AE7C" Ref="#PWR?"  Part="1" 
+AR Path="/5DD7ADE7/5DF6AE7C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4200 5250 50  0001 C CNN
+F 1 "VCC" H 4217 5573 50  0000 C CNN
+F 2 "" H 4200 5400 50  0001 C CNN
+F 3 "" H 4200 5400 50  0001 C CNN
+	1    4200 5400
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:R_1K R41
-U 1 1 5DEE821C
-P 5700 3700
-F 0 "R41" H 5770 3746 50  0000 L CNN
-F 1 "R_1K" H 5770 3655 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5630 3700 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5780 3700 50  0001 C CNN
-F 4 "DK" H 5700 3700 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 5700 3700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 6180 4100 60  0001 C CNN "PurchasingLink"
-	1    5700 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_3K R46
-U 1 1 5DEE8229
-P 5850 3550
-F 0 "R46" V 5643 3550 50  0000 C CNN
-F 1 "R_3K" V 5734 3550 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5780 3550 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5930 3550 50  0001 C CNN
-F 4 "DK" H 5850 3550 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 5850 3550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 6330 3950 60  0001 C CNN "PurchasingLink"
-	1    5850 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_3K R50
-U 1 1 5DEE8236
-P 6000 3700
-F 0 "R50" H 5930 3654 50  0000 R CNN
-F 1 "R_3K" H 5930 3745 50  0000 R CNN
-F 2 "footprints:R_0805_OEM" H 5930 3700 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6080 3700 50  0001 C CNN
-F 4 "DK" H 6000 3700 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 6000 3700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 6480 4100 60  0001 C CNN "PurchasingLink"
-	1    6000 3700
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR047
-U 1 1 5DEE8240
-P 6000 3850
-F 0 "#PWR047" H 6000 3600 50  0001 C CNN
-F 1 "GND" H 6005 3677 50  0000 C CNN
-F 2 "" H 6000 3850 50  0001 C CNN
-F 3 "" H 6000 3850 50  0001 C CNN
-	1    6000 3850
-	1    0    0    -1  
-$EndComp
-Text HLabel 5600 3550 0    50   Input ~ 0
-SENSE_7-
-Text HLabel 5600 4200 0    50   Input ~ 0
-SENSE_7+
-$Comp
-L formula:R_3K R47
-U 1 1 5DEE824F
-P 5850 4200
-F 0 "R47" V 5643 4200 50  0000 C CNN
-F 1 "R_3K" V 5734 4200 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5780 4200 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5930 4200 50  0001 C CNN
-F 4 "DK" H 5850 4200 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 5850 4200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 6330 4600 60  0001 C CNN "PurchasingLink"
-	1    5850 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_3K R53
-U 1 1 5DEE825C
-P 6700 4200
-F 0 "R53" V 6493 4200 50  0000 C CNN
-F 1 "R_3K" V 6584 4200 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 6630 4200 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6780 4200 50  0001 C CNN
-F 4 "DK" H 6700 4200 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT3K00CT-ND" H 6700 4200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 7180 4600 60  0001 C CNN "PurchasingLink"
-	1    6700 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR052
-U 1 1 5DEE8266
-P 6450 3350
-F 0 "#PWR052" H 6450 3200 50  0001 C CNN
-F 1 "VCC" H 6467 3523 50  0000 C CNN
-F 2 "" H 6450 3350 50  0001 C CNN
-F 3 "" H 6450 3350 50  0001 C CNN
-	1    6450 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR053
-U 1 1 5DEE8270
-P 6450 3950
-F 0 "#PWR053" H 6450 3700 50  0001 C CNN
-F 1 "GND" H 6455 3777 50  0000 C CNN
-F 2 "" H 6450 3950 50  0001 C CNN
-F 3 "" H 6450 3950 50  0001 C CNN
-	1    6450 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_10K R56
-U 1 1 5DEE827D
-P 7350 3650
-F 0 "R56" V 7143 3650 50  0000 C CNN
-F 1 "R_10K" V 7234 3650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 7280 3650 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7430 3650 50  0001 C CNN
-F 4 "DK" H 7350 3650 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 7350 3650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 7830 4050 60  0001 C CNN "PurchasingLink"
-	1    7350 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U13
-U 1 1 5DEE828A
-P 6550 3650
-F 0 "U13" H 6894 3696 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 6894 3605 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6450 3750 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6550 3850 50  0001 C CNN
-F 4 "DK" H 6650 3950 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 6750 4050 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 6850 4150 60  0001 C CNN "PurchasingLink"
-	1    6550 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MCP6001T-I-LT U16
-U 1 1 5DEE8297
-P 7950 3550
-F 0 "U16" H 8294 3596 50  0000 L CNN
-F 1 "MCP6001T-I-LT" H 8294 3505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 7850 3650 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7950 3750 50  0001 C CNN
-F 4 "DK" H 8050 3850 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/LTCT-ND" H 8150 3950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 8250 4050 60  0001 C CNN "PurchasingLink"
-	1    7950 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_22K R59
-U 1 1 5DEE82A4
-P 8100 4100
-F 0 "R59" V 7893 4100 50  0000 C CNN
-F 1 "R_22K" V 7984 4100 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 8030 4100 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8180 4100 50  0001 C CNN
-F 4 "DK" H 8100 4100 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT22K0CT-ND" H 8100 4100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT22K0CT-ND" H 8580 4500 60  0001 C CNN "PurchasingLink"
-	1    8100 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR062
-U 1 1 5DEE82AE
-P 7850 3850
-F 0 "#PWR062" H 7850 3600 50  0001 C CNN
-F 1 "GND" H 7855 3677 50  0000 C CNN
-F 2 "" H 7850 3850 50  0001 C CNN
-F 3 "" H 7850 3850 50  0001 C CNN
-	1    7850 3850
-	1    0    0    -1  
-$EndComp
-Text HLabel 8900 3550 2    50   Input ~ 0
-SENSE_7_OUT
-Wire Wire Line
-	8900 3550 8250 3550
-$Comp
-L power:VCC #PWR061
-U 1 1 5DEE82BA
-P 7850 3250
-F 0 "#PWR061" H 7850 3100 50  0001 C CNN
-F 1 "VCC" H 7867 3423 50  0000 C CNN
-F 2 "" H 7850 3250 50  0001 C CNN
-F 3 "" H 7850 3250 50  0001 C CNN
-	1    7850 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR056
-U 1 1 5DEE82C4
-P 7550 3400
-F 0 "#PWR056" H 7550 3150 50  0001 C CNN
-F 1 "GND" H 7555 3227 50  0000 C CNN
-F 2 "" H 7550 3400 50  0001 C CNN
-F 3 "" H 7550 3400 50  0001 C CNN
-	1    7550 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 3400 7650 3400
-Wire Wire Line
-	7650 3400 7650 3450
-Wire Wire Line
-	7650 3650 7500 3650
-Wire Wire Line
-	7200 3650 6850 3650
-Wire Wire Line
-	6550 4200 6250 4200
-Wire Wire Line
-	6250 4200 6250 3750
-Wire Wire Line
-	6850 4200 6850 3650
-Connection ~ 6850 3650
-Wire Wire Line
-	8250 3550 8250 4100
-Connection ~ 8250 3550
-Wire Wire Line
-	7950 4100 7650 4100
-Wire Wire Line
-	7650 4100 7650 3650
-Connection ~ 7650 3650
-Wire Wire Line
-	5600 3550 5700 3550
-Connection ~ 5700 3550
-Wire Wire Line
-	6000 3550 6250 3550
-Connection ~ 6000 3550
-Connection ~ 6250 4200
-Wire Wire Line
-	6000 4200 6250 4200
-Wire Wire Line
-	5700 4200 5600 4200
+Text Notes 6100 6300 0    50   ~ 0
+If LED is on, sensor is good
+Text HLabel 4350 6400 0    50   Input ~ 0
+CONTROLLER_PRESSURE_SENSE_CHECK
+Text HLabel 6300 4350 0    50   Input ~ 0
+PUMP_PRESSURE_SENSE_CHECK
 $EndSCHEMATC

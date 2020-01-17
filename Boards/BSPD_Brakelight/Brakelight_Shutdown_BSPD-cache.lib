@@ -266,7 +266,7 @@ F0 "C" 25 100 50 H V L CNN
 F1 "formula_C_33uF" 100 -300 50 H V L CNN
 F2 "footprints:Fuse_1812" 50 -400 50 H I C CNN
 F3 "" 0 650 50 H I C CNN
-F4 "DK" 50 -500 60 H I C CNN "MFN"
+F4 "C4532X7R1C336M250KC" 50 -500 60 H I C CNN "MFN"
 F5 "445-3924-1-ND" 0 350 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431" 250 500 60 H I C CNN "PurchasingLink"
 $FPLIST
@@ -415,9 +415,9 @@ F0 "L" 0 -50 50 H V C CNN
 F1 "formula_L_100uH" 0 100 50 H V C CNN
 F2 "footprints:L_100uH_OEM" -100 -200 50 H I C CNN
 F3 "" -100 -150 50 H I C CNN
-F4 "DK" 100 -200 50 H I C CNN "MFN"
+F4 "Digikey" 100 -200 50 H I C CNN "MFN"
 F5 "445-15759-1-ND" 0 250 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "PurchasingLink"
+F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "Link"
 DRAW
 A -60 0 20 1 1799 1 1 0 N -40 0 -80 0
 A -20 0 20 1 1799 1 1 0 N 0 0 -40 0
@@ -728,9 +728,9 @@ DEF formula_R_25K R 0 0 N Y 1 F N
 F0 "R" 250 0 50 V V C CNN
 F1 "formula_R_25K" 200 200 50 H V C CNN
 F2 "footprints:R_0805_OEM" 50 -550 50 H I C CNN
-F3 "" 0 -400 50 H I C CNN
-F4 "DK" -600 0 60 H I C CNN "MFN"
-F5 "A124124CT-ND" 50 500 60 H I C CNN "MPN"
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English" 0 -400 50 H I C CNN
+F4 "A124124CT-ND" -600 0 60 H I C CNN "MFN"
+F5 "CPF-A-0805B25KE" 50 500 60 H I C CNN "Digi-key Part Number"
 F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044" 50 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
@@ -879,13 +879,13 @@ ENDDEF
 # formula_TPS560430YF
 #
 DEF formula_TPS560430YF U 0 40 Y Y 1 F N
-F0 "U" -200 -350 50 H V C CNN
+F0 "U" -550 -400 50 H V C CNN
 F1 "formula_TPS560430YF" 0 400 50 H V C CNN
 F2 "footprints:SOT-23-6_OEM" -50 700 50 H I C CNN
 F3 "" 0 550 50 H I C CNN
-F4 "TPS560430YFDBVR-ND" -50 -1100 50 H I C CNN "MPN"
-F5 "DK" 0 -1000 50 H I C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "PurchasingLink"
+F4 "TPS560430YFDBVR" -50 -1100 50 H I C CNN "MPN"
+F5 "TPS560430YFDBVR-ND" 0 -1000 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "Purchasing Link"
 DRAW
 S -250 -100 -250 -100 0 1 0 N
 S -250 300 300 -300 0 1 0 f

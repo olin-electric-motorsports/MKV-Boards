@@ -3,9 +3,9 @@
   (general
     (thickness 1.6)
     (drawings 6)
-    (tracks 100)
+    (tracks 99)
     (zones 0)
-    (modules 54)
+    (modules 55)
     (nets 77)
   )
 
@@ -254,6 +254,22 @@
     (add_net "Net-(U6-Pad32)")
     (add_net "Net-(U6-Pad9)")
     (add_net VCC)
+  )
+
+  (module footprints:MLX90621ESF-BAB-000-TU (layer F.Cu) (tedit 5DEEF1E3) (tstamp 5DEF4725)
+    (at 180.975 82.042)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MLX90621ESF-BAB-000-TU (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.54 0) (layer Dwgs.User) (width 0.12))
+    (fp_circle (center 0 0) (end 4.575 0) (layer F.SilkS) (width 0.12))
+    (pad 4 thru_hole circle (at -2.54 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+    (pad 3 thru_hole circle (at 0 2.54) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+    (pad 2 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 0 -2.54) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   )
 
   (module footprints:phoenix (layer B.Cu) (tedit 0) (tstamp 5D5EC6D0)
@@ -2350,7 +2366,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DE9C913)
-    (at 114.554 123.444)
+    (at 116.205 113.157)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5DE2A2CB)
@@ -2388,7 +2404,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DE9C923)
-    (at 119.777 128.143)
+    (at 121.428 117.856)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5DE37D3E)
@@ -2540,7 +2556,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5DE9C963)
-    (at 176.784 93.98 90)
+    (at 174.625 95.631 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5DF178DA)
@@ -3194,7 +3210,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DE9CB57)
-    (at 200.152 85.09)
+    (at 189.992 85.725)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DEB9E30)
@@ -3232,7 +3248,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DE9CB67)
-    (at 186.756 133.858)
+    (at 187.325 122.555)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DE4D458)
@@ -3270,7 +3286,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DE9CB77)
-    (at 195.072 83.947)
+    (at 189.799 79.629)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DED8F2A)
@@ -3308,7 +3324,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DE9CB87)
-    (at 189.55 93.599 270)
+    (at 187.137 95.504 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DEE39EB)
@@ -3346,7 +3362,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5DE9CB97)
-    (at 191.643 99.06 270)
+    (at 191.643 98.745 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DD96755)
@@ -3384,7 +3400,7 @@
   )
 
   (module footprints:SOT-23-3_OEM (layer F.Cu) (tedit 5C16AB2D) (tstamp 5DE9CBF9)
-    (at 118.745 124.079)
+    (at 120.396 113.792)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /5DE1A162)
@@ -3592,7 +3608,7 @@
   )
 
   (module footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM (layer F.Cu) (tedit 5C16AB90) (tstamp 5DE9CC71)
-    (at 183.228 93.726)
+    (at 180.815 95.631)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5DEC6D41)
@@ -3886,7 +3902,6 @@
   (segment (start 116.9543 101.6635) (end 115.4303 101.6635) (width 0.254) (layer F.Cu) (net 1))
   (segment (start 116.90666 105.77514) (end 116.9543 105.7275) (width 0.381) (layer F.Cu) (net 2))
   (segment (start 116.78666 105.89514) (end 116.9543 105.7275) (width 0.381) (layer F.Cu) (net 2))
-  (segment (start 107.7341 105.89514) (end 116.78666 105.89514) (width 0.381) (layer F.Cu) (net 2))
   (segment (start 116.9543 105.7275) (end 120.5208 105.7275) (width 0.381) (layer F.Cu) (net 2))
   (segment (start 125.7 110.52388) (end 125.7 111.796) (width 0.254) (layer F.Cu) (net 3))
   (segment (start 124.7822 109.60608) (end 125.7 110.52388) (width 0.254) (layer F.Cu) (net 3))

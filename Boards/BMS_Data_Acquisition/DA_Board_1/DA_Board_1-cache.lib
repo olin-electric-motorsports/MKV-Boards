@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# DA_Board_1-rescue_200mA_Fuse-formula
+# formula_200mA_Fuse
 #
-DEF DA_Board_1-rescue_200mA_Fuse-formula F 0 40 Y Y 1 F N
+DEF formula_200mA_Fuse F 0 40 Y Y 1 F N
 F0 "F" 0 150 50 H V C CNN
-F1 "DA_Board_1-rescue_200mA_Fuse-formula" 0 -150 50 H V C CNN
+F1 "formula_200mA_Fuse" 0 -150 50 H V C CNN
 F2 "footprints:Fuse_1812" -50 0 50 H I C CNN
 F3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" -50 0 50 H I C CNN
 F4 "507-1767-1-ND " 100 250 50 H V C CNN "MPN"
@@ -20,11 +20,11 @@ X 2 2 300 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# DA_Board_1-rescue_BSS308PE-formula
+# formula_BSS308PE
 #
-DEF DA_Board_1-rescue_BSS308PE-formula Q 0 0 Y N 1 F N
+DEF formula_BSS308PE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "DA_Board_1-rescue_BSS308PE-formula" 200 -50 50 H V L CNN
+F1 "formula_BSS308PE" 200 -50 50 H V L CNN
 F2 "footprints:SOT-23-3_OEM" 200 100 50 H I C CNN
 F3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" 200 50 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -55,11 +55,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DA_Board_1-rescue_LED_0805-formula
+# formula_LED_0805
 #
-DEF DA_Board_1-rescue_LED_0805-formula D 0 40 N N 1 F N
+DEF formula_LED_0805 D 0 40 N N 1 F N
 F0 "D" 0 -100 50 H V C CNN
-F1 "DA_Board_1-rescue_LED_0805-formula" 0 100 50 H V C CNN
+F1 "formula_LED_0805" 0 100 50 H V C CNN
 F2 "footprints:LED_0805_OEM" -100 0 50 H I C CNN
 F3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" 0 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -79,11 +79,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DA_Board_1-rescue_MM_M_VT_10-formula
+# formula_MM_M_VT_10
 #
-DEF DA_Board_1-rescue_MM_M_VT_10-formula J 0 40 Y Y 1 F N
+DEF formula_MM_M_VT_10 J 0 40 Y Y 1 F N
 F0 "J" 0 750 60 H V C CNN
-F1 "DA_Board_1-rescue_MM_M_VT_10-formula" 0 -350 60 H V C CNN
+F1 "formula_MM_M_VT_10" 0 -350 60 H V C CNN
 F2 "" -100 650 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-0" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
@@ -104,11 +104,11 @@ X 9 9 250 -150 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# DA_Board_1-rescue_MM_M_VT_12-formula
+# formula_MM_M_VT_12
 #
-DEF DA_Board_1-rescue_MM_M_VT_12-formula J 0 40 Y Y 1 F N
+DEF formula_MM_M_VT_12 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
-F1 "DA_Board_1-rescue_MM_M_VT_12-formula" -50 -100 60 H V C CNN
+F1 "formula_MM_M_VT_12" -50 -100 60 H V C CNN
 F2 "" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
@@ -131,11 +131,11 @@ X 9 9 150 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# DA_Board_1-rescue_MM_M_VT_16-formula
+# formula_MM_M_VT_16
 #
-DEF DA_Board_1-rescue_MM_M_VT_16-formula J 0 40 Y Y 1 F N
+DEF formula_MM_M_VT_16 J 0 40 Y Y 1 F N
 F0 "J" -100 1200 60 H V C CNN
-F1 "DA_Board_1-rescue_MM_M_VT_16-formula" -50 -500 60 H V C CNN
+F1 "formula_MM_M_VT_16" -50 -500 60 H V C CNN
 F2 "" -200 1100 60 H I C CNN
 F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-6" -100 1200 60 H I C CNN
 F4 "TE" 100 1400 60 H I C CNN "MFN"
@@ -162,11 +162,11 @@ X 9 9 150 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# DA_Board_1-rescue_R_3.3_25W_TO163-formula
+# formula_R_3.3_25W_TO163
 #
-DEF DA_Board_1-rescue_R_3.3_25W_TO163-formula R 0 40 Y Y 1 F N
+DEF formula_R_3.3_25W_TO163 R 0 40 Y Y 1 F N
 F0 "R" -150 150 50 H V C CNN
-F1 "DA_Board_1-rescue_R_3.3_25W_TO163-formula" 0 -100 50 H V C CNN
+F1 "formula_R_3.3_25W_TO163" 0 -100 50 H V C CNN
 F2 "footprints:PWR163" -250 50 50 H I C CNN
 F3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" 0 0 50 H I C CNN
 F4 "DK" -50 250 50 H I C CNN "MFN"
@@ -180,11 +180,11 @@ X ~ EP 0 250 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# DA_Board_1-rescue_R_475-formula
+# formula_R_475
 #
-DEF DA_Board_1-rescue_R_475-formula R 0 0 N Y 1 F N
+DEF formula_R_475 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "DA_Board_1-rescue_R_475-formula" -100 0 50 V V C CNN
+F1 "formula_R_475" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
 F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -201,11 +201,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DA_Board_1-rescue_Tab_Connect_BMS-formula
+# formula_Tab_Connect_BMS
 #
-DEF DA_Board_1-rescue_Tab_Connect_BMS-formula T 0 40 Y Y 1 F N
+DEF formula_Tab_Connect_BMS T 0 40 Y Y 1 F N
 F0 "T" 0 200 50 H V C CNN
-F1 "DA_Board_1-rescue_Tab_Connect_BMS-formula" 0 300 50 H V C CNN
+F1 "formula_Tab_Connect_BMS" 0 300 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -214,11 +214,11 @@ X 1 1 300 0 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# DA_Board_1-rescue_Thermistor-formula
+# formula_Thermistor
 #
-DEF DA_Board_1-rescue_Thermistor-formula RT 0 40 Y Y 1 F N
+DEF formula_Thermistor RT 0 40 Y Y 1 F N
 F0 "RT" 0 -240 50 H V C CNN
-F1 "DA_Board_1-rescue_Thermistor-formula" 0 240 50 H V C CNN
+F1 "formula_Thermistor" 0 240 50 H V C CNN
 F2 "Thermistor" 20 -340 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

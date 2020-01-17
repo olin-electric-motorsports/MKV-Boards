@@ -1207,15 +1207,15 @@ Text Label 1210 5270 0    50   ~ 0
 BRAKE_PRESSURE_SENSE
 Text Label 1210 5170 0    50   ~ 0
 BRAKE_PRESSURE+
-Text Label 1210 4570 0    50   ~ 0
-CAN_LOW
 Text Label 1210 5070 0    50   ~ 0
+CAN_LOW
+Text Label 1210 4870 0    50   ~ 0
 RESET
-Text Label 1210 4970 0    50   ~ 0
+Text Label 1210 4770 0    50   ~ 0
 SCK
-Text Label 1210 4470 0    50   ~ 0
+Text Label 1210 4970 0    50   ~ 0
 CAN_HIGH
-Text Label 1210 4670 0    50   ~ 0
+Text Label 1210 4470 0    50   ~ 0
 VCC
 $Comp
 L power:GND #PWR015
@@ -2443,9 +2443,9 @@ F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 1060 6670 60  0001 C CN
 	1    1060 5370
 	1    0    0    -1  
 $EndComp
-Text Label 1210 4770 0    50   ~ 0
+Text Label 1210 4570 0    50   ~ 0
 MISO
-Text Label 1210 4870 0    50   ~ 0
+Text Label 1210 4670 0    50   ~ 0
 MOSI
 Text Label 1210 5470 0    50   ~ 0
 BRAKELIGHT_LSD

@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name formula)(type Legacy)(uri ${LOCAL_DIR}/schematic/formula.lib)(options "")(descr ""))
-)
