@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:External_Acc_Interface-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -37,9 +36,9 @@ GND
 Text Label 3200 1550 0    50   ~ 0
 12V
 Text Label 3200 1650 0    50   ~ 0
-CAN-H
+CAN_P
 Text Label 3200 1750 0    50   ~ 0
-CAN-L
+CAN_N
 Text Label 3200 1850 0    50   ~ 0
 CAN-GND
 Text Label 3200 1950 0    50   ~ 0
@@ -57,27 +56,25 @@ Text Label 3200 2450 0    50   ~ 0
 Text Label 3200 2550 0    50   ~ 0
 GND
 Text Label 3200 2650 0    50   ~ 0
-CAN-H
+CAN_P
 Text Label 3200 2750 0    50   ~ 0
-CAN-L
+CAN_N
 Text Label 3200 2850 0    50   ~ 0
 TSAL-Green-Pos
 Text Label 3200 2950 0    50   ~ 0
 TSAL-Green-Neg
 Text Label 3200 3050 0    50   ~ 0
 FAN-PWM
-Text Label 3200 3150 0    50   ~ 0
-5V-AIR
 Text Label 3200 3250 0    50   ~ 0
 GND
 Text Label 3200 3350 0    50   ~ 0
-CAN-H
+CAN_P
 Text Label 3200 3450 0    50   ~ 0
-CAN-L
+CAN_N
 Text Label 3200 3550 0    50   ~ 0
-CAN-H
+CAN_P
 Text Label 3200 3650 0    50   ~ 0
-CAN-L
+CAN_N
 Text Label 3200 4150 0    50   ~ 0
 ChargeEnable1
 Text Label 3200 4250 0    50   ~ 0
@@ -93,9 +90,9 @@ TSAL-Red-Neg
 Text Label 3200 4350 0    50   ~ 0
 12V
 Text Label 3200 4450 0    50   ~ 0
-CAN-H
+CAN_P
 Text Label 3200 4550 0    50   ~ 0
-CAN-L
+CAN_N
 Text Label 3200 4650 0    50   ~ 0
 CAN-GND
 Text Label 3200 4750 0    50   ~ 0
@@ -145,7 +142,7 @@ F 6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" H 7150 3460 60  0
 	1    0    0    -1  
 $EndComp
 Text Label 6250 850  2    50   ~ 0
-CAN-L
+CAN_N
 $Comp
 L formula:RJ45_VT U2
 U 1 1 5DEC1056
@@ -161,11 +158,11 @@ F 6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" H 7200 310 60  00
 	1    0    0    -1  
 $EndComp
 Text Label 6250 950  2    50   ~ 0
-CAN-H
+CAN_P
 Text Label 6100 3000 2    50   ~ 0
-CAN-L
+CAN_N
 Text Label 6100 3100 2    50   ~ 0
-CAN-H
+CAN_P
 Text Label 6250 1050 2    50   ~ 0
 RESET_AIRC
 Text Label 6250 1150 2    50   ~ 0
@@ -214,45 +211,45 @@ Text Label 7400 3200 0    50   ~ 0
 5V_BMS
 Text Label 7400 3300 0    50   ~ 0
 GND
-Text Label 9050 750  0    50   ~ 0
-GND
-Text Label 9050 850  0    50   ~ 0
-12V
-Text Label 9050 950  0    50   ~ 0
-CAN-H
-Text Label 9050 1050 0    50   ~ 0
-CAN-L
-Text Label 9050 1150 0    50   ~ 0
-BSDP-Current-Sense
-Text Label 9050 1250 0    50   ~ 0
-FAN-PWM
-Text Label 9050 1350 0    50   ~ 0
-ChargeEnable1
-Text Label 9050 1450 0    50   ~ 0
-ChargeEnable2
-Text Label 9050 1550 0    50   ~ 0
-TSAL-Green-Pos
-Text Label 9050 1650 0    50   ~ 0
-TSAL-Green-Neg
-Text Label 9050 1750 0    50   ~ 0
-TSAL-Red-Pos
-Text Label 9050 1850 0    50   ~ 0
-TSAL-Red-Neg
-Text Label 9050 1950 0    50   ~ 0
-GND
-Text Label 9050 2050 0    50   ~ 0
-HVD->HVD-Connector
-Text Label 9050 2150 0    50   ~ 0
-IMD->TSMS
-Text Label 9050 2250 0    50   ~ 0
-TSMS->FinalShutdown
-Text Label 9050 2350 0    50   ~ 0
-GND
-Text Label 9050 2450 0    50   ~ 0
-GND
 Text Label 9050 2550 0    50   ~ 0
 GND
 Text Label 9050 2650 0    50   ~ 0
+12V
+Text Label 9050 750  0    50   ~ 0
+CAN_P
+Text Label 9050 850  0    50   ~ 0
+CAN_N
+Text Label 9050 1850 0    50   ~ 0
+BSDP-Current-Sense
+Text Label 9050 1450 0    50   ~ 0
+FAN-PWM
+Text Label 9050 1350 0    50   ~ 0
+ChargeEnable1
+Text Label 9050 1650 0    50   ~ 0
+ChargeEnable2
+Text Label 9050 1050 0    50   ~ 0
+TSAL-Green-Pos
+Text Label 9050 1250 0    50   ~ 0
+TSAL-Green-Neg
+Text Label 9050 950  0    50   ~ 0
+TSAL-Red-Pos
+Text Label 9050 1150 0    50   ~ 0
+TSAL-Red-Neg
+Text Label 9050 2050 0    50   ~ 0
+GND
+Text Label 9050 1950 0    50   ~ 0
+HVD->HVD-Connector
+Text Label 9050 1550 0    50   ~ 0
+IMD->TSMS
+Text Label 9050 1750 0    50   ~ 0
+TSMS->FinalShutdown
+Text Label 9050 2150 0    50   ~ 0
+GND
+Text Label 9050 2250 0    50   ~ 0
+GND
+Text Label 9050 2350 0    50   ~ 0
+GND
+Text Label 9050 2450 0    50   ~ 0
 GND
 Text Label 9050 3700 0    50   ~ 0
 5V_BMS
@@ -294,6 +291,14 @@ Text Label 9050 5500 0    50   ~ 0
 GND
 Text Label 9050 5600 0    50   ~ 0
 GND
-Text Notes 10000 4250 0    50   ~ 0
-GND\n12V\nCAN_HIGH\nCAN_LOW\nBSPD CURRENT SENSE\nFAN PWM\nCHARGE ENABLE 1\nCHARGE ENABLE 2\nTSAL_GREEN +\nTSAL_GREEN -\nTSAL_RED +\nTSAL_RED -\nGND\nHVD > HVD CONNECTOR\nIMD > TSMS\nTSMS > FINAL SHUTDOWN\nGND\nGND\nGND\nGND\n\n5V_BMS\nMISO_BMS\nMOSI_BMS\nSCK_BMS\nRESET_BMS\nRJ45_LED_O_BMS\nRJ45_LED_G_BMS\n5V_AIRC\nMISO_AIRC\nMOSI_AIRC\nSCK_AIRC\nRESET_AIRC\nRJ45_LED_O_AIRC\nRJ45_LED_G_AIRC\nGND\nGND\nGND\nGND\nGND\nGND
+Text Label 9050 2750 0    50   ~ 0
+12V
+Text Label 3200 3150 0    50   ~ 0
+5V_AIRC
+Text Label 5200 3800 0    50   ~ 0
+GND
+Text Label 5000 3800 2    50   ~ 0
+CAN-GND
+Wire Wire Line
+	5200 3800 5000 3800
 $EndSCHEMATC
