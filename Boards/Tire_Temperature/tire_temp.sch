@@ -36,7 +36,7 @@ Text Label 9670 5000 2    50   ~ 0
 SCK3.3V
 Text Label 9670 5100 2    50   ~ 0
 RESET3.3V
-Text Label 10170 4990 0    50   ~ 0
+Text Label 10170 5000 0    50   ~ 0
 MOSI3.3V
 $Comp
 L power:GND #PWR09
@@ -62,20 +62,6 @@ F 3 "" H 10170 4900 50  0001 C CNN
 $EndComp
 Text Notes 8890 4630 0    89   ~ 0
 328P PROGRAMMING HEADER\n
-$Comp
-L formula:MLX90621ESF-BAB-000-TU U5
-U 1 1 5DDABAE3
-P 7210 5660
-F 0 "U5" H 7554 5706 50  0000 L CNN
-F 1 "MLX90621ESF-BAB-000-TU" H 7554 5615 50  0000 L CNN
-F 2 "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.65x2.55mm" H 7210 5260 50  0001 C CNN
-F 3 "https://www.melexis.com/-/media/files/documents/datasheets/mlx90621-datasheet-melexis.pdf" H 7010 5960 50  0001 C CNN
-F 4 "DK" H 0   0   50  0001 C CNN "MF"
-F 5 "MLX90621ESF-BAB-000-TU-ND " H 0   0   50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/melexis-technologies-nv/MLX90621ESF-BAB-000-TU/MLX90621ESF-BAB-000-TU-ND/4968086?utm_adgroup=Sensors%20&%20Transducers" H 0   0   50  0001 C CNN "PurchaseLink"
-	1    7210 5660
-	1    0    0    -1  
-$EndComp
 Text Label 6120 5560 2    50   ~ 0
 SCL
 Text Label 6120 5660 2    50   ~ 0
@@ -1793,6 +1779,20 @@ F 5 "445-15759-1-ND" H 4530 6780 50  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 4830 6730 50  0001 C CNN "Link"
 F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    4530 6530
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MLX90621ESF-BAB-000-TU U5
+U 1 1 5E29E505
+P 7210 5660
+F 0 "U5" H 7540 5706 50  0000 L CNN
+F 1 "MLX90621ESF-BAB-000-TU" H 7540 5615 50  0000 L CNN
+F 2 "footprints:MLX90621ESF-BAB-000-TU" H 7210 5260 50  0001 C CNN
+F 3 "https://www.melexis.com/-/media/files/documents/datasheets/mlx90621-datasheet-melexis.pdf" H 7010 5960 50  0001 C CNN
+F 4 "MLX90621ESF-BAB-000-TU-ND " H 7210 5660 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/melexis-technologies-nv/MLX90621ESF-BAB-000-TU/MLX90621ESF-BAB-000-TU-ND/4968086?utm_adgroup=Sensors%20&%20Transducers" H 7210 5660 50  0001 C CNN "PurchaseLink"
+F 6 "DK" H 7210 5660 50  0001 C CNN "MF"
+	1    7210 5660
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
