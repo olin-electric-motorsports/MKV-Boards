@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4-0-10_14)")
 
   (general
     (thickness 1.6)
@@ -34,15 +34,13 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.762)
     (user_trace_width 0.4064)
     (user_trace_width 0.762)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
-    (segment_width 0.2)
-    (edge_width 0.05)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -52,6 +50,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.05)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.12)
@@ -170,7 +170,7 @@
     (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Standex Meder Relay/Standex_Meder_Relay.STEP"
       (offset (xyz 12.5 2.5 0.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz 0 0 0))
     )
     (model ":Formula:OEM_Preferred_Parts/3DModels/Standex Meder Relay/Standex_Meder_Relay.STEP"
       (at (xyz 0 0 0))
@@ -513,7 +513,7 @@
     (pad 4 thru_hole circle (at 3 3 270) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask)
       (net 5 /TSMP+))
     (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/MicroFit_VT_4/MicroFit_VT_4.stp
-      (offset (xyz 1.5 -1.5 5))
+      (offset (xyz 1.5 0 5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
@@ -607,7 +607,7 @@
     (arrow2b (pts (xy 161.08877 77.911987) (xy 162.222086 77.338843)))
   )
   (dimension 9.740701 (width 0.12) (layer F.SilkS)
-    (gr_text "9.741 mm" (at 184.383973 70.107507 26.23096879) (layer F.SilkS)
+    (gr_text "9.741 mm" (at 184.383973 70.107507 26.23096879) (layer F.SilkS) (tstamp 5E238A47)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 187.9219 66.2686) (xy 188.450638 67.341673)))
