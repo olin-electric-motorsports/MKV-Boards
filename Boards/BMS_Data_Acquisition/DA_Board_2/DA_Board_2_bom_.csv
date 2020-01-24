@@ -1,0 +1,26 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MPN,MFN,PurchasingLink
+1,"LED, Green, 2.2V, 20mA, 0805",LED_0805,D1 D3 D5 D7 D9 D11 D13 D15,LED_0805,LED_0805_OEM,8,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,475-1410-1-ND,DK,https://www.digikey.com/products/en?keywords=475-1410-1-ND
+2,200mA Fuse,200mA_Fuse,F1 F3 F5 F7 F9 F11 F13 F15,200mA_Fuse,Fuse_1812,8,https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf,,,
+3,Micro-MaTch connector 10 pin male vertical,MM_M_VT_10,J3,MM_M_VT_10,micromatch_female_vert_10,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-0,1-215464-0,TE,http://www.te.com/global-en/product-1-215464-0.html
+4,Micro-MaTch connector 12 pin male vertical,MM_M_VT_12,J1 J2 J4,MM_M_VT_12,micromatch_female_vert_12,3,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2,1-215464-2,TE,http://www.te.com/global-en/product-1-215464-2.html
+5,"MOSFET, P-channel, 30V, 2A",BSS308PE,Q1 Q3 Q5 Q7 Q9 Q11 Q13 Q15,BSS308PE,SOT-23-3_OEM,8,https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073,BSS308PEH6327XTSA1CT-ND,DK,https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25
+6,RES SMD 3.3 OHM 1% 25W DPAK,R_3.3_25W_TO163,R1 R3 R5 R7 R9 R11 R13 R15,R_3.3_25W_TO163,PWR163,8,https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf,PWR163S-25-3R30F-ND,DK,https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND
+7,"Resistor, 475, 0.125W, 1%, 0805",R_475,R31 R33 R35 R37 R39 R41 R43 R45,R_475,R_0805_OEM,8,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,311-475CRCT-ND,DK,https://www.digikey.com/products/en?keywords=311-475CRCT-ND
+8,,Thermistor,RT31 RT32 RT33 RT71 RT72 RT73 RT111 RT112 RT113 RT151 RT152 RT153,Thermistor,Thermistor,12,,,,
+9,,Tab_Connect_BMS,T1 T3 T5 T7 T9 T11 T13 T15,Tab_Connect_BMS,Tab_connect_BMS,8,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Component Groups:,9,,,,,,,,,
+Component Count:,64,,,,,,,,,
+Fitted Components:,64,,,,,,,,,
+Number of PCBs:,1,,,,,,,,,
+Total components:,64,,,,,,,,,
+Schematic Version:,,,,,,,,,,
+Schematic Date:,,,,,,,,,,
+PCB Variant:,default,,,,,,,,,
+BoM Date:,Mon 11 Nov 2019 08:40:20 PM EST,,,,,,,,,
+Schematic Source:,/home/vscheyer/Desktop/Formula/MKV-Boards/Boards/BMS_Data_Acquisition/DA_Board_2/DA_Board_2.sch,,,,,,,,,
+KiCad Version:,Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1,,,,,,,,,
