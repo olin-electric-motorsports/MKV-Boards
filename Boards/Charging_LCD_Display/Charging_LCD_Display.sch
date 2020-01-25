@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Charging_LCD_Display-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -175,20 +174,6 @@ F 2 "footprints:IHLP2020BZER4R7M11" H 6925 765 60  0001 C CNN
 F 3 "" H 6650 1050 60  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP2020BZER4R7M11/541-1222-1-ND/2025112" H 6650 1050 50  0001 C CNN "Vendor Link"
 	1    6650 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Charging_LCD_Display-rescue:C_22uF-footprints-Buck_HighCurrent-rescue-Buck_HighCurrent-rescue C6
-U 1 1 5DF57492
-P 7600 1300
-F 0 "C6" H 7550 1650 50  0000 L CNN
-F 1 "C_22uF" V 7750 1150 50  0000 L CNN
-F 2 "footprints:C_1206_OEM" H 7638 1150 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 7625 1400 50  0001 C CNN
-F 4 "DK" H 7600 1300 60  0001 C CNN "MFN"
-F 5 "445-11693-1-ND" H 7600 1300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160AB/445-11693-1-ND/3953359" H 8025 1800 60  0001 C CNN "PurchasingLink"
-	1    7600 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1107,6 +1092,20 @@ F 4 "DK" H 2700 1350 60  0001 C CNN "MFN"
 F 5 "RNCP0805FTD1K00CT-ND" H 2700 1350 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 3180 1750 60  0001 C CNN "PurchasingLink"
 	1    2700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_10K C6
+U 1 1 5DF57492
+P 7600 1300
+F 0 "C6" H 7550 1650 50  0000 L CNN
+F 1 "C_22uF" V 7750 1150 50  0000 L CNN
+F 2 "footprints:C_1206_OEM" H 7638 1150 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 7625 1400 50  0001 C CNN
+F 4 "DK" H 7600 1300 60  0001 C CNN "MFN"
+F 5 "445-11693-1-ND" H 7600 1300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160AB/445-11693-1-ND/3953359" H 8025 1800 60  0001 C CNN "PurchasingLink"
+	1    7600 1300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
