@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AIR_MINUS-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -189,6 +188,7 @@ F 0 "J3" H 3608 3475 50  0000 C CNN
 F 1 "MicroFit_RA_4" H 3608 3384 50  0000 C CNN
 F 2 "footprints:MicroFit_RA_4" H 3550 2800 50  0001 C CNN
 F 3 "" H 3550 3100 100 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/molex/0430450400/WM1814-ND/252527" H 3550 3100 50  0001 C CNN "Purchasing Link"
 	1    3550 3100
 	1    0    0    -1  
 $EndComp
