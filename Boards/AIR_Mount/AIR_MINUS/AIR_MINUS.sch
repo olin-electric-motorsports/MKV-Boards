@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AIR_MINUS-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -84,23 +83,9 @@ Wire Notes Line
 	2150 2300 600  2300
 Wire Notes Line
 	600  2300 600  750 
-$Comp
-L Formula:200mA_Fuse F1
-U 1 1 5DAFEE05
-P 2800 1000
-F 0 "F1" H 2800 1225 50  0000 C CNN
-F 1 "200mA_Fuse" H 2800 1134 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 2750 1000 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2750 1000 50  0001 C CNN
-F 4 "507-1767-1-ND " H 2800 1225 50  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 2800 1224 50  0001 C CNN "PurchasingLink"
-F 6 "DK" H 2800 1133 50  0001 C CNN "MFN"
-	1    2800 1000
-	1    0    0    -1  
-$EndComp
-Text Label 3100 1000 0    50   ~ 0
+Text Label 3000 1000 0    50   ~ 0
 TS_Fused-
-Text Label 2500 1000 2    50   ~ 0
+Text Label 2700 1000 2    50   ~ 0
 TS-
 Text Label 3100 1950 0    50   ~ 0
 AUX+
@@ -203,6 +188,7 @@ F 0 "J3" H 3608 3475 50  0000 C CNN
 F 1 "MicroFit_RA_4" H 3608 3384 50  0000 C CNN
 F 2 "footprints:MicroFit_RA_4" H 3550 2800 50  0001 C CNN
 F 3 "" H 3550 3100 100 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/molex/0430450400/WM1814-ND/252527" H 3550 3100 50  0001 C CNN "Purchasing Link"
 	1    3550 3100
 	1    0    0    -1  
 $EndComp
@@ -237,4 +223,16 @@ NoConn ~ 6000 3000
 NoConn ~ 6000 3100
 NoConn ~ 6000 3200
 NoConn ~ 6000 3300
+$Comp
+L Formula:F_2A_500V F1
+U 1 1 5E2BB207
+P 2850 1000
+F 0 "F1" H 2850 1225 50  0000 C CNN
+F 1 "F_2A_500V" H 2850 1134 50  0000 C CNN
+F 2 "footprints:F_2A_500V" H 2750 800 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_885_datasheet.pdf.pdf" V 2850 1000 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/0885002.DR/F10988CT-ND/8345702" H 2850 800 50  0001 C CNN "Digikey"
+	1    2850 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
