@@ -2638,7 +2638,7 @@
   (gr_text 5V (at 163.7157 88.9508 270) (layer F.SilkS) (tstamp 5E2A8D2B)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "Nabih Estefan\nGLV Battery Monitor Board\n01/23/2020 - Rev 1\nMk V - OEM\n" (at 115.697 129.286) (layer F.SilkS)
+  (gr_text "Nabih Estefan\nGLV Battery Monitor Board\n01/23/2020 - Rev 2\nMk V - OEM\n" (at 115.697 129.286) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text 12V (at 174.18558 83.20278 270) (layer F.SilkS) (tstamp 5E2A8E69)
