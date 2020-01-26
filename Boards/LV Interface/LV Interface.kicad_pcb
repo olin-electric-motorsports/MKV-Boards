@@ -304,6 +304,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Ampseal-35/Ampseal35_OtherSide.stp
+      (offset (xyz 29.20999956130981 0.6349999904632568 24.76499962806702))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 0))
+    )
   )
 
   (module footprints:D_SOD-123W_OEM (layer F.Cu) (tedit 5C16A992) (tstamp 5E0047D9)
@@ -409,6 +414,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Ampseal-14/ampseal-14_OtherSide.stp
+      (offset (xyz 13.96999979019165 0.6349999904632568 24.76499962806702))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 -180 0))
+    )
   )
 
   (module footprints:MicroFit_VT_4 (layer F.Cu) (tedit 5DCE2749) (tstamp 5DF12909)
@@ -464,10 +474,15 @@
       (net 5 "/CAN HIGH"))
     (pad 4 thru_hole circle (at 3 3) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask)
       (net 6 "/CAN LOW"))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/MicroFit_VT_4/MicroFit_VT_4.stp
+      (offset (xyz 1.523999977111816 -1.536699976921081 5.079999923706055))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
+    )
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/MicroFit_VT_4/MicroFit_4_OtherSide.stp
+      (offset (xyz 1.269999980926514 -1.269999980926514 13.96999979019165))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
     )
   )
 
@@ -530,6 +545,11 @@
       (net 9 /5V))
     (pad 5 thru_hole circle (at 0 0 270) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 23 /MOSI))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Micromatch_Male_MOB_20/c-2-215464-0-c-3d.stp
+      (offset (xyz 1.269999980926514 -6.984999895095826 3.809999942779541))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module footprints:micromatch_female_ra_20 (layer F.Cu) (tedit 59EE7AE1) (tstamp 5DF12945)
@@ -591,6 +611,11 @@
       (net 7 GND))
     (pad 20 thru_hole circle (at 2.54 19.05 270) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 7 GND))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Micromatch_Male_MOB_20/c-2-215464-0-c-3d.stp
+      (offset (xyz 1.269999980926514 -6.984999895095826 3.809999942779541))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module footprints:micromatch_female_ra_20 (layer F.Cu) (tedit 59EE7AE1) (tstamp 5E0C6EFD)
@@ -652,6 +677,11 @@
       (net 36 "/EXTRA TEMP 4 -"))
     (pad 20 thru_hole circle (at 2.54 19.05 270) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 7 GND))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Micromatch_Male_MOB_20/c-2-215464-0-c-3d.stp
+      (offset (xyz 1.269999980926514 -6.984999895095826 3.809999942779541))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module footprints:micromatch_female_ra_20 (layer F.Cu) (tedit 59EE7AE1) (tstamp 5DF13646)
@@ -814,6 +844,11 @@
       (net 7 GND))
     (pad 20 thru_hole circle (at 2.54 19.05 270) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 7 GND))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Micromatch_Male_MOB_20/c-2-215464-0-c-3d.stp
+      (offset (xyz 1.269999980926514 -6.984999895095826 3.809999942779541))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module footprints:MicroFit_VT_4 (layer F.Cu) (tedit 5DCE2749) (tstamp 5DF129F8)
@@ -869,10 +904,15 @@
       (net 2 /12V))
     (pad "" np_thru_hole circle (at 6 3.94) (size 1 1) (drill 1) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 3.94) (size 1 1) (drill 1) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/MicroFit_VT_4/MicroFit_VT_4.stp
+      (offset (xyz 1.523999977111816 -1.523999977111816 5.079999923706055))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
+    )
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/MicroFit_VT_4/MicroFit_4_OtherSide.stp
+      (offset (xyz 1.269999980926514 -1.269999980926514 13.96999979019165))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
     )
   )
 
@@ -935,6 +975,11 @@
       (net 5 "/CAN HIGH"))
     (pad 5 thru_hole circle (at 0 0 270) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 38 /5V_GLV))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Micromatch_Male_MOB_20/c-2-215464-0-c-3d.stp
+      (offset (xyz 1.269999980926514 -6.984999895095826 3.809999942779541))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module footprints:Relay_SPST_OMRON-G5Q-1A4_OEM (layer F.Cu) (tedit 5C9D72AF) (tstamp 5E0D73D6)
