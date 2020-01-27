@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/adityasudhakar/Documents/Formula/MKV-Boards/Boards/AIR_Mount/AIR_PLUS/AIR_MOUNT_PLUS/AIR_MOUNT_PLUS.sch)
-    (date "Saturday, January 25, 2020 at 03:39:43 PM")
+    (date "Sunday, January 26, 2020 at 09:44:39 PM")
     (tool "Eeschema (5.1.4-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
