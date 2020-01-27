@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4-0-10_14)")
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -34,13 +34,15 @@
   )
 
   (setup
-    (last_trace_width 0.762)
+    (last_trace_width 0.25)
     (user_trace_width 0.4064)
     (user_trace_width 0.762)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
+    (segment_width 0.2)
+    (edge_width 0.05)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -50,8 +52,6 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
-    (edge_width 0.05)
-    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.12)
@@ -196,6 +196,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Standex Meder Relay/Standex_Meder_Relay.STEP"
+      (offset (xyz 12.69999980926514 2.539999961853027 0.6349999904632568))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module footprints:D_SOD-123W_OEM (layer F.Cu) (tedit 5C16A992) (tstamp 5E226C65)
@@ -286,6 +291,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Ultrafit-4/1722861104.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprints:R_3k_HS_TO247 (layer F.Cu) (tedit 5AA20B8D) (tstamp 5E226CC0)
@@ -330,6 +340,11 @@
     (pad 4 thru_hole circle (at -7.493 -2.67 270) (size 2.9 2.9) (drill 2.4) (layers *.Cu *.Mask))
     (pad 5 thru_hole circle (at 17.907 -2.67 270) (size 2.9 2.9) (drill 2.4) (layers *.Cu *.Mask))
     (model :Formula:OEM_Preferred_Parts/3DModels/R_3K_heatsink/RA-T2X-51E_sp001_sp.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/R_3K_heatsink/RA-T2X-51E_sp001_sp.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -383,6 +398,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/redcube_7461166/redcube_7461166.stp
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprints:redcube_7461166 (layer F.Cu) (tedit 5E22245E) (tstamp 5E227EDE)
@@ -428,6 +448,11 @@
     (pad 1 thru_hole rect (at 0 0) (size 15 15) (drill 9.8) (layers *.Cu *.Mask)
       (net 4 /TS+))
     (model :Formula:OEM_Preferred_Parts/3DModels/redcube_7461166/redcube_7461166.stp
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/redcube_7461166/redcube_7461166.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -487,10 +512,15 @@
       (net 3 /BSPD_CURRENT_SENSOR))
     (pad 4 thru_hole circle (at 3 3 270) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask)
       (net 5 /TSMP+))
-    (model :Formula:OEM_Preferred_Parts/3DModels/MicroFit_VT_4/MicroFit_VT_4.stp
-      (at (xyz 0 0 0))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/MicroFit_VT_4/MicroFit_VT_4.stp
+      (offset (xyz 1.269999980926514 -1.269999980926514 5.079999923706055))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 -180))
+    )
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/MicroFit_VT_4/MicroFit_4_OtherSide.stp
+      (offset (xyz 1.269999980926514 -1.269999980926514 20.95499968528748))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
     )
   )
 
@@ -551,10 +581,15 @@
       (net 9 /AIR+_AUX-))
     (pad 6 thru_hole circle (at 6 3 180) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask)
       (net 11 "Net-(U1-Pad6)"))
-    (model :Formula:OEM_Preferred_Parts/3DModels/MicroFit_VT_6/MicroFit_VT_6.stp
-      (at (xyz 0 0 0))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/MicroFit_VT_6/MicroFit_VT_6.stp
+      (offset (xyz 3.174999952316284 -1.269999980926514 5.079999923706055))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
+    )
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/MicroFit_VT_6/MicroFit_6_OtherSide.stp
+      (offset (xyz 3.174999952316284 -1.269999980926514 20.95499968528748))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
     )
   )
 
