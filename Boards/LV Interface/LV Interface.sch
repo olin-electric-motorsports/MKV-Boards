@@ -133,29 +133,25 @@ Text Label 1200 3550 0    50   ~ 0
 E-STOP-R > BSPD
 Text Label 1200 3650 0    50   ~ 0
 FUSE > E-STOP-L
-Text Label 1200 4450 0    50   ~ 0
-CAN HIGH
-Text Label 1200 4550 0    50   ~ 0
-CAN LOW
 Text Label 1200 3750 0    50   ~ 0
 COOLING PUMP +
-Text Label 1200 3950 0    50   ~ 0
+Text Label 1200 4150 0    50   ~ 0
 COOLING PUMP LSD
 Text Label 1250 6000 0    50   ~ 0
 BRAKE PRESSURE +
 Text Label 1250 6100 0    50   ~ 0
 BRAKE PRESSURE SENSE
-Text Label 1200 4050 0    50   ~ 0
+Text Label 1200 4250 0    50   ~ 0
 MOTOR TEMP +
-Text Label 1200 4150 0    50   ~ 0
+Text Label 1200 4350 0    50   ~ 0
 MOTOR TEMP -
 Text Label 1250 6400 0    50   ~ 0
 CAN LOW
 Text Label 1250 6300 0    50   ~ 0
 CAN HIGH
-Text Label 1200 4250 0    50   ~ 0
+Text Label 1200 4450 0    50   ~ 0
 MC TEMP +
-Text Label 1200 4350 0    50   ~ 0
+Text Label 1200 4550 0    50   ~ 0
 MC TEMP -
 Text Label 1250 6500 0    50   ~ 0
 CAN_GND
@@ -1112,7 +1108,7 @@ F 3 "" H 6200 6950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 6900 6200 6900
-Text Label 1200 3850 0    50   ~ 0
+Text Label 1200 4050 0    50   ~ 0
 12V_Cooling_Out
 Text Label 5450 2250 0    50   ~ 0
 EXTRA TEMP 1 +
@@ -1375,4 +1371,8 @@ F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 6750 3500 60  0001 C
 	1    6750 2200
 	1    0    0    -1  
 $EndComp
+Text Label 1200 3850 0    50   ~ 0
+TO_GLVMS
+Text Label 1200 3950 0    50   ~ 0
+From_GLVMS
 $EndSCHEMATC
