@@ -271,6 +271,8 @@ F0 "J" 0 400 50 H V C CNN
 F1 "formula_MicroFit_VT_4" 0 300 50 H V C CNN
 F2 "footprints:MicroFit_VT_4" 0 -300 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
+F4 "430450414" -200 450 50 H V C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/molex/0430450414/WM1796-ND/252509" -300 550 50 H V C CNN "PurchasingLink"
 DRAW
 S -100 200 100 -200 0 1 0 f
 X ~ 1 200 150 100 L 50 50 1 1 I
