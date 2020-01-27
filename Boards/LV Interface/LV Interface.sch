@@ -243,8 +243,6 @@ Text Label 3100 4450 0    50   ~ 0
 12V
 Text Label 3100 4350 0    50   ~ 0
 GND
-Text Label 6050 6800 0    50   ~ 0
-BATTERY +
 Text Label 6050 6900 0    50   ~ 0
 BATTERY RETURN (GND)
 Text Label 3100 4650 0    50   ~ 0
@@ -335,8 +333,6 @@ F 3 "" H 3300 6760 50  0001 C CNN
 	1    3300 6760
 	1    0    0    -1  
 $EndComp
-Text Label 3050 6760 2    50   ~ 0
-BATTERY +
 Text Label 3550 6760 0    50   ~ 0
 12V_Fused
 $Comp
@@ -350,8 +346,6 @@ F 3 "" H 3300 7110 50  0001 C CNN
 	1    3300 7110
 	1    0    0    -1  
 $EndComp
-Text Label 3050 7110 2    50   ~ 0
-BATTERY +
 Text Label 3700 6910 0    50   ~ 0
 FUSE > E-STOP-L
 $Comp
@@ -1374,5 +1368,11 @@ $EndComp
 Text Label 1200 3850 0    50   ~ 0
 TO_GLVMS
 Text Label 1200 3950 0    50   ~ 0
+From_GLVMS
+Text Label 6050 6800 0    50   ~ 0
+TO_GLVMS
+Text Label 3050 6750 2    50   ~ 0
+From_GLVMS
+Text Label 3050 7100 2    50   ~ 0
 From_GLVMS
 $EndSCHEMATC
