@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/nabih/Documents/Formula/MKV-Boards/Boards/GLV_BMS/GLV_BMS/GLV_BMS.sch)
-    (date "Thu 05 Dec 2019 09:11:20 PM EST")
+    (date "Mon 27 Jan 2020 09:01:43 PM EST")
     (tool "Eeschema 5.1.5-52549c5~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
