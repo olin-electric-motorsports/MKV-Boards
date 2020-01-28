@@ -178,25 +178,25 @@ F 3 "" H 4750 2700 50  0001 C CNN
 	1    4750 2700
 	1    0    0    -1  
 $EndComp
-Text Label 3750 3050 0    50   ~ 0
+Text Label 3200 2900 0    50   ~ 0
 TS_Fused-
 $Comp
 L Formula:MicroFit_RA_4 J3
 U 1 1 5DF102AC
-P 3550 3100
-F 0 "J3" H 3608 3475 50  0000 C CNN
-F 1 "MicroFit_RA_4" H 3608 3384 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_4" H 3550 2800 50  0001 C CNN
-F 3 "" H 3550 3100 100 0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/molex/0430450400/WM1814-ND/252527" H 3550 3100 50  0001 C CNN "Purchasing Link"
-	1    3550 3100
+P 3000 2950
+F 0 "J3" H 3058 3325 50  0000 C CNN
+F 1 "MicroFit_RA_4" H 3058 3234 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_4" H 3000 2650 50  0001 C CNN
+F 3 "" H 3000 2950 100 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/molex/0430450400/WM1814-ND/252527" H 3000 2950 50  0001 C CNN "Purchasing Link"
+	1    3000 2950
 	1    0    0    -1  
 $EndComp
-Text Label 3750 2950 0    50   ~ 0
+Text Label 3200 2800 0    50   ~ 0
 TS_Fused-
-Text Label 3750 3150 0    50   ~ 0
+Text Label 3200 3000 0    50   ~ 0
 TSMP-
-Text Label 3750 3250 0    50   ~ 0
+Text Label 3200 3100 0    50   ~ 0
 TS_Fused-
 $Comp
 L Formula:HO_60_250-p0100 U2
@@ -235,4 +235,32 @@ F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/0885002.DR/F10988C
 	1    2850 1000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Formula:redcude_7461166 J4
+U 1 1 5E2F97D2
+P 5100 1100
+F 0 "J4" H 5158 1325 50  0000 C CNN
+F 1 "redcude_7461166" H 5158 1234 50  0000 C CNN
+F 2 "footprints:redcube_7461166" H 5100 900 50  0001 C CNN
+F 3 "we-online.de/katalog/datasheet/7461166.pdf" H 5100 1000 50  0001 C CNN
+	1    5100 1100
+	1    0    0    -1  
+$EndComp
+Text Label 5250 1100 0    50   ~ 0
+TS-
+$Comp
+L Formula:redcude_7461166 J5
+U 1 1 5E2FA0CC
+P 5150 1550
+F 0 "J5" H 5208 1775 50  0000 C CNN
+F 1 "redcude_7461166" H 5208 1684 50  0000 C CNN
+F 2 "footprints:redcube_7461166" H 5150 1350 50  0001 C CNN
+F 3 "we-online.de/katalog/datasheet/7461166.pdf" H 5150 1450 50  0001 C CNN
+	1    5150 1550
+	1    0    0    -1  
+$EndComp
+Text Label 5300 1550 0    50   ~ 0
+BAT-
+Text Label 800  1300 2    50   ~ 0
+BAT-
 $EndSCHEMATC
