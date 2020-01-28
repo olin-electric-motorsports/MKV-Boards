@@ -383,20 +383,6 @@ Text Notes 6200 7350 1    50   ~ 0
 5V Indicator
 Text Notes 10600 7650 0    50   ~ 0
 2
-$Comp
-L formula:ATMEGA16M1 U2
-U 1 1 5D58A7A6
-P 2450 2550
-F 0 "U2" H 3350 4410 50  0000 C CNN
-F 1 "ATMEGA16M1" H 1750 4400 50  0000 C CNN
-F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2450 2550 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1500 4380 50  0001 C CNN
-F 4 "DK" H 2450 2550 60  0001 C CNN "MFN"
-F 5 "ATMEGA16M1-AU-ND" H 2450 2550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 1900 4780 60  0001 C CNN "PurchasingLink"
-	1    2450 2550
-	1    0    0    -1  
-$EndComp
 Text Label 3550 1950 0    50   ~ 0
 CAN_TX
 Text Label 3550 2050 0    50   ~ 0
@@ -1193,13 +1179,7 @@ Text Label 5250 1150 0    50   ~ 0
 GND
 NoConn ~ 3550 1850
 NoConn ~ 3550 2450
-NoConn ~ 3550 2650
-NoConn ~ 3550 2750
 NoConn ~ 3550 3350
-Text Label 3550 850  0    50   ~ 0
-LED_1
-Text Label 3550 950  0    50   ~ 0
-LED_2
 Text Label 3550 1150 0    50   ~ 0
 LED_3
 Text Label 5250 1550 0    50   ~ 0
@@ -1493,4 +1473,24 @@ F 3 "" H 6300 6500 50  0001 C CNN
 	1    6300 6500
 	1    0    0    -1  
 $EndComp
+$Comp
+L formula:ATMEGA16M1 U2
+U 1 1 5D58A7A6
+P 2450 2550
+F 0 "U2" H 3350 4410 50  0000 C CNN
+F 1 "ATMEGA16M1" H 1750 4400 50  0000 C CNN
+F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2450 2550 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1500 4380 50  0001 C CNN
+F 4 "DK" H 2450 2550 60  0001 C CNN "MFN"
+F 5 "ATMEGA16M1-AU-ND" H 2450 2550 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 1900 4780 60  0001 C CNN "PurchasingLink"
+	1    2450 2550
+	1    0    0    -1  
+$EndComp
+Text Label 3550 2750 0    50   ~ 0
+LED_2
+Text Label 3550 2650 0    50   ~ 0
+LED_1
+NoConn ~ 3550 850 
+NoConn ~ 3550 950 
 $EndSCHEMATC
