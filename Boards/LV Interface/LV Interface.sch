@@ -133,29 +133,25 @@ Text Label 1200 3550 0    50   ~ 0
 E-STOP-R > BSPD
 Text Label 1200 3650 0    50   ~ 0
 FUSE > E-STOP-L
-Text Label 1200 4450 0    50   ~ 0
-CAN HIGH
-Text Label 1200 4550 0    50   ~ 0
-CAN LOW
-Text Label 1200 3750 0    50   ~ 0
-COOLING PUMP +
 Text Label 1200 3950 0    50   ~ 0
+COOLING PUMP +
+Text Label 1200 4150 0    50   ~ 0
 COOLING PUMP LSD
 Text Label 1250 6000 0    50   ~ 0
 BRAKE PRESSURE +
 Text Label 1250 6100 0    50   ~ 0
 BRAKE PRESSURE SENSE
-Text Label 1200 4050 0    50   ~ 0
+Text Label 1200 4250 0    50   ~ 0
 MOTOR TEMP +
-Text Label 1200 4150 0    50   ~ 0
+Text Label 1200 4350 0    50   ~ 0
 MOTOR TEMP -
 Text Label 1250 6400 0    50   ~ 0
 CAN LOW
 Text Label 1250 6300 0    50   ~ 0
 CAN HIGH
-Text Label 1200 4250 0    50   ~ 0
+Text Label 1200 4450 0    50   ~ 0
 MC TEMP +
-Text Label 1200 4350 0    50   ~ 0
+Text Label 1200 4550 0    50   ~ 0
 MC TEMP -
 Text Label 1250 6500 0    50   ~ 0
 CAN_GND
@@ -213,7 +209,7 @@ Text Label 4400 1350 0    50   ~ 0
 CAN HIGH
 Text Label 4400 1450 0    50   ~ 0
 CAN LOW
-Text Label 3700 7110 0    50   ~ 0
+Text Label 3700 7100 0    50   ~ 0
 SS GLVMS
 Text Label 5450 1250 0    50   ~ 0
 12V
@@ -247,8 +243,6 @@ Text Label 3100 4450 0    50   ~ 0
 12V
 Text Label 3100 4350 0    50   ~ 0
 GND
-Text Label 6050 6800 0    50   ~ 0
-BATTERY +
 Text Label 6050 6900 0    50   ~ 0
 BATTERY RETURN (GND)
 Text Label 3100 4650 0    50   ~ 0
@@ -331,31 +325,27 @@ Connection ~ 8360 5590
 $Comp
 L formula:Fuse_Holder_Blade U2
 U 1 1 5DD22CED
-P 3300 6760
-F 0 "U2" H 3300 6985 50  0000 C CNN
-F 1 "Fuse_Holder_Blade" H 3300 6894 50  0000 C CNN
-F 2 "footprints:Fuse_Block_Holder" H 3300 6760 50  0001 C CNN
-F 3 "" H 3300 6760 50  0001 C CNN
-	1    3300 6760
+P 3300 6750
+F 0 "U2" H 3300 6975 50  0000 C CNN
+F 1 "Fuse_Holder_Blade" H 3300 6884 50  0000 C CNN
+F 2 "footprints:Fuse_Block_Holder" H 3300 6750 50  0001 C CNN
+F 3 "" H 3300 6750 50  0001 C CNN
+	1    3300 6750
 	1    0    0    -1  
 $EndComp
-Text Label 3050 6760 2    50   ~ 0
-BATTERY +
-Text Label 3550 6760 0    50   ~ 0
+Text Label 3550 6750 0    50   ~ 0
 12V_Fused
 $Comp
 L formula:Fuse_Holder_Blade U3
 U 1 1 5DD23405
-P 3300 7110
-F 0 "U3" H 3300 7335 50  0000 C CNN
-F 1 "Fuse_Holder_Blade" H 3300 7244 50  0000 C CNN
-F 2 "footprints:Fuse_Block_Holder" H 3300 7110 50  0001 C CNN
-F 3 "" H 3300 7110 50  0001 C CNN
-	1    3300 7110
+P 3300 7100
+F 0 "U3" H 3300 7325 50  0000 C CNN
+F 1 "Fuse_Holder_Blade" H 3300 7234 50  0000 C CNN
+F 2 "footprints:Fuse_Block_Holder" H 3300 7100 50  0001 C CNN
+F 3 "" H 3300 7100 50  0001 C CNN
+	1    3300 7100
 	1    0    0    -1  
 $EndComp
-Text Label 3050 7110 2    50   ~ 0
-BATTERY +
 Text Label 3700 6910 0    50   ~ 0
 FUSE > E-STOP-L
 $Comp
@@ -388,10 +378,6 @@ Text Label 10550 4800 0    50   ~ 0
 SS BSPD
 Text Label 9850 4800 2    50   ~ 0
 SS ESTOP
-Wire Wire Line
-	3550 7110 3700 7110
-Wire Wire Line
-	3700 7110 3700 6910
 $Comp
 L formula:SS110LW D1
 U 1 1 5DD244FE
@@ -894,10 +880,6 @@ Text Label 4000 5350 0    50   ~ 0
 SCK_GLV
 Text Label 4000 5250 0    50   ~ 0
 CS_GLV
-Text Label 6150 5800 0    50   ~ 0
-SCL_GLV
-Text Label 6150 5900 0    50   ~ 0
-SDA_GLV
 Wire Wire Line
 	8250 2050 8500 2050
 Wire Wire Line
@@ -927,17 +909,6 @@ Text Label 3100 4950 0    50   ~ 0
 SCL_GLV
 Text Label 3100 4850 0    50   ~ 0
 SDA_GLV
-$Comp
-L formula:INA260 U6
-U 1 1 5DEA1A67
-P 5750 5900
-F 0 "U6" H 5450 6400 50  0000 C CNN
-F 1 "INA260" H 5500 6300 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5750 5300 50  0001 C CNN
-F 3 "" H 5750 5800 50  0001 C CNN
-	1    5750 5900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3300 4350 3300 4200
 Wire Wire Line
@@ -957,17 +928,6 @@ Text Label 3100 4550 0    50   ~ 0
 CAN HIGH
 Wire Wire Line
 	3300 4350 3100 4350
-$Comp
-L power:GND #PWR026
-U 1 1 5DEBA9C7
-P 5750 6300
-F 0 "#PWR026" H 5750 6050 50  0001 C CNN
-F 1 "GND" H 5755 6127 50  0000 C CNN
-F 2 "" H 5750 6300 50  0001 C CNN
-F 3 "" H 5750 6300 50  0001 C CNN
-	1    5750 6300
-	1    0    0    -1  
-$EndComp
 Text Label 4000 4950 0    50   ~ 0
 SCL_GLV
 Text Label 4000 4850 0    50   ~ 0
@@ -993,35 +953,8 @@ F 3 "" H 4350 4200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 4350 4000 4350
-Text Label 5350 6100 2    50   ~ 0
-12V_Cooling_Out
-Text Label 5350 5700 2    50   ~ 0
-12V_Cooling_Fused
-Wire Wire Line
-	5350 5700 5350 5800
 Text Label 3100 4750 0    50   ~ 0
 5V_GLV
-Text Label 5750 5500 0    50   ~ 0
-5V_GLV
-Text Label 6150 5700 0    50   ~ 0
-ALERT_Cool
-Wire Wire Line
-	6150 6100 6250 6100
-Wire Wire Line
-	6250 6100 6250 6150
-$Comp
-L power:GND #PWR030
-U 1 1 5DE19F28
-P 6250 6150
-F 0 "#PWR030" H 6250 5900 50  0001 C CNN
-F 1 "GND" H 6255 5977 50  0000 C CNN
-F 2 "" H 6250 6150 50  0001 C CNN
-F 3 "" H 6250 6150 50  0001 C CNN
-	1    6250 6150
-	1    0    0    -1  
-$EndComp
-Text Notes 5100 5500 0    100  ~ 0
-Cooling Gas Guage\n\n
 Text Label 6100 4450 0    50   ~ 0
 SCL_GLV
 Text Label 6100 4550 0    50   ~ 0
@@ -1093,10 +1026,6 @@ F 3 "" H 3300 7500 50  0001 C CNN
 $EndComp
 Text Label 3050 7500 2    50   ~ 0
 COOLING PUMP +
-Text Label 3550 7500 0    50   ~ 0
-12V_Cooling_Fused
-Text Label 6150 6000 0    50   ~ 0
-5V_GLV
 Wire Wire Line
 	6200 6900 6200 6950
 $Comp
@@ -1112,7 +1041,7 @@ F 3 "" H 6200 6950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 6900 6200 6900
-Text Label 1200 3850 0    50   ~ 0
+Text Label 1200 4050 0    50   ~ 0
 12V_Cooling_Out
 Text Label 5450 2250 0    50   ~ 0
 EXTRA TEMP 1 +
@@ -1272,8 +1201,6 @@ F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 2950 6750 60  0001 C CN
 $EndComp
 Text Label 3100 5450 0    50   ~ 0
 ALERT_GLV
-Text Label 3100 5550 0    50   ~ 0
-ALERT_Cool
 Text Label 4000 4750 0    50   ~ 0
 5V_GLV
 Text Notes 6600 750  0    100  ~ 0
@@ -1375,4 +1302,22 @@ F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 6750 3500 60  0001 C
 	1    6750 2200
 	1    0    0    -1  
 $EndComp
+Text Label 1200 3850 0    50   ~ 0
+TO_GLVMS
+Text Label 1200 3750 0    50   ~ 0
+From_GLVMS
+Text Label 6050 6800 0    50   ~ 0
+TO_GLVMS
+Text Label 3050 6750 2    50   ~ 0
+From_GLVMS
+Text Label 3050 7100 2    50   ~ 0
+From_GLVMS
+Wire Wire Line
+	3550 7100 3700 7100
+Wire Wire Line
+	3700 7100 3700 6910
+Text Label 3550 7500 0    50   ~ 0
+12V_Cooling_Out
+Wire Wire Line
+	3100 5550 3100 5650
 $EndSCHEMATC

@@ -36,7 +36,7 @@ U 1 1 5DC5DF1A
 P 2075 4975
 F 0 "R2" V 1868 4975 50  0000 C CNN
 F 1 "R_10K" V 1959 4975 50  0000 C CNN
-F 2 "footprints:R_10K_HV" V 2005 4975 50  0001 C CNN
+F 2 "footprints:R_TSMP_SMD_5329" V 2005 4975 50  0001 C CNN
 F 3 "~" H 2075 4975 50  0001 C CNN
 	1    2075 4975
 	0    1    1    0   
@@ -60,19 +60,19 @@ Text Label 2175 3675 0    50   ~ 0
 TSAL+
 Text Label 2175 3425 0    50   ~ 0
 BSPD_CURRENT_SENSOR
-Text Label 4650 1950 0    50   ~ 0
+Text Label 4625 2000 0    50   ~ 0
 PRECHARGE_LSD
-Text Label 4650 2050 0    50   ~ 0
+Text Label 4625 1800 0    50   ~ 0
 FINAL_SHUTDOWN
-Text Label 4650 2150 0    50   ~ 0
+Text Label 4625 1900 0    50   ~ 0
 AIR+_AUX+
-Text Label 4650 2550 0    50   ~ 0
+Text Label 4625 2200 0    50   ~ 0
 AIR+_AUX-
-Text Label 4650 2350 0    50   ~ 0
+Text Label 4625 2300 0    50   ~ 0
 AIR+_COIL-
-Text Label 4650 1850 0    50   ~ 0
+Text Label 4550 2825 0    50   ~ 0
 BSPD_CURRENT_SENSOR
-Text Label 4650 2250 0    50   ~ 0
+Text Label 4550 2925 0    50   ~ 0
 ENERGY_METER
 Text Label 4725 1100 0    50   ~ 0
 AIR+_AUX-
@@ -82,7 +82,7 @@ Text Label 4725 1300 0    50   ~ 0
 AIR+_COIL-
 Text Label 4725 1400 0    50   ~ 0
 PRECHARGE_LSD
-NoConn ~ 4650 2450
+NoConn ~ 4625 2100
 Wire Wire Line
 	2175 3800 2025 3800
 Wire Wire Line
@@ -96,9 +96,9 @@ Wire Wire Line
 	2025 3550 2025 3425
 Wire Wire Line
 	2025 3425 2175 3425
-Text Label 4650 3025 0    50   ~ 0
+Text Label 4550 3025 0    50   ~ 0
 TS_FUSE+
-Text Label 4650 3125 0    50   ~ 0
+Text Label 4550 3125 0    50   ~ 0
 TSMP+
 $Comp
 L formula:LI12-1A85(NO) K1
@@ -113,20 +113,6 @@ F 5 "374-1110-ND" H 2600 1825 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/LI12-1A85/374-1110-ND/655844" H 2800 2025 60  0001 C CNN "PurchasingLink"
 	1    1850 1375
 	0    -1   -1   0   
-$EndComp
-$Comp
-L formula:MicroFit_V_2 J3
-U 1 1 5E22E940
-P 4400 3075
-F 0 "J3" H 4458 3350 50  0000 C CNN
-F 1 "MicroFit_V_2" H 4458 3259 50  0000 C CNN
-F 2 "footprints:MicroFit_V_2" H 4350 3275 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450225_sd.pdf" H 4350 3275 50  0001 C CNN
-F 4 "MFN" H 4500 3325 50  0001 C CNN "DK"
-F 5 "WM10660-ND" H 4600 3425 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180" H 4400 3225 50  0001 C CNN "PurchasingLink"
-	1    4400 3075
-	1    0    0    -1  
 $EndComp
 Text Notes 1500 4625 0    50   ~ 0
 TSMP Body Protection Resistor
@@ -179,20 +165,6 @@ F 6 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 4875 2150 60  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L footprints:MicroFit_RA_08 J2
-U 1 1 5E23C7C5
-P 4400 2150
-F 0 "J2" H 4458 2697 60  0000 C CNN
-F 1 "MicroFit_RA_08" H 4458 2591 60  0000 C CNN
-F 2 "footprints:MicroFit_RA_08" H 4300 2450 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450601_sd.pdf" H 4400 2550 60  0001 C CNN
-F 4 "Molex" H 4500 3550 60  0001 C CNN "MFN"
-F 5 "WM3253-ND" H 4600 3650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430450801/WM3253-ND/2405169" H 4500 2650 60  0001 C CNN "PurchasingLink"
-	1    4400 2150
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:200mA_Fuse F1
 U 1 1 5E23D965
 P 1525 3550
@@ -232,4 +204,30 @@ Text Label 4475 3700 0    50   ~ 0
 BAT+
 Text Label 4475 4050 0    50   ~ 0
 TS+
+$Comp
+L footprints:MicroFit_VT_4 J2
+U 1 1 5E257662
+P 4350 2975
+F 0 "J2" H 4408 3350 50  0000 C CNN
+F 1 "MicroFit_VT_4" H 4408 3259 50  0000 C CNN
+F 2 "footprints:MicroFit_VT_4" H 4350 2675 50  0001 C CNN
+F 3 "" H 4350 2925 50  0001 C CNN
+F 4 "430450414" H 4408 3350 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/molex/0430450414/WM1796-ND/252509" H 4408 3258 50  0001 C CNN "PurchasingLink"
+	1    4350 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L footprints:MicroFit_VT_6 U1
+U 1 1 5E2CA9C7
+P 4425 2050
+F 0 "U1" H 4483 2525 50  0000 C CNN
+F 1 "MicroFit_VT_6" H 4483 2434 50  0000 C CNN
+F 2 "footprints:MicroFit_VT_6" H 4425 1650 50  0001 C CNN
+F 3 "" H 4425 2050 50  0001 C CNN
+F 4 "0430450614" H 4483 2433 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/molex/0430450614/WM1797-ND/252510" H 4483 2434 50  0001 C CNN "PurchasingLink"
+	1    4425 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
