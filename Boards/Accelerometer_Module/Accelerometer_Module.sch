@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Accelerometer_Module-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -7176,21 +7175,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 1600 8750 1600
 $Comp
-L formula:LIS3DHTR U2
-U 1 1 5DD0BA20
-P 7650 1100
-F 0 "U2" H 7625 1387 60  0000 C CNN
-F 1 "LIS3DHTR" H 7625 1281 60  0000 C CNN
-F 2 "footprints:LIS3DHTR" H 7700 1500 60  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/3c/ae/50/85/d6/b1/46/fe/CD00274221.pdf/files/CD00274221.pdf/jcr:content/translations/en.CD00274221.pdf" H 6700 1100 60  0000 C CNN
-F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN " PurchasingLink"
-F 5 "497-10613-1-ND " H 0   0   50  0001 C CNN "MPN"
-F 6 "DK" H 0   0   50  0001 C CNN "MFN"
-F 7 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN "PurchasingLink"
-	1    7650 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0121
 U 1 1 5DE240C7
 P 8950 1700
@@ -12886,6 +12870,21 @@ F 4 "DK" H 6850 3600 60  0001 C CNN "MFN"
 F 5 "RNCP0805FTD100RCT-ND" H 6200 3850 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7330 4000 60  0001 C CNN "PurchasingLink"
 	1    6850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LIS3DHTR U2
+U 1 1 5DD0BA20
+P 7650 1100
+F 0 "U2" H 7625 1387 60  0000 C CNN
+F 1 "LIS3DHTR" H 7625 1281 60  0000 C CNN
+F 2 "footprints:LIS3DHTR" H 7700 1500 60  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/3c/ae/50/85/d6/b1/46/fe/CD00274221.pdf/files/CD00274221.pdf/jcr:content/translations/en.CD00274221.pdf" H 6800 1700 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN " PurchasingLink"
+F 5 "497-10613-1-ND " H 0   0   50  0001 C CNN "MPN"
+F 6 "DK" H 0   0   50  0001 C CNN "MFN"
+F 7 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN "PurchasingLink"
+	1    7650 1100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

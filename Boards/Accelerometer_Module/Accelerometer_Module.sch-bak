@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Accelerometer_Module-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -7182,7 +7181,11 @@ P 7650 1100
 F 0 "U2" H 7625 1387 60  0000 C CNN
 F 1 "LIS3DHTR" H 7625 1281 60  0000 C CNN
 F 2 "footprints:LIS3DHTR" H 7700 1500 60  0001 C CNN
-F 3 "" H 6700 1100 60  0000 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/3c/ae/50/85/d6/b1/46/fe/CD00274221.pdf/files/CD00274221.pdf/jcr:content/translations/en.CD00274221.pdf" H 6800 1700 60  0000 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN " PurchasingLink"
+F 5 "497-10613-1-ND " H 0   0   50  0001 C CNN "MPN"
+F 6 "DK" H 0   0   50  0001 C CNN "MFN"
+F 7 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    7650 1100
 	1    0    0    -1  
 $EndComp
@@ -7475,7 +7478,10 @@ P 2450 2650
 F 0 "U1" H 2250 4217 50  0000 C CNN
 F 1 "ATmega328P-AU" H 2250 4126 50  0000 C CNN
 F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 2250 4200 50  0001 C CIN
-F 3 "" H 2450 2650 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf" H 2450 2650 50  0001 C CNN
+F 4 "DK" H 0   0   50  0001 C CNN "MFN"
+F 5 "ATMEGA328P-15AZTR-ND" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-15AZ/ATMEGA328P-15AZTR-ND/1914586" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    2450 2650
 	1    0    0    -1  
 $EndComp
@@ -7796,6 +7802,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 2950 6950 50  0001 C CNN
 F 4 "TPS560430YFDBVR-ND" H 2900 5300 50  0001 C CNN "MPN"
 F 5 "DK" H 2950 5400 50  0001 C CNN "MFN"
 F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 3700 5500 50  0001 C CNN "Purchasing Link"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    2950 6400
 	1    0    0    -1  
 $EndComp
@@ -10113,6 +10120,9 @@ F 0 "U3" H 8350 6150 50  0000 C CNN
 F 1 "INA260" H 8350 6050 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8150 5100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina260.pdf" H 8150 5600 50  0001 C CNN
+F 4 "DK" H 0   0   50  0001 C CNN "MFN"
+F 5 "296-47777-1-ND" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/INA260AIPWR/296-47777-1-ND/8133126" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    8150 5700
 	1    0    0    -1  
 $EndComp
@@ -10363,6 +10373,7 @@ F 3 "https://product.tdk.com/info/en/documents/catalog/inductor_commercial_decou
 F 4 "Digikey" H 4350 6150 50  0001 C CNN "MFN"
 F 5 "445-1539-1-ND" H 4250 6600 50  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLCV32T-150K-PF/445-1539-1-ND/571847" H 4550 6550 50  0001 C CNN "Link"
+F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/NLCV32T-150K-PF/445-1539-1-ND/571847" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    4250 6350
 	1    0    0    -1  
 $EndComp
