@@ -62,11 +62,11 @@ Text Label 2175 3425 0    50   ~ 0
 BSPD_CURRENT_SENSOR
 Text Label 4625 1800 0    50   ~ 0
 PRECHARGE_LSD
-Text Label 4625 1900 0    50   ~ 0
+Text Label 4625 2000 0    50   ~ 0
 FINAL_SHUTDOWN
-Text Label 4625 2200 0    50   ~ 0
+Text Label 4625 1900 0    50   ~ 0
 AIR+_AUX+
-Text Label 4625 2300 0    50   ~ 0
+Text Label 4625 2200 0    50   ~ 0
 AIR+_AUX-
 Text Label 4625 2100 0    50   ~ 0
 AIR+_COIL-
@@ -82,7 +82,7 @@ Text Label 4725 1300 0    50   ~ 0
 AIR+_COIL-
 Text Label 4725 1400 0    50   ~ 0
 PRECHARGE_LSD
-NoConn ~ 4625 2000
+NoConn ~ 4625 2300
 Wire Wire Line
 	2175 3800 2025 3800
 Wire Wire Line
@@ -218,17 +218,16 @@ F 5 "https://www.digikey.com/product-detail/en/molex/0430450414/WM1796-ND/252509
 	1    0    0    -1  
 $EndComp
 $Comp
-L footprints:MicroFit_RA_06 J3
-U 1 1 5E2586FE
-P 4375 2050
-F 0 "J3" H 4433 2547 60  0000 C CNN
-F 1 "MicroFit_RA_06" H 4433 2441 60  0000 C CNN
-F 2 "footprints:MicroFit_RA_06" H 4275 2300 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450601_sd.pdf" H 4375 2400 60  0001 C CNN
-F 4 "Molex" H 4475 3450 60  0001 C CNN "MFN"
-F 5 "WM4037-ND" H 4575 3550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430450601/WM4037-ND/2421555" H 4375 3350 60  0001 C CNN "PurchasingLink"
-	1    4375 2050
+L footprints:MicroFit_VT_6 U1
+U 1 1 5E2CA9C7
+P 4425 2050
+F 0 "U1" H 4483 2525 50  0000 C CNN
+F 1 "MicroFit_VT_6" H 4483 2434 50  0000 C CNN
+F 2 "footprints:MicroFit_VT_6" H 4425 1650 50  0001 C CNN
+F 3 "" H 4425 2050 50  0001 C CNN
+F 4 "0430450614" H 4483 2433 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/molex/0430450614/WM1797-ND/252510" H 4483 2434 50  0001 C CNN "PurchasingLink"
+	1    4425 2050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
