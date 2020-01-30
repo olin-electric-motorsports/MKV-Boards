@@ -36,7 +36,7 @@ Text Label 9670 5000 2    50   ~ 0
 SCK3.3V
 Text Label 9670 5100 2    50   ~ 0
 RESET3.3V
-Text Label 10170 4990 0    50   ~ 0
+Text Label 10170 5000 0    50   ~ 0
 MOSI3.3V
 $Comp
 L power:GND #PWR09
@@ -49,33 +49,8 @@ F 3 "" H 10170 5100 50  0001 C CNN
 	1    10170 5100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR07
-U 1 1 5D6297EA
-P 10170 4900
-F 0 "#PWR07" H 10170 4750 50  0001 C CNN
-F 1 "VCC" H 10187 5073 50  0000 C CNN
-F 2 "" H 10170 4900 50  0001 C CNN
-F 3 "" H 10170 4900 50  0001 C CNN
-	1    10170 4900
-	1    0    0    -1  
-$EndComp
 Text Notes 8890 4630 0    89   ~ 0
 328P PROGRAMMING HEADER\n
-$Comp
-L formula:MLX90621ESF-BAB-000-TU U5
-U 1 1 5DDABAE3
-P 7210 5660
-F 0 "U5" H 7554 5706 50  0000 L CNN
-F 1 "MLX90621ESF-BAB-000-TU" H 7554 5615 50  0000 L CNN
-F 2 "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.65x2.55mm" H 7210 5260 50  0001 C CNN
-F 3 "https://www.melexis.com/-/media/files/documents/datasheets/mlx90621-datasheet-melexis.pdf" H 7010 5960 50  0001 C CNN
-F 4 "DK" H 0   0   50  0001 C CNN "MF"
-F 5 "MLX90621ESF-BAB-000-TU-ND " H 0   0   50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/melexis-technologies-nv/MLX90621ESF-BAB-000-TU/MLX90621ESF-BAB-000-TU-ND/4968086?utm_adgroup=Sensors%20&%20Transducers" H 0   0   50  0001 C CNN "PurchaseLink"
-	1    7210 5660
-	1    0    0    -1  
-$EndComp
 Text Label 6120 5560 2    50   ~ 0
 SCL
 Text Label 6120 5660 2    50   ~ 0
@@ -191,14 +166,14 @@ F 3 "" H 880 7380 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	880  7380 880  7160
+	880  7380 880  7320
 Wire Wire Line
 	880  6860 880  6430
 Wire Wire Line
 	1160 6430 880  6430
 Connection ~ 880  6430
 Wire Wire Line
-	880  6430 880  6170
+	880  6430 880  6290
 $Comp
 L formula:LED_0805 D102
 U 1 1 5DD963E7
@@ -1795,4 +1770,84 @@ F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/4
 	1    4530 6530
 	1    0    0    -1  
 $EndComp
+$Comp
+L formula:MLX90621ESF-BAB-000-TU U5
+U 1 1 5E29E505
+P 7210 5660
+F 0 "U5" H 7540 5706 50  0000 L CNN
+F 1 "MLX90621ESF-BAB-000-TU" H 7540 5615 50  0000 L CNN
+F 2 "footprints:MLX90621ESF-BAB-000-TU" H 7210 5260 50  0001 C CNN
+F 3 "https://www.melexis.com/-/media/files/documents/datasheets/mlx90621-datasheet-melexis.pdf" H 7010 5960 50  0001 C CNN
+F 4 "MLX90621ESF-BAB-000-TU-ND " H 7210 5660 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/melexis-technologies-nv/MLX90621ESF-BAB-000-TU/MLX90621ESF-BAB-000-TU-ND/4968086?utm_adgroup=Sensors%20&%20Transducers" H 7210 5660 50  0001 C CNN "PurchaseLink"
+F 6 "DK" H 7210 5660 50  0001 C CNN "MF"
+	1    7210 5660
+	1    0    0    -1  
+$EndComp
+Text Label 10170 4900 0    50   ~ 0
+3.3V
+$Comp
+L formula:UF_4_VT J3
+U 1 1 5E303634
+P 4090 930
+F 0 "J3" H 4198 1367 60  0000 C CNN
+F 1 "UF_4_VT" H 4198 1261 60  0000 C CNN
+F 2 "footprints:Ultrafit_4" H 3990 1180 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 4090 1280 60  0001 C CNN
+F 4 "DK" H 4090 930 60  0001 C CNN "MFN"
+F 5 "WM11574-ND" H 4090 930 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 4590 1780 60  0001 C CNN "PurchasingLink"
+	1    4090 930 
+	1    0    0    -1  
+$EndComp
+Text Label 4440 730  0    50   ~ 0
+GND
+Text Label 4440 830  0    50   ~ 0
+12V
+Text Label 4440 930  0    50   ~ 0
+CAN_H
+Text Label 4440 1030 0    50   ~ 0
+CAN_L
+$Comp
+L formula:TP TP?
+U 1 1 5E32C421
+P 660 6090
+F 0 "TP?" H 738 6028 50  0000 L CNN
+F 1 "TP" H 738 5937 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 560 5990 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 660 6090 50  0001 C CNN
+F 4 "DK" H 760 6190 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 860 6290 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 960 6390 50  0001 C CNN "PurchasingLink"
+	1    660  6090
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:TP TP?
+U 1 1 5E337965
+P 610 7250
+F 0 "TP?" H 688 7188 50  0000 L CNN
+F 1 "TP" H 688 7097 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 510 7150 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 610 7250 50  0001 C CNN
+F 4 "DK" H 710 7350 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 810 7450 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 910 7550 50  0001 C CNN "PurchasingLink"
+	1    610  7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	660  6290 880  6290
+Connection ~ 880  6290
+Wire Wire Line
+	880  6290 880  6170
+Wire Wire Line
+	610  7450 770  7450
+Wire Wire Line
+	770  7450 770  7320
+Wire Wire Line
+	770  7320 880  7320
+Connection ~ 880  7320
+Wire Wire Line
+	880  7320 880  7160
 $EndSCHEMATC

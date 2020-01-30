@@ -49,17 +49,6 @@ F 3 "" H 10170 5100 50  0001 C CNN
 	1    10170 5100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR07
-U 1 1 5D6297EA
-P 10170 4900
-F 0 "#PWR07" H 10170 4750 50  0001 C CNN
-F 1 "VCC" H 10187 5073 50  0000 C CNN
-F 2 "" H 10170 4900 50  0001 C CNN
-F 3 "" H 10170 4900 50  0001 C CNN
-	1    10170 4900
-	1    0    0    -1  
-$EndComp
 Text Notes 8890 4630 0    89   ~ 0
 328P PROGRAMMING HEADER\n
 Text Label 6120 5560 2    50   ~ 0
@@ -120,6 +109,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 3570 7130 50  0001 C CNN
 F 4 "TPS560430YFDBVR-ND" H 3520 5480 50  0001 C CNN "MPN"
 F 5 "DK" H 3570 5580 50  0001 C CNN "MFN"
 F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 4320 5680 50  0001 C CNN "Purchasing Link"
+F 7 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    3570 6580
 	1    0    0    -1  
 $EndComp
@@ -177,14 +167,14 @@ F 3 "" H 880 7380 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	880  7380 880  7160
+	880  7380 880  7320
 Wire Wire Line
 	880  6860 880  6430
 Wire Wire Line
 	1160 6430 880  6430
 Connection ~ 880  6430
 Wire Wire Line
-	880  6430 880  6170
+	880  6430 880  6290
 $Comp
 L formula:LED_0805 D102
 U 1 1 5DD963E7
@@ -750,7 +740,7 @@ U 1 1 5DEA7716
 P 5580 3200
 F 0 "U3" H 5630 3275 50  0000 C CNN
 F 1 "TXB0104" H 5630 3184 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5480 3100 50  0001 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 5480 3100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 5580 3200 50  0001 C CNN
 F 4 "DK" H 5680 3300 50  0001 C CNN "MFN"
 F 5 "296-21929-1-ND" H 5780 3400 50  0001 C CNN "MPN"
@@ -1476,7 +1466,10 @@ P 8960 2600
 F 0 "U6" H 8760 4167 50  0000 C CNN
 F 1 "ATmega328P-AU" H 8760 4076 50  0000 C CNN
 F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 8760 4150 50  0001 C CIN
-F 3 "" H 8960 2600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf" H 8960 2600 50  0001 C CNN
+F 4 "DK" H 0   0   50  0001 C CNN "MFN"
+F 5 "ATMEGA328P-15AZTR-ND" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-15AZ/ATMEGA328P-15AZTR-ND/1914586" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    8960 2600
 	1    0    0    -1  
 $EndComp
@@ -1774,7 +1767,7 @@ F 0 "L101" H 4530 6755 50  0000 C CNN
 F 1 "L_100uH" H 4530 6664 50  0000 C CNN
 F 2 "footprints:L_100uH_OEM" H 4430 6330 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 4430 6380 50  0001 C CNN
-F 4 "Digikey" H 4630 6330 50  0001 C CNN "MFN"
+F 4 "DK" H 4630 6330 50  0001 C CNN "MFN"
 F 5 "445-15759-1-ND" H 4530 6780 50  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 4830 6730 50  0001 C CNN "Link"
 F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 0   0   50  0001 C CNN "PurchasingLink"
@@ -1795,4 +1788,70 @@ F 6 "DK" H 7210 5660 50  0001 C CNN "MF"
 	1    7210 5660
 	1    0    0    -1  
 $EndComp
+Text Label 10170 4900 0    50   ~ 0
+3.3V
+$Comp
+L formula:UF_4_VT J3
+U 1 1 5E303634
+P 4090 930
+F 0 "J3" H 4198 1367 60  0000 C CNN
+F 1 "UF_4_VT" H 4198 1261 60  0000 C CNN
+F 2 "footprints:Ultrafit_4" H 3990 1180 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 4090 1280 60  0001 C CNN
+F 4 "DK" H 4090 930 60  0001 C CNN "MFN"
+F 5 "WM11574-ND" H 4090 930 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 4590 1780 60  0001 C CNN "PurchasingLink"
+	1    4090 930 
+	1    0    0    -1  
+$EndComp
+Text Label 4440 730  0    50   ~ 0
+GND
+Text Label 4440 830  0    50   ~ 0
+12V
+Text Label 4440 930  0    50   ~ 0
+CAN_H
+Text Label 4440 1030 0    50   ~ 0
+CAN_L
+$Comp
+L formula:TP TP2
+U 1 1 5E32C421
+P 660 6090
+F 0 "TP2" H 738 6028 50  0000 L CNN
+F 1 "TP" H 738 5937 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 560 5990 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 660 6090 50  0001 C CNN
+F 4 "DK" H 760 6190 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 860 6290 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 960 6390 50  0001 C CNN "PurchasingLink"
+	1    660  6090
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:TP TP1
+U 1 1 5E337965
+P 610 7250
+F 0 "TP1" H 688 7188 50  0000 L CNN
+F 1 "TP" H 688 7097 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 510 7150 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 610 7250 50  0001 C CNN
+F 4 "DK" H 710 7350 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 810 7450 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 910 7550 50  0001 C CNN "PurchasingLink"
+	1    610  7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	660  6290 880  6290
+Connection ~ 880  6290
+Wire Wire Line
+	880  6290 880  6170
+Wire Wire Line
+	610  7450 770  7450
+Wire Wire Line
+	770  7450 770  7320
+Wire Wire Line
+	770  7320 880  7320
+Connection ~ 880  7320
+Wire Wire Line
+	880  7320 880  7160
 $EndSCHEMATC
