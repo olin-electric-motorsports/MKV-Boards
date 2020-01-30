@@ -1,4 +1,4 @@
-16592763050183829
+16602255618596829
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73143,6 +73143,13 @@ FC-135_3.2x1.5mm
 2
 2
 footprints
+F_2A_500V
+Fuse
+
+0
+2
+2
+footprints
 F_21mA_420V
 
 
@@ -73184,6 +73191,13 @@ Fuse TE5 Littlefuse/Wickmann No. 460 No560
 0
 2
 2
+footprints
+HO_60_250-p0100
+
+
+0
+9
+9
 footprints
 IHLP2020BZER4R7M11
 
@@ -73507,9 +73521,23 @@ connector Molex Nano-Fit side entry
 12
 12
 footprints
+OE Logo ft
+
+
+0
+0
+0
+footprints
 OLIN_O
 
 Olin O logo
+0
+0
+0
+footprints
+Olin_Electric_Smaller
+
+
 0
 0
 0
@@ -73611,6 +73639,13 @@ resistor 0805
 0
 2
 2
+footprints
+REDCUBE7461166
+
+
+0
+13
+12
 footprints
 RJ45-RightAngle
 
@@ -73884,6 +73919,13 @@ T_LAN_7490100111A
 0
 16
 16
+footprints
+TacoCorey
+
+
+0
+0
+0
 footprints
 Thermistor
 
