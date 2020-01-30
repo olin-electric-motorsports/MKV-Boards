@@ -46,9 +46,9 @@ GND
 Text Label 9050 2750 0    50   ~ 0
 12V
 Text Label 9050 750  0    50   ~ 0
-CAN-H
+CAN_P
 Text Label 9050 850  0    50   ~ 0
-CAN-L
+CAN_N
 Text Label 9050 1850 0    50   ~ 0
 BSDP-Current-Sense
 Text Label 9050 1450 0    50   ~ 0
@@ -135,8 +135,6 @@ F 6 "http://www.te.com/global-en/product-1-338068-4.html" H 4150 3850 60  0001 C
 	1    4150 2550
 	1    0    0    -1  
 $EndComp
-Text Label 4450 2000 0    50   ~ 0
-12V
 Text Label 4450 3600 0    50   ~ 0
 5V_BMS
 Text Label 4450 3700 0    50   ~ 0
@@ -197,56 +195,68 @@ $EndComp
 $Comp
 L formula:MicroFit_VT_6 U1
 U 1 1 5E1FDFE4
-P 6100 3450
-F 0 "U1" H 6158 3925 50  0000 C CNN
-F 1 "MicroFit_VT_6" H 6158 3834 50  0000 C CNN
-F 2 "footprints:MicroFit_VT_6" H 6100 3050 50  0001 C CNN
-F 3 "" H 6100 3450 50  0001 C CNN
-	1    6100 3450
+P 4200 5550
+F 0 "U1" H 4258 6025 50  0000 C CNN
+F 1 "MicroFit_VT_6" H 4258 5934 50  0000 C CNN
+F 2 "footprints:MicroFit_VT_6" H 4200 5150 50  0001 C CNN
+F 3 "" H 4200 5550 50  0001 C CNN
+	1    4200 5550
 	1    0    0    -1  
 $EndComp
 Text Label 6300 2550 0    50   ~ 0
 GND
-Text Label 6300 3200 0    50   ~ 0
+Text Label 4400 5300 0    50   ~ 0
 GND
 Text Label 6300 2650 0    50   ~ 0
 12V
 Text Label 6300 2750 0    50   ~ 0
-CAN-H
+CAN_P
 Text Label 6300 2850 0    50   ~ 0
-CAN-L
-Text Label 6300 3300 0    50   ~ 0
+CAN_N
+Text Label 4400 5500 0    50   ~ 0
 HVD->HVD-Connector
-Text Label 6300 3500 0    50   ~ 0
+Text Label 4400 5700 0    50   ~ 0
 IMD->TSMS
-Text Label 6300 3400 0    50   ~ 0
+Text Label 4400 5600 0    50   ~ 0
 TSMS->FinalShutdown
-Text Label 4450 2800 0    50   ~ 0
-TSAL-Green-Pos
-Text Label 4450 3000 0    50   ~ 0
-TSAL-Green-Neg
-Text Label 4450 3200 0    50   ~ 0
-TSAL-Red-Neg
-Text Label 4450 3100 0    50   ~ 0
-TSAL-Red-Pos
-Text Label 4450 2900 0    50   ~ 0
-TSAL-Green-Neg
-Text Label 4450 2700 0    50   ~ 0
-TSAL-Green-Pos
-Text Label 4450 2600 0    50   ~ 0
-ChargeEnable2
-Text Label 4450 2500 0    50   ~ 0
-ChargeEnable1
-Text Label 4450 2400 0    50   ~ 0
-FAN-PWM
-Text Label 4450 2300 0    50   ~ 0
-BSDP-Current-Sense
-Text Label 4450 2200 0    50   ~ 0
-CAN-L
-Text Label 4450 2100 0    50   ~ 0
-CAN-H
-Text Label 4450 1900 0    50   ~ 0
-GND
 Text Label 9050 2050 0    50   ~ 0
 GND
+Text Label 4450 3000 0    50   ~ 0
+CAN_P
+Text Label 4450 2900 0    50   ~ 0
+CAN_N
+Text Label 4450 1900 0    50   ~ 0
+BSDP-Current-Sense
+Text Label 4450 2100 0    50   ~ 0
+FAN-PWM
+Text Label 4450 2200 0    50   ~ 0
+ChargeEnable1
+Text Label 4450 2000 0    50   ~ 0
+ChargeEnable2
+Text Label 4450 2700 0    50   ~ 0
+TSAL-Green-Pos
+Text Label 4450 2400 0    50   ~ 0
+TSAL-Green-Neg
+Text Label 4450 2800 0    50   ~ 0
+TSAL-Red-Pos
+Text Label 4450 2500 0    50   ~ 0
+TSAL-Red-Neg
+Text Label 4450 3200 0    50   ~ 0
+GND
+Text Label 4450 2600 0    50   ~ 0
+TSAL-Green-Pos
+Text Label 4450 2300 0    50   ~ 0
+TSAL-Green-Neg
+Text Label 4450 3100 0    50   ~ 0
+12V
+Text Label 4400 5400 0    50   ~ 0
+12V
+Text Notes 3900 1450 0    118  ~ 0
+To Megaboard
+Text Notes 5800 2150 0    118  ~ 0
+To Emeter
+Text Notes 9500 3000 0    118  ~ 0
+To External
+Text Label 9050 2850 0    50   ~ 0
+12V
 $EndSCHEMATC
