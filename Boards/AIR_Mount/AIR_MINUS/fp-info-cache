@@ -1,4 +1,4 @@
-17200332813102829
+17200333156200829
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75447,7 +75447,7 @@ FC-135_3.2x1.5mm
 2
 footprints
 F_2A_500V
-
+Fuse
 
 0
 2
@@ -75936,13 +75936,6 @@ resistor 0805
 2
 2
 footprints
-REDCUBE7461166
-
-
-0
-13
-12
-footprints
 RJ45-RightAngle
 
 
@@ -76152,6 +76145,13 @@ SW_B3U-1000P_4.2x1.7mm
 0
 2
 2
+footprints
+Small_OE_Logo
+
+
+0
+0
+0
 footprints
 TE_1-776180-1_35_RA
 
