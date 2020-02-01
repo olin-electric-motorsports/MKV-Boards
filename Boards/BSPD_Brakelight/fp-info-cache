@@ -75362,6 +75362,16 @@ capacitor 1206
 2
 2
 footprints
+<<<<<<< HEAD
+C_1812_4532Metric
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+footprints
+=======
+>>>>>>> 628a1cdae382cf3bb1810458af81d75e7aaa852a
 C_Radial_D10_L13_P5_OEM
 
 
@@ -75460,6 +75470,16 @@ Fuse_1812
 2
 2
 footprints
+<<<<<<< HEAD
+Fuse_1812_4532Metric
+Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+footprints
+=======
+>>>>>>> 628a1cdae382cf3bb1810458af81d75e7aaa852a
 Fuse_Block_Holder
 
 
@@ -75474,6 +75494,23 @@ Fuse TE5 Littlefuse/Wickmann No. 460 No560
 2
 2
 footprints
+<<<<<<< HEAD
+IHLP2020BZER4R7M11
+
+
+0
+2
+2
+footprints
+IHLP2020BZER4R7M11-L_4.7_3.2A
+
+
+0
+2
+2
+footprints
+=======
+>>>>>>> 628a1cdae382cf3bb1810458af81d75e7aaa852a
 L78M05CDT-TR
 
 
@@ -75593,6 +75630,16 @@ MicroFit_RA_2_SMD
 4
 4
 footprints
+<<<<<<< HEAD
+MicroFit_RA_4
+Molex Micro-Fit 3.0 Connector System, 43045-0400 (compatible alternatives: 43045-0401, 43045-0402), 2 Pins per row (https://www.molex.com/pdm_docs/sd/430450200_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 top entry
+0
+4
+4
+footprints
+=======
+>>>>>>> 628a1cdae382cf3bb1810458af81d75e7aaa852a
 MicroFit_RA_06
 
 
@@ -76104,6 +76151,16 @@ D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
 5
 2
 footprints
+<<<<<<< HEAD
+TPS563208DDCR
+
+
+0
+6
+6
+footprints
+=======
+>>>>>>> 628a1cdae382cf3bb1810458af81d75e7aaa852a
 TQFP-32_7x7mm_Pitch0.8mm
 32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
 QFP 0.8

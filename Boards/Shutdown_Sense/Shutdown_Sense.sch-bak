@@ -1371,20 +1371,6 @@ F 3 "" H 1150 5270 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:LED_0805 D1
-U 1 1 5DF3040B
-P 12570 2460
-F 0 "D1" H 12608 2343 50  0000 R CNN
-F 1 "LED_0805" H 12720 2560 50  0000 R CNN
-F 2 "footprints:LED_0805_OEM" H 12470 2460 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12570 2560 50  0001 C CNN
-F 4 "DK" H 12570 2460 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 12570 2460 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 12970 2960 60  0001 C CNN "PurchasingLink"
-	1    12570 2460
-	-1   0    0    1   
-$EndComp
-$Comp
 L formula:LED_0805 D2
 U 1 1 5DF3D09B
 P 12570 2860
@@ -1525,8 +1511,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 13010 6680 60
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	12720 2460 12880 2460
-Wire Wire Line
 	12730 3230 12880 3230
 Wire Wire Line
 	12730 3600 12880 3600
@@ -1534,8 +1518,6 @@ Wire Wire Line
 	12730 3960 12880 3960
 Text Label 3450 7150 0    50   ~ 0
 SS_BSPD
-Text Label 3450 8350 0    50   ~ 0
-SS_GLV_Battery_Fuse
 Text Label 3450 7250 0    50   ~ 0
 SS_Crash_Sensor
 Text Label 3450 8450 0    50   ~ 0
@@ -1555,12 +1537,9 @@ SS_IMD
 Text Label 3450 7850 0    50   ~ 0
 SS_TSMS
 Wire Wire Line
-	12880 2460 12880 2860
-Wire Wire Line
 	12720 2860 12880 2860
 Wire Wire Line
 	12880 2860 12880 3230
-Connection ~ 12880 2860
 Wire Wire Line
 	12880 3230 12880 3600
 Connection ~ 12880 3230
@@ -1604,8 +1583,6 @@ Text Label 3450 9250 0    50   ~ 0
 SS_GLVMS_Pin
 Text Label 3450 9350 0    50   ~ 0
 SS_ESTOP_Pin
-Text Label 12120 2460 2    50   ~ 0
-SS_GLV_Battery_Fuse
 Text Label 12160 6180 2    50   ~ 0
 SS_BSPD
 Text Label 12160 5810 2    50   ~ 0
@@ -1698,10 +1675,10 @@ NoConn ~ 3450 8150
 NoConn ~ 3450 6850
 NoConn ~ 3450 6950
 $Comp
-L formula:R_200 R?
+L formula:R_200 R14
 U 1 1 5DF2A4EC
 P 12310 6180
-F 0 "R?" V 12103 6180 50  0000 C CNN
+F 0 "R14" V 12103 6180 50  0000 C CNN
 F 1 "R_200" V 12194 6180 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12240 6180 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 12390 6180 50  0001 C CNN
@@ -1712,10 +1689,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12790 6
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R13
 U 1 1 5DF2AF54
 P 12310 5810
-F 0 "R?" V 12103 5810 50  0000 C CNN
+F 0 "R13" V 12103 5810 50  0000 C CNN
 F 1 "R_200" V 12194 5810 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12240 5810 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 12390 5810 50  0001 C CNN
@@ -1726,10 +1703,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12790 6
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R12
 U 1 1 5DF2B639
 P 12300 5440
-F 0 "R?" V 12093 5440 50  0000 C CNN
+F 0 "R12" V 12093 5440 50  0000 C CNN
 F 1 "R_200" V 12184 5440 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12230 5440 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 12380 5440 50  0001 C CNN
@@ -1740,10 +1717,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12780 5
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R11
 U 1 1 5DF2BD36
 P 12290 5100
-F 0 "R?" V 12083 5100 50  0000 C CNN
+F 0 "R11" V 12083 5100 50  0000 C CNN
 F 1 "R_200" V 12174 5100 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12220 5100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 12370 5100 50  0001 C CNN
@@ -1754,10 +1731,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12770 5
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R10
 U 1 1 5DF2C33B
 P 12290 4730
-F 0 "R?" V 12083 4730 50  0000 C CNN
+F 0 "R10" V 12083 4730 50  0000 C CNN
 F 1 "R_200" V 12174 4730 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12220 4730 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 12370 4730 50  0001 C CNN
@@ -1768,10 +1745,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12770 5
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R9
 U 1 1 5DF2C9D4
 P 12280 4360
-F 0 "R?" V 12073 4360 50  0000 C CNN
+F 0 "R9" V 12073 4360 50  0000 C CNN
 F 1 "R_200" V 12164 4360 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12210 4360 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 12360 4360 50  0001 C CNN
@@ -1782,10 +1759,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12760 4
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R8
 U 1 1 5DF2CC9D
 P 12280 3960
-F 0 "R?" V 12073 3960 50  0000 C CNN
+F 0 "R8" V 12073 3960 50  0000 C CNN
 F 1 "R_200" V 12164 3960 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12210 3960 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 12360 3960 50  0001 C CNN
@@ -1796,10 +1773,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12760 4
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R7
 U 1 1 5DF2D03A
 P 12280 3600
-F 0 "R?" V 12073 3600 50  0000 C CNN
+F 0 "R7" V 12073 3600 50  0000 C CNN
 F 1 "R_200" V 12164 3600 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12210 3600 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 12360 3600 50  0001 C CNN
@@ -1810,10 +1787,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12760 4
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R6
 U 1 1 5DF2D2F9
 P 12280 3230
-F 0 "R?" V 12073 3230 50  0000 C CNN
+F 0 "R6" V 12073 3230 50  0000 C CNN
 F 1 "R_200" V 12164 3230 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12210 3230 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 12360 3230 50  0001 C CNN
@@ -1824,10 +1801,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12760 3
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R5
 U 1 1 5DF2D636
 P 12270 2860
-F 0 "R?" V 12063 2860 50  0000 C CNN
+F 0 "R5" V 12063 2860 50  0000 C CNN
 F 1 "R_200" V 12154 2860 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 12200 2860 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 12350 2860 50  0001 C CNN
@@ -1837,18 +1814,5 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12750 3
 	1    12270 2860
 	0    1    1    0   
 $EndComp
-$Comp
-L formula:R_200 R?
-U 1 1 5DF2D9E3
-P 12270 2460
-F 0 "R?" V 12063 2460 50  0000 C CNN
-F 1 "R_200" V 12154 2460 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 12200 2460 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 12350 2460 50  0001 C CNN
-F 4 "DK" H 12270 2460 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 12270 2460 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12750 2860 60  0001 C CNN "PurchasingLink"
-	1    12270 2460
-	0    1    1    0   
-$EndComp
+NoConn ~ 3450 8350
 $EndSCHEMATC
