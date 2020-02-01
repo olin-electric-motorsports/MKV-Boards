@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AIR_MINUS-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,20 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Formula:LI12-1A85(NO) K1
-U 1 1 5DAE5E76
-P 1400 1400
-F 0 "K1" V 1867 1400 50  0000 C CNN
-F 1 "LI12-1A85(NO)" V 1776 1400 50  0000 C CNN
-F 2 "footprints:Meder-LI12" H 1850 1350 50  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Meder%20PDFs/LI12-1A85_Spec.pdf" H 1850 1050 50  0001 L CNN
-F 4 "DK" H 2250 1950 60  0001 C CNN "MFN"
-F 5 "374-1110-ND" H 2150 1850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/LI12-1A85/374-1110-ND/655844" H 2350 2050 60  0001 C CNN "PurchasingLink"
-	1    1400 1400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Formula:SS110LW D1
 U 1 1 5DAE7FAE
@@ -51,13 +36,9 @@ Precharge-
 Text Label 1100 1600 2    50   ~ 0
 Precharge+
 Wire Wire Line
-	1700 1600 1700 2100
-Wire Wire Line
 	1700 2100 1550 2100
 Wire Wire Line
 	1250 2100 1100 2100
-Wire Wire Line
-	1100 2100 1100 1600
 $Comp
 L Formula:R_3K_HS R1
 U 1 1 5DAEBB45
@@ -84,23 +65,9 @@ Wire Notes Line
 	2150 2300 600  2300
 Wire Notes Line
 	600  2300 600  750 
-$Comp
-L Formula:200mA_Fuse F1
-U 1 1 5DAFEE05
-P 2800 1000
-F 0 "F1" H 2800 1225 50  0000 C CNN
-F 1 "200mA_Fuse" H 2800 1134 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 2750 1000 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2750 1000 50  0001 C CNN
-F 4 "507-1767-1-ND " H 2800 1225 50  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 2800 1224 50  0001 C CNN "PurchasingLink"
-F 6 "DK" H 2800 1133 50  0001 C CNN "MFN"
-	1    2800 1000
-	1    0    0    -1  
-$EndComp
-Text Label 3100 1000 0    50   ~ 0
+Text Label 3000 1000 0    50   ~ 0
 TS_Fused-
-Text Label 2500 1000 2    50   ~ 0
+Text Label 2700 1000 2    50   ~ 0
 TS-
 Text Label 3100 1950 0    50   ~ 0
 AUX+
@@ -193,24 +160,25 @@ F 3 "" H 4750 2700 50  0001 C CNN
 	1    4750 2700
 	1    0    0    -1  
 $EndComp
-Text Label 3750 3050 0    50   ~ 0
+Text Label 3200 2900 0    50   ~ 0
 TS_Fused-
 $Comp
 L Formula:MicroFit_RA_4 J3
 U 1 1 5DF102AC
-P 3550 3100
-F 0 "J3" H 3608 3475 50  0000 C CNN
-F 1 "MicroFit_RA_4" H 3608 3384 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_4" H 3550 2800 50  0001 C CNN
-F 3 "" H 3550 3100 100 0001 C CNN
-	1    3550 3100
+P 3000 2950
+F 0 "J3" H 3058 3325 50  0000 C CNN
+F 1 "MicroFit_RA_4" H 3058 3234 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_4" H 3000 2650 50  0001 C CNN
+F 3 "" H 3000 2950 100 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/molex/0430450400/WM1814-ND/252527" H 3000 2950 50  0001 C CNN "Purchasing Link"
+	1    3000 2950
 	1    0    0    -1  
 $EndComp
-Text Label 3750 2950 0    50   ~ 0
+Text Label 3200 2800 0    50   ~ 0
 TS_Fused-
-Text Label 3750 3150 0    50   ~ 0
+Text Label 3200 3000 0    50   ~ 0
 TSMP-
-Text Label 3750 3250 0    50   ~ 0
+Text Label 3200 3100 0    50   ~ 0
 TS_Fused-
 $Comp
 L Formula:HO_60_250-p0100 U2
@@ -237,4 +205,62 @@ NoConn ~ 6000 3000
 NoConn ~ 6000 3100
 NoConn ~ 6000 3200
 NoConn ~ 6000 3300
+$Comp
+L Formula:F_2A_500V F1
+U 1 1 5E2BB207
+P 2850 1000
+F 0 "F1" H 2850 1225 50  0000 C CNN
+F 1 "F_2A_500V" H 2850 1134 50  0000 C CNN
+F 2 "footprints:F_2A_500V" H 2750 800 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_885_datasheet.pdf.pdf" V 2850 1000 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/0885002.DR/F10988CT-ND/8345702" H 2850 800 50  0001 C CNN "Digikey"
+	1    2850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Formula:redcude_7461166 J4
+U 1 1 5E2F97D2
+P 5100 1100
+F 0 "J4" H 5158 1325 50  0000 C CNN
+F 1 "redcude_7461166" H 5158 1234 50  0000 C CNN
+F 2 "footprints:redcube_7461166" H 5100 900 50  0001 C CNN
+F 3 "we-online.de/katalog/datasheet/7461166.pdf" H 5100 1000 50  0001 C CNN
+	1    5100 1100
+	1    0    0    -1  
+$EndComp
+Text Label 5250 1100 0    50   ~ 0
+TS-
+$Comp
+L Formula:redcude_7461166 J5
+U 1 1 5E2FA0CC
+P 5150 1550
+F 0 "J5" H 5208 1775 50  0000 C CNN
+F 1 "redcude_7461166" H 5208 1684 50  0000 C CNN
+F 2 "footprints:redcube_7461166" H 5150 1350 50  0001 C CNN
+F 3 "we-online.de/katalog/datasheet/7461166.pdf" H 5150 1450 50  0001 C CNN
+	1    5150 1550
+	1    0    0    -1  
+$EndComp
+Text Label 5300 1550 0    50   ~ 0
+BAT-
+Text Label 800  1300 2    50   ~ 0
+BAT-
+$Comp
+L Formula:LI12-1A85(NO) K1
+U 1 1 5DAE5E76
+P 1400 1400
+F 0 "K1" V 1867 1400 50  0000 C CNN
+F 1 "LI12-1A85(NO)" V 1776 1400 50  0000 C CNN
+F 2 "footprints:Meder-LI12" H 1850 1350 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Meder%20PDFs/LI12-1A85_Spec.pdf" H 1850 1050 50  0001 L CNN
+F 4 "DK" H 2250 1950 60  0001 C CNN "MFN"
+F 5 "374-1110-ND" H 2150 1850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/LI12-1A85/374-1110-ND/655844" H 2350 2050 60  0001 C CNN "PurchasingLink"
+	1    1400 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 1600 1700 2100
+Wire Wire Line
+	1100 1600 1100 2100
 $EndSCHEMATC
