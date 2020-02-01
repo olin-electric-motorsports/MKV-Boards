@@ -167,17 +167,17 @@ Text Label 2950 1150 0    50   ~ 0
 GND
 Text Label 2950 1250 0    50   ~ 0
 12V
-Text Label 2950 1450 0    50   ~ 0
-MISO
-Text Label 2950 1550 0    50   ~ 0
-MOSI
 Text Label 2950 1650 0    50   ~ 0
-SCK
+MISO
 Text Label 2950 1750 0    50   ~ 0
-RESET
+MOSI
 Text Label 2950 1850 0    50   ~ 0
-CAN HIGH
+SCK
 Text Label 2950 1950 0    50   ~ 0
+RESET
+Text Label 2950 1350 0    50   ~ 0
+CAN HIGH
+Text Label 2950 1450 0    50   ~ 0
 CAN LOW
 Text Label 2950 2050 0    50   ~ 0
 BRAKE PRESSURE +
@@ -866,7 +866,7 @@ F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 3850 6750 60  0001 C CN
 $EndComp
 Wire Wire Line
 	2950 1150 3400 1150
-Text Label 2950 1350 0    50   ~ 0
+Text Label 2950 1550 0    50   ~ 0
 5V
 Text Label 4000 4350 0    50   ~ 0
 GND
