@@ -1006,47 +1006,23 @@ F 1 "GND" H 8905 1427 50  0000 C CNN
 F 2 "" H 8900 1600 50  0001 C CNN
 F 3 "" H 8900 1600 50  0001 C CNN
 	1    8900 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DF07920
-P 8700 3500
-F 0 "#PWR?" H 8700 3250 50  0001 C CNN
-F 1 "GND" H 8705 3327 50  0000 C CNN
-F 2 "" H 8700 3500 50  0001 C CNN
-F 3 "" H 8700 3500 50  0001 C CNN
-	1    8700 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DF08E68
-P 8700 2600
-F 0 "#PWR?" H 8700 2350 50  0001 C CNN
-F 1 "GND" H 8705 2427 50  0000 C CNN
-F 2 "" H 8700 2600 50  0001 C CNN
-F 3 "" H 8700 2600 50  0001 C CNN
-	1    8700 2600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	8550 2600 8700 2600
-Wire Wire Line
-	8550 3500 8700 3500
 Text Label 6000 4850 2    50   ~ 0
 BattConn1
 Text Notes 4950 4550 0    89   ~ 0
 Battery Connection Screw Terminal\n
-Text Label 7500 2300 2    50   ~ 0
+Text Label 4850 1550 2    50   ~ 0
 BattConn1
-Text Label 7500 2100 2    50   ~ 0
+Text Label 6550 1550 2    50   ~ 0
 BattConn2
-Text Label 7500 1900 2    50   ~ 0
+Text Label 6550 1350 2    50   ~ 0
 BattConn3
-Text Label 7500 1700 2    50   ~ 0
+Text Label 6550 1150 2    50   ~ 0
 BattConn4
-Text Label 7500 1500 2    50   ~ 0
+Text Label 6550 950  2    50   ~ 0
 BattConn5
 Text Label 6000 4950 2    50   ~ 0
 BattConn2
@@ -1058,7 +1034,7 @@ Text Label 6000 5250 2    50   ~ 0
 BattConn5
 Text Notes 7900 4050 0    89   ~ 0
 Temperature Measurement Circuit\n
-Text Label 7500 2700 2    50   ~ 0
+Text Label 5400 2700 2    50   ~ 0
 AVSSGnd
 Wire Wire Line
 	8550 3400 8700 3400
@@ -1066,7 +1042,7 @@ Text Label 8700 3400 0    50   ~ 0
 ThermVOut1
 Wire Wire Line
 	8550 1600 8900 1600
-Text Label 8800 1700 3    50   ~ 0
+Text Label 8800 1700 0    50   ~ 0
 5VThermIn
 Wire Wire Line
 	8550 1700 8800 1700
@@ -1255,6 +1231,237 @@ F 3 "~" H 6200 4950 50  0001 C CNN
 $EndComp
 Text Label 6000 4750 2    50   ~ 0
 BattConn0
-Text Label 7500 2600 2    50   ~ 0
+Text Label 4850 2550 2    50   ~ 0
 BattConn0
+Wire Wire Line
+	8550 2100 8800 2100
+Text Label 8800 2100 0    50   ~ 0
+BMSTXOut
+Text Label 8700 2600 0    50   ~ 0
+AGND
+NoConn ~ 9250 2800
+Wire Wire Line
+	8550 1300 8800 1300
+Wire Wire Line
+	8800 1300 8800 1150
+$Comp
+L formula:R_100 R?
+U 1 1 5E3F7C3C
+P 8800 1000
+F 0 "R?" H 8870 1046 50  0000 L CNN
+F 1 "R_100" H 8870 955 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 8000 1150 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 8500 1500 50  0001 C CNN
+F 4 "DK" H 8800 1000 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 8150 1250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 9280 1400 60  0001 C CNN "PurchasingLink"
+	1    8800 1000
+	1    0    0    -1  
+$EndComp
+Text Label 8800 850  0    50   ~ 0
+BattConn0
+Wire Wire Line
+	8550 3500 8700 3500
+Text Label 8700 3500 0    50   ~ 0
+DCGND
+Text Label 4850 2250 2    50   ~ 0
+BattConn1
+Text Label 6550 1450 2    50   ~ 0
+BattConn2
+Text Label 6550 1250 2    50   ~ 0
+BattConn3
+Text Label 6550 1050 2    50   ~ 0
+BattConn4
+Text Label 6550 850  2    50   ~ 0
+BattConn5
+Text Label 6550 750  2    50   ~ 0
+BattConn6
+Text Label 6550 650  2    50   ~ 0
+BattConn6
+Wire Wire Line
+	7500 2700 5400 2700
+$Comp
+L formula:R_100 R_X
+U 1 1 5E44F336
+P 5000 2550
+F 0 "R_X" V 5000 2550 50  0000 C CNN
+F 1 "R_X" V 4884 2550 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 4200 2700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 4700 3050 50  0001 C CNN
+F 4 "DK" H 5000 2550 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 4350 2800 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 5480 2950 60  0001 C CNN "PurchasingLink"
+	1    5000 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_100 R_Y
+U 1 1 5E45E05D
+P 6700 1250
+F 0 "R_Y" V 6700 1250 50  0000 C CNN
+F 1 "R_X" V 6584 1250 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 5900 1400 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 6400 1750 50  0001 C CNN
+F 4 "DK" H 6700 1250 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 6050 1500 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7180 1650 60  0001 C CNN "PurchasingLink"
+	1    6700 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_100 R_Y?
+U 1 1 5E48D5C4
+P 5000 1550
+F 0 "R_Y?" V 5000 1550 50  0000 C CNN
+F 1 "R_X" V 4884 1550 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 4200 1700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 4700 2050 50  0001 C CNN
+F 4 "DK" H 5000 1550 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 4350 1800 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 5480 1950 60  0001 C CNN "PurchasingLink"
+	1    5000 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_100 R_X?
+U 1 1 5E495E55
+P 5000 2250
+F 0 "R_X?" V 5000 2250 50  0000 C CNN
+F 1 "R_X" V 4884 2250 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 4200 2400 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 4700 2750 50  0001 C CNN
+F 4 "DK" H 5000 2250 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 4350 2500 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 5480 2650 60  0001 C CNN "PurchasingLink"
+	1    5000 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_100 R_X?
+U 1 1 5E49AD31
+P 6700 1550
+F 0 "R_X?" V 6700 1550 50  0000 C CNN
+F 1 "R_X" V 6584 1550 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 5900 1700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 6400 2050 50  0001 C CNN
+F 4 "DK" H 6700 1550 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 6050 1800 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7180 1950 60  0001 C CNN "PurchasingLink"
+	1    6700 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_100 R_X?
+U 1 1 5E49D209
+P 6700 1350
+F 0 "R_X?" V 6700 1350 50  0000 C CNN
+F 1 "R_X" V 6584 1350 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 5900 1500 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 6400 1850 50  0001 C CNN
+F 4 "DK" H 6700 1350 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 6050 1600 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7180 1750 60  0001 C CNN "PurchasingLink"
+	1    6700 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_100 R_X?
+U 1 1 5E49F865
+P 6700 1150
+F 0 "R_X?" V 6700 1150 50  0000 C CNN
+F 1 "R_X" V 6584 1150 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 5900 1300 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 6400 1650 50  0001 C CNN
+F 4 "DK" H 6700 1150 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 6050 1400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7180 1550 60  0001 C CNN "PurchasingLink"
+	1    6700 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_100 R_Y?
+U 1 1 5E48FA1C
+P 6700 1450
+F 0 "R_Y?" V 6700 1450 50  0000 C CNN
+F 1 "R_X" V 6584 1450 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 5900 1600 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 6400 1950 50  0001 C CNN
+F 4 "DK" H 6700 1450 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 6050 1700 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7180 1850 60  0001 C CNN "PurchasingLink"
+	1    6700 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_100 R_Y?
+U 1 1 5E4BE669
+P 6700 1050
+F 0 "R_Y?" V 6700 1050 50  0000 C CNN
+F 1 "R_X" V 6584 1050 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 5900 1200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 6400 1550 50  0001 C CNN
+F 4 "DK" H 6700 1050 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 6050 1300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7180 1450 60  0001 C CNN "PurchasingLink"
+	1    6700 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:C_0.8uF C?
+U 1 1 5E4DA8D6
+P 5900 1750
+F 0 "C?" H 6015 1796 50  0000 L CNN
+F 1 "C_0.8uF" H 6015 1705 50  0000 L CNN
+F 2 "" H 5900 1750 50  0001 C CNN
+F 3 "" H 5900 1750 50  0001 C CNN
+	1    5900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_0.47uF C?
+U 1 1 5E4D531A
+P 5450 2400
+F 0 "C?" H 5565 2446 50  0000 L CNN
+F 1 "C_0.47uF" H 5565 2355 50  0000 L CNN
+F 2 "" H 5450 2400 50  0001 C CNN
+F 3 "" H 5450 2400 50  0001 C CNN
+	1    5450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_100 R_Y?
+U 1 1 5E491DC0
+P 6600 2050
+F 0 "R_Y?" V 6600 2050 50  0000 C CNN
+F 1 "R_X" V 6484 2050 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 5800 2200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 6300 2550 50  0001 C CNN
+F 4 "DK" H 6600 2050 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD100RCT-ND" H 5950 2300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7080 2450 60  0001 C CNN "PurchasingLink"
+	1    6600 2050
+	0    1    1    0   
+$EndComp
+Text Label 6450 2050 2    50   ~ 0
+BattConn0
+Wire Wire Line
+	5150 2250 5450 2250
+Wire Wire Line
+	5450 2250 5450 2300
+Connection ~ 5450 2250
+Wire Wire Line
+	5150 2550 5450 2550
+Wire Wire Line
+	5450 2550 5450 2600
+Connection ~ 5450 2550
+Wire Wire Line
+	7000 2250 7000 2300
+Wire Wire Line
+	7000 2300 7500 2300
+Wire Wire Line
+	5450 2250 7000 2250
+Wire Wire Line
+	5450 2550 7500 2550
+Wire Wire Line
+	7500 2550 7500 2500
 $EndSCHEMATC
