@@ -133,8 +133,6 @@ Text Label 1200 3550 0    50   ~ 0
 E-STOP-R > BSPD
 Text Label 1200 3650 0    50   ~ 0
 FUSE > E-STOP-L
-Text Label 1200 3950 0    50   ~ 0
-COOLING PUMP +
 Text Label 1200 4150 0    50   ~ 0
 COOLING PUMP LSD
 Text Label 1250 6000 0    50   ~ 0
@@ -167,17 +165,17 @@ Text Label 2950 1150 0    50   ~ 0
 GND
 Text Label 2950 1250 0    50   ~ 0
 12V
-Text Label 2950 1450 0    50   ~ 0
-MISO
-Text Label 2950 1550 0    50   ~ 0
-MOSI
 Text Label 2950 1650 0    50   ~ 0
-SCK
+MISO
 Text Label 2950 1750 0    50   ~ 0
-RESET
+MOSI
 Text Label 2950 1850 0    50   ~ 0
-CAN HIGH
+SCK
 Text Label 2950 1950 0    50   ~ 0
+RESET
+Text Label 2950 1350 0    50   ~ 0
+CAN HIGH
+Text Label 2950 1450 0    50   ~ 0
 CAN LOW
 Text Label 2950 2050 0    50   ~ 0
 BRAKE PRESSURE +
@@ -866,7 +864,7 @@ F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 3850 6750 60  0001 C CN
 $EndComp
 Wire Wire Line
 	2950 1150 3400 1150
-Text Label 2950 1350 0    50   ~ 0
+Text Label 2950 1550 0    50   ~ 0
 5V
 Text Label 4000 4350 0    50   ~ 0
 GND
@@ -1013,19 +1011,6 @@ F 3 "" H 6200 4750 50  0001 C CNN
 $EndComp
 Text Notes 5200 4100 0    100  ~ 0
 GLV Gas Guage\n\n
-$Comp
-L formula:Fuse_Holder_Blade U4
-U 1 1 5DE372EC
-P 3300 7500
-F 0 "U4" H 3300 7725 50  0000 C CNN
-F 1 "Fuse_Holder_Blade" H 3300 7634 50  0000 C CNN
-F 2 "footprints:Fuse_Block_Holder" H 3300 7500 50  0001 C CNN
-F 3 "" H 3300 7500 50  0001 C CNN
-	1    3300 7500
-	1    0    0    -1  
-$EndComp
-Text Label 3050 7500 2    50   ~ 0
-COOLING PUMP +
 Wire Wire Line
 	6200 6900 6200 6950
 $Comp
@@ -1041,8 +1026,6 @@ F 3 "" H 6200 6950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 6900 6200 6900
-Text Label 1200 4050 0    50   ~ 0
-12V_Cooling_Out
 Text Label 5450 2250 0    50   ~ 0
 EXTRA TEMP 1 +
 Text Label 5450 2350 0    50   ~ 0
@@ -1316,8 +1299,27 @@ Wire Wire Line
 	3550 7100 3700 7100
 Wire Wire Line
 	3700 7100 3700 6910
-Text Label 3550 7500 0    50   ~ 0
-12V_Cooling_Out
 Wire Wire Line
 	3100 5550 3100 5650
+Text Label 1200 3950 0    50   ~ 0
+BATT+
+Text Label 1200 4050 0    50   ~ 0
+BATT-
+Wire Wire Line
+	1200 3950 1200 3850
+Wire Wire Line
+	1200 4050 2050 4050
+Wire Wire Line
+	2050 4050 2050 4150
+$Comp
+L power:GND #PWR0101
+U 1 1 5E37698A
+P 2050 4150
+F 0 "#PWR0101" H 2050 3900 50  0001 C CNN
+F 1 "GND" H 2055 3977 50  0000 C CNN
+F 2 "" H 2050 4150 50  0001 C CNN
+F 3 "" H 2050 4150 50  0001 C CNN
+	1    2050 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
