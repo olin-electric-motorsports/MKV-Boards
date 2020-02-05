@@ -106,9 +106,9 @@ Text Label 1200 2150 0    50   ~ 0
 Text Label 1200 2250 0    50   ~ 0
 GND
 Text Label 1200 2350 0    50   ~ 0
-CAN HIGH
+CAN +
 Text Label 1200 2450 0    50   ~ 0
-CAN LOW
+CAN -
 Text Label 1200 2550 0    50   ~ 0
 12V
 Text Label 1200 2650 0    50   ~ 0
@@ -122,9 +122,9 @@ BSPD TEST SWITCH -
 Text Label 1250 5900 0    50   ~ 0
 BSPD CURRENT SENSE
 Text Label 1200 3150 0    50   ~ 0
-CAN HIGH
+CAN +
 Text Label 1200 3250 0    50   ~ 0
-CAN LOW
+CAN -
 Text Label 1200 3350 0    50   ~ 0
 CAN_GND
 Text Label 1200 3450 0    50   ~ 0
@@ -144,9 +144,9 @@ MOTOR TEMP +
 Text Label 1200 4350 0    50   ~ 0
 MOTOR TEMP -
 Text Label 1250 6400 0    50   ~ 0
-CAN LOW
+CAN -
 Text Label 1250 6300 0    50   ~ 0
-CAN HIGH
+CAN +
 Text Label 1200 4450 0    50   ~ 0
 MC TEMP +
 Text Label 1200 4550 0    50   ~ 0
@@ -174,9 +174,9 @@ SCK
 Text Label 2950 1950 0    50   ~ 0
 RESET
 Text Label 2950 1350 0    50   ~ 0
-CAN HIGH
+CAN +
 Text Label 2950 1450 0    50   ~ 0
-CAN LOW
+CAN -
 Text Label 2950 2050 0    50   ~ 0
 BRAKE PRESSURE +
 Text Label 2950 2150 0    50   ~ 0
@@ -204,17 +204,17 @@ GND
 Text Label 4400 1250 0    50   ~ 0
 12V
 Text Label 4400 1350 0    50   ~ 0
-CAN HIGH
+CAN +
 Text Label 4400 1450 0    50   ~ 0
-CAN LOW
+CAN -
 Text Label 3700 7100 0    50   ~ 0
 SS GLVMS
 Text Label 5450 1250 0    50   ~ 0
 12V
 Text Label 5450 1350 0    50   ~ 0
-CAN HIGH
+CAN +
 Text Label 5450 1450 0    50   ~ 0
-CAN LOW
+CAN -
 Text Label 5450 1550 0    50   ~ 0
 COOLING PUMP LSD
 Text Label 5450 1650 0    50   ~ 0
@@ -231,12 +231,10 @@ Text Label 5450 2150 0    50   ~ 0
 MC TEMP -
 Text Label 8250 2150 0    50   ~ 0
 12V
-Text Label 8250 2050 0    50   ~ 0
-GND
 Text Label 8250 2250 0    50   ~ 0
-CAN HIGH
+CAN +
 Text Label 8250 2350 0    50   ~ 0
-CAN LOW
+CAN -
 Text Label 3100 4450 0    50   ~ 0
 12V
 Text Label 3100 4350 0    50   ~ 0
@@ -244,11 +242,11 @@ GND
 Text Label 6050 6900 0    50   ~ 0
 BATTERY RETURN (GND)
 Text Label 3100 4650 0    50   ~ 0
-CAN LOW
+CAN -
 Text Label 7370 4870 2    50   ~ 0
-CAN HIGH
+CAN +
 Text Label 7370 4770 2    50   ~ 0
-CAN LOW
+CAN -
 Text Label 7370 4970 2    50   ~ 0
 RESET
 Text Label 7370 5070 2    50   ~ 0
@@ -346,20 +344,6 @@ F 3 "" H 3300 7100 50  0001 C CNN
 $EndComp
 Text Label 3700 6910 0    50   ~ 0
 FUSE > E-STOP-L
-$Comp
-L formula:G5Q-1A4-DC5-5V K1
-U 1 1 5DD236A4
-P 10200 4900
-F 0 "K1" V 10667 4900 50  0000 C CNN
-F 1 "G5Q-1A4-DC5-5V" V 10576 4900 50  0000 C CNN
-F 2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" H 10650 4850 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" H 10650 4550 50  0001 L CNN
-F 4 "DK" H 11050 5450 60  0001 C CNN "MFN"
-F 5 "Z3632-ND" H 10950 5350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q-1A4-DC5/Z3632-ND/1815721" H 11150 5550 60  0001 C CNN "PurchasingLink"
-	1    10200 4900
-	0    -1   -1   0   
-$EndComp
 Text Label 9850 4650 2    50   ~ 0
 E-STOP-R > BSPD
 Text Label 10550 4650 0    50   ~ 0
@@ -390,15 +374,11 @@ F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/
 	1    10200 5600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10500 5100 10500 5600
-Wire Wire Line
-	9900 5100 9900 5600
 $Comp
-L formula:MM_M_VT_20 J10
+L formula:MM_M_VT_20 J9
 U 1 1 5DD2492D
 P 10050 2250
-F 0 "J10" H 10006 3597 60  0000 C CNN
+F 0 "J9" H 10006 3597 60  0000 C CNN
 F 1 "MM_M_VT_20" H 10006 3491 60  0000 C CNN
 F 2 "footprints:micromatch_female_ra_20" H 9850 3350 60  0001 C CNN
 F 3 "" H 9950 3450 60  0001 C CNN
@@ -411,9 +391,9 @@ $EndComp
 Text Label 10200 1250 0    50   ~ 0
 12V
 Text Label 10200 1350 0    50   ~ 0
-CAN HIGH
+CAN +
 Text Label 10200 1450 0    50   ~ 0
-CAN LOW
+CAN -
 Wire Wire Line
 	1200 1150 1650 1150
 Wire Wire Line
@@ -799,9 +779,9 @@ Text Label 8260 1090 0    50   ~ 0
 Text Label 8260 1190 0    50   ~ 0
 GND
 Text Label 8260 1290 0    50   ~ 0
-CAN HIGH
+CAN +
 Text Label 8260 1390 0    50   ~ 0
-CAN LOW
+CAN -
 Text Notes 7830 900  0    100  ~ 0
 Data Logger\n\n
 $Comp
@@ -845,23 +825,8 @@ Wire Wire Line
 	9800 5050 9800 5100
 Wire Wire Line
 	9800 5100 9900 5100
-Connection ~ 9900 5100
 Wire Notes Line
 	6970 6520 6970 3750
-$Comp
-L formula:MM_F_RA_20 J12
-U 1 1 5DE272AA
-P 3850 5450
-F 0 "J12" H 3806 6797 60  0000 C CNN
-F 1 "MM_F_RA_20" H 3806 6691 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_20" H 3650 6550 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 3750 6650 60  0001 C CNN
-F 4 "TE" H 3950 6850 60  0001 C CNN "MFN"
-F 5 "2-338070-0" H 4050 6950 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 3850 6750 60  0001 C CNN "PurchasingLink"
-	1    3850 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2950 1150 3400 1150
 Text Label 2950 1550 0    50   ~ 0
@@ -878,23 +843,6 @@ Text Label 4000 5350 0    50   ~ 0
 SCK_GLV
 Text Label 4000 5250 0    50   ~ 0
 CS_GLV
-Wire Wire Line
-	8250 2050 8500 2050
-Wire Wire Line
-	8500 1850 8650 1850
-$Comp
-L power:GND #PWR031
-U 1 1 5DE45B97
-P 8650 1850
-F 0 "#PWR031" H 8650 1600 50  0001 C CNN
-F 1 "GND" H 8655 1677 50  0000 C CNN
-F 2 "" H 8650 1850 50  0001 C CNN
-F 3 "" H 8650 1850 50  0001 C CNN
-	1    8650 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 1850 8500 2050
 Text Label 3100 5050 0    50   ~ 0
 MISO_GLV
 Text Label 3100 5150 0    50   ~ 0
@@ -923,7 +871,7 @@ F 3 "" H 3450 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3100 4550 0    50   ~ 0
-CAN HIGH
+CAN +
 Wire Wire Line
 	3300 4350 3100 4350
 Text Label 4000 4950 0    50   ~ 0
@@ -931,9 +879,9 @@ SCL_GLV
 Text Label 4000 4850 0    50   ~ 0
 SDA_GLV
 Text Label 4000 4650 0    50   ~ 0
-CAN LOW
+CAN -
 Text Label 4000 4550 0    50   ~ 0
-CAN HIGH
+CAN +
 Wire Wire Line
 	4200 4350 4200 4200
 Wire Wire Line
@@ -953,60 +901,60 @@ Wire Wire Line
 	4200 4350 4000 4350
 Text Label 3100 4750 0    50   ~ 0
 5V_GLV
-Text Label 6100 4450 0    50   ~ 0
+Text Label 6100 4650 0    50   ~ 0
 SCL_GLV
-Text Label 6100 4550 0    50   ~ 0
+Text Label 6100 4750 0    50   ~ 0
 SDA_GLV
 $Comp
 L formula:INA260 U5
 U 1 1 5DE32AE6
-P 5700 4550
-F 0 "U5" H 5400 5050 50  0000 C CNN
-F 1 "INA260" H 5450 4950 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5700 3950 50  0001 C CNN
-F 3 "" H 5700 4450 50  0001 C CNN
-	1    5700 4550
+P 5700 4750
+F 0 "U5" H 5400 5250 50  0000 C CNN
+F 1 "INA260" H 5450 5150 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5700 4150 50  0001 C CNN
+F 3 "" H 5700 4650 50  0001 C CNN
+	1    5700 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR025
 U 1 1 5DE32AED
-P 5700 4950
-F 0 "#PWR025" H 5700 4700 50  0001 C CNN
-F 1 "GND" H 5705 4777 50  0000 C CNN
-F 2 "" H 5700 4950 50  0001 C CNN
-F 3 "" H 5700 4950 50  0001 C CNN
-	1    5700 4950
+P 5700 5150
+F 0 "#PWR025" H 5700 4900 50  0001 C CNN
+F 1 "GND" H 5705 4977 50  0000 C CNN
+F 2 "" H 5700 5150 50  0001 C CNN
+F 3 "" H 5700 5150 50  0001 C CNN
+	1    5700 5150
 	1    0    0    -1  
 $EndComp
-Text Label 5300 4750 2    50   ~ 0
+Text Label 5300 4950 2    50   ~ 0
 12V
-Text Label 5300 4350 2    50   ~ 0
+Text Label 5300 4550 2    50   ~ 0
 12V_Fused
 Wire Wire Line
-	5300 4350 5300 4450
-Text Label 5700 4150 0    50   ~ 0
+	5300 4550 5300 4650
+Text Label 5750 4200 2    50   ~ 0
 5V_GLV
-Text Label 6100 4350 0    50   ~ 0
+Text Label 6100 4550 0    50   ~ 0
 ALERT_GLV
 Wire Wire Line
-	6100 4650 6100 4700
+	6100 4850 6100 4900
 Wire Wire Line
-	6100 4700 6200 4700
+	6100 4900 6200 4900
 Wire Wire Line
-	6200 4700 6200 4750
-Connection ~ 6100 4700
+	6200 4900 6200 4950
+Connection ~ 6100 4900
 Wire Wire Line
-	6100 4700 6100 4750
+	6100 4900 6100 4950
 $Comp
 L power:GND #PWR029
 U 1 1 5DE32AFD
-P 6200 4750
-F 0 "#PWR029" H 6200 4500 50  0001 C CNN
-F 1 "GND" H 6205 4577 50  0000 C CNN
-F 2 "" H 6200 4750 50  0001 C CNN
-F 3 "" H 6200 4750 50  0001 C CNN
-	1    6200 4750
+P 6200 4950
+F 0 "#PWR029" H 6200 4700 50  0001 C CNN
+F 1 "GND" H 6205 4777 50  0000 C CNN
+F 2 "" H 6200 4950 50  0001 C CNN
+F 3 "" H 6200 4950 50  0001 C CNN
+	1    6200 4950
 	1    0    0    -1  
 $EndComp
 Text Notes 5200 4100 0    100  ~ 0
@@ -1071,30 +1019,6 @@ F 3 "" H 3250 5650 50  0001 C CNN
 	1    3250 5650
 	1    0    0    -1  
 $EndComp
-Connection ~ 4000 5450
-Wire Wire Line
-	4000 5450 4000 5550
-Connection ~ 4000 5550
-Wire Wire Line
-	4000 5550 4000 5650
-Connection ~ 4000 5650
-Wire Wire Line
-	4000 5650 4000 5750
-Connection ~ 4000 5750
-Wire Wire Line
-	4000 5750 4000 5850
-Connection ~ 4000 5850
-Wire Wire Line
-	4000 5850 4000 5950
-Connection ~ 4000 5950
-Wire Wire Line
-	4000 5950 4000 6050
-Connection ~ 4000 6050
-Wire Wire Line
-	4000 6050 4000 6150
-Connection ~ 4000 6150
-Wire Wire Line
-	4000 6150 4000 6250
 Wire Wire Line
 	4000 5450 4150 5450
 $Comp
@@ -1151,150 +1075,18 @@ Wire Wire Line
 	9900 5600 10050 5600
 Wire Notes Line
 	9300 500  9300 3750
-Wire Wire Line
-	3100 6150 3100 6250
-Connection ~ 3100 6150
-Wire Wire Line
-	3100 6050 3100 6150
-Connection ~ 3100 6050
-Wire Wire Line
-	3100 5950 3100 6050
-Connection ~ 3100 5950
-Wire Wire Line
-	3100 5850 3100 5950
-Connection ~ 3100 5850
-Wire Wire Line
-	3100 5650 3100 5750
-Wire Wire Line
-	3100 5750 3100 5850
-Connection ~ 3100 5750
-$Comp
-L formula:MM_F_RA_20 J5
-U 1 1 5DE502F2
-P 2950 5450
-F 0 "J5" H 2906 6797 60  0000 C CNN
-F 1 "MM_F_RA_20" H 2906 6691 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_20" H 2750 6550 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 2850 6650 60  0001 C CNN
-F 4 "TE" H 3050 6850 60  0001 C CNN "MFN"
-F 5 "2-338070-0" H 3150 6950 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 2950 6750 60  0001 C CNN "PurchasingLink"
-	1    2950 5450
-	1    0    0    -1  
-$EndComp
 Text Label 3100 5450 0    50   ~ 0
 ALERT_GLV
 Text Label 4000 4750 0    50   ~ 0
 5V_GLV
-Text Notes 6600 750  0    100  ~ 0
-Spare\n
-Wire Wire Line
-	6900 1100 7100 1100
-$Comp
-L power:GND #PWR020
-U 1 1 5DD3ADB8
-P 7250 900
-F 0 "#PWR020" H 7250 650 50  0001 C CNN
-F 1 "GND" H 7255 727 50  0000 C CNN
-F 2 "" H 7250 900 50  0001 C CNN
-F 3 "" H 7250 900 50  0001 C CNN
-	1    7250 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7100 900  7250 900 
-Wire Wire Line
-	7100 1100 7100 900 
-Text Label 6900 1100 0    50   ~ 0
-GND
-Wire Wire Line
-	7050 1500 6900 1500
-$Comp
-L power:GND #PWR019
-U 1 1 5DD2FA65
-P 7050 1500
-F 0 "#PWR019" H 7050 1250 50  0001 C CNN
-F 1 "GND" H 7055 1327 50  0000 C CNN
-F 2 "" H 7050 1500 50  0001 C CNN
-F 3 "" H 7050 1500 50  0001 C CNN
-	1    7050 1500
-	1    0    0    -1  
-$EndComp
-Text Label 6900 1400 0    50   ~ 0
-CAN LOW
-Text Label 6900 1300 0    50   ~ 0
-CAN HIGH
-Text Label 6900 1200 0    50   ~ 0
-12V
-Connection ~ 6900 1900
-Wire Wire Line
-	6900 1800 6900 1900
-Connection ~ 6900 1800
-Wire Wire Line
-	6900 1700 6900 1800
-Connection ~ 6900 1700
-Wire Wire Line
-	6900 1600 6900 1700
-Wire Wire Line
-	6900 1500 6900 1600
-Connection ~ 6900 1600
-Connection ~ 6900 1500
-Wire Wire Line
-	6900 2900 6900 3000
-Connection ~ 6900 2900
-Wire Wire Line
-	6900 2800 6900 2900
-Connection ~ 6900 2800
-Wire Wire Line
-	6900 2700 6900 2800
-Connection ~ 6900 2700
-Wire Wire Line
-	6900 2600 6900 2700
-Connection ~ 6900 2600
-Wire Wire Line
-	6900 2500 6900 2600
-Connection ~ 6900 2500
-Wire Wire Line
-	6900 2400 6900 2500
-Connection ~ 6900 2400
-Wire Wire Line
-	6900 2300 6900 2400
-Connection ~ 6900 2300
-Wire Wire Line
-	6900 2200 6900 2300
-Connection ~ 6900 2200
-Wire Wire Line
-	6900 2100 6900 2200
-Connection ~ 6900 2100
-Wire Wire Line
-	6900 2000 6900 2100
-Wire Wire Line
-	6900 1900 6900 2000
-Connection ~ 6900 2000
-$Comp
-L formula:MM_M_VT_20 J9
-U 1 1 5DD2488B
-P 6750 2200
-F 0 "J9" H 6706 3547 60  0000 C CNN
-F 1 "MM_M_VT_20" H 6706 3441 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_20" H 6550 3300 60  0001 C CNN
-F 3 "" H 6650 3400 60  0001 C CNN
-F 4 "TE" H 6850 3600 60  0001 C CNN "MFN"
-F 5 "2-215464-0" H 6950 3700 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 6750 3500 60  0001 C CNN "PurchasingLink"
-	1    6750 2200
-	1    0    0    -1  
-$EndComp
 Text Label 1200 3850 0    50   ~ 0
-TO_GLVMS
+BATT+>GLVMS
 Text Label 1200 3750 0    50   ~ 0
-From_GLVMS
-Text Label 6050 6800 0    50   ~ 0
-TO_GLVMS
+GLVMS>FUSE
 Text Label 3050 6750 2    50   ~ 0
-From_GLVMS
+GLVMS>FUSE
 Text Label 3050 7100 2    50   ~ 0
-From_GLVMS
+GLVMS>FUSE
 Wire Wire Line
 	3550 7100 3700 7100
 Wire Wire Line
@@ -1322,4 +1114,282 @@ F 3 "" H 2050 4150 50  0001 C CNN
 	1    2050 4150
 	1    0    0    -1  
 $EndComp
+Text Label 8250 2050 0    50   ~ 0
+GND
+Wire Wire Line
+	8250 2050 8500 2050
+$Comp
+L power:GND #PWR019
+U 1 1 5E3A7892
+P 8650 1850
+F 0 "#PWR019" H 8650 1600 50  0001 C CNN
+F 1 "GND" H 8655 1677 50  0000 C CNN
+F 2 "" H 8650 1850 50  0001 C CNN
+F 3 "" H 8650 1850 50  0001 C CNN
+	1    8650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MM_M_VT_20 J5
+U 1 1 5E3D2F35
+P 2950 5450
+F 0 "J5" H 2906 6797 60  0000 C CNN
+F 1 "MM_M_VT_20" H 2906 6691 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_20" H 2750 6550 60  0001 C CNN
+F 3 "" H 2850 6650 60  0001 C CNN
+F 4 "TE" H 3050 6850 60  0001 C CNN "MFN"
+F 5 "2-215464-0" H 3150 6950 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 2950 6750 60  0001 C CNN "PurchasingLink"
+	1    2950 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 6150 3100 6250
+$Comp
+L formula:MM_M_VT_20 J12
+U 1 1 5E3D3274
+P 3850 5450
+F 0 "J12" H 3806 6797 60  0000 C CNN
+F 1 "MM_M_VT_20" H 3806 6691 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_20" H 3650 6550 60  0001 C CNN
+F 3 "" H 3750 6650 60  0001 C CNN
+F 4 "TE" H 3950 6850 60  0001 C CNN "MFN"
+F 5 "2-215464-0" H 4050 6950 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 3850 6750 60  0001 C CNN "PurchasingLink"
+	1    3850 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 6150 4000 6250
+Text Label 5250 6300 0    50   ~ 0
+SCL_GLV
+Text Label 5250 6400 0    50   ~ 0
+SDA_GLV
+Text Label 5250 6200 0    50   ~ 0
+ALERT_GLV
+Wire Wire Line
+	5250 6200 5650 6200
+Wire Wire Line
+	5650 6200 5650 6100
+$Comp
+L formula:R_10K R2
+U 1 1 5E40A919
+P 5650 5950
+F 0 "R2" H 5800 5900 50  0000 R CNN
+F 1 "R_10K" H 5950 6000 50  0000 R CNN
+F 2 "footprints:R_0805_OEM" H 5580 5950 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5730 5950 50  0001 C CNN
+F 4 "DK" H 5650 5950 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 5650 5950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6130 6350 60  0001 C CNN "PurchasingLink"
+	1    5650 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L formula:R_10K R3
+U 1 1 5E40A923
+P 6050 5950
+F 0 "R3" H 5950 6000 50  0000 R CNN
+F 1 "R_10K" H 5950 5900 50  0000 R CNN
+F 2 "footprints:R_0805_OEM" H 5980 5950 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6130 5950 50  0001 C CNN
+F 4 "DK" H 6050 5950 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 6050 5950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6530 6350 60  0001 C CNN "PurchasingLink"
+	1    6050 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_10K R4
+U 1 1 5E40A92D
+P 6450 5950
+F 0 "R4" H 6600 5900 50  0000 R CNN
+F 1 "R_10K" H 6750 6000 50  0000 R CNN
+F 2 "footprints:R_0805_OEM" H 6380 5950 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6530 5950 50  0001 C CNN
+F 4 "DK" H 6450 5950 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 6450 5950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6930 6350 60  0001 C CNN "PurchasingLink"
+	1    6450 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 6100 6050 6300
+Wire Wire Line
+	6450 6100 6450 6400
+Wire Wire Line
+	5250 6400 6450 6400
+Wire Wire Line
+	5250 6300 6050 6300
+Wire Wire Line
+	5650 5800 6050 5800
+Connection ~ 6050 5800
+Wire Wire Line
+	6050 5800 6450 5800
+Text Label 6050 5650 0    50   ~ 0
+5V_GLV
+Wire Wire Line
+	6050 5650 6050 5800
+Text Notes 5150 5550 0    100  ~ 0
+Pull up resistors
+$Comp
+L formula:R_1K R1
+U 1 1 5E3A4FD4
+P 4900 5100
+F 0 "R1" H 4970 5146 50  0000 L CNN
+F 1 "R_1K" H 4970 5055 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 4830 5100 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 4980 5100 50  0001 C CNN
+F 4 "DK" H 4900 5100 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 4900 5100 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 5380 5500 60  0001 C CNN "PurchasingLink"
+	1    4900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LED_0805 D3
+U 1 1 5E3A510C
+P 4900 5400
+F 0 "D3" V 4900 5600 50  0000 R CNN
+F 1 "LED_0805" V 4800 5800 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 4800 5400 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 4900 5500 50  0001 C CNN
+F 4 "DK" H 4900 5400 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 4900 5400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 5300 5900 60  0001 C CNN "PurchasingLink"
+	1    4900 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 4950 4900 4950
+$Comp
+L power:GND #PWR026
+U 1 1 5E3A935D
+P 4900 5550
+F 0 "#PWR026" H 4900 5300 50  0001 C CNN
+F 1 "GND" H 4905 5377 50  0000 C CNN
+F 2 "" H 4900 5550 50  0001 C CNN
+F 3 "" H 4900 5550 50  0001 C CNN
+	1    4900 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:D_Zener_18V D2
+U 1 1 5E3A9454
+P 2750 7250
+F 0 "D2" V 2796 7171 50  0000 R CNN
+F 1 "D_Zener_18V" V 2705 7171 50  0000 R CNN
+F 2 "footprints:DO-214AA" H 2650 7250 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 2750 7350 50  0001 C CNN
+F 4 "DK" H 2950 7550 60  0001 C CNN "MFN"
+F 5 "SMBJ5355B-TPMSCT-ND" H 2850 7450 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 3150 7750 60  0001 C CNN "PurchasingLink"
+	1    2750 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5E3AD81A
+P 2750 7400
+F 0 "#PWR020" H 2750 7150 50  0001 C CNN
+F 1 "GND" H 2755 7227 50  0000 C CNN
+F 2 "" H 2750 7400 50  0001 C CNN
+F 3 "" H 2750 7400 50  0001 C CNN
+	1    2750 7400
+	1    0    0    -1  
+$EndComp
+Text Label 6050 6800 0    50   ~ 0
+BATT+>GLVMS
+$Comp
+L formula:C_0.1uF C1
+U 1 1 5E3B64D5
+P 5900 4200
+F 0 "C1" V 5750 4200 50  0000 C CNN
+F 1 "C_0.1uF" V 6050 4200 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 5938 4050 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5925 4300 50  0001 C CNN
+F 4 "DK" H 5900 4200 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 5900 4200 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 6325 4700 60  0001 C CNN "PurchasingLink"
+	1    5900 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 4200 5700 4200
+Wire Wire Line
+	5700 4200 5700 4350
+Wire Wire Line
+	6050 4200 6300 4200
+Wire Wire Line
+	6300 4200 6300 4250
+$Comp
+L power:GND #PWR030
+U 1 1 5E3C3629
+P 6300 4250
+F 0 "#PWR030" H 6300 4000 50  0001 C CNN
+F 1 "GND" H 6305 4077 50  0000 C CNN
+F 2 "" H 6300 4250 50  0001 C CNN
+F 3 "" H 6300 4250 50  0001 C CNN
+	1    6300 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 5650 3100 5750
+Connection ~ 3100 6150
+Connection ~ 3100 5750
+Wire Wire Line
+	3100 5750 3100 5850
+Connection ~ 3100 5850
+Wire Wire Line
+	3100 5850 3100 5950
+Connection ~ 3100 5950
+Wire Wire Line
+	3100 5950 3100 6050
+Connection ~ 3100 6050
+Wire Wire Line
+	3100 6050 3100 6150
+Wire Wire Line
+	4000 5450 4000 5550
+Connection ~ 4000 5450
+Connection ~ 4000 6150
+Connection ~ 4000 5550
+Wire Wire Line
+	4000 5550 4000 5650
+Connection ~ 4000 5650
+Wire Wire Line
+	4000 5650 4000 5750
+Connection ~ 4000 5750
+Wire Wire Line
+	4000 5750 4000 5850
+Connection ~ 4000 5850
+Wire Wire Line
+	4000 5850 4000 5950
+Connection ~ 4000 5950
+Wire Wire Line
+	4000 5950 4000 6050
+Connection ~ 4000 6050
+Wire Wire Line
+	4000 6050 4000 6150
+Wire Wire Line
+	8500 1850 8650 1850
+Wire Wire Line
+	8500 1850 8500 2050
+Wire Wire Line
+	2750 7100 3050 7100
+$Comp
+L formula:G5Q-1A4-DC12 K1
+U 1 1 5E40187F
+P 10200 4900
+F 0 "K1" V 10667 4900 50  0000 C CNN
+F 1 "G5Q-1A4-DC12" V 10576 4900 50  0000 C CNN
+F 2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" H 10200 4350 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" H 10200 4500 50  0001 C CNN
+	1    10200 4900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9900 5100
+Wire Wire Line
+	10500 5100 10500 5600
+Wire Wire Line
+	9900 5100 9900 5600
 $EndSCHEMATC
