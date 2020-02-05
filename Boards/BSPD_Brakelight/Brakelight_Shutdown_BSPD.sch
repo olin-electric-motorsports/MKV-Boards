@@ -1273,37 +1273,36 @@ F 3 "" H 7740 2960 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7430 2670 7430 3210
-NoConn ~ 3450 6850
-Text Label 4350 7250 0    50   ~ 0
+Text Label 4350 6950 0    50   ~ 0
 RJ45_LED_O
-Text Label 4350 7150 0    50   ~ 0
+Text Label 4350 6850 0    50   ~ 0
 RJ45_LED_G
 $Comp
 L formula:R_200 R41
 U 1 1 5C6A3DFA
-P 4200 7150
-F 0 "R41" V 3993 7150 50  0000 C CNN
-F 1 "R_200" V 4084 7150 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 4130 7150 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4280 7150 50  0001 C CNN
-F 4 "DK" H 4200 7150 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 4200 7150 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4680 7550 60  0001 C CNN "PurchasingLink"
-	1    4200 7150
+P 4200 6850
+F 0 "R41" V 3993 6850 50  0000 C CNN
+F 1 "R_200" V 4084 6850 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4130 6850 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4280 6850 50  0001 C CNN
+F 4 "DK" H 4200 6850 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 4200 6850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4680 7250 60  0001 C CNN "PurchasingLink"
+	1    4200 6850
 	0    1    1    0   
 $EndComp
 $Comp
 L formula:R_200 R42
 U 1 1 5C6A40BE
-P 4200 7250
-F 0 "R42" V 4030 7250 50  0000 C CNN
-F 1 "R_200" V 4130 7250 50  0000 C BNN
-F 2 "footprints:R_0805_OEM" H 4130 7250 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4280 7250 50  0001 C CNN
-F 4 "DK" H 4200 7250 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 4200 7250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4680 7650 60  0001 C CNN "PurchasingLink"
-	1    4200 7250
+P 4200 6950
+F 0 "R42" V 4030 6950 50  0000 C CNN
+F 1 "R_200" V 4130 6950 50  0000 C BNN
+F 2 "footprints:R_0805_OEM" H 4130 6950 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4280 6950 50  0001 C CNN
+F 4 "DK" H 4200 6950 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 4200 6950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4680 7350 60  0001 C CNN "PurchasingLink"
+	1    4200 6950
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 3450 7850
@@ -1473,11 +1472,11 @@ Text Label 11470 3580 2    50   ~ 0
 DEBUG_LED_2
 Text Label 11470 3170 2    50   ~ 0
 DEBUG_LED_3
-Text Label 3450 9250 0    50   ~ 0
+Text Label 3450 7350 0    50   ~ 0
 DEBUG_LED_1
-Text Label 3450 9350 0    50   ~ 0
+Text Label 3450 7450 0    50   ~ 0
 DEBUG_LED_2
-Text Label 3450 7050 0    50   ~ 0
+Text Label 3450 7550 0    50   ~ 0
 DEBUG_LED_3
 $Comp
 L power:GND #PWR0112
@@ -2246,9 +2245,6 @@ F 7 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3450 8650
-NoConn ~ 3450 7350
-NoConn ~ 3450 7450
-NoConn ~ 3450 7550
 Wire Wire Line
 	3450 9550 4110 9550
 Wire Notes Line
@@ -2394,9 +2390,9 @@ Wire Notes Line
 Text Notes 10770 3010 0    50   ~ 0
 Debugging LEDs
 Wire Wire Line
-	3450 7150 4050 7150
+	3450 6850 4050 6850
 Wire Wire Line
-	4050 7250 3450 7250
+	4050 6950 3450 6950
 Wire Notes Line
 	590  6560 590  10390
 Wire Notes Line
@@ -2619,7 +2615,7 @@ Wire Wire Line
 Connection ~ 6930 6460
 Wire Wire Line
 	6930 6460 6930 6520
-Text Label 3450 9150 0    50   ~ 0
+Text Label 3450 8450 0    50   ~ 0
 SHUTDOWN_SENSE_BSPD_PIN
 Text Label 1210 6070 0    50   ~ 0
 BSPD_CURRENT_SENSE
@@ -2633,12 +2629,11 @@ Wire Notes Line
 	8260 7780 8260 5810
 Text Notes 5130 5920 0    50   ~ 0
 Shutdown Sense
-Text Label 3450 6950 0    50   ~ 0
+Text Label 3450 9150 0    50   ~ 0
 BSPD_RELAY_INTENTION
 NoConn ~ 3450 8750
 Text Label 3450 8250 0    50   ~ 0
 BRAKELIGHT_GATE
-NoConn ~ 3450 8450
 $Comp
 L formula:C_0.1uF C13
 U 1 1 5DD366E8
@@ -2845,4 +2840,9 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 6490 9
 	1    6010 9030
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3450 7150
+NoConn ~ 3450 7250
+NoConn ~ 3450 7050
+NoConn ~ 3450 9250
+NoConn ~ 3450 9350
 $EndSCHEMATC
