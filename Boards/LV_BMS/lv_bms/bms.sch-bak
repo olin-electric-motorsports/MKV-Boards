@@ -1849,4 +1849,8 @@ Wire Wire Line
 	8650 1600 8800 1600
 Text Label 8650 1550 0    50   ~ 0
 VLAV
+Wire Wire Line
+	7500 2800 6650 2800
+Text Label 6650 2800 0    50   ~ 0
+wtfhomie
 $EndSCHEMATC
