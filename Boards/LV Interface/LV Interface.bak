@@ -92,6 +92,8 @@ F 0 "J3" H 8106 2575 50  0000 C CNN
 F 1 "MicroFit_VT_4" H 8106 2484 50  0000 C CNN
 F 2 "footprints:MicroFit_VT_4" H 8050 1900 50  0001 C CNN
 F 3 "" H 8050 2150 50  0001 C CNN
+F 4 "430450414" H 0   0   50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/molex/0430450414/WM1796-ND/252509" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    8050 2200
 	1    0    0    -1  
 $EndComp
@@ -207,7 +209,7 @@ Text Label 4400 1350 0    50   ~ 0
 CAN +
 Text Label 4400 1450 0    50   ~ 0
 CAN -
-Text Label 3700 7100 0    50   ~ 0
+Text Label 3650 6750 0    50   ~ 0
 SS GLVMS
 Text Label 5450 1250 0    50   ~ 0
 12V
@@ -229,7 +231,7 @@ Text Label 5450 2050 0    50   ~ 0
 MC TEMP +
 Text Label 5450 2150 0    50   ~ 0
 MC TEMP -
-Text Label 8250 2150 0    50   ~ 0
+Text Label 8250 2050 0    50   ~ 0
 12V
 Text Label 8250 2250 0    50   ~ 0
 CAN +
@@ -321,28 +323,26 @@ Connection ~ 8360 5590
 $Comp
 L formula:Fuse_Holder_Blade U2
 U 1 1 5DD22CED
-P 3300 6750
-F 0 "U2" H 3300 6975 50  0000 C CNN
-F 1 "Fuse_Holder_Blade" H 3300 6884 50  0000 C CNN
-F 2 "footprints:Fuse_Block_Holder" H 3300 6750 50  0001 C CNN
-F 3 "" H 3300 6750 50  0001 C CNN
-	1    3300 6750
+P 3250 7100
+F 0 "U2" H 3250 7325 50  0000 C CNN
+F 1 "Fuse_Holder_Blade" H 3250 7234 50  0000 C CNN
+F 2 "footprints:Fuse_Block_Holder" H 3250 7100 50  0001 C CNN
+F 3 "" H 3250 7100 50  0001 C CNN
+	1    3250 7100
 	1    0    0    -1  
 $EndComp
-Text Label 3550 6750 0    50   ~ 0
-12V_Fused
 $Comp
 L formula:Fuse_Holder_Blade U3
 U 1 1 5DD23405
-P 3300 7100
-F 0 "U3" H 3300 7325 50  0000 C CNN
-F 1 "Fuse_Holder_Blade" H 3300 7234 50  0000 C CNN
-F 2 "footprints:Fuse_Block_Holder" H 3300 7100 50  0001 C CNN
-F 3 "" H 3300 7100 50  0001 C CNN
-	1    3300 7100
+P 3250 6750
+F 0 "U3" H 3250 6975 50  0000 C CNN
+F 1 "Fuse_Holder_Blade" H 3250 6884 50  0000 C CNN
+F 2 "footprints:Fuse_Block_Holder" H 3250 6750 50  0001 C CNN
+F 3 "" H 3250 6750 50  0001 C CNN
+	1    3250 6750
 	1    0    0    -1  
 $EndComp
-Text Label 3700 6910 0    50   ~ 0
+Text Label 3650 6560 0    50   ~ 0
 FUSE > E-STOP-L
 Text Label 9850 4650 2    50   ~ 0
 E-STOP-R > BSPD
@@ -374,10 +374,6 @@ F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/
 	1    10200 5600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10500 5100 10500 5600
-Wire Wire Line
-	9900 5100 9900 5600
 $Comp
 L formula:MM_M_VT_20 J9
 U 1 1 5DD2492D
@@ -770,21 +766,23 @@ BSPD RELAY LSD
 $Comp
 L formula:MicroFit_VT_4 J11
 U 1 1 5DDEC071
-P 8060 1240
-F 0 "J11" H 8116 1615 50  0000 C CNN
-F 1 "MicroFit_VT_4" H 8116 1524 50  0000 C CNN
-F 2 "footprints:MicroFit_VT_4" H 8060 940 50  0001 C CNN
-F 3 "" H 8060 1190 50  0001 C CNN
-	1    8060 1240
+P 8050 1250
+F 0 "J11" H 8106 1625 50  0000 C CNN
+F 1 "MicroFit_VT_4" H 8106 1534 50  0000 C CNN
+F 2 "footprints:MicroFit_VT_4" H 8050 950 50  0001 C CNN
+F 3 "" H 8050 1200 50  0001 C CNN
+F 4 "430450414" H 0   0   50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/molex/0430450414/WM1796-ND/252509" H 0   0   50  0001 C CNN "PurchasingLink"
+	1    8050 1250
 	1    0    0    -1  
 $EndComp
-Text Label 8260 1090 0    50   ~ 0
+Text Label 8250 1100 0    50   ~ 0
 12V
-Text Label 8260 1190 0    50   ~ 0
+Text Label 8250 1200 0    50   ~ 0
 GND
-Text Label 8260 1290 0    50   ~ 0
+Text Label 8250 1300 0    50   ~ 0
 CAN +
-Text Label 8260 1390 0    50   ~ 0
+Text Label 8250 1400 0    50   ~ 0
 CAN -
 Text Notes 7830 900  0    100  ~ 0
 Data Logger\n\n
@@ -917,6 +915,9 @@ F 0 "U5" H 5400 5250 50  0000 C CNN
 F 1 "INA260" H 5450 5150 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5700 4150 50  0001 C CNN
 F 3 "" H 5700 4650 50  0001 C CNN
+F 4 "DK" H 0   0   50  0001 C CNN "MFN"
+F 5 "296-47777-1-ND" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/INA260AIPWR/296-47777-1-ND/8133126" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    5700 4750
 	1    0    0    -1  
 $EndComp
@@ -933,7 +934,7 @@ F 3 "" H 5700 5150 50  0001 C CNN
 $EndComp
 Text Label 5300 4950 2    50   ~ 0
 12V
-Text Label 5300 4550 2    50   ~ 0
+Text Label 3550 7100 0    50   ~ 0
 12V_Fused
 Wire Wire Line
 	5300 4550 5300 4650
@@ -1087,14 +1088,12 @@ Text Label 1200 3850 0    50   ~ 0
 BATT+>GLVMS
 Text Label 1200 3750 0    50   ~ 0
 GLVMS>FUSE
-Text Label 3050 6750 2    50   ~ 0
+Text Label 3000 7100 2    50   ~ 0
 GLVMS>FUSE
-Text Label 3050 7100 2    50   ~ 0
+Text Label 3000 6750 2    50   ~ 0
 GLVMS>FUSE
 Wire Wire Line
-	3550 7100 3700 7100
-Wire Wire Line
-	3700 7100 3700 6910
+	3650 6750 3650 6560
 Wire Wire Line
 	3100 5550 3100 5650
 Text Label 1200 3950 0    50   ~ 0
@@ -1118,19 +1117,19 @@ F 3 "" H 2050 4150 50  0001 C CNN
 	1    2050 4150
 	1    0    0    -1  
 $EndComp
-Text Label 8250 2050 0    50   ~ 0
+Text Label 8250 2150 0    50   ~ 0
 GND
 Wire Wire Line
-	8250 2050 8500 2050
+	8250 2150 8500 2150
 $Comp
 L power:GND #PWR019
 U 1 1 5E3A7892
-P 8650 1850
-F 0 "#PWR019" H 8650 1600 50  0001 C CNN
-F 1 "GND" H 8655 1677 50  0000 C CNN
-F 2 "" H 8650 1850 50  0001 C CNN
-F 3 "" H 8650 1850 50  0001 C CNN
-	1    8650 1850
+P 8650 1950
+F 0 "#PWR019" H 8650 1700 50  0001 C CNN
+F 1 "GND" H 8655 1777 50  0000 C CNN
+F 2 "" H 8650 1950 50  0001 C CNN
+F 3 "" H 8650 1950 50  0001 C CNN
+	1    8650 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1280,27 +1279,16 @@ $EndComp
 $Comp
 L formula:D_Zener_18V D2
 U 1 1 5E3A9454
-P 2750 7250
-F 0 "D2" V 2796 7171 50  0000 R CNN
-F 1 "D_Zener_18V" V 2705 7171 50  0000 R CNN
-F 2 "footprints:DO-214AA" H 2650 7250 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 2750 7350 50  0001 C CNN
-F 4 "DK" H 2950 7550 60  0001 C CNN "MFN"
-F 5 "SMBJ5355B-TPMSCT-ND" H 2850 7450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 3150 7750 60  0001 C CNN "PurchasingLink"
-	1    2750 7250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR020
-U 1 1 5E3AD81A
-P 2750 7400
-F 0 "#PWR020" H 2750 7150 50  0001 C CNN
-F 1 "GND" H 2755 7227 50  0000 C CNN
-F 2 "" H 2750 7400 50  0001 C CNN
-F 3 "" H 2750 7400 50  0001 C CNN
-	1    2750 7400
-	1    0    0    -1  
+P 3700 7250
+F 0 "D2" V 3750 7050 50  0000 R CNN
+F 1 "D_Zener_18V" V 3850 7200 50  0000 R CNN
+F 2 "footprints:DO-214AA" H 3600 7250 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 3700 7350 50  0001 C CNN
+F 4 "DK" H 3900 7550 60  0001 C CNN "MFN"
+F 5 "SMBJ5355B-TPMSCT-ND" H 3800 7450 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 4100 7750 60  0001 C CNN "PurchasingLink"
+	1    3700 7250
+	0    1    1    0   
 $EndComp
 Text Label 6050 6800 0    50   ~ 0
 BATT+>GLVMS
@@ -1375,21 +1363,138 @@ Connection ~ 4000 6050
 Wire Wire Line
 	4000 6050 4000 6150
 Wire Wire Line
-	8500 1850 8650 1850
+	8500 1950 8650 1950
 Wire Wire Line
-	8500 1850 8500 2050
+	8500 1950 8500 2150
 Wire Wire Line
-	2750 7100 3050 7100
+	2700 6750 3000 6750
 $Comp
-L formula:G5Q-1A4-DC12 K?
+L formula:G5Q-1A4-DC12 K1
 U 1 1 5E40187F
-P 10200 5000
-F 0 "K?" V 9633 5000 50  0000 C CNN
-F 1 "G5Q-1A4-DC12" V 9724 5000 50  0000 C CNN
-F 2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" H 10200 4450 50  0001 C CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" H 10200 4600 50  0001 C CNN
-	1    10200 5000
-	0    1    1    0   
+P 10200 4900
+F 0 "K1" V 10667 4900 50  0000 C CNN
+F 1 "G5Q-1A4-DC12" V 10576 4900 50  0000 C CNN
+F 2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" H 10200 4350 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" H 10200 4500 50  0001 C CNN
+	1    10200 4900
+	0    -1   -1   0   
 $EndComp
 Connection ~ 9900 5100
+Wire Wire Line
+	10500 5100 10500 5600
+Wire Wire Line
+	9900 5100 9900 5600
+$Comp
+L formula:D_Zener_18V D4
+U 1 1 5E460DF5
+P 4350 6950
+F 0 "D4" H 4300 6850 50  0000 R CNN
+F 1 "D_Zener_18V" H 4600 7100 50  0000 R CNN
+F 2 "footprints:DO-214AA" H 4250 6950 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 4350 7050 50  0001 C CNN
+F 4 "DK" H 4550 7250 60  0001 C CNN "MFN"
+F 5 "SMBJ5355B-TPMSCT-ND" H 4450 7150 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 4750 7450 60  0001 C CNN "PurchasingLink"
+	1    4350 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5E460DFC
+P 4350 7100
+F 0 "#PWR031" H 4350 6850 50  0001 C CNN
+F 1 "GND" H 4355 6927 50  0000 C CNN
+F 2 "" H 4350 7100 50  0001 C CNN
+F 3 "" H 4350 7100 50  0001 C CNN
+	1    4350 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 6750 4350 6800
+Connection ~ 3650 6750
+Wire Wire Line
+	3650 6750 4350 6750
+Wire Wire Line
+	3500 6750 3650 6750
+Wire Wire Line
+	3500 7100 3700 7100
+$Comp
+L power:GND #PWR020
+U 1 1 5E4AB6D3
+P 3700 7400
+F 0 "#PWR020" H 3700 7150 50  0001 C CNN
+F 1 "GND" H 3705 7227 50  0000 C CNN
+F 2 "" H 3700 7400 50  0001 C CNN
+F 3 "" H 3700 7400 50  0001 C CNN
+	1    3700 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP1
+U 1 1 5E4ABBC4
+P 6600 1400
+F 0 "TP1" H 6678 1510 50  0000 L CNN
+F 1 "Test_Point_SMD" H 6678 1419 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 6600 1400 50  0001 C CNN
+F 3 "" H 6600 1400 50  0001 C CNN
+	1    6600 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1600 6600 1600
+Wire Wire Line
+	6600 1600 6600 1450
+$Comp
+L formula:Test_Point_SMD TP?
+U 1 1 5E4D2492
+P 6600 900
+F 0 "TP?" H 6678 1010 50  0000 L CNN
+F 1 "Test_Point_SMD" H 6678 919 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 6600 900 50  0001 C CNN
+F 3 "" H 6600 900 50  0001 C CNN
+	1    6600 900 
+	1    0    0    -1  
+$EndComp
+Text Label 6750 1100 0    50   ~ 0
+12V
+Wire Wire Line
+	6750 1100 6600 1100
+Wire Wire Line
+	6600 1100 6600 950 
+$Comp
+L formula:Test_Point_SMD TP?
+U 1 1 5E4D8424
+P 6600 2450
+F 0 "TP?" H 6678 2560 50  0000 L CNN
+F 1 "Test_Point_SMD" H 6678 2469 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 6600 2450 50  0001 C CNN
+F 3 "" H 6600 2450 50  0001 C CNN
+	1    6600 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2650 6600 2650
+Wire Wire Line
+	6600 2650 6600 2500
+$Comp
+L formula:Test_Point_SMD TP?
+U 1 1 5E4D842E
+P 6600 1950
+F 0 "TP?" H 6678 2060 50  0000 L CNN
+F 1 "Test_Point_SMD" H 6678 1969 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 6600 1950 50  0001 C CNN
+F 3 "" H 6600 1950 50  0001 C CNN
+	1    6600 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2150 6600 2150
+Wire Wire Line
+	6600 2150 6600 2000
+Text Label 6750 1600 0    50   ~ 0
+GND
+Text Label 6750 2150 0    50   ~ 0
+CAN +
+Text Label 6750 2650 0    50   ~ 0
+CAN -
 $EndSCHEMATC
