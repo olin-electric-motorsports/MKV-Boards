@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jgreenberg/Documents/Formula/MKV-Boards/Boards/Shutdown_Sense/Shutdown_Sense.sch</source>
-    <date>Thu 12 Dec 2019 08:19:18 PM EST</date>
+    <date>Thu 23 Jan 2020 07:17:35 PM EST</date>
     <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1161,7 +1161,7 @@
         <field name="Reference">L</field>
         <field name="Value">L_100uH</field>
         <field name="Footprint">footprints:L_100uH_OEM</field>
-        <field name="MFN">Digikey</field>
+        <field name="MFN">DK</field>
         <field name="MPN">445-15759-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055</field>
       </fields>
@@ -1416,7 +1416,7 @@
         <field name="Footprint">footprints:SOT-23-6_OEM</field>
         <field name="MPN">TPS560430YFDBVR-ND</field>
         <field name="MFN">DK</field>
-        <field name="Purchasing Link">https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813</field>
       </fields>
       <pins>
         <pin num="1" name="CB" type="BiDi"/>
