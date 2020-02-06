@@ -949,17 +949,17 @@ $EndComp
 $Comp
 L formula:F_500mA_16V F?
 U 1 1 5CC79462
-P 5610 8730
+P 5460 8730
 AR Path="/5CC68CC1/5CC79462" Ref="F?"  Part="1" 
 AR Path="/5CC79462" Ref="F101"  Part="1" 
-F 0 "F101" V 5710 8730 50  0000 C CNN
-F 1 "F_500mA_16V" V 5460 8730 50  0000 C CNN
-F 2 "footprints:Fuse_1210" V 5540 8730 50  0001 C CNN
-F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 5690 8730 50  0001 C CNN
-F 4 "DK" H 5610 8730 60  0001 C CNN "MFN"
-F 5 "507-1786-1-ND" H 5610 8730 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 6090 9130 60  0001 C CNN "PurchasingLink"
-	1    5610 8730
+F 0 "F101" V 5560 8730 50  0000 C CNN
+F 1 "F_500mA_16V" V 5310 8730 50  0000 C CNN
+F 2 "footprints:Fuse_1210" V 5390 8730 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 5540 8730 50  0001 C CNN
+F 4 "DK" H 5460 8730 60  0001 C CNN "MFN"
+F 5 "507-1786-1-ND" H 5460 8730 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 5940 9130 60  0001 C CNN "PurchasingLink"
+	1    5460 8730
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1026,36 +1026,36 @@ $EndComp
 $Comp
 L formula:D_Zener_18V D?
 U 1 1 5CC79490
-P 5310 9330
+P 5610 9330
 AR Path="/5CC68CC1/5CC79490" Ref="D?"  Part="1" 
 AR Path="/5CC79490" Ref="D101"  Part="1" 
-F 0 "D101" H 5260 9530 50  0000 C CNN
-F 1 "D_Zener_18V" H 5160 9430 50  0000 C CNN
-F 2 "footprints:DO-214AA" H 5210 9330 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 5310 9430 50  0001 C CNN
-F 4 "DK" H 5510 9630 60  0001 C CNN "MFN"
-F 5 "SMBJ5355B-TPMSCT-ND" H 5410 9530 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 5710 9830 60  0001 C CNN "PurchasingLink"
-	1    5310 9330
+F 0 "D101" H 5560 9530 50  0000 C CNN
+F 1 "D_Zener_18V" H 5460 9430 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 5510 9330 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 5610 9430 50  0001 C CNN
+F 4 "DK" H 5810 9630 60  0001 C CNN "MFN"
+F 5 "SMBJ5355B-TPMSCT-ND" H 5710 9530 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 6010 9830 60  0001 C CNN "PurchasingLink"
+	1    5610 9330
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5310 9480 5310 9630
+	5610 9480 5610 9630
 $Comp
 L power:GND #PWR?
 U 1 1 5CC79498
-P 5310 9630
+P 5610 9630
 AR Path="/5CC68CC1/5CC79498" Ref="#PWR?"  Part="1" 
 AR Path="/5CC79498" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 5310 9380 50  0001 C CNN
-F 1 "GND" H 5315 9457 50  0000 C CNN
-F 2 "" H 5310 9630 50  0001 C CNN
-F 3 "" H 5310 9630 50  0001 C CNN
-	1    5310 9630
+F 0 "#PWR0109" H 5610 9380 50  0001 C CNN
+F 1 "GND" H 5615 9457 50  0000 C CNN
+F 2 "" H 5610 9630 50  0001 C CNN
+F 3 "" H 5610 9630 50  0001 C CNN
+	1    5610 9630
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5310 8730 5310 9180
+	5610 8730 5610 9180
 $Comp
 L formula:LED_0805 D?
 U 1 1 5CC794A3
@@ -1095,7 +1095,7 @@ Text Notes 6310 8580 0    50   ~ 0
 Input Capacitors\n\n
 Text Notes 5910 9630 1    50   ~ 0
 12V Indicator
-Text Notes 5210 9230 1    50   ~ 0
+Text Notes 5510 9230 1    50   ~ 0
 Protection\n
 Text Notes 6960 8280 0    89   ~ 0
 BUCK CONVERTER\n
@@ -1235,14 +1235,9 @@ Wire Wire Line
 	6760 8730 7010 8730
 Wire Wire Line
 	6010 8730 6460 8730
-Wire Wire Line
-	6010 8730 5760 8730
 Connection ~ 6010 8730
 Wire Wire Line
-	5460 8730 5310 8730
-Wire Wire Line
 	5310 8730 5310 8380
-Connection ~ 5310 8730
 Wire Wire Line
 	7860 8680 7960 8680
 Wire Wire Line
@@ -1815,4 +1810,77 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12750 3
 	0    1    1    0   
 $EndComp
 NoConn ~ 3450 8350
+Wire Wire Line
+	5610 8730 6010 8730
+Connection ~ 5610 8730
+$Comp
+L power:+12V #PWR09
+U 1 1 5E3EBD70
+P 2640 3500
+F 0 "#PWR09" H 2640 3350 50  0001 C CNN
+F 1 "+12V" H 2655 3673 50  0000 C CNN
+F 2 "" H 2640 3500 50  0001 C CNN
+F 3 "" H 2640 3500 50  0001 C CNN
+	1    2640 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5E3EC107
+P 3030 3770
+F 0 "#PWR013" H 3030 3520 50  0001 C CNN
+F 1 "GND" H 3035 3597 50  0000 C CNN
+F 2 "" H 3030 3770 50  0001 C CNN
+F 3 "" H 3030 3770 50  0001 C CNN
+	1    3030 3770
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR014
+U 1 1 5E3ED676
+P 3520 3510
+F 0 "#PWR014" H 3520 3360 50  0001 C CNN
+F 1 "VCC" H 3537 3683 50  0000 C CNN
+F 2 "" H 3520 3510 50  0001 C CNN
+F 3 "" H 3520 3510 50  0001 C CNN
+	1    3520 3510
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP2
+U 1 1 5E3EFC3E
+P 3030 3720
+F 0 "TP2" H 3108 3808 50  0000 L CNN
+F 1 "Test_Point_SMD" H 3108 3717 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 3030 3570 50  0001 C CNN
+F 3 "" H 3030 3720 50  0001 C CNN
+	1    3030 3720
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP1
+U 1 1 5E3F02BB
+P 2790 3450
+F 0 "TP1" H 2868 3538 50  0000 L CNN
+F 1 "Test_Point_SMD" H 2868 3447 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 2790 3300 50  0001 C CNN
+F 3 "" H 2790 3450 50  0001 C CNN
+	1    2790 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP3
+U 1 1 5E3F0C65
+P 3740 3460
+F 0 "TP3" H 3818 3548 50  0000 L CNN
+F 1 "Test_Point_SMD" H 3818 3457 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 3740 3310 50  0001 C CNN
+F 3 "" H 3740 3460 50  0001 C CNN
+	1    3740 3460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2640 3500 2790 3500
+Wire Wire Line
+	3520 3510 3740 3510
 $EndSCHEMATC
