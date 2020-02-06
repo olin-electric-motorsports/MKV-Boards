@@ -2758,10 +2758,10 @@ Wire Notes Line
 Wire Notes Line
 	13950 800  13950 3700
 $Comp
-L formula:isoSPI-Cutout J?
+L formula:isoSPI-Cutout J5
 U 1 1 5E35C19E
 P 10850 2300
-F 0 "J?" H 11078 2351 50  0000 L CNN
+F 0 "J5" H 11078 2351 50  0000 L CNN
 F 1 "isoSPI-Cutout" H 11078 2260 50  0000 L CNN
 F 2 "footprints:iso_spi_cutout" H 10950 2300 50  0001 C CNN
 F 3 "https://docs.olinelectricmotorsports.com/display/ETD/BMS#BMS-NanoFitFootprintSizingwithZiptieAttachment-3/11/19" H 10950 2300 50  0001 C CNN

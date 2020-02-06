@@ -456,23 +456,6 @@ F 6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A
 	-1   0    0    -1  
 $EndComp
 $Comp
-L formula:ATMEGA16M1 IC?
-U 1 1 5C6BBC18
-P 2650 3650
-AR Path="/5C6B723E/5C6BBC18" Ref="IC?"  Part="1" 
-AR Path="/5C6BBC18" Ref="IC1"  Part="1" 
-F 0 "IC1" H 1700 5480 50  0000 L BNN
-F 1 "ATMEGA16M1" H 3150 2250 50  0000 L BNN
-F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2650 3650 50  0001 C CIN
-F 3 "http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1700 5480 50  0001 C CNN
-F 4 "ATMEGA16M1-AU-ND" H 2650 3650 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 2650 3650 60  0001 C CNN "MFN"
-F 6 "Value" H 2650 3650 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 2100 5880 60  0001 C CNN "PurchasingLink"
-	1    2650 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5C6D61EE
 P 7550 7300
@@ -1020,7 +1003,6 @@ Connection ~ 1350 1950
 Wire Wire Line
 	1350 1950 1550 1950
 Connection ~ 1350 2250
-Connection ~ 1550 4850
 Connection ~ 3750 4950
 Connection ~ 4050 4950
 Text Label 3850 1950 0    50   ~ 0
@@ -2695,8 +2677,6 @@ OPEN CIRCUIT\nDETECTION
 Text Notes 10450 4300 0    50   ~ 0
 GND SHORT\nDETECTION
 NoConn ~ 3750 2450
-NoConn ~ 3750 3750
-NoConn ~ 3750 3850
 $Comp
 L formula:MicroFit_V_2 J4
 U 1 1 5CE97BDE
@@ -2770,4 +2750,26 @@ F 3 "https://docs.olinelectricmotorsports.com/display/ETD/BMS#BMS-NanoFitFootpri
 $EndComp
 Wire Wire Line
 	10550 2350 10550 2550
+Text Label 3750 3750 0    50   ~ 0
+Charge-Enable-1
+Connection ~ 1550 4850
+$Comp
+L formula:ATMEGA16M1 IC?
+U 1 1 5C6BBC18
+P 2650 3650
+AR Path="/5C6B723E/5C6BBC18" Ref="IC?"  Part="1" 
+AR Path="/5C6BBC18" Ref="IC1"  Part="1" 
+F 0 "IC1" H 1700 5480 50  0000 L BNN
+F 1 "ATMEGA16M1" H 3150 2250 50  0000 L BNN
+F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2650 3650 50  0001 C CIN
+F 3 "http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1700 5480 50  0001 C CNN
+F 4 "ATMEGA16M1-AU-ND" H 2650 3650 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 2650 3650 60  0001 C CNN "MFN"
+F 6 "Value" H 2650 3650 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 2100 5880 60  0001 C CNN "PurchasingLink"
+	1    2650 3650
+	1    0    0    -1  
+$EndComp
+Text Label 3750 3850 0    50   ~ 0
+Charge-Enable-2
 $EndSCHEMATC
