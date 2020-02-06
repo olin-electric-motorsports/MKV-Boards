@@ -1,4 +1,4 @@
-update=Fri 31 Jan 2020 08:02:19 PM EST
+update=Thu 30 Jan 2020 09:42:35 PM EST
 version=1
 last_client=kicad
 [general]
@@ -15,22 +15,24 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=BMS_peripheral.net
-CopperLayerCount=4
+LastNetListRead=BMS_core.net
+CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.1524
-MinViaDiameter=0.4
-MinViaDrill=0.3
-MinMicroViaDiameter=0.2
-MinMicroViaDrill=0.09999999999999999
+MinViaDiameter=0.6095999999999999
+MinViaDrill=0.3048
+MinMicroViaDiameter=0
+MinMicroViaDrill=0
 MinHoleToHole=0.25
 TrackWidth1=0.1524
-TrackWidth2=0.254
-TrackWidth3=0.508
+TrackWidth2=0.1524
+TrackWidth3=0.254
+TrackWidth4=0.508
+TrackWidth5=0.762
 ViaDiameter1=0.6096
 ViaDrill1=0.3048
 dPairWidth1=0.2
@@ -48,7 +50,7 @@ CopperTextSizeH=1.5
 CopperTextThickness=0.3
 CopperTextItalic=0
 CopperTextUpright=1
-EdgeCutLineWidth=0.09999999999999999
+EdgeCutLineWidth=0.15
 CourtyardLineWidth=0.05
 OthersLineWidth=0.15
 OthersTextSizeV=1
@@ -56,10 +58,10 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0
+SolderMaskClearance=0.2
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -67,11 +69,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=1
+Enabled=0
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=1
+Enabled=0
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
