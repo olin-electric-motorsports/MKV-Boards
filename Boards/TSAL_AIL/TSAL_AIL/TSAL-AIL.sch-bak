@@ -733,6 +733,8 @@ Text Notes 6500 2600 0    200  ~ 0
 LV\n\n
 Text Notes 4900 800  0    100  ~ 0
 Step Down\n
+Text Notes 9830 720  0    50   ~ 0
+should this be TSAL_GREEN- ?\n\n
 Wire Wire Line
 	8900 1450 9150 1450
 $Comp
