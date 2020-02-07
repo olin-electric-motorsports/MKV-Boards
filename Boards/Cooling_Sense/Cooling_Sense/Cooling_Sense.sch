@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Cooling_Sense-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1447,19 +1446,19 @@ Wire Wire Line
 Wire Wire Line
 	6550 2850 6600 2850
 Text Label 3550 1050 0    50   ~ 0
-READ_4
-Text Label 3550 1350 0    50   ~ 0
 READ_5
-Text Label 3550 1450 0    50   ~ 0
-READ_6
-Text Label 3550 1550 0    50   ~ 0
+Text Label 3550 1350 0    50   ~ 0
 READ_3
-Text Label 3550 2150 0    50   ~ 0
-READ_7
-Text Label 3550 3150 0    50   ~ 0
-READ_1
-Text Label 3550 3250 0    50   ~ 0
+Text Label 3550 1450 0    50   ~ 0
 READ_2
+Text Label 3550 1550 0    50   ~ 0
+READ_1
+Text Label 3550 2150 0    50   ~ 0
+READ_4
+Text Label 3550 3150 0    50   ~ 0
+READ_6
+Text Label 3550 3250 0    50   ~ 0
+READ_7
 Text Label 3550 2350 0    50   ~ 0
 PUMP_CONTROL
 $Comp
