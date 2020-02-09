@@ -443,20 +443,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 7050 4050 7050
 $Comp
-L formula:T_LAN_7490100111A T1
-U 1 1 5C6CFBB6
-P 10650 3100
-F 0 "T1" H 11150 4150 60  0000 C CNN
-F 1 "T_LAN_7490100111A" H 11600 2700 60  0000 C CNN
-F 2 "footprints:T_LAN_7490100111A" H 11050 4050 60  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/7490100111A.pdf" H 10650 3100 60  0001 C CNN
-F 4 "DK" H 11000 3600 60  0001 C CNN "MFN"
-F 5 "732-5711-1-ND" H 10900 3500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381" H 10800 3400 60  0001 C CNN "PurchasingLink"
-	1    10650 3100
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5C6D61EE
 P 7550 7300
@@ -1562,8 +1548,6 @@ Wire Wire Line
 Connection ~ 7850 2900
 Text Notes 7450 1850 0    50   ~ 0
 120 Ohm Termination
-Text Notes 8800 2050 0    50   ~ 0
-Common-Mode Choke
 Text Notes 9750 1900 0    50   ~ 0
 Isolation Transformer
 Text Notes 10850 2000 0    50   ~ 0
@@ -2793,4 +2777,18 @@ Text Label 12650 2650 0    50   ~ 0
 GND
 Text Label 12650 2750 0    50   ~ 0
 GND
+$Comp
+L footprints:T_LAN_SM91501ALE T?
+U 1 1 5EF8F2AF
+P 10650 3100
+F 0 "T?" H 11525 4297 60  0000 C CNN
+F 1 "T_LAN_SM91501ALE" H 11525 4191 60  0000 C CNN
+F 2 "footprints:T_LAN_SM91501ALE" H 11050 4050 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/sm91501al-1488891.pdf" H 10650 3100 60  0001 C CNN
+F 4 "DK" H 11000 3600 60  0001 C CNN "MFN"
+F 5 "SM91501ALE" H 10900 3500 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.si/product-detail/en/bourns-inc/SM91501ALE/SM91501ALETR-ND/9650127" H 10800 3400 60  0001 C CNN "PurchasingLink"
+	1    10650 3100
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

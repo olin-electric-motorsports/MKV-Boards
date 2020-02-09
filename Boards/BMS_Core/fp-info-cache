@@ -1,4 +1,4 @@
-17213438430973249
+17215019686811249
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76278,6 +76278,13 @@ T_LAN_7490100111A
 0
 16
 16
+footprints
+T_LAN_SM91501ALE
+
+
+0
+12
+12
 footprints
 TacoCorey
 
