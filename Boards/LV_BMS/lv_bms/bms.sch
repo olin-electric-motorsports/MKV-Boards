@@ -745,45 +745,45 @@ GND
 $Comp
 L formula:CONN_02X03 J1
 U 1 1 5D628C9D
-P 10550 3600
-F 0 "J1" H 10550 3810 50  0000 C CNN
-F 1 "CONN_02X03" H 10440 3400 50  0000 C CNN
-F 2 "footprints:Pin_Header_Straight_2x03" H 10550 2400 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 10550 2400 50  0001 C CNN
-F 4 "DK" H 10550 3600 60  0001 C CNN "MFN"
-F 5 "609-3234-ND" H 10550 3600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 10950 4200 60  0001 C CNN "PurchasingLink"
-	1    10550 3600
+P 10450 3150
+F 0 "J1" H 10450 3360 50  0000 C CNN
+F 1 "CONN_02X03" H 10340 2950 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_2x03" H 10450 1950 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 10450 1950 50  0001 C CNN
+F 4 "DK" H 10450 3150 60  0001 C CNN "MFN"
+F 5 "609-3234-ND" H 10450 3150 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 10850 3750 60  0001 C CNN "PurchasingLink"
+	1    10450 3150
 	-1   0    0    1   
 $EndComp
-Text Label 10800 3700 0    50   ~ 0
+Text Label 10700 3250 0    50   ~ 0
 MISO
-Text Label 10800 3600 0    50   ~ 0
+Text Label 10700 3150 0    50   ~ 0
 SCK
-Text Label 10800 3500 0    50   ~ 0
+Text Label 10700 3050 0    50   ~ 0
 RESET
-Text Label 10300 3600 2    50   ~ 0
+Text Label 10200 3150 2    50   ~ 0
 MOSI
 $Comp
 L power:GND #PWR09
 U 1 1 5D62962D
-P 10300 3500
-F 0 "#PWR09" H 10300 3250 50  0001 C CNN
-F 1 "GND" H 10305 3327 50  0000 C CNN
-F 2 "" H 10300 3500 50  0001 C CNN
-F 3 "" H 10300 3500 50  0001 C CNN
-	1    10300 3500
+P 10200 3050
+F 0 "#PWR09" H 10200 2800 50  0001 C CNN
+F 1 "GND" H 10205 2877 50  0000 C CNN
+F 2 "" H 10200 3050 50  0001 C CNN
+F 3 "" H 10200 3050 50  0001 C CNN
+	1    10200 3050
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR07
 U 1 1 5D6297EA
-P 10300 3700
-F 0 "#PWR07" H 10300 3550 50  0001 C CNN
-F 1 "VCC" H 10317 3873 50  0000 C CNN
-F 2 "" H 10300 3700 50  0001 C CNN
-F 3 "" H 10300 3700 50  0001 C CNN
-	1    10300 3700
+P 10200 3250
+F 0 "#PWR07" H 10200 3100 50  0001 C CNN
+F 1 "VCC" H 10217 3423 50  0000 C CNN
+F 2 "" H 10200 3250 50  0001 C CNN
+F 3 "" H 10200 3250 50  0001 C CNN
+	1    10200 3250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -944,7 +944,7 @@ Connection ~ 2800 7600
 Wire Wire Line
 	2800 7600 2900 7600
 Wire Wire Line
-	800  1000 1450 1000
+	800  1000 1150 1000
 Wire Wire Line
 	9900 1000 9900 1150
 Wire Wire Line
@@ -984,8 +984,6 @@ F 3 "" H 9400 1950 50  0001 C CNN
 	1    9400 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 2600 8700 2600
 Text Label 10075 9025 2    50   ~ 0
 BattConn1
 Text Notes 8750 8075 0    89   ~ 0
@@ -1010,8 +1008,8 @@ Wire Wire Line
 	8550 1700 8800 1700
 Text Label 12525 8750 0    50   ~ 0
 ThermVOut4
-Text Notes 11150 4400 1    89   ~ 0
-16M1 PROGRAMMING HEADER\n
+Text Notes 11000 3789 2    89   ~ 0
+16M1\n PROGRAMMING \nHEADER
 $Comp
 L Connector:Screw_Terminal_01x06 J2
 U 1 1 5E158DD8
@@ -1670,9 +1668,7 @@ Text Label 8550 3100 0    50   ~ 0
 MISO
 Text Notes 10875 5850 2    89   ~ 0
 GPIO Resistors
-Wire Wire Line
-	8550 1600 8650 1600
-Text Label 8800 1600 0    50   ~ 0
+Text Label 12050 1600 0    50   ~ 0
 AVSSGND
 Wire Wire Line
 	6100 4925 6600 4925
@@ -1725,7 +1721,7 @@ Text Label 8550 2800 0    50   ~ 0
 RXCON
 Text Label 8550 2000 0    50   ~ 0
 RXCON
-Text Label 8550 3500 0    50   ~ 0
+Text Label 9100 3500 0    50   ~ 0
 CVSSGND
 $Comp
 L formula:R_100K R6
@@ -1775,16 +1771,11 @@ VLAV
 Wire Wire Line
 	7050 2700 7500 2700
 Wire Wire Line
-	8650 1600 8650 1550
-Connection ~ 8650 1600
+	11900 1600 11900 1550
 Wire Wire Line
-	8650 1600 8800 1600
-Text Label 8650 1550 0    50   ~ 0
+	11900 1600 11950 1600
+Text Label 11900 1550 0    50   ~ 0
 VLAV
-Wire Wire Line
-	7500 2800 6650 2800
-Text Label 6650 2800 0    50   ~ 0
-wtfhomie
 Wire Wire Line
 	2350 7600 2550 7600
 Wire Wire Line
@@ -1811,4 +1802,236 @@ Wire Wire Line
 Connection ~ 9900 1150
 Wire Wire Line
 	9900 1150 9900 1350
+NoConn ~ 8550 1400
+NoConn ~ 8550 2300
+NoConn ~ 7500 1300
+NoConn ~ 7500 1400
+NoConn ~ 7500 1500
+NoConn ~ 7500 1600
+NoConn ~ 8550 2500
+NoConn ~ 8550 2100
+NoConn ~ 8550 1900
+Text Label 8550 1800 0    50   ~ 0
+TSREF
+Text Label 11900 2450 2    50   ~ 0
+TSREF
+Text Label 12400 2450 0    50   ~ 0
+GPIO*
+Text Notes 12700 1989 2    89   ~ 0
+TSREF CONNECTS\n
+$Comp
+L formula:C_2.2uF C17
+U 1 1 5E42C059
+P 12050 2300
+F 0 "C17" H 11935 2254 50  0000 R CNN
+F 1 "C_2.2uF" H 11935 2345 50  0000 R CNN
+F 2 "footprints:C_0603_1608Metric" H 12088 2150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 12075 2400 50  0001 C CNN
+F 4 "DK" H 12050 2300 60  0001 C CNN "MFN"
+F 5 "311-1451-1-ND" H 12050 2300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 12475 2800 60  0001 C CNN "PurchasingLink"
+	1    12050 2300
+	-1   0    0    1   
+$EndComp
+Connection ~ 12050 2450
+Wire Wire Line
+	12050 2450 12400 2450
+Wire Wire Line
+	11900 2450 12050 2450
+Text Label 11550 1600 2    50   ~ 0
+AVSS1
+Connection ~ 11950 1600
+Wire Wire Line
+	11950 1600 12050 1600
+Text Label 11950 1700 2    50   ~ 0
+TSREFAVSS
+Wire Wire Line
+	11950 1600 11950 1700
+Text Label 8550 1600 0    50   ~ 0
+AVSS1
+Text Notes 12700 1389 2    89   ~ 0
+AVSS1 CONNECTS\n
+Text Label 8550 1500 0    50   ~ 0
+REF1
+Text Label 11800 3200 2    50   ~ 0
+REF1
+$Comp
+L formula:C_2.2uF C18
+U 1 1 5E4EACBD
+P 11950 3200
+F 0 "C18" H 11835 3154 50  0000 R CNN
+F 1 "C_2.2uF" H 11835 3245 50  0000 R CNN
+F 2 "footprints:C_0603_1608Metric" H 11988 3050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 11975 3300 50  0001 C CNN
+F 4 "DK" H 11950 3200 60  0001 C CNN "MFN"
+F 5 "311-1451-1-ND" H 11950 3200 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 12375 3700 60  0001 C CNN "PurchasingLink"
+	1    11950 3200
+	0    1    1    0   
+$EndComp
+Text Label 12100 3200 0    50   ~ 0
+REF1AVSS
+Text Notes 12700 2789 2    89   ~ 0
+REF1 CONNECTS\n
+Wire Wire Line
+	11550 1600 11700 1600
+Connection ~ 11900 1600
+Connection ~ 11700 1600
+Wire Wire Line
+	11700 1600 11900 1600
+Text Label 11700 1500 2    50   ~ 0
+REF1AVSS
+Wire Wire Line
+	11700 1500 11700 1600
+Wire Wire Line
+	8550 2600 8700 2600
+NoConn ~ 7500 2900
+NoConn ~ 7500 3000
+NoConn ~ 7500 3500
+NoConn ~ 7500 3600
+NoConn ~ 7500 3100
+NoConn ~ 7500 3200
+NoConn ~ 7500 3300
+NoConn ~ 7500 3400
+$Comp
+L power:GND #PWR0114
+U 1 1 5E5AA9FD
+P 11800 4100
+F 0 "#PWR0114" H 11800 3850 50  0001 C CNN
+F 1 "GND" H 11805 3927 50  0000 C CNN
+F 2 "" H 11800 4100 50  0001 C CNN
+F 3 "" H 11800 4100 50  0001 C CNN
+	1    11800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5E5AB86E
+P 12100 4100
+F 0 "#PWR0115" H 12100 3850 50  0001 C CNN
+F 1 "GND" H 12105 3927 50  0000 C CNN
+F 2 "" H 12100 4100 50  0001 C CNN
+F 3 "" H 12100 4100 50  0001 C CNN
+	1    12100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5E5B2197
+P 12400 4100
+F 0 "#PWR0116" H 12400 3850 50  0001 C CNN
+F 1 "GND" H 12405 3927 50  0000 C CNN
+F 2 "" H 12400 4100 50  0001 C CNN
+F 3 "" H 12400 4100 50  0001 C CNN
+	1    12400 4100
+	1    0    0    -1  
+$EndComp
+Text Label 11800 4100 1    50   ~ 0
+CVSSGND
+Text Label 12100 4100 1    50   ~ 0
+DVSSGND
+Text Label 12400 4100 1    50   ~ 0
+AVSSGND
+Text Notes 12700 3689 2    89   ~ 0
+GROUND ME, BB\n
+Wire Wire Line
+	7500 2800 7050 2800
+Text Label 7050 2800 2    50   ~ 0
+RXCON
+Wire Wire Line
+	8900 2200 9000 2200
+Connection ~ 8900 2200
+Text Label 9000 2200 0    50   ~ 0
+CVDD
+Wire Wire Line
+	8550 3600 8650 3600
+Wire Wire Line
+	8650 3600 8650 3750
+$Comp
+L formula:R_0 R7
+U 1 1 5E6C24E3
+P 8650 3900
+F 0 "R7" H 8720 3946 50  0000 L CNN
+F 1 "R_0" H 8720 3855 50  0000 L CNN
+F 2 "footprints:R_0603_1608Metric" H 8580 3900 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 8730 3900 50  0001 C CNN
+F 4 "DK" H 8650 3900 60  0001 C CNN "MFN"
+F 5 "P0.0GCT-ND" H 8650 3900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 9130 4300 60  0001 C CNN "PurchasingLink"
+	1    8650 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 4050 8650 4100
+Text Label 8650 4100 3    50   ~ 0
+CVDD
+Wire Wire Line
+	8550 3500 9000 3500
+Wire Wire Line
+	8650 3600 8850 3600
+Wire Wire Line
+	8850 3600 8850 3800
+Connection ~ 8650 3600
+Wire Wire Line
+	8850 3800 9000 3800
+$Comp
+L formula:C_2.2uF C19
+U 1 1 5E6E9D9F
+P 9000 3650
+F 0 "C19" H 9115 3696 50  0000 L CNN
+F 1 "C_2.2uF" H 9115 3605 50  0000 L CNN
+F 2 "footprints:C_0603_1608Metric" H 9038 3500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 9025 3750 50  0001 C CNN
+F 4 "DK" H 9000 3650 60  0001 C CNN "MFN"
+F 5 "311-1451-1-ND" H 9000 3650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 9425 4150 60  0001 C CNN "PurchasingLink"
+	1    9000 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 9000 3500
+Wire Wire Line
+	9000 3500 9100 3500
+Text Label 12050 2150 2    50   ~ 0
+TSREFAVSS
+NoConn ~ 4850 500 
+NoConn ~ 3650 1000
+NoConn ~ 3650 1100
+NoConn ~ 3650 1200
+NoConn ~ 3650 1300
+NoConn ~ 3650 1400
+NoConn ~ 3650 1500
+NoConn ~ 3650 1600
+NoConn ~ 3650 1700
+NoConn ~ 3650 1900
+NoConn ~ 3650 2000
+NoConn ~ 3650 2300
+NoConn ~ 3650 2400
+NoConn ~ 3650 2500
+NoConn ~ 3650 2600
+NoConn ~ 3650 2800
+NoConn ~ 3650 2900
+Connection ~ 1150 1000
+Wire Wire Line
+	1150 1000 1450 1000
+$Comp
+L Connector:Screw_Terminal_01x05 J?
+U 1 1 5E7A40EB
+P 9100 9050
+F 0 "J?" H 9180 9092 50  0000 L CNN
+F 1 "Screw_Terminal_01x05" V 9180 9001 50  0000 L CNN
+F 2 "" H 9100 9050 50  0001 C CNN
+F 3 "~" H 9100 9050 50  0001 C CNN
+	1    9100 9050
+	1    0    0    -1  
+$EndComp
+Text Label 8775 8975 2    50   ~ 0
+BattConn1
+Text Label 8775 9075 2    50   ~ 0
+BattConn2
+Text Label 8775 9175 2    50   ~ 0
+BattConn3
+Text Label 8775 9275 2    50   ~ 0
+BattConn4
+Text Label 8775 8875 2    50   ~ 0
+BattConn0
 $EndSCHEMATC
