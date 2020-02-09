@@ -154,18 +154,6 @@ Text Label 7850 4650 0    50   ~ 0
 CAN_HIGH
 Text Label 7850 4750 0    50   ~ 0
 CAN_LOW
-Text Label 7850 4850 0    50   ~ 0
-SS_HVD_CONNECTOR
-Text Label 7850 4950 0    50   ~ 0
-SS_HVD
-Text Label 7850 5050 0    50   ~ 0
-SS_MPC
-Text Label 7850 5150 0    50   ~ 0
-SS_IMD
-Text Label 7850 5250 0    50   ~ 0
-SS_BMS
-Text Label 7850 5350 0    50   ~ 0
-SS_TSMS
 Text Label 7850 5450 0    50   ~ 0
 BMS_SENSE
 Text Label 7850 5550 0    50   ~ 0
@@ -291,6 +279,15 @@ F 3 "" H 3250 1875 100 0001 C CNN
 $EndComp
 Text Label 3400 1375 0    50   ~ 0
 GND
+<<<<<<< HEAD
+Text Label 3400 1675 0    50   ~ 0
+HVD>HVD_CONN
+Text Label 3400 1775 0    50   ~ 0
+HVD>HVD_CONN
+Text Label 3400 1475 0    50   ~ 0
+HVD_CONN>MPC
+Text Label 3400 1575 0    50   ~ 0
+=======
 Text Label 3400 1475 0    50   ~ 0
 HVD>HVD_CONN
 Text Label 3400 1575 0    50   ~ 0
@@ -298,11 +295,21 @@ HVD>HVD_CONN
 Text Label 3400 1675 0    50   ~ 0
 HVD_CONN>MPC
 Text Label 3400 1775 0    50   ~ 0
+>>>>>>> 5f31f27aa2f331f6c4225701cd5acedff0f95bc5
 HVD_CONN>MPC
 Text Label 3400 1875 0    50   ~ 0
 BMS>IMD
 Text Label 3400 1975 0    50   ~ 0
 TSMS>FINAL_SHUTDOWN
+<<<<<<< HEAD
+Text Label 3400 2275 0    50   ~ 0
+IMD>TSMS
+Text Label 3400 2375 0    50   ~ 0
+IMD>TSMS
+Text Label 3400 2075 0    50   ~ 0
+MPC>BMS
+Text Label 3400 2175 0    50   ~ 0
+=======
 Text Label 3400 2075 0    50   ~ 0
 IMD>TSMS
 Text Label 3400 2175 0    50   ~ 0
@@ -310,6 +317,7 @@ IMD>TSMS
 Text Label 3400 2275 0    50   ~ 0
 MPC>BMS
 Text Label 3400 2375 0    50   ~ 0
+>>>>>>> 5f31f27aa2f331f6c4225701cd5acedff0f95bc5
 MPC>BMS
 Text Label 3400 2475 0    50   ~ 0
 BMS>IMD
@@ -335,4 +343,31 @@ Text Notes 5050 2575 1    50   ~ 0
 For Programming RJ45
 Text Notes 5050 4475 1    50   ~ 0
 For Signals
+<<<<<<< HEAD
+Text Notes 8775 5350 0    30   ~ 0
+SS HVD Connector\n\nSS HVD\n\nSS MPC\n\nSS IMD\n\nSS BMS\n\nSS TSMS
+Text Label 7850 4850 0    50   ~ 0
+HVD_CONN>MPC
+Text Label 7850 4950 0    50   ~ 0
+HVD>HVD_CONN
+Text Label 7850 5050 0    50   ~ 0
+MPC>BMS
+Text Label 7850 5150 0    50   ~ 0
+IMD>TSMS
+Text Label 7850 5250 0    50   ~ 0
+BMS>IMD
+Text Label 7850 5350 0    50   ~ 0
+TSMS>FINAL_SHUTDOWN
+Wire Notes Line
+	8475 4925 8750 4925
+Wire Notes Line
+	8250 5025 8750 5025
+Wire Notes Line
+	8750 5125 8250 5125
+Wire Notes Line
+	8225 5225 8750 5225
+Wire Notes Line
+	8500 4825 8750 4825
+=======
+>>>>>>> 5f31f27aa2f331f6c4225701cd5acedff0f95bc5
 $EndSCHEMATC
