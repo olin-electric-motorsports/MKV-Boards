@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.4-e60b266~84~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 97)
+    (drawings 99)
     (tracks 1715)
     (zones 0)
     (modules 134)
@@ -5857,6 +5857,10 @@
     )
   )
 
+  (gr_text ID: (at 222.15 200.925 90) (layer F.SilkS) (tstamp 5E32640A)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_poly (pts (xy 223.175 199.225) (xy 213.35 199.225) (xy 213.425 189.8) (xy 223.175 189.775)) (layer F.SilkS) (width 0.1))
   (gr_text V2 (at 189.4 178.675) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -6010,7 +6014,7 @@
   (gr_text "Iso-SPI \nTowads Core" (at 192.278 305.562 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
   )
-  (gr_text "BMS Peripheral Rev 2.0\nOlin Electric Motorsports\nCorey Cochran-Lepiz\n11/22/2019" (at 212.56 221.46 90) (layer F.SilkS)
+  (gr_text "BMS Peripheral Rev 2.0\nOlin Electric Motorsports\nCorey Cochran-Lepiz\n11/22/2019" (at 208.925 221.125 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_line (start 86.868 96.393) (end 43.18 96.393) (layer Dwgs.User) (width 0.2))
