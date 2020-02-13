@@ -87,33 +87,19 @@ $EndComp
 $Comp
 L formula:Ampseal_35_VT J7
 U 1 1 5DC9DA96
-P 9250 2550
-F 0 "J7" H 8923 2502 60  0000 R CNN
-F 1 "Ampseal_35_VT" H 8923 2608 60  0000 R CNN
-F 2 "footprints:Ampseal_35" H 9050 3900 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776231%7FA13%7Fpdf%7FEnglish%7FENG_CD_776231_A13.pdf%7F1-776231-1" H 9050 3900 60  0001 C CNN
-F 4 "TE" H 9200 4550 60  0001 C CNN "MFN"
-F 5 "1-776231-1" H 9100 4450 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-1-776231-1.html" H 9300 4650 60  0001 C CNN "PurchasingLink"
-	1    9250 2550
+P 10000 2550
+F 0 "J7" H 9673 2502 60  0000 R CNN
+F 1 "Ampseal_35_VT" H 9673 2608 60  0000 R CNN
+F 2 "footprints:Ampseal_35" H 9800 3900 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776231%7FA13%7Fpdf%7FEnglish%7FENG_CD_776231_A13.pdf%7F1-776231-1" H 9800 3900 60  0001 C CNN
+F 4 "TE" H 9950 4550 60  0001 C CNN "MFN"
+F 5 "1-776231-1" H 9850 4450 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/usa-en/product-1-776231-1.html" H 10050 4650 60  0001 C CNN "PurchasingLink"
+	1    10000 2550
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	6350 500  500  500 
-$Comp
-L formula:MM_F_RA_14 U6
-U 1 1 5DC9E4A2
-P 7400 3650
-F 0 "U6" H 7585 4513 60  0000 C CNN
-F 1 "RJ45_VT" H 7585 4407 60  0000 C CNN
-F 2 "footprints:RJ45-Vertical" H 7300 2960 60  0001 C CNN
-F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf" H 7400 3060 60  0001 C CNN
-F 4 "DK" H 7200 4350 60  0000 C CNN "MFN"
-F 5 "MRJ-5481-01-ND" H 7600 3260 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" H 7800 3460 60  0001 C CNN "PurchasingLink"
-	1    7400 3650
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	6400 500  11200 500 
 Wire Notes Line
@@ -185,9 +171,9 @@ SCK_DUX
 Text Label 1050 1500 0    50   ~ 0
 RESET_DUX
 Text Label 1050 1600 0    50   ~ 0
-CANH
+CAN+
 Text Label 1050 1700 0    50   ~ 0
-CANL
+CAN-
 Text Label 1050 1800 0    50   ~ 0
 START_BTN
 Text Label 1050 1900 0    50   ~ 0
@@ -241,9 +227,9 @@ RESET_THROTTLE
 Text Label 1050 3550 0    50   ~ 0
 5V_THROTTLE
 Text Label 1050 4050 0    50   ~ 0
-CANH
+CAN+
 Text Label 1050 4150 0    50   ~ 0
-CANL
+CAN-
 Text Label 1050 4250 0    50   ~ 0
 THROTTLE_POT_1_+
 Text Label 1050 4350 0    50   ~ 0
@@ -353,7 +339,7 @@ Layout note: \nPlace on driver's center\n
 Text Notes 5350 2100 0    50   ~ 0
 Layout note: \nPlace on driver's right\n\n
 Text Notes 1850 3450 0    118  ~ 0
-Throttle Connectors 
+Throttle Connectors
 Wire Notes Line
 	550  3000 550  5350
 Wire Notes Line
@@ -362,128 +348,112 @@ Wire Notes Line
 	3750 5350 3750 3000
 Wire Notes Line
 	3750 3000 550  3000
-$Comp
-L formula:MM_F_RA_14 U5
-U 1 1 5DCE32FB
-P 7400 1550
-F 0 "U5" H 7585 2413 60  0000 C CNN
-F 1 "RJ45_VT" H 7585 2307 60  0000 C CNN
-F 2 "footprints:RJ45-Vertical" H 7300 860 60  0001 C CNN
-F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf" H 7400 960 60  0001 C CNN
-F 4 "DK" H 7200 2200 60  0000 C CNN "MFN"
-F 5 "MRJ-5481-01-ND" H 7600 1160 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" H 7800 1360 60  0001 C CNN "PurchasingLink"
-	1    7400 1550
-	1    0    0    -1  
-$EndComp
-Text Label 7700 1300 0    50   ~ 0
+Text Label 8700 1150 0    50   ~ 0
 MISO_DUX
-Text Label 7700 1400 0    50   ~ 0
+Text Label 8700 1250 0    50   ~ 0
 MOSI_DUX
-Text Label 7700 1200 0    50   ~ 0
+Text Label 7400 1450 2    50   ~ 0
 SCK_DUX
-Text Label 7700 1100 0    50   ~ 0
+Text Label 7400 1350 2    50   ~ 0
 RESET_DUX
-Text Label 7700 900  0    50   ~ 0
-CANH
-Text Label 7700 1000 0    50   ~ 0
-CANL
-Text Label 7700 1500 0    50   ~ 0
+Text Label 7400 1250 2    50   ~ 0
+CAN+
+Text Label 7400 1150 2    50   ~ 0
+CAN-
+Text Label 8700 1350 0    50   ~ 0
 5V_DUX
-Text Label 7700 1600 0    50   ~ 0
-GND
-Text Label 7700 1800 0    50   ~ 0
+Text Label 7800 2000 3    50   ~ 0
 RJ45_LED_O_DUX
-Text Label 7700 2000 0    50   ~ 0
+Text Label 8100 2000 3    50   ~ 0
 RJ45_LED_G_DUX
-Text Label 7700 3900 0    50   ~ 0
+Text Label 7800 4290 3    50   ~ 0
 RJ45_LED_O_THROTTLE
-Text Label 7700 4100 0    50   ~ 0
+Text Label 8100 4290 3    50   ~ 0
 RJ45_LED_G_THROTTLE
-Text Label 7700 3400 0    50   ~ 0
+Text Label 8700 3440 0    50   ~ 0
 MISO_THROTTLE
-Text Label 7700 3500 0    50   ~ 0
+Text Label 8700 3540 0    50   ~ 0
 MOSI_THROTTLE
-Text Label 7700 3300 0    50   ~ 0
+Text Label 7400 3740 2    50   ~ 0
 SCK_THROTTLE
-Text Label 7700 3200 0    50   ~ 0
+Text Label 7400 3640 2    50   ~ 0
 RESET_THROTTLE
-Text Label 7700 3600 0    50   ~ 0
+Text Label 8700 3640 0    50   ~ 0
 5V_THROTTLE
-Text Label 7700 3000 0    50   ~ 0
-CANH
-Text Label 7700 3100 0    50   ~ 0
-CANL
-Text Label 7700 3700 0    50   ~ 0
+Text Label 7400 3540 2    50   ~ 0
+CAN+
+Text Label 7400 3440 2    50   ~ 0
+CAN-
+Text Label 8700 3740 0    50   ~ 0
 GND
-Text Label 9450 850  0    50   ~ 0
+Text Label 10200 850  0    50   ~ 0
 GND
-Text Label 9450 950  0    50   ~ 0
+Text Label 10200 950  0    50   ~ 0
 12V
-Text Label 9450 1150 0    50   ~ 0
+Text Label 10200 1150 0    50   ~ 0
 IS>BOTS
-Text Label 9450 1250 0    50   ~ 0
+Text Label 10200 1250 0    50   ~ 0
 IS>BOTS
-Text Label 9450 1350 0    50   ~ 0
+Text Label 10200 1350 0    50   ~ 0
 BOTS>ESTOP
-Text Label 9450 1450 0    50   ~ 0
+Text Label 10200 1450 0    50   ~ 0
 ESTOP>HVD
-Text Label 9450 1550 0    50   ~ 0
+Text Label 10200 1550 0    50   ~ 0
 GND
-Text Label 9450 1650 0    50   ~ 0
+Text Label 10200 1650 0    50   ~ 0
 GND
-Text Label 9450 1750 0    50   ~ 0
+Text Label 10200 1750 0    50   ~ 0
 GND
-Text Label 9450 1850 0    50   ~ 0
-CANH
-Text Label 9450 1950 0    50   ~ 0
-CANL
-Text Label 9450 2050 0    50   ~ 0
-CANH
-Text Label 9450 2150 0    50   ~ 0
-CANL
-Text Label 9450 2250 0    50   ~ 0
+Text Label 10200 1850 0    50   ~ 0
+CAN+
+Text Label 10200 1950 0    50   ~ 0
+CAN-
+Text Label 10200 2050 0    50   ~ 0
+CAN+
+Text Label 10200 2150 0    50   ~ 0
+CAN-
+Text Label 10200 2250 0    50   ~ 0
 CAN_GND
-Text Label 9450 2350 0    50   ~ 0
+Text Label 10200 2350 0    50   ~ 0
 STEERING_POT_+
-Text Label 9450 2450 0    50   ~ 0
+Text Label 10200 2450 0    50   ~ 0
 STEERING_POT_SENSE
-Text Label 9450 2550 0    50   ~ 0
+Text Label 10200 2550 0    50   ~ 0
 STEERING_POT_-
-Text Label 9450 2650 0    50   ~ 0
+Text Label 10200 2650 0    50   ~ 0
 GND
-Text Label 9450 2750 0    50   ~ 0
+Text Label 10200 2750 0    50   ~ 0
 GND
-Text Label 9450 2850 0    50   ~ 0
+Text Label 10200 2850 0    50   ~ 0
 RTD_SUPPLY_12V
-Text Label 9450 2950 0    50   ~ 0
+Text Label 10200 2950 0    50   ~ 0
 12V
-Text Label 9450 3050 0    50   ~ 0
+Text Label 10200 3050 0    50   ~ 0
 GND
-Text Label 9450 3150 0    50   ~ 0
+Text Label 10200 3150 0    50   ~ 0
 THROTTLE_POT_1_+
-Text Label 9450 3250 0    50   ~ 0
+Text Label 10200 3250 0    50   ~ 0
 THROTTLE_POT_1_SENSE
-Text Label 9450 3350 0    50   ~ 0
+Text Label 10200 3350 0    50   ~ 0
 THROTTLE_POT_1_-
-Text Label 9450 3450 0    50   ~ 0
+Text Label 10200 3450 0    50   ~ 0
 THROTTLE_POT_2_+
-Text Label 9450 3550 0    50   ~ 0
+Text Label 10200 3550 0    50   ~ 0
 THROTTLE_POT_2_SENSE
-Text Label 9450 3650 0    50   ~ 0
+Text Label 10200 3650 0    50   ~ 0
 THROTTLE_POT_2_-
-Text Label 9450 3750 0    50   ~ 0
-CANH
-Text Label 9450 3850 0    50   ~ 0
-CANL
-Text Label 9450 3950 0    50   ~ 0
+Text Label 10200 3750 0    50   ~ 0
+CAN+
+Text Label 10200 3850 0    50   ~ 0
+CAN-
+Text Label 10200 3950 0    50   ~ 0
 CAN_GND
-Text Label 9450 4050 0    50   ~ 0
+Text Label 10200 4050 0    50   ~ 0
 RTD_LSD
-Text Label 9450 4150 0    50   ~ 0
-CANH
-Text Label 9450 4250 0    50   ~ 0
-CANL
+Text Label 10200 4150 0    50   ~ 0
+CAN+
+Text Label 10200 4250 0    50   ~ 0
+CAN-
 $Comp
 L formula:NanoFit_RA_04 J6
 U 1 1 5DCF3CB6
@@ -500,17 +470,9 @@ GND
 Text Label 4250 3400 0    50   ~ 0
 5V_STEERING
 Text Label 4250 3500 0    50   ~ 0
-CANH
+CAN+
 Text Label 4250 3600 0    50   ~ 0
-CANL
-NoConn ~ 7700 1700
-NoConn ~ 7700 1900
-NoConn ~ 7700 2100
-NoConn ~ 7700 2200
-NoConn ~ 7700 3800
-NoConn ~ 7700 4000
-NoConn ~ 7700 4200
-NoConn ~ 7700 4300
+CAN-
 Wire Notes Line
 	3800 3000 3800 4200
 Wire Notes Line
@@ -520,14 +482,14 @@ Wire Notes Line
 Wire Notes Line
 	6300 3000 3800 3000
 Text Notes 3900 4100 0    98   ~ 0
-Steering Wheel Connectors 
+Steering Wheel Connectors
 Text Label 3650 1200 0    50   ~ 0
 DRIVE_MODE_+
 Text Label 3650 1300 0    50   ~ 0
 DRIVE_MODE_SENSE
 Text Label 3650 1400 0    50   ~ 0
 DRIVE_MODE_-
-Text Label 9450 1050 0    50   ~ 0
+Text Label 10200 1050 0    50   ~ 0
 5V_CAN_LOGGER
 Text Notes 1600 2100 0    118  ~ 0
 DUX Connectors\n
@@ -663,19 +625,77 @@ Wire Notes Line
 $Comp
 L formula:R_120_DNP R1
 U 1 1 5DD2F1A4
-P 9150 4650
-F 0 "R1" V 8943 4650 50  0000 C CNN
-F 1 "R_120_DNP" V 9034 4650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 7950 4800 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 7950 5100 50  0001 L CNN
-F 4 "DK" H 9150 4650 60  0001 C CNN "MFN"
-F 5 "667-ERJ-6ENF1200V" H 7950 4900 60  0001 L CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 7950 5000 60  0001 L CNN "PurchasingLink"
-	1    9150 4650
+P 9900 4650
+F 0 "R1" V 9693 4650 50  0000 C CNN
+F 1 "R_120_DNP" V 9784 4650 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 8700 4800 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 8700 5100 50  0001 L CNN
+F 4 "DK" H 9900 4650 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 8700 4900 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 8700 5000 60  0001 L CNN "PurchasingLink"
+	1    9900 4650
 	0    1    1    0   
 $EndComp
-Text Label 9000 4650 2    50   ~ 0
-CANH
-Text Label 9300 4650 0    50   ~ 0
-CANL
+Text Label 9750 4650 2    50   ~ 0
+CAN+
+Text Label 10050 4650 0    50   ~ 0
+CAN-
+$Comp
+L formula:RJ45_VT U6
+U 1 1 5E45C10A
+P 8050 4090
+F 0 "U6" H 8050 5133 60  0000 C CNN
+F 1 "RJ45_VT" H 8050 5027 60  0000 C CNN
+F 2 "footprints:RJ45-Vertical" H 7800 3040 60  0001 C CNN
+F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf" H 7950 2500 60  0001 C CNN
+F 4 "DK" H 8050 4921 60  0000 C CNN "MFN"
+F 5 "MRJ-5481-01-ND" H 8150 2700 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" H 8350 2900 60  0001 C CNN "PurchasingLink"
+	1    8050 4090
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4290 8400 4290
+Text Label 7700 4290 3    50   ~ 0
+GND
+Text Label 8000 4290 3    50   ~ 0
+GND
+Text Label 8340 4290 3    50   ~ 0
+GND
+$Comp
+L formula:RJ45_VT U5
+U 1 1 5E460B52
+P 8050 1800
+F 0 "U5" H 8050 2843 60  0000 C CNN
+F 1 "RJ45_VT" H 8050 2737 60  0000 C CNN
+F 2 "footprints:RJ45-Vertical" H 7800 750 60  0001 C CNN
+F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf" H 7950 210 60  0001 C CNN
+F 4 "DK" H 8050 2631 60  0000 C CNN "MFN"
+F 5 "MRJ-5481-01-ND" H 8150 410 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=MRJ-5481-01" H 8350 610 60  0001 C CNN "PurchasingLink"
+	1    8050 1800
+	1    0    0    -1  
+$EndComp
+Text Label 8700 1450 0    50   ~ 0
+GND
+Wire Wire Line
+	8300 2000 8400 2000
+Text Label 8300 2000 3    50   ~ 0
+GND
+Text Label 8000 2000 3    50   ~ 0
+GND
+Text Label 7700 2000 3    50   ~ 0
+GND
+Wire Wire Line
+	10200 1150 10550 1150
+Text Label 10700 1350 0    50   ~ 0
+SS_BOTS
+Text Label 10550 1150 0    50   ~ 0
+SS_INERTIA
+Wire Wire Line
+	10200 1450 10700 1450
+Text Label 10700 1450 0    50   ~ 0
+SS_ESTOP
+Wire Wire Line
+	10200 1350 10700 1350
 $EndSCHEMATC
