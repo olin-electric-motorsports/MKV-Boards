@@ -44,20 +44,6 @@ F 3 "" H 3150 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L footprints:R_200 R1
-U 1 1 5DD24939
-P 2650 2700
-F 0 "R1" H 2600 3050 50  0000 L CNN
-F 1 "R_200" V 2750 2600 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 2580 2700 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2730 2700 50  0001 C CNN
-F 4 "DK" H 2650 2700 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 2650 2700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 3130 3100 60  0001 C CNN "PurchasingLink"
-	1    2650 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L footprints:LED_0805 D2
 U 1 1 5DD25EAF
 P 2650 3050
@@ -113,19 +99,17 @@ F 3 "" H 2100 3650 50  0001 C CNN
 	1    2100 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2100 2900 2100 2450
 $Comp
 L footprints:F_2.6A_16V F1
 U 1 1 5DD2DCBD
 P 2350 2450
-F 0 "F1" V 2250 2450 50  0000 C CNN
-F 1 "F_2.6A_16V" V 2450 2450 50  0000 C CNN
+F 0 "F1" H 2375 2350 50  0000 C CNN
+F 1 "F_2.6A_16V" H 2375 2550 50  0000 C CNN
 F 2 "Fuse:Fuse_1812_4532Metric" H 2350 2450 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2350 2450 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0260BF2B/507-1780-6-ND/4156287" H 2410 2359 50  0001 L CNN "Digikey"
 	1    2350 2450
-	0    1    1    0   
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2100 2450 2200 2450
@@ -186,7 +170,7 @@ Wire Wire Line
 Connection ~ 3950 2450
 Connection ~ 4250 2450
 Wire Wire Line
-	2500 2450 2650 2450
+	2500 2450 2550 2450
 Connection ~ 2650 2450
 Wire Wire Line
 	5200 2850 5450 2850
@@ -231,13 +215,13 @@ Wire Wire Line
 $Comp
 L footprints:IHLP2020BZER4R7M11 L1
 U 1 1 5DD494D5
-P 6300 2400
-F 0 "L1" H 6600 2700 60  0000 C CNN
-F 1 "L_4.7uH_3.2A" H 6600 2600 60  0000 C CNN
-F 2 "footprints:IHLP2020BZER4R7M11" H 6575 2115 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/34261/ihlp2020bz11.pdf" H 6300 2400 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP2020BZER4R7M11/541-1222-1-ND/2025112" H 6300 2400 50  0001 C CNN "Vendor Link"
-	1    6300 2400
+P 6600 2400
+F 0 "L1" H 6900 2700 60  0000 C CNN
+F 1 "L_4.7uH_3.2A" H 6900 2600 60  0000 C CNN
+F 2 "footprints:IHLP2020BZER4R7M11" H 6875 2115 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/34261/ihlp2020bz11.pdf" H 6600 2400 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP2020BZER4R7M11/541-1222-1-ND/2025112" H 6600 2400 50  0001 C CNN "Vendor Link"
+	1    6600 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -442,7 +426,6 @@ Text Label 2100 2150 2    50   ~ 0
 12V
 Wire Wire Line
 	2100 2150 2100 2450
-Connection ~ 2100 2450
 Wire Wire Line
 	7450 3400 7850 3400
 $Comp
@@ -450,7 +433,7 @@ L footprints:C_100nF C8
 U 1 1 5DD78F6F
 P 6850 3750
 F 0 "C8" V 6900 3850 50  0000 L CNN
-F 1 "C_100nF" V 6700 3600 50  0000 L CNN
+F 1 "C_100nF_DNP" V 6700 3600 50  0000 L CNN
 F 2 "footprints:C_0603_1608Metric" H 6888 3600 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 6875 3850 50  0001 C CNN
 F 4 "DK" H 6850 3750 60  0001 C CNN "MFN"
@@ -463,13 +446,13 @@ $Comp
 L footprints:R_1 R7
 U 1 1 5DD86588
 P 7450 3750
-F 0 "R7" V 7550 3700 50  0000 L CNN
-F 1 "R_1" V 7350 3700 50  0000 L CNN
+F 0 "R7" H 7400 3850 50  0000 L CNN
+F 1 "R_1_DNP" H 7375 3650 50  0000 L CNN
 F 2 "footprints:R_0603_1608Metric" H 7450 3750 50  0001 C CNN
 F 3 "" H 7450 3750 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-071RL/311-1.00HRCT-ND/729789" H 7450 3750 50  0001 C CNN "Link"
 	1    7450 3750
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L footprints:TPS563231 U1
@@ -477,7 +460,7 @@ U 1 1 5DD8A4F8
 P 4850 2900
 F 0 "U1" H 4825 3665 50  0000 C CNN
 F 1 "TPS563231" H 4825 3574 50  0000 C CNN
-F 2 "footprints:SOT-563" H 4850 3050 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-563" H 4850 3050 50  0001 C CNN
 F 3 "" H 4850 3050 50  0001 C CNN
 	1    4850 2900
 	1    0    0    -1  
@@ -532,4 +515,84 @@ Wire Wire Line
 	2100 3200 2100 3650
 Wire Wire Line
 	9500 3350 9500 3750
+Wire Wire Line
+	2100 2900 2100 2700
+Wire Wire Line
+	2100 2700 2550 2700
+Wire Wire Line
+	2550 2700 2550 2450
+Connection ~ 2550 2450
+Wire Wire Line
+	2550 2450 2650 2450
+$Comp
+L formula:Test_Point_SMD TP1
+U 1 1 5E474401
+P 2750 4550
+F 0 "TP1" V 2850 4825 50  0000 C CNN
+F 1 "Test_Point_SMD" V 2750 5000 50  0000 C CNN
+F 2 "footprints:Test_Point_SMD" H 2750 4400 50  0001 C CNN
+F 3 "" H 2750 4550 50  0001 C CNN
+	1    2750 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP2
+U 1 1 5E475044
+P 2750 4900
+F 0 "TP2" V 2850 5150 50  0000 C CNN
+F 1 "Test_Point_SMD" V 2750 5350 50  0000 C CNN
+F 2 "footprints:Test_Point_SMD" H 2750 4750 50  0001 C CNN
+F 3 "" H 2750 4900 50  0001 C CNN
+	1    2750 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP3
+U 1 1 5E476704
+P 2750 5200
+F 0 "TP3" V 2850 5450 50  0000 C CNN
+F 1 "Test_Point_SMD" V 2750 5650 50  0000 C CNN
+F 2 "footprints:Test_Point_SMD" H 2750 5050 50  0001 C CNN
+F 3 "" H 2750 5200 50  0001 C CNN
+	1    2750 5200
+	0    -1   -1   0   
+$EndComp
+Text Label 2800 4550 0    50   ~ 0
+12V
+$Comp
+L power:GND #PWR0109
+U 1 1 5E478F28
+P 2800 5200
+F 0 "#PWR0109" H 2800 4950 50  0001 C CNN
+F 1 "GND" H 2805 5027 50  0000 C CNN
+F 2 "" H 2800 5200 50  0001 C CNN
+F 3 "" H 2800 5200 50  0001 C CNN
+	1    2800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0110
+U 1 1 5E479993
+P 2800 4900
+F 0 "#PWR0110" H 2800 4750 50  0001 C CNN
+F 1 "VCC" H 2817 5073 50  0000 C CNN
+F 2 "" H 2800 4900 50  0001 C CNN
+F 3 "" H 2800 4900 50  0001 C CNN
+	1    2800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L footprints:R_1K R1
+U 1 1 5E47F47B
+P 2650 2700
+F 0 "R1" H 2720 2746 50  0000 L CNN
+F 1 "R_1K" H 2720 2655 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 2580 2700 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 2730 2700 50  0001 C CNN
+F 4 "DK" H 2650 2700 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 2650 2700 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 3130 3100 60  0001 C CNN "PurchasingLink"
+	1    2650 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
