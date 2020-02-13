@@ -36,45 +36,6 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Screw_Terminal_01x06
-#
-DEF Connector_Screw_Terminal_01x06 J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Screw_Terminal_01x06" 0 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TerminalBlock*:*
-$ENDFPLIST
-DRAW
-C 0 -300 25 1 1 6 N
-C 0 -200 25 1 1 6 N
-C 0 -100 25 1 1 6 N
-C 0 0 25 1 1 6 N
-C 0 100 25 1 1 6 N
-C 0 200 25 1 1 6 N
-S -50 250 50 -350 1 1 10 f
-P 2 1 1 6 -21 -287 13 -320 N
-P 2 1 1 6 -21 -187 13 -220 N
-P 2 1 1 6 -21 -87 13 -120 N
-P 2 1 1 6 -21 13 13 -20 N
-P 2 1 1 6 -21 113 13 80 N
-P 2 1 1 6 -21 213 13 180 N
-P 2 1 1 6 -14 -280 20 -313 N
-P 2 1 1 6 -14 -180 20 -213 N
-P 2 1 1 6 -14 -80 20 -113 N
-P 2 1 1 6 -14 20 20 -13 N
-P 2 1 1 6 -14 120 20 87 N
-P 2 1 1 6 -14 220 20 187 N
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_Thermistor
 #
 DEF Device_Thermistor TH 0 0 N Y 1 F N
@@ -446,9 +407,9 @@ ENDDEF
 DEF formula_C_33uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "formula_C_33uF" 100 -300 50 H V L CNN
-F2 "footprints:C_1812_OEM" 50 -400 50 H I C CNN
-F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 0 650 50 H I C CNN
-F4 "C4532X7R1C336M250KC" 50 -500 60 H I C CNN "MFN"
+F2 "footprints:Fuse_1812" 50 -400 50 H I C CNN
+F3 "" 0 650 50 H I C CNN
+F4 "DK" 50 -500 60 H I C CNN "MFN"
 F5 "445-3924-1-ND" 0 350 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431" 250 500 60 H I C CNN "PurchasingLink"
 $FPLIST
@@ -592,14 +553,14 @@ ENDDEF
 #
 # formula_L_100uH
 #
-DEF formula_L_100uH L 0 40 Y Y 1 F N
+DEF formula_L_100uH L 0 40 N N 1 F N
 F0 "L" 0 -50 50 H V C CNN
 F1 "formula_L_100uH" 0 100 50 H V C CNN
-F2 "formula:L_100uH" -100 -200 50 H I C CNN
-F3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" -100 -150 50 H I C CNN
-F4 "Digikey" 100 -200 50 H I C CNN "MFN"
+F2 "footprints:L_100uH_OEM" -100 -200 50 H I C CNN
+F3 "" -100 -150 50 H I C CNN
+F4 "DK" 100 -200 50 H I C CNN "MFN"
 F5 "445-15759-1-ND" 0 250 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "Link"
+F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "PurchasingLink"
 DRAW
 A -60 0 20 1 1799 1 1 0 N -40 0 -80 0
 A -20 0 20 1 1799 1 1 0 N 0 0 -40 0
@@ -741,6 +702,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# formula_R_1K
+#
+DEF formula_R_1K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula_R_1K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # formula_R_1K_0.1
 #
 DEF formula_R_1K_0.1 R 0 0 N Y 1 F N
@@ -789,9 +771,9 @@ DEF formula_R_25K R 0 0 N Y 1 F N
 F0 "R" 250 0 50 V V C CNN
 F1 "formula_R_25K" 200 200 50 H V C CNN
 F2 "footprints:R_0805_OEM" 50 -550 50 H I C CNN
-F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English" 0 -400 50 H I C CNN
-F4 "A124124CT-ND" -600 0 60 H I C CNN "MFN"
-F5 "CPF-A-0805B25KE" 50 500 60 H I C CNN "Digi-key Part Number"
+F3 "" 0 -400 50 H I C CNN
+F4 "DK" -600 0 60 H I C CNN "MFN"
+F5 "A124124CT-ND" 50 500 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044" 50 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
@@ -821,13 +803,13 @@ ENDDEF
 # formula_TPS560430YF
 #
 DEF formula_TPS560430YF U 0 40 Y Y 1 F N
-F0 "U" -550 -400 50 H V C CNN
+F0 "U" -200 -350 50 H V C CNN
 F1 "formula_TPS560430YF" 0 400 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" -50 700 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" 0 550 50 H I C CNN
-F4 "TPS560430YFDBVR" -50 -1100 50 H I C CNN "MPN"
-F5 "TPS560430YFDBVR-ND" 0 -1000 50 H I C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "Purchasing Link"
+F2 "footprints:SOT-23-6_OEM" -50 700 50 H I C CNN
+F3 "" 0 550 50 H I C CNN
+F4 "TPS560430YFDBVR-ND" -50 -1100 50 H I C CNN "MPN"
+F5 "DK" 0 -1000 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "PurchasingLink"
 DRAW
 S -250 -100 -250 -100 0 1 0 N
 S -250 300 300 -300 0 1 0 f
@@ -850,19 +832,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #

@@ -1492,4 +1492,54 @@ Text Label 3550 2650 0    50   ~ 0
 LED_1
 NoConn ~ 3550 850 
 NoConn ~ 3550 950 
+$Comp
+L formula:Test_Point_SMD TP1
+U 1 1 5E429057
+P 8150 5450
+F 0 "TP1" H 8228 5538 50  0000 L CNN
+F 1 "Test_Point_SMD" H 8228 5447 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 8150 5300 50  0001 C CNN
+F 3 "" H 8150 5450 50  0001 C CNN
+	1    8150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP3
+U 1 1 5E42FEC6
+P 8150 6100
+F 0 "TP3" H 8228 6188 50  0000 L CNN
+F 1 "Test_Point_SMD" H 8228 6097 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 8150 5950 50  0001 C CNN
+F 3 "" H 8150 6100 50  0001 C CNN
+	1    8150 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5E430843
+P 8150 6150
+F 0 "#PWR0124" H 8150 5900 50  0001 C CNN
+F 1 "GND" H 8155 5977 50  0000 C CNN
+F 2 "" H 8150 6150 50  0001 C CNN
+F 3 "" H 8150 6150 50  0001 C CNN
+	1    8150 6150
+	1    0    0    -1  
+$EndComp
+Text Label 8150 5500 3    50   ~ 0
+12V
+$Comp
+L formula:Test_Point_SMD TP2
+U 1 1 5E441894
+P 8150 5800
+F 0 "TP2" H 8228 5888 50  0000 L CNN
+F 1 "Test_Point_SMD" H 8228 5797 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 8150 5650 50  0001 C CNN
+F 3 "" H 8150 5800 50  0001 C CNN
+	1    8150 5800
+	1    0    0    -1  
+$EndComp
+Text Label 8150 5850 3    50   ~ 0
+5V
+Text Notes 7750 5400 0    89   ~ 0
+TESTING POINTS\n\n
 $EndSCHEMATC
