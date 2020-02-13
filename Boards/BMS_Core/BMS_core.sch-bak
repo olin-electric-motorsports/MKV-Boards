@@ -900,10 +900,10 @@ CS_iso
 Wire Wire Line
 	3850 2550 3750 2550
 $Comp
-L formula:LED_0805 D1
+L formula:LED_0805 PD5
 U 1 1 5C6F857F
 P 1000 6750
-F 0 "D1" H 1000 6650 50  0000 C CNN
+F 0 "PD5" H 1000 6650 50  0000 C CNN
 F 1 "LED_0805" H 1000 6850 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 900 6750 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1000 6850 50  0001 C CNN
@@ -914,10 +914,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1400 7250 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D2
+L formula:LED_0805 PD6
 U 1 1 5C6F87B3
 P 1400 6750
-F 0 "D2" H 1400 6650 50  0000 C CNN
+F 0 "PD6" H 1400 6650 50  0000 C CNN
 F 1 "LED_0805" H 1400 6850 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 1300 6750 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1400 6850 50  0001 C CNN
@@ -928,10 +928,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1800 7250 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D3
+L formula:LED_0805 PD7
 U 1 1 5C6F88AF
 P 1800 6750
-F 0 "D3" H 1800 6650 50  0000 C CNN
+F 0 "PD7" H 1800 6650 50  0000 C CNN
 F 1 "LED_0805" H 1800 6850 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 1700 6750 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1800 6850 50  0001 C CNN
@@ -1251,20 +1251,6 @@ F 4 "DK" H 7450 5000 60  0001 C CNN "MFN"
 F 5 "MCP6001T-I/OTCT-ND" H 7550 5100 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-OT/MCP6001T-I-OTCT-ND/697158" H 7650 5200 60  0001 C CNN "PurchasingLink"
 	1    7350 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:G5Q-1A4-DC5-5V K1
-U 1 1 5C831541
-P 8800 8800
-F 0 "K1" H 9150 8950 50  0000 L CNN
-F 1 "G5Q-1A4-DC5-5V" H 8400 8650 50  0000 L CNN
-F 2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" H 9250 8750 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" H 9250 8450 50  0001 L CNN
-F 4 "DK" H 9650 9350 60  0001 C CNN "MFN"
-F 5 "Z3632-ND" H 9550 9250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q-1A4-DC5/Z3632-ND/1815721" H 9750 9450 60  0001 C CNN "PurchasingLink"
-	1    8800 8800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2826,10 +2812,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 1825 5500 1900
 $Comp
-L formula:Test_Point_SMD TP1
+L formula:Test_Point_SMD 12V
 U 1 1 5E4C6F2A
 P 13850 4175
-F 0 "TP1" V 13850 4450 50  0000 C CNN
+F 0 "12V" V 13850 4450 50  0000 C CNN
 F 1 "Test_Point_SMD" H 13928 4172 50  0001 L CNN
 F 2 "footprints:Test_Point_SMD" H 13850 4025 50  0001 C CNN
 F 3 "" H 13850 4175 50  0001 C CNN
@@ -2837,10 +2823,10 @@ F 3 "" H 13850 4175 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:Test_Point_SMD TP2
+L formula:Test_Point_SMD GND
 U 1 1 5E4DC281
 P 13850 4400
-F 0 "TP2" V 13850 4675 50  0000 C CNN
+F 0 "GND" V 13850 4675 50  0000 C CNN
 F 1 "Test_Point_SMD" H 13928 4397 50  0001 L CNN
 F 2 "footprints:Test_Point_SMD" H 13850 4250 50  0001 C CNN
 F 3 "" H 13850 4400 50  0001 C CNN
@@ -2848,10 +2834,10 @@ F 3 "" H 13850 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:Test_Point_SMD TP3
+L formula:Test_Point_SMD BSPD
 U 1 1 5E4F03E3
 P 13850 4725
-F 0 "TP3" V 13850 4925 50  0000 L CNN
+F 0 "BSPD" V 13850 4925 50  0000 L CNN
 F 1 "Test_Point_SMD" H 13928 4722 50  0001 L CNN
 F 2 "footprints:Test_Point_SMD" H 13850 4575 50  0001 C CNN
 F 3 "" H 13850 4725 50  0001 C CNN
@@ -2886,10 +2872,10 @@ F 3 "" H 13900 4175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Test_Point_SMD TP4
+L formula:Test_Point_SMD IM
 U 1 1 5E5FD1CA
 P 13850 4950
-F 0 "TP4" V 13850 5225 50  0000 C CNN
+F 0 "IM" V 13850 5225 50  0000 C CNN
 F 1 "Test_Point_SMD" H 13928 4947 50  0001 L CNN
 F 2 "footprints:Test_Point_SMD" H 13850 4800 50  0001 C CNN
 F 3 "" H 13850 4950 50  0001 C CNN
@@ -2897,10 +2883,10 @@ F 3 "" H 13850 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:Test_Point_SMD TP5
+L formula:Test_Point_SMD IP
 U 1 1 5E5FD1D0
 P 13850 5175
-F 0 "TP5" V 13850 5450 50  0000 C CNN
+F 0 "IP" V 13850 5450 50  0000 C CNN
 F 1 "Test_Point_SMD" H 13928 5172 50  0001 L CNN
 F 2 "footprints:Test_Point_SMD" H 13850 5025 50  0001 C CNN
 F 3 "" H 13850 5175 50  0001 C CNN
@@ -2915,4 +2901,41 @@ Text Label 13900 4950 0    50   ~ 0
 IM
 Text Label 13900 5175 0    50   ~ 0
 IP
+$Comp
+L footprints:G5Q-1A4-DC12 K?
+U 1 1 5E4512AF
+P 8800 8800
+F 0 "K?" H 9130 8846 50  0000 L CNN
+F 1 "G5Q-1A4-DC12" H 9130 8755 50  0000 L CNN
+F 2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" H 8650 9200 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" H 8750 9300 50  0001 C CNN
+	1    8800 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD CANH
+U 1 1 5E463274
+P 13850 5400
+F 0 "CANH" V 13850 5675 50  0000 C CNN
+F 1 "Test_Point_SMD" H 13928 5397 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 13850 5250 50  0001 C CNN
+F 3 "" H 13850 5400 50  0001 C CNN
+	1    13850 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:Test_Point_SMD CANL
+U 1 1 5E46327A
+P 13850 5625
+F 0 "CANL" V 13850 5900 50  0000 C CNN
+F 1 "Test_Point_SMD" H 13928 5622 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 13850 5475 50  0001 C CNN
+F 3 "" H 13850 5625 50  0001 C CNN
+	1    13850 5625
+	0    -1   -1   0   
+$EndComp
+Text Label 13900 5400 0    50   ~ 0
+CANH
+Text Label 13900 5625 0    50   ~ 0
+CANL
 $EndSCHEMATC
