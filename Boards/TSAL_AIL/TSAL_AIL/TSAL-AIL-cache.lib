@@ -41,6 +41,24 @@ X VCC 5 0 350 200 D 50 28 1 1 B
 ENDDRAW
 ENDDEF
 #
+# Formula_Buck_Converter_450V_300mA
+#
+DEF Formula_Buck_Converter_450V_300mA U 0 40 Y Y 1 F N
+F0 "U" 0 750 50 H V C CNN
+F1 "Formula_Buck_Converter_450V_300mA" 50 850 50 H V C CNN
+F2 "footprints:Converter_DCDC_MPS_MP9488" 50 950 50 H I C CNN
+F3 "" 0 750 50 H I C CNN
+F4 "https://www.monolithicpower.com/en/mp9488.html" 50 1050 50 H I C CNN "Purchasing Link"
+DRAW
+S -150 200 150 -200 0 1 0 f
+X 1 1 0 300 100 D 50 50 1 1 B
+X 2 2 250 50 100 L 50 50 1 1 B
+X 3 3 50 -300 100 U 50 50 1 1 B
+X 4 4 -50 -300 100 U 50 50 1 1 B
+X 7 7 -250 0 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # Formula_CPC1025NTR
 #
 DEF Formula_CPC1025NTR U 0 40 Y Y 1 F N
@@ -70,6 +88,23 @@ X ~ 1 -300 100 100 R 50 50 1 1 P
 X ~ 2 -300 -100 100 R 50 50 1 1 P
 X ~ 3 300 -100 100 L 50 50 1 1 P
 X ~ 4 300 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Formula_Diode_600V_1A_SM
+#
+DEF Formula_Diode_600V_1A_SM U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "Formula_Diode_600V_1A_SM" 0 350 50 H V C CNN
+F2 "footprints:Diode_600V_1A_SM" -50 150 50 H I C CNN
+F3 "" -50 150 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STTH1R06A/497-3765-1-ND/691935" 0 200 50 H I C CNN "Purchasing Link"
+DRAW
+P 2 1 1 0 50 0 -50 0 N
+P 2 1 1 10 50 50 50 -50 N
+P 4 1 1 10 -50 -50 -50 50 50 0 -50 -50 N
+X ~ 1 -150 0 100 R 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

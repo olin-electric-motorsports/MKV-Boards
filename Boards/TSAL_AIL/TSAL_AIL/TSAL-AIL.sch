@@ -756,4 +756,192 @@ Text Label 8590 1450 0    50   ~ 0
 NAND_Out
 Text Label 8830 1450 0    50   ~ 0
 NAND_Out
+Text Label 2850 6350 2    50   ~ 0
+VIN
+Text Label 3350 6300 0    50   ~ 0
+FB
+Text Label 3100 6050 0    50   ~ 0
+VCC
+Text Label 3050 6650 2    50   ~ 0
+SW
+$Comp
+L Formula:Buck_Converter_450V_300mA U?
+U 1 1 5E4498F3
+P 3100 6350
+F 0 "U?" H 3058 6925 50  0000 C CNN
+F 1 "Buck_Converter_450V_300mA" H 3058 6834 50  0000 C CNN
+F 2 "footprints:Converter_DCDC_MPS_MP9488" H 3150 6800 50  0001 C CNN
+F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP9488/document_id/3748/" H 3100 6600 50  0001 C CNN
+F 4 "https://www.monolithicpower.com/en/mp9488.html" H 3150 6900 50  0001 C CNN "Purchasing Link"
+	1    3100 6350
+	1    0    0    -1  
+$EndComp
+Text Label 3150 6650 0    50   ~ 0
+SW
+Wire Wire Line
+	3100 6050 2450 6050
+Wire Wire Line
+	2450 6050 2450 6250
+Wire Wire Line
+	3150 6650 3050 6650
+Wire Wire Line
+	2450 6650 2450 6500
+Connection ~ 3050 6650
+Wire Wire Line
+	3050 6650 2450 6650
+Text Label 2450 6250 0    50   ~ 0
+C4
+Wire Wire Line
+	2850 6350 1850 6350
+Wire Wire Line
+	1850 6350 1850 6500
+Wire Wire Line
+	1850 6350 1650 6350
+Connection ~ 1850 6350
+Text Label 1650 6350 2    50   ~ 0
+TS+
+Text Label 1650 6950 2    50   ~ 0
+TS-
+Text Label 1850 6500 0    50   ~ 0
+C1
+Wire Wire Line
+	3100 6050 3600 6050
+Connection ~ 3100 6050
+Text Label 3600 6050 0    50   ~ 0
+R3
+$Comp
+L Formula:Diode_600V_1A_SM U?
+U 1 1 5E52D559
+P 4050 6050
+F 0 "U?" H 4050 5833 50  0000 C CNN
+F 1 "Diode_600V_1A_SM" H 4050 5924 50  0000 C CNN
+F 2 "footprints:Diode_600V_1A_SM" H 4000 6200 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/d5/fe/c4/56/21/41/02/CD00005135.pdf/files/CD00005135.pdf/jcr:content/translations/en.CD00005135.pdf" H 4000 6200 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STTH1R06A/497-3765-1-ND/691935" H 4050 6250 50  0001 C CNN "Purchasing Link"
+	1    4050 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 6050 4200 6150
+Wire Wire Line
+	3350 6300 3500 6300
+Wire Wire Line
+	3500 6300 3500 6400
+Connection ~ 3500 6300
+Wire Wire Line
+	3500 6300 4200 6300
+Wire Wire Line
+	3500 6650 3150 6650
+Connection ~ 3150 6650
+Text Label 3500 6400 0    50   ~ 0
+C5
+Text Label 4200 6150 0    50   ~ 0
+R1
+Wire Wire Line
+	3500 6650 3500 6550
+Wire Wire Line
+	3500 6650 4200 6650
+Wire Wire Line
+	4200 6650 4200 6550
+Connection ~ 3500 6650
+Text Label 4200 6550 0    50   ~ 0
+R2
+Wire Wire Line
+	4200 6050 4500 6050
+Connection ~ 4200 6050
+Wire Wire Line
+	4200 6650 4500 6650
+Connection ~ 4200 6650
+$Comp
+L Formula:Diode_600V_1A_SM U?
+U 1 1 5E541DF0
+P 4500 6800
+F 0 "U?" V 4546 6720 50  0000 R CNN
+F 1 "Diode_600V_1A_SM" V 4455 6720 50  0000 R CNN
+F 2 "footprints:Diode_600V_1A_SM" H 4450 6950 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/d5/fe/c4/56/21/41/02/CD00005135.pdf/files/CD00005135.pdf/jcr:content/translations/en.CD00005135.pdf" H 4450 6950 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STTH1R06A/497-3765-1-ND/691935" H 4500 7000 50  0001 C CNN "Purchasing Link"
+	1    4500 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 6950 1850 6950
+Wire Wire Line
+	1850 6950 1850 6700
+Connection ~ 1850 6950
+Wire Wire Line
+	1850 6950 1650 6950
+Wire Wire Line
+	4500 6050 4500 6150
+Wire Wire Line
+	4500 6250 4500 6650
+Connection ~ 4500 6650
+Wire Wire Line
+	4500 6650 4950 6650
+Wire Wire Line
+	5150 6650 5300 6650
+Wire Wire Line
+	4500 6050 4850 6050
+Connection ~ 4500 6050
+$Comp
+L Formula:Diode_600V_1A_SM U?
+U 1 1 5E55D1FE
+P 5000 6050
+F 0 "U?" H 5000 5833 50  0000 C CNN
+F 1 "Diode_600V_1A_SM" H 5000 5924 50  0000 C CNN
+F 2 "footprints:Diode_600V_1A_SM" H 4950 6200 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/d5/fe/c4/56/21/41/02/CD00005135.pdf/files/CD00005135.pdf/jcr:content/translations/en.CD00005135.pdf" H 4950 6200 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STTH1R06A/497-3765-1-ND/691935" H 5000 6250 50  0001 C CNN "Purchasing Link"
+	1    5000 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 6050 5300 6050
+Wire Wire Line
+	5300 6050 5300 6650
+Wire Wire Line
+	5300 6650 5300 6700
+Connection ~ 5300 6650
+Wire Wire Line
+	4500 6950 6650 6950
+Connection ~ 4500 6950
+Wire Wire Line
+	5300 6650 5650 6650
+Wire Wire Line
+	5650 6650 5650 6700
+Wire Wire Line
+	5650 6650 6000 6650
+Wire Wire Line
+	6000 6650 6000 6700
+Connection ~ 5650 6650
+Wire Wire Line
+	6000 6650 6650 6650
+Connection ~ 6000 6650
+Text Label 6000 6700 0    50   ~ 0
+R4
+Text Label 5650 6700 0    50   ~ 0
+C2B
+Text Label 5300 6700 0    50   ~ 0
+C2A
+Text Label 4950 6650 0    50   ~ 0
+L1
+Text Label 4500 6150 0    50   ~ 0
+C3
+Wire Wire Line
+	4500 6950 4500 7050
+$Comp
+L power:GND #PWR?
+U 1 1 5E57A5C9
+P 4500 7050
+F 0 "#PWR?" H 4500 6800 50  0001 C CNN
+F 1 "GND" H 4505 6877 50  0000 C CNN
+F 2 "" H 4500 7050 50  0001 C CNN
+F 3 "" H 4500 7050 50  0001 C CNN
+	1    4500 7050
+	1    0    0    -1  
+$EndComp
+Text Label 6650 6650 0    50   ~ 0
+15V+
+Text Label 6650 6950 0    50   ~ 0
+15V-
 $EndSCHEMATC
