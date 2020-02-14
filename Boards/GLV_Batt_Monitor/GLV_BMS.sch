@@ -1472,8 +1472,6 @@ Text Label 3650 1300 0    50   ~ 0
 LED_2
 Text Label 3650 1400 0    50   ~ 0
 LED_3
-Text Notes 2850 5225 0    94   ~ 0
-There are 7 values that are recieved external from the board. \nThose are 12+ and GND, both CAN HI and LO, and the other\n three are the three values given from the Gas Gauge that is \non Manu's PCB.\n\n
 Wire Notes Line
 	4450 4225 4450 550 
 Wire Notes Line
@@ -1617,36 +1615,4 @@ $EndComp
 Connection ~ 1550 6100
 Wire Wire Line
 	1550 6100 1950 6100
-$Comp
-L formula:NanoFit_RA_04 J4
-U 1 1 5E2FD1E5
-P 9575 4550
-F 0 "J4" H 9633 4925 50  0000 C CNN
-F 1 "NanoFit_RA_04" H 9633 4834 50  0000 C CNN
-F 2 "footprints:NanoFit_RA_4" H 9575 4300 50  0001 C CNN
-F 3 "" H 9575 4800 50  0001 C CNN
-	1    9575 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 4700 10000 4850
-Wire Wire Line
-	9775 4700 10000 4700
-$Comp
-L power:GND #PWR023
-U 1 1 5E301BCA
-P 10000 4850
-F 0 "#PWR023" H 10000 4600 50  0001 C CNN
-F 1 "GND" H 10005 4677 50  0000 C CNN
-F 2 "" H 10000 4850 50  0001 C CNN
-F 3 "" H 10000 4850 50  0001 C CNN
-	1    10000 4850
-	1    0    0    -1  
-$EndComp
-Text Label 9775 4400 0    50   ~ 0
-IND+
-Text Label 9775 4500 0    50   ~ 0
-INDMED
-Text Label 9775 4600 0    50   ~ 0
-IND-
 $EndSCHEMATC

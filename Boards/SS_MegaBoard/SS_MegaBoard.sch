@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:SS_MegaBoard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -23,7 +22,7 @@ IMD Latch
 Text Notes 8850 2500 1    50   ~ 0
 TSAL
 $Comp
-L formula:MM_M_VT_20 J4
+L SS_MegaBoard-rescue:MM_M_VT_20-formula J4
 U 1 1 5DE4BB2A
 P 7700 2350
 F 0 "J4" H 7656 3697 60  0000 C CNN
@@ -37,7 +36,7 @@ F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 7700 3650 60  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MM_M_VT_20 J5
+L SS_MegaBoard-rescue:MM_M_VT_20-formula J5
 U 1 1 5DE4BBDA
 P 7700 4850
 F 0 "J5" H 7656 6197 60  0000 C CNN
@@ -51,7 +50,7 @@ F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 7700 6150 60  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MM_M_VT_04 J6
+L SS_MegaBoard-rescue:MM_M_VT_04-formula J6
 U 1 1 5DE4BD50
 P 9050 1300
 F 0 "J6" H 9106 1597 60  0000 C CNN
@@ -65,7 +64,7 @@ F 6 "http://www.te.com/global-en/product-215464-4.html" H 9050 2600 60  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MM_M_VT_06 J7
+L SS_MegaBoard-rescue:MM_M_VT_06-formula J7
 U 1 1 5DE4BF0C
 P 9050 2400
 F 0 "J7" H 9106 2897 60  0000 C CNN
@@ -129,8 +128,6 @@ BMS_SENSE
 Text Label 7850 2850 0    50   ~ 0
 GND
 Text Label 7850 2950 0    50   ~ 0
-GND
-Text Label 7850 3050 0    50   ~ 0
 GND
 Text Label 7850 3150 0    50   ~ 0
 GND
@@ -223,7 +220,7 @@ GND
 Text Label 7850 2750 0    50   ~ 0
 GND
 $Comp
-L footprints:MM_F_VT_16 J3
+L SS_MegaBoard-rescue:MM_F_VT_16-footprints J3
 U 1 1 5EF423F4
 P 5275 2150
 F 0 "J3" H 5333 3197 60  0000 C CNN
@@ -241,7 +238,7 @@ GND
 Text Label 5525 1450 0    50   ~ 0
 GND
 $Comp
-L footprints:MM_F_VT_14 J2
+L SS_MegaBoard-rescue:MM_F_VT_14-footprints J2
 U 1 1 5EF47CC1
 P 5225 4100
 F 0 "J2" H 5333 4997 60  0000 C CNN
@@ -260,14 +257,10 @@ Text Label 5525 4050 0    50   ~ 0
 TSAL_GREEN+
 Text Label 5525 4350 0    50   ~ 0
 TSAL_GREEN-
-Text Label 5525 4450 0    50   ~ 0
-GND
-Text Label 5525 4650 0    50   ~ 0
-GND
 Text Label 5525 4750 0    50   ~ 0
 BSPD_CURRENT_SENSE
 $Comp
-L footprints:MicroFit_VT_12 J1
+L SS_MegaBoard-rescue:MicroFit_VT_12-footprints J1
 U 1 1 5EF4F0B4
 P 3200 1925
 F 0 "J1" H 3258 2752 100 0000 C CNN
@@ -279,45 +272,21 @@ F 3 "" H 3250 1875 100 0001 C CNN
 $EndComp
 Text Label 3400 1375 0    50   ~ 0
 GND
-<<<<<<< HEAD
 Text Label 3400 1675 0    50   ~ 0
 HVD>HVD_CONN
 Text Label 3400 1775 0    50   ~ 0
 HVD>HVD_CONN
 Text Label 3400 1475 0    50   ~ 0
-HVD_CONN>MPC
-Text Label 3400 1575 0    50   ~ 0
-=======
-Text Label 3400 1475 0    50   ~ 0
-HVD>HVD_CONN
-Text Label 3400 1575 0    50   ~ 0
-HVD>HVD_CONN
-Text Label 3400 1675 0    50   ~ 0
-HVD_CONN>MPC
-Text Label 3400 1775 0    50   ~ 0
->>>>>>> 5f31f27aa2f331f6c4225701cd5acedff0f95bc5
 HVD_CONN>MPC
 Text Label 3400 1875 0    50   ~ 0
 BMS>IMD
 Text Label 3400 1975 0    50   ~ 0
 TSMS>FINAL_SHUTDOWN
-<<<<<<< HEAD
 Text Label 3400 2275 0    50   ~ 0
 IMD>TSMS
 Text Label 3400 2375 0    50   ~ 0
 IMD>TSMS
 Text Label 3400 2075 0    50   ~ 0
-MPC>BMS
-Text Label 3400 2175 0    50   ~ 0
-=======
-Text Label 3400 2075 0    50   ~ 0
-IMD>TSMS
-Text Label 3400 2175 0    50   ~ 0
-IMD>TSMS
-Text Label 3400 2275 0    50   ~ 0
-MPC>BMS
-Text Label 3400 2375 0    50   ~ 0
->>>>>>> 5f31f27aa2f331f6c4225701cd5acedff0f95bc5
 MPC>BMS
 Text Label 3400 2475 0    50   ~ 0
 BMS>IMD
@@ -343,7 +312,6 @@ Text Notes 5050 2575 1    50   ~ 0
 For Programming RJ45
 Text Notes 5050 4475 1    50   ~ 0
 For Signals
-<<<<<<< HEAD
 Text Notes 8775 5350 0    30   ~ 0
 SS HVD Connector\n\nSS HVD\n\nSS MPC\n\nSS IMD\n\nSS BMS\n\nSS TSMS
 Text Label 7850 4850 0    50   ~ 0
@@ -368,6 +336,14 @@ Wire Notes Line
 	8225 5225 8750 5225
 Wire Notes Line
 	8500 4825 8750 4825
-=======
->>>>>>> 5f31f27aa2f331f6c4225701cd5acedff0f95bc5
+Text Label 3400 2175 0    50   ~ 0
+MPC>BMS
+Text Label 3400 1575 0    50   ~ 0
+HVD_CONN>MPC
+Text Label 7850 3050 0    50   ~ 0
+CHARGE_EN1
+Text Label 5525 4450 0    50   ~ 0
+CHARGE_EN1
+Text Label 5525 4650 0    50   ~ 0
+GND
 $EndSCHEMATC
