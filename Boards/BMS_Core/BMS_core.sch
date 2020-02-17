@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:BMS_core-cache
 EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
@@ -1830,23 +1829,9 @@ $EndComp
 Text Notes 6950 5400 0    50   ~ 0
 Unity-gain buffer vs. VREF
 Text Notes 9450 6550 0    50   ~ 0
-5kW/240V = 20.83A\n16 mV/A * 20.83A = 333mV\n1K/14.3K * 5V = 333mV
+5kW/346V = 14.45A\n16 mV/A * 14.45A = 231mV\n
 Text Label 6200 4600 0    50   ~ 0
 VOUT
-$Comp
-L formula:R_1K_0.1 R14
-U 1 1 5C9F0930
-P 10350 6100
-F 0 "R14" V 10430 6100 50  0000 C CNN
-F 1 "R_1K_0.1" V 10250 6100 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 10280 6100 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 10430 6100 50  0001 C CNN
-F 4 "DK" H 10350 6100 60  0001 C CNN "MFN"
-F 5 "P1.0KDACT-ND" H 10350 6100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" H 10830 6500 60  0001 C CNN "PurchasingLink"
-	1    10350 6100
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9600 6050 9600 6100
 Wire Wire Line
@@ -2279,20 +2264,6 @@ Wire Wire Line
 Wire Wire Line
 	9200 5750 10750 5750
 $Comp
-L formula:R_17.8K R21
-U 1 1 5CF2B53E
-P 9850 6100
-F 0 "R21" V 9643 6100 50  0000 C CNN
-F 1 "R_14.3K" V 9734 6100 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 9850 6050 50  0001 C CNN
-F 3 "" H 9950 6150 50  0001 C CNN
-F 4 "DK" H 10050 6250 50  0001 C CNN "MFN"
-F 5 "" H 10150 6350 50  0001 C CNN "MPN"
-F 6 "" H 10350 6550 50  0001 C CNN "PurchasingLink"
-	1    9850 6100
-	0    1    1    0   
-$EndComp
-$Comp
 L formula:MCP6001 U6
 U 1 1 5CF2C95C
 P 10700 4950
@@ -2424,7 +2395,7 @@ $EndComp
 Text Notes 9750 4500 0    50   ~ 0
 0.45V
 $Comp
-L formula:SN74LVC1G32 U7
+L BMS_core-rescue:SN74LVC1G32-formula U7
 U 1 1 5CFD6270
 P 12000 5350
 F 0 "U7" H 12200 5200 50  0000 L CNN
@@ -2622,7 +2593,7 @@ F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/4
 	1    0    0    -1  
 $EndComp
 $Comp
-L footprints:C_22uF COUT102
+L BMS_core-rescue:C_22uF-footprints COUT102
 U 1 1 5E5C89C8
 P 5350 9000
 F 0 "COUT102" H 5175 9325 50  0000 L CNN
@@ -2636,7 +2607,7 @@ F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160A
 	1    0    0    -1  
 $EndComp
 $Comp
-L footprints:C_33uF COUT103
+L BMS_core-rescue:C_33uF-footprints COUT103
 U 1 1 5E5CA0AF
 P 5700 9000
 F 0 "COUT103" H 5575 9325 50  0000 L CNN
@@ -2654,7 +2625,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 8650 1075 8650
 $Comp
-L footprints:C_0.1uF C102
+L BMS_core-rescue:C_0.1uF-footprints C102
 U 1 1 5E6C94BB
 P 2650 8875
 F 0 "C102" H 2550 9175 50  0000 L CNN
@@ -2668,7 +2639,7 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 3075 9375 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L footprints:C_2.2uF C101
+L BMS_core-rescue:C_2.2uF-footprints C101
 U 1 1 5E6CA759
 P 2425 8875
 F 0 "C101" H 2325 9175 50  0000 L CNN
@@ -2761,7 +2732,7 @@ GND
 Text Label 12650 2750 0    50   ~ 0
 GND
 $Comp
-L footprints:T_LAN_SM91501ALE T1
+L BMS_core-rescue:T_LAN_SM91501ALE-footprints T1
 U 1 1 5EF8F2AF
 P 10650 3100
 F 0 "T1" H 11525 4297 60  0000 C CNN
@@ -2902,7 +2873,7 @@ IM
 Text Label 13900 5175 0    50   ~ 0
 IP
 $Comp
-L footprints:G5Q-1A4-DC12 K1
+L BMS_core-rescue:G5Q-1A4-DC12-footprints K1
 U 1 1 5E4512AF
 P 8800 8800
 F 0 "K1" H 9130 8846 50  0000 L CNN
@@ -2943,5 +2914,33 @@ F 5 "36-5006-ND" H 13900 5800 50  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 14000 5900 50  0001 C CNN "PurchasingLink"
 	1    13700 5600
 	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:R_475 R?
+U 1 1 5E4B64F1
+P 9850 6100
+F 0 "R?" V 9643 6100 50  0000 C CNN
+F 1 "R_475" V 9734 6100 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 9780 6100 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 9930 6100 50  0001 C CNN
+F 4 "DK" H 9850 6100 60  0001 C CNN "MFN"
+F 5 "311-475CRCT-ND" H 9850 6100 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" H 10330 6500 60  0001 C CNN "PurchasingLink"
+	1    9850 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_10K R?
+U 1 1 5E4CC23B
+P 10350 6100
+F 0 "R?" V 10143 6100 50  0000 C CNN
+F 1 "R_10K" V 10234 6100 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 10280 6100 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 10430 6100 50  0001 C CNN
+F 4 "DK" H 10350 6100 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 10350 6100 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 10830 6500 60  0001 C CNN "PurchasingLink"
+	1    10350 6100
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

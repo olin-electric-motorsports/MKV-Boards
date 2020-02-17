@@ -1,4 +1,4 @@
-17200333156200829
+17206486093042829
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75460,6 +75460,13 @@ F_21mA_420V
 2
 2
 footprints
+Fuse_1206
+Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+footprints
 Fuse_1210
 Resistor SMD 1210, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 1210
@@ -75613,6 +75620,13 @@ MHSS1105
 0
 3
 3
+footprints
+MLX90621ESF-BAB-000-TU
+
+
+0
+4
+4
 footprints
 Meder-LI12
 
@@ -75936,6 +75950,13 @@ resistor 0805
 2
 2
 footprints
+REDCUBE7461166
+
+
+0
+13
+12
+footprints
 RJ45-RightAngle
 
 
@@ -76146,13 +76167,6 @@ SW_B3U-1000P_4.2x1.7mm
 2
 2
 footprints
-Small_OE_Logo
-
-
-0
-0
-0
-footprints
 TE_1-776180-1_35_RA
 
 
@@ -76216,12 +76230,26 @@ T_LAN_7490100111A
 16
 16
 footprints
+T_LAN_SM91501ALE
+
+
+0
+12
+12
+footprints
 TacoCorey
 
 
 0
 0
 0
+footprints
+Test_Point_SMD
+
+
+0
+1
+1
 footprints
 Thermistor
 
