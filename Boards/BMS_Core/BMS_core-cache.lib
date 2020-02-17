@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# footprints_C_0.1uF
+# BMS_core-rescue_C_0.1uF-footprints
 #
-DEF footprints_C_0.1uF C 0 10 N Y 1 F N
+DEF BMS_core-rescue_C_0.1uF-footprints C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "footprints_C_0.1uF" 25 -100 50 H V L CNN
+F1 "BMS_core-rescue_C_0.1uF-footprints" 25 -100 50 H V L CNN
 F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
 F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -26,11 +26,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footprints_C_2.2uF
+# BMS_core-rescue_C_2.2uF-footprints
 #
-DEF footprints_C_2.2uF C 0 10 N Y 1 F N
+DEF BMS_core-rescue_C_2.2uF-footprints C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "footprints_C_2.2uF" 25 -100 50 H V L CNN
+F1 "BMS_core-rescue_C_2.2uF-footprints" 25 -100 50 H V L CNN
 F2 "footprints:C_0603_1608Metric" 38 -150 50 H I C CNN
 F3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -51,11 +51,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footprints_C_22uF
+# BMS_core-rescue_C_22uF-footprints
 #
-DEF footprints_C_22uF C 0 10 N Y 1 F N
+DEF BMS_core-rescue_C_22uF-footprints C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "footprints_C_22uF" 25 -100 50 H V L CNN
+F1 "BMS_core-rescue_C_22uF-footprints" 25 -100 50 H V L CNN
 F2 "footprints:C_1206_OEM" 38 -150 50 H I C CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 25 100 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
@@ -76,11 +76,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footprints_C_33uF
+# BMS_core-rescue_C_33uF-footprints
 #
-DEF footprints_C_33uF C 0 10 N Y 1 F N
+DEF BMS_core-rescue_C_33uF-footprints C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "footprints_C_33uF" 100 -300 50 H V L CNN
+F1 "BMS_core-rescue_C_33uF-footprints" 100 -300 50 H V L CNN
 F2 "footprints:Fuse_1812" 50 -400 50 H I C CNN
 F3 "" 0 650 50 H I C CNN
 F4 "DK" 50 -500 60 H I C CNN "MFN"
@@ -101,11 +101,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footprints_G5Q-1A4-DC12
+# BMS_core-rescue_G5Q-1A4-DC12-footprints
 #
-DEF footprints_G5Q-1A4-DC12 K 0 40 Y Y 1 F N
+DEF BMS_core-rescue_G5Q-1A4-DC12-footprints K 0 40 Y Y 1 F N
 F0 "K" -50 500 50 H V C CNN
-F1 "footprints_G5Q-1A4-DC12" 0 -400 50 H V C CNN
+F1 "BMS_core-rescue_G5Q-1A4-DC12-footprints" 0 -400 50 H V C CNN
 F2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" -150 400 50 H I C CNN
 F3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" -50 500 50 H I C CNN
 DRAW
@@ -131,11 +131,40 @@ X ~ 5 -200 300 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footprints_T_LAN_SM91501ALE
+# BMS_core-rescue_SN74LVC1G32-formula
 #
-DEF footprints_T_LAN_SM91501ALE T 0 40 Y Y 1 F N
+DEF BMS_core-rescue_SN74LVC1G32-formula U 0 40 Y Y 1 F N
+F0 "U" -550 150 50 H V C CNN
+F1 "BMS_core-rescue_SN74LVC1G32-formula" -350 250 50 H V C CNN
+F2 "footprints:SOT-23-5_OEM" -650 50 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf" -550 150 50 H I C CNN
+F4 "DK" -450 250 50 H I C CNN "MFN"
+F5 "SN74LVC1G32DBVR" -350 350 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G32DBVR/296-9847-1-ND/380102" -250 450 50 H I C CNN "PurchasingLink"
+$FPLIST
+ sot-23-5
+$ENDFPLIST
+DRAW
+A -465 0 381 232 -232 1 1 0 N -115 150 -115 -150
+A -150 250 472 -580 -320 1 1 0 N 100 -150 250 0
+A -100 -200 403 603 297 1 1 0 N 100 150 250 0
+P 2 0 1 0 -115 -150 -100 -150 N
+P 2 0 1 0 -100 150 -115 150 N
+P 2 1 1 0 -100 -150 100 -150 N
+P 2 1 1 0 -100 150 100 150 N
+X in 1 -300 100 200 R 50 28 1 1 B
+X in 2 -300 -100 200 R 50 28 1 1 B
+X GND 3 0 -350 200 U 50 28 1 1 B
+X out 4 450 0 200 L 50 28 1 1 B
+X VCC 5 0 350 200 D 50 28 1 1 B
+ENDDRAW
+ENDDEF
+#
+# BMS_core-rescue_T_LAN_SM91501ALE-footprints
+#
+DEF BMS_core-rescue_T_LAN_SM91501ALE-footprints T 0 40 Y Y 1 F N
 F0 "T" 500 1050 60 H V C CNN
-F1 "footprints_T_LAN_SM91501ALE" 950 -400 60 H V C CNN
+F1 "BMS_core-rescue_T_LAN_SM91501ALE-footprints" 950 -400 60 H V C CNN
 F2 "footprints:T_LAN_SM91501ALE" 400 950 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "DK" 350 500 60 H I C CNN "MFN"
@@ -853,23 +882,6 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_R_17.8K
-#
-DEF formula_R_17.8K R 0 40 N N 1 F N
-F0 "R" 100 50 50 H V C CNN
-F1 "formula_R_17.8K" 200 -50 50 H V C CNN
-F2 "footprints:R_0805_OEM" 0 -50 50 H I C CNN
-F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 100 50 50 H I C CNN
-F4 "DK" 200 150 50 H I C CNN "MFN"
-F5 "P17.8KCCT-ND" 300 250 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1782V/P17.8KCCT-ND/119333" 500 450 50 H I C CNN "PurchasingLink"
-DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # formula_R_1K
 #
 DEF formula_R_1K R 0 0 N Y 1 F N
@@ -880,27 +892,6 @@ F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# formula_R_1K_0.1
-#
-DEF formula_R_1K_0.1 R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "formula_R_1K_0.1" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "P1.0KDACT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -943,6 +934,27 @@ F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pd
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "311-3.01KCRCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=311-3.01KCRCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_R_475
+#
+DEF formula_R_475 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula_R_475" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "311-475CRCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=311-475CRCT-ND" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -1009,35 +1021,6 @@ X A 2 1050 -150 200 L 50 50 1 1 O
 X GND 3 1050 -250 200 L 50 50 1 1 O
 X Y 4 150 -250 200 R 50 50 1 1 I
 X VCC 5 150 -50 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# formula_SN74LVC1G32
-#
-DEF formula_SN74LVC1G32 U 0 40 Y Y 1 F N
-F0 "U" -550 150 50 H V C CNN
-F1 "formula_SN74LVC1G32" -350 250 50 H V C CNN
-F2 "footprints:SOT-23-5_OEM" -650 50 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf" -550 150 50 H I C CNN
-F4 "DK" -450 250 50 H I C CNN "MFN"
-F5 "SN74LVC1G32DBVR" -350 350 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G32DBVR/296-9847-1-ND/380102" -250 450 50 H I C CNN "PurchasingLink"
-$FPLIST
- sot-23-5
-$ENDFPLIST
-DRAW
-A -465 0 381 232 -232 1 1 0 N -115 150 -115 -150
-A -150 250 472 -580 -320 1 1 0 N 100 -150 250 0
-A -100 -200 403 603 297 1 1 0 N 100 150 250 0
-P 2 0 1 0 -115 -150 -100 -150 N
-P 2 0 1 0 -100 150 -115 150 N
-P 2 1 1 0 -100 -150 100 -150 N
-P 2 1 1 0 -100 150 100 150 N
-X in 1 -300 100 200 R 50 28 1 1 B
-X in 2 -300 -100 200 R 50 28 1 1 B
-X GND 3 0 -350 200 U 50 28 1 1 B
-X out 4 450 0 200 L 50 28 1 1 B
-X VCC 5 0 350 200 D 50 28 1 1 B
 ENDDRAW
 ENDDEF
 #
