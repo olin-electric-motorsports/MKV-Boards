@@ -1865,4 +1865,20 @@ $EndComp
 Connection ~ 5000 17500
 Wire Wire Line
 	5000 17500 5250 17500
+$Comp
+L formula:MM_F_VT_04 J10
+U 1 1 5E58FCF8
+P 9350 17550
+F 0 "J10" H 9408 17997 60  0000 C CNN
+F 1 "MM_F_VT_04" H 9408 17891 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_4" H 9150 18650 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 9250 18750 60  0001 C CNN
+F 4 "TE" H 9450 18950 60  0001 C CNN "MFN"
+F 5 "338068-4" H 9550 19050 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-338068-4.html" H 9350 18850 60  0001 C CNN "PurchasingLink"
+	1    9350 17550
+	1    0    0    -1  
+$EndComp
+Text Notes 9250 17900 0    50   ~ 0
+RETENTION
 $EndSCHEMATC
