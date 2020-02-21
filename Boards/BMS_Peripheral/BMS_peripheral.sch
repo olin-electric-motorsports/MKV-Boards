@@ -3823,4 +3823,20 @@ F 6 "https://www.digikey.si/product-detail/en/bourns-inc/SM91501ALE/SM91501ALETR
 	1    13250 11000
 	1    0    0    -1  
 $EndComp
+$Comp
+L formula:MM_F_VT_04 J8
+U 1 1 5E581A21
+P 15350 12500
+F 0 "J8" H 15408 12947 60  0000 C CNN
+F 1 "MM_F_VT_04" H 15408 12841 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_4" H 15150 13600 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 15250 13700 60  0001 C CNN
+F 4 "TE" H 15450 13900 60  0001 C CNN "MFN"
+F 5 "338068-4" H 15550 14000 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-338068-4.html" H 15350 13800 60  0001 C CNN "PurchasingLink"
+	1    15350 12500
+	1    0    0    -1  
+$EndComp
+Text Notes 15700 12450 0    50   ~ 0
+RETENTION
 $EndSCHEMATC

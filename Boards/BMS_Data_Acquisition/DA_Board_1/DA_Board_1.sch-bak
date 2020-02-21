@@ -1719,10 +1719,10 @@ Connection ~ 5000 3350
 Wire Wire Line
 	5000 3350 5250 3350
 $Comp
-L formula:1.5A_Fuse F?
+L formula:1.5A_Fuse F3
 U 1 1 5E4B42BC
 P 5000 3650
-F 0 "F?" H 5000 3875 50  0000 C CNN
+F 0 "F3" H 5000 3875 50  0000 C CNN
 F 1 "1.5A_Fuse" H 5000 3784 50  0000 C CNN
 F 2 "footprints:Fuse_1206" H 5000 3350 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 3650 50  0001 C CNN
@@ -1733,10 +1733,10 @@ F 6 "046601.5NR" H 5000 3783 50  0001 C CNN "MFN"
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:1.5A_Fuse F?
+L formula:1.5A_Fuse F5
 U 1 1 5E5319F0
 P 5000 5600
-F 0 "F?" H 5000 5825 50  0000 C CNN
+F 0 "F5" H 5000 5825 50  0000 C CNN
 F 1 "1.5A_Fuse" H 5000 5734 50  0000 C CNN
 F 2 "footprints:Fuse_1206" H 5000 5300 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 5600 50  0001 C CNN
@@ -1764,10 +1764,10 @@ Connection ~ 5000 5300
 Wire Wire Line
 	5000 5300 5250 5300
 $Comp
-L formula:1.5A_Fuse F?
+L formula:1.5A_Fuse F7
 U 1 1 5E54E77E
 P 5000 7550
-F 0 "F?" H 5000 7775 50  0000 C CNN
+F 0 "F7" H 5000 7775 50  0000 C CNN
 F 1 "1.5A_Fuse" H 5000 7684 50  0000 C CNN
 F 2 "footprints:Fuse_1206" H 5000 7250 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 7550 50  0001 C CNN
@@ -1781,10 +1781,10 @@ Connection ~ 5000 7250
 Wire Wire Line
 	5000 7250 5250 7250
 $Comp
-L formula:1.5A_Fuse F?
+L formula:1.5A_Fuse F1
 U 1 1 5E54EF95
 P 4950 9800
-F 0 "F?" H 4950 10025 50  0000 C CNN
+F 0 "F1" H 4950 10025 50  0000 C CNN
 F 1 "1.5A_Fuse" H 4950 9934 50  0000 C CNN
 F 2 "footprints:Fuse_1206" H 4950 9500 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4900 9800 50  0001 C CNN
@@ -1798,10 +1798,10 @@ Connection ~ 4950 9500
 Wire Wire Line
 	4950 9500 5200 9500
 $Comp
-L formula:1.5A_Fuse F?
+L formula:1.5A_Fuse F9
 U 1 1 5E5518AC
 P 5000 11950
-F 0 "F?" H 5000 12175 50  0000 C CNN
+F 0 "F9" H 5000 12175 50  0000 C CNN
 F 1 "1.5A_Fuse" H 5000 12084 50  0000 C CNN
 F 2 "footprints:Fuse_1206" H 5000 11650 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 11950 50  0001 C CNN
@@ -1815,10 +1815,10 @@ Connection ~ 5000 11650
 Wire Wire Line
 	5000 11650 5250 11650
 $Comp
-L formula:1.5A_Fuse F?
+L formula:1.5A_Fuse F11
 U 1 1 5E55211D
 P 5000 13750
-F 0 "F?" H 5000 13975 50  0000 C CNN
+F 0 "F11" H 5000 13975 50  0000 C CNN
 F 1 "1.5A_Fuse" H 5000 13884 50  0000 C CNN
 F 2 "footprints:Fuse_1206" H 5000 13450 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 13750 50  0001 C CNN
@@ -1832,10 +1832,10 @@ Connection ~ 5000 13450
 Wire Wire Line
 	5000 13450 5250 13450
 $Comp
-L formula:1.5A_Fuse F?
+L formula:1.5A_Fuse F13
 U 1 1 5E5549A0
 P 5000 15850
-F 0 "F?" H 5000 16075 50  0000 C CNN
+F 0 "F13" H 5000 16075 50  0000 C CNN
 F 1 "1.5A_Fuse" H 5000 15984 50  0000 C CNN
 F 2 "footprints:Fuse_1206" H 5000 15550 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 15850 50  0001 C CNN
@@ -1849,10 +1849,10 @@ Connection ~ 5000 15550
 Wire Wire Line
 	5000 15550 5250 15550
 $Comp
-L formula:1.5A_Fuse F?
+L formula:1.5A_Fuse F15
 U 1 1 5E559D35
 P 5000 17800
-F 0 "F?" H 5000 18025 50  0000 C CNN
+F 0 "F15" H 5000 18025 50  0000 C CNN
 F 1 "1.5A_Fuse" H 5000 17934 50  0000 C CNN
 F 2 "footprints:Fuse_1206" H 5000 17500 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 17800 50  0001 C CNN
@@ -1865,4 +1865,20 @@ $EndComp
 Connection ~ 5000 17500
 Wire Wire Line
 	5000 17500 5250 17500
+$Comp
+L formula:MM_F_VT_04 J?
+U 1 1 5E58FCF8
+P 9350 17550
+F 0 "J?" H 9408 17997 60  0000 C CNN
+F 1 "MM_F_VT_04" H 9408 17891 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_4" H 9150 18650 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 9250 18750 60  0001 C CNN
+F 4 "TE" H 9450 18950 60  0001 C CNN "MFN"
+F 5 "338068-4" H 9550 19050 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-338068-4.html" H 9350 18850 60  0001 C CNN "PurchasingLink"
+	1    9350 17550
+	1    0    0    -1  
+$EndComp
+Text Notes 9250 17900 0    50   ~ 0
+RETENTION
 $EndSCHEMATC

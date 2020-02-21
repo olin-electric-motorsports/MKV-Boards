@@ -203,6 +203,25 @@ X - 4 -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# formula_MM_F_VT_04
+#
+DEF formula_MM_F_VT_04 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "formula_MM_F_VT_04" 50 -250 60 H V C CNN
+F2 "footprints:micromatch_female_vert_4" -200 1100 60 H I C CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "338068-4" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-338068-4.html" 0 1300 60 H I C CNN "PurchasingLink"
+DRAW
+S 150 -150 -150 250 0 1 0 f
+X 1 1 250 200 100 L 50 50 1 1 B
+X 2 2 250 100 100 L 50 50 1 1 B
+X 3 3 250 0 100 L 50 50 1 1 B
+X 4 4 250 -100 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # formula_MM_F_VT_10
 #
 DEF formula_MM_F_VT_10 J 0 40 Y Y 1 F N
