@@ -758,7 +758,7 @@ Text Label 8830 1450 0    50   ~ 0
 NAND_Out
 Text Label 2850 6350 2    50   ~ 0
 VIN
-Text Label 3350 6300 0    50   ~ 0
+Text Label 3350 6350 0    50   ~ 0
 FB
 Text Label 3100 6050 0    50   ~ 0
 VCC
@@ -768,8 +768,8 @@ $Comp
 L Formula:Buck_Converter_450V_300mA U?
 U 1 1 5E4498F3
 P 3100 6350
-F 0 "U?" H 3058 6925 50  0000 C CNN
-F 1 "Buck_Converter_450V_300mA" H 3058 6834 50  0000 C CNN
+F 0 "U?" H 3158 6925 50  0000 C CNN
+F 1 "Buck_Converter_450V_300mA" H 3158 6834 50  0000 C CNN
 F 2 "footprints:Converter_DCDC_MPS_MP9488" H 3150 6800 50  0001 C CNN
 F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP9488/document_id/3748/" H 3100 6600 50  0001 C CNN
 F 4 "https://www.monolithicpower.com/en/mp9488.html" H 3150 6900 50  0001 C CNN "Purchasing Link"
@@ -824,16 +824,16 @@ $EndComp
 Wire Wire Line
 	4200 6050 4200 6150
 Wire Wire Line
-	3350 6300 3500 6300
+	3350 6350 3500 6350
 Wire Wire Line
-	3500 6300 3500 6400
-Connection ~ 3500 6300
+	3500 6350 3500 6450
+Connection ~ 3500 6350
 Wire Wire Line
-	3500 6300 4200 6300
+	3500 6350 4200 6350
 Wire Wire Line
 	3500 6650 3150 6650
 Connection ~ 3150 6650
-Text Label 3500 6400 0    50   ~ 0
+Text Label 3500 6450 0    50   ~ 0
 C5
 Text Label 4200 6150 0    50   ~ 0
 R1

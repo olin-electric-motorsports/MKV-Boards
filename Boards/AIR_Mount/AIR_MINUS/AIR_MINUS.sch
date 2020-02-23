@@ -27,8 +27,6 @@ F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/
 	1    1400 2100
 	1    0    0    -1  
 $EndComp
-Text Notes 1100 850  0    50   ~ 0
-[Relay, STSP-NO]\n
 Text Label 1700 1300 0    50   ~ 0
 TS-
 Text Label 1700 1600 0    50   ~ 0
@@ -57,14 +55,6 @@ F 8 "https://www.digikey.com/product-detail/en/wakefield-vette/657-15ABPEN/345-1
 $EndComp
 Text Notes 600  1000 0    50   ~ 0
 [Resistor, \nHeat Sink]\n
-Text Notes 1050 2250 0    50   ~ 0
-[Diode, SCHOTTKY]\n
-Wire Notes Line
-	2150 750  2150 2300
-Wire Notes Line
-	2150 2300 600  2300
-Wire Notes Line
-	600  2300 600  750 
 Text Label 3000 1000 0    50   ~ 0
 TS_Fused-
 Text Label 2700 1000 2    50   ~ 0
@@ -115,8 +105,6 @@ Text Label 4000 1000 2    50   ~ 0
 TS-
 Text Label 4300 1000 0    50   ~ 0
 TSMP-
-Wire Notes Line
-	600  750  2150 750 
 Text Label 3100 1750 0    50   ~ 0
 GND
 Text Label 3100 1850 0    50   ~ 0
