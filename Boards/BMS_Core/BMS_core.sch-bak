@@ -900,10 +900,10 @@ CS_iso
 Wire Wire Line
 	3850 2550 3750 2550
 $Comp
-L formula:LED_0805 D1
+L formula:LED_0805 PD5
 U 1 1 5C6F857F
 P 1000 6750
-F 0 "D1" H 1000 6650 50  0000 C CNN
+F 0 "PD5" H 1000 6650 50  0000 C CNN
 F 1 "LED_0805" H 1000 6850 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 900 6750 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1000 6850 50  0001 C CNN
@@ -914,10 +914,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1400 7250 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D2
+L formula:LED_0805 PD6
 U 1 1 5C6F87B3
 P 1400 6750
-F 0 "D2" H 1400 6650 50  0000 C CNN
+F 0 "PD6" H 1400 6650 50  0000 C CNN
 F 1 "LED_0805" H 1400 6850 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 1300 6750 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1400 6850 50  0001 C CNN
@@ -928,10 +928,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1800 7250 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D3
+L formula:LED_0805 PD7
 U 1 1 5C6F88AF
 P 1800 6750
-F 0 "D3" H 1800 6650 50  0000 C CNN
+F 0 "PD7" H 1800 6650 50  0000 C CNN
 F 1 "LED_0805" H 1800 6850 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 1700 6750 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1800 6850 50  0001 C CNN
@@ -1254,20 +1254,6 @@ F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-O
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:G5Q-1A4-DC5-5V K1
-U 1 1 5C831541
-P 8800 8800
-F 0 "K1" H 9150 8950 50  0000 L CNN
-F 1 "G5Q-1A4-DC5-5V" H 8400 8650 50  0000 L CNN
-F 2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" H 9250 8750 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" H 9250 8450 50  0001 L CNN
-F 4 "DK" H 9650 9350 60  0001 C CNN "MFN"
-F 5 "Z3632-ND" H 9550 9250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q-1A4-DC5/Z3632-ND/1815721" H 9750 9450 60  0001 C CNN "PurchasingLink"
-	1    8800 8800
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:B5B-PH-K-S J2
 U 1 1 5C846195
 P 5450 4650
@@ -1500,12 +1486,12 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR020
 U 1 1 5C93825A
-P 5500 1900
-F 0 "#PWR020" H 5500 1750 50  0001 C CNN
-F 1 "VCC" H 5500 2050 50  0000 C CNN
-F 2 "" H 5500 1900 50  0001 C CNN
-F 3 "" H 5500 1900 50  0001 C CNN
-	1    5500 1900
+P 5500 1825
+F 0 "#PWR020" H 5500 1675 50  0001 C CNN
+F 1 "VCC" H 5500 1975 50  0000 C CNN
+F 2 "" H 5500 1825 50  0001 C CNN
+F 3 "" H 5500 1825 50  0001 C CNN
+	1    5500 1825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1557,7 +1543,7 @@ L formula:R_3.01K R8
 U 1 1 5C9601F1
 P 6700 2850
 F 0 "R8" V 6780 2850 50  0000 C CNN
-F 1 "R_3.01K" V 6600 2850 50  0000 C CNN
+F 1 "R_1K" V 6600 2850 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 6630 2850 50  0001 C CNN
 F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 6780 2850 50  0001 C CNN
 F 4 "DK" H 6700 2850 60  0001 C CNN "MFN"
@@ -2526,7 +2512,7 @@ F 6 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/33101
 	-1   0    0    -1  
 $EndComp
 Text Notes 14500 3150 0    50   ~ 0
-GND\n12V\n5V_BMS\nMISO_BMS\nMOSI_BMS\nSCK_BMS\nRESET_BMS\nRJ45_LED_O_BMS\nRJ45_LED_G_BMS\nCAN HIGH\nCAN LOW\nBPSD CURRENT SENSE\nFAN PWM\nBMS SENSE\nCHARGE ENABLE 1\nCHARGE ENABLE 2\nGND\nGND\nGND\nGND
+GND\n12V\n5V_BMS\nMISO_BMS\nMOSI_BMS\nSCK_BMS\nRESET_BMS\nRJ45_LED_O_BMS\nRJ45_LED_G_BMS\nCAN HIGH\nCAN LOW\nBPSD CURRENT SENSE\nFAN PWM\nBMS SENSE\nGND\nGND\nGND\nGND\nCHARGE ENABLE 1\nGND
 Wire Notes Line
 	13950 800  11900 800 
 $Comp
@@ -2554,8 +2540,6 @@ Wire Wire Line
 Text Label 12650 2850 0    50   ~ 0
 GND
 Text Label 12650 2950 0    50   ~ 0
-GND
-Text Label 12650 3050 0    50   ~ 0
 GND
 Text Label 12650 3150 0    50   ~ 0
 GND
@@ -2767,7 +2751,6 @@ Wire Wire Line
 Connection ~ 12000 4975
 Wire Wire Line
 	12000 4975 12000 5000
-NoConn ~ 3750 3750
 NoConn ~ 3750 3850
 Wire Wire Line
 	13350 2650 12650 2650
@@ -2778,10 +2761,10 @@ GND
 Text Label 12650 2750 0    50   ~ 0
 GND
 $Comp
-L footprints:T_LAN_SM91501ALE T?
+L footprints:T_LAN_SM91501ALE T1
 U 1 1 5EF8F2AF
 P 10650 3100
-F 0 "T?" H 11525 4297 60  0000 C CNN
+F 0 "T1" H 11525 4297 60  0000 C CNN
 F 1 "T_LAN_SM91501ALE" H 11525 4191 60  0000 C CNN
 F 2 "footprints:T_LAN_SM91501ALE" H 11050 4050 60  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/54/sm91501al-1488891.pdf" H 10650 3100 60  0001 C CNN
@@ -2790,5 +2773,175 @@ F 5 "SM91501ALE" H 10900 3500 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.si/product-detail/en/bourns-inc/SM91501ALE/SM91501ALETR-ND/9650127" H 10800 3400 60  0001 C CNN "PurchasingLink"
 	1    10650 3100
 	-1   0    0    -1  
+$EndComp
+Text Label 3750 3750 0    50   ~ 0
+CHARGE_ENABLE1
+Text Label 12650 3050 0    50   ~ 0
+CHARGE_ENABLE1
+$Comp
+L formula:C_0.1uF C13
+U 1 1 5E486BF9
+P 5350 1900
+F 0 "C13" V 5300 1700 50  0000 L CNN
+F 1 "C_0.1uF" V 5400 1550 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 5388 1750 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5375 2000 50  0001 C CNN
+F 4 "478-3352-1-ND" H 5350 1900 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 5350 1900 60  0001 C CNN "MFN"
+F 6 "Value" H 5350 1900 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 5775 2400 60  0001 C CNN "PurchasingLink"
+	1    5350 1900
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR052
+U 1 1 5E486BFF
+P 5100 1950
+F 0 "#PWR052" H 5100 1700 50  0001 C CNN
+F 1 "GND" H 5100 1800 50  0000 C CNN
+F 2 "" H 5100 1950 50  0001 C CNN
+F 3 "" H 5100 1950 50  0001 C CNN
+	1    5100 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1900 5100 1900
+Connection ~ 5500 1900
+Wire Wire Line
+	5100 1900 5100 1950
+Wire Wire Line
+	5500 1825 5500 1900
+$Comp
+L formula:Test_Point_SMD 12V1
+U 1 1 5E4C6F2A
+P 13850 4175
+F 0 "12V1" V 13850 4450 50  0000 C CNN
+F 1 "Test_Point_SMD" H 13928 4172 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 13850 4025 50  0001 C CNN
+F 3 "" H 13850 4175 50  0001 C CNN
+	1    13850 4175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:Test_Point_SMD GND1
+U 1 1 5E4DC281
+P 13850 4400
+F 0 "GND1" V 13850 4675 50  0000 C CNN
+F 1 "Test_Point_SMD" H 13928 4397 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 13850 4250 50  0001 C CNN
+F 3 "" H 13850 4400 50  0001 C CNN
+	1    13850 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:Test_Point_SMD BSPD1
+U 1 1 5E4F03E3
+P 13850 4725
+F 0 "BSPD1" V 13850 4925 50  0000 L CNN
+F 1 "Test_Point_SMD" H 13928 4722 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 13850 4575 50  0001 C CNN
+F 3 "" H 13850 4725 50  0001 C CNN
+	1    13850 4725
+	0    -1   -1   0   
+$EndComp
+Text Label 13900 4725 0    50   ~ 0
+BSPD_CURRENT
+$Comp
+L power:GND #PWR0116
+U 1 1 5E542E39
+P 13900 4400
+F 0 "#PWR0116" H 13900 4150 50  0001 C CNN
+F 1 "GND" H 13905 4227 50  0000 C CNN
+F 2 "" H 13900 4400 50  0001 C CNN
+F 3 "" H 13900 4400 50  0001 C CNN
+	1    13900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5E54444B
+P 13900 4175
+AR Path="/5C6B723E/5E54444B" Ref="#PWR?"  Part="1" 
+AR Path="/5E54444B" Ref="#PWR0117"  Part="1" 
+AR Path="/5C702479/5E54444B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0117" H 13900 4025 50  0001 C CNN
+F 1 "+12V" H 13900 4315 50  0000 C CNN
+F 2 "" H 13900 4175 50  0001 C CNN
+F 3 "" H 13900 4175 50  0001 C CNN
+	1    13900 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD IM1
+U 1 1 5E5FD1CA
+P 13850 4950
+F 0 "IM1" V 13850 5225 50  0000 C CNN
+F 1 "Test_Point_SMD" H 13928 4947 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 13850 4800 50  0001 C CNN
+F 3 "" H 13850 4950 50  0001 C CNN
+	1    13850 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:Test_Point_SMD IP1
+U 1 1 5E5FD1D0
+P 13850 5175
+F 0 "IP1" V 13850 5450 50  0000 C CNN
+F 1 "Test_Point_SMD" H 13928 5172 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 13850 5025 50  0001 C CNN
+F 3 "" H 13850 5175 50  0001 C CNN
+	1    13850 5175
+	0    -1   -1   0   
+$EndComp
+Text Label 10550 2150 0    50   ~ 0
+IM
+Text Label 10550 2550 0    50   ~ 0
+IP
+Text Label 13900 4950 0    50   ~ 0
+IM
+Text Label 13900 5175 0    50   ~ 0
+IP
+$Comp
+L footprints:G5Q-1A4-DC12 K1
+U 1 1 5E4512AF
+P 8800 8800
+F 0 "K1" H 9130 8846 50  0000 L CNN
+F 1 "G5Q-1A4-DC12" H 9130 8755 50  0000 L CNN
+F 2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" H 8650 9200 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" H 8750 9300 50  0001 C CNN
+	1    8800 8800
+	1    0    0    -1  
+$EndComp
+Text Label 13900 5400 0    50   ~ 0
+CANH
+Text Label 13900 5600 0    50   ~ 0
+CANL
+$Comp
+L formula:TP CANH1
+U 1 1 5E47CC53
+P 13700 5400
+F 0 "CANH1" V 13700 5525 50  0000 C CNN
+F 1 "TP" V 13824 5292 50  0001 C CNN
+F 2 "footprints:tp_1.6mm" H 13600 5300 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 13700 5400 50  0001 C CNN
+F 4 "DK" H 13800 5500 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 13900 5600 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 14000 5700 50  0001 C CNN "PurchasingLink"
+	1    13700 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:TP CANL1
+U 1 1 5E4B9979
+P 13700 5600
+F 0 "CANL1" V 13700 5725 50  0000 C CNN
+F 1 "TP" V 13824 5492 50  0001 C CNN
+F 2 "footprints:tp_1.6mm" H 13600 5500 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 13700 5600 50  0001 C CNN
+F 4 "DK" H 13800 5700 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 13900 5800 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 14000 5900 50  0001 C CNN "PurchasingLink"
+	1    13700 5600
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

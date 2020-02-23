@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/isabella/Documents/Formula/MKV-Boards/Boards/IMD+IMD_Latch/IMD_LATCH/IMD_LATCH.sch</source>
+    <date>Sat 15 Feb 2020 07:22:47 PM EST</date>
+    <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>IMD Latch</title>
+        <company>Olin Electric Motorsports</company>
+        <rev>1</rev>
+        <date>2020-01-03</date>
+        <source>IMD_LATCH.sch</source>
+        <comment number="1" value="Aditya Sudhakar"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>MM_F_RA_04</value>
+      <footprint>footprints:micromatch_female_ra_4</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-4</datasheet>
+      <fields>
+        <field name="MFN">TE</field>
+        <field name="MPN">338070-4</field>
+        <field name="PurchasingLink">http://www.te.com/usa-en/product-338070-4.html</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="MM_F_RA_04-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE95A3D</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_0805</value>
+      <footprint>footprints:LED_0805_OEM</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">475-1410-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="LED_0805-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE9BF36</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_1K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD1K00CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_1K-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE9CE8D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C_10uF_16V</value>
+      <footprint>footprints:C_0805_OEM</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">1276-2399-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="C_10uF_16V-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE9D456</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>F_500mA_16V</value>
+      <footprint>footprints:Fuse_1210</footprint>
+      <datasheet>https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">507-1786-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="F_500mA_16V-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE9DA77</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Zener_18V</value>
+      <footprint>footprints:DO-214AA</footprint>
+      <datasheet>http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">SMBJ5355B-TPMSCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="D_Zener_18V-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEA1387</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>SSM3K333R</value>
+      <footprint>footprints:SOT-23F</footprint>
+      <datasheet>https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">SSM3K333RLFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="SSM3K333R-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DED4AB9</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_0805</value>
+      <footprint>footprints:LED_0805_OEM</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">475-1410-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="LED_0805-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DED63DE</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R_1K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD1K00CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_1K-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DED6DC7</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>SSM3K333R</value>
+      <footprint>footprints:SOT-23F</footprint>
+      <datasheet>https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">SSM3K333RLFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="SSM3K333R-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEDBBE2</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_Schottky_Small</value>
+      <footprint>footprints:D_0805_OEM</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEEC1F4</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>G5Q-1A4-DC5-5V</value>
+      <footprint>footprints:Relay_SPST_OMRON-G5Q-1A4_OEM</footprint>
+      <datasheet>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">Z3632-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q-1A4-DC5/Z3632-ND/1815721</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="G5Q-1A4-DC5-5V-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEEB87A</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>MicroFit_V_2</value>
+      <footprint>footprints:MicroFit_V_2</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/430450225_sd.pdf</datasheet>
+      <fields>
+        <field name="DK">MFN</field>
+        <field name="MPN">WM10660-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="MicroFit_V_2-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF02E66</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_604K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT604KCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_604K-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE34F28</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_300K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">P300KDACT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_300K-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE346DA</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_1K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-rncp.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD1K00CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_1K-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE30363</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R_120K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT120KCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_120K-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE30A48</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_2.2K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT2K20CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_2.2K-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE342A3</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R_1.82M</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT1M82CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT1M82/RMCF0805FT1M82CT-ND/2418309</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_1.82M-formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE66D2E</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C_2.2uF</value>
+      <footprint>footprints:C_0603_1608Metric</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">311-1451-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="C_2.2uF-formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE6EA75</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R_2.2K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT2K20CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_2.2K-formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEA1AC3</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>UF_5_VT</value>
+      <footprint>footprints:Ultrafit_5</footprint>
+      <datasheet>http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">WM11667-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="UF_5_VT-formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE61DDC</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R_604K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT604KCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_604K-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1739F9</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R_300K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">P300KDACT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_300K-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E173A02</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R_2.2K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT2K20CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_2.2K-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E173A0C</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TLV3701QDBVRG4Q1</value>
+      <footprint>footprints:SOT-23-5_OEM</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">497-10249-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q1/296-32395-6-ND/3507000</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="TLV3701QDBVRG4Q1-formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEA27E2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TLV3701QDBVRG4Q1</value>
+      <footprint>footprints:SOT-23-5_OEM</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">497-10249-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q1/296-32395-6-ND/3507000</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="TLV3701QDBVRG4Q1-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE2ED7E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_604K</value>
+      <footprint>footprints:R_0805_OEM</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT604KCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="R_604K-Formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DECDDA6</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>CD4043BPWR</value>
+      <footprint>footprints:TSSOP-16-OEM</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd4043b.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">296-14106-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-14106-1-ND/525904</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="CD4043BPWR-formula" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1ED57B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C_0.1uF</value>
+      <footprint>footprints:C_0805_OEM</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="C_0.1uF-footprints" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E24B59E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C_0.1uF</value>
+      <footprint>footprints:C_0805_OEM</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <libsource lib="IMD_LATCH-rescue" part="C_0.1uF-footprints" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E259A2A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="D_Schottky_Small">
+      <description>Schottky diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="CD4043BPWR-formula">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD4043BPWR-formula</field>
+        <field name="Footprint">footprints:TSSOP-16-OEM</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/cd4043b.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">296-14106-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-14106-1-ND/525904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q4" type="output"/>
+        <pin num="2" name="NC" type="output"/>
+        <pin num="3" name="R1" type="input"/>
+        <pin num="4" name="S1" type="input"/>
+        <pin num="5" name="ENABLE" type="input"/>
+        <pin num="6" name="S2" type="input"/>
+        <pin num="7" name="R2" type="input"/>
+        <pin num="8" name="Vss" type="input"/>
+        <pin num="9" name="Q2" type="output"/>
+        <pin num="10" name="Q3" type="output"/>
+        <pin num="11" name="R3" type="input"/>
+        <pin num="12" name="S3" type="input"/>
+        <pin num="13" name="Q1" type="output"/>
+        <pin num="14" name="S4" type="input"/>
+        <pin num="15" name="R4" type="input"/>
+        <pin num="16" name="Vdd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="C_0.1uF-footprints">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0.1uF-footprints</field>
+        <field name="Footprint">footprints:C_0805_OEM</field>
+        <field name="Datasheet">http://datasheets.avx.com/X7RDielectric.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="C_10uF_16V-Formula">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_10uF_16V-Formula</field>
+        <field name="Footprint">footprints:C_0805_OEM</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/01/15/Data%20sheet_CL21A106KOCLRNC.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">1276-2399-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND/3890485</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="C_2.2uF-formula">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_2.2uF-formula</field>
+        <field name="Footprint">footprints:C_0603_1608Metric</field>
+        <field name="Datasheet">http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">311-1451-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="D_Zener_18V-Formula">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_18V-Formula</field>
+        <field name="Footprint">footprints:DO-214AA</field>
+        <field name="Datasheet">http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">SMBJ5355B-TPMSCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="F_500mA_16V-Formula">
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">F_500mA_16V-Formula</field>
+        <field name="Footprint">footprints:Fuse_1210</field>
+        <field name="Datasheet">https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">507-1786-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="G5Q-1A4-DC5-5V-Formula">
+      <footprints>
+        <fp>Relay?SPDT?OMRON?G5Q*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G5Q-1A4-DC5-5V-Formula</field>
+        <field name="Footprint">footprints:Relay_SPST_OMRON-G5Q-1A4_OEM</field>
+        <field name="Datasheet">http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">Z3632-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q-1A4-DC5/Z3632-ND/1815721</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="LED_0805-Formula">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_0805-Formula</field>
+        <field name="Footprint">footprints:LED_0805_OEM</field>
+        <field name="Datasheet">http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">475-1410-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="MM_F_RA_04-Formula">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MM_F_RA_04-Formula</field>
+        <field name="Footprint">footprints:micromatch_female_ra_4</field>
+        <field name="Datasheet">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-4</field>
+        <field name="MFN">TE</field>
+        <field name="MPN">338070-4</field>
+        <field name="PurchasingLink">http://www.te.com/usa-en/product-338070-4.html</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="MicroFit_V_2-Formula">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MicroFit_V_2-Formula</field>
+        <field name="Footprint">footprints:MicroFit_V_2</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/430450225_sd.pdf</field>
+        <field name="DK">MFN</field>
+        <field name="MPN">WM10660-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="R_1.82M-formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_1.82M-formula</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT1M82CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT1M82/RMCF0805FT1M82CT-ND/2418309</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="R_120K-Formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_120K-Formula</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT120KCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="R_1K-Formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_1K-Formula</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-rncp.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD1K00CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="R_2.2K-Formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_2.2K-Formula</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT2K20CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="R_2.2K-formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_2.2K-formula</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT2K20CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="R_300K-Formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_300K-Formula</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">P300KDACT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="R_604K-Formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_604K-Formula</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805FT604KCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="SSM3K333R-Formula">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SSM3K333R-Formula</field>
+        <field name="Footprint">footprints:SOT-23F</field>
+        <field name="Datasheet">https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">SSM3K333RLFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="TLV3701QDBVRG4Q1-Formula">
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>*SC?70*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV3701QDBVRG4Q1-Formula</field>
+        <field name="Footprint">footprints:SOT-23-5_OEM</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">497-10249-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q1/296-32395-6-ND/3507000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="V-" type="input"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="V+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="TLV3701QDBVRG4Q1-formula">
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>*SC?70*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV3701QDBVRG4Q1-formula</field>
+        <field name="Footprint">footprints:SOT-23-5_OEM</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">497-10249-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q1/296-32395-6-ND/3507000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="V-" type="input"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="V+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMD_LATCH-rescue" part="UF_5_VT-formula">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">UF_5_VT-formula</field>
+        <field name="Datasheet">http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">WM11667-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="IMD_LATCH-rescue">
+      <uri>/home/isabella/Documents/Formula/MKV-Boards/Boards/IMD+IMD_Latch/IMD_LATCH/IMD_LATCH-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="Q2" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U2" pin="11"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="2" name="/IMD_Status_Output">
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="13"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R11-Pad1)">
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="6" name="+12V">
+      <node ref="J2" pin="2"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad4)">
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="13" name="/12V_Fused">
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="16"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="K1" pin="5"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D4-Pad1)">
+      <node ref="Q2" pin="3"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="16" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="18" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="K1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D2-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="20" name="/IMD_Output">
+      <node ref="R10" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="22" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="23" name="Net-(R1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+  </nets>
+</export>

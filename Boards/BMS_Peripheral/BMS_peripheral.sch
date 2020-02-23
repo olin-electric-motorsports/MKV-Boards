@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:BMS_peripheral-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr User 18504 16535
 encoding utf-8
@@ -1594,20 +1593,6 @@ Text Label 3250 6800 2    50   ~ 0
 C9
 Text Label 3250 7650 2    50   ~ 0
 C8
-$Comp
-L formula:T_LAN_7490100111A T1
-U 1 1 5C3D2A9C
-P 15000 8350
-F 0 "T1" H 15875 9547 60  0000 C CNN
-F 1 "T_LAN_7490100111A" H 15875 9441 60  0000 C CNN
-F 2 "footprints:T_LAN_7490100111A" H 15400 9300 60  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/7490100111A.pdf" H 15000 8350 60  0001 C CNN
-F 4 "DK" H 15350 8850 60  0001 C CNN "MFN"
-F 5 "732-5711-1-ND" H 15250 8750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381" H 15150 8650 60  0001 C CNN "PurchasingLink"
-	1    15000 8350
-	-1   0    0    -1  
-$EndComp
 Text Label 8300 3500 0    50   ~ 0
 V-2
 Text Label 8700 3500 0    50   ~ 0
@@ -3128,20 +3113,6 @@ Wire Wire Line
 	15000 10200 15000 10050
 Wire Wire Line
 	15000 10050 14750 10050
-$Comp
-L formula:T_LAN_7490100111A T2
-U 1 1 5DA7113D
-P 15000 11000
-F 0 "T2" H 15875 12197 60  0000 C CNN
-F 1 "T_LAN_7490100111A" H 15875 12091 60  0000 C CNN
-F 2 "footprints:T_LAN_7490100111A" H 15400 11950 60  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/7490100111A.pdf" H 15000 11000 60  0001 C CNN
-F 4 "DK" H 15350 11500 60  0001 C CNN "MFN"
-F 5 "732-5711-1-ND" H 15250 11400 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381" H 15150 11300 60  0001 C CNN "PurchasingLink"
-	1    15000 11000
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	15000 10300 15000 10450
 Wire Wire Line
@@ -3824,4 +3795,48 @@ Text Notes 6300 4350 0    79   ~ 0
 LTC6811 Chip #2 (higher voltages)
 Text Notes 6300 11050 0    79   ~ 0
 LTC6811 Chip #1 (lower voltages)
+$Comp
+L formula:T_LAN_SM91501ALE T1
+U 1 1 5E7C455F
+P 13250 8350
+F 0 "T1" H 14125 9547 60  0000 C CNN
+F 1 "T_LAN_SM91501ALE" H 14125 9441 60  0000 C CNN
+F 2 "footprints:T_LAN_SM91501ALE" H 13650 9300 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/sm91501al-1488891.pdf" H 13250 8350 60  0001 C CNN
+F 4 "DK" H 13600 8850 60  0001 C CNN "MFN"
+F 5 "SM91501ALE" H 13500 8750 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.si/product-detail/en/bourns-inc/SM91501ALE/SM91501ALETR-ND/9650127" H 13400 8650 60  0001 C CNN "PurchasingLink"
+	1    13250 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:T_LAN_SM91501ALE T2
+U 1 1 5E7CB2E6
+P 13250 11000
+F 0 "T2" H 14125 12197 60  0000 C CNN
+F 1 "T_LAN_SM91501ALE" H 14125 12091 60  0000 C CNN
+F 2 "footprints:T_LAN_SM91501ALE" H 13650 11950 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/sm91501al-1488891.pdf" H 13250 11000 60  0001 C CNN
+F 4 "DK" H 13600 11500 60  0001 C CNN "MFN"
+F 5 "SM91501ALE" H 13500 11400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.si/product-detail/en/bourns-inc/SM91501ALE/SM91501ALETR-ND/9650127" H 13400 11300 60  0001 C CNN "PurchasingLink"
+	1    13250 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MM_F_VT_04 J8
+U 1 1 5E581A21
+P 15350 12500
+F 0 "J8" H 15408 12947 60  0000 C CNN
+F 1 "MM_F_VT_04" H 15408 12841 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_4" H 15150 13600 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 15250 13700 60  0001 C CNN
+F 4 "TE" H 15450 13900 60  0001 C CNN "MFN"
+F 5 "338068-4" H 15550 14000 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-338068-4.html" H 15350 13800 60  0001 C CNN "PurchasingLink"
+	1    15350 12500
+	1    0    0    -1  
+$EndComp
+Text Notes 15700 12450 0    50   ~ 0
+RETENTION
 $EndSCHEMATC
