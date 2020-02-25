@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4-0-10_14)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
 
   (general
     (thickness 1.6)
-    (drawings 23)
+    (drawings 22)
     (tracks 92)
     (zones 0)
     (modules 24)
@@ -12,7 +12,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -20,7 +20,7 @@
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
-    (39 F.Mask user hide)
+    (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.25)
     (user_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.762)
@@ -64,7 +64,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFDF77F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)
@@ -989,7 +989,6 @@
   (gr_arc (start 95.885 137.287) (end 93.599 137.287) (angle -90) (layer Edge.Cuts) (width 0.12) (tstamp 5E456B83))
   (gr_arc (start 119.888 137.287) (end 119.888 139.573) (angle -90) (layer Edge.Cuts) (width 0.12) (tstamp 5E456B83))
   (gr_arc (start 119.888 111.76) (end 122.174 111.76) (angle -90) (layer Edge.Cuts) (width 0.12))
-  (gr_arc (start 120.396 139.573) (end 122.174 137.541) (angle 0) (layer F.SilkS) (width 0.12))
   (gr_line (start 119.888 139.573) (end 95.885 139.573) (layer Edge.Cuts) (width 0.12))
   (gr_line (start 95.885 109.474) (end 119.888 109.474) (layer Edge.Cuts) (width 0.12) (tstamp 5E4567AE))
   (gr_line (start 93.599 137.287) (end 93.599 111.76) (layer Edge.Cuts) (width 0.12) (tstamp 5E4567AC))

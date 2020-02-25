@@ -2917,10 +2917,10 @@ CANH
 Text Label 13900 5600 0    50   ~ 0
 CANL
 $Comp
-L formula:TP CANH
+L formula:TP CANH1
 U 1 1 5E47CC53
 P 13700 5400
-F 0 "CANH" V 13700 5525 50  0000 C CNN
+F 0 "CANH1" V 13700 5525 50  0000 C CNN
 F 1 "TP" V 13824 5292 50  0001 C CNN
 F 2 "footprints:tp_1.6mm" H 13600 5300 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 13700 5400 50  0001 C CNN
@@ -2931,10 +2931,10 @@ F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:TP CANL
+L formula:TP CANL1
 U 1 1 5E4B9979
 P 13700 5600
-F 0 "CANL" V 13700 5725 50  0000 C CNN
+F 0 "CANL1" V 13700 5725 50  0000 C CNN
 F 1 "TP" V 13824 5492 50  0001 C CNN
 F 2 "footprints:tp_1.6mm" H 13600 5500 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 13700 5600 50  0001 C CNN

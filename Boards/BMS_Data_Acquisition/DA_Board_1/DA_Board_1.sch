@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:DA_Board_1-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 16535 23386 portrait
 encoding utf-8
@@ -15,92 +14,92 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F16
+L formula:200mA_Fuse F16
 U 1 1 5F68FA8B
 P 5550 3350
 F 0 "F16" H 5550 3450 50  0000 C CNN
 F 1 "200mA_Fuse" H 5550 3250 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 5500 3350 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 5500 3350 50  0001 C CNN
-F 4 "" H 5550 3575 50  0000 C CNN "MPN"
-F 5 "" H 5550 3574 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5550 3483 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 5550 3575 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 5550 3574 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 5550 3483 50  0001 C CNN "MFN"
 	1    5550 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:Thermistor-formula RT133
+L formula:Thermistor RT133
 U 1 1 5F696EB9
 P 7500 4950
 F 0 "RT133" H 7750 5100 50  0000 C CNN
 F 1 "Thermistor" H 7500 5208 50  0000 C CNN
-F 2 "footprints:Thermistor" H 7520 4610 50  0001 C CNN
+F 2 "Thermistor" H 7520 4610 50  0001 C CNN
 F 3 "" H 7500 4950 50  0001 C CNN
 	1    7500 4950
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:Thermistor-formula RT132
+L formula:Thermistor RT132
 U 1 1 5F696F77
 P 7500 5500
 F 0 "RT132" H 7750 5650 50  0000 C CNN
 F 1 "Thermistor" H 7500 5758 50  0000 C CNN
-F 2 "footprints:Thermistor" H 7520 5160 50  0001 C CNN
+F 2 "Thermistor" H 7520 5160 50  0001 C CNN
 F 3 "" H 7500 5500 50  0001 C CNN
 	1    7500 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:Thermistor-formula RT131
+L formula:Thermistor RT131
 U 1 1 5F6973BA
 P 7500 6050
 F 0 "RT131" H 7750 6200 50  0000 C CNN
 F 1 "Thermistor" H 7500 6308 50  0000 C CNN
-F 2 "footprints:Thermistor" H 7520 5710 50  0001 C CNN
+F 2 "Thermistor" H 7520 5710 50  0001 C CNN
 F 3 "" H 7500 6050 50  0001 C CNN
 	1    7500 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:Thermistor-formula RT93
+L formula:Thermistor RT93
 U 1 1 5F69749A
 P 7500 6600
 F 0 "RT93" H 7750 6750 50  0000 C CNN
 F 1 "Thermistor" H 7500 6858 50  0000 C CNN
-F 2 "footprints:Thermistor" H 7520 6260 50  0001 C CNN
+F 2 "Thermistor" H 7520 6260 50  0001 C CNN
 F 3 "" H 7500 6600 50  0001 C CNN
 	1    7500 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:Thermistor-formula RT92
+L formula:Thermistor RT92
 U 1 1 5F69750E
 P 7500 7150
 F 0 "RT92" H 7750 7300 50  0000 C CNN
 F 1 "Thermistor" H 7500 7408 50  0000 C CNN
-F 2 "footprints:Thermistor" H 7520 6810 50  0001 C CNN
+F 2 "Thermistor" H 7520 6810 50  0001 C CNN
 F 3 "" H 7500 7150 50  0001 C CNN
 	1    7500 7150
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:Thermistor-formula RT91
+L formula:Thermistor RT91
 U 1 1 5F697580
 P 7500 7700
 F 0 "RT91" H 7750 7850 50  0000 C CNN
 F 1 "Thermistor" H 7500 7958 50  0000 C CNN
-F 2 "footprints:Thermistor" H 7520 7360 50  0001 C CNN
+F 2 "Thermistor" H 7520 7360 50  0001 C CNN
 F 3 "" H 7500 7700 50  0001 C CNN
 	1    7500 7700
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:Thermistor-formula RT53
+L formula:Thermistor RT53
 U 1 1 5F697FB1
 P 7500 8250
 F 0 "RT53" H 7750 8400 50  0000 C CNN
 F 1 "Thermistor" H 7500 8508 50  0000 C CNN
-F 2 "footprints:Thermistor" H 7520 7910 50  0001 C CNN
+F 2 "Thermistor" H 7520 7910 50  0001 C CNN
 F 3 "" H 7500 8250 50  0001 C CNN
 	1    7500 8250
 	1    0    0    -1  
@@ -154,34 +153,34 @@ Connection ~ 8000 8250
 Wire Wire Line
 	8000 7700 8000 8250
 $Comp
-L DA_Board_1-rescue:Thermistor-formula RT52
+L formula:Thermistor RT52
 U 1 1 5D830BA4
 P 7500 8800
 F 0 "RT52" H 7750 8950 50  0000 C CNN
 F 1 "Thermistor" H 7500 9058 50  0000 C CNN
-F 2 "footprints:Thermistor" H 7520 8460 50  0001 C CNN
+F 2 "Thermistor" H 7520 8460 50  0001 C CNN
 F 3 "" H 7500 8800 50  0001 C CNN
 	1    7500 8800
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:Thermistor-formula RT51
+L formula:Thermistor RT51
 U 1 1 5D830C22
 P 7500 9350
 F 0 "RT51" H 7750 9500 50  0000 C CNN
 F 1 "Thermistor" H 7500 9608 50  0000 C CNN
-F 2 "footprints:Thermistor" H 7520 9010 50  0001 C CNN
+F 2 "Thermistor" H 7520 9010 50  0001 C CNN
 F 3 "" H 7500 9350 50  0001 C CNN
 	1    7500 9350
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:Thermistor-formula RT13
+L formula:Thermistor RT13
 U 1 1 5D830CA2
 P 7500 9900
 F 0 "RT13" H 7750 10050 50  0000 C CNN
 F 1 "Thermistor" H 7500 10158 50  0000 C CNN
-F 2 "footprints:Thermistor" H 7520 9560 50  0001 C CNN
+F 2 "Thermistor" H 7520 9560 50  0001 C CNN
 F 3 "" H 7500 9900 50  0001 C CNN
 	1    7500 9900
 	1    0    0    -1  
@@ -193,12 +192,12 @@ C5_T1
 Text Label 7200 9900 2    50   ~ 0
 C1_T3
 $Comp
-L DA_Board_1-rescue:Thermistor-formula RT12
+L formula:Thermistor RT12
 U 1 1 5D83159E
 P 7500 10450
 F 0 "RT12" H 7750 10600 50  0000 C CNN
 F 1 "Thermistor" H 7500 10708 50  0000 C CNN
-F 2 "footprints:Thermistor" H 7520 10110 50  0001 C CNN
+F 2 "Thermistor" H 7520 10110 50  0001 C CNN
 F 3 "" H 7500 10450 50  0001 C CNN
 	1    7500 10450
 	1    0    0    -1  
@@ -206,12 +205,12 @@ $EndComp
 Text Label 7200 10450 2    50   ~ 0
 C1_T2
 $Comp
-L DA_Board_1-rescue:Thermistor-formula RT11
+L formula:Thermistor RT11
 U 1 1 5D83177F
 P 7500 11000
 F 0 "RT11" H 7750 11150 50  0000 C CNN
 F 1 "Thermistor" H 7500 11258 50  0000 C CNN
-F 2 "footprints:Thermistor" H 7520 10660 50  0001 C CNN
+F 2 "Thermistor" H 7520 10660 50  0001 C CNN
 F 3 "" H 7500 11000 50  0001 C CNN
 	1    7500 11000
 	1    0    0    -1  
@@ -253,7 +252,7 @@ NoConn ~ 4600 4350
 Wire Wire Line
 	4350 4650 4350 4700
 $Comp
-L DA_Board_1-rescue:LED_0805-formula D?
+L formula:LED_0805 D?
 U 1 1 5DB8765E
 P 4050 4200
 AR Path="/5DB8402B/5DB8765E" Ref="D?"  Part="1" 
@@ -269,7 +268,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4450 4700 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DA_Board_1-rescue:R_475-formula R?
+L formula:R_475 R?
 U 1 1 5DB87668
 P 4050 4550
 AR Path="/5DB8402B/5DB87668" Ref="R?"  Part="1" 
@@ -300,7 +299,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 5300 4350 5300
 $Comp
-L DA_Board_1-rescue:BSS308PE-formula Q?
+L formula:BSS308PE Q?
 U 1 1 5DB876CE
 P 4800 4150
 AR Path="/5DB8402B/5DB876CE" Ref="Q?"  Part="1" 
@@ -318,7 +317,7 @@ $EndComp
 Wire Wire Line
 	4050 4050 4350 4050
 $Comp
-L DA_Board_1-rescue:R_3.3_25W_TO163-formula R?
+L formula:R_3.3_25W_TO163 R?
 U 1 1 5DB876ED
 P 4350 4350
 AR Path="/5DB8402B/5DB876ED" Ref="R?"  Part="1" 
@@ -344,7 +343,7 @@ NoConn ~ 4600 6300
 Wire Wire Line
 	4350 6600 4350 6650
 $Comp
-L DA_Board_1-rescue:LED_0805-formula D?
+L formula:LED_0805 D?
 U 1 1 5DBA4B5D
 P 4050 6150
 AR Path="/5DB8402B/5DBA4B5D" Ref="D?"  Part="1" 
@@ -360,7 +359,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4450 6650 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DA_Board_1-rescue:R_475-formula R?
+L formula:R_475 R?
 U 1 1 5DBA4B67
 P 4050 6500
 AR Path="/5DB8402B/5DBA4B67" Ref="R?"  Part="1" 
@@ -382,7 +381,7 @@ Wire Wire Line
 Text Label 5950 7250 0    50   ~ 0
 C12
 $Comp
-L DA_Board_1-rescue:BSS308PE-formula Q?
+L formula:BSS308PE Q?
 U 1 1 5DBA4B79
 P 4800 6100
 AR Path="/5DB8402B/5DBA4B79" Ref="Q?"  Part="1" 
@@ -400,7 +399,7 @@ $EndComp
 Wire Wire Line
 	4050 6000 4350 6000
 $Comp
-L DA_Board_1-rescue:R_3.3_25W_TO163-formula R?
+L formula:R_3.3_25W_TO163 R?
 U 1 1 5DBA4B84
 P 4350 6300
 AR Path="/5DB8402B/5DBA4B84" Ref="R?"  Part="1" 
@@ -426,7 +425,7 @@ NoConn ~ 4600 8250
 Wire Wire Line
 	4350 8550 4350 8600
 $Comp
-L DA_Board_1-rescue:LED_0805-formula D?
+L formula:LED_0805 D?
 U 1 1 5DBA986D
 P 4050 8100
 AR Path="/5DB8402B/5DBA986D" Ref="D?"  Part="1" 
@@ -442,7 +441,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4450 8600 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DA_Board_1-rescue:R_475-formula R?
+L formula:R_475 R?
 U 1 1 5DBA9877
 P 4050 8450
 AR Path="/5DB8402B/5DBA9877" Ref="R?"  Part="1" 
@@ -462,7 +461,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 8600 4350 8600
 $Comp
-L DA_Board_1-rescue:BSS308PE-formula Q?
+L formula:BSS308PE Q?
 U 1 1 5DBA9889
 P 4800 8050
 AR Path="/5DB8402B/5DBA9889" Ref="Q?"  Part="1" 
@@ -480,7 +479,7 @@ $EndComp
 Wire Wire Line
 	4050 7950 4350 7950
 $Comp
-L DA_Board_1-rescue:R_3.3_25W_TO163-formula R?
+L formula:R_3.3_25W_TO163 R?
 U 1 1 5DBA9894
 P 4350 8250
 AR Path="/5DB8402B/5DBA9894" Ref="R?"  Part="1" 
@@ -511,7 +510,7 @@ NoConn ~ 4550 10500
 Wire Wire Line
 	4300 10800 4300 10850
 $Comp
-L DA_Board_1-rescue:LED_0805-formula D?
+L formula:LED_0805 D?
 U 1 1 5DBB62B5
 P 4000 10350
 AR Path="/5DB8402B/5DBB62B5" Ref="D?"  Part="1" 
@@ -527,7 +526,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4400 10850 60
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DA_Board_1-rescue:R_475-formula R?
+L formula:R_475 R?
 U 1 1 5DBB62BF
 P 4000 10700
 AR Path="/5DB8402B/5DBB62BF" Ref="R?"  Part="1" 
@@ -547,7 +546,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 10850 4300 10850
 $Comp
-L DA_Board_1-rescue:BSS308PE-formula Q?
+L formula:BSS308PE Q?
 U 1 1 5DBB62D1
 P 4750 10300
 AR Path="/5DB8402B/5DBB62D1" Ref="Q?"  Part="1" 
@@ -563,7 +562,7 @@ F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DA_Board_1-rescue:R_3.3_25W_TO163-formula R?
+L formula:R_3.3_25W_TO163 R?
 U 1 1 5DBB62DC
 P 4300 10500
 AR Path="/5DB8402B/5DBB62DC" Ref="R?"  Part="1" 
@@ -593,7 +592,7 @@ NoConn ~ 4600 12650
 Wire Wire Line
 	4350 12950 4350 13000
 $Comp
-L DA_Board_1-rescue:LED_0805-formula D?
+L formula:LED_0805 D?
 U 1 1 5DBC775A
 P 4050 12500
 AR Path="/5DB8402B/5DBC775A" Ref="D?"  Part="1" 
@@ -609,7 +608,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4450 13000 60
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DA_Board_1-rescue:R_475-formula R?
+L formula:R_475 R?
 U 1 1 5DBC7764
 P 4050 12850
 AR Path="/5DB8402B/5DBC7764" Ref="R?"  Part="1" 
@@ -629,7 +628,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 13000 4350 13000
 $Comp
-L DA_Board_1-rescue:BSS308PE-formula Q?
+L formula:BSS308PE Q?
 U 1 1 5DBC7776
 P 4800 12450
 AR Path="/5DB8402B/5DBC7776" Ref="Q?"  Part="1" 
@@ -647,7 +646,7 @@ $EndComp
 Wire Wire Line
 	4050 12350 4350 12350
 $Comp
-L DA_Board_1-rescue:R_3.3_25W_TO163-formula R?
+L formula:R_3.3_25W_TO163 R?
 U 1 1 5DBC7781
 P 4350 12650
 AR Path="/5DB8402B/5DBC7781" Ref="R?"  Part="1" 
@@ -680,7 +679,7 @@ NoConn ~ 4600 14450
 Wire Wire Line
 	4350 14750 4350 14800
 $Comp
-L DA_Board_1-rescue:LED_0805-formula D?
+L formula:LED_0805 D?
 U 1 1 5DBDD431
 P 4050 14300
 AR Path="/5DB8402B/5DBDD431" Ref="D?"  Part="1" 
@@ -696,7 +695,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4450 14800 60
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DA_Board_1-rescue:R_475-formula R?
+L formula:R_475 R?
 U 1 1 5DBDD43B
 P 4050 14650
 AR Path="/5DB8402B/5DBDD43B" Ref="R?"  Part="1" 
@@ -716,7 +715,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 14800 4350 14800
 $Comp
-L DA_Board_1-rescue:BSS308PE-formula Q?
+L formula:BSS308PE Q?
 U 1 1 5DBDD44D
 P 4800 14250
 AR Path="/5DB8402B/5DBDD44D" Ref="Q?"  Part="1" 
@@ -734,7 +733,7 @@ $EndComp
 Wire Wire Line
 	4050 14150 4350 14150
 $Comp
-L DA_Board_1-rescue:R_3.3_25W_TO163-formula R?
+L formula:R_3.3_25W_TO163 R?
 U 1 1 5DBDD458
 P 4350 14450
 AR Path="/5DB8402B/5DBDD458" Ref="R?"  Part="1" 
@@ -767,7 +766,7 @@ NoConn ~ 4600 16550
 Wire Wire Line
 	4350 16850 4350 16900
 $Comp
-L DA_Board_1-rescue:LED_0805-formula D?
+L formula:LED_0805 D?
 U 1 1 5DBF85E1
 P 4050 16400
 AR Path="/5DB8402B/5DBF85E1" Ref="D?"  Part="1" 
@@ -783,7 +782,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4450 16900 60
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DA_Board_1-rescue:R_475-formula R?
+L formula:R_475 R?
 U 1 1 5DBF85EB
 P 4050 16750
 AR Path="/5DB8402B/5DBF85EB" Ref="R?"  Part="1" 
@@ -803,7 +802,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 16900 4350 16900
 $Comp
-L DA_Board_1-rescue:BSS308PE-formula Q?
+L formula:BSS308PE Q?
 U 1 1 5DBF85FD
 P 4800 16350
 AR Path="/5DB8402B/5DBF85FD" Ref="Q?"  Part="1" 
@@ -821,7 +820,7 @@ $EndComp
 Wire Wire Line
 	4050 16250 4350 16250
 $Comp
-L DA_Board_1-rescue:R_3.3_25W_TO163-formula R?
+L formula:R_3.3_25W_TO163 R?
 U 1 1 5DBF8608
 P 4350 16550
 AR Path="/5DB8402B/5DBF8608" Ref="R?"  Part="1" 
@@ -852,7 +851,7 @@ NoConn ~ 4600 18500
 Wire Wire Line
 	4350 18800 4350 18850
 $Comp
-L DA_Board_1-rescue:LED_0805-formula D?
+L formula:LED_0805 D?
 U 1 1 5DC19E8A
 P 4050 18350
 AR Path="/5DB8402B/5DC19E8A" Ref="D?"  Part="1" 
@@ -868,7 +867,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4450 18850 60
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DA_Board_1-rescue:R_475-formula R?
+L formula:R_475 R?
 U 1 1 5DC19E94
 P 4050 18700
 AR Path="/5DB8402B/5DC19E94" Ref="R?"  Part="1" 
@@ -888,7 +887,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 18850 4350 18850
 $Comp
-L DA_Board_1-rescue:BSS308PE-formula Q?
+L formula:BSS308PE Q?
 U 1 1 5DC19EA6
 P 4800 18300
 AR Path="/5DB8402B/5DC19EA6" Ref="Q?"  Part="1" 
@@ -906,7 +905,7 @@ $EndComp
 Wire Wire Line
 	4050 18200 4350 18200
 $Comp
-L DA_Board_1-rescue:R_3.3_25W_TO163-formula R?
+L formula:R_3.3_25W_TO163 R?
 U 1 1 5DC19EB1
 P 4350 18500
 AR Path="/5DB8402B/5DC19EB1" Ref="R?"  Part="1" 
@@ -967,135 +966,135 @@ Wire Wire Line
 Wire Wire Line
 	5850 3350 5950 3350
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F14
+L formula:200mA_Fuse F14
 U 1 1 5DFEDE3B
 P 5550 5300
 F 0 "F14" H 5550 5400 50  0000 C CNN
 F 1 "200mA_Fuse" H 5550 5200 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 5500 5300 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 5500 5300 50  0001 C CNN
-F 4 "" H 5550 5525 50  0000 C CNN "MPN"
-F 5 "" H 5550 5524 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5550 5433 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 5550 5525 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 5550 5524 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 5550 5433 50  0001 C CNN "MFN"
 	1    5550 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 5300 5950 5300
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F12
+L formula:200mA_Fuse F12
 U 1 1 5E0144DB
 P 5550 7250
 F 0 "F12" H 5550 7350 50  0000 C CNN
 F 1 "200mA_Fuse" H 5550 7150 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 5500 7250 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 5500 7250 50  0001 C CNN
-F 4 "" H 5550 7475 50  0000 C CNN "MPN"
-F 5 "" H 5550 7474 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5550 7383 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 5550 7475 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 5550 7474 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 5550 7383 50  0001 C CNN "MFN"
 	1    5550 7250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 7250 5950 7250
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F10
+L formula:200mA_Fuse F10
 U 1 1 5E03B065
 P 5500 9500
 F 0 "F10" H 5500 9600 50  0000 C CNN
 F 1 "200mA_Fuse" H 5500 9400 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 5450 9500 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 5450 9500 50  0001 C CNN
-F 4 "" H 5500 9725 50  0000 C CNN "MPN"
-F 5 "" H 5500 9724 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5500 9633 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 5500 9725 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 5500 9724 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 5500 9633 50  0001 C CNN "MFN"
 	1    5500 9500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5800 9500 5900 9500
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F8
+L formula:200mA_Fuse F8
 U 1 1 5E062DFE
 P 5550 11650
 F 0 "F8" H 5550 11750 50  0000 C CNN
 F 1 "200mA_Fuse" H 5550 11550 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 5500 11650 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 5500 11650 50  0001 C CNN
-F 4 "" H 5550 11875 50  0000 C CNN "MPN"
-F 5 "" H 5550 11874 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5550 11783 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 5550 11875 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 5550 11874 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 5550 11783 50  0001 C CNN "MFN"
 	1    5550 11650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 11650 5950 11650
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F6
+L formula:200mA_Fuse F6
 U 1 1 5E08B789
 P 5550 13450
 F 0 "F6" H 5550 13550 50  0000 C CNN
 F 1 "200mA_Fuse" H 5550 13350 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 5500 13450 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 5500 13450 50  0001 C CNN
-F 4 "" H 5550 13675 50  0000 C CNN "MPN"
-F 5 "" H 5550 13674 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5550 13583 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 5550 13675 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 5550 13674 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 5550 13583 50  0001 C CNN "MFN"
 	1    5550 13450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 13450 5950 13450
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F4
+L formula:200mA_Fuse F4
 U 1 1 5E0B5E27
 P 5550 15550
 F 0 "F4" H 5550 15650 50  0000 C CNN
 F 1 "200mA_Fuse" H 5550 15450 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 5500 15550 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 5500 15550 50  0001 C CNN
-F 4 "" H 5550 15775 50  0000 C CNN "MPN"
-F 5 "" H 5550 15774 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5550 15683 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 5550 15775 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 5550 15774 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 5550 15683 50  0001 C CNN "MFN"
 	1    5550 15550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 15550 5950 15550
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F2
+L formula:200mA_Fuse F2
 U 1 1 5E0DEF99
 P 5550 17500
 F 0 "F2" H 5550 17600 50  0000 C CNN
 F 1 "200mA_Fuse" H 5550 17400 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 5500 17500 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 5500 17500 50  0001 C CNN
-F 4 "" H 5550 17725 50  0000 C CNN "MPN"
-F 5 "" H 5550 17724 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5550 17633 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 5550 17725 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 5550 17724 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 5550 17633 50  0001 C CNN "MFN"
 	1    5550 17500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 17500 5950 17500
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F0
+L formula:200mA_Fuse F0
 U 1 1 5E109BA2
 P 5550 19350
 F 0 "F0" H 5550 19450 50  0000 C CNN
 F 1 "200mA_Fuse" H 5550 19250 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 5500 19350 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 5500 19350 50  0001 C CNN
-F 4 "" H 5550 19575 50  0000 C CNN "MPN"
-F 5 "" H 5550 19574 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5550 19483 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 5550 19575 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 5550 19574 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 5550 19483 50  0001 C CNN "MFN"
 	1    5550 19350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 19350 5950 19350
 $Comp
-L DA_Board_1-rescue:MM_M_VT_12-formula J3
+L formula:MM_M_VT_12 J3
 U 1 1 5E20BE7C
 P 6950 13650
 F 0 "J3" H 6906 14997 60  0000 C CNN
@@ -1109,7 +1108,7 @@ F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 6950 14950 60  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:MM_M_VT_12-formula J4
+L formula:MM_M_VT_12 J4
 U 1 1 5E20FB90
 P 6950 16900
 F 0 "J4" H 6906 18247 60  0000 C CNN
@@ -1123,7 +1122,7 @@ F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 6950 18200 60  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:MM_M_VT_16-formula J5
+L formula:MM_M_VT_16 J5
 U 1 1 5E21125C
 P 8100 15700
 F 0 "J5" H 8056 17047 60  0000 C CNN
@@ -1265,16 +1264,16 @@ C8, V-1, and \nV+2 are all the \nsame, for Kelvin \nconnection
 Text Notes 7400 16250 0    50   ~ 0
 V+1 is same \nas C16, for\nKelvin connection
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F+2
+L formula:200mA_Fuse F+2
 U 1 1 5E449070
 P 2550 2800
 F 0 "F+2" H 2550 2900 50  0000 C CNN
 F 1 "200mA_Fuse" H 2550 2700 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 2500 2800 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2500 2800 50  0001 C CNN
-F 4 "" H 2550 3025 50  0000 C CNN "MPN"
-F 5 "" H 2550 3024 50  0000 C CNN "PurchasingLink"
-F 6 "" H 2550 2933 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 2550 3025 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 2550 3024 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 2550 2933 50  0001 C CNN "MFN"
 	1    2550 2800
 	-1   0    0    1   
 $EndComp
@@ -1283,16 +1282,16 @@ V+2
 Wire Wire Line
 	2250 2800 2200 2800
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F-1
+L formula:200mA_Fuse F-1
 U 1 1 5E46FFB5
 P 2450 19850
 F 0 "F-1" H 2450 19950 50  0000 C CNN
 F 1 "200mA_Fuse" H 2450 19750 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 2400 19850 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2400 19850 50  0001 C CNN
-F 4 "" H 2450 20075 50  0000 C CNN "MPN"
-F 5 "" H 2450 20074 50  0000 C CNN "PurchasingLink"
-F 6 "" H 2450 19983 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 2450 20075 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 2450 20074 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 2450 19983 50  0001 C CNN "MFN"
 	1    2450 19850
 	-1   0    0    1   
 $EndComp
@@ -1301,16 +1300,16 @@ V-1
 Wire Wire Line
 	2150 19850 2100 19850
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F-2
+L formula:200mA_Fuse F-2
 U 1 1 5E4858A2
 P 2600 11200
 F 0 "F-2" H 2600 11300 50  0000 C CNN
 F 1 "200mA_Fuse" H 2600 11100 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 2550 11200 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2550 11200 50  0001 C CNN
-F 4 "" H 2600 11425 50  0000 C CNN "MPN"
-F 5 "" H 2600 11424 50  0000 C CNN "PurchasingLink"
-F 6 "" H 2600 11333 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 2600 11425 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 2600 11424 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 2600 11333 50  0001 C CNN "MFN"
 	1    2600 11200
 	-1   0    0    1   
 $EndComp
@@ -1319,16 +1318,16 @@ V-2
 Wire Wire Line
 	2300 11200 2250 11200
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F+1
+L formula:200mA_Fuse F+1
 U 1 1 5E512653
 P 2600 12050
 F 0 "F+1" H 2600 12150 50  0000 C CNN
 F 1 "200mA_Fuse" H 2600 11950 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 2550 12050 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2550 12050 50  0001 C CNN
-F 4 "" H 2600 12275 50  0000 C CNN "MPN"
-F 5 "" H 2600 12274 50  0000 C CNN "PurchasingLink"
-F 6 "" H 2600 12183 50  0000 C CNN "MFN"
+F 4 "507-1767-1-ND " H 2600 12275 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 2600 12274 50  0001 C CNN "PurchasingLink"
+F 6 "DK" H 2600 12183 50  0001 C CNN "MFN"
 	1    2600 12050
 	-1   0    0    1   
 $EndComp
@@ -1531,7 +1530,7 @@ F 3 "" H 3200 17700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:MM_M_VT_12-formula J2
+L formula:MM_M_VT_12 J2
 U 1 1 5DBE8177
 P 6950 18400
 F 0 "J2" H 6906 19747 60  0000 C CNN
@@ -1545,7 +1544,7 @@ F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 6950 19700 60  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:MM_M_VT_10-formula J1
+L formula:MM_M_VT_10 J1
 U 1 1 5DBE78A1
 P 6800 14900
 F 0 "J1" H 6856 15797 60  0000 C CNN
@@ -1559,7 +1558,7 @@ F 6 "http://www.te.com/global-en/product-1-215464-0.html" H 6800 16200 60  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:MM_M_VT_12-formula J8
+L formula:MM_M_VT_12 J8
 U 1 1 5DC0F961
 P 11050 14650
 F 0 "J8" H 11006 15997 60  0000 C CNN
@@ -1573,7 +1572,7 @@ F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 11050 15950 60  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:MM_M_VT_12-formula J7
+L formula:MM_M_VT_12 J7
 U 1 1 5DC0F96B
 P 10000 16150
 F 0 "J7" H 9956 17497 60  0000 C CNN
@@ -1587,7 +1586,7 @@ F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 10000 17450 60  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L DA_Board_1-rescue:MM_M_VT_10-formula J6
+L formula:MM_M_VT_10 J6
 U 1 1 5DC0F975
 P 9850 14200
 F 0 "J6" H 9906 15097 60  0000 C CNN
@@ -1691,7 +1690,7 @@ PWR16
 Text Label 10100 14450 0    50   ~ 0
 PWR15
 $Comp
-L DA_Board_1-rescue:MM_M_VT_12-formula J9
+L formula:MM_M_VT_12 J9
 U 1 1 5DC0F9AC
 P 11050 16100
 F 0 "J9" H 11006 17447 60  0000 C CNN
@@ -1706,164 +1705,180 @@ F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 11050 17400 60  0001
 $EndComp
 NoConn ~ 10150 15050
 Wire Wire Line
-	4350 17500 5000 17500
-$Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F22
-U 1 1 5DE27305
-P 5000 17800
-F 0 "F22" H 5000 17700 50  0000 C CNN
-F 1 "200mA_Fuse" H 5000 17900 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 4950 17800 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 4950 17800 50  0001 C CNN
-F 4 "" H 5000 18025 50  0000 C CNN "MPN"
-F 5 "" H 5000 18024 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5000 17933 50  0000 C CNN "MFN"
-	1    5000 17800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	4350 18850 4350 19000
 Wire Wire Line
 	4350 19250 4350 19350
-Connection ~ 5000 17500
-Wire Wire Line
-	5000 17500 5250 17500
-Wire Wire Line
-	4350 15550 5000 15550
-$Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F24
-U 1 1 5DEA355F
-P 5000 15850
-F 0 "F24" H 5000 15950 50  0000 C CNN
-F 1 "200mA_Fuse" H 5000 15750 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 4950 15850 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 4950 15850 50  0001 C CNN
-F 4 "" H 5000 16075 50  0000 C CNN "MPN"
-F 5 "" H 5000 16074 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5000 15983 50  0000 C CNN "MFN"
-	1    5000 15850
-	0    1    1    0   
-$EndComp
-Connection ~ 5000 15550
-Wire Wire Line
-	5000 15550 5250 15550
-Wire Wire Line
-	4350 13450 5000 13450
-$Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F26
-U 1 1 5DEBFC14
-P 5000 13750
-F 0 "F26" H 5000 13850 50  0000 C CNN
-F 1 "200mA_Fuse" H 5000 13650 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 4950 13750 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 4950 13750 50  0001 C CNN
-F 4 "" H 5000 13975 50  0000 C CNN "MPN"
-F 5 "" H 5000 13974 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5000 13883 50  0000 C CNN "MFN"
-	1    5000 13750
-	0    1    1    0   
-$EndComp
-Connection ~ 5000 13450
-Wire Wire Line
-	5000 13450 5250 13450
-Wire Wire Line
-	4350 11650 5000 11650
-$Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F28
-U 1 1 5DED4C39
-P 5000 11950
-F 0 "F28" H 5000 12050 50  0000 C CNN
-F 1 "200mA_Fuse" H 5000 11850 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 4950 11950 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 4950 11950 50  0001 C CNN
-F 4 "" H 5000 12175 50  0000 C CNN "MPN"
-F 5 "" H 5000 12174 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5000 12083 50  0000 C CNN "MFN"
-	1    5000 11950
-	0    1    1    0   
-$EndComp
-Connection ~ 5000 11650
-Wire Wire Line
-	5000 11650 5250 11650
 Wire Wire Line
 	4000 10200 4300 10200
 Connection ~ 4300 10200
 Wire Wire Line
 	4300 10200 4550 10200
 Wire Wire Line
-	4300 9500 4950 9500
+	3600 3350 5000 3350
+Connection ~ 5000 3350
+Wire Wire Line
+	5000 3350 5250 3350
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F210
-U 1 1 5DEF849D
-P 4950 9800
-F 0 "F210" H 4950 9900 50  0000 C CNN
-F 1 "200mA_Fuse" H 4950 9700 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 4900 9800 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 4900 9800 50  0001 C CNN
-F 4 "" H 4950 10025 50  0000 C CNN "MPN"
-F 5 "" H 4950 10024 50  0000 C CNN "PurchasingLink"
-F 6 "" H 4950 9933 50  0000 C CNN "MFN"
-	1    4950 9800
+L formula:1.5A_Fuse F3
+U 1 1 5E4B42BC
+P 5000 3650
+F 0 "F3" H 5000 3875 50  0000 C CNN
+F 1 "1.5A_Fuse" H 5000 3784 50  0000 C CNN
+F 2 "footprints:Fuse_1206" H 5000 3350 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 3650 50  0001 C CNN
+F 4 "F1462CT-ND" H 5000 3965 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/littelfuse-inc/046601.5NR/F1462CT-ND/521360" H 5000 3874 50  0001 C CNN "PurchasingLink"
+F 6 "046601.5NR" H 5000 3783 50  0001 C CNN "MFN"
+	1    5000 3650
 	0    1    1    0   
 $EndComp
-Connection ~ 4950 9500
+$Comp
+L formula:1.5A_Fuse F5
+U 1 1 5E5319F0
+P 5000 5600
+F 0 "F5" H 5000 5825 50  0000 C CNN
+F 1 "1.5A_Fuse" H 5000 5734 50  0000 C CNN
+F 2 "footprints:Fuse_1206" H 5000 5300 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 5600 50  0001 C CNN
+F 4 "F1462CT-ND" H 5000 5915 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/littelfuse-inc/046601.5NR/F1462CT-ND/521360" H 5000 5824 50  0001 C CNN "PurchasingLink"
+F 6 "046601.5NR" H 5000 5733 50  0001 C CNN "MFN"
+	1    5000 5600
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	4950 9500 5200 9500
+	4350 5300 5000 5300
 Wire Wire Line
 	4350 7250 5000 7250
+Wire Wire Line
+	4300 9500 4950 9500
+Wire Wire Line
+	4350 11650 5000 11650
+Wire Wire Line
+	4350 13450 5000 13450
+Wire Wire Line
+	4350 15550 5000 15550
+Wire Wire Line
+	4350 17500 5000 17500
+Connection ~ 5000 5300
+Wire Wire Line
+	5000 5300 5250 5300
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula Ff212
-U 1 1 5DF14F3E
+L formula:1.5A_Fuse F7
+U 1 1 5E54E77E
 P 5000 7550
-F 0 "Ff212" H 5000 7650 50  0000 C CNN
-F 1 "200mA_Fuse" H 5000 7450 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 4950 7550 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 4950 7550 50  0001 C CNN
-F 4 "" H 5000 7775 50  0000 C CNN "MPN"
-F 5 "" H 5000 7774 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5000 7683 50  0000 C CNN "MFN"
+F 0 "F7" H 5000 7775 50  0000 C CNN
+F 1 "1.5A_Fuse" H 5000 7684 50  0000 C CNN
+F 2 "footprints:Fuse_1206" H 5000 7250 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 7550 50  0001 C CNN
+F 4 "F1462CT-ND" H 5000 7865 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/littelfuse-inc/046601.5NR/F1462CT-ND/521360" H 5000 7774 50  0001 C CNN "PurchasingLink"
+F 6 "046601.5NR" H 5000 7683 50  0001 C CNN "MFN"
 	1    5000 7550
 	0    1    1    0   
 $EndComp
 Connection ~ 5000 7250
 Wire Wire Line
 	5000 7250 5250 7250
-Wire Wire Line
-	4350 5300 5000 5300
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F214
-U 1 1 5DF30C0A
-P 5000 5600
-F 0 "F214" H 5000 5700 50  0000 C CNN
-F 1 "200mA_Fuse" H 5000 5500 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 4950 5600 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 4950 5600 50  0001 C CNN
-F 4 "" H 5000 5825 50  0000 C CNN "MPN"
-F 5 "" H 5000 5824 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5000 5733 50  0000 C CNN "MFN"
-	1    5000 5600
+L formula:1.5A_Fuse F1
+U 1 1 5E54EF95
+P 4950 9800
+F 0 "F1" H 4950 10025 50  0000 C CNN
+F 1 "1.5A_Fuse" H 4950 9934 50  0000 C CNN
+F 2 "footprints:Fuse_1206" H 4950 9500 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4900 9800 50  0001 C CNN
+F 4 "F1462CT-ND" H 4950 10115 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/littelfuse-inc/046601.5NR/F1462CT-ND/521360" H 4950 10024 50  0001 C CNN "PurchasingLink"
+F 6 "046601.5NR" H 4950 9933 50  0001 C CNN "MFN"
+	1    4950 9800
 	0    1    1    0   
 $EndComp
-Connection ~ 5000 5300
+Connection ~ 4950 9500
 Wire Wire Line
-	5000 5300 5250 5300
-Wire Wire Line
-	3600 3350 5000 3350
+	4950 9500 5200 9500
 $Comp
-L DA_Board_1-rescue:200mA_Fuse-formula F216
-U 1 1 5DF45D23
-P 5000 3650
-F 0 "F216" H 5000 3750 50  0000 C CNN
-F 1 "200mA_Fuse" H 5000 3550 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 4950 3650 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 4950 3650 50  0001 C CNN
-F 4 "" H 5000 3875 50  0000 C CNN "MPN"
-F 5 "" H 5000 3874 50  0000 C CNN "PurchasingLink"
-F 6 "" H 5000 3783 50  0000 C CNN "MFN"
-	1    5000 3650
+L formula:1.5A_Fuse F9
+U 1 1 5E5518AC
+P 5000 11950
+F 0 "F9" H 5000 12175 50  0000 C CNN
+F 1 "1.5A_Fuse" H 5000 12084 50  0000 C CNN
+F 2 "footprints:Fuse_1206" H 5000 11650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 11950 50  0001 C CNN
+F 4 "F1462CT-ND" H 5000 12265 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/littelfuse-inc/046601.5NR/F1462CT-ND/521360" H 5000 12174 50  0001 C CNN "PurchasingLink"
+F 6 "046601.5NR" H 5000 12083 50  0001 C CNN "MFN"
+	1    5000 11950
 	0    1    1    0   
 $EndComp
-Connection ~ 5000 3350
+Connection ~ 5000 11650
 Wire Wire Line
-	5000 3350 5250 3350
+	5000 11650 5250 11650
+$Comp
+L formula:1.5A_Fuse F11
+U 1 1 5E55211D
+P 5000 13750
+F 0 "F11" H 5000 13975 50  0000 C CNN
+F 1 "1.5A_Fuse" H 5000 13884 50  0000 C CNN
+F 2 "footprints:Fuse_1206" H 5000 13450 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 13750 50  0001 C CNN
+F 4 "F1462CT-ND" H 5000 14065 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/littelfuse-inc/046601.5NR/F1462CT-ND/521360" H 5000 13974 50  0001 C CNN "PurchasingLink"
+F 6 "046601.5NR" H 5000 13883 50  0001 C CNN "MFN"
+	1    5000 13750
+	0    1    1    0   
+$EndComp
+Connection ~ 5000 13450
+Wire Wire Line
+	5000 13450 5250 13450
+$Comp
+L formula:1.5A_Fuse F13
+U 1 1 5E5549A0
+P 5000 15850
+F 0 "F13" H 5000 16075 50  0000 C CNN
+F 1 "1.5A_Fuse" H 5000 15984 50  0000 C CNN
+F 2 "footprints:Fuse_1206" H 5000 15550 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 15850 50  0001 C CNN
+F 4 "F1462CT-ND" H 5000 16165 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/littelfuse-inc/046601.5NR/F1462CT-ND/521360" H 5000 16074 50  0001 C CNN "PurchasingLink"
+F 6 "046601.5NR" H 5000 15983 50  0001 C CNN "MFN"
+	1    5000 15850
+	0    1    1    0   
+$EndComp
+Connection ~ 5000 15550
+Wire Wire Line
+	5000 15550 5250 15550
+$Comp
+L formula:1.5A_Fuse F15
+U 1 1 5E559D35
+P 5000 17800
+F 0 "F15" H 5000 18025 50  0000 C CNN
+F 1 "1.5A_Fuse" H 5000 17934 50  0000 C CNN
+F 2 "footprints:Fuse_1206" H 5000 17500 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_466_datasheet.pdf.pdf" H 4950 17800 50  0001 C CNN
+F 4 "F1462CT-ND" H 5000 18115 50  0001 C CNN "MPN"
+F 5 "https://www.digikey.com/product-detail/en/littelfuse-inc/046601.5NR/F1462CT-ND/521360" H 5000 18024 50  0001 C CNN "PurchasingLink"
+F 6 "046601.5NR" H 5000 17933 50  0001 C CNN "MFN"
+	1    5000 17800
+	0    1    1    0   
+$EndComp
+Connection ~ 5000 17500
+Wire Wire Line
+	5000 17500 5250 17500
+$Comp
+L formula:MM_F_VT_04 J10
+U 1 1 5E58FCF8
+P 9350 17550
+F 0 "J10" H 9408 17997 60  0000 C CNN
+F 1 "MM_F_VT_04" H 9408 17891 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_4" H 9150 18650 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 9250 18750 60  0001 C CNN
+F 4 "TE" H 9450 18950 60  0001 C CNN "MFN"
+F 5 "338068-4" H 9550 19050 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-338068-4.html" H 9350 18850 60  0001 C CNN "PurchasingLink"
+	1    9350 17550
+	1    0    0    -1  
+$EndComp
+Text Notes 9250 17900 0    50   ~ 0
+RETENTION
 $EndSCHEMATC

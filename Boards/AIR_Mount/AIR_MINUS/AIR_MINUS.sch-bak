@@ -14,20 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Formula:LI12-1A85(NO) K1
-U 1 1 5DAE5E76
-P 1400 1400
-F 0 "K1" V 1867 1400 50  0000 C CNN
-F 1 "LI12-1A85(NO)" V 1776 1400 50  0000 C CNN
-F 2 "footprints:Meder-LI12" H 1850 1350 50  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Meder%20PDFs/LI12-1A85_Spec.pdf" H 1850 1050 50  0001 L CNN
-F 4 "DK" H 2250 1950 60  0001 C CNN "MFN"
-F 5 "374-1110-ND" H 2150 1850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/LI12-1A85/374-1110-ND/655844" H 2350 2050 60  0001 C CNN "PurchasingLink"
-	1    1400 1400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Formula:SS110LW D1
 U 1 1 5DAE7FAE
 P 1400 2100
@@ -50,13 +36,9 @@ Precharge-
 Text Label 1100 1600 2    50   ~ 0
 Precharge+
 Wire Wire Line
-	1700 1600 1700 2100
-Wire Wire Line
 	1700 2100 1550 2100
 Wire Wire Line
 	1250 2100 1100 2100
-Wire Wire Line
-	1100 2100 1100 1600
 $Comp
 L Formula:R_3K_HS R1
 U 1 1 5DAEBB45
@@ -263,4 +245,22 @@ Text Label 5300 1550 0    50   ~ 0
 BAT-
 Text Label 800  1300 2    50   ~ 0
 BAT-
+$Comp
+L Formula:LI12-1A85(NO) K1
+U 1 1 5DAE5E76
+P 1400 1400
+F 0 "K1" V 1867 1400 50  0000 C CNN
+F 1 "LI12-1A85(NO)" V 1776 1400 50  0000 C CNN
+F 2 "footprints:Meder-LI12" H 1850 1350 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Meder%20PDFs/LI12-1A85_Spec.pdf" H 1850 1050 50  0001 L CNN
+F 4 "DK" H 2250 1950 60  0001 C CNN "MFN"
+F 5 "374-1110-ND" H 2150 1850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/LI12-1A85/374-1110-ND/655844" H 2350 2050 60  0001 C CNN "PurchasingLink"
+	1    1400 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 1600 1700 2100
+Wire Wire Line
+	1100 1600 1100 2100
 $EndSCHEMATC
