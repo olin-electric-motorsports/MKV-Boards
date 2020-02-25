@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:BMS_peripheral-cache
 EELAYER 30 0
 EELAYER END
 $Descr User 18504 16535
@@ -637,8 +636,6 @@ Wire Wire Line
 Wire Wire Line
 	9600 7250 9450 7250
 Wire Wire Line
-	9450 7750 10300 7750
-Wire Wire Line
 	10300 7150 10200 7150
 Text Notes 13700 2000 0    50   ~ 0
 Currently assuming use with thermistors.\nNeeds redesign for LMT85-Q1 CMOS temperature sensors. \nPush-pull current of +- 50 uA max, need 100K-1M pull-up resistor instead.\n\nVref2 = 3V, V_sensor =? 0.5V @ 125C,  sinking 25uA with 100K, 2.5uA for 1M. 
@@ -813,17 +810,17 @@ Wire Wire Line
 NoConn ~ 14750 8300
 NoConn ~ 14750 7600
 Text Label 8450 5150 0    50   ~ 0
-IPB1
+IPB2
 Text Label 8450 5250 0    50   ~ 0
-IMB1
+IMB2
 Wire Wire Line
 	8450 5150 8350 5150
 Wire Wire Line
 	8350 5250 8450 5250
 Text Label 8450 5750 0    50   ~ 0
-IPA1
+IPA2
 Text Label 8450 5850 0    50   ~ 0
-IMA1
+IMA2
 Wire Wire Line
 	8450 5750 8350 5750
 Wire Wire Line
@@ -837,10 +834,10 @@ Wire Wire Line
 Wire Wire Line
 	11950 7450 11700 7450
 Text Label 11700 7450 0    50   ~ 0
-IPA1
+IPA2
 Text Label 11700 7600 0    50   ~ 0
-IMA1
-Text Notes 15850 7650 0    50   ~ 0
+IMA2
+Text Notes 15850 7550 0    50   ~ 0
 isoSPI A towards Core
 Text Notes 15850 8350 0    50   ~ 0
 isoSPI B up the daisy chain\n
@@ -860,9 +857,9 @@ Wire Wire Line
 	11950 8500 11700 8500
 Connection ~ 12550 8900
 Text Label 11700 8500 0    50   ~ 0
-IMB1
+IMB2
 Text Label 11700 8350 0    50   ~ 0
-IPB1
+IPB2
 Wire Notes Line
 	11150 9150 11150 7050
 Wire Notes Line
@@ -872,11 +869,11 @@ Wire Notes Line
 Wire Notes Line
 	17250 9150 11150 9150
 Text Notes 11200 7150 0    50   ~ 0
-isoSPI Transformer for chip 1
+isoSPI Transformer for chip 2
 Wire Wire Line
 	7200 4850 7200 5150
 Text Label 7650 4700 0    50   ~ 0
-V+1
+V+2
 Wire Wire Line
 	7650 4850 7550 4850
 Wire Wire Line
@@ -885,7 +882,7 @@ Wire Wire Line
 	9750 5650 9750 5750
 Connection ~ 9750 5750
 Text Label 9750 5250 0    50   ~ 0
-V+1
+V+2
 Wire Wire Line
 	9750 5250 9750 5350
 $Comp
@@ -1596,20 +1593,6 @@ Text Label 3250 6800 2    50   ~ 0
 C9
 Text Label 3250 7650 2    50   ~ 0
 C8
-$Comp
-L formula:T_LAN_7490100111A T1
-U 1 1 5C3D2A9C
-P 15000 8350
-F 0 "T1" H 15875 9547 60  0000 C CNN
-F 1 "T_LAN_7490100111A" H 15875 9441 60  0000 C CNN
-F 2 "footprints:T_LAN_7490100111A" H 15400 9300 60  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/7490100111A.pdf" H 15000 8350 60  0001 C CNN
-F 4 "DK" H 15350 8850 60  0001 C CNN "MFN"
-F 5 "732-5711-1-ND" H 15250 8750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381" H 15150 8650 60  0001 C CNN "PurchasingLink"
-	1    15000 8350
-	-1   0    0    -1  
-$EndComp
 Text Label 8300 3500 0    50   ~ 0
 V-2
 Text Label 8700 3500 0    50   ~ 0
@@ -1975,8 +1958,8 @@ $Comp
 L formula:24AA01 U3
 U 1 1 5CB5A7AB
 P 8450 12600
-F 0 "U3" H 8425 12013 50  0000 C CNN
-F 1 "24AA01" H 8425 12104 50  0000 C CNN
+F 0 "U3" H 8450 12350 50  0000 C CNN
+F 1 "24AA01" H 8450 12250 50  0000 C CNN
 F 2 "footprints:SOT-23-5_OEM_24AA01" H 8350 12700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf" H 8450 12800 50  0001 C CNN
 F 4 "CAT24AA01TDI-GT3OSCT-ND " H 8425 12195 50  0001 C CNN "MPN"
@@ -2089,9 +2072,9 @@ Wire Wire Line
 Wire Wire Line
 	4050 7650 8700 7650
 Wire Wire Line
-	9450 7250 9450 7750
+	9450 7250 9450 7600
 Wire Wire Line
-	10300 7150 10300 7750
+	10300 7150 10300 7600
 Wire Wire Line
 	8600 7550 4600 7550
 Wire Wire Line
@@ -2317,7 +2300,7 @@ L formula:R_100 R36
 U 1 1 5DE3B3E7
 P 7400 8050
 F 0 "R36" V 7250 7950 50  0000 L CNN
-F 1 "R_100" V 7150 7950 50  0000 L CNN
+F 1 "R_100" V 7500 7950 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 7330 8050 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 7480 8050 50  0001 C CNN
 F 4 "DK" H 7400 8050 60  0001 C CNN "MFN"
@@ -2331,7 +2314,7 @@ L formula:C_0.1uF C18
 U 1 1 5DE3B3F0
 P 7050 8050
 F 0 "C18" V 6900 7950 50  0000 L CNN
-F 1 "C_0.1uF" V 6800 7900 50  0000 L CNN
+F 1 "C_0.1uF" V 7200 7900 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 7088 7900 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7075 8150 50  0001 C CNN
 F 4 "DK" H 7050 8050 60  0001 C CNN "MFN"
@@ -2345,17 +2328,17 @@ Wire Wire Line
 Wire Wire Line
 	6900 8050 6850 8050
 Text Label 8450 8350 0    50   ~ 0
-IPB2
+IPB1
 Text Label 8450 8450 0    50   ~ 0
-IMB2
+IMB1
 Wire Wire Line
 	8450 8350 8350 8350
 Wire Wire Line
 	8350 8450 8450 8450
 Text Label 8450 8950 0    50   ~ 0
-IPA2
+IPA1
 Text Label 8450 9050 0    50   ~ 0
-IMA2
+IMA1
 Wire Wire Line
 	8450 8950 8350 8950
 Wire Wire Line
@@ -2363,7 +2346,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 8050 7200 8350
 Text Label 7650 7900 0    50   ~ 0
-V+2
+V+1
 Wire Wire Line
 	7650 8050 7550 8050
 Wire Wire Line
@@ -2372,7 +2355,7 @@ Wire Wire Line
 	9750 8850 9750 8950
 Connection ~ 9750 8950
 Text Label 9750 8450 0    50   ~ 0
-V+2
+V+1
 Wire Wire Line
 	9750 8450 9750 8550
 Text Label 8450 10650 0    50   ~ 0
@@ -3090,12 +3073,12 @@ Wire Wire Line
 Wire Wire Line
 	11950 10100 11700 10100
 Text Label 11700 10100 0    50   ~ 0
-IPA2
+IPA1
 Text Label 11700 10250 0    50   ~ 0
-IMA2
+IMA1
 Text Notes 15850 10300 0    50   ~ 0
 isoSPI A towards Core
-Text Notes 15850 11000 0    50   ~ 0
+Text Notes 15850 10850 0    50   ~ 0
 isoSPI B up the daisy chain\n
 Wire Wire Line
 	14750 10750 14950 10750
@@ -3113,9 +3096,9 @@ Wire Wire Line
 	11950 11150 11700 11150
 Connection ~ 12550 11550
 Text Label 11700 11150 0    50   ~ 0
-IMB2
+IMB1
 Text Label 11700 11000 0    50   ~ 0
-IPB2
+IPB1
 Wire Notes Line
 	11150 11800 11150 9700
 Wire Notes Line
@@ -3125,25 +3108,11 @@ Wire Notes Line
 Wire Notes Line
 	17250 11800 11150 11800
 Text Notes 11200 9800 0    50   ~ 0
-isoSPI Transformer for chip 2
+isoSPI Transformer for chip 1
 Wire Wire Line
 	15000 10200 15000 10050
 Wire Wire Line
 	15000 10050 14750 10050
-$Comp
-L formula:T_LAN_7490100111A T2
-U 1 1 5DA7113D
-P 15000 11000
-F 0 "T2" H 15875 12197 60  0000 C CNN
-F 1 "T_LAN_7490100111A" H 15875 12091 60  0000 C CNN
-F 2 "footprints:T_LAN_7490100111A" H 15400 11950 60  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/7490100111A.pdf" H 15000 11000 60  0001 C CNN
-F 4 "DK" H 15350 11500 60  0001 C CNN "MFN"
-F 5 "732-5711-1-ND" H 15250 11400 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381" H 15150 11300 60  0001 C CNN "PurchasingLink"
-	1    15000 11000
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	15000 10300 15000 10450
 Wire Wire Line
@@ -3286,7 +3255,7 @@ $EndComp
 NoConn ~ 8400 9850
 NoConn ~ 8400 9950
 Text Notes 7750 11700 0    50   ~ 0
-All temperatures routed to LTC6804 #1
+All temperatures routed to LTC6804 #2
 $Comp
 L formula:MM_F_VT_10 J?
 U 1 1 5DDF7956
@@ -3656,9 +3625,9 @@ GND1
 Wire Wire Line
 	8300 3300 8700 3300
 Text Label 9300 5450 0    50   ~ 0
-GND1
+GND2
 Text Label 9750 6200 2    50   ~ 0
-GND1
+GND2
 Connection ~ 7200 4850
 $Comp
 L formula:C_0.1uF C17
@@ -3675,77 +3644,77 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 7475 5350 60 
 	0    1    1    0   
 $EndComp
 Text Label 6850 4850 2    50   ~ 0
-GND1
+GND2
 Text Label 9200 7150 2    50   ~ 0
-GND1
+GND2
 Text Label 9800 7500 2    50   ~ 0
-GND1
+GND2
 Wire Wire Line
 	9200 6950 9200 7150
 Text Label 6850 8050 2    50   ~ 0
-GND2
+GND1
 Text Label 9750 9450 2    50   ~ 0
-GND2
+GND1
 Wire Wire Line
 	9750 9250 9750 9450
 Text Label 9200 10350 2    50   ~ 0
-GND2
+GND1
 Wire Wire Line
 	9200 10150 9200 10350
 Text Label 7950 12800 2    50   ~ 0
-GND1
+GND2
 Text Label 8950 12950 0    50   ~ 0
-GND1
+GND2
 Wire Wire Line
 	8950 12600 8950 12950
 Text Label 12150 11750 2    50   ~ 0
-GND2
+GND1
 Wire Wire Line
 	12150 11500 12150 11750
 Text Label 13250 11300 2    50   ~ 0
-GND2
+GND1
 Text Label 12150 10700 2    50   ~ 0
-GND2
+GND1
 Wire Wire Line
 	12150 10500 12150 10700
 Text Label 13250 10600 2    50   ~ 0
-GND2
+GND1
 Wire Wire Line
 	13250 10400 13250 10600
 Text Label 12150 8050 2    50   ~ 0
-GND1
+GND2
 Wire Wire Line
 	12150 7850 12150 8050
 Text Label 13250 8000 2    50   ~ 0
-GND1
+GND2
 Wire Wire Line
 	13250 7750 13250 8000
 Text Label 13250 8650 2    50   ~ 0
-GND1
+GND2
 Text Label 12150 9050 2    50   ~ 0
-GND1
+GND2
 Wire Wire Line
 	12150 8850 12150 9050
 Text Label 15650 5350 2    50   ~ 0
-GND1
+GND2
 Wire Wire Line
 	15650 5200 15650 5350
 Text Label 16550 5350 2    50   ~ 0
-GND1
+GND2
 Text Label 14750 6250 2    50   ~ 0
-GND1
+GND2
 Wire Wire Line
 	14750 5950 14750 6250
 Text Label 14750 4800 2    50   ~ 0
-GND1
+GND2
 Wire Wire Line
 	14750 4500 14750 4800
 Text Label 14750 3250 2    50   ~ 0
-GND1
+GND2
 Wire Wire Line
 	14750 2950 14750 3250
 Text Label 9300 8650 0    50   ~ 0
-GND2
+GND1
 Wire Wire Line
 	9750 6050 9750 6200
 Text Label 7600 3200 0    50   ~ 0
@@ -3781,7 +3750,7 @@ L formula:MicroFit_RA_V_2_SMD J6
 U 1 1 5DE56ACD
 P 15400 7600
 F 0 "J6" H 15222 7651 50  0000 R CNN
-F 1 "MicroFit_RA_V_2_SMD" H 15222 7560 50  0000 R CNN
+F 1 "MicroFit_RA_V_2_SMD" H 15550 7450 50  0000 R CNN
 F 2 "footprints:MicroFit_RA_2_SMD" H 15350 7800 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/436500213_sd.pdf" H 15350 7800 50  0001 C CNN
 F 4 "MFN" H 15500 7850 50  0001 C CNN "DK"
@@ -3795,7 +3764,7 @@ L formula:MicroFit_RA_V_2_SMD J7
 U 1 1 5DEE801F
 P 15400 10950
 F 0 "J7" H 15222 11001 50  0000 R CNN
-F 1 "MicroFit_RA_V_2_SMD" H 15222 10910 50  0000 R CNN
+F 1 "MicroFit_RA_V_2_SMD" H 15550 10800 50  0000 R CNN
 F 2 "footprints:MicroFit_RA_2_SMD" H 15350 11150 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/436500213_sd.pdf" H 15350 11150 50  0001 C CNN
 F 4 "MFN" H 15500 11200 50  0001 C CNN "DK"
@@ -3804,4 +3773,70 @@ F 6 "https://www.digikey.com/product-detail/en/molex/0436500213/WM1895CT-ND/2690
 	1    15400 10950
 	-1   0    0    -1  
 $EndComp
+Wire Notes Line
+	6250 7700 10650 7700
+Wire Notes Line
+	10650 7700 10650 4200
+Wire Notes Line
+	10650 4200 6250 4200
+Wire Notes Line
+	6250 4200 6250 7700
+Wire Wire Line
+	9450 7600 10300 7600
+Wire Notes Line
+	6250 7800 10650 7800
+Wire Notes Line
+	10650 7800 10650 11150
+Wire Notes Line
+	10650 11150 6250 11150
+Wire Notes Line
+	6250 11150 6250 7800
+Text Notes 6300 4350 0    79   ~ 0
+LTC6811 Chip #2 (higher voltages)
+Text Notes 6300 11050 0    79   ~ 0
+LTC6811 Chip #1 (lower voltages)
+$Comp
+L formula:T_LAN_SM91501ALE T1
+U 1 1 5E7C455F
+P 13250 8350
+F 0 "T1" H 14125 9547 60  0000 C CNN
+F 1 "T_LAN_SM91501ALE" H 14125 9441 60  0000 C CNN
+F 2 "footprints:T_LAN_SM91501ALE" H 13650 9300 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/sm91501al-1488891.pdf" H 13250 8350 60  0001 C CNN
+F 4 "DK" H 13600 8850 60  0001 C CNN "MFN"
+F 5 "SM91501ALE" H 13500 8750 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.si/product-detail/en/bourns-inc/SM91501ALE/SM91501ALETR-ND/9650127" H 13400 8650 60  0001 C CNN "PurchasingLink"
+	1    13250 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:T_LAN_SM91501ALE T2
+U 1 1 5E7CB2E6
+P 13250 11000
+F 0 "T2" H 14125 12197 60  0000 C CNN
+F 1 "T_LAN_SM91501ALE" H 14125 12091 60  0000 C CNN
+F 2 "footprints:T_LAN_SM91501ALE" H 13650 11950 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/sm91501al-1488891.pdf" H 13250 11000 60  0001 C CNN
+F 4 "DK" H 13600 11500 60  0001 C CNN "MFN"
+F 5 "SM91501ALE" H 13500 11400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.si/product-detail/en/bourns-inc/SM91501ALE/SM91501ALETR-ND/9650127" H 13400 11300 60  0001 C CNN "PurchasingLink"
+	1    13250 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MM_F_VT_04 J8
+U 1 1 5E581A21
+P 15350 12500
+F 0 "J8" H 15408 12947 60  0000 C CNN
+F 1 "MM_F_VT_04" H 15408 12841 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_4" H 15150 13600 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 15250 13700 60  0001 C CNN
+F 4 "TE" H 15450 13900 60  0001 C CNN "MFN"
+F 5 "338068-4" H 15550 14000 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-338068-4.html" H 15350 13800 60  0001 C CNN "PurchasingLink"
+	1    15350 12500
+	1    0    0    -1  
+$EndComp
+Text Notes 15700 12450 0    50   ~ 0
+RETENTION
 $EndSCHEMATC

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:SS_MegaBoard-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -23,10 +22,10 @@ IMD Latch
 Text Notes 8850 2500 1    50   ~ 0
 TSAL
 $Comp
-L formula:MM_M_VT_20 J1
+L SS_MegaBoard-rescue:MM_M_VT_20-formula J4
 U 1 1 5DE4BB2A
 P 7700 2350
-F 0 "J1" H 7656 3697 60  0000 C CNN
+F 0 "J4" H 7656 3697 60  0000 C CNN
 F 1 "MM_M_VT_20" H 7656 3591 60  0000 C CNN
 F 2 "footprints:micromatch_female_vert_20" H 7500 3450 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-2-215464-0" H 7600 3550 60  0001 C CNN
@@ -37,10 +36,10 @@ F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 7700 3650 60  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MM_M_VT_20 J2
+L SS_MegaBoard-rescue:MM_M_VT_20-formula J5
 U 1 1 5DE4BBDA
 P 7700 4850
-F 0 "J2" H 7656 6197 60  0000 C CNN
+F 0 "J5" H 7656 6197 60  0000 C CNN
 F 1 "MM_M_VT_20" H 7656 6091 60  0000 C CNN
 F 2 "footprints:micromatch_female_vert_20" H 7500 5950 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-2-215464-0" H 7600 6050 60  0001 C CNN
@@ -51,10 +50,10 @@ F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 7700 6150 60  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MM_M_VT_04 J3
+L SS_MegaBoard-rescue:MM_M_VT_04-formula J6
 U 1 1 5DE4BD50
 P 9050 1300
-F 0 "J3" H 9106 1597 60  0000 C CNN
+F 0 "J6" H 9106 1597 60  0000 C CNN
 F 1 "MM_M_VT_04" H 9106 1491 60  0000 C CNN
 F 2 "footprints:micromatch_female_vert_4" H 8950 1350 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-215464-4" H 8950 2500 60  0001 C CNN
@@ -65,10 +64,10 @@ F 6 "http://www.te.com/global-en/product-215464-4.html" H 9050 2600 60  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MM_M_VT_06 J4
+L SS_MegaBoard-rescue:MM_M_VT_06-formula J7
 U 1 1 5DE4BF0C
 P 9050 2400
-F 0 "J4" H 9106 2897 60  0000 C CNN
+F 0 "J7" H 9106 2897 60  0000 C CNN
 F 1 "MM_M_VT_06" H 9106 2791 60  0000 C CNN
 F 2 "footprints:micromatch_female_vert_6" H 8950 2650 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-215464-6" H 8950 3600 60  0001 C CNN
@@ -126,15 +125,9 @@ Text Label 7850 2450 0    50   ~ 0
 FAN_PWM
 Text Label 7850 2550 0    50   ~ 0
 BMS_SENSE
-Text Label 7850 2650 0    50   ~ 0
-CHARGE_ENABLE_1
-Text Label 7850 2750 0    50   ~ 0
-CHARGE_ENABLE_2
 Text Label 7850 2850 0    50   ~ 0
 GND
 Text Label 7850 2950 0    50   ~ 0
-GND
-Text Label 7850 3050 0    50   ~ 0
 GND
 Text Label 7850 3150 0    50   ~ 0
 GND
@@ -158,18 +151,6 @@ Text Label 7850 4650 0    50   ~ 0
 CAN_HIGH
 Text Label 7850 4750 0    50   ~ 0
 CAN_LOW
-Text Label 7850 4850 0    50   ~ 0
-SS_HVD_CONNECTOR
-Text Label 7850 4950 0    50   ~ 0
-SS_HVD
-Text Label 7850 5050 0    50   ~ 0
-SS_MPC
-Text Label 7850 5150 0    50   ~ 0
-SS_IMD
-Text Label 7850 5250 0    50   ~ 0
-SS_BMS
-Text Label 7850 5350 0    50   ~ 0
-SS_TSMS
 Text Label 7850 5450 0    50   ~ 0
 BMS_SENSE
 Text Label 7850 5550 0    50   ~ 0
@@ -186,96 +167,183 @@ Wire Notes Line
 	6800 800  6800 5850
 Text Notes 6850 900  0    50   ~ 0
 Connectors to SS boards
-$Comp
-L formula:MM_M_VT_12 J6
-U 1 1 5DE9B00F
-P 5400 4100
-F 0 "J6" H 5356 5447 60  0000 C CNN
-F 1 "MM_M_VT_12" H 5356 5341 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_12" H 5200 5200 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-2" H 5300 5300 60  0001 C CNN
-F 4 "TE" H 5500 5500 60  0001 C CNN "MFN"
-F 5 "1-215464-2" H 5600 5600 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-215464-2.html" H 5400 5400 60  0001 C CNN "PurchasingLink"
-	1    5400 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:MM_M_VT_14 J5
-U 1 1 5DE9B152
-P 5400 2350
-F 0 "J5" H 5356 3697 60  0000 C CNN
-F 1 "MM_M_VT_14" H 5356 3591 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_14" H 5200 3450 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-1-215464-4" H 5300 3550 60  0001 C CNN
-F 4 "TE" H 5500 3750 60  0001 C CNN "MFN"
-F 5 "1-215464-4" H 5600 3850 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-215464-4.html" H 5400 3650 60  0001 C CNN "PurchasingLink"
-	1    5400 2350
-	1    0    0    -1  
-$EndComp
-Text Label 5550 1250 0    50   ~ 0
+Text Label 5525 1550 0    50   ~ 0
 5V_BMS
-Text Label 5550 1350 0    50   ~ 0
+Text Label 5525 1650 0    50   ~ 0
 MISO_BMS
-Text Label 5550 1450 0    50   ~ 0
+Text Label 5525 1750 0    50   ~ 0
 MOSI_BMS
-Text Label 5550 1550 0    50   ~ 0
+Text Label 5525 1850 0    50   ~ 0
 SCK_BMS
-Text Label 5550 1650 0    50   ~ 0
+Text Label 5525 1950 0    50   ~ 0
 RESET_BMS
-Text Label 5550 1750 0    50   ~ 0
+Text Label 5525 2050 0    50   ~ 0
 RJ45_LED_O_BMS
-Text Label 5550 1850 0    50   ~ 0
+Text Label 5525 2150 0    50   ~ 0
 RJ45_LED_G_BMS
-Text Label 5550 1950 0    50   ~ 0
+Text Label 5525 2250 0    50   ~ 0
 5V_AIRC
-Text Label 5550 2050 0    50   ~ 0
+Text Label 5525 2350 0    50   ~ 0
 MISO_AIRC
-Text Label 5550 2150 0    50   ~ 0
+Text Label 5525 2450 0    50   ~ 0
 MOSI_AIRC
-Text Label 5550 2250 0    50   ~ 0
+Text Label 5525 2550 0    50   ~ 0
 SCK_AIRC
-Text Label 5550 2350 0    50   ~ 0
+Text Label 5525 2650 0    50   ~ 0
 RESET_AIRC
-Text Label 5550 2450 0    50   ~ 0
+Text Label 5525 2750 0    50   ~ 0
 RJ45_LED_O_AIRC
-Text Label 5550 2550 0    50   ~ 0
-RJ45_LED_G_BMS
-Text Label 5550 3100 0    50   ~ 0
+Text Label 5525 2850 0    50   ~ 0
+RJ45_LED_G_AIRC
+Text Label 5525 3550 0    50   ~ 0
 12V
-Text Label 5550 3000 0    50   ~ 0
+Text Label 5525 3450 0    50   ~ 0
 GND
-Text Label 5550 3200 0    50   ~ 0
+Text Label 5525 3650 0    50   ~ 0
 CAN_HIGH
-Text Label 5550 3300 0    50   ~ 0
+Text Label 5525 3750 0    50   ~ 0
 CAN_LOW
-Text Label 5550 3400 0    50   ~ 0
-BSPD_CURRENT_SENSE
-Text Label 5550 3500 0    50   ~ 0
+Text Label 5525 4550 0    50   ~ 0
 FAN_PWM
-Wire Notes Line
-	6700 800  4800 800 
-Wire Notes Line
-	4800 800  4800 4250
-Wire Notes Line
-	4800 4250 6700 4250
-Wire Notes Line
-	6700 4250 6700 800 
 Text Notes 4850 900  0    50   ~ 0
 Connectors to acc interface board
-Text Label 5550 3600 0    50   ~ 0
-CHARGE_ENABLE_1
-Text Label 5550 3700 0    50   ~ 0
-CHARGE_ENABLE_2
-Text Label 5550 3800 0    50   ~ 0
-TSAL_GREEN+
-Text Label 5550 4000 0    50   ~ 0
+Text Label 5525 3850 0    50   ~ 0
 TSAL_RED+
-Text Label 5550 3900 0    50   ~ 0
+Text Label 5525 4250 0    50   ~ 0
 TSAL_GREEN-
-Text Label 5550 4100 0    50   ~ 0
+Text Label 5525 4150 0    50   ~ 0
 TSAL_RED-
 Text Label 7850 4550 0    50   ~ 0
-RJ45_LED_G_BMS
+RJ45_LED_G_AIRC
+Text Label 7850 2650 0    50   ~ 0
+GND
+Text Label 7850 2750 0    50   ~ 0
+GND
+$Comp
+L SS_MegaBoard-rescue:MM_F_VT_16-footprints J3
+U 1 1 5EF423F4
+P 5275 2150
+F 0 "J3" H 5333 3197 60  0000 C CNN
+F 1 "MM_F_VT_16" H 5333 3091 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_16" H 5175 2950 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-6" H 5175 3350 60  0001 C CNN
+F 4 "TE" H 5375 3550 60  0001 C CNN "MFN"
+F 5 "1-338068-6" H 5475 3650 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-338068-6.html" H 5275 3450 60  0001 C CNN "PurchasingLink"
+	1    5275 2150
+	1    0    0    -1  
+$EndComp
+Text Label 5525 1350 0    50   ~ 0
+GND
+Text Label 5525 1450 0    50   ~ 0
+GND
+$Comp
+L SS_MegaBoard-rescue:MM_F_VT_14-footprints J2
+U 1 1 5EF47CC1
+P 5225 4100
+F 0 "J2" H 5333 4997 60  0000 C CNN
+F 1 "MM_F_VT_14" H 5333 4891 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_14" H 5175 4750 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-4" H 5125 5300 60  0001 C CNN
+F 4 "TE" H 5325 5500 60  0001 C CNN "MFN"
+F 5 "1-338068-4" H 5425 5600 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-338068-4.html" H 5225 5400 60  0001 C CNN "PurchasingLink"
+	1    5225 4100
+	1    0    0    -1  
+$EndComp
+Text Label 5525 3950 0    50   ~ 0
+TSAL_GREEN+
+Text Label 5525 4050 0    50   ~ 0
+TSAL_GREEN+
+Text Label 5525 4350 0    50   ~ 0
+TSAL_GREEN-
+Text Label 5525 4750 0    50   ~ 0
+BSPD_CURRENT_SENSE
+$Comp
+L SS_MegaBoard-rescue:MicroFit_VT_12-footprints J1
+U 1 1 5EF4F0B4
+P 3200 1925
+F 0 "J1" H 3258 2752 100 0000 C CNN
+F 1 "MicroFit_VT_12" H 3258 2616 60  0000 C CNN
+F 2 "footprints:MicroFit_VT_12" H 3200 1175 100 0001 C CNN
+F 3 "" H 3250 1875 100 0001 C CNN
+	1    3200 1925
+	1    0    0    -1  
+$EndComp
+Text Label 3400 1375 0    50   ~ 0
+GND
+Text Label 3400 1675 0    50   ~ 0
+HVD>HVD_CONN
+Text Label 3400 1775 0    50   ~ 0
+HVD>HVD_CONN
+Text Label 3400 1475 0    50   ~ 0
+HVD_CONN>MPC
+Text Label 3400 1875 0    50   ~ 0
+BMS>IMD
+Text Label 3400 1975 0    50   ~ 0
+TSMS>FINAL_SHUTDOWN
+Text Label 3400 2275 0    50   ~ 0
+IMD>TSMS
+Text Label 3400 2375 0    50   ~ 0
+IMD>TSMS
+Text Label 3400 2075 0    50   ~ 0
+MPC>BMS
+Text Label 3400 2475 0    50   ~ 0
+BMS>IMD
+Text Notes 2900 900  0    50   ~ 0
+Connector for Shutdown
+Wire Notes Line
+	6725 800  6725 4875
+Wire Notes Line
+	6725 4875 4700 4875
+Wire Notes Line
+	4700 4875 4700 800 
+Wire Notes Line
+	4700 800  6725 800 
+Wire Notes Line
+	4625 800  4625 2700
+Wire Notes Line
+	4625 2700 2775 2700
+Wire Notes Line
+	2775 2700 2775 800 
+Wire Notes Line
+	2775 800  4625 800 
+Text Notes 5050 2575 1    50   ~ 0
+For Programming RJ45
+Text Notes 5050 4475 1    50   ~ 0
+For Signals
+Text Notes 8775 5350 0    30   ~ 0
+SS HVD Connector\n\nSS HVD\n\nSS MPC\n\nSS IMD\n\nSS BMS\n\nSS TSMS
+Text Label 7850 4850 0    50   ~ 0
+HVD_CONN>MPC
+Text Label 7850 4950 0    50   ~ 0
+HVD>HVD_CONN
+Text Label 7850 5050 0    50   ~ 0
+MPC>BMS
+Text Label 7850 5150 0    50   ~ 0
+IMD>TSMS
+Text Label 7850 5250 0    50   ~ 0
+BMS>IMD
+Text Label 7850 5350 0    50   ~ 0
+TSMS>FINAL_SHUTDOWN
+Wire Notes Line
+	8475 4925 8750 4925
+Wire Notes Line
+	8250 5025 8750 5025
+Wire Notes Line
+	8750 5125 8250 5125
+Wire Notes Line
+	8225 5225 8750 5225
+Wire Notes Line
+	8500 4825 8750 4825
+Text Label 3400 2175 0    50   ~ 0
+MPC>BMS
+Text Label 3400 1575 0    50   ~ 0
+HVD_CONN>MPC
+Text Label 7850 3050 0    50   ~ 0
+CHARGE_EN1
+Text Label 5525 4450 0    50   ~ 0
+CHARGE_EN1
+Text Label 5525 4650 0    50   ~ 0
+GND
 $EndSCHEMATC
