@@ -14070,4 +14070,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microc
 	1    7500 2200
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8100 1900
+NoConn ~ 8100 2000
 $EndSCHEMATC
