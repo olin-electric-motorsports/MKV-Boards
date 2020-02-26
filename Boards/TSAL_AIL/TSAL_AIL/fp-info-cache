@@ -1,4 +1,4 @@
-298718597021112
+305047774330112
 footprints
 7490100111A
 
@@ -146,6 +146,20 @@ CP2120-QFN
 0
 22
 21
+footprints
+C_10uF_450V
+Capacitor SMD 
+capacitor
+0
+2
+2
+footprints
+C_100uF+
+
+
+0
+2
+2
 footprints
 C_100uF_35V
 
@@ -412,6 +426,13 @@ LTC6820_OEM
 0
 16
 16
+footprints
+L_1.2mH
+
+
+0
+2
+2
 footprints
 L_100uH_OEM
 Resistor SMD 2512, reflow soldering, Vishay (see dcrcw.pdf)
@@ -1049,6 +1070,13 @@ T_LAN_7490100111A
 0
 16
 16
+footprints
+T_LAN_SM91501ALE
+
+
+0
+12
+12
 footprints
 TacoCorey
 
