@@ -1719,7 +1719,7 @@ Connection ~ 5000 3350
 Wire Wire Line
 	5000 3350 5250 3350
 $Comp
-L formula:1.5A_Fuse F3
+L DA_Board_1-rescue:1.5A_Fuse-formula F3
 U 1 1 5E4B42BC
 P 5000 3650
 F 0 "F3" H 5000 3875 50  0000 C CNN
@@ -1733,7 +1733,7 @@ F 6 "046601.5NR" H 5000 3783 50  0001 C CNN "MFN"
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:1.5A_Fuse F5
+L DA_Board_1-rescue:1.5A_Fuse-formula F5
 U 1 1 5E5319F0
 P 5000 5600
 F 0 "F5" H 5000 5825 50  0000 C CNN
@@ -1764,7 +1764,7 @@ Connection ~ 5000 5300
 Wire Wire Line
 	5000 5300 5250 5300
 $Comp
-L formula:1.5A_Fuse F7
+L DA_Board_1-rescue:1.5A_Fuse-formula F7
 U 1 1 5E54E77E
 P 5000 7550
 F 0 "F7" H 5000 7775 50  0000 C CNN
@@ -1781,7 +1781,7 @@ Connection ~ 5000 7250
 Wire Wire Line
 	5000 7250 5250 7250
 $Comp
-L formula:1.5A_Fuse F1
+L DA_Board_1-rescue:1.5A_Fuse-formula F1
 U 1 1 5E54EF95
 P 4950 9800
 F 0 "F1" H 4950 10025 50  0000 C CNN
@@ -1798,7 +1798,7 @@ Connection ~ 4950 9500
 Wire Wire Line
 	4950 9500 5200 9500
 $Comp
-L formula:1.5A_Fuse F9
+L DA_Board_1-rescue:1.5A_Fuse-formula F9
 U 1 1 5E5518AC
 P 5000 11950
 F 0 "F9" H 5000 12175 50  0000 C CNN
@@ -1815,7 +1815,7 @@ Connection ~ 5000 11650
 Wire Wire Line
 	5000 11650 5250 11650
 $Comp
-L formula:1.5A_Fuse F11
+L DA_Board_1-rescue:1.5A_Fuse-formula F11
 U 1 1 5E55211D
 P 5000 13750
 F 0 "F11" H 5000 13975 50  0000 C CNN
@@ -1832,7 +1832,7 @@ Connection ~ 5000 13450
 Wire Wire Line
 	5000 13450 5250 13450
 $Comp
-L formula:1.5A_Fuse F13
+L DA_Board_1-rescue:1.5A_Fuse-formula F13
 U 1 1 5E5549A0
 P 5000 15850
 F 0 "F13" H 5000 16075 50  0000 C CNN
@@ -1849,7 +1849,7 @@ Connection ~ 5000 15550
 Wire Wire Line
 	5000 15550 5250 15550
 $Comp
-L formula:1.5A_Fuse F15
+L DA_Board_1-rescue:1.5A_Fuse-formula F15
 U 1 1 5E559D35
 P 5000 17800
 F 0 "F15" H 5000 18025 50  0000 C CNN
