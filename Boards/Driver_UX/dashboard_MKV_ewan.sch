@@ -13540,14 +13540,8 @@ Wire Wire Line
 Connection ~ 2100 6800
 Wire Wire Line
 	2400 6800 2350 6800
-Connection ~ 1450 6800
 Wire Wire Line
-	1450 6800 1200 6800
-Wire Wire Line
-	700  6800 700  6950
-Connection ~ 700  6800
-Wire Wire Line
-	900  6800 700  6800
+	1200 6800 1200 6950
 Wire Wire Line
 	700  6550 700  6800
 Wire Wire Line
@@ -13555,16 +13549,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0102
 U 1 1 5E17886F
-P 700 7300
-F 0 "#PWR0102" H 700 7050 50  0001 C CNN
-F 1 "GND" H 700 7150 50  0000 C CNN
-F 2 "" H 700 7300 50  0001 C CNN
-F 3 "" H 700 7300 50  0001 C CNN
-	1    700  7300
+P 1200 7300
+F 0 "#PWR0102" H 1200 7050 50  0001 C CNN
+F 1 "GND" H 1200 7150 50  0000 C CNN
+F 2 "" H 1200 7300 50  0001 C CNN
+F 3 "" H 1200 7300 50  0001 C CNN
+	1    1200 7300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	700  7300 700  7250
+	1200 7300 1200 7250
 Text Label 700  6550 0    50   ~ 0
 12V
 Text Notes 600  6950 3    50   ~ 0
@@ -13572,16 +13566,16 @@ Protection\n
 $Comp
 L dashboard_MKV_ewan-rescue:D_Zener_18V-formula D101
 U 1 1 5E6128F3
-P 700 7100
-F 0 "D101" V 746 7021 50  0000 R CNN
-F 1 "D_Zener_18V" V 655 7021 50  0000 R CNN
-F 2 "footprints:DO-214AA" H 600 7100 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 700 7200 50  0001 C CNN
-F 4 "DK" H 900 7400 60  0001 C CNN "MFN"
-F 5 "SMBJ5355B-TPMSCT-ND" H 800 7300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 1100 7600 60  0001 C CNN "PurchasingLink"
-	1    700  7100
-	0    -1   -1   0   
+P 1200 7100
+F 0 "D101" V 1246 7021 50  0000 R CNN
+F 1 "D_Zener_18V" V 1155 7021 50  0000 R CNN
+F 2 "footprints:DO-214AA" H 1100 7100 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 1200 7200 50  0001 C CNN
+F 4 "DK" H 1400 7400 60  0001 C CNN "MFN"
+F 5 "SMBJ5355B-TPMSCT-ND" H 1300 7300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 1600 7600 60  0001 C CNN "PurchasingLink"
+	1    1200 7100
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4150 6900 4500 6900
@@ -13848,8 +13842,6 @@ Connection ~ 1750 6800
 Wire Wire Line
 	1450 7100 1450 7250
 Wire Wire Line
-	1450 6800 1750 6800
-Wire Wire Line
 	1450 7550 1450 7650
 $Comp
 L power:GND #PWR0110
@@ -13887,15 +13879,15 @@ $EndComp
 $Comp
 L dashboard_MKV_ewan-rescue:F_500mA_16V-formula F101
 U 1 1 5E160CFD
-P 1050 6800
-F 0 "F101" V 1150 6800 50  0000 C CNN
-F 1 "F_500mA_16V" V 944 6800 50  0000 C CNN
-F 2 "footprints:Fuse_1210" V 980 6800 50  0001 C CNN
-F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 1130 6800 50  0001 C CNN
-F 4 "DK" H 1050 6800 60  0001 C CNN "MFN"
-F 5 "507-1786-1-ND" H 1050 6800 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 1530 7200 60  0001 C CNN "PurchasingLink"
-	1    1050 6800
+P 950 6800
+F 0 "F101" V 1050 6800 50  0000 C CNN
+F 1 "F_500mA_16V" V 850 6850 50  0000 C CNN
+F 2 "footprints:Fuse_1210" V 880 6800 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 1030 6800 50  0001 C CNN
+F 4 "DK" H 950 6800 60  0001 C CNN "MFN"
+F 5 "507-1786-1-ND" H 950 6800 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 1430 7200 60  0001 C CNN "PurchasingLink"
+	1    950  6800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -13911,20 +13903,6 @@ F 5 "475-1410-1-ND" H 1450 7400 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1850 7900 60  0001 C CNN "PurchasingLink"
 	1    1450 7400
 	0    -1   -1   0   
-$EndComp
-$Comp
-L dashboard_MKV_ewan-rescue:R_200-formula R101
-U 1 1 5E15EBCE
-P 1450 6950
-F 0 "R101" H 1450 6800 50  0000 L CNN
-F 1 "R_200" H 1350 7200 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1380 6950 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1530 6950 50  0001 C CNN
-F 4 "DK" H 1450 6950 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 1450 6950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 1930 7350 60  0001 C CNN "PurchasingLink"
-	1    1450 6950
-	1    0    0    -1  
 $EndComp
 $Comp
 L dashboard_MKV_ewan-rescue:C_0.1uF-formula C101
@@ -14061,23 +14039,32 @@ Wire Wire Line
 	9800 4600 10100 4600
 Text Label 10100 4600 0    50   ~ 0
 12V
-Wire Wire Line
-	6150 5700 6150 5450
-Text Label 6150 5450 2    50   ~ 0
-12V
-$Comp
-L power:+12V #PWR?
-U 1 1 5E57CEA2
-P 6150 5700
-F 0 "#PWR?" H 6150 5550 50  0001 C CNN
-F 1 "+12V" H 6150 5840 50  0000 C CNN
-F 2 "" H 6150 5700 50  0001 C CNN
-F 3 "" H 6150 5700 50  0001 C CNN
-	1    6150 5700
-	-1   0    0    1   
-$EndComp
 Wire Notes Line
 	5950 5200 7950 5200
 Wire Notes Line
 	5950 5900 7950 5900
+Wire Wire Line
+	1200 6800 1450 6800
+$Comp
+L formula:R_1K R101
+U 1 1 5E5903D2
+P 1450 6950
+F 0 "R101" H 1450 6800 50  0000 L CNN
+F 1 "R_1K" H 1350 7200 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1380 6950 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1530 6950 50  0001 C CNN
+F 4 "DK" H 1450 6950 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 1450 6950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 1930 7350 60  0001 C CNN "PurchasingLink"
+	1    1450 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 6800
+Wire Wire Line
+	1450 6800 1750 6800
+Connection ~ 1200 6800
+Wire Wire Line
+	1200 6800 1100 6800
+Wire Wire Line
+	800  6800 700  6800
 $EndSCHEMATC
