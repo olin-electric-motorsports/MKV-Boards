@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AIR_MOUNT_PLUS-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -101,7 +100,7 @@ TS_FUSE+
 Text Label 4550 3125 0    50   ~ 0
 TSMP+
 $Comp
-L formula:LI12-1A85(NO) K1
+L AIR_MOUNT_PLUS-rescue:LI12-1A85(NO)-formula K1
 U 1 1 5E22DF3F
 P 1850 1375
 F 0 "K1" V 2317 1375 50  0000 C CNN
@@ -121,7 +120,7 @@ TS+ Fusing
 Text Notes 1025 750  0    50   ~ 0
 Precharge Relay. Low Side Driven by AIR Control\n
 $Comp
-L formula:R_3K_HS R1
+L AIR_MOUNT_PLUS-rescue:R_3K_HS-formula R1
 U 1 1 5E239D8B
 P 1400 1275
 F 0 "R1" V 1193 1275 50  0000 C CNN
@@ -137,7 +136,7 @@ F 8 "https://www.digikey.com/product-detail/en/wakefield-vette/657-15ABPEN/345-1
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:SS110LW D1
+L AIR_MOUNT_PLUS-rescue:SS110LW-formula D1
 U 1 1 5E23AC7B
 P 1850 2275
 F 0 "D1" H 1850 2491 50  0000 C CNN
@@ -151,7 +150,7 @@ F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/
 	1    0    0    -1  
 $EndComp
 $Comp
-L footprints:UF_4_VT J1
+L AIR_MOUNT_PLUS-rescue:UF_4_VT-footprints J1
 U 1 1 5E23B779
 P 4375 1300
 F 0 "J1" H 4483 1737 60  0000 C CNN
@@ -165,21 +164,7 @@ F 6 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 4875 2150 60  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:200mA_Fuse F1
-U 1 1 5E23D965
-P 1525 3550
-F 0 "F1" H 1525 3775 50  0000 C CNN
-F 1 "200mA_Fuse" H 1525 3684 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 1475 3550 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1475 3550 50  0001 C CNN
-F 4 "507-1767-1-ND " H 1525 3775 50  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" H 1525 3774 50  0001 C CNN "PurchasingLink"
-F 6 "DK" H 1525 3683 50  0001 C CNN "MFN"
-	1    1525 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L footprints:redcude_7461166 J4
+L AIR_MOUNT_PLUS-rescue:redcude_7461166-footprints J4
 U 1 1 5E243056
 P 4325 3700
 F 0 "J4" H 4383 3925 50  0000 C CNN
@@ -190,7 +175,7 @@ F 3 "we-online.de/katalog/datasheet/7461166.pdf" H 4325 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L footprints:redcude_7461166 J5
+L AIR_MOUNT_PLUS-rescue:redcude_7461166-footprints J5
 U 1 1 5E244673
 P 4325 4050
 F 0 "J5" H 4383 4275 50  0000 C CNN
@@ -205,7 +190,7 @@ BAT+
 Text Label 4475 4050 0    50   ~ 0
 TS+
 $Comp
-L footprints:MicroFit_VT_4 J2
+L AIR_MOUNT_PLUS-rescue:MicroFit_VT_4-footprints J2
 U 1 1 5E257662
 P 4350 2975
 F 0 "J2" H 4408 3350 50  0000 C CNN
@@ -218,7 +203,7 @@ F 5 "https://www.digikey.com/product-detail/en/molex/0430450414/WM1796-ND/252509
 	1    0    0    -1  
 $EndComp
 $Comp
-L footprints:MicroFit_VT_6 U1
+L AIR_MOUNT_PLUS-rescue:MicroFit_VT_6-footprints U1
 U 1 1 5E2CA9C7
 P 4425 2050
 F 0 "U1" H 4483 2525 50  0000 C CNN
@@ -228,6 +213,18 @@ F 3 "" H 4425 2050 50  0001 C CNN
 F 4 "0430450614" H 4483 2433 50  0001 C CNN "MPN"
 F 5 "https://www.digikey.com/product-detail/en/molex/0430450614/WM1797-ND/252510" H 4483 2434 50  0001 C CNN "PurchasingLink"
 	1    4425 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Formula:F_1A_600V F1
+U 1 1 5E5873B3
+P 1525 3550
+F 0 "F1" H 1525 3775 50  0000 C CNN
+F 1 "F_1A_600V" H 1525 3684 50  0000 C CNN
+F 2 "footprints:Fuse_1A_600V" H 1525 3250 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ADAC_0ADAP_Series.pdf" H 1475 3550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ADAP1000-RE/507-2220-ND/8028479" H 1725 3900 50  0001 C CNN "PurchasingLink"
+	1    1525 3550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
