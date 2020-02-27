@@ -30,9 +30,9 @@ $EndComp
 Text Label 1700 1300 0    50   ~ 0
 TS-
 Text Label 1700 1600 0    50   ~ 0
-Precharge-
+Coil+
 Text Label 1100 1600 2    50   ~ 0
-Precharge+
+GND
 Wire Wire Line
 	1700 2100 1550 2100
 Wire Wire Line
@@ -87,22 +87,6 @@ Text Label 2300 3000 0    50   ~ 0
 Coil+
 Text Label 2300 3100 0    50   ~ 0
 Coil-
-$Comp
-L Formula:R_10K R2
-U 1 1 5DC4D26F
-P 4150 1000
-F 0 "R2" V 3943 1000 50  0000 C CNN
-F 1 "R_10K" V 4034 1000 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 4080 1000 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4230 1000 50  0001 C CNN
-F 4 "DK" H 4150 1000 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 4150 1000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4630 1400 60  0001 C CNN "PurchasingLink"
-	1    4150 1000
-	0    1    1    0   
-$EndComp
-Text Label 4000 1000 2    50   ~ 0
-TS-
 Text Label 4300 1000 0    50   ~ 0
 TSMP-
 Text Label 3100 1750 0    50   ~ 0
@@ -163,11 +147,11 @@ F 4 "https://www.digikey.com/product-detail/en/molex/0430450400/WM1814-ND/252527
 	1    0    0    -1  
 $EndComp
 Text Label 3200 2800 0    50   ~ 0
-TS_Fused-
+TSAL-
 Text Label 3200 3000 0    50   ~ 0
 TSMP-
 Text Label 3200 3100 0    50   ~ 0
-TS_Fused-
+TS-
 $Comp
 L Formula:HO_60_250-p0100 U2
 U 1 1 5E139A02
@@ -251,4 +235,20 @@ Wire Wire Line
 	1700 1600 1700 2100
 Wire Wire Line
 	1100 1600 1100 2100
+Text Label 4000 1000 2    50   ~ 0
+TS-
+$Comp
+L Formula:R_10K_HV R2
+U 1 1 5E57A605
+P 4150 1000
+F 0 "R2" V 3943 1000 50  0000 C CNN
+F 1 "R_10K_HV" V 4034 1000 50  0000 C CNN
+F 2 "footprints:R_TSMP_SMD_5329" H 4080 1000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28731/pacserie.pdf" H 4230 1000 50  0001 C CNN
+F 4 "DK" H 4150 1000 60  0001 C CNN "MFN"
+F 5 "PPC5D10.0KCT-ND " H 4150 1000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" H 4630 1400 60  0001 C CNN "PurchasingLink"
+	1    4150 1000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
