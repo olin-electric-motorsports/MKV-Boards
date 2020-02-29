@@ -292,68 +292,10 @@ F 3 "" H 2050 3175 50  0001 C CNN
 	1    2050 3175
 	1    0    0    -1  
 $EndComp
-$Comp
-L IMD_LATCH-rescue:R_604K-Formula R3
-U 1 1 5DE34F28
-P 2400 1875
-F 0 "R3" V 2193 1875 50  0000 C CNN
-F 1 "R_604K" V 2284 1875 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 2330 1875 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2480 1875 50  0001 C CNN
-F 4 "DK" H 2400 1875 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT604KCT-ND" H 2400 1875 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214" H 2880 2275 60  0001 C CNN "PurchasingLink"
-	1    2400 1875
-	-1   0    0    1   
-$EndComp
-$Comp
-L IMD_LATCH-rescue:R_300K-Formula R2
-U 1 1 5DE346DA
-P 1750 1650
-F 0 "R2" V 1543 1650 50  0000 C CNN
-F 1 "R_300K" V 1634 1650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1680 1650 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 1830 1650 50  0001 C CNN
-F 4 "DK" H 1750 1650 60  0001 C CNN "MFN"
-F 5 "P300KDACT-ND" H 1750 1650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006" H 2230 2050 60  0001 C CNN "PurchasingLink"
-	1    1750 1650
-	0    1    1    0   
-$EndComp
 Text Label 1325 2550 2    50   ~ 0
 12V_Fused
-$Comp
-L IMD_LATCH-rescue:R_1K-Formula R5
-U 1 1 5DE30363
-P 1475 2550
-F 0 "R5" V 1268 2550 50  0000 C CNN
-F 1 "R_1K" V 1359 2550 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1405 2550 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1555 2550 50  0001 C CNN
-F 4 "DK" H 1475 2550 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 1475 2550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 1955 2950 60  0001 C CNN "PurchasingLink"
-	1    1475 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L IMD_LATCH-rescue:R_120K-Formula R6
-U 1 1 5DE30A48
-P 1775 2550
-F 0 "R6" V 1568 2550 50  0000 C CNN
-F 1 "R_120K" V 1659 2550 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1705 2550 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1855 2550 50  0001 C CNN
-F 4 "DK" H 1775 2550 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT120KCT-ND" H 1775 2550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248" H 2255 2950 60  0001 C CNN "PurchasingLink"
-	1    1775 2550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1950 2100 2400 2100
-Wire Wire Line
-	2400 2025 2400 2100
 $Comp
 L power:GND #PWR08
 U 1 1 5DE336DB
@@ -364,20 +306,6 @@ F 2 "" H 2400 2175 50  0001 C CNN
 F 3 "" H 2400 2175 50  0001 C CNN
 	1    2400 2175
 	1    0    0    -1  
-$EndComp
-$Comp
-L IMD_LATCH-rescue:R_2.2K-Formula R1
-U 1 1 5DE342A3
-P 1450 1650
-F 0 "R1" V 1243 1650 50  0000 C CNN
-F 1 "R_2.2K" V 1334 1650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1380 1650 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1530 1650 50  0001 C CNN
-F 4 "DK" H 1450 1650 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT2K20CT-ND" H 1450 1650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" H 1930 2050 60  0001 C CNN "PurchasingLink"
-	1    1450 1650
-	0    1    1    0   
 $EndComp
 Text Label 1300 1650 2    50   ~ 0
 12V_Fused
@@ -504,7 +432,6 @@ Wire Wire Line
 	1625 4650 1625 4600
 Text Notes 1300 4625 1    50   ~ 0
 This is IMD\n\n
-Connection ~ 2400 2100
 Wire Wire Line
 	2400 2100 2400 2175
 Wire Wire Line
@@ -521,8 +448,6 @@ Wire Wire Line
 Connection ~ 2400 1650
 Wire Wire Line
 	2400 1650 2750 1650
-Wire Wire Line
-	2050 3125 2050 3175
 Wire Wire Line
 	2050 2550 2050 2700
 Wire Wire Line
@@ -1020,20 +945,6 @@ $EndComp
 Wire Wire Line
 	2050 2700 2050 2825
 $Comp
-L IMD_LATCH-rescue:R_1.82M-formula R7
-U 1 1 5DE66D2E
-P 2050 2975
-F 0 "R7" H 2120 3021 50  0000 L CNN
-F 1 "R_1.82M" H 2120 2930 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1980 2975 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2130 2975 50  0001 C CNN
-F 4 "DK" H 2050 2975 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT1M82CT-ND" H 2050 2975 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT1M82/RMCF0805FT1M82CT-ND/2418309" H 2530 3375 60  0001 C CNN "PurchasingLink"
-	1    2050 2975
-	1    0    0    -1  
-$EndComp
-$Comp
 L Formula:TLV3701QDBVRG4Q1 U1
 U 1 1 5E532806
 P 3300 2600
@@ -1045,6 +956,95 @@ F 4 "DK" H 3650 3100 60  0001 C CNN "MFN"
 F 5 "497-10249-1-ND" H 3550 3000 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q1/296-32395-6-ND/3507000" H 3450 2900 60  0001 C CNN "PurchasingLink"
 	1    3300 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 2100
+Wire Wire Line
+	2050 3125 2050 3175
+Wire Wire Line
+	2400 2025 2400 2100
+$Comp
+L IMD_LATCH-rescue:R_2.2K-Formula R1
+U 1 1 5DE342A3
+P 1450 1650
+F 0 "R1" V 1243 1650 50  0000 C CNN
+F 1 "R_2.2K" V 1334 1650 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 1380 1650 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1530 1650 50  0001 C CNN
+F 4 "DK" H 1450 1650 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT2K20CT-ND" H 1450 1650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" H 1930 2050 60  0001 C CNN "PurchasingLink"
+	1    1450 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L IMD_LATCH-rescue:R_300K-Formula R2
+U 1 1 5DE346DA
+P 1750 1650
+F 0 "R2" V 1543 1650 50  0000 C CNN
+F 1 "R_300K" V 1634 1650 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 1680 1650 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 1830 1650 50  0001 C CNN
+F 4 "DK" H 1750 1650 60  0001 C CNN "MFN"
+F 5 "P300KDACT-ND" H 1750 1650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006" H 2230 2050 60  0001 C CNN "PurchasingLink"
+	1    1750 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L IMD_LATCH-rescue:R_120K-Formula R6
+U 1 1 5DE30A48
+P 1775 2550
+F 0 "R6" V 1568 2550 50  0000 C CNN
+F 1 "R_120K" V 1659 2550 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 1705 2550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1855 2550 50  0001 C CNN
+F 4 "DK" H 1775 2550 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT120KCT-ND" H 1775 2550 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248" H 2255 2950 60  0001 C CNN "PurchasingLink"
+	1    1775 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L IMD_LATCH-rescue:R_1K-Formula R5
+U 1 1 5DE30363
+P 1475 2550
+F 0 "R5" V 1268 2550 50  0000 C CNN
+F 1 "R_1K" V 1359 2550 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 1405 2550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1555 2550 50  0001 C CNN
+F 4 "DK" H 1475 2550 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 1475 2550 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 1955 2950 60  0001 C CNN "PurchasingLink"
+	1    1475 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L IMD_LATCH-rescue:R_604K-Formula R3
+U 1 1 5DE34F28
+P 2400 1875
+F 0 "R3" V 2193 1875 50  0000 C CNN
+F 1 "R_604K" V 2284 1875 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 2330 1875 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2480 1875 50  0001 C CNN
+F 4 "DK" H 2400 1875 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT604KCT-ND" H 2400 1875 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214" H 2880 2275 60  0001 C CNN "PurchasingLink"
+	1    2400 1875
+	-1   0    0    1   
+$EndComp
+$Comp
+L IMD_LATCH-rescue:R_1.82M-formula R7
+U 1 1 5DE66D2E
+P 2050 2975
+F 0 "R7" H 2120 3021 50  0000 L CNN
+F 1 "R_1.82M" H 2120 2930 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1980 2975 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2130 2975 50  0001 C CNN
+F 4 "DK" H 2050 2975 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT1M82CT-ND" H 2050 2975 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT1M82/RMCF0805FT1M82CT-ND/2418309" H 2530 3375 60  0001 C CNN "PurchasingLink"
+	1    2050 2975
 	1    0    0    -1  
 $EndComp
 $Comp
