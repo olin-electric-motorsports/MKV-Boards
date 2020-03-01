@@ -14,20 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Formula:LI12-1A85(NO) K1
-U 1 1 5DAE5E76
-P 1400 1400
-F 0 "K1" V 1867 1400 50  0000 C CNN
-F 1 "LI12-1A85(NO)" V 1776 1400 50  0000 C CNN
-F 2 "footprints:Meder-LI12" H 1850 1350 50  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Meder%20PDFs/LI12-1A85_Spec.pdf" H 1850 1050 50  0001 L CNN
-F 4 "DK" H 2250 1950 60  0001 C CNN "MFN"
-F 5 "374-1110-ND" H 2150 1850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/LI12-1A85/374-1110-ND/655844" H 2350 2050 60  0001 C CNN "PurchasingLink"
-	1    1400 1400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Formula:SS110LW D1
 U 1 1 5DAE7FAE
 P 1400 2100
@@ -41,22 +27,16 @@ F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/
 	1    1400 2100
 	1    0    0    -1  
 $EndComp
-Text Notes 1100 850  0    50   ~ 0
-[Relay, STSP-NO]\n
 Text Label 1700 1300 0    50   ~ 0
 TS-
 Text Label 1700 1600 0    50   ~ 0
-Precharge-
+Coil+
 Text Label 1100 1600 2    50   ~ 0
-Precharge+
-Wire Wire Line
-	1700 1600 1700 2100
+GND
 Wire Wire Line
 	1700 2100 1550 2100
 Wire Wire Line
 	1250 2100 1100 2100
-Wire Wire Line
-	1100 2100 1100 1600
 $Comp
 L Formula:R_3K_HS R1
 U 1 1 5DAEBB45
@@ -75,17 +55,9 @@ F 8 "https://www.digikey.com/product-detail/en/wakefield-vette/657-15ABPEN/345-1
 $EndComp
 Text Notes 600  1000 0    50   ~ 0
 [Resistor, \nHeat Sink]\n
-Text Notes 1050 2250 0    50   ~ 0
-[Diode, SCHOTTKY]\n
-Wire Notes Line
-	2150 750  2150 2300
-Wire Notes Line
-	2150 2300 600  2300
-Wire Notes Line
-	600  2300 600  750 
-Text Label 3000 1000 0    50   ~ 0
+Text Label 3075 1000 0    50   ~ 0
 TS_Fused-
-Text Label 2700 1000 2    50   ~ 0
+Text Label 2475 1000 2    50   ~ 0
 TS-
 Text Label 3100 1950 0    50   ~ 0
 AUX+
@@ -115,26 +87,8 @@ Text Label 2300 3000 0    50   ~ 0
 Coil+
 Text Label 2300 3100 0    50   ~ 0
 Coil-
-$Comp
-L Formula:R_10K R2
-U 1 1 5DC4D26F
-P 4150 1000
-F 0 "R2" V 3943 1000 50  0000 C CNN
-F 1 "R_10K" V 4034 1000 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 4080 1000 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4230 1000 50  0001 C CNN
-F 4 "DK" H 4150 1000 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 4150 1000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4630 1400 60  0001 C CNN "PurchasingLink"
-	1    4150 1000
-	0    1    1    0   
-$EndComp
-Text Label 4000 1000 2    50   ~ 0
-TS-
 Text Label 4300 1000 0    50   ~ 0
 TSMP-
-Wire Notes Line
-	600  750  2150 750 
 Text Label 3100 1750 0    50   ~ 0
 GND
 Text Label 3100 1850 0    50   ~ 0
@@ -193,11 +147,11 @@ F 4 "https://www.digikey.com/product-detail/en/molex/0430450400/WM1814-ND/252527
 	1    0    0    -1  
 $EndComp
 Text Label 3200 2800 0    50   ~ 0
-TS_Fused-
+TSAL-
 Text Label 3200 3000 0    50   ~ 0
 TSMP-
 Text Label 3200 3100 0    50   ~ 0
-TS_Fused-
+TS-
 $Comp
 L Formula:HO_60_250-p0100 U2
 U 1 1 5E139A02
@@ -223,18 +177,6 @@ NoConn ~ 6000 3000
 NoConn ~ 6000 3100
 NoConn ~ 6000 3200
 NoConn ~ 6000 3300
-$Comp
-L Formula:F_2A_500V F1
-U 1 1 5E2BB207
-P 2850 1000
-F 0 "F1" H 2850 1225 50  0000 C CNN
-F 1 "F_2A_500V" H 2850 1134 50  0000 C CNN
-F 2 "footprints:F_2A_500V" H 2750 800 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_885_datasheet.pdf.pdf" V 2850 1000 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/littelfuse-inc/0885002.DR/F10988CT-ND/8345702" H 2850 800 50  0001 C CNN "Digikey"
-	1    2850 1000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Formula:redcude_7461166 J4
 U 1 1 5E2F97D2
@@ -263,4 +205,50 @@ Text Label 5300 1550 0    50   ~ 0
 BAT-
 Text Label 800  1300 2    50   ~ 0
 BAT-
+$Comp
+L Formula:LI12-1A85(NO) K1
+U 1 1 5DAE5E76
+P 1400 1400
+F 0 "K1" V 1867 1400 50  0000 C CNN
+F 1 "LI12-1A85(NO)" V 1776 1400 50  0000 C CNN
+F 2 "footprints:Meder-LI12" H 1850 1350 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Meder%20PDFs/LI12-1A85_Spec.pdf" H 1850 1050 50  0001 L CNN
+F 4 "DK" H 2250 1950 60  0001 C CNN "MFN"
+F 5 "374-1110-ND" H 2150 1850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/LI12-1A85/374-1110-ND/655844" H 2350 2050 60  0001 C CNN "PurchasingLink"
+	1    1400 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 1600 1700 2100
+Wire Wire Line
+	1100 1600 1100 2100
+Text Label 4000 1000 2    50   ~ 0
+TS-
+$Comp
+L Formula:R_10K_HV R2
+U 1 1 5E57A605
+P 4150 1000
+F 0 "R2" V 3943 1000 50  0000 C CNN
+F 1 "R_10K_HV" V 4034 1000 50  0000 C CNN
+F 2 "footprints:R_TSMP_SMD_5329" H 4080 1000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28731/pacserie.pdf" H 4230 1000 50  0001 C CNN
+F 4 "DK" H 4150 1000 60  0001 C CNN "MFN"
+F 5 "PPC5D10.0KCT-ND " H 4150 1000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" H 4630 1400 60  0001 C CNN "PurchasingLink"
+	1    4150 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Formula:F_1A_600V F?
+U 1 1 5E58C68C
+P 2775 1000
+F 0 "F?" H 2775 1225 50  0000 C CNN
+F 1 "F_1A_600V" H 2775 1134 50  0000 C CNN
+F 2 "footprints:Fuse_1A_600V" H 2775 700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ADAC_0ADAP_Series.pdf" H 2725 1000 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ADAP1000-RE/507-2220-ND/8028479" H 2975 1350 50  0001 C CNN "PurchasingLink"
+	1    2775 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
