@@ -3115,7 +3115,7 @@
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5DAD4B8E)
     (attr smd)
-    (fp_text reference 12V (at 0.05 3.1 270) (layer F.SilkS)
+    (fp_text reference 5V (at 0.05 3.1 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED_0805 (at 0.508 2.032) (layer F.Fab) hide
@@ -3690,7 +3690,7 @@
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5DAACE78)
     (attr smd)
-    (fp_text reference 5V (at -3.08 -0.05) (layer F.SilkS)
+    (fp_text reference 12V (at -3.08 -0.05) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED_0805 (at 0.508 2.032 180) (layer F.Fab) hide
