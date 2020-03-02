@@ -4,227 +4,272 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "High Side AIR Mount"
-Date "2020-01-17"
-Rev "1.0"
-Comp "Olin Electric Motorsports"
-Comment1 "Aditya Sudhakar"
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 1250 1275 2    50   ~ 0
-BAT+
-Text Label 2150 1275 0    50   ~ 0
-TS+
-Text Label 2150 1575 0    50   ~ 0
-PRECHARGE_LSD
-Text Label 1550 1575 2    50   ~ 0
-FINAL_SHUTDOWN
-Wire Wire Line
-	1550 1575 1550 2275
-Wire Wire Line
-	1550 2275 1700 2275
-Wire Wire Line
-	2000 2275 2150 2275
-Wire Wire Line
-	2150 2275 2150 1575
 $Comp
-L Device:R R2
-U 1 1 5DC5DF1A
-P 2075 4975
-F 0 "R2" V 1868 4975 50  0000 C CNN
-F 1 "R_10K" V 1959 4975 50  0000 C CNN
-F 2 "footprints:R_TSMP_SMD_5329" V 2005 4975 50  0001 C CNN
-F 3 "~" H 2075 4975 50  0001 C CNN
-	1    2075 4975
-	0    1    1    0   
-$EndComp
-Text Label 1925 4975 2    50   ~ 0
-TS+
-Text Label 2225 4975 0    50   ~ 0
-TSMP+
-Text Label 1225 3550 2    50   ~ 0
-TS+
-Wire Wire Line
-	1825 3550 2025 3550
-Wire Wire Line
-	2025 3550 2175 3550
-Connection ~ 2025 3550
-Text Label 2175 3800 0    50   ~ 0
-TS_FUSE+
-Text Label 2175 3550 0    50   ~ 0
-ENERGY_METER
-Text Label 2175 3675 0    50   ~ 0
-TSAL+
-Text Label 2175 3425 0    50   ~ 0
-BSPD_CURRENT_SENSOR
-Text Label 4625 1800 0    50   ~ 0
-PRECHARGE_LSD
-Text Label 4625 2000 0    50   ~ 0
-FINAL_SHUTDOWN
-Text Label 4625 1900 0    50   ~ 0
-AIR+_AUX+
-Text Label 4625 2200 0    50   ~ 0
-AIR+_AUX-
-Text Label 4625 2100 0    50   ~ 0
-AIR+_COIL-
-Text Label 4550 2825 0    50   ~ 0
-BSPD_CURRENT_SENSOR
-Text Label 4550 2925 0    50   ~ 0
-ENERGY_METER
-Text Label 4725 1100 0    50   ~ 0
-AIR+_AUX-
-Text Label 4725 1200 0    50   ~ 0
-AIR+_AUX+
-Text Label 4725 1300 0    50   ~ 0
-AIR+_COIL-
-Text Label 4725 1400 0    50   ~ 0
-PRECHARGE_LSD
-NoConn ~ 4625 2300
-Wire Wire Line
-	2175 3800 2025 3800
-Wire Wire Line
-	2025 3550 2025 3675
-Wire Wire Line
-	2175 3675 2025 3675
-Connection ~ 2025 3675
-Wire Wire Line
-	2025 3675 2025 3800
-Wire Wire Line
-	2025 3550 2025 3425
-Wire Wire Line
-	2025 3425 2175 3425
-Text Label 4550 3025 0    50   ~ 0
-TS_FUSE+
-Text Label 4550 3125 0    50   ~ 0
-TSMP+
-$Comp
-L AIR_MOUNT_PLUS-rescue:LI12-1A85(NO)-formula K1
-U 1 1 5E22DF3F
-P 1850 1375
-F 0 "K1" V 2317 1375 50  0000 C CNN
-F 1 "LI12-1A85(NO)" V 2226 1375 50  0000 C CNN
-F 2 "footprints:Meder-LI12" H 2300 1325 50  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Meder%20PDFs/LI12-1A85_Spec.pdf" H 2300 1025 50  0001 L CNN
-F 4 "DK" H 2700 1925 60  0001 C CNN "MFN"
-F 5 "374-1110-ND" H 2600 1825 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/LI12-1A85/374-1110-ND/655844" H 2800 2025 60  0001 C CNN "PurchasingLink"
-	1    1850 1375
-	0    -1   -1   0   
-$EndComp
-Text Notes 1500 4625 0    50   ~ 0
-TSMP Body Protection Resistor
-Text Notes 1775 3075 0    50   ~ 0
-TS+ Fusing 
-Text Notes 1025 750  0    50   ~ 0
-Precharge Relay. Low Side Driven by AIR Control\n
-$Comp
-L AIR_MOUNT_PLUS-rescue:R_3K_HS-formula R1
-U 1 1 5E239D8B
-P 1400 1275
-F 0 "R1" V 1193 1275 50  0000 C CNN
-F 1 "R_3K_HS" V 1284 1275 50  0000 C CNN
-F 2 "footprints:R_3k_HS_TO247" H 1330 1275 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/ohmite/pdf/acl_ap101.pdf" H 1480 1275 50  0001 C CNN
-F 4 "DK" H 1400 1275 60  0001 C CNN "MFN"
-F 5 "AP1013KJ-ND" H 1400 1275 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/ohmite/AP101-3K-J/AP101-3K-J-ND/5878525" H 1880 1675 60  0001 C CNN "PurchasingLink"
-F 7 "345-1223-ND" V 1980 1775 60  0001 C CNN "MPN2"
-F 8 "https://www.digikey.com/product-detail/en/wakefield-vette/657-15ABPEN/345-1223-ND/3945700" V 2080 1875 60  0001 C CNN "PurchasingLink2"
-	1    1400 1275
-	0    1    1    0   
-$EndComp
-$Comp
-L AIR_MOUNT_PLUS-rescue:SS110LW-formula D1
-U 1 1 5E23AC7B
-P 1850 2275
-F 0 "D1" H 1850 2491 50  0000 C CNN
-F 1 "SS110LW" H 1850 2400 50  0000 C CNN
-F 2 "footprints:D_SOD-123W_OEM" H 1750 2275 50  0001 C CNN
-F 3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" H 1850 2375 50  0001 C CNN
-F 4 "DK" H 2050 2575 60  0001 C CNN "MFN"
-F 5 "SS110LWRVGCT-ND" H 1950 2475 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/SS110LW-RVG/SS110LWRVGCT-ND/7359346" H 2150 2675 60  0001 C CNN "PurchasingLink"
-	1    1850 2275
+L Formula:SS110LW D1
+U 1 1 5DAE7FAE
+P 1900 2325
+F 0 "D1" H 1900 2541 50  0000 C CNN
+F 1 "SS110LW" H 1900 2450 50  0000 C CNN
+F 2 "footprints:D_SOD-123W_OEM" H 1800 2325 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" H 1900 2425 50  0001 C CNN
+F 4 "DK" H 2100 2625 60  0001 C CNN "MFN"
+F 5 "SS110LWRVGCT-ND" H 2000 2525 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/SS110LW-RVG/SS110LWRVGCT-ND/7359346" H 2200 2725 60  0001 C CNN "PurchasingLink"
+	1    1900 2325
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2200 2325 2050 2325
+Wire Wire Line
+	1750 2325 1600 2325
+Text Label 1075 3100 2    50   ~ 0
+TS-
 $Comp
-L AIR_MOUNT_PLUS-rescue:UF_4_VT-footprints J1
-U 1 1 5E23B779
-P 4375 1300
-F 0 "J1" H 4483 1737 60  0000 C CNN
-F 1 "UF_4_VT" H 4483 1631 60  0000 C CNN
-F 2 "footprints:Ultrafit_4" H 4275 1550 60  0001 C CNN
-F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 4375 1650 60  0001 C CNN
-F 4 "DK" H 4375 1300 60  0001 C CNN "MFN"
-F 5 "WM11574-ND" H 4375 1300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 4875 2150 60  0001 C CNN "PurchasingLink"
-	1    4375 1300
+L Formula:UF_4_VT J1
+U 1 1 5DB02E97
+P 3300 1625
+F 0 "J1" H 3408 2062 60  0000 C CNN
+F 1 "UF_4_VT" H 3408 1956 60  0000 C CNN
+F 2 "footprints:Ultrafit_4" H 3200 1875 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 3300 1975 60  0001 C CNN
+F 4 "DK" H 3300 1625 60  0001 C CNN "MFN"
+F 5 "WM11574-ND" H 3300 1625 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 3800 2475 60  0001 C CNN "PurchasingLink"
+	1    3300 1625
 	1    0    0    -1  
 $EndComp
+Text Label 3650 1725 0    50   ~ 0
+Coil-
 $Comp
-L AIR_MOUNT_PLUS-rescue:redcude_7461166-footprints J4
-U 1 1 5E243056
-P 4325 3700
-F 0 "J4" H 4383 3925 50  0000 C CNN
-F 1 "redcude_7461166" H 4383 3834 50  0000 C CNN
-F 2 "footprints:redcube_7461166" H 4325 3500 50  0001 C CNN
-F 3 "we-online.de/katalog/datasheet/7461166.pdf" H 4325 3600 50  0001 C CNN
-	1    4325 3700
+L Formula:redcude_7461166 J4
+U 1 1 5E2F97D2
+P 4450 2700
+F 0 "J4" H 4508 2925 50  0000 C CNN
+F 1 "redcude_7461166" H 4508 2834 50  0000 C CNN
+F 2 "footprints:redcube_7461166" H 4450 2500 50  0001 C CNN
+F 3 "we-online.de/katalog/datasheet/7461166.pdf" H 4450 2600 50  0001 C CNN
+	1    4450 2700
 	1    0    0    -1  
 $EndComp
+Text Label 4600 2700 0    50   ~ 0
+TS-
 $Comp
-L AIR_MOUNT_PLUS-rescue:redcude_7461166-footprints J5
-U 1 1 5E244673
-P 4325 4050
-F 0 "J5" H 4383 4275 50  0000 C CNN
-F 1 "redcude_7461166" H 4383 4184 50  0000 C CNN
-F 2 "footprints:redcube_7461166" H 4325 3850 50  0001 C CNN
-F 3 "we-online.de/katalog/datasheet/7461166.pdf" H 4325 3950 50  0001 C CNN
-	1    4325 4050
+L Formula:redcude_7461166 J5
+U 1 1 5E2FA0CC
+P 5175 2700
+F 0 "J5" H 5233 2925 50  0000 C CNN
+F 1 "redcude_7461166" H 5233 2834 50  0000 C CNN
+F 2 "footprints:redcube_7461166" H 5175 2500 50  0001 C CNN
+F 3 "we-online.de/katalog/datasheet/7461166.pdf" H 5175 2600 50  0001 C CNN
+	1    5175 2700
 	1    0    0    -1  
 $EndComp
-Text Label 4475 3700 0    50   ~ 0
-BAT+
-Text Label 4475 4050 0    50   ~ 0
-TS+
-$Comp
-L AIR_MOUNT_PLUS-rescue:MicroFit_VT_4-footprints J2
-U 1 1 5E257662
-P 4350 2975
-F 0 "J2" H 4408 3350 50  0000 C CNN
-F 1 "MicroFit_VT_4" H 4408 3259 50  0000 C CNN
-F 2 "footprints:MicroFit_VT_4" H 4350 2675 50  0001 C CNN
-F 3 "" H 4350 2925 50  0001 C CNN
-F 4 "430450414" H 4408 3350 50  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/molex/0430450414/WM1796-ND/252509" H 4408 3258 50  0001 C CNN "PurchasingLink"
-	1    4350 2975
-	1    0    0    -1  
-$EndComp
-$Comp
-L AIR_MOUNT_PLUS-rescue:MicroFit_VT_6-footprints U1
-U 1 1 5E2CA9C7
-P 4425 2050
-F 0 "U1" H 4483 2525 50  0000 C CNN
-F 1 "MicroFit_VT_6" H 4483 2434 50  0000 C CNN
-F 2 "footprints:MicroFit_VT_6" H 4425 1650 50  0001 C CNN
-F 3 "" H 4425 2050 50  0001 C CNN
-F 4 "0430450614" H 4483 2433 50  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/molex/0430450614/WM1797-ND/252510" H 4483 2434 50  0001 C CNN "PurchasingLink"
-	1    4425 2050
-	1    0    0    -1  
-$EndComp
+Text Label 5325 2700 0    50   ~ 0
+BAT-
+Wire Wire Line
+	1600 1825 1600 2325
 $Comp
 L Formula:F_1A_600V F1
-U 1 1 5E5873B3
-P 1525 3550
-F 0 "F1" H 1525 3775 50  0000 C CNN
-F 1 "F_1A_600V" H 1525 3684 50  0000 C CNN
-F 2 "footprints:Fuse_1A_600V" H 1525 3250 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ADAC_0ADAP_Series.pdf" H 1475 3550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ADAP1000-RE/507-2220-ND/8028479" H 1725 3900 50  0001 C CNN "PurchasingLink"
-	1    1525 3550
+U 1 1 5E58C68C
+P 1375 3100
+F 0 "F1" H 1375 3325 50  0000 C CNN
+F 1 "F_1A_600V" H 1375 3234 50  0000 C CNN
+F 2 "footprints:Fuse_1A_600V" H 1375 2800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ADAC_0ADAP_Series.pdf" H 1325 3100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ADAP1000-RE/507-2220-ND/8028479" H 1575 3450 50  0001 C CNN "PurchasingLink"
+	1    1375 3100
 	1    0    0    -1  
 $EndComp
+$Comp
+L Formula:R_3K_HS R1
+U 1 1 5E59D5EA
+P 1450 1525
+F 0 "R1" V 1675 1525 50  0000 C CNN
+F 1 "R_3K_HS" V 1584 1525 50  0000 C CNN
+F 2 "footprints:R_3k_HS_TO247" H 1380 1525 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/ohmite/pdf/acl_ap101.pdf" H 1530 1525 50  0001 C CNN
+F 4 "DK" H 1450 1525 60  0001 C CNN "MFN"
+F 5 "AP1013KJ-ND" H 1450 1525 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/ohmite/AP101-3K-J/AP101-3K-J-ND/5878525" H 1930 1925 60  0001 C CNN "PurchasingLink"
+F 7 "345-1223-ND" V 2030 2025 60  0001 C CNN "MPN2"
+F 8 "https://www.digikey.com/product-detail/en/wakefield-vette/657-15ABPEN/345-1223-ND/3945700" V 2130 2125 60  0001 C CNN "PurchasingLink2"
+	1    1450 1525
+	0    -1   -1   0   
+$EndComp
+Text Label 1300 1525 2    50   ~ 0
+BAT-
+Text Label 2200 1525 0    50   ~ 0
+TS-
+Wire Wire Line
+	2200 1825 2200 2325
+Text Label 2200 1825 0    50   ~ 0
+GND
+Text Label 1600 1825 2    50   ~ 0
+Coil+
+Text Label 3650 1525 0    50   ~ 0
+AUX-
+Text Label 3650 1425 0    50   ~ 0
+AUX+
+Text Label 3050 3450 0    50   ~ 0
+TSMP-
+Text Label 3650 1625 0    50   ~ 0
+Coil+
+Text Label 3500 2725 0    50   ~ 0
+TS-
+Text Label 3500 2625 0    50   ~ 0
+TSMP-
+Text Label 3500 2425 0    50   ~ 0
+TSAL-
+$Comp
+L Formula:MicroFit_RA_4 J3
+U 1 1 5DF102AC
+P 3300 2575
+F 0 "J3" H 3358 2950 50  0000 C CNN
+F 1 "MicroFit_RA_4" H 3358 2859 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_4" H 3300 2275 50  0001 C CNN
+F 3 "" H 3300 2575 100 0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/molex/0430450400/WM1814-ND/252527" H 3300 2575 50  0001 C CNN "Purchasing Link"
+	1    3300 2575
+	1    0    0    -1  
+$EndComp
+Text Label 3500 2525 0    50   ~ 0
+TS_Fused-
+NoConn ~ 4675 1925
+Text Label 4675 1525 0    50   ~ 0
+Coil+
+Text Label 4675 1425 0    50   ~ 0
+GND
+Text Label 4675 1825 0    50   ~ 0
+Coil-
+Text Label 4675 1725 0    50   ~ 0
+AUX-
+Text Label 4675 1625 0    50   ~ 0
+AUX+
+Text Label 1675 3100 0    50   ~ 0
+TS_Fused-
+Text Notes 2000 625  0    50   ~ 0
+NEW AIR PLUS\n
+$Comp
+L Formula:DBR71210(NC) K1
+U 1 1 5E5D8E84
+P 1900 1625
+F 0 "K1" V 2367 1625 50  0000 C CNN
+F 1 "DBR71210(NC)" V 2276 1625 50  0000 C CNN
+F 2 "footprints:D-Series_Cynergy_Relay" H 2350 1575 50  0001 L CNN
+F 3 "https://www.cynergy3.com/sites/default/files/D%20series%202016_5.pdf" H 2350 1275 50  0001 L CNN
+F 4 "DK" H 2750 2175 60  0001 C CNN "MFN"
+F 5 "725-1049-ND" H 2650 2075 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/cynergy-3/DBR71210/725-1049-ND/752025" H 2850 2275 60  0001 C CNN "PurchasingLink"
+	1    1900 1625
+	0    -1   -1   0   
+$EndComp
+Text Notes 925  1025 0    50   ~ 0
+Discharge Relay. High Side Driven by AIR Control
+Text Notes 1250 2700 0    50   ~ 0
+TS- Fusing
+Text Notes 2350 3075 0    50   ~ 0
+TSMP Body Protection Resistor
+Text Notes 3300 1025 0    50   ~ 0
+To Relay\n
+Text Notes 4250 1025 0    50   ~ 0
+To AIR Control\n
+Text Notes 3200 2075 0    50   ~ 0
+Fuse Connector
+Text Notes 4500 2325 0    50   ~ 0
+RedCube Connectors
+Wire Notes Line
+	825  900  2900 900 
+Wire Notes Line
+	2900 900  2900 2475
+Wire Notes Line
+	2900 2475 825  2475
+Wire Notes Line
+	825  2475 825  925 
+Wire Notes Line
+	4075 900  5000 900 
+Wire Notes Line
+	5000 900  5000 2075
+Wire Notes Line
+	5000 2075 4050 2075
+Wire Notes Line
+	4050 2075 4050 925 
+$Comp
+L Formula:MicroFit_RA_06 J2
+U 1 1 5DB019DF
+P 4425 1675
+F 0 "J2" H 4483 2172 60  0000 C CNN
+F 1 "MicroFit_RA_06" H 4483 2066 60  0000 C CNN
+F 2 "footprints:MicroFit_RA_06" H 4325 1925 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450601_sd.pdf" H 4425 2025 60  0001 C CNN
+F 4 "Molex" H 4525 3075 60  0001 C CNN "MFN"
+F 5 "WM4037-ND" H 4625 3175 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450601/WM4037-ND/2421555" H 4425 2975 60  0001 C CNN "PurchasingLink"
+	1    4425 1675
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3000 900  3950 900 
+Wire Notes Line
+	3950 900  3950 1875
+Wire Notes Line
+	3950 1875 3000 1875
+Wire Notes Line
+	3000 1875 3000 900 
+Wire Notes Line
+	3000 1950 3975 1950
+Wire Notes Line
+	3975 1950 3975 2850
+Wire Notes Line
+	3975 2850 3000 2850
+Wire Notes Line
+	3000 2850 3000 1950
+Wire Notes Line
+	825  2575 2150 2575
+Wire Notes Line
+	2150 2575 2150 3300
+Wire Notes Line
+	2150 3300 825  3300
+Wire Notes Line
+	825  3300 825  2575
+Wire Notes Line
+	2275 2925 3600 2925
+Wire Notes Line
+	3600 2925 3600 3600
+Wire Notes Line
+	3600 3600 2275 3600
+Wire Notes Line
+	2275 3600 2275 2925
+$Comp
+L Formula:R_10K_HV R2
+U 1 1 5E57A605
+P 2900 3450
+F 0 "R2" V 2693 3450 50  0000 C CNN
+F 1 "R_10K_HV" V 2784 3450 50  0000 C CNN
+F 2 "footprints:R_TSMP_SMD_5329" H 2830 3450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28731/pacserie.pdf" H 2980 3450 50  0001 C CNN
+F 4 "DK" H 2900 3450 60  0001 C CNN "MFN"
+F 5 "PPC5D10.0KCT-ND " H 2900 3450 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PPC5D10.0KCT-ND" H 3380 3850 60  0001 C CNN "PurchasingLink"
+	1    2900 3450
+	0    1    1    0   
+$EndComp
+Text Label 2750 3450 2    50   ~ 0
+TS-
+Wire Notes Line
+	4075 2175 5650 2175
+Wire Notes Line
+	5650 2175 5650 2850
+Wire Notes Line
+	5650 2850 4075 2850
+Wire Notes Line
+	4075 2850 4075 2175
 $EndSCHEMATC
