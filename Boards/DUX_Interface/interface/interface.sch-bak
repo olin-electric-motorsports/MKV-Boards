@@ -534,8 +534,10 @@ F 3 "" H 2650 6400 50  0001 C CNN
 $EndComp
 Text Label 2650 6400 1    50   ~ 0
 CAN_GND
-Text Notes 3150 6600 0    98   ~ 0
+Text Notes 3075 6850 0    98   ~ 0
 Power Flags\n
+Wire Notes Line
+	3750 5700 900  5700
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5DCFEE19
@@ -580,6 +582,8 @@ F 3 "" H 2875 6400 50  0001 C CNN
 	1    2875 6400
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	900  5700 900  6650
 $Comp
 L formula:R_120_DNP R1
 U 1 1 5DD2F1A4
@@ -686,12 +690,4 @@ F 3 "" H 2425 6400 50  0001 C CNN
 	1    2425 6400
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	4175 5700 4175 6750
-Wire Notes Line
-	4175 6750 900  6750
-Wire Notes Line
-	900  5700 4175 5700
-Wire Notes Line
-	900  5700 900  6750
 $EndSCHEMATC
