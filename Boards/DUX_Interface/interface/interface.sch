@@ -583,20 +583,20 @@ $EndComp
 $Comp
 L formula:R_120_DNP R1
 U 1 1 5DD2F1A4
-P 9900 4650
-F 0 "R1" V 9693 4650 50  0000 C CNN
-F 1 "R_120_DNP" V 9784 4650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 8700 4800 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 8700 5100 50  0001 L CNN
-F 4 "DK" H 9900 4650 60  0001 C CNN "MFN"
-F 5 "667-ERJ-6ENF1200V" H 8700 4900 60  0001 L CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 8700 5000 60  0001 L CNN "PurchasingLink"
-	1    9900 4650
+P 4550 3375
+F 0 "R1" V 4343 3375 50  0000 C CNN
+F 1 "R_120_DNP" V 4434 3375 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3350 3525 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3350 3825 50  0001 L CNN
+F 4 "DK" H 4550 3375 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 3350 3625 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 3350 3725 60  0001 L CNN "PurchasingLink"
+	1    4550 3375
 	0    1    1    0   
 $EndComp
-Text Label 9750 4650 2    50   ~ 0
+Text Label 4400 3375 2    50   ~ 0
 CAN+
-Text Label 10050 4650 0    50   ~ 0
+Text Label 4700 3375 0    50   ~ 0
 CAN-
 $Comp
 L formula:RJ45_VT U6
@@ -665,10 +665,10 @@ STEERING_POT_+
 Text Label 2425 6400 1    50   ~ 0
 STEERING_POT_-
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0101
 U 1 1 5E63233C
 P 1600 5950
-F 0 "#PWR?" H 1600 5800 50  0001 C CNN
+F 0 "#PWR0101" H 1600 5800 50  0001 C CNN
 F 1 "+12V" H 1615 6123 50  0000 C CNN
 F 2 "" H 1600 5950 50  0001 C CNN
 F 3 "" H 1600 5950 50  0001 C CNN
@@ -676,10 +676,10 @@ F 3 "" H 1600 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5E63537E
 P 2425 6400
-F 0 "#PWR?" H 2425 6150 50  0001 C CNN
+F 0 "#PWR0102" H 2425 6150 50  0001 C CNN
 F 1 "GND" H 2430 6227 50  0000 C CNN
 F 2 "" H 2425 6400 50  0001 C CNN
 F 3 "" H 2425 6400 50  0001 C CNN
@@ -694,4 +694,160 @@ Wire Notes Line
 	900  5700 4175 5700
 Wire Notes Line
 	900  5700 900  6750
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5E65DC3E
+P 4750 6350
+F 0 "TP1" V 4945 6422 50  0000 C CNN
+F 1 "TestPoint" V 4854 6422 50  0000 C CNN
+F 2 "footprints:tp_1.6mm" H 4950 6350 50  0001 C CNN
+F 3 "~" H 4950 6350 50  0001 C CNN
+	1    4750 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5E65EA13
+P 4750 6650
+F 0 "TP2" V 4945 6722 50  0000 C CNN
+F 1 "TestPoint" V 4854 6722 50  0000 C CNN
+F 2 "footprints:tp_1.6mm" H 4950 6650 50  0001 C CNN
+F 3 "~" H 4950 6650 50  0001 C CNN
+	1    4750 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5E65F584
+P 4750 6975
+F 0 "TP3" V 4945 7047 50  0000 C CNN
+F 1 "TestPoint" V 4854 7047 50  0000 C CNN
+F 2 "footprints:tp_1.6mm" H 4950 6975 50  0001 C CNN
+F 3 "~" H 4950 6975 50  0001 C CNN
+	1    4750 6975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5E65F58A
+P 4750 7275
+F 0 "TP4" V 4945 7347 50  0000 C CNN
+F 1 "TestPoint" V 4854 7347 50  0000 C CNN
+F 2 "footprints:tp_1.6mm" H 4950 7275 50  0001 C CNN
+F 3 "~" H 4950 7275 50  0001 C CNN
+	1    4750 7275
+	0    -1   -1   0   
+$EndComp
+Text Label 4950 6650 0    50   ~ 0
+CAN+
+Text Label 4950 6975 0    50   ~ 0
+CAN-
+Wire Wire Line
+	4950 6975 4750 6975
+$Comp
+L power:GND #PWR09
+U 1 1 5E6612D4
+P 5075 7325
+F 0 "#PWR09" H 5075 7075 50  0001 C CNN
+F 1 "GND" H 5080 7152 50  0000 C CNN
+F 2 "" H 5075 7325 50  0001 C CNN
+F 3 "" H 5075 7325 50  0001 C CNN
+	1    5075 7325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 7325 5075 7275
+Wire Wire Line
+	5075 7275 4750 7275
+$Comp
+L power:+12V #PWR08
+U 1 1 5E6644FB
+P 5050 6200
+F 0 "#PWR08" H 5050 6050 50  0001 C CNN
+F 1 "+12V" H 5065 6373 50  0000 C CNN
+F 2 "" H 5050 6200 50  0001 C CNN
+F 3 "" H 5050 6200 50  0001 C CNN
+	1    5050 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 6200 5050 6350
+Wire Wire Line
+	5050 6350 4750 6350
+Wire Wire Line
+	4750 6650 4950 6650
+Text Notes 4400 5900 0    98   ~ 0
+Test Points
+Wire Notes Line
+	4325 5700 4325 7650
+Wire Notes Line
+	4325 7650 5325 7650
+Wire Notes Line
+	5325 7650 5325 5700
+Wire Notes Line
+	5325 5700 4325 5700
+$Comp
+L formula:R_1K R2
+U 1 1 5E67032C
+P 4300 4150
+F 0 "R2" V 4093 4150 50  0000 C CNN
+F 1 "R_1K" V 4184 4150 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4230 4150 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 4380 4150 50  0001 C CNN
+F 4 "DK" H 4300 4150 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 4300 4150 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 4780 4550 60  0001 C CNN "PurchasingLink"
+	1    4300 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:LED_0805 D1
+U 1 1 5E671943
+P 4750 4150
+F 0 "D1" H 4743 3895 50  0000 C CNN
+F 1 "LED_0805" H 4743 3986 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 4650 4150 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 4750 4250 50  0001 C CNN
+F 4 "DK" H 4750 4150 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 4750 4150 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 5150 4650 60  0001 C CNN "PurchasingLink"
+	1    4750 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 4150 4600 4150
+$Comp
+L power:+12V #PWR06
+U 1 1 5E675CE9
+P 4025 4075
+F 0 "#PWR06" H 4025 3925 50  0001 C CNN
+F 1 "+12V" H 4040 4248 50  0000 C CNN
+F 2 "" H 4025 4075 50  0001 C CNN
+F 3 "" H 4025 4075 50  0001 C CNN
+	1    4025 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4025 4075 4025 4150
+Wire Wire Line
+	4025 4150 4150 4150
+$Comp
+L power:GND #PWR07
+U 1 1 5E678C29
+P 5050 4200
+F 0 "#PWR07" H 5050 3950 50  0001 C CNN
+F 1 "GND" H 5055 4027 50  0000 C CNN
+F 2 "" H 5050 4200 50  0001 C CNN
+F 3 "" H 5050 4200 50  0001 C CNN
+	1    5050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4200 5050 4150
+Wire Wire Line
+	4900 4150 5050 4150
+Text Notes 5050 3350 0    50   ~ 0
+CAN Termination
+Text Notes 5225 4100 0    50   ~ 0
+12V Indicator
 $EndSCHEMATC
