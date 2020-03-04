@@ -2731,7 +2731,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5E5C80B8)
-    (at 178.601001 87.628001)
+    (at 134.101001 98.128001)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E5C26EF)
@@ -2769,7 +2769,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5E5C80C8)
-    (at 178.6 100.064)
+    (at 134.1 110.564)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E5B9653)
@@ -2807,7 +2807,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5E5C80D8)
-    (at 174.451001 93.388001)
+    (at 129.951001 103.888001)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E5B1F97)
@@ -2845,7 +2845,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5E5C80E8)
-    (at 178.534 96.508)
+    (at 134.034 107.008)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E5AA871)
@@ -2883,7 +2883,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5E5C80F8)
-    (at 174.536 89.904)
+    (at 130.036 100.404)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E582970)
@@ -2921,7 +2921,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5E5C8108)
-    (at 178.601001 90.508001)
+    (at 134.101001 101.008001)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E5D537E)
@@ -2959,7 +2959,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5E5C8118)
-    (at 174.051001 96.268001)
+    (at 129.551001 106.768001)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E62C6A4)
@@ -2997,7 +2997,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5E5C8128)
-    (at 178.601001 93.388001)
+    (at 134.101001 103.888001)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E633B46)
@@ -3035,7 +3035,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5E5C8138)
-    (at 174.536 86.348)
+    (at 130.036 96.848)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E63B73A)
@@ -3073,7 +3073,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5E5C8148)
-    (at 174.028 100.064)
+    (at 129.528 110.564)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5E642B17)
