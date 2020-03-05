@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Chassis_Strain.net
+LastNetListRead=Suspension_Strain.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -243,7 +243,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/
+PlotDirectoryName=/home/duncan/formula/MKV-Boards/Boards/Suspension_Strain/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

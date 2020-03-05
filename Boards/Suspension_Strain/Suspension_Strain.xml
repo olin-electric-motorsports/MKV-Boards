@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/Chassis_Strain.sch</source>
+    <source>/home/duncan/formula/MKV-Boards/Boards/Suspension_Strain/Chassis_Strain.sch</source>
     <date>Fri 24 Jan 2020 01:44:58 PM EST</date>
     <tool>Eeschema 5.1.5-52549c5~84~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
@@ -10,7 +10,7 @@
         <company>Olin Electric Motorsports</company>
         <rev>1</rev>
         <date>2019-08-22</date>
-        <source>Chassis_Strain.sch</source>
+        <source>Suspension_Strain.sch</source>
         <comment number="1" value="Aditya Sudhakar"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -197,7 +197,7 @@
         <field name="MPN">311-1451-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_2.2uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_2.2uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEE2647</tstamp>
     </comp>
@@ -210,7 +210,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_0.1uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEE2923</tstamp>
     </comp>
@@ -223,7 +223,7 @@
         <field name="MPN">P100KCCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_100K-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="R_100K-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEE2A52</tstamp>
     </comp>
@@ -236,7 +236,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_0.1uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEE239B</tstamp>
     </comp>
@@ -249,7 +249,7 @@
         <field name="MPN">445-11693-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160AB/445-11693-1-ND/3953359</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_22uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_22uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C061BB4</tstamp>
     </comp>
@@ -262,7 +262,7 @@
         <field name="MPN">1276-6467-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A476MQYNNNG/1276-6467-1-ND/5958095</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_47uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_47uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C062E7A</tstamp>
     </comp>
@@ -275,7 +275,7 @@
         <field name="MPN">445-3924-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_33uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_33uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C08921B</tstamp>
     </comp>
@@ -288,7 +288,7 @@
         <field name="MFN">A124124CT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_25K-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="R_25K-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0B315C</tstamp>
     </comp>
@@ -301,7 +301,7 @@
         <field name="MPN">507-1786-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="F_500mA_16V-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="F_500mA_16V-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0BFA29</tstamp>
     </comp>
@@ -314,7 +314,7 @@
         <field name="MPN">A121322CT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=A121322CT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_0_2512-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="R_0_2512-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0C29A9</tstamp>
     </comp>
@@ -327,7 +327,7 @@
         <field name="MPN">475-1410-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="LED_0805-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="LED_0805-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0C344A</tstamp>
     </comp>
@@ -340,7 +340,7 @@
         <field name="MPN">RMCF0805JT200RCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_200-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="R_200-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0C44F9</tstamp>
     </comp>
@@ -353,7 +353,7 @@
         <field name="MPN">SMBJ5355B-TPMSCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="D_Zener_18V-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="D_Zener_18V-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C623D49</tstamp>
     </comp>
@@ -366,7 +366,7 @@
         <field name="MPN">475-1410-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="LED_0805-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="LED_0805-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C754D7D</tstamp>
     </comp>
@@ -379,7 +379,7 @@
         <field name="MFN">Digikey</field>
         <field name="MPN">445-15759-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="L_100uH-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="L_100uH-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEE27A2</tstamp>
     </comp>
@@ -392,7 +392,7 @@
         <field name="MPN">RNCP0805FTD100RCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_100-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="R_100-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D58E16F</tstamp>
     </comp>
@@ -405,7 +405,7 @@
         <field name="MPN">732-7852-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007057/732-7852-1-ND/5454479</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_100pF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_100pF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D58E505</tstamp>
     </comp>
@@ -418,7 +418,7 @@
         <field name="MPN">887-1125-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/txc-corporation/7M-16.000MAAJ-T/887-1125-1-ND/2119014</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="Crystal_SMD-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="Crystal_SMD-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5EB332</tstamp>
     </comp>
@@ -431,7 +431,7 @@
         <field name="MPN">1276-1130-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_30pF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_30pF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5EB5B2</tstamp>
     </comp>
@@ -444,7 +444,7 @@
         <field name="MPN">1276-1130-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_30pF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_30pF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5EB694</tstamp>
     </comp>
@@ -457,7 +457,7 @@
         <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_10K-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="R_10K-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5EB7F3</tstamp>
     </comp>
@@ -470,7 +470,7 @@
         <field name="MPN">MCP2561-E/SN-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP2561-E_SN-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="MCP2561-E_SN-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5FAEDE</tstamp>
     </comp>
@@ -483,7 +483,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_0.1uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5FB603</tstamp>
     </comp>
@@ -496,7 +496,7 @@
         <field name="MPN">609-3234-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="CONN_02X03-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="CONN_02X03-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D628C9D</tstamp>
     </comp>
@@ -509,7 +509,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_0.1uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D58E34B</tstamp>
     </comp>
@@ -522,7 +522,7 @@
         <field name="MPN">TPS560430YFDBVR</field>
         <field name="Purchasing Link">https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="TPS560430YF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="TPS560430YF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C75D405</tstamp>
     </comp>
@@ -535,7 +535,7 @@
         <field name="MPN">ATMEGA16M1-AU-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="ATMEGA16M1-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="ATMEGA16M1-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D58A7A6</tstamp>
     </comp>
@@ -2075,7 +2075,7 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="Chassis_Strain-rescue" part="ATMEGA16M1-formula">
+    <libpart lib="Suspension_Strain-rescue" part="ATMEGA16M1-formula">
       <footprints>
         <fp>TQFP*32*7x7mm*</fp>
       </footprints>
@@ -2123,7 +2123,7 @@
         <pin num="32" name="(PCINT17/CLKO/PSCIN0)PD1" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="CONN_02X03-formula">
+    <libpart lib="Suspension_Strain-rescue" part="CONN_02X03-formula">
       <footprints>
         <fp>Pin_Header_Straight_2X03</fp>
         <fp>Pin_Header_Angled_2X03</fp>
@@ -2148,7 +2148,7 @@
         <pin num="6" name="P6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_0.1uF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_0.1uF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2170,7 +2170,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_100pF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_100pF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2192,7 +2192,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_2.2uF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_2.2uF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2214,7 +2214,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_22uF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_22uF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2236,7 +2236,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_30pF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_30pF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2258,7 +2258,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_33uF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_33uF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2280,7 +2280,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_47uF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_47uF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2302,7 +2302,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="Crystal_SMD-formula">
+    <libpart lib="Suspension_Strain-rescue" part="Crystal_SMD-formula">
       <footprints>
         <fp>Crystal*</fp>
       </footprints>
@@ -2322,7 +2322,7 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="D_Zener_18V-formula">
+    <libpart lib="Suspension_Strain-rescue" part="D_Zener_18V-formula">
       <footprints>
         <fp>TO-???*</fp>
         <fp>*SingleDiode</fp>
@@ -2344,7 +2344,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="F_500mA_16V-formula">
+    <libpart lib="Suspension_Strain-rescue" part="F_500mA_16V-formula">
       <footprints>
         <fp>*Fuse*</fp>
       </footprints>
@@ -2362,7 +2362,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="LED_0805-formula">
+    <libpart lib="Suspension_Strain-rescue" part="LED_0805-formula">
       <footprints>
         <fp>LED*</fp>
       </footprints>
@@ -2380,7 +2380,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="L_100uH-formula">
+    <libpart lib="Suspension_Strain-rescue" part="L_100uH-formula">
       <fields>
         <field name="Reference">L</field>
         <field name="Value">L_100uH-formula</field>
@@ -2395,7 +2395,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="MCP2561-E_SN-formula">
+    <libpart lib="Suspension_Strain-rescue" part="MCP2561-E_SN-formula">
       <footprints>
         <fp>SOIC*Pitch1.27mm*</fp>
       </footprints>
@@ -2419,7 +2419,7 @@
         <pin num="8" name="STBY" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_0_2512-formula">
+    <libpart lib="Suspension_Strain-rescue" part="R_0_2512-formula">
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
@@ -2438,7 +2438,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_100-formula">
+    <libpart lib="Suspension_Strain-rescue" part="R_100-formula">
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
@@ -2457,7 +2457,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_100K-formula">
+    <libpart lib="Suspension_Strain-rescue" part="R_100K-formula">
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
@@ -2476,7 +2476,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_10K-formula">
+    <libpart lib="Suspension_Strain-rescue" part="R_10K-formula">
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
@@ -2495,7 +2495,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_200-formula">
+    <libpart lib="Suspension_Strain-rescue" part="R_200-formula">
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
@@ -2514,7 +2514,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_25K-formula">
+    <libpart lib="Suspension_Strain-rescue" part="R_25K-formula">
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
@@ -2533,7 +2533,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="TPS560430YF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="TPS560430YF-formula">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">TPS560430YF-formula</field>
@@ -2799,8 +2799,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="Chassis_Strain-rescue">
-      <uri>/home/duncan/formula/MKV-Boards/Boards/Chassis_Strain/Chassis_Strain-rescue.lib</uri>
+    <library logical="Suspension_Strain-rescue">
+      <uri>/home/duncan/formula/MKV-Boards/Boards/Suspension_Strain/Chassis_Strain-rescue.lib</uri>
     </library>
     <library logical="Formula">
       <uri>/home/duncan/formula/OEM_Preferred_Parts/schematic/formula.lib</uri>
