@@ -1,22 +1,58 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Formula_200mA_Fuse
+# Device_R
 #
-DEF Formula_200mA_Fuse F 0 40 Y Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Formula_F_1A_600V
+#
+DEF Formula_F_1A_600V F 0 40 Y Y 1 F N
 F0 "F" 0 150 50 H V C CNN
-F1 "Formula_200mA_Fuse" 0 -150 50 H V C CNN
-F2 "footprints:Fuse_1812" -50 0 50 H I C CNN
-F3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" -50 0 50 H I C CNN
-F4 "507-1767-1-ND " 100 250 50 H V C CNN "MPN"
-F5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0110AF2C/507-1767-1-ND/4156157" 200 350 50 H V C CNN "PurchasingLink"
-F6 "DK" 300 450 50 H V C CNN "MFN"
+F1 "Formula_F_1A_600V" 0 -150 50 H V C CNN
+F2 "footprints:Fuse_1A_600V" 0 -300 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ADAP1000-RE/507-2220-ND/8028479" 200 350 50 H I C CNN "PurchasingLink"
 DRAW
 A -50 0 50 -1799 -1 0 1 0 N -100 0 0 0
 A 49 0 49 1800 889 0 1 0 N 0 0 50 50
 A 50 1 49 900 -11 0 1 0 N 50 50 100 0
 X 1 1 -300 0 200 R 50 50 1 1 I
 X 2 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Formula_HO_60_250-p0100
+#
+DEF Formula_HO_60_250-p0100 U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Formula_HO_60_250-p0100" 0 100 50 H V C CNN
+F2 "footprints:HO_60_250-p0100" 300 -150 50 H I C CNN
+F3 "" 300 -150 50 H I C CNN
+DRAW
+S 150 -1000 -150 -100 1 1 0 f
+X 1 1 250 -150 100 L 50 50 1 1 B
+X 11 11 250 -850 100 L 50 50 1 1 B
+X 12 12 250 -950 100 L 50 50 1 1 B
+X 2 2 250 -250 100 L 50 50 1 1 B
+X 3 3 250 -350 100 L 50 50 1 1 B
+X 4 4 250 -450 100 L 50 50 1 1 B
+X 5 5 250 -550 100 L 50 50 1 1 B
+X 7 7 250 -650 100 L 50 50 1 1 B
+X 8 8 250 -750 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -56,36 +92,17 @@ X ~ 4 -200 300 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Formula_MicroFit_RA_06
+# Formula_MicroFit_VT_4
 #
-DEF Formula_MicroFit_RA_06 J 0 40 Y Y 1 F N
-F0 "J" 0 350 60 H V C CNN
-F1 "Formula_MicroFit_RA_06" 100 -400 60 H V C CNN
-F2 "footprints:MicroFit_RA_6" -100 250 60 H I C CNN
-F3 "https://www.molex.com/pdm_docs/sd/430450601_sd.pdf" 0 350 60 H I C CNN
-F4 "Molex" 100 1400 60 H I C CNN "MFN"
-F5 "WM4037-ND" 200 1500 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/molex/0430450601/WM4037-ND/2421555" 0 1300 60 H I C CNN "PurchasingLink"
-DRAW
-S 150 -300 -150 300 0 1 0 f
-X 1 1 250 250 100 L 50 50 1 1 B
-X 2 2 250 150 100 L 50 50 1 1 B
-X 3 3 250 50 100 L 50 50 1 1 B
-X 4 4 250 -50 100 L 50 50 1 1 B
-X 5 5 250 -150 100 L 50 50 1 1 B
-X 6 6 250 -250 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# Formula_MicroFit_RA_4
-#
-DEF Formula_MicroFit_RA_4 J 0 40 Y Y 1 F N
+DEF Formula_MicroFit_VT_4 J 0 40 Y Y 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Formula_MicroFit_RA_4" 0 300 50 H V C CNN
-F2 "footprints:MicroFit_RA_4" 0 -300 50 H I C CNN
-F3 "" 0 0 100 H I C CNN
+F1 "Formula_MicroFit_VT_4" 0 300 50 H V C CNN
+F2 "footprints:MicroFit_VT_4" 0 -300 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+F4 "430450414" -200 450 50 H V C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/molex/0430450414/WM1796-ND/252509" -300 550 50 H V C CNN "PurchasingLink"
 DRAW
-S -100 200 100 -200 1 1 0 f
+S -100 200 100 -200 0 1 0 f
 X ~ 1 200 150 100 L 50 50 1 1 I
 X ~ 2 200 50 100 L 50 50 1 1 I
 X ~ 3 200 -50 100 L 50 50 1 1 I
@@ -100,6 +117,8 @@ F0 "U" 0 500 50 H V C CNN
 F1 "Formula_MicroFit_VT_6" 0 400 50 H V C CNN
 F2 "footprints:MicroFit_VT_6" 0 -400 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "0430450614" -100 650 50 H V C CNN "MPN"
+F5 "https://www.digikey.com/product-detail/en/molex/0430450614/WM1797-ND/252510" -250 550 50 H V C CNN "PurchasingLink"
 DRAW
 S -100 300 100 -300 0 1 0 f
 X ~ 1 200 250 100 L 50 50 1 1 I
@@ -108,27 +127,6 @@ X ~ 3 200 50 100 L 50 50 1 1 I
 X ~ 4 200 -50 100 L 50 50 1 1 I
 X ~ 5 200 -150 100 L 50 50 1 1 I
 X ~ 6 200 -250 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Formula_R_10K
-#
-DEF Formula_R_10K R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Formula_R_10K" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" 480 400 60 H I C CNN "PurchasingLink"
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -197,6 +195,19 @@ X 1 1 350 200 200 L 50 50 1 1 P
 X 2 2 350 100 200 L 50 50 1 1 P
 X 3 3 350 0 200 L 50 50 1 1 P
 X 4 4 350 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Formula_redcude_7461166
+#
+DEF Formula_redcude_7461166 J 0 40 Y Y 1 F N
+F0 "J" 0 250 50 H V C CNN
+F1 "Formula_redcude_7461166" 0 150 50 H V C CNN
+F2 "footprints:redcube_7461166" 0 -200 50 H I C CNN
+F3 "we-online.de/katalog/datasheet/7461166.pdf" 0 -100 50 H I C CNN
+DRAW
+S -50 50 50 -50 0 1 0 f
+X ~ 1 150 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

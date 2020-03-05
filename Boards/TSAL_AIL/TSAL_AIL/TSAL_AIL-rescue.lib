@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# NanoFit_2-formula
+#
+DEF NanoFit_2-formula J 0 40 Y Y 1 F N
+F0 "J" 350 -50 60 H V C CNN
+F1 "NanoFit_2-formula" 500 -500 60 H V C CNN
+F2 "footprints:NanoFit_Molex_1x02x2.50mm_Angled_OEM" 250 -150 60 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" 350 -50 60 H I C CNN
+F4 "DK" 450 50 50 H I C CNN "MFN"
+F5 "WM14972-ND" 550 150 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=nanofit+2&k=&pkeyword=nanofit+2&pv88=2&pv69=367&sf=0&FV=ffe0013a&quantity=&ColumnSort=0&page=1&pageSize=25" 650 250 50 H I C CNN "PurchasingLink"
+DRAW
+S 300 -100 800 -450 0 1 0 f
+X 1 1 100 -200 200 R 50 50 1 1 I
+X 2 2 100 -350 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

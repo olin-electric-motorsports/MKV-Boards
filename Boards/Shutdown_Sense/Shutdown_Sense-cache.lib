@@ -365,7 +365,7 @@ F0 "L" 0 -50 50 H V C CNN
 F1 "formula_L_100uH" 0 100 50 H V C CNN
 F2 "footprints:L_100uH_OEM" -100 -200 50 H I C CNN
 F3 "" -100 -150 50 H I C CNN
-F4 "Digikey" 100 -200 50 H I C CNN "MFN"
+F4 "DK" 100 -200 50 H I C CNN "MFN"
 F5 "445-15759-1-ND" 0 250 50 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "PurchasingLink"
 DRAW
@@ -401,6 +401,26 @@ X SPLIT 5 500 0 100 L 50 50 1 1 P
 X CANL 6 500 -100 100 L 50 50 1 1 B
 X CANH 7 500 100 100 L 50 50 1 1 B
 X STBY 8 -500 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# formula_MCP6001T-I-LT
+#
+DEF formula_MCP6001T-I-LT U 0 20 Y Y 1 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "formula_MCP6001T-I-LT" 0 -200 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" -100 100 50 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" 0 200 50 H I C CNN
+F4 "DK" 100 300 60 H I C CNN "MFN"
+F5 "MCP6001T-I/LTCT-ND" 200 400 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" 300 500 60 H I C CNN "PurchasingLink"
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X V- 2 -100 -300 150 U 50 50 0 1 W
+X V+ 5 -100 300 150 D 50 50 0 1 W
+X ~ 1 300 0 100 L 50 50 1 1 O
+X + 3 -300 100 100 R 50 50 1 1 I
+X - 4 -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -512,6 +532,27 @@ F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_R_120K
+#
+DEF formula_R_120K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula_R_120K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805FT120KCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -653,7 +694,7 @@ F2 "footprints:SOT-23-6_OEM" -50 700 50 H I C CNN
 F3 "" 0 550 50 H I C CNN
 F4 "TPS560430YFDBVR-ND" -50 -1100 50 H I C CNN "MPN"
 F5 "DK" 0 -1000 50 H I C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "Purchasing Link"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "PurchasingLink"
 DRAW
 S -250 -100 -250 -100 0 1 0 N
 S -250 300 300 -300 0 1 0 f
@@ -663,6 +704,19 @@ X FB 3 400 -150 100 L 50 50 1 1 I
 X EN 4 -350 -100 100 R 50 50 1 1 I
 X VIN 5 -350 150 100 R 50 50 1 1 W
 X SW 6 400 50 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# formula_Test_Point_SMD
+#
+DEF formula_Test_Point_SMD TP 0 40 Y Y 1 F N
+F0 "TP" 0 300 50 H V C CNN
+F1 "formula_Test_Point_SMD" 50 200 50 H V C CNN
+F2 "footprints:Test_Point_SMD" 0 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 100 50 1 1 0 N
+X ~ 1 0 -50 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

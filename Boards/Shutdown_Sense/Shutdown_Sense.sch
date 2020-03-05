@@ -949,17 +949,17 @@ $EndComp
 $Comp
 L formula:F_500mA_16V F?
 U 1 1 5CC79462
-P 5610 8730
+P 5460 8730
 AR Path="/5CC68CC1/5CC79462" Ref="F?"  Part="1" 
 AR Path="/5CC79462" Ref="F101"  Part="1" 
-F 0 "F101" V 5710 8730 50  0000 C CNN
-F 1 "F_500mA_16V" V 5460 8730 50  0000 C CNN
-F 2 "footprints:Fuse_1210" V 5540 8730 50  0001 C CNN
-F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 5690 8730 50  0001 C CNN
-F 4 "DK" H 5610 8730 60  0001 C CNN "MFN"
-F 5 "507-1786-1-ND" H 5610 8730 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 6090 9130 60  0001 C CNN "PurchasingLink"
-	1    5610 8730
+F 0 "F101" V 5560 8730 50  0000 C CNN
+F 1 "F_500mA_16V" V 5310 8730 50  0000 C CNN
+F 2 "footprints:Fuse_1210" V 5390 8730 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 5540 8730 50  0001 C CNN
+F 4 "DK" H 5460 8730 60  0001 C CNN "MFN"
+F 5 "507-1786-1-ND" H 5460 8730 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 5940 9130 60  0001 C CNN "PurchasingLink"
+	1    5460 8730
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1026,36 +1026,36 @@ $EndComp
 $Comp
 L formula:D_Zener_18V D?
 U 1 1 5CC79490
-P 5310 9330
+P 5610 9330
 AR Path="/5CC68CC1/5CC79490" Ref="D?"  Part="1" 
 AR Path="/5CC79490" Ref="D101"  Part="1" 
-F 0 "D101" H 5260 9530 50  0000 C CNN
-F 1 "D_Zener_18V" H 5160 9430 50  0000 C CNN
-F 2 "footprints:DO-214AA" H 5210 9330 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 5310 9430 50  0001 C CNN
-F 4 "DK" H 5510 9630 60  0001 C CNN "MFN"
-F 5 "SMBJ5355B-TPMSCT-ND" H 5410 9530 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 5710 9830 60  0001 C CNN "PurchasingLink"
-	1    5310 9330
+F 0 "D101" H 5560 9530 50  0000 C CNN
+F 1 "D_Zener_18V" H 5460 9430 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 5510 9330 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 5610 9430 50  0001 C CNN
+F 4 "DK" H 5810 9630 60  0001 C CNN "MFN"
+F 5 "SMBJ5355B-TPMSCT-ND" H 5710 9530 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 6010 9830 60  0001 C CNN "PurchasingLink"
+	1    5610 9330
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5310 9480 5310 9630
+	5610 9480 5610 9630
 $Comp
 L power:GND #PWR?
 U 1 1 5CC79498
-P 5310 9630
+P 5610 9630
 AR Path="/5CC68CC1/5CC79498" Ref="#PWR?"  Part="1" 
 AR Path="/5CC79498" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 5310 9380 50  0001 C CNN
-F 1 "GND" H 5315 9457 50  0000 C CNN
-F 2 "" H 5310 9630 50  0001 C CNN
-F 3 "" H 5310 9630 50  0001 C CNN
-	1    5310 9630
+F 0 "#PWR0109" H 5610 9380 50  0001 C CNN
+F 1 "GND" H 5615 9457 50  0000 C CNN
+F 2 "" H 5610 9630 50  0001 C CNN
+F 3 "" H 5610 9630 50  0001 C CNN
+	1    5610 9630
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5310 8730 5310 9180
+	5610 8730 5610 9180
 $Comp
 L formula:LED_0805 D?
 U 1 1 5CC794A3
@@ -1095,7 +1095,7 @@ Text Notes 6310 8580 0    50   ~ 0
 Input Capacitors\n\n
 Text Notes 5910 9630 1    50   ~ 0
 12V Indicator
-Text Notes 5210 9230 1    50   ~ 0
+Text Notes 5510 9230 1    50   ~ 0
 Protection\n
 Text Notes 6960 8280 0    89   ~ 0
 BUCK CONVERTER\n
@@ -1235,14 +1235,9 @@ Wire Wire Line
 	6760 8730 7010 8730
 Wire Wire Line
 	6010 8730 6460 8730
-Wire Wire Line
-	6010 8730 5760 8730
 Connection ~ 6010 8730
 Wire Wire Line
-	5460 8730 5310 8730
-Wire Wire Line
 	5310 8730 5310 8380
-Connection ~ 5310 8730
 Wire Wire Line
 	7860 8680 7960 8680
 Wire Wire Line
@@ -1369,20 +1364,6 @@ F 2 "" H 1150 5270 50  0001 C CNN
 F 3 "" H 1150 5270 50  0001 C CNN
 	1    1150 5270
 	1    0    0    -1  
-$EndComp
-$Comp
-L formula:LED_0805 D1
-U 1 1 5DF3040B
-P 12570 2460
-F 0 "D1" H 12608 2343 50  0000 R CNN
-F 1 "LED_0805" H 12720 2560 50  0000 R CNN
-F 2 "footprints:LED_0805_OEM" H 12470 2460 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 12570 2560 50  0001 C CNN
-F 4 "DK" H 12570 2460 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 12570 2460 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 12970 2960 60  0001 C CNN "PurchasingLink"
-	1    12570 2460
-	-1   0    0    1   
 $EndComp
 $Comp
 L formula:LED_0805 D2
@@ -1525,8 +1506,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 13010 6680 60
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	12720 2460 12880 2460
-Wire Wire Line
 	12730 3230 12880 3230
 Wire Wire Line
 	12730 3600 12880 3600
@@ -1534,8 +1513,6 @@ Wire Wire Line
 	12730 3960 12880 3960
 Text Label 3450 7150 0    50   ~ 0
 SS_BSPD
-Text Label 3450 8350 0    50   ~ 0
-SS_GLV_Battery_Fuse
 Text Label 3450 7250 0    50   ~ 0
 SS_Crash_Sensor
 Text Label 3450 8450 0    50   ~ 0
@@ -1555,12 +1532,9 @@ SS_IMD
 Text Label 3450 7850 0    50   ~ 0
 SS_TSMS
 Wire Wire Line
-	12880 2460 12880 2860
-Wire Wire Line
 	12720 2860 12880 2860
 Wire Wire Line
 	12880 2860 12880 3230
-Connection ~ 12880 2860
 Wire Wire Line
 	12880 3230 12880 3600
 Connection ~ 12880 3230
@@ -1604,8 +1578,6 @@ Text Label 3450 9250 0    50   ~ 0
 SS_GLVMS_Pin
 Text Label 3450 9350 0    50   ~ 0
 SS_ESTOP_Pin
-Text Label 12120 2460 2    50   ~ 0
-SS_GLV_Battery_Fuse
 Text Label 12160 6180 2    50   ~ 0
 SS_BSPD
 Text Label 12160 5810 2    50   ~ 0
@@ -1837,18 +1809,166 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12750 3
 	1    12270 2860
 	0    1    1    0   
 $EndComp
+NoConn ~ 3450 8350
+Wire Wire Line
+	5610 8730 6010 8730
+Connection ~ 5610 8730
 $Comp
-L formula:R_200 R4
-U 1 1 5DF2D9E3
-P 12270 2460
-F 0 "R4" V 12063 2460 50  0000 C CNN
-F 1 "R_200" V 12154 2460 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 12200 2460 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 12350 2460 50  0001 C CNN
-F 4 "DK" H 12270 2460 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 12270 2460 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 12750 2860 60  0001 C CNN "PurchasingLink"
-	1    12270 2460
+L power:+12V #PWR09
+U 1 1 5E3EBD70
+P 2640 3500
+F 0 "#PWR09" H 2640 3350 50  0001 C CNN
+F 1 "+12V" H 2655 3673 50  0000 C CNN
+F 2 "" H 2640 3500 50  0001 C CNN
+F 3 "" H 2640 3500 50  0001 C CNN
+	1    2640 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5E3EC107
+P 3030 3770
+F 0 "#PWR013" H 3030 3520 50  0001 C CNN
+F 1 "GND" H 3035 3597 50  0000 C CNN
+F 2 "" H 3030 3770 50  0001 C CNN
+F 3 "" H 3030 3770 50  0001 C CNN
+	1    3030 3770
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR014
+U 1 1 5E3ED676
+P 3850 3030
+F 0 "#PWR014" H 3850 2880 50  0001 C CNN
+F 1 "VCC" H 3867 3203 50  0000 C CNN
+F 2 "" H 3850 3030 50  0001 C CNN
+F 3 "" H 3850 3030 50  0001 C CNN
+	1    3850 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP2
+U 1 1 5E3EFC3E
+P 3030 3720
+F 0 "TP2" H 3108 3808 50  0000 L CNN
+F 1 "Test_Point_SMD" H 3108 3717 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 3030 3570 50  0001 C CNN
+F 3 "" H 3030 3720 50  0001 C CNN
+	1    3030 3720
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP1
+U 1 1 5E3F02BB
+P 2790 3450
+F 0 "TP1" H 2868 3538 50  0000 L CNN
+F 1 "Test_Point_SMD" H 2868 3447 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 2790 3300 50  0001 C CNN
+F 3 "" H 2790 3450 50  0001 C CNN
+	1    2790 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP3
+U 1 1 5E3F0C65
+P 4050 2980
+F 0 "TP3" H 4128 3068 50  0000 L CNN
+F 1 "Test_Point_SMD" H 4128 2977 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 4050 2830 50  0001 C CNN
+F 3 "" H 4050 2980 50  0001 C CNN
+	1    4050 2980
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2640 3500 2790 3500
+$Comp
+L power:+12V #PWR?
+U 1 1 5E3DEB0E
+P 4490 3920
+F 0 "#PWR?" H 4490 3770 50  0001 C CNN
+F 1 "+12V" H 4505 4093 50  0000 C CNN
+F 2 "" H 4490 3920 50  0001 C CNN
+F 3 "" H 4490 3920 50  0001 C CNN
+	1    4490 3920
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MCP6001T-I-LT U?
+U 1 1 5E3E07B7
+P 5090 3130
+F 0 "U?" H 5434 3176 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 5434 3085 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 4990 3230 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5090 3330 50  0001 C CNN
+F 4 "DK" H 5190 3430 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 5290 3530 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 5390 3630 60  0001 C CNN "PurchasingLink"
+	1    5090 3130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4790 3030 4050 3030
+Wire Wire Line
+	4790 3030 4790 2830
+Wire Wire Line
+	4790 2830 4990 2830
+Connection ~ 4790 3030
+$Comp
+L power:GND #PWR?
+U 1 1 5E3FD04B
+P 4990 3430
+F 0 "#PWR?" H 4990 3180 50  0001 C CNN
+F 1 "GND" H 4995 3257 50  0000 C CNN
+F 2 "" H 4990 3430 50  0001 C CNN
+F 3 "" H 4990 3430 50  0001 C CNN
+	1    4990 3430
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_100K R?
+U 1 1 5E3FF3BA
+P 4940 3920
+F 0 "R?" V 4733 3920 50  0000 C CNN
+F 1 "R_100K" V 4824 3920 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4870 3920 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5020 3920 50  0001 C CNN
+F 4 "DK" H 4940 3920 60  0001 C CNN "MFN"
+F 5 "P100KCCT-ND" H 4940 3920 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 5420 4320 60  0001 C CNN "PurchasingLink"
+	1    4940 3920
 	0    1    1    0   
 $EndComp
+$Comp
+L formula:R_120K R?
+U 1 1 5E402455
+P 4640 3920
+F 0 "R?" V 4433 3920 50  0000 C CNN
+F 1 "R_120K" V 4524 3920 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4570 3920 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4720 3920 50  0001 C CNN
+F 4 "DK" H 4640 3920 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT120KCT-ND" H 4640 3920 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT120K/RMCF0805FT120KCT-ND/2418248" H 5120 4320 60  0001 C CNN "PurchasingLink"
+	1    4640 3920
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E404C04
+P 5090 3920
+F 0 "#PWR?" H 5090 3670 50  0001 C CNN
+F 1 "GND" H 5095 3747 50  0000 C CNN
+F 2 "" H 5090 3920 50  0001 C CNN
+F 3 "" H 5090 3920 50  0001 C CNN
+	1    5090 3920
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4790 3920 4790 3230
+Connection ~ 4790 3920
+Text Notes 4730 4070 0    50   ~ 0
+5.4V
+Wire Wire Line
+	3850 3030 4050 3030
+Connection ~ 4050 3030
 $EndSCHEMATC

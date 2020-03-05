@@ -1,31 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Screw_Terminal_01x06
+# Connector_Screw_Terminal_01x05
 #
-DEF Connector_Screw_Terminal_01x06 J 0 40 Y N 1 F N
+DEF Connector_Screw_Terminal_01x05 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Screw_Terminal_01x06" 0 -400 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x05" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  TerminalBlock*:*
 $ENDFPLIST
 DRAW
-C 0 -300 25 1 1 6 N
 C 0 -200 25 1 1 6 N
 C 0 -100 25 1 1 6 N
 C 0 0 25 1 1 6 N
 C 0 100 25 1 1 6 N
 C 0 200 25 1 1 6 N
-S -50 250 50 -350 1 1 10 f
-P 2 1 1 6 -21 -287 13 -320 N
+S -50 250 50 -250 1 1 10 f
 P 2 1 1 6 -21 -187 13 -220 N
 P 2 1 1 6 -21 -87 13 -120 N
 P 2 1 1 6 -21 13 13 -20 N
 P 2 1 1 6 -21 113 13 80 N
 P 2 1 1 6 -21 213 13 180 N
-P 2 1 1 6 -14 -280 20 -313 N
 P 2 1 1 6 -14 -180 20 -213 N
 P 2 1 1 6 -14 -80 20 -113 N
 P 2 1 1 6 -14 20 20 -13 N
@@ -36,7 +33,6 @@ X Pin_2 2 -200 100 150 R 50 50 1 1 P
 X Pin_3 3 -200 0 150 R 50 50 1 1 P
 X Pin_4 4 -200 -100 150 R 50 50 1 1 P
 X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -226,6 +222,61 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# formula_C_0.33uF
+#
+DEF formula_C_0.33uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "formula_C_0.33uF" 25 -100 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F3 "http://datasheets.avx.com/X7RDielectric.pdf" 25 100 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "478-5273-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=cap&k=&pkeyword=cap&pv7=2&pv7=274&pv7=250&pv7=17&pv7=6&pv1989=0&pv2049=u0.33%C2%B5F&pv3=2&pv14=9&pv16=6&sf=1&FV=ffe0003c&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_C_0.47uF
+#
+DEF formula_C_0.47uF C 0 40 Y Y 1 F N
+F0 "C" 0 200 50 H V C CNN
+F1 "formula_C_0.47uF" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_C_0.8uF
+#
+DEF formula_C_0.8uF C 0 40 Y Y 1 F N
+F0 "C" 0 150 50 H V C CNN
+F1 "formula_C_0.8uF" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # formula_C_100pF
 #
 DEF formula_C_100pF C 0 10 N Y 1 F N
@@ -236,6 +287,56 @@ F3 "https://katalog.we-online.de/pbs/datasheet/885012007057.pdf" 25 100 50 H I C
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "732-7852-1-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007057/732-7852-1-ND/5454479" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_C_10uF
+#
+DEF formula_C_10uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "formula_C_10uF" 25 -100 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" 25 100 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "1276-1052-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_C_1uF
+#
+DEF formula_C_1uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "formula_C_1uF" 25 -100 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 -150 50 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" 25 100 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "1276-2887-1-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" 425 500 60 H I C CNN "PurchasingLink"
 $FPLIST
  C?
  C_????_*
@@ -331,9 +432,9 @@ ENDDEF
 DEF formula_C_33uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "formula_C_33uF" 100 -300 50 H V L CNN
-F2 "footprints:C_1812_OEM" 50 -400 50 H I C CNN
-F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 0 650 50 H I C CNN
-F4 "C4532X7R1C336M250KC" 50 -500 60 H I C CNN "MFN"
+F2 "footprints:Fuse_1812" 50 -400 50 H I C CNN
+F3 "" 0 650 50 H I C CNN
+F4 "DK" 50 -500 60 H I C CNN "MFN"
 F5 "445-3924-1-ND" 0 350 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431" 250 500 60 H I C CNN "PurchasingLink"
 $FPLIST
@@ -475,16 +576,38 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# formula_LR8K4-G
+#
+DEF formula_LR8K4-G U 0 40 Y Y 1 F N
+F0 "U" -300 150 50 H V L CNN
+F1 "formula_LR8K4-G" 0 150 50 H V L CNN
+F2 "Package_TO_SOT_SMD:TO-252-2" 0 500 50 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf" 0 300 50 H I C CNN
+F4 "Mouser" 0 400 60 H I C CNN "MFN"
+F5 "689-LR8K4-G" -50 600 60 H I C CNN "MPN"
+F6 "https://www.mouser.com/productdetail/?qs=jWmFlM7coATgElKtQd9PRA%3D%3D" -200 700 60 H I C CNN "Webpage"
+$FPLIST
+ TO?252*
+ DPAK*
+$ENDFPLIST
+DRAW
+S -300 100 300 -200 0 1 10 f
+X IN 1 -400 0 100 R 50 50 1 1 I
+X OUT 2 400 0 100 L 50 50 1 1 w
+X ADJ 3 0 -300 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # formula_L_100uH
 #
-DEF formula_L_100uH L 0 40 Y Y 1 F N
+DEF formula_L_100uH L 0 40 N N 1 F N
 F0 "L" 0 -50 50 H V C CNN
 F1 "formula_L_100uH" 0 100 50 H V C CNN
-F2 "formula:L_100uH" -100 -200 50 H I C CNN
-F3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" -100 -150 50 H I C CNN
-F4 "Digikey" 100 -200 50 H I C CNN "MFN"
+F2 "footprints:L_100uH_OEM" -100 -200 50 H I C CNN
+F3 "" -100 -150 50 H I C CNN
+F4 "DK" 100 -200 50 H I C CNN "MFN"
 F5 "445-15759-1-ND" 0 250 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "Link"
+F6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" 300 200 50 H I C CNN "PurchasingLink"
 DRAW
 A -60 0 20 1 1799 1 1 0 N -40 0 -80 0
 A -20 0 20 1 1799 1 1 0 N 0 0 -40 0
@@ -518,6 +641,27 @@ X SPLIT 5 500 0 100 L 50 50 1 1 P
 X CANL 6 500 -100 100 L 50 50 1 1 B
 X CANH 7 500 100 100 L 50 50 1 1 B
 X STBY 8 -500 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# formula_R_0
+#
+DEF formula_R_0 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula_R_0" -100 0 50 V V C CNN
+F2 "footprints:R_0603_1608Metric" -70 0 50 H I C CNN
+F3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "P0.0GCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -605,6 +749,41 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# formula_R_187
+#
+DEF formula_R_187 U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "formula_R_187" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 100 -140 -100 -60 1 1 10 N
+X ~ 1 -150 -100 50 R 50 50 1 1 P
+X ~ 2 150 -100 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_R_1K
+#
+DEF formula_R_1K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula_R_1K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # formula_R_1K_0.1
 #
 DEF formula_R_1K_0.1 R 0 0 N Y 1 F N
@@ -653,9 +832,9 @@ DEF formula_R_25K R 0 0 N Y 1 F N
 F0 "R" 250 0 50 V V C CNN
 F1 "formula_R_25K" 200 200 50 H V C CNN
 F2 "footprints:R_0805_OEM" 50 -550 50 H I C CNN
-F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English" 0 -400 50 H I C CNN
-F4 "A124124CT-ND" -600 0 60 H I C CNN "MFN"
-F5 "CPF-A-0805B25KE" 50 500 60 H I C CNN "Digi-key Part Number"
+F3 "" 0 -400 50 H I C CNN
+F4 "DK" -600 0 60 H I C CNN "MFN"
+F5 "A124124CT-ND" 50 500 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044" 50 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
@@ -668,16 +847,64 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# formula_R_45
+#
+DEF formula_R_45 R 0 40 Y Y 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "formula_R_45" -100 0 50 V V C CNN
+F2 "" 0 100 50 H I C CNN
+F3 "" 0 100 50 H I C CNN
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_R_500
+#
+DEF formula_R_500 U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "formula_R_500" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_SW_Push_SPST_NO
+#
+DEF formula_SW_Push_SPST_NO SW 0 40 Y Y 1 F N
+F0 "SW" 100 150 50 H V C CNN
+F1 "formula_SW_Push_SPST_NO" 50 -100 50 H V C CNN
+F2 "footprints:SW_B3U-1000P_4.2x1.7mm" 0 50 50 H I C CNN
+F3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" 0 50 50 H I C CNN
+F4 "DK" 300 350 50 H I C CNN "MFN"
+F5 "SW1020CT-ND" 200 250 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357A" 400 450 50 H I C CNN "PurchasingLink"
+DRAW
+C -80 0 20 1 1 0 N
+C 80 0 20 1 1 0 N
+P 2 1 1 0 0 50 0 120 N
+P 2 1 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # formula_TPS560430YF
 #
 DEF formula_TPS560430YF U 0 40 Y Y 1 F N
-F0 "U" -550 -400 50 H V C CNN
+F0 "U" -200 -350 50 H V C CNN
 F1 "formula_TPS560430YF" 0 400 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" -50 700 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" 0 550 50 H I C CNN
-F4 "TPS560430YFDBVR" -50 -1100 50 H I C CNN "MPN"
-F5 "TPS560430YFDBVR-ND" 0 -1000 50 H I C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "Purchasing Link"
+F2 "footprints:SOT-23-6_OEM" -50 700 50 H I C CNN
+F3 "" 0 550 50 H I C CNN
+F4 "TPS560430YFDBVR-ND" -50 -1100 50 H I C CNN "MPN"
+F5 "DK" 0 -1000 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "PurchasingLink"
 DRAW
 S -250 -100 -250 -100 0 1 0 N
 S -250 300 300 -300 0 1 0 f
@@ -687,6 +914,20 @@ X FB 3 400 -150 100 L 50 50 1 1 I
 X EN 4 -350 -100 100 R 50 50 1 1 I
 X VIN 5 -350 150 100 R 50 50 1 1 W
 X SW 6 400 50 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# formula_r_125
+#
+DEF formula_r_125 U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "formula_r_125" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -703,16 +944,49 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_PWR_FLAG
+# power_GNDA
 #
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+DEF power_GNDA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDA" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GNDD
+#
+DEF power_GNDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDD" 0 -125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -60 50 -80 0 1 10 F
+P 2 0 1 0 0 0 0 -60 N
+X GNDD 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GNDPWR
+#
+DEF power_GNDPWR #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "power_GNDPWR" 0 -130 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -50 0 0 N
+P 3 0 1 8 -40 -50 -50 -80 -50 -80 N
+P 3 0 1 8 -20 -50 -30 -80 -30 -80 N
+P 3 0 1 8 0 -50 -10 -80 -10 -80 N
+P 3 0 1 8 20 -50 10 -80 10 -80 N
+P 3 0 1 8 40 -50 -40 -50 -40 -50 N
+P 4 0 1 8 40 -50 30 -80 30 -80 30 -80 N
+X GNDPWR 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

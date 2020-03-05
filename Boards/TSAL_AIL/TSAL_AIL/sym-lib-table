@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name TSAL_AIL-rescue)(type Legacy)(uri ${KIPRJMOD}/TSAL_AIL-rescue.lib)(options "")(descr ""))
+  (lib (name TSAL-AIL-rescue)(type Legacy)(uri ${KIPRJMOD}/TSAL-AIL-rescue.lib)(options "")(descr ""))
+)
