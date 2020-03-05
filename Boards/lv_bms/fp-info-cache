@@ -1,4 +1,4 @@
-16605713240545829
+16619989271768829
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73038,6 +73038,27 @@ CP2120-QFN
 22
 21
 footprints
+C_10uF_450V
+Capacitor SMD 
+capacitor
+0
+2
+2
+footprints
+C_100uF+
+
+
+0
+2
+2
+footprints
+C_100uF_35V
+
+
+0
+2
+2
+footprints
 C_0603_1608Metric
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 capacitor
@@ -73072,6 +73093,13 @@ C_Radial_D10_L13_P5_OEM
 0
 2
 2
+footprints
+Converter_DCDC_MPS_MP9488
+
+
+0
+8
+8
 footprints
 Crystal_SMD_FA238
 crystal Epson Toyocom FA-238 series http://www.mouser.com/ds/2/137/1721499-465440.pdf, hand-soldering, 3.2x2.5mm^2 package
@@ -73136,6 +73164,13 @@ Data-Logger-Pads
 5
 5
 footprints
+Diode_600V_1A_SM
+SMA
+
+0
+2
+2
+footprints
 FC-135_3.2x1.5mm
 
 
@@ -73153,6 +73188,20 @@ footprints
 F_21mA_420V
 
 
+0
+2
+2
+footprints
+Fuse_1A_600V
+
+
+0
+2
+2
+footprints
+Fuse_1206
+Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
 0
 2
 2
@@ -73282,6 +73331,13 @@ LTC6820_OEM
 0
 16
 16
+footprints
+L_1.2mH
+
+
+0
+2
+2
 footprints
 L_100uH_OEM
 Resistor SMD 2512, reflow soldering, Vishay (see dcrcw.pdf)
@@ -73633,19 +73689,19 @@ QFN20
 20
 20
 footprints
+QFP50P900X900X120-48N
+BQ79606PHPRQ1
+Integrated Circuit
+0
+48
+48
+footprints
 R4.7k_0805_OEM
 Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0805
 0
 2
 2
-footprints
-REDCUBE7461166
-
-
-0
-13
-12
 footprints
 RJ45-RightAngle
 
@@ -73666,7 +73722,7 @@ Resistor, Radial_Power series, Radial, pin pitch=5.00mm, 2W, length*width=11*7mm
 Resistor Radial_Power series Radial pin pitch 5.00mm 2W length 11mm width 7mm
 0
 2
-1
+2
 footprints
 R_1k_HS_TO247
 Resistor, Radial_Power series, Radial, pin pitch=5.00mm, 2W, length*width=11*7mm^2, http://www.vishay.com/docs/30218/cpcx.pdf
@@ -73856,6 +73912,13 @@ SW_B3U-1000P_4.2x1.7mm
 0
 2
 2
+footprints
+Small_OE_Logo
+
+
+0
+0
+0
 footprints
 TE_1-776180-1_35_RA
 

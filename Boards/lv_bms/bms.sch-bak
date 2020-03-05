@@ -450,7 +450,7 @@ F 3 "" H 6875 2325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_1uF C6
+L bms-rescue:C_1uF-formula C6
 U 1 1 5E3FE680
 P 6875 2025
 F 0 "C6" H 6990 2071 50  0000 L CNN
@@ -464,7 +464,7 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A10
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_1uF C8
+L bms-rescue:C_1uF-formula C8
 U 1 1 5E504241
 P 6875 1725
 F 0 "C8" H 6990 1771 50  0000 L CNN
@@ -514,7 +514,7 @@ U 1 1 5DD8030B
 P 8475 1475
 F 0 "U3" H 8450 1600 50  0000 C CNN
 F 1 "BQ79606A-Q1" H 8450 1509 50  0000 C CNN
-F 2 "" H 8475 1475 50  0001 C CNN
+F 2 "footprints:QFP50P900X900X120-48N" H 8475 1475 50  0001 C CNN
 F 3 "" H 8475 1475 50  0001 C CNN
 	1    8475 1475
 	1    0    0    -1  
@@ -547,7 +547,7 @@ F 3 "" H 6600 7175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_1uF C10
+L bms-rescue:C_1uF-formula C10
 U 1 1 5E7884E0
 P 6600 6875
 F 0 "C10" H 6715 6921 50  0000 L CNN
@@ -697,7 +697,7 @@ VIO
 Text Label 9425 3775 0    50   ~ 0
 CVSS
 $Comp
-L formula:C_2.2uF C15
+L bms-rescue:C_2.2uF-formula C15
 U 1 1 5EF680A6
 P 9775 2325
 F 0 "C15" H 9890 2371 50  0000 L CNN
@@ -733,7 +733,7 @@ TSREF
 Text Notes 11100 2100 0    89   ~ 0
 TSREF CONNECTS\n
 $Comp
-L formula:C_2.2uF C17
+L bms-rescue:C_2.2uF-formula C17
 U 1 1 5E42C059
 P 11700 1625
 F 0 "C17" H 11585 1579 50  0000 R CNN
@@ -751,7 +751,7 @@ REF1
 Text Label 11525 2550 2    50   ~ 0
 REF1
 $Comp
-L formula:C_2.2uF C18
+L bms-rescue:C_2.2uF-formula C18
 U 1 1 5E4EACBD
 P 11675 2550
 F 0 "C18" V 11550 2625 50  0000 R CNN
@@ -983,7 +983,7 @@ Connection ~ 9275 1575
 Wire Wire Line
 	9275 1575 9575 1575
 $Comp
-L formula:C_1uF C12
+L bms-rescue:C_1uF-formula C12
 U 1 1 5E84FF20
 P 6600 6575
 F 0 "C12" H 6715 6621 50  0000 L CNN
@@ -1043,7 +1043,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 12730 
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:C_1uF C23
+L bms-rescue:C_1uF-formula C23
 U 1 1 5EB17AD5
 P 12100 8950
 F 0 "C23" H 12215 8996 50  0000 L CNN
@@ -1074,7 +1074,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 13830 
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:C_1uF C25
+L bms-rescue:C_1uF-formula C25
 U 1 1 5EB6C9F1
 P 13200 8950
 F 0 "C25" H 13315 8996 50  0000 L CNN
@@ -1105,7 +1105,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 14955 
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:C_1uF C24
+L bms-rescue:C_1uF-formula C24
 U 1 1 5EB74753
 P 14325 8950
 F 0 "C24" H 14440 8996 50  0000 L CNN
@@ -1136,7 +1136,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 16080 
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:C_1uF C22
+L bms-rescue:C_1uF-formula C22
 U 1 1 5EBAA617
 P 15450 8950
 F 0 "C22" H 15565 8996 50  0000 L CNN
@@ -1187,7 +1187,7 @@ F 3 "" H 2400 9350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_2.2uF C102
+L bms-rescue:C_2.2uF-formula C102
 U 1 1 5BEE2647
 P 2600 9200
 F 0 "C102" H 2650 9050 50  0000 L CNN
@@ -1827,7 +1827,7 @@ AVDD
 Text Label 11650 4850 0    50   ~ 0
 AVDD
 $Comp
-L formula:C_2.2uF C26
+L bms-rescue:C_2.2uF-formula C26
 U 1 1 5E6CF478
 P 11650 4700
 F 0 "C26" H 11525 4700 50  0000 R CNN
@@ -1981,7 +1981,7 @@ F 3 "" H 9575 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_2.2uF C19
+L bms-rescue:C_2.2uF-formula C19
 U 1 1 5E6E9D9F
 P 9425 3925
 F 0 "C19" H 9540 3971 50  0000 L CNN
@@ -2069,7 +2069,7 @@ Wire Wire Line
 	14475 7125 14875 7125
 Connection ~ 14475 7125
 $Comp
-L formula:C_10uF C27
+L bms-rescue:C_10uF-formula C27
 U 1 1 5EBD5F3C
 P 14075 6975
 F 0 "C27" H 14190 7021 50  0000 L CNN
@@ -2085,7 +2085,7 @@ $EndComp
 Wire Wire Line
 	14875 6825 15325 6825
 $Comp
-L formula:C_10uF C28
+L bms-rescue:C_10uF-formula C28
 U 1 1 5EBF41E9
 P 15325 6975
 F 0 "C28" H 15440 7021 50  0000 L CNN
@@ -2250,7 +2250,7 @@ Wire Wire Line
 Wire Wire Line
 	8975 3075 9375 3075
 $Comp
-L formula:C_2.2uF C29
+L bms-rescue:C_2.2uF-formula C29
 U 1 1 5EBFEFEB
 P 9375 3225
 F 0 "C29" H 9490 3271 50  0000 L CNN
@@ -2432,5 +2432,4 @@ F 3 "" H 14975 6975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 14875 6825
-Connection ~ 9425 4075
 $EndSCHEMATC
