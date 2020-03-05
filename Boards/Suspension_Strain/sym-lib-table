@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Chassis_Strain-rescue)(type Legacy)(uri ${KIPRJMOD}/Chassis_Strain-rescue.lib)(options "")(descr ""))
+  (lib (name Suspension_Strain-rescue)(type Legacy)(uri ${KIPRJMOD}/Suspension_Strain-rescue.lib)(options "")(descr ""))
 )

@@ -47,7 +47,7 @@ F 3 "" H 1950 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:C_2.2uF-formula C102
+L Suspension_Strain-rescue:C_2.2uF-formula C102
 U 1 1 5BEE2647
 P 2250 6250
 F 0 "C102" H 2300 6100 50  0000 L CNN
@@ -61,7 +61,7 @@ F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:C_0.1uF-formula C101
+L Suspension_Strain-rescue:C_0.1uF-formula C101
 U 1 1 5BEE2923
 P 1950 6250
 F 0 "C101" H 2000 6100 50  0000 L CNN
@@ -75,7 +75,7 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 2375 6750 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:R_100K-formula R103
+L Suspension_Strain-rescue:R_100K-formula R103
 U 1 1 5BEE2A52
 P 3850 6900
 F 0 "R103" V 3950 6850 50  0000 L CNN
@@ -89,7 +89,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L Chassis_Strain-rescue:C_0.1uF-formula C103
+L Suspension_Strain-rescue:C_0.1uF-formula C103
 U 1 1 5BEE239B
 P 3850 6050
 F 0 "C103" V 3790 6190 50  0000 C CNN
@@ -116,7 +116,7 @@ $EndComp
 Text Label 9800 6150 0    50   ~ 0
 12V
 $Comp
-L Chassis_Strain-rescue:C_22uF-formula COUT101
+L Suspension_Strain-rescue:C_22uF-formula COUT101
 U 1 1 5C061BB4
 P 4650 6350
 F 0 "COUT101" H 4540 6600 50  0000 L CNN
@@ -130,7 +130,7 @@ F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160A
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:C_47uF-formula COUT103
+L Suspension_Strain-rescue:C_47uF-formula COUT103
 U 1 1 5C062E7A
 P 5450 6350
 F 0 "COUT103" H 5350 6600 50  0000 L CNN
@@ -144,7 +144,7 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A47
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:C_33uF-formula COUT102
+L Suspension_Strain-rescue:C_33uF-formula COUT102
 U 1 1 5C08921B
 P 5050 6350
 F 0 "COUT102" H 4950 6600 50  0000 L CNN
@@ -158,7 +158,7 @@ F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:R_25K-formula R102
+L Suspension_Strain-rescue:R_25K-formula R102
 U 1 1 5C0B315C
 P 3350 6900
 F 0 "R102" V 3450 6850 50  0000 L CNN
@@ -172,7 +172,7 @@ F 6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/C
 	0    1    1    0   
 $EndComp
 $Comp
-L Chassis_Strain-rescue:F_500mA_16V-formula F101
+L Suspension_Strain-rescue:F_500mA_16V-formula F101
 U 1 1 5C0BFA29
 P 1150 6100
 F 0 "F101" V 1230 6100 50  0000 C CNN
@@ -186,7 +186,7 @@ F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-178
 	0    1    1    0   
 $EndComp
 $Comp
-L Chassis_Strain-rescue:R_0_2512-formula R104
+L Suspension_Strain-rescue:R_0_2512-formula R104
 U 1 1 5C0C29A9
 P 6000 6200
 F 0 "R104" V 5800 6200 50  0000 C CNN
@@ -200,7 +200,7 @@ F 6 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 6480 6600 60  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Chassis_Strain-rescue:LED_0805-formula D103
+L Suspension_Strain-rescue:LED_0805-formula D103
 U 1 1 5C0C344A
 P 6400 7050
 F 0 "D103" V 6600 7030 50  0000 R CNN
@@ -214,7 +214,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 6800 7550 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Chassis_Strain-rescue:R_200-formula R105
+L Suspension_Strain-rescue:R_200-formula R105
 U 1 1 5C0C44F9
 P 6400 6450
 F 0 "R105" H 6470 6496 50  0000 L CNN
@@ -239,7 +239,7 @@ F 3 "" H 6400 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:D_Zener_18V-formula D101
+L Suspension_Strain-rescue:D_Zener_18V-formula D101
 U 1 1 5C623D49
 P 800 6400
 F 0 "D101" H 790 6590 50  0000 C CNN
@@ -266,7 +266,7 @@ $EndComp
 Text Label 800  5800 0    50   ~ 0
 12V
 $Comp
-L Chassis_Strain-rescue:LED_0805-formula D102
+L Suspension_Strain-rescue:LED_0805-formula D102
 U 1 1 5C754D7D
 P 1550 6650
 F 0 "D102" V 1588 6533 50  0000 R CNN
@@ -316,7 +316,7 @@ Inductor\n
 Text Notes 3450 5900 0    50   ~ 0
 Bootstrap Capacitor\n
 $Comp
-L Chassis_Strain-rescue:L_100uH-formula L101
+L Suspension_Strain-rescue:L_100uH-formula L101
 U 1 1 5BEE27A2
 P 4250 6200
 F 0 "L101" H 4250 6300 50  0000 C CNN
@@ -390,7 +390,7 @@ SCK
 Text Label 4750 3700 0    50   ~ 0
 RESET
 $Comp
-L Chassis_Strain-rescue:R_100-formula R1
+L Suspension_Strain-rescue:R_100-formula R1
 U 1 1 5D58E16F
 P 1150 1150
 F 0 "R1" V 1050 1100 50  0000 L CNN
@@ -404,7 +404,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 1630 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:C_100pF-formula C3
+L Suspension_Strain-rescue:C_100pF-formula C3
 U 1 1 5D58E505
 P 1150 1450
 F 0 "C3" V 1200 1300 50  0000 L CNN
@@ -440,7 +440,7 @@ F 3 "" H 1150 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:Crystal_SMD-formula Y1
+L Suspension_Strain-rescue:Crystal_SMD-formula Y1
 U 1 1 5D5EB332
 P 4550 4100
 F 0 "Y1" H 4260 4170 50  0000 L CNN
@@ -454,7 +454,7 @@ F 6 "https://www.digikey.com/product-detail/en/txc-corporation/7M-16.000MAAJ-T/8
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:C_30pF-formula C4
+L Suspension_Strain-rescue:C_30pF-formula C4
 U 1 1 5D5EB5B2
 P 4350 4350
 F 0 "C4" H 4240 4430 50  0000 L CNN
@@ -468,7 +468,7 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:C_30pF-formula C5
+L Suspension_Strain-rescue:C_30pF-formula C5
 U 1 1 5D5EB694
 P 4750 4350
 F 0 "C5" H 4770 4430 50  0000 L CNN
@@ -482,7 +482,7 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:R_10K-formula R3
+L Suspension_Strain-rescue:R_10K-formula R3
 U 1 1 5D5EB7F3
 P 4600 3500
 F 0 "R3" V 4520 3500 50  0000 C CNN
@@ -562,7 +562,7 @@ F 3 "" H 1300 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:MCP2561-E_SN-formula U1
+L Suspension_Strain-rescue:MCP2561-E_SN-formula U1
 U 1 1 5D5FAEDE
 P 9900 1750
 F 0 "U1" H 10260 2100 50  0000 C CNN
@@ -576,7 +576,7 @@ F 6 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" H 9900 2500 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L Chassis_Strain-rescue:C_0.1uF-formula C1
+L Suspension_Strain-rescue:C_0.1uF-formula C1
 U 1 1 5D5FB603
 P 9750 1150
 F 0 "C1" V 9700 1260 50  0000 C CNN
@@ -719,7 +719,7 @@ $EndComp
 Text Label 10900 6000 2    50   ~ 0
 GND
 $Comp
-L Chassis_Strain-rescue:CONN_02X03-formula J1
+L Suspension_Strain-rescue:CONN_02X03-formula J1
 U 1 1 5D628C9D
 P 9950 3450
 F 0 "J1" H 9950 3660 50  0000 C CNN
@@ -779,7 +779,7 @@ Wire Wire Line
 	1450 1300 1150 1300
 Connection ~ 1150 1300
 $Comp
-L Chassis_Strain-rescue:C_0.1uF-formula C2
+L Suspension_Strain-rescue:C_0.1uF-formula C2
 U 1 1 5D58E34B
 P 800 1150
 F 0 "C2" V 850 1010 50  0000 L CNN
@@ -859,7 +859,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 6000 10900 6150
 $Comp
-L Chassis_Strain-rescue:TPS560430YF-formula U101
+L Suspension_Strain-rescue:TPS560430YF-formula U101
 U 1 1 5C75D405
 P 2950 6250
 F 0 "U101" H 2975 6715 50  0000 C CNN
@@ -956,7 +956,7 @@ CAN_RX
 Text Label 3650 2100 0    50   ~ 0
 CAN_TX
 $Comp
-L Chassis_Strain-rescue:ATMEGA16M1-formula U2
+L Suspension_Strain-rescue:ATMEGA16M1-formula U2
 U 1 1 5D58A7A6
 P 2550 2700
 F 0 "U2" H 3450 4560 50  0000 C CNN
