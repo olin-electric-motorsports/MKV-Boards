@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AIR_control-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLegal 14000 8500
@@ -499,7 +498,7 @@ IMD_Sense
 Text Label 5350 4450 0    50   ~ 0
 PrechargeCTL
 Text Label 5350 5750 0    50   ~ 0
-AIR+LSD
+AIR-LSD
 Text Label 5350 4950 0    50   ~ 0
 SS_HVD
 Text Label 5350 4650 0    50   ~ 0
@@ -1308,7 +1307,7 @@ $EndComp
 Text Label 6850 1000 2    50   ~ 0
 Shutdown_In
 Text Label 8100 1000 0    50   ~ 0
-Air-Coil+
+Air+Coil+
 Wire Wire Line
 	6850 1000 7050 1000
 $Comp
@@ -1373,7 +1372,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5530 18
 	1    0    0    -1  
 $EndComp
 Text Label 4900 1300 2    50   ~ 0
-AIR+LSD
+AIR-LSD
 Wire Wire Line
 	5500 1300 5400 1300
 $Comp
@@ -1391,9 +1390,9 @@ F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage
 	1    0    0    -1  
 $EndComp
 Text Label 5800 1100 0    50   ~ 0
-Air+Coil-
+Air-Coil-
 Text Label 5800 1000 0    50   ~ 0
-Air+Coil+
+Air-Coil+
 Text Label 5050 1000 2    50   ~ 0
 Shutdown_In
 $Comp
@@ -1465,9 +1464,9 @@ Final_Shutdown
 Wire Wire Line
 	3150 1000 3800 1000
 Text Notes 6900 850  0    98   ~ 0
-AIR - Circuit
-Text Notes 5050 850  0    98   ~ 0
 AIR + Circuit
+Text Notes 5050 850  0    98   ~ 0
+AIR - Circuit
 Text Notes 2800 850  0    98   ~ 0
 Precharge Circuit
 Text Label 11550 3000 2    50   ~ 0
@@ -2096,7 +2095,7 @@ Wire Wire Line
 	8000 1200 8100 1200
 Connection ~ 8000 1700
 Text Label 8100 1200 0    50   ~ 0
-Air-Coil-
+Air+Coil-
 Text Label 5350 4550 0    50   ~ 0
 SS_TSMS
 $Comp

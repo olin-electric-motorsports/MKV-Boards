@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Accelerometer_Module-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -212,29 +211,29 @@ $EndComp
 $Comp
 L formula:C_10uF C5
 U 1 1 5DC60017
-P 9500 2600
-F 0 "C5" H 9615 2646 50  0000 L CNN
-F 1 "C_10uF" H 9615 2555 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 9538 2450 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" H 9525 2700 50  0001 C CNN
-F 4 "DK" H 9500 2600 60  0001 C CNN "MFN"
-F 5 "1276-1052-1-ND" H 9500 2600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" H 9925 3100 60  0001 C CNN "PurchasingLink"
-	1    9500 2600
+P 9500 2650
+F 0 "C5" H 9615 2696 50  0000 L CNN
+F 1 "C_10uF" H 9615 2605 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 9538 2500 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" H 9525 2750 50  0001 C CNN
+F 4 "DK" H 9500 2650 60  0001 C CNN "MFN"
+F 5 "1276-1052-1-ND" H 9500 2650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" H 9925 3150 60  0001 C CNN "PurchasingLink"
+	1    9500 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:C_1uF C6
 U 1 1 5DC6A464
-P 10050 2600
-F 0 "C6" H 10165 2646 50  0000 L CNN
-F 1 "C_1uF" H 10165 2555 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 10088 2450 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 10075 2700 50  0001 C CNN
-F 4 "DK" H 10050 2600 60  0001 C CNN "MFN"
-F 5 "1276-2887-1-ND" H 10050 2600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 10475 3100 60  0001 C CNN "PurchasingLink"
-	1    10050 2600
+P 10050 2650
+F 0 "C6" H 10165 2696 50  0000 L CNN
+F 1 "C_1uF" H 10165 2605 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 10088 2500 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 10075 2750 50  0001 C CNN
+F 4 "DK" H 10050 2650 60  0001 C CNN "MFN"
+F 5 "1276-2887-1-ND" H 10050 2650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 10475 3150 60  0001 C CNN "PurchasingLink"
+	1    10050 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -7176,21 +7175,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 1600 8750 1600
 $Comp
-L formula:LIS3DHTR U2
-U 1 1 5DD0BA20
-P 7650 1100
-F 0 "U2" H 7625 1387 60  0000 C CNN
-F 1 "LIS3DHTR" H 7625 1281 60  0000 C CNN
-F 2 "footprints:LIS3DHTR" H 7700 1500 60  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/3c/ae/50/85/d6/b1/46/fe/CD00274221.pdf/files/CD00274221.pdf/jcr:content/translations/en.CD00274221.pdf" H 6700 1100 60  0000 C CNN
-F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN " PurchasingLink"
-F 5 "497-10613-1-ND " H 0   0   50  0001 C CNN "MPN"
-F 6 "DK" H 0   0   50  0001 C CNN "MFN"
-F 7 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN "PurchasingLink"
-	1    7650 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0121
 U 1 1 5DE240C7
 P 8950 1700
@@ -7246,15 +7230,15 @@ Wire Wire Line
 $Comp
 L formula:C_10uF C2
 U 1 1 5DDFFE65
-P 6250 1300
-F 0 "C2" H 6000 1300 50  0000 L CNN
-F 1 "C_10uF" H 5950 1200 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 6288 1150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" H 6275 1400 50  0001 C CNN
-F 4 "DK" H 6250 1300 60  0001 C CNN "MFN"
-F 5 "1276-1052-1-ND" H 6250 1300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" H 6675 1800 60  0001 C CNN "PurchasingLink"
-	1    6250 1300
+P 6250 1250
+F 0 "C2" H 6000 1250 50  0000 L CNN
+F 1 "C_10uF" H 5950 1150 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 6288 1100 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" H 6275 1350 50  0001 C CNN
+F 4 "DK" H 6250 1250 60  0001 C CNN "MFN"
+F 5 "1276-1052-1-ND" H 6250 1250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" H 6675 1750 60  0001 C CNN "PurchasingLink"
+	1    6250 1250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -7611,15 +7595,15 @@ $EndComp
 $Comp
 L formula:F_500mA_16V F101
 U 1 1 5C0BFA29
-P 1150 6250
-F 0 "F101" V 1230 6250 50  0000 C CNN
-F 1 "F_500mA_16V" V 1050 6270 50  0000 C CNN
-F 2 "footprints:Fuse_1210" V 1080 6250 50  0001 C CNN
-F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 1230 6250 50  0001 C CNN
-F 4 "DK" H 1150 6250 60  0001 C CNN "MFN"
-F 5 "507-1786-1-ND" H 1150 6250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 1630 6650 60  0001 C CNN "PurchasingLink"
-	1    1150 6250
+P 900 6250
+F 0 "F101" V 980 6250 50  0000 C CNN
+F 1 "F_500mA_16V" V 800 6270 50  0000 C CNN
+F 2 "footprints:Fuse_1210" V 830 6250 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 980 6250 50  0001 C CNN
+F 4 "DK" H 900 6250 60  0001 C CNN "MFN"
+F 5 "507-1786-1-ND" H 900 6250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 1380 6650 60  0001 C CNN "PurchasingLink"
+	1    900  6250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -7664,30 +7648,30 @@ $EndComp
 $Comp
 L formula:D_Zener_18V D101
 U 1 1 5C623D49
-P 800 6550
-F 0 "D101" H 790 6740 50  0000 C CNN
-F 1 "D_Zener_18V" H 780 6650 50  0000 C CNN
-F 2 "footprints:DO-214AA" H 700 6550 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 800 6650 50  0001 C CNN
-F 4 "DK" H 1000 6850 60  0001 C CNN "MFN"
-F 5 "SMBJ5355B-TPMSCT-ND" H 900 6750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 1200 7050 60  0001 C CNN "PurchasingLink"
-	1    800  6550
+P 1150 6550
+F 0 "D101" H 1140 6740 50  0000 C CNN
+F 1 "D_Zener_18V" H 1130 6650 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 1050 6550 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 1150 6650 50  0001 C CNN
+F 4 "DK" H 1350 6850 60  0001 C CNN "MFN"
+F 5 "SMBJ5355B-TPMSCT-ND" H 1250 6750 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 1550 7050 60  0001 C CNN "PurchasingLink"
+	1    1150 6550
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5C62BB38
-P 800 6800
-F 0 "#PWR04" H 800 6550 50  0001 C CNN
-F 1 "GND" H 805 6627 50  0000 C CNN
-F 2 "" H 800 6800 50  0001 C CNN
-F 3 "" H 800 6800 50  0001 C CNN
-	1    800  6800
+P 1150 6800
+F 0 "#PWR04" H 1150 6550 50  0001 C CNN
+F 1 "GND" H 1155 6627 50  0000 C CNN
+F 2 "" H 1150 6800 50  0001 C CNN
+F 3 "" H 1150 6800 50  0001 C CNN
+	1    1150 6800
 	1    0    0    -1  
 $EndComp
-Text Label 800  5950 0    50   ~ 0
-9V
+Text Label 650  5950 0    50   ~ 0
+9V_out
 $Comp
 L formula:LED_0805 D102
 U 1 1 5C754D7D
@@ -7717,7 +7701,7 @@ Text Notes 1800 6150 0    50   ~ 0
 Input Capacitors\n\n
 Text Notes 1450 7150 1    50   ~ 0
 9V Indicator
-Text Notes 700  6800 1    50   ~ 0
+Text Notes 1050 6800 1    50   ~ 0
 Protection\n
 Text Notes 2950 5650 0    89   ~ 0
 BUCK CONVERTER\n
@@ -7857,14 +7841,11 @@ Wire Wire Line
 Wire Wire Line
 	6400 6750 6400 7050
 Wire Wire Line
-	800  5950 800  6250
+	650  5950 650  6250
 Wire Wire Line
-	800  6700 800  6800
+	1150 6700 1150 6800
 Wire Wire Line
-	800  6250 1000 6250
-Connection ~ 800  6250
-Wire Wire Line
-	800  6250 800  6400
+	650  6250 750  6250
 Connection ~ 1950 6250
 Wire Wire Line
 	1550 6550 1550 6650
@@ -10209,7 +10190,7 @@ Wire Wire Line
 	8000 4950 8150 4950
 Connection ~ 8150 4950
 Text Label 7600 5350 0    50   ~ 0
-9V
+9V_in
 Wire Wire Line
 	7750 5500 7600 5500
 Wire Wire Line
@@ -10222,25 +10203,14 @@ Connection ~ 7600 5500
 $Comp
 L power:GND #PWR021
 U 1 1 5DE23740
-P 7650 6200
-F 0 "#PWR021" H 7650 5950 50  0001 C CNN
-F 1 "GND" H 7655 6027 50  0000 C CNN
-F 2 "" H 7650 6200 50  0001 C CNN
-F 3 "" H 7650 6200 50  0001 C CNN
-	1    7650 6200
+P 8150 6200
+F 0 "#PWR021" H 8150 5950 50  0001 C CNN
+F 1 "GND" H 8155 6027 50  0000 C CNN
+F 2 "" H 8150 6200 50  0001 C CNN
+F 3 "" H 8150 6200 50  0001 C CNN
+	1    8150 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8150 6100 8150 6150
-Wire Wire Line
-	8150 6150 7650 6150
-Wire Wire Line
-	7750 5900 7650 5900
-Wire Wire Line
-	7650 5900 7650 6150
-Connection ~ 7650 6150
-Wire Wire Line
-	7650 6150 7650 6200
 $Comp
 L formula:R_10K R10
 U 1 1 5DE5AFDF
@@ -12772,7 +12742,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 6250 1550 6250
+	1050 6250 1150 6250
 Connection ~ 1550 6250
 Wire Wire Line
 	1550 6250 1950 6250
@@ -12888,4 +12858,28 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7330 4
 	1    6850 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L formula:LIS3DHTR U2
+U 1 1 5DD0BA20
+P 7650 1100
+F 0 "U2" H 7625 1387 60  0000 C CNN
+F 1 "LIS3DHTR" H 7625 1281 60  0000 C CNN
+F 2 "footprints:LIS3DHTR" H 7700 1500 60  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/3c/ae/50/85/d6/b1/46/fe/CD00274221.pdf/files/CD00274221.pdf/jcr:content/translations/en.CD00274221.pdf" H 6800 1700 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN " PurchasingLink"
+F 5 "497-10613-1-ND " H 0   0   50  0001 C CNN "MPN"
+F 6 "DK" H 0   0   50  0001 C CNN "MFN"
+F 7 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN "PurchasingLink"
+	1    7650 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 6100 8150 6200
+Text Label 7750 5900 2    50   ~ 0
+9V_out
+Wire Wire Line
+	1150 6250 1150 6400
+Connection ~ 1150 6250
+Wire Wire Line
+	1150 6250 1550 6250
 $EndSCHEMATC

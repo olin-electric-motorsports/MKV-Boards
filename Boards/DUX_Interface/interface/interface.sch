@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:interface-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -57,31 +56,17 @@ F 6 "http://www.te.com/global-en/product-1-338068-0.html" H 2300 3300 60  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MM_F_VT_04 J3
-U 1 1 5DC9CE0A
-P 2200 2700
-F 0 "J3" H 2256 3147 60  0000 C CNN
-F 1 "MM_F_VT_04" H 2256 3041 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_4" H 2000 3800 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 2100 3900 60  0001 C CNN
-F 4 "TE" H 2300 4100 60  0001 C CNN "MFN"
-F 5 "338068-4" H 2400 4200 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-338068-4.html" H 2200 4000 60  0001 C CNN "PurchasingLink"
-	1    2200 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:MM_F_VT_04 J5
 U 1 1 5DC9CE7C
-P 2350 5150
-F 0 "J5" H 2406 5597 60  0000 C CNN
-F 1 "MM_F_VT_04" H 2406 5491 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_4" H 2150 6250 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 2250 6350 60  0001 C CNN
-F 4 "TE" H 2450 6550 60  0001 C CNN "MFN"
-F 5 "338068-4" H 2550 6650 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-338068-4.html" H 2350 6450 60  0001 C CNN "PurchasingLink"
-	1    2350 5150
+P 2450 4300
+F 0 "J5" H 2506 4747 60  0000 C CNN
+F 1 "MM_F_VT_04" H 2506 4641 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_4" H 2250 5400 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 2350 5500 60  0001 C CNN
+F 4 "TE" H 2550 5700 60  0001 C CNN "MFN"
+F 5 "338068-4" H 2650 5800 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-338068-4.html" H 2450 5600 60  0001 C CNN "PurchasingLink"
+	1    2450 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -196,21 +181,13 @@ Text Label 1050 2700 0    50   ~ 0
 STEERING_POT_SENSE
 Text Label 1050 2800 0    50   ~ 0
 STEERING_POT_-
-Text Label 2450 2500 0    50   ~ 0
-SPEED_LED_BAR
-Text Label 2450 2600 0    50   ~ 0
-SOC_LED_BAR
-Text Label 2450 2700 0    50   ~ 0
-5V_LED_BARS
-Text Label 2450 2800 0    50   ~ 0
-GND
-Text Label 2600 4950 0    50   ~ 0
+Text Label 2700 4100 0    50   ~ 0
 SS_BOTS
-Text Label 2600 5050 0    50   ~ 0
+Text Label 2700 4200 0    50   ~ 0
 SS_INERTIA
-Text Label 2600 5150 0    50   ~ 0
+Text Label 2700 4300 0    50   ~ 0
 SS_ESTOP
-Text Label 2600 5250 0    50   ~ 0
+Text Label 2700 4400 0    50   ~ 0
 5V_CAN_LOGGER
 Text Label 1050 3350 0    50   ~ 0
 GND
@@ -260,25 +237,11 @@ Text Label 2450 1100 0    50   ~ 0
 BRAKE_LED
 Text Label 2450 1200 0    50   ~ 0
 5V_STEERING
-Text Label 2450 1300 0    50   ~ 0
-GND
-Text Label 2450 1400 0    50   ~ 0
-GND
-Text Label 2450 1500 0    50   ~ 0
-GND
 Text Label 2450 1600 0    50   ~ 0
 GND
 Text Label 2450 1700 0    50   ~ 0
 GND
 Text Label 2450 1800 0    50   ~ 0
-GND
-Text Label 4800 900  0    50   ~ 0
-GND
-Text Label 4800 1000 0    50   ~ 0
-GND
-Text Label 4800 1550 0    50   ~ 0
-GND
-Text Label 4800 1650 0    50   ~ 0
 GND
 Text Label 4800 1100 0    50   ~ 0
 5V_LED_BARS
@@ -408,9 +371,9 @@ Text Label 10200 1850 0    50   ~ 0
 CAN+
 Text Label 10200 1950 0    50   ~ 0
 CAN-
-Text Label 10200 2050 0    50   ~ 0
-CAN+
 Text Label 10200 2150 0    50   ~ 0
+CAN+
+Text Label 10200 2050 0    50   ~ 0
 CAN-
 Text Label 10200 2250 0    50   ~ 0
 CAN_GND
@@ -420,8 +383,6 @@ Text Label 10200 2450 0    50   ~ 0
 STEERING_POT_SENSE
 Text Label 10200 2550 0    50   ~ 0
 STEERING_POT_-
-Text Label 10200 2650 0    50   ~ 0
-GND
 Text Label 10200 2750 0    50   ~ 0
 GND
 Text Label 10200 2850 0    50   ~ 0
@@ -442,9 +403,9 @@ Text Label 10200 3550 0    50   ~ 0
 THROTTLE_POT_2_SENSE
 Text Label 10200 3650 0    50   ~ 0
 THROTTLE_POT_2_-
-Text Label 10200 3750 0    50   ~ 0
-CAN+
 Text Label 10200 3850 0    50   ~ 0
+CAN+
+Text Label 10200 3750 0    50   ~ 0
 CAN-
 Text Label 10200 3950 0    50   ~ 0
 CAN_GND
@@ -454,43 +415,12 @@ Text Label 10200 4150 0    50   ~ 0
 CAN+
 Text Label 10200 4250 0    50   ~ 0
 CAN-
-$Comp
-L formula:NanoFit_RA_04 J6
-U 1 1 5DCF3CB6
-P 4050 3450
-F 0 "J6" H 4106 3825 50  0000 C CNN
-F 1 "NF_F_RA_2x02" H 4106 3734 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105310-xx04_2x02_P2.50mm_Vertical" H 3950 3200 50  0001 C CNN
-F 3 "" H 4050 3700 50  0001 C CNN
-	1    4050 3450
-	1    0    0    -1  
-$EndComp
-Text Label 4250 3300 0    50   ~ 0
-GND
-Text Label 4250 3400 0    50   ~ 0
-5V_STEERING
-Text Label 4250 3500 0    50   ~ 0
-CAN+
-Text Label 4250 3600 0    50   ~ 0
-CAN-
-Wire Notes Line
-	3800 3000 3800 4200
-Wire Notes Line
-	3800 4200 6300 4200
-Wire Notes Line
-	6300 4200 6300 3000
-Wire Notes Line
-	6300 3000 3800 3000
-Text Notes 3900 4100 0    98   ~ 0
-Steering Wheel Connectors
 Text Label 3650 1200 0    50   ~ 0
 DRIVE_MODE_+
 Text Label 3650 1300 0    50   ~ 0
 DRIVE_MODE_SENSE
 Text Label 3650 1400 0    50   ~ 0
 DRIVE_MODE_-
-Text Label 10200 1050 0    50   ~ 0
-5V_CAN_LOGGER
 Text Notes 1600 2100 0    118  ~ 0
 DUX Connectors\n
 Wire Notes Line
@@ -532,15 +462,15 @@ Wire Notes Line
 $Comp
 L power:+12V #PWR01
 U 1 1 5DCFD863
-P 1050 5950
-F 0 "#PWR01" H 1050 5800 50  0001 C CNN
-F 1 "+12V" H 1065 6123 50  0000 C CNN
-F 2 "" H 1050 5950 50  0001 C CNN
-F 3 "" H 1050 5950 50  0001 C CNN
-	1    1050 5950
+P 1100 5950
+F 0 "#PWR01" H 1100 5800 50  0001 C CNN
+F 1 "+12V" H 1115 6123 50  0000 C CNN
+F 2 "" H 1100 5950 50  0001 C CNN
+F 3 "" H 1100 5950 50  0001 C CNN
+	1    1100 5950
 	1    0    0    -1  
 $EndComp
-Text Label 1050 5950 3    50   ~ 0
+Text Label 1100 5950 3    50   ~ 0
 12V
 $Comp
 L power:+12V #PWR02
@@ -558,87 +488,79 @@ RTD_SUPPLY_12V
 $Comp
 L power:GND #PWR03
 U 1 1 5DCFDED7
-P 1600 5850
-F 0 "#PWR03" H 1600 5600 50  0001 C CNN
-F 1 "GND" H 1605 5677 50  0000 C CNN
-F 2 "" H 1600 5850 50  0001 C CNN
-F 3 "" H 1600 5850 50  0001 C CNN
-	1    1600 5850
+P 2150 6350
+F 0 "#PWR03" H 2150 6100 50  0001 C CNN
+F 1 "GND" H 2155 6177 50  0000 C CNN
+F 2 "" H 2150 6350 50  0001 C CNN
+F 3 "" H 2150 6350 50  0001 C CNN
+	1    2150 6350
 	1    0    0    -1  
 $EndComp
-Text Label 1600 5850 0    50   ~ 0
+Text Label 2150 6350 1    50   ~ 0
 CAN_GND
-Text Notes 2700 6550 0    98   ~ 0
+Text Notes 3115 6570 0    98   ~ 0
 Power Flags\n
-Wire Notes Line
-	3750 5700 900  5700
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5DCFEE19
-P 2200 6000
-F 0 "#FLG01" H 2200 6075 50  0001 C CNN
-F 1 "PWR_FLAG" H 2200 6128 50  0000 L CNN
-F 2 "" H 2200 6000 50  0001 C CNN
-F 3 "~" H 2200 6000 50  0001 C CNN
-	1    2200 6000
+P 1600 5950
+F 0 "#FLG01" H 1600 6025 50  0001 C CNN
+F 1 "PWR_FLAG" V 1600 6078 50  0000 L CNN
+F 2 "" H 1600 5950 50  0001 C CNN
+F 3 "~" H 1600 5950 50  0001 C CNN
+	1    1600 5950
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+12V #PWR04
 U 1 1 5DCFF24F
-P 2200 6000
-F 0 "#PWR04" H 2200 5850 50  0001 C CNN
-F 1 "+12V" H 2215 6173 50  0000 C CNN
-F 2 "" H 2200 6000 50  0001 C CNN
-F 3 "" H 2200 6000 50  0001 C CNN
-	1    2200 6000
+P 1600 5950
+F 0 "#PWR04" H 1600 5800 50  0001 C CNN
+F 1 "+12V" H 1615 6123 50  0000 C CNN
+F 2 "" H 1600 5950 50  0001 C CNN
+F 3 "" H 1600 5950 50  0001 C CNN
+	1    1600 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5DD01903
-P 2550 6000
-F 0 "#FLG02" H 2550 6075 50  0001 C CNN
-F 1 "PWR_FLAG" H 2550 6174 50  0000 C CNN
-F 2 "" H 2550 6000 50  0001 C CNN
-F 3 "~" H 2550 6000 50  0001 C CNN
-	1    2550 6000
+P 2375 6350
+F 0 "#FLG02" H 2375 6425 50  0001 C CNN
+F 1 "PWR_FLAG" V 2375 6700 50  0000 C CNN
+F 2 "" H 2375 6350 50  0001 C CNN
+F 3 "~" H 2375 6350 50  0001 C CNN
+	1    2375 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5DD0198E
-P 2550 6000
-F 0 "#PWR05" H 2550 5750 50  0001 C CNN
-F 1 "GND" H 2555 5827 50  0000 C CNN
-F 2 "" H 2550 6000 50  0001 C CNN
-F 3 "" H 2550 6000 50  0001 C CNN
-	1    2550 6000
+P 2375 6350
+F 0 "#PWR05" H 2375 6100 50  0001 C CNN
+F 1 "GND" H 2380 6177 50  0000 C CNN
+F 2 "" H 2375 6350 50  0001 C CNN
+F 3 "" H 2375 6350 50  0001 C CNN
+	1    2375 6350
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	3750 6650 900  6650
-Wire Notes Line
-	900  5700 900  6650
-Wire Notes Line
-	3750 5700 3750 6650
 $Comp
 L formula:R_120_DNP R1
 U 1 1 5DD2F1A4
-P 9900 4650
-F 0 "R1" V 9693 4650 50  0000 C CNN
-F 1 "R_120_DNP" V 9784 4650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 8700 4800 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 8700 5100 50  0001 L CNN
-F 4 "DK" H 9900 4650 60  0001 C CNN "MFN"
-F 5 "667-ERJ-6ENF1200V" H 8700 4900 60  0001 L CNN "MPN"
-F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 8700 5000 60  0001 L CNN "PurchasingLink"
-	1    9900 4650
+P 4550 3375
+F 0 "R1" V 4343 3375 50  0000 C CNN
+F 1 "R_120_DNP" V 4434 3375 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3350 3525 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 3350 3825 50  0001 L CNN
+F 4 "DK" H 4550 3375 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 3350 3625 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 3350 3725 60  0001 L CNN "PurchasingLink"
+	1    4550 3375
 	0    1    1    0   
 $EndComp
-Text Label 9750 4650 2    50   ~ 0
+Text Label 4400 3375 2    50   ~ 0
 CAN+
-Text Label 10050 4650 0    50   ~ 0
+Text Label 4700 3375 0    50   ~ 0
 CAN-
 $Comp
 L formula:RJ45_VT U6
@@ -698,4 +620,235 @@ Text Label 10700 1450 0    50   ~ 0
 SS_ESTOP
 Wire Wire Line
 	10200 1350 10700 1350
+Text Label 10200 1050 0    50   ~ 0
+12V
+Text Label 10200 2650 0    50   ~ 0
+5V_STEERING
+Wire Notes Line
+	4175 5700 4175 6750
+Wire Notes Line
+	4175 6750 900  6750
+Wire Notes Line
+	900  5700 4175 5700
+Wire Notes Line
+	900  5700 900  6750
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5E65DC3E
+P 4750 6350
+F 0 "TP1" V 4945 6422 50  0000 C CNN
+F 1 "TestPoint" V 4854 6422 50  0000 C CNN
+F 2 "footprints:tp_1.6mm" H 4950 6350 50  0001 C CNN
+F 3 "~" H 4950 6350 50  0001 C CNN
+	1    4750 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5E65EA13
+P 4750 6650
+F 0 "TP2" V 4945 6722 50  0000 C CNN
+F 1 "TestPoint" V 4854 6722 50  0000 C CNN
+F 2 "footprints:tp_1.6mm" H 4950 6650 50  0001 C CNN
+F 3 "~" H 4950 6650 50  0001 C CNN
+	1    4750 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5E65F584
+P 4750 6975
+F 0 "TP3" V 4945 7047 50  0000 C CNN
+F 1 "TestPoint" V 4854 7047 50  0000 C CNN
+F 2 "footprints:tp_1.6mm" H 4950 6975 50  0001 C CNN
+F 3 "~" H 4950 6975 50  0001 C CNN
+	1    4750 6975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5E65F58A
+P 4750 7275
+F 0 "TP4" V 4945 7347 50  0000 C CNN
+F 1 "TestPoint" V 4854 7347 50  0000 C CNN
+F 2 "footprints:tp_1.6mm" H 4950 7275 50  0001 C CNN
+F 3 "~" H 4950 7275 50  0001 C CNN
+	1    4750 7275
+	0    -1   -1   0   
+$EndComp
+Text Label 4950 6650 0    50   ~ 0
+CAN+
+Text Label 4950 6975 0    50   ~ 0
+CAN-
+Wire Wire Line
+	4950 6975 4750 6975
+$Comp
+L power:GND #PWR09
+U 1 1 5E6612D4
+P 5075 7325
+F 0 "#PWR09" H 5075 7075 50  0001 C CNN
+F 1 "GND" H 5080 7152 50  0000 C CNN
+F 2 "" H 5075 7325 50  0001 C CNN
+F 3 "" H 5075 7325 50  0001 C CNN
+	1    5075 7325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 7325 5075 7275
+Wire Wire Line
+	5075 7275 4750 7275
+$Comp
+L power:+12V #PWR08
+U 1 1 5E6644FB
+P 5050 6200
+F 0 "#PWR08" H 5050 6050 50  0001 C CNN
+F 1 "+12V" H 5065 6373 50  0000 C CNN
+F 2 "" H 5050 6200 50  0001 C CNN
+F 3 "" H 5050 6200 50  0001 C CNN
+	1    5050 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 6200 5050 6350
+Wire Wire Line
+	5050 6350 4750 6350
+Wire Wire Line
+	4750 6650 4950 6650
+Text Notes 4400 5900 0    98   ~ 0
+Test Points
+Wire Notes Line
+	4325 5700 4325 7650
+Wire Notes Line
+	4325 7650 5325 7650
+Wire Notes Line
+	5325 7650 5325 5700
+Wire Notes Line
+	5325 5700 4325 5700
+$Comp
+L formula:R_1K R2
+U 1 1 5E67032C
+P 4300 4150
+F 0 "R2" V 4093 4150 50  0000 C CNN
+F 1 "R_1K" V 4184 4150 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4230 4150 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 4380 4150 50  0001 C CNN
+F 4 "DK" H 4300 4150 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 4300 4150 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 4780 4550 60  0001 C CNN "PurchasingLink"
+	1    4300 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:LED_0805 D1
+U 1 1 5E671943
+P 4750 4150
+F 0 "D1" H 4743 3895 50  0000 C CNN
+F 1 "LED_0805" H 4743 3986 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 4650 4150 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 4750 4250 50  0001 C CNN
+F 4 "DK" H 4750 4150 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 4750 4150 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 5150 4650 60  0001 C CNN "PurchasingLink"
+	1    4750 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 4150 4600 4150
+$Comp
+L power:+12V #PWR06
+U 1 1 5E675CE9
+P 4025 4075
+F 0 "#PWR06" H 4025 3925 50  0001 C CNN
+F 1 "+12V" H 4040 4248 50  0000 C CNN
+F 2 "" H 4025 4075 50  0001 C CNN
+F 3 "" H 4025 4075 50  0001 C CNN
+	1    4025 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4025 4075 4025 4150
+Wire Wire Line
+	4025 4150 4150 4150
+$Comp
+L power:GND #PWR07
+U 1 1 5E678C29
+P 5050 4200
+F 0 "#PWR07" H 5050 3950 50  0001 C CNN
+F 1 "GND" H 5055 4027 50  0000 C CNN
+F 2 "" H 5050 4200 50  0001 C CNN
+F 3 "" H 5050 4200 50  0001 C CNN
+	1    5050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4200 5050 4150
+Wire Wire Line
+	4900 4150 5050 4150
+Text Notes 5050 3350 0    50   ~ 0
+CAN Termination
+Text Notes 5225 4100 0    50   ~ 0
+12V Indicator
+Text Label 2590 6350 1    50   ~ 0
+GND
+$Comp
+L power:GND #PWR0103
+U 1 1 5E6AE5CE
+P 2590 6350
+F 0 "#PWR0103" H 2590 6100 50  0001 C CNN
+F 1 "GND" H 2595 6177 50  0000 C CNN
+F 2 "" H 2590 6350 50  0001 C CNN
+F 3 "" H 2590 6350 50  0001 C CNN
+	1    2590 6350
+	1    0    0    -1  
+$EndComp
+Text Label 2450 1300 0    50   ~ 0
+SPEED_LED_BAR
+Text Label 2450 1400 0    50   ~ 0
+SOC_LED_BAR
+Text Label 2450 1500 0    50   ~ 0
+5V_LED_BARS
+$Comp
+L power:GND #PWR?
+U 1 1 5E6BE8EA
+P 4800 1550
+F 0 "#PWR?" H 4800 1300 50  0001 C CNN
+F 1 "GND" V 4800 1350 50  0000 C CNN
+F 2 "" H 4800 1550 50  0001 C CNN
+F 3 "" H 4800 1550 50  0001 C CNN
+	1    4800 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6BEDD5
+P 4800 1650
+F 0 "#PWR?" H 4800 1400 50  0001 C CNN
+F 1 "GND" V 4800 1450 50  0000 C CNN
+F 2 "" H 4800 1650 50  0001 C CNN
+F 3 "" H 4800 1650 50  0001 C CNN
+	1    4800 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6BFA26
+P 4800 900
+F 0 "#PWR?" H 4800 650 50  0001 C CNN
+F 1 "GND" V 4800 700 50  0000 C CNN
+F 2 "" H 4800 900 50  0001 C CNN
+F 3 "" H 4800 900 50  0001 C CNN
+	1    4800 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6BFA2C
+P 4800 1000
+F 0 "#PWR?" H 4800 750 50  0001 C CNN
+F 1 "GND" V 4800 800 50  0000 C CNN
+F 2 "" H 4800 1000 50  0001 C CNN
+F 3 "" H 4800 1000 50  0001 C CNN
+	1    4800 1000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
