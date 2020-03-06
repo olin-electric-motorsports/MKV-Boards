@@ -139,20 +139,6 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 213
 	1    1650 3300
 	0    1    1    0   
 $EndComp
-$Comp
-L TSAL-AIL-rescue:R_1K-Formula-TSAL-AIL-rescue R2
-U 1 1 5DD6DEDC
-P 900 3750
-F 0 "R2" V 693 3750 50  0000 C CNN
-F 1 "R_1K" V 784 3750 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 830 3750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 980 3750 50  0001 C CNN
-F 4 "DK" H 900 3750 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 900 3750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 1380 4150 60  0001 C CNN "PurchasingLink"
-	1    900  3750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	700  2900 750  2900
 Wire Wire Line
@@ -335,17 +321,6 @@ Text Label 700  3300 2    50   ~ 0
 TS-
 Text Label 700  3750 2    50   ~ 0
 15V+
-$Comp
-L Device:R R3
-U 1 1 5DD8881C
-P 1350 4200
-F 0 "R3" H 1420 4246 50  0000 L CNN
-F 1 "R_137" H 1420 4155 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" V 1280 4200 50  0001 C CNN
-F 3 "~" H 1350 4200 50  0001 C CNN
-	1    1350 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 4350 1350 4500
 Text Label 1350 4500 2    50   ~ 0
@@ -487,42 +462,10 @@ Wire Wire Line
 	7900 1400 7800 1400
 Wire Wire Line
 	7800 1400 7800 1300
-$Comp
-L TSAL-AIL-rescue:SSM3K333R-Formula-TSAL-AIL-rescue Q2
-U 1 1 5DDD0BB4
-P 9350 1450
-F 0 "Q2" H 9556 1496 50  0000 L CNN
-F 1 "SSM3K333R" H 9556 1405 50  0000 L CNN
-F 2 "Formula:SOT-23F" H 9550 1375 50  0001 L CIN
-F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 9550 1525 50  0001 L CNN
-F 4 "DK" H 9850 1825 60  0001 C CNN "MFN"
-F 5 "SSM3K333RLFCT-ND" H 9750 1725 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 9650 1625 60  0001 C CNN "PurchasingLink"
-	1    9350 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L TSAL-AIL-rescue:R_10K-Formula-TSAL-AIL-rescue R14
-U 1 1 5DDD15A8
-P 8900 1750
-F 0 "R14" H 8970 1796 50  0000 L CNN
-F 1 "R_10K" H 8970 1705 50  0000 L CNN
-F 2 "Formula:R_0805_OEM" H 8830 1750 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 8980 1750 50  0001 C CNN
-F 4 "DK" H 8900 1750 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 8900 1750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 9380 2150 60  0001 C CNN "PurchasingLink"
-	1    8900 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8900 1600 8900 1450
+	9350 2100 9350 1950
 Wire Wire Line
-	9450 1250 9450 1100
-Wire Wire Line
-	9450 1650 9450 1750
-Wire Wire Line
-	8900 1900 8900 2000
+	9350 2400 9350 2500
 Wire Wire Line
 	8200 800  8200 900 
 Wire Wire Line
@@ -560,17 +503,6 @@ F 3 "" H 8600 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
-U 1 1 5DDEDE67
-P 8900 2000
-F 0 "#PWR05" H 8900 1750 50  0001 C CNN
-F 1 "GND" H 8905 1827 50  0000 C CNN
-F 2 "" H 8900 2000 50  0001 C CNN
-F 3 "" H 8900 2000 50  0001 C CNN
-	1    8900 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR03
 U 1 1 5DDEEB04
 P 8200 1900
@@ -581,18 +513,7 @@ F 3 "" H 8200 1900 50  0001 C CNN
 	1    8200 1900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5DDEF044
-P 9450 1750
-F 0 "#PWR06" H 9450 1500 50  0001 C CNN
-F 1 "GND" H 9455 1577 50  0000 C CNN
-F 2 "" H 9450 1750 50  0001 C CNN
-F 3 "" H 9450 1750 50  0001 C CNN
-	1    9450 1750
-	1    0    0    -1  
-$EndComp
-Text Label 9450 1100 0    50   ~ 0
+Text Label 9900 1600 0    50   ~ 0
 TSAL_GREEN-
 Text Label 8200 800  2    50   ~ 0
 GLV+
@@ -615,14 +536,12 @@ Wire Wire Line
 Connection ~ 5650 4550
 Text Notes 8000 3200 0    100  ~ 0
 RED TSAL
-Text Notes 9950 1300 0    100  ~ 0
+Text Notes 9810 1430 0    100  ~ 0
 GREEN TSAL\n
 Text Notes 5600 2300 0    200  ~ 0
 HV
 Text Notes 6500 2600 0    200  ~ 0
 LV\n\n
-Wire Wire Line
-	8900 1450 9150 1450
 $Comp
 L Formula:BU4S11G2-TR U4
 U 1 1 5DDBD4AB
@@ -638,12 +557,7 @@ F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/BU4S11G2-TR/BU
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8900 1450 8830 1450
-Connection ~ 8900 1450
-Text Label 8590 1450 0    50   ~ 0
-NAND_Out
-Text Label 8830 1450 0    50   ~ 0
-NAND_Out
+	9350 1950 9280 1950
 $Comp
 L Formula:R_3K R16
 U 1 1 5E60C26F
@@ -900,7 +814,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 6375 4200 6375
 Wire Wire Line
-	4400 6375 4925 6375
+	4400 6375 4625 6375
 Wire Wire Line
 	4925 6375 4925 6400
 Wire Wire Line
@@ -975,17 +889,95 @@ Connection ~ 2150 5425
 Wire Wire Line
 	2650 5425 2975 5425
 $Comp
-L Formula:R_51.1K R?
+L Formula:R_51.1K R3
 U 1 1 5E60D67C
-P 1850 4175
-F 0 "R?" H 1920 4221 50  0000 L CNN
-F 1 "R_51.1K" H 1920 4130 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 750 4475 50  0001 L CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 750 4575 50  0001 L CNN
-F 4 "DK" H 1850 4175 60  0001 C CNN "MFN"
-F 5 "P51.1KCCT-ND" H 750 4375 60  0001 L CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5112V/P51.1KCCT-ND/119466" H 750 4675 60  0001 L CNN "PurchasingLink"
-	1    1850 4175
+P 1350 4200
+F 0 "R3" H 1420 4246 50  0000 L CNN
+F 1 "R_51.1K" H 1420 4155 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 250 4500 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 250 4600 50  0001 L CNN
+F 4 "DK" H 1350 4200 60  0001 C CNN "MFN"
+F 5 "P51.1KCCT-ND" H 250 4400 60  0001 L CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5112V/P51.1KCCT-ND/119466" H 250 4700 60  0001 L CNN "PurchasingLink"
+	1    1350 4200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Formula:R_1.91K R2
+U 1 1 5E627B1F
+P 900 3750
+F 0 "R2" V 693 3750 50  0000 C CNN
+F 1 "R_1.91K" V 784 3750 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 830 3750 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 980 3750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D1911V/P21049CT-ND/6215304" H 1380 4150 60  0001 C CNN "PurchasingLink"
+	1    900  3750
+	0    1    1    0   
+$EndComp
+Connection ~ 9350 1950
+Text Label 9280 1950 0    50   ~ 0
+NAND_Out
+Text Label 8585 1450 3    50   ~ 0
+NAND_Out
+Wire Wire Line
+	9350 1950 9600 1950
+$Comp
+L power:GND #PWR06
+U 1 1 5DDEF044
+P 9900 2250
+F 0 "#PWR06" H 9900 2000 50  0001 C CNN
+F 1 "GND" H 9905 2077 50  0000 C CNN
+F 2 "" H 9900 2250 50  0001 C CNN
+F 3 "" H 9900 2250 50  0001 C CNN
+	1    9900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5DDEDE67
+P 9350 2500
+F 0 "#PWR05" H 9350 2250 50  0001 C CNN
+F 1 "GND" H 9355 2327 50  0000 C CNN
+F 2 "" H 9350 2500 50  0001 C CNN
+F 3 "" H 9350 2500 50  0001 C CNN
+	1    9350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2150 9900 2250
+Wire Wire Line
+	9900 1750 9900 1600
+$Comp
+L TSAL-AIL-rescue:R_10K-Formula-TSAL-AIL-rescue R14
+U 1 1 5DDD15A8
+P 9350 2250
+F 0 "R14" H 9420 2296 50  0000 L CNN
+F 1 "R_10K" H 9420 2205 50  0000 L CNN
+F 2 "Formula:R_0805_OEM" H 9280 2250 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 9430 2250 50  0001 C CNN
+F 4 "DK" H 9350 2250 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 9350 2250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 9830 2650 60  0001 C CNN "PurchasingLink"
+	1    9350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TSAL-AIL-rescue:SSM3K333R-Formula-TSAL-AIL-rescue Q2
+U 1 1 5DDD0BB4
+P 9800 1950
+F 0 "Q2" H 10006 1996 50  0000 L CNN
+F 1 "SSM3K333R" H 10006 1905 50  0000 L CNN
+F 2 "Formula:SOT-23F" H 10000 1875 50  0001 L CIN
+F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 10000 2025 50  0001 L CNN
+F 4 "DK" H 10300 2325 60  0001 C CNN "MFN"
+F 5 "SSM3K333RLFCT-ND" H 10200 2225 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 10100 2125 60  0001 C CNN "PurchasingLink"
+	1    9800 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4625 6375
+Wire Wire Line
+	4625 6375 4925 6375
+Wire Wire Line
+	4625 5425 4625 6375
 $EndSCHEMATC

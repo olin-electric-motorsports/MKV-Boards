@@ -139,20 +139,6 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 213
 	1    1650 3300
 	0    1    1    0   
 $EndComp
-$Comp
-L TSAL-AIL-rescue:R_1K-Formula-TSAL-AIL-rescue R2
-U 1 1 5DD6DEDC
-P 900 3750
-F 0 "R2" V 693 3750 50  0000 C CNN
-F 1 "R_1K" V 784 3750 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 830 3750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 980 3750 50  0001 C CNN
-F 4 "DK" H 900 3750 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 900 3750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 1380 4150 60  0001 C CNN "PurchasingLink"
-	1    900  3750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	700  2900 750  2900
 Wire Wire Line
@@ -335,17 +321,6 @@ Text Label 700  3300 2    50   ~ 0
 TS-
 Text Label 700  3750 2    50   ~ 0
 15V+
-$Comp
-L Device:R R3
-U 1 1 5DD8881C
-P 1350 4200
-F 0 "R3" H 1420 4246 50  0000 L CNN
-F 1 "R_137" H 1420 4155 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" V 1280 4200 50  0001 C CNN
-F 3 "~" H 1350 4200 50  0001 C CNN
-	1    1350 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 4350 1350 4500
 Text Label 1350 4500 2    50   ~ 0
@@ -974,4 +949,30 @@ Wire Wire Line
 Connection ~ 2150 5425
 Wire Wire Line
 	2650 5425 2975 5425
+$Comp
+L Formula:R_51.1K R?
+U 1 1 5E60D67C
+P 1350 4200
+F 0 "R?" H 1420 4246 50  0000 L CNN
+F 1 "R_51.1K" H 1420 4155 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 250 4500 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 250 4600 50  0001 L CNN
+F 4 "DK" H 1350 4200 60  0001 C CNN "MFN"
+F 5 "P51.1KCCT-ND" H 250 4400 60  0001 L CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5112V/P51.1KCCT-ND/119466" H 250 4700 60  0001 L CNN "PurchasingLink"
+	1    1350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Formula:R_1.91K R?
+U 1 1 5E627B1F
+P 900 3750
+F 0 "R?" V 693 3750 50  0000 C CNN
+F 1 "R_1.91K" V 784 3750 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 830 3750 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 980 3750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D1911V/P21049CT-ND/6215304" H 1380 4150 60  0001 C CNN "PurchasingLink"
+	1    900  3750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
