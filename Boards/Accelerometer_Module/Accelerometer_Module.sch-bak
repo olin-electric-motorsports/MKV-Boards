@@ -211,29 +211,29 @@ $EndComp
 $Comp
 L formula:C_10uF C5
 U 1 1 5DC60017
-P 9500 2600
-F 0 "C5" H 9615 2646 50  0000 L CNN
-F 1 "C_10uF" H 9615 2555 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 9538 2450 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" H 9525 2700 50  0001 C CNN
-F 4 "DK" H 9500 2600 60  0001 C CNN "MFN"
-F 5 "1276-1052-1-ND" H 9500 2600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" H 9925 3100 60  0001 C CNN "PurchasingLink"
-	1    9500 2600
+P 9500 2650
+F 0 "C5" H 9615 2696 50  0000 L CNN
+F 1 "C_10uF" H 9615 2605 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 9538 2500 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" H 9525 2750 50  0001 C CNN
+F 4 "DK" H 9500 2650 60  0001 C CNN "MFN"
+F 5 "1276-1052-1-ND" H 9500 2650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" H 9925 3150 60  0001 C CNN "PurchasingLink"
+	1    9500 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:C_1uF C6
 U 1 1 5DC6A464
-P 10050 2600
-F 0 "C6" H 10165 2646 50  0000 L CNN
-F 1 "C_1uF" H 10165 2555 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 10088 2450 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 10075 2700 50  0001 C CNN
-F 4 "DK" H 10050 2600 60  0001 C CNN "MFN"
-F 5 "1276-2887-1-ND" H 10050 2600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 10475 3100 60  0001 C CNN "PurchasingLink"
-	1    10050 2600
+P 10050 2650
+F 0 "C6" H 10165 2696 50  0000 L CNN
+F 1 "C_1uF" H 10165 2605 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 10088 2500 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 10075 2750 50  0001 C CNN
+F 4 "DK" H 10050 2650 60  0001 C CNN "MFN"
+F 5 "1276-2887-1-ND" H 10050 2650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 10475 3150 60  0001 C CNN "PurchasingLink"
+	1    10050 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -7175,21 +7175,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 1600 8750 1600
 $Comp
-L formula:LIS3DHTR U2
-U 1 1 5DD0BA20
-P 7650 1100
-F 0 "U2" H 7625 1387 60  0000 C CNN
-F 1 "LIS3DHTR" H 7625 1281 60  0000 C CNN
-F 2 "footprints:LIS3DHTR" H 7700 1500 60  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/3c/ae/50/85/d6/b1/46/fe/CD00274221.pdf/files/CD00274221.pdf/jcr:content/translations/en.CD00274221.pdf" H 6800 1700 60  0000 C CNN
-F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN " PurchasingLink"
-F 5 "497-10613-1-ND " H 0   0   50  0001 C CNN "MPN"
-F 6 "DK" H 0   0   50  0001 C CNN "MFN"
-F 7 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN "PurchasingLink"
-	1    7650 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0121
 U 1 1 5DE240C7
 P 8950 1700
@@ -7245,15 +7230,15 @@ Wire Wire Line
 $Comp
 L formula:C_10uF C2
 U 1 1 5DDFFE65
-P 6250 1300
-F 0 "C2" H 6000 1300 50  0000 L CNN
-F 1 "C_10uF" H 5950 1200 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 6288 1150 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" H 6275 1400 50  0001 C CNN
-F 4 "DK" H 6250 1300 60  0001 C CNN "MFN"
-F 5 "1276-1052-1-ND" H 6250 1300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" H 6675 1800 60  0001 C CNN "PurchasingLink"
-	1    6250 1300
+P 6250 1250
+F 0 "C2" H 6000 1250 50  0000 L CNN
+F 1 "C_10uF" H 5950 1150 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 6288 1100 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" H 6275 1350 50  0001 C CNN
+F 4 "DK" H 6250 1250 60  0001 C CNN "MFN"
+F 5 "1276-1052-1-ND" H 6250 1250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" H 6675 1750 60  0001 C CNN "PurchasingLink"
+	1    6250 1250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -12885,6 +12870,21 @@ F 4 "DK" H 6850 3600 60  0001 C CNN "MFN"
 F 5 "RNCP0805FTD100RCT-ND" H 6200 3850 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 7330 4000 60  0001 C CNN "PurchasingLink"
 	1    6850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LIS3DHTR U2
+U 1 1 5DD0BA20
+P 7650 1100
+F 0 "U2" H 7625 1387 60  0000 C CNN
+F 1 "LIS3DHTR" H 7625 1281 60  0000 C CNN
+F 2 "footprints:LIS3DHTR" H 7700 1500 60  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/3c/ae/50/85/d6/b1/46/fe/CD00274221.pdf/files/CD00274221.pdf/jcr:content/translations/en.CD00274221.pdf" H 6800 1700 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN " PurchasingLink"
+F 5 "497-10613-1-ND " H 0   0   50  0001 C CNN "MPN"
+F 6 "DK" H 0   0   50  0001 C CNN "MFN"
+F 7 "https://www.digikey.com/product-detail/en/stmicroelectronics/LIS3DHTR/497-10613-1-ND/2334355" H 0   0   50  0001 C CNN "PurchasingLink"
+	1    7650 1100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
