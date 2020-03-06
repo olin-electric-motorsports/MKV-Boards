@@ -69,7 +69,7 @@ ShutdownSense_IMD
 Text Label 1150 2550 0    50   ~ 0
 ShutdownSense_HVD
 Text Label 1150 2650 0    50   ~ 0
-ShutdownSense_MainPack
+ShutdownSense_TSConn
 Wire Wire Line
 	5350 4250 5600 4250
 $Comp
@@ -1938,7 +1938,7 @@ Wire Wire Line
 	10600 2800 10850 2800
 Connection ~ 10600 2800
 Text Label 9750 3000 2    50   ~ 0
-ShutdownSense_MainPack
+ShutdownSense_TSConn
 Wire Notes Line
 	8550 700  13100 700 
 Wire Wire Line
