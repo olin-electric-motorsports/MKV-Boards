@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/lucky/Desktop/Formula/2020/MKV-Boards/Boards/Chassis_Strain/Chassis_Strain.sch</source>
-    <date>Sat 28 Dec 2019 02:35:55 PM EST</date>
-    <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
+    <source>/home/duncan/formula/MKV-Boards/Boards/Suspension_Strain/Chassis_Strain.sch</source>
+    <date>Fri 24 Jan 2020 01:44:58 PM EST</date>
+    <tool>Eeschema 5.1.5-52549c5~84~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Template Board</title>
         <company>Olin Electric Motorsports</company>
         <rev>1</rev>
         <date>2019-08-22</date>
-        <source>Chassis_Strain.sch</source>
+        <source>Suspension_Strain.sch</source>
         <comment number="1" value="Aditya Sudhakar"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -197,7 +197,7 @@
         <field name="MPN">311-1451-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_2.2uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_2.2uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEE2647</tstamp>
     </comp>
@@ -210,7 +210,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_0.1uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEE2923</tstamp>
     </comp>
@@ -223,7 +223,7 @@
         <field name="MPN">P100KCCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_100K-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="R_100K-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEE2A52</tstamp>
     </comp>
@@ -236,7 +236,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_0.1uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEE239B</tstamp>
     </comp>
@@ -249,7 +249,7 @@
         <field name="MPN">445-11693-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160AB/445-11693-1-ND/3953359</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_22uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_22uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C061BB4</tstamp>
     </comp>
@@ -262,7 +262,7 @@
         <field name="MPN">1276-6467-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A476MQYNNNG/1276-6467-1-ND/5958095</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_47uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_47uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C062E7A</tstamp>
     </comp>
@@ -275,7 +275,7 @@
         <field name="MPN">445-3924-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_33uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_33uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C08921B</tstamp>
     </comp>
@@ -288,7 +288,7 @@
         <field name="MFN">A124124CT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_25K-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="R_25K-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0B315C</tstamp>
     </comp>
@@ -301,7 +301,7 @@
         <field name="MPN">507-1786-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="F_500mA_16V-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="F_500mA_16V-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0BFA29</tstamp>
     </comp>
@@ -314,7 +314,7 @@
         <field name="MPN">A121322CT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=A121322CT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_0_2512-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="R_0_2512-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0C29A9</tstamp>
     </comp>
@@ -327,7 +327,7 @@
         <field name="MPN">475-1410-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="LED_0805-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="LED_0805-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0C344A</tstamp>
     </comp>
@@ -340,7 +340,7 @@
         <field name="MPN">RMCF0805JT200RCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_200-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="R_200-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0C44F9</tstamp>
     </comp>
@@ -353,7 +353,7 @@
         <field name="MPN">SMBJ5355B-TPMSCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="D_Zener_18V-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="D_Zener_18V-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C623D49</tstamp>
     </comp>
@@ -366,7 +366,7 @@
         <field name="MPN">475-1410-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="LED_0805-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="LED_0805-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C754D7D</tstamp>
     </comp>
@@ -379,7 +379,7 @@
         <field name="MFN">Digikey</field>
         <field name="MPN">445-15759-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="L_100uH-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="L_100uH-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEE27A2</tstamp>
     </comp>
@@ -392,7 +392,7 @@
         <field name="MPN">RNCP0805FTD100RCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_100-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="R_100-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D58E16F</tstamp>
     </comp>
@@ -405,7 +405,7 @@
         <field name="MPN">732-7852-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012007057/732-7852-1-ND/5454479</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_100pF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_100pF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D58E505</tstamp>
     </comp>
@@ -418,7 +418,7 @@
         <field name="MPN">887-1125-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/txc-corporation/7M-16.000MAAJ-T/887-1125-1-ND/2119014</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="Crystal_SMD-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="Crystal_SMD-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5EB332</tstamp>
     </comp>
@@ -431,7 +431,7 @@
         <field name="MPN">1276-1130-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_30pF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_30pF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5EB5B2</tstamp>
     </comp>
@@ -444,7 +444,7 @@
         <field name="MPN">1276-1130-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_30pF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_30pF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5EB694</tstamp>
     </comp>
@@ -457,7 +457,7 @@
         <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_10K-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="R_10K-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5EB7F3</tstamp>
     </comp>
@@ -470,7 +470,7 @@
         <field name="MPN">MCP2561-E/SN-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP2561-E_SN-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="MCP2561-E_SN-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5FAEDE</tstamp>
     </comp>
@@ -483,7 +483,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_0.1uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5FB603</tstamp>
     </comp>
@@ -496,7 +496,7 @@
         <field name="MPN">609-3234-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="CONN_02X03-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="CONN_02X03-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D628C9D</tstamp>
     </comp>
@@ -509,7 +509,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="C_0.1uF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D58E34B</tstamp>
     </comp>
@@ -522,7 +522,7 @@
         <field name="MPN">TPS560430YFDBVR</field>
         <field name="Purchasing Link">https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="TPS560430YF-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="TPS560430YF-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C75D405</tstamp>
     </comp>
@@ -535,7 +535,7 @@
         <field name="MPN">ATMEGA16M1-AU-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="ATMEGA16M1-formula" description=""/>
+      <libsource lib="Suspension_Strain-rescue" part="ATMEGA16M1-formula" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D58A7A6</tstamp>
     </comp>
@@ -548,7 +548,7 @@
         <field name="MPN">2-338070-0</field>
         <field name="PurchasingLink">http://www.te.com/usa-en/product-2-338070-0.html</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MM_F_RA_20-Formula" description=""/>
+      <libsource lib="Formula" part="MM_F_RA_20" description="Micro-MaTch connector 20 pin female right angle"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DDA44EA</tstamp>
     </comp>
@@ -561,7 +561,7 @@
         <field name="MPN">338070-8</field>
         <field name="PurchasingLink">http://www.te.com/usa-en/product-338070-8.html</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MM_F_RA_08-Formula" description=""/>
+      <libsource lib="Formula" part="MM_F_RA_08" description="Micro-MaTch connector 8 pin female right angle"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DDA2419</tstamp>
     </comp>
@@ -574,7 +574,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120_DNP-Formula" description=""/>
+      <libsource lib="Formula" part="R_120_DNP" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DE5D920</tstamp>
     </comp>
@@ -587,7 +587,7 @@
         <field name="MPN">1727-1033-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC4051PW-Q10011/1727-1033-1-ND/3749040</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="74HC4051-Formula" description=""/>
+      <libsource lib="Formula" part="74HC4051" description="IC MUX/DEMUX 8CH ANLG 16TSSOP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DE6B705</tstamp>
     </comp>
@@ -600,7 +600,7 @@
         <field name="MPN">RNCP0805FTD1K00CT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_1K-Formula" description=""/>
+      <libsource lib="Formula" part="R_1K" description="Resistor, 1K, 0.25W, 1%, 0805"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DE75BBA</tstamp>
     </comp>
@@ -613,7 +613,7 @@
         <field name="MPN">475-1410-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="LED_0805-Formula" description=""/>
+      <libsource lib="Formula" part="LED_0805" description="LED, Green, 2.2V, 20mA, 0805"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DFBA915</tstamp>
     </comp>
@@ -626,7 +626,7 @@
         <field name="MPN">RMCF0805JT200RCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_200-Formula" description=""/>
+      <libsource lib="Formula" part="R_200" description="Resistor, 200, 0.125W, 5%, 0805"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DFBE023</tstamp>
     </comp>
@@ -639,7 +639,7 @@
         <field name="MPN">475-1410-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="LED_0805-Formula" description=""/>
+      <libsource lib="Formula" part="LED_0805" description="LED, Green, 2.2V, 20mA, 0805"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DFC9886</tstamp>
     </comp>
@@ -652,7 +652,7 @@
         <field name="MPN">RMCF0805JT200RCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_200-Formula" description=""/>
+      <libsource lib="Formula" part="R_200" description="Resistor, 200, 0.125W, 5%, 0805"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DFC9895</tstamp>
     </comp>
@@ -665,7 +665,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DFE3335</tstamp>
     </comp>
@@ -678,7 +678,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit2/" tstamps="/5DD64290/5DE73B41/"/>
       <tstamp>5DE68332</tstamp>
     </comp>
@@ -691,7 +691,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit2/" tstamps="/5DD64290/5DE73B41/"/>
       <tstamp>5DE68343</tstamp>
     </comp>
@@ -704,7 +704,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit2/" tstamps="/5DD64290/5DE73B41/"/>
       <tstamp>5DE68352</tstamp>
     </comp>
@@ -717,7 +717,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit2/" tstamps="/5DD64290/5DE73B41/"/>
       <tstamp>5DE68387</tstamp>
     </comp>
@@ -730,7 +730,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit2/" tstamps="/5DD64290/5DE73B41/"/>
       <tstamp>5DE68390</tstamp>
     </comp>
@@ -743,7 +743,7 @@
         <field name="MPN">MCP6001T-I/LTCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula" description=""/>
+      <libsource lib="Formula" part="MCP6001T-I-LT" description="Single op-amp, general purpose, -40-+85 C, SC-70-5"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit2/" tstamps="/5DD64290/5DE73B41/"/>
       <tstamp>5DE68367</tstamp>
     </comp>
@@ -756,7 +756,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit2/" tstamps="/5DD64290/5DE73B41/"/>
       <tstamp>5DF73621</tstamp>
     </comp>
@@ -769,7 +769,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit2/" tstamps="/5DD64290/5DE73B41/"/>
       <tstamp>5DFDF474</tstamp>
     </comp>
@@ -782,7 +782,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit2/" tstamps="/5DD64290/5DE73B41/"/>
       <tstamp>5DE68379</tstamp>
     </comp>
@@ -795,7 +795,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit1/" tstamps="/5DD64290/5DE63AE5/"/>
       <tstamp>5DE68332</tstamp>
     </comp>
@@ -808,7 +808,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit1/" tstamps="/5DD64290/5DE63AE5/"/>
       <tstamp>5DE68343</tstamp>
     </comp>
@@ -821,7 +821,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit1/" tstamps="/5DD64290/5DE63AE5/"/>
       <tstamp>5DE68352</tstamp>
     </comp>
@@ -834,7 +834,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit1/" tstamps="/5DD64290/5DE63AE5/"/>
       <tstamp>5DE68387</tstamp>
     </comp>
@@ -847,7 +847,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit1/" tstamps="/5DD64290/5DE63AE5/"/>
       <tstamp>5DE68390</tstamp>
     </comp>
@@ -860,7 +860,7 @@
         <field name="MPN">MCP6001T-I/LTCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula" description=""/>
+      <libsource lib="Formula" part="MCP6001T-I-LT" description="Single op-amp, general purpose, -40-+85 C, SC-70-5"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit1/" tstamps="/5DD64290/5DE63AE5/"/>
       <tstamp>5DE68367</tstamp>
     </comp>
@@ -873,7 +873,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit1/" tstamps="/5DD64290/5DE63AE5/"/>
       <tstamp>5DF73621</tstamp>
     </comp>
@@ -886,7 +886,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit1/" tstamps="/5DD64290/5DE63AE5/"/>
       <tstamp>5DFDF474</tstamp>
     </comp>
@@ -899,7 +899,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit1/" tstamps="/5DD64290/5DE63AE5/"/>
       <tstamp>5DE68379</tstamp>
     </comp>
@@ -912,7 +912,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit3/" tstamps="/5DD64290/5DE75D90/"/>
       <tstamp>5DE68332</tstamp>
     </comp>
@@ -925,7 +925,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit3/" tstamps="/5DD64290/5DE75D90/"/>
       <tstamp>5DE68343</tstamp>
     </comp>
@@ -938,7 +938,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit3/" tstamps="/5DD64290/5DE75D90/"/>
       <tstamp>5DE68352</tstamp>
     </comp>
@@ -951,7 +951,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit3/" tstamps="/5DD64290/5DE75D90/"/>
       <tstamp>5DE68387</tstamp>
     </comp>
@@ -964,7 +964,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit3/" tstamps="/5DD64290/5DE75D90/"/>
       <tstamp>5DE68390</tstamp>
     </comp>
@@ -977,7 +977,7 @@
         <field name="MPN">MCP6001T-I/LTCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula" description=""/>
+      <libsource lib="Formula" part="MCP6001T-I-LT" description="Single op-amp, general purpose, -40-+85 C, SC-70-5"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit3/" tstamps="/5DD64290/5DE75D90/"/>
       <tstamp>5DE68367</tstamp>
     </comp>
@@ -990,7 +990,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit3/" tstamps="/5DD64290/5DE75D90/"/>
       <tstamp>5DF73621</tstamp>
     </comp>
@@ -1003,7 +1003,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit3/" tstamps="/5DD64290/5DE75D90/"/>
       <tstamp>5DFDF474</tstamp>
     </comp>
@@ -1016,7 +1016,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit3/" tstamps="/5DD64290/5DE75D90/"/>
       <tstamp>5DE68379</tstamp>
     </comp>
@@ -1029,7 +1029,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit4/" tstamps="/5DD64290/5DE75FAE/"/>
       <tstamp>5DE68332</tstamp>
     </comp>
@@ -1042,7 +1042,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit4/" tstamps="/5DD64290/5DE75FAE/"/>
       <tstamp>5DE68343</tstamp>
     </comp>
@@ -1055,7 +1055,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit4/" tstamps="/5DD64290/5DE75FAE/"/>
       <tstamp>5DE68352</tstamp>
     </comp>
@@ -1068,7 +1068,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit4/" tstamps="/5DD64290/5DE75FAE/"/>
       <tstamp>5DE68387</tstamp>
     </comp>
@@ -1081,7 +1081,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit4/" tstamps="/5DD64290/5DE75FAE/"/>
       <tstamp>5DE68390</tstamp>
     </comp>
@@ -1094,7 +1094,7 @@
         <field name="MPN">MCP6001T-I/LTCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula" description=""/>
+      <libsource lib="Formula" part="MCP6001T-I-LT" description="Single op-amp, general purpose, -40-+85 C, SC-70-5"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit4/" tstamps="/5DD64290/5DE75FAE/"/>
       <tstamp>5DE68367</tstamp>
     </comp>
@@ -1107,7 +1107,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit4/" tstamps="/5DD64290/5DE75FAE/"/>
       <tstamp>5DF73621</tstamp>
     </comp>
@@ -1120,7 +1120,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit4/" tstamps="/5DD64290/5DE75FAE/"/>
       <tstamp>5DFDF474</tstamp>
     </comp>
@@ -1133,7 +1133,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit4/" tstamps="/5DD64290/5DE75FAE/"/>
       <tstamp>5DE68379</tstamp>
     </comp>
@@ -1146,7 +1146,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit5/" tstamps="/5DD64290/5DE761FC/"/>
       <tstamp>5DE68332</tstamp>
     </comp>
@@ -1159,7 +1159,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit5/" tstamps="/5DD64290/5DE761FC/"/>
       <tstamp>5DE68343</tstamp>
     </comp>
@@ -1172,7 +1172,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit5/" tstamps="/5DD64290/5DE761FC/"/>
       <tstamp>5DE68352</tstamp>
     </comp>
@@ -1185,7 +1185,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit5/" tstamps="/5DD64290/5DE761FC/"/>
       <tstamp>5DE68387</tstamp>
     </comp>
@@ -1198,7 +1198,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit5/" tstamps="/5DD64290/5DE761FC/"/>
       <tstamp>5DE68390</tstamp>
     </comp>
@@ -1211,7 +1211,7 @@
         <field name="MPN">MCP6001T-I/LTCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula" description=""/>
+      <libsource lib="Formula" part="MCP6001T-I-LT" description="Single op-amp, general purpose, -40-+85 C, SC-70-5"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit5/" tstamps="/5DD64290/5DE761FC/"/>
       <tstamp>5DE68367</tstamp>
     </comp>
@@ -1224,7 +1224,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit5/" tstamps="/5DD64290/5DE761FC/"/>
       <tstamp>5DF73621</tstamp>
     </comp>
@@ -1237,7 +1237,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit5/" tstamps="/5DD64290/5DE761FC/"/>
       <tstamp>5DFDF474</tstamp>
     </comp>
@@ -1250,7 +1250,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit5/" tstamps="/5DD64290/5DE761FC/"/>
       <tstamp>5DE68379</tstamp>
     </comp>
@@ -1263,7 +1263,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit6.sch/" tstamps="/5DD64290/5DE7647B/"/>
       <tstamp>5DE68332</tstamp>
     </comp>
@@ -1276,7 +1276,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit6.sch/" tstamps="/5DD64290/5DE7647B/"/>
       <tstamp>5DE68343</tstamp>
     </comp>
@@ -1289,7 +1289,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit6.sch/" tstamps="/5DD64290/5DE7647B/"/>
       <tstamp>5DE68352</tstamp>
     </comp>
@@ -1302,7 +1302,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit6.sch/" tstamps="/5DD64290/5DE7647B/"/>
       <tstamp>5DE68387</tstamp>
     </comp>
@@ -1315,7 +1315,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit6.sch/" tstamps="/5DD64290/5DE7647B/"/>
       <tstamp>5DE68390</tstamp>
     </comp>
@@ -1328,7 +1328,7 @@
         <field name="MPN">MCP6001T-I/LTCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula" description=""/>
+      <libsource lib="Formula" part="MCP6001T-I-LT" description="Single op-amp, general purpose, -40-+85 C, SC-70-5"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit6.sch/" tstamps="/5DD64290/5DE7647B/"/>
       <tstamp>5DE68367</tstamp>
     </comp>
@@ -1341,7 +1341,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit6.sch/" tstamps="/5DD64290/5DE7647B/"/>
       <tstamp>5DF73621</tstamp>
     </comp>
@@ -1354,7 +1354,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit6.sch/" tstamps="/5DD64290/5DE7647B/"/>
       <tstamp>5DFDF474</tstamp>
     </comp>
@@ -1367,7 +1367,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit6.sch/" tstamps="/5DD64290/5DE7647B/"/>
       <tstamp>5DE68379</tstamp>
     </comp>
@@ -1380,7 +1380,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit7.sch/" tstamps="/5DD64290/5DE76AB9/"/>
       <tstamp>5DE68332</tstamp>
     </comp>
@@ -1393,7 +1393,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit7.sch/" tstamps="/5DD64290/5DE76AB9/"/>
       <tstamp>5DE68343</tstamp>
     </comp>
@@ -1406,7 +1406,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit7.sch/" tstamps="/5DD64290/5DE76AB9/"/>
       <tstamp>5DE68352</tstamp>
     </comp>
@@ -1419,7 +1419,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit7.sch/" tstamps="/5DD64290/5DE76AB9/"/>
       <tstamp>5DE68387</tstamp>
     </comp>
@@ -1432,7 +1432,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit7.sch/" tstamps="/5DD64290/5DE76AB9/"/>
       <tstamp>5DE68390</tstamp>
     </comp>
@@ -1445,7 +1445,7 @@
         <field name="MPN">MCP6001T-I/LTCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula" description=""/>
+      <libsource lib="Formula" part="MCP6001T-I-LT" description="Single op-amp, general purpose, -40-+85 C, SC-70-5"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit7.sch/" tstamps="/5DD64290/5DE76AB9/"/>
       <tstamp>5DE68367</tstamp>
     </comp>
@@ -1458,7 +1458,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit7.sch/" tstamps="/5DD64290/5DE76AB9/"/>
       <tstamp>5DF73621</tstamp>
     </comp>
@@ -1471,7 +1471,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit7.sch/" tstamps="/5DD64290/5DE76AB9/"/>
       <tstamp>5DFDF474</tstamp>
     </comp>
@@ -1484,7 +1484,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit7.sch/" tstamps="/5DD64290/5DE76AB9/"/>
       <tstamp>5DE68379</tstamp>
     </comp>
@@ -1497,7 +1497,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit8.sch/" tstamps="/5DD64290/5DE76CAC/"/>
       <tstamp>5DE68332</tstamp>
     </comp>
@@ -1510,7 +1510,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit8.sch/" tstamps="/5DD64290/5DE76CAC/"/>
       <tstamp>5DE68343</tstamp>
     </comp>
@@ -1523,7 +1523,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit8.sch/" tstamps="/5DD64290/5DE76CAC/"/>
       <tstamp>5DE68352</tstamp>
     </comp>
@@ -1536,7 +1536,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit8.sch/" tstamps="/5DD64290/5DE76CAC/"/>
       <tstamp>5DE68387</tstamp>
     </comp>
@@ -1549,7 +1549,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit8.sch/" tstamps="/5DD64290/5DE76CAC/"/>
       <tstamp>5DE68390</tstamp>
     </comp>
@@ -1562,7 +1562,7 @@
         <field name="MPN">MCP6001T-I/LTCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula" description=""/>
+      <libsource lib="Formula" part="MCP6001T-I-LT" description="Single op-amp, general purpose, -40-+85 C, SC-70-5"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit8.sch/" tstamps="/5DD64290/5DE76CAC/"/>
       <tstamp>5DE68367</tstamp>
     </comp>
@@ -1575,7 +1575,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit8.sch/" tstamps="/5DD64290/5DE76CAC/"/>
       <tstamp>5DF73621</tstamp>
     </comp>
@@ -1588,7 +1588,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit8.sch/" tstamps="/5DD64290/5DE76CAC/"/>
       <tstamp>5DFDF474</tstamp>
     </comp>
@@ -1601,7 +1601,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit8.sch/" tstamps="/5DD64290/5DE76CAC/"/>
       <tstamp>5DE68379</tstamp>
     </comp>
@@ -1614,7 +1614,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit9.sch/" tstamps="/5DD64290/5DE77004/"/>
       <tstamp>5DE68332</tstamp>
     </comp>
@@ -1627,7 +1627,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit9.sch/" tstamps="/5DD64290/5DE77004/"/>
       <tstamp>5DE68343</tstamp>
     </comp>
@@ -1640,7 +1640,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit9.sch/" tstamps="/5DD64290/5DE77004/"/>
       <tstamp>5DE68352</tstamp>
     </comp>
@@ -1653,7 +1653,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit9.sch/" tstamps="/5DD64290/5DE77004/"/>
       <tstamp>5DE68387</tstamp>
     </comp>
@@ -1666,7 +1666,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit9.sch/" tstamps="/5DD64290/5DE77004/"/>
       <tstamp>5DE68390</tstamp>
     </comp>
@@ -1679,7 +1679,7 @@
         <field name="MPN">MCP6001T-I/LTCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula" description=""/>
+      <libsource lib="Formula" part="MCP6001T-I-LT" description="Single op-amp, general purpose, -40-+85 C, SC-70-5"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit9.sch/" tstamps="/5DD64290/5DE77004/"/>
       <tstamp>5DE68367</tstamp>
     </comp>
@@ -1692,7 +1692,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit9.sch/" tstamps="/5DD64290/5DE77004/"/>
       <tstamp>5DF73621</tstamp>
     </comp>
@@ -1705,7 +1705,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit9.sch/" tstamps="/5DD64290/5DE77004/"/>
       <tstamp>5DFDF474</tstamp>
     </comp>
@@ -1718,7 +1718,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit9.sch/" tstamps="/5DD64290/5DE77004/"/>
       <tstamp>5DE68379</tstamp>
     </comp>
@@ -1731,7 +1731,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit10.sch/" tstamps="/5DD64290/5DE77316/"/>
       <tstamp>5DE68332</tstamp>
     </comp>
@@ -1744,7 +1744,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit10.sch/" tstamps="/5DD64290/5DE77316/"/>
       <tstamp>5DE68343</tstamp>
     </comp>
@@ -1757,7 +1757,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit10.sch/" tstamps="/5DD64290/5DE77316/"/>
       <tstamp>5DE68352</tstamp>
     </comp>
@@ -1770,7 +1770,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit10.sch/" tstamps="/5DD64290/5DE77316/"/>
       <tstamp>5DE68387</tstamp>
     </comp>
@@ -1783,7 +1783,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit10.sch/" tstamps="/5DD64290/5DE77316/"/>
       <tstamp>5DE68390</tstamp>
     </comp>
@@ -1796,7 +1796,7 @@
         <field name="MPN">MCP6001T-I/LTCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula" description=""/>
+      <libsource lib="Formula" part="MCP6001T-I-LT" description="Single op-amp, general purpose, -40-+85 C, SC-70-5"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit10.sch/" tstamps="/5DD64290/5DE77316/"/>
       <tstamp>5DE68367</tstamp>
     </comp>
@@ -1809,7 +1809,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit10.sch/" tstamps="/5DD64290/5DE77316/"/>
       <tstamp>5DF73621</tstamp>
     </comp>
@@ -1822,7 +1822,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit10.sch/" tstamps="/5DD64290/5DE77316/"/>
       <tstamp>5DFDF474</tstamp>
     </comp>
@@ -1835,7 +1835,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit10.sch/" tstamps="/5DD64290/5DE77316/"/>
       <tstamp>5DE68379</tstamp>
     </comp>
@@ -1848,7 +1848,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit11.sch/" tstamps="/5DD64290/5DE7755D/"/>
       <tstamp>5DE68332</tstamp>
     </comp>
@@ -1861,7 +1861,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit11.sch/" tstamps="/5DD64290/5DE7755D/"/>
       <tstamp>5DE68343</tstamp>
     </comp>
@@ -1874,7 +1874,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit11.sch/" tstamps="/5DD64290/5DE7755D/"/>
       <tstamp>5DE68352</tstamp>
     </comp>
@@ -1887,7 +1887,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit11.sch/" tstamps="/5DD64290/5DE7755D/"/>
       <tstamp>5DE68387</tstamp>
     </comp>
@@ -1900,7 +1900,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit11.sch/" tstamps="/5DD64290/5DE7755D/"/>
       <tstamp>5DE68390</tstamp>
     </comp>
@@ -1913,7 +1913,7 @@
         <field name="MPN">MCP6001T-I/LTCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula" description=""/>
+      <libsource lib="Formula" part="MCP6001T-I-LT" description="Single op-amp, general purpose, -40-+85 C, SC-70-5"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit11.sch/" tstamps="/5DD64290/5DE7755D/"/>
       <tstamp>5DE68367</tstamp>
     </comp>
@@ -1926,7 +1926,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit11.sch/" tstamps="/5DD64290/5DE7755D/"/>
       <tstamp>5DF73621</tstamp>
     </comp>
@@ -1939,7 +1939,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit11.sch/" tstamps="/5DD64290/5DE7755D/"/>
       <tstamp>5DFDF474</tstamp>
     </comp>
@@ -1952,7 +1952,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit11.sch/" tstamps="/5DD64290/5DE7755D/"/>
       <tstamp>5DE68379</tstamp>
     </comp>
@@ -1965,7 +1965,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit12.sch/" tstamps="/5DD64290/5DE7788B/"/>
       <tstamp>5DE68332</tstamp>
     </comp>
@@ -1978,7 +1978,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit12.sch/" tstamps="/5DD64290/5DE7788B/"/>
       <tstamp>5DE68343</tstamp>
     </comp>
@@ -1991,7 +1991,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit12.sch/" tstamps="/5DD64290/5DE7788B/"/>
       <tstamp>5DE68352</tstamp>
     </comp>
@@ -2004,7 +2004,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit12.sch/" tstamps="/5DD64290/5DE7788B/"/>
       <tstamp>5DE68387</tstamp>
     </comp>
@@ -2017,7 +2017,7 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit12.sch/" tstamps="/5DD64290/5DE7788B/"/>
       <tstamp>5DE68390</tstamp>
     </comp>
@@ -2030,7 +2030,7 @@
         <field name="MPN">MCP6001T-I/LTCT-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula" description=""/>
+      <libsource lib="Formula" part="MCP6001T-I-LT" description="Single op-amp, general purpose, -40-+85 C, SC-70-5"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit12.sch/" tstamps="/5DD64290/5DE7788B/"/>
       <tstamp>5DE68367</tstamp>
     </comp>
@@ -2043,7 +2043,7 @@
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
         <field name="PurchasingLink">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_4.99K-Formula" description=""/>
+      <libsource lib="Formula" part="R_4.99K" description="4.99k resistor"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit12.sch/" tstamps="/5DD64290/5DE7788B/"/>
       <tstamp>5DF73621</tstamp>
     </comp>
@@ -2056,7 +2056,7 @@
         <field name="MPN">478-3352-1-ND</field>
         <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="C_0.1uF-Formula" description=""/>
+      <libsource lib="Formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit12.sch/" tstamps="/5DD64290/5DE7788B/"/>
       <tstamp>5DFDF474</tstamp>
     </comp>
@@ -2069,41 +2069,13 @@
         <field name="MPN">667-ERJ-6ENF1200V</field>
         <field name="PurchasingLink">https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d</field>
       </fields>
-      <libsource lib="Chassis_Strain-rescue" part="R_120-Formula" description=""/>
+      <libsource lib="Formula" part="R_120" description="Resistor, 120, 0.125W, 1%, 0805"/>
       <sheetpath names="/strain_gauge_cluster/strain_gauge_circuit12.sch/" tstamps="/5DD64290/5DE7788B/"/>
       <tstamp>5DE68379</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Chassis_Strain-rescue" part="74HC4051-Formula">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">74HC4051-Formula</field>
-        <field name="Footprint">footprints:TSSOP-16-OEM</field>
-        <field name="MFN">DK</field>
-        <field name="MPN">1727-1033-1-ND</field>
-        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC4051PW-Q10011/1727-1033-1-ND/3749040</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Y4" type="input"/>
-        <pin num="2" name="Y6" type="input"/>
-        <pin num="3" name="Z" type="input"/>
-        <pin num="4" name="Y7" type="input"/>
-        <pin num="5" name="Y5" type="input"/>
-        <pin num="6" name="E" type="input"/>
-        <pin num="7" name="VEE" type="input"/>
-        <pin num="8" name="GND" type="input"/>
-        <pin num="9" name="S2" type="input"/>
-        <pin num="10" name="S1" type="input"/>
-        <pin num="11" name="S0" type="input"/>
-        <pin num="12" name="Y3" type="input"/>
-        <pin num="13" name="Y0" type="input"/>
-        <pin num="14" name="Y1" type="input"/>
-        <pin num="15" name="Y2" type="input"/>
-        <pin num="16" name="VCC" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="ATMEGA16M1-formula">
+    <libpart lib="Suspension_Strain-rescue" part="ATMEGA16M1-formula">
       <footprints>
         <fp>TQFP*32*7x7mm*</fp>
       </footprints>
@@ -2151,7 +2123,7 @@
         <pin num="32" name="(PCINT17/CLKO/PSCIN0)PD1" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="CONN_02X03-formula">
+    <libpart lib="Suspension_Strain-rescue" part="CONN_02X03-formula">
       <footprints>
         <fp>Pin_Header_Straight_2X03</fp>
         <fp>Pin_Header_Angled_2X03</fp>
@@ -2176,29 +2148,7 @@
         <pin num="6" name="P6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_0.1uF-Formula">
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_0.1uF-Formula</field>
-        <field name="Footprint">footprints:C_0805_OEM</field>
-        <field name="Datasheet">http://datasheets.avx.com/X7RDielectric.pdf</field>
-        <field name="MFN">DK</field>
-        <field name="MPN">478-3352-1-ND</field>
-        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_0.1uF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_0.1uF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2220,7 +2170,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_100pF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_100pF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2242,7 +2192,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_2.2uF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_2.2uF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2264,7 +2214,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_22uF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_22uF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2286,7 +2236,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_30pF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_30pF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2308,7 +2258,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_33uF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_33uF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2330,7 +2280,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="C_47uF-formula">
+    <libpart lib="Suspension_Strain-rescue" part="C_47uF-formula">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -2352,7 +2302,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="Crystal_SMD-formula">
+    <libpart lib="Suspension_Strain-rescue" part="Crystal_SMD-formula">
       <footprints>
         <fp>Crystal*</fp>
       </footprints>
@@ -2372,7 +2322,7 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="D_Zener_18V-formula">
+    <libpart lib="Suspension_Strain-rescue" part="D_Zener_18V-formula">
       <footprints>
         <fp>TO-???*</fp>
         <fp>*SingleDiode</fp>
@@ -2394,7 +2344,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="F_500mA_16V-formula">
+    <libpart lib="Suspension_Strain-rescue" part="F_500mA_16V-formula">
       <footprints>
         <fp>*Fuse*</fp>
       </footprints>
@@ -2412,25 +2362,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="LED_0805-Formula">
-      <footprints>
-        <fp>LED*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED_0805-Formula</field>
-        <field name="Footprint">footprints:LED_0805_OEM</field>
-        <field name="Datasheet">http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</field>
-        <field name="MFN">DK</field>
-        <field name="MPN">475-1410-1-ND</field>
-        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="LED_0805-formula">
+    <libpart lib="Suspension_Strain-rescue" part="LED_0805-formula">
       <footprints>
         <fp>LED*</fp>
       </footprints>
@@ -2448,7 +2380,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="L_100uH-formula">
+    <libpart lib="Suspension_Strain-rescue" part="L_100uH-formula">
       <fields>
         <field name="Reference">L</field>
         <field name="Value">L_100uH-formula</field>
@@ -2463,7 +2395,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="MCP2561-E_SN-formula">
+    <libpart lib="Suspension_Strain-rescue" part="MCP2561-E_SN-formula">
       <footprints>
         <fp>SOIC*Pitch1.27mm*</fp>
       </footprints>
@@ -2487,10 +2419,217 @@
         <pin num="8" name="STBY" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="MCP6001T-I-LT-Formula">
+    <libpart lib="Suspension_Strain-rescue" part="R_0_2512-formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0_2512-formula</field>
+        <field name="Footprint">footprints:R_2512_OEM</field>
+        <field name="Datasheet">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-7&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">A121322CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=A121322CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Suspension_Strain-rescue" part="R_100-formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_100-formula</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-rncp.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">RNCP0805FTD100RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Suspension_Strain-rescue" part="R_100K-formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_100K-formula</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">P100KCCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Suspension_Strain-rescue" part="R_10K-formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10K-formula</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">http://www.bourns.com/data/global/pdfs/CRS.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Suspension_Strain-rescue" part="R_200-formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_200-formula</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">RMCF0805JT200RCT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Suspension_Strain-rescue" part="R_25K-formula">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_25K-formula</field>
+        <field name="Footprint">footprints:R_0805_OEM</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773200-1&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="MFN">A124124CT-ND</field>
+        <field name="Digi-key Part Number">CPF-A-0805B25KE</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Suspension_Strain-rescue" part="TPS560430YF-formula">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">MCP6001T-I-LT-Formula</field>
+        <field name="Value">TPS560430YF-formula</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6_Handsoldering</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps560430.pdf</field>
+        <field name="MPN">TPS560430YFDBVR</field>
+        <field name="MFN">TPS560430YFDBVR-ND</field>
+        <field name="Purchasing Link">https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CB" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="SW" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Formula" part="74HC4051">
+      <description>IC MUX/DEMUX 8CH ANLG 16TSSOP</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74HC_HCT4051_Q100.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC4051</field>
+        <field name="Footprint">footprints:TSSOP-16-OEM</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">1727-1033-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/nexperia-usa-inc/74HC4051PW-Q10011/1727-1033-1-ND/3749040</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Y4" type="input"/>
+        <pin num="2" name="Y6" type="input"/>
+        <pin num="3" name="Z" type="input"/>
+        <pin num="4" name="Y7" type="input"/>
+        <pin num="5" name="Y5" type="input"/>
+        <pin num="6" name="E" type="input"/>
+        <pin num="7" name="VEE" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="S2" type="input"/>
+        <pin num="10" name="S1" type="input"/>
+        <pin num="11" name="S0" type="input"/>
+        <pin num="12" name="Y3" type="input"/>
+        <pin num="13" name="Y0" type="input"/>
+        <pin num="14" name="Y1" type="input"/>
+        <pin num="15" name="Y2" type="input"/>
+        <pin num="16" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Formula" part="C_0.1uF">
+      <description>Capacitor, 0.1uF, 50V, 5%, 0805</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0.1uF</field>
+        <field name="Footprint">footprints:C_0805_OEM</field>
+        <field name="Datasheet">http://datasheets.avx.com/X7RDielectric.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Formula" part="LED_0805">
+      <description>LED, Green, 2.2V, 20mA, 0805</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_0805</field>
+        <field name="Footprint">footprints:LED_0805_OEM</field>
+        <field name="Datasheet">http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">475-1410-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Formula" part="MCP6001T-I-LT">
+      <description>Single op-amp, general purpose, -40-+85 C, SC-70-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6001T-I-LT</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
         <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</field>
         <field name="MFN">DK</field>
@@ -2505,10 +2644,11 @@
         <pin num="5" name="V+" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="MM_F_RA_08-Formula">
+    <libpart lib="Formula" part="MM_F_RA_08">
+      <description>Micro-MaTch connector 8 pin female right angle</description>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">MM_F_RA_08-Formula</field>
+        <field name="Value">MM_F_RA_08</field>
         <field name="Footprint">footprints:micromatch_female_ra_8</field>
         <field name="Datasheet">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-8</field>
         <field name="MFN">TE</field>
@@ -2526,10 +2666,11 @@
         <pin num="8" name="8" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="MM_F_RA_20-Formula">
+    <libpart lib="Formula" part="MM_F_RA_20">
+      <description>Micro-MaTch connector 20 pin female right angle</description>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">MM_F_RA_20-Formula</field>
+        <field name="Value">MM_F_RA_20</field>
         <field name="Footprint">footprints:micromatch_female_ra_20</field>
         <field name="Datasheet">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=338070&amp;DocType=Customer+Drawing&amp;DocLang=English&amp;DocFormat=pdf&amp;PartCntxt=2-338070-0</field>
         <field name="MFN">TE</field>
@@ -2559,90 +2700,15 @@
         <pin num="20" name="20" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_0_2512-formula">
+    <libpart lib="Formula" part="R_120">
+      <description>Resistor, 120, 0.125W, 1%, 0805</description>
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R_0_2512-formula</field>
-        <field name="Footprint">footprints:R_2512_OEM</field>
-        <field name="Datasheet">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-7&amp;DocType=DS&amp;DocLang=English</field>
-        <field name="MFN">DK</field>
-        <field name="MPN">A121322CT-ND</field>
-        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=A121322CT-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_100-formula">
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_100-formula</field>
-        <field name="Footprint">footprints:R_0805_OEM</field>
-        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-rncp.pdf</field>
-        <field name="MFN">DK</field>
-        <field name="MPN">RNCP0805FTD100RCT-ND</field>
-        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_100K-formula">
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_100K-formula</field>
-        <field name="Footprint">footprints:R_0805_OEM</field>
-        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
-        <field name="MFN">DK</field>
-        <field name="MPN">P100KCCT-ND</field>
-        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_10K-formula">
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_10K-formula</field>
-        <field name="Footprint">footprints:R_0805_OEM</field>
-        <field name="Datasheet">http://www.bourns.com/data/global/pdfs/CRS.pdf</field>
-        <field name="MFN">DK</field>
-        <field name="MPN">CRS0805-FX-1002ELFCT-ND</field>
-        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_120-Formula">
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_120-Formula</field>
+        <field name="Value">R_120</field>
         <field name="Footprint">footprints:R_0805_OEM</field>
         <field name="Datasheet">https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</field>
         <field name="MFN">DK</field>
@@ -2654,14 +2720,16 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_120_DNP-Formula">
+    <libpart lib="Formula" part="R_120_DNP">
+      <description>Resistor, 120, 0.125W, 1%, 0805</description>
+      <docs>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</docs>
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R_120_DNP-Formula</field>
+        <field name="Value">R_120_DNP</field>
         <field name="Footprint">footprints:R_0805_OEM</field>
         <field name="MFN">DK</field>
         <field name="MPN">667-ERJ-6ENF1200V</field>
@@ -2672,14 +2740,15 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_1K-Formula">
+    <libpart lib="Formula" part="R_1K">
+      <description>Resistor, 1K, 0.25W, 1%, 0805</description>
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R_1K-Formula</field>
+        <field name="Value">R_1K</field>
         <field name="Footprint">footprints:R_0805_OEM</field>
         <field name="Datasheet">https://www.seielect.com/Catalog/SEI-rncp.pdf</field>
         <field name="MFN">DK</field>
@@ -2691,14 +2760,15 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_200-Formula">
+    <libpart lib="Formula" part="R_200">
+      <description>Resistor, 200, 0.125W, 5%, 0805</description>
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R_200-Formula</field>
+        <field name="Value">R_200</field>
         <field name="Footprint">footprints:R_0805_OEM</field>
         <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
         <field name="MFN">DK</field>
@@ -2710,48 +2780,12 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_200-formula">
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
+    <libpart lib="Formula" part="R_4.99K">
+      <description>4.99k resistor</description>
+      <docs>https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568</docs>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R_200-formula</field>
-        <field name="Footprint">footprints:R_0805_OEM</field>
-        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</field>
-        <field name="MFN">DK</field>
-        <field name="MPN">RMCF0805JT200RCT-ND</field>
-        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_25K-formula">
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_25K-formula</field>
-        <field name="Footprint">footprints:R_0805_OEM</field>
-        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773200-1&amp;DocType=DS&amp;DocLang=English</field>
-        <field name="MFN">A124124CT-ND</field>
-        <field name="Digi-key Part Number">CPF-A-0805B25KE</field>
-        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="R_4.99K-Formula">
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_4.99K-Formula</field>
+        <field name="Value">R_4.99K</field>
         <field name="Footprint">footprints:R_0805_OEM</field>
         <field name="Datasheet">https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf</field>
         <field name="MPN">RNCP0805FTD4K99CT-ND </field>
@@ -2763,29 +2797,13 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Chassis_Strain-rescue" part="TPS560430YF-formula">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TPS560430YF-formula</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6_Handsoldering</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps560430.pdf</field>
-        <field name="MPN">TPS560430YFDBVR</field>
-        <field name="MFN">TPS560430YFDBVR-ND</field>
-        <field name="Purchasing Link">https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813</field>
-      </fields>
-      <pins>
-        <pin num="1" name="CB" type="BiDi"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="FB" type="input"/>
-        <pin num="4" name="EN" type="input"/>
-        <pin num="5" name="VIN" type="power_in"/>
-        <pin num="6" name="SW" type="output"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
-    <library logical="Chassis_Strain-rescue">
-      <uri>/home/lucky/Desktop/Formula/2020/MKV-Boards/Boards/Chassis_Strain/Chassis_Strain-rescue.lib</uri>
+    <library logical="Suspension_Strain-rescue">
+      <uri>/home/duncan/formula/MKV-Boards/Boards/Suspension_Strain/Chassis_Strain-rescue.lib</uri>
+    </library>
+    <library logical="Formula">
+      <uri>/home/duncan/formula/OEM_Preferred_Parts/schematic/formula.lib</uri>
     </library>
   </libraries>
   <nets>
