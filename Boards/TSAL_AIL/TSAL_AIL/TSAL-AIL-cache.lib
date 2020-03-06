@@ -55,7 +55,10 @@ X 1 1 0 300 100 D 50 50 1 1 B
 X 2 2 250 50 100 L 50 50 1 1 B
 X 3 3 50 -300 100 U 50 50 1 1 B
 X 4 4 -50 -300 100 U 50 50 1 1 B
-X 7 7 -250 0 100 R 50 50 1 1 B
+X 5 5 -250 150 100 R 50 50 1 1 B
+X 6 6 -250 50 100 R 50 50 1 1 B
+X 7 7 -250 -50 100 R 50 50 1 1 B
+X 8 8 -250 -150 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -91,10 +94,148 @@ X ~ 4 300 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Formula_C_.22uF
+#
+DEF Formula_C_.22uF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "Formula_C_.22uF" 25 -50 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZRY5V9BB224/311-4362-1-ND/8025451" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Formula_C_100uF+
+#
+DEF Formula_C_100uF+ C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "Formula_C_100uF+" 25 -50 50 H V L CNN
+F2 "footprints:C_100uF+" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/nichicon/UUQ1H101MCL1GS/493-3209-2-ND/1965345" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Formula_C_10uF_450V
+#
+DEF Formula_C_10uF_450V C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "Formula_C_10uF_450V" 25 -50 50 H V L CNN
+F2 "footprints:C_10uF_450V" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEV-EB2W100SM/PCE3597CT-ND/613821" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Formula_C_1uF
+#
+DEF Formula_C_1uF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "Formula_C_1uF" 25 -50 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-1-ND/5195811#images" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Formula_C_2.2uF
+#
+DEF Formula_C_2.2uF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "Formula_C_2.2uF" 25 -50 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/tdk-corporation/C2012X7R1H225M125AE/445-172488-1-ND/4990030" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Formula_C_470pF
+#
+DEF Formula_C_470pF C 0 10 N Y 1 F N
+F0 "C" 25 150 50 H V L CNN
+F1 "Formula_C_470pF" 25 -50 50 H V L CNN
+F2 "footprints:C_0805_OEM" 38 600 50 H I C CNN
+F3 "" 25 850 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/yageo/CC0805KRX7R9BB471/311-1124-1-ND/303034" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 20 80 20 N
+P 2 0 1 20 -80 80 80 80 N
+X ~ 1 0 200 110 D 50 50 1 1 P
+X ~ 2 0 -100 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Formula_Diode_600V_1A_SM
 #
-DEF Formula_Diode_600V_1A_SM U 0 40 Y Y 1 F N
-F0 "U" 0 250 50 H V C CNN
+DEF Formula_Diode_600V_1A_SM D? 0 40 Y Y 1 F N
+F0 "D?" 0 250 50 H V C CNN
 F1 "Formula_Diode_600V_1A_SM" 0 350 50 H V C CNN
 F2 "footprints:Diode_600V_1A_SM" -50 150 50 H I C CNN
 F3 "" -50 150 50 H I C CNN
@@ -108,25 +249,21 @@ X ~ 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Formula_LR8K4-G
+# Formula_L_1.2mH
 #
-DEF Formula_LR8K4-G U 0 40 Y Y 1 F N
-F0 "U" -300 150 50 H V L CNN
-F1 "Formula_LR8K4-G" 0 150 50 H V L CNN
-F2 "Package_TO_SOT_SMD:TO-252-2" 0 500 50 H I C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf" 0 300 50 H I C CNN
-F4 "Mouser" 0 400 60 H I C CNN "MFN"
-F5 "689-LR8K4-G" -50 600 60 H I C CNN "MPN"
-F6 "https://www.mouser.com/productdetail/?qs=jWmFlM7coATgElKtQd9PRA%3D%3D" -200 700 60 H I C CNN "Webpage"
-$FPLIST
- TO?252*
- DPAK*
-$ENDFPLIST
+DEF Formula_L_1.2mH L 0 40 N N 1 F N
+F0 "L" 0 -50 50 H V C CNN
+F1 "Formula_L_1.2mH" 0 100 50 H V C CNN
+F2 "footprints:L_1.2mH" -100 -200 50 H I C CNN
+F3 "" -100 -150 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/sumida-america-components-inc/RCP1317NP-122L/308-2336-ND/4356405" 300 200 50 H I C CNN "PurchasingLink"
 DRAW
-S -300 100 300 -200 0 1 10 f
-X IN 1 -400 0 100 R 50 50 1 1 I
-X OUT 2 400 0 100 L 50 50 1 1 w
-X ADJ 3 0 -300 100 U 50 50 1 1 I
+A -60 0 20 1 1799 1 1 0 N -40 0 -80 0
+A -20 0 20 1 1799 1 1 0 N 0 0 -40 0
+A 20 0 20 1 1799 1 1 0 N 40 0 0 0
+A 60 0 20 1 1799 1 1 0 N 80 0 40 0
+X ~ 1 -100 0 20 R 50 50 1 1 P
+X ~ 2 100 0 20 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -153,6 +290,27 @@ X - 4 -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Formula_R_10K
+#
+DEF Formula_R_10K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Formula_R_10K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Formula_R_270K
 #
 DEF Formula_R_270K R 0 0 N Y 1 F N
@@ -166,6 +324,88 @@ F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ER
 $FPLIST
  R_*
  R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Formula_R_3K
+#
+DEF Formula_R_3K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Formula_R_3K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RMCF0805FT3K00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Formula_R_51.1K
+#
+DEF Formula_R_51.1K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Formula_R_51.1K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -1100 300 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" -1100 400 50 H I L CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "P51.1KCCT-ND" -1100 200 60 H I L CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5112V/P51.1KCCT-ND/119466" -1100 500 60 H I L CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Formula_R_6.04K
+#
+DEF Formula_R_6.04K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Formula_R_6.04K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 550 50 H I C CNN
+F3 "" 80 550 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF6041V/P6.04KCCT-ND/119185" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Formula_R_6.2K
+#
+DEF Formula_R_6.2K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Formula_R_6.2K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 550 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 550 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "P6.20KCCT-ND" 0 550 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF6201V/P6.20KCCT-ND/1746887" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -267,27 +507,6 @@ P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
 X ~ 1 0 150 110 D 50 50 1 1 P
 X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# TSAL-AIL-rescue_F_21mA_420V-Formula-TSAL-AIL-rescue
-#
-DEF TSAL-AIL-rescue_F_21mA_420V-Formula-TSAL-AIL-rescue F 0 0 N Y 1 F N
-F0 "F" 80 0 50 V V C CNN
-F1 "TSAL-AIL-rescue_F_21mA_420V-Formula-TSAL-AIL-rescue" -75 0 50 V V C CNN
-F2 "footprints:F_21mA_420V" -600 -200 50 V I C CNN
-F3 "https://en.tdk.eu/inf/55/db/PTC/PTC_OC_Leaded_380V_500V.pdf" 650 150 50 V I C CNN
-F4 "DK" -900 400 60 H I C CNN "MFN"
-F5 "495-75309-ND" -150 650 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/epcos-tdk/B59884C0120A070/495-75309-ND/651926" 480 400 60 V I C CNN "PurchasingLink"
-$FPLIST
- *Fuse*
-$ENDFPLIST
-DRAW
-S -30 -100 30 100 0 1 10 N
-P 2 0 1 0 0 100 0 -100 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -429,27 +648,6 @@ F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ER
 $FPLIST
  R_*
  R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# TSAL-AIL-rescue_R_3K-Formula-TSAL-AIL-rescue
-#
-DEF TSAL-AIL-rescue_R_3K-Formula-TSAL-AIL-rescue R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "TSAL-AIL-rescue_R_3K-Formula-TSAL-AIL-rescue" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
-F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "RMCF0805FT3K00CT-ND" 0 0 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" 480 400 60 H I C CNN "PurchasingLink"
-$FPLIST
- R_*
- Resistor_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N

@@ -626,7 +626,7 @@ Wire Wire Line
 	8900 6250 8650 6250
 Connection ~ 9200 6400
 Wire Wire Line
-	9200 6400 9200 6650
+	9200 6400 9200 6450
 Wire Wire Line
 	8350 6450 8950 6450
 Wire Wire Line
@@ -764,7 +764,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 4850 6850 4850
 Wire Wire Line
-	13500 7400 13000 7400
+	13500 7400 13050 7400
 Wire Wire Line
 	13000 7400 13000 7200
 Wire Wire Line
@@ -806,7 +806,7 @@ Wire Wire Line
 Wire Wire Line
 	12550 8850 12550 8900
 Wire Wire Line
-	12550 8900 13500 8900
+	12550 8900 13050 8900
 NoConn ~ 14750 8300
 NoConn ~ 14750 7600
 Text Label 8450 5150 0    50   ~ 0
@@ -1566,7 +1566,7 @@ Wire Wire Line
 Wire Wire Line
 	15000 7550 15000 7400
 Wire Wire Line
-	15000 7400 14750 7400
+	15000 7400 14950 7400
 Wire Wire Line
 	15650 4400 15650 4600
 Wire Wire Line
@@ -1598,7 +1598,7 @@ V-2
 Text Label 8700 3500 0    50   ~ 0
 GND2
 Wire Wire Line
-	8300 3500 8700 3500
+	8300 3500 8550 3500
 Text Notes 8100 3650 0    50   ~ 0
 Connect V- to gnd net
 Wire Wire Line
@@ -1685,7 +1685,7 @@ Wire Wire Line
 Wire Wire Line
 	15000 7650 15000 7800
 Wire Wire Line
-	15000 7800 14750 7800
+	15000 7800 14950 7800
 Wire Wire Line
 	14950 8350 14950 8500
 Wire Wire Line
@@ -1908,7 +1908,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 $EndComp
 Connection ~ 12550 7900
 Wire Wire Line
-	12550 7900 13000 7900
+	12550 7900 12950 7900
 $Comp
 L formula:R_60.4 R59
 U 1 1 5CAF07D2
@@ -1925,7 +1925,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 $EndComp
 Connection ~ 12550 8100
 Wire Wire Line
-	12550 8100 13500 8100
+	12550 8100 13050 8100
 $Comp
 L formula:R_60.4 R60
 U 1 1 5CAF0908
@@ -2209,7 +2209,7 @@ Wire Wire Line
 	8900 9450 8650 9450
 Connection ~ 9200 9600
 Wire Wire Line
-	9200 9600 9200 9850
+	9200 9600 9200 9750
 Wire Wire Line
 	8350 9650 8950 9650
 Text Notes 9300 9600 0    50   ~ 0
@@ -3061,7 +3061,7 @@ Wire Wire Line
 Wire Wire Line
 	12550 11500 12550 11550
 Wire Wire Line
-	12550 11550 13500 11550
+	12550 11550 12950 11550
 NoConn ~ 14750 10950
 NoConn ~ 14750 10250
 Wire Wire Line
@@ -3081,7 +3081,7 @@ isoSPI A towards Core
 Text Notes 15850 10850 0    50   ~ 0
 isoSPI B up the daisy chain\n
 Wire Wire Line
-	14750 10750 14950 10750
+	14750 10750 14900 10750
 Wire Wire Line
 	14950 10750 14950 10900
 Wire Wire Line
@@ -3124,7 +3124,7 @@ Wire Wire Line
 Wire Wire Line
 	14950 11000 14950 11150
 Wire Wire Line
-	14950 11150 14750 11150
+	14950 11150 14900 11150
 $Comp
 L formula:C_10nF C28
 U 1 1 5DA7115A
@@ -3202,8 +3202,6 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 Connection ~ 12550 9850
-Wire Wire Line
-	12550 9850 13000 9850
 $Comp
 L formula:R_60.4 R62
 U 1 1 5DA7118C
@@ -3219,8 +3217,6 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 Connection ~ 12550 10550
-Wire Wire Line
-	12550 10550 13000 10550
 $Comp
 L formula:R_60.4 R63
 U 1 1 5DA71197
@@ -3237,7 +3233,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 $EndComp
 Connection ~ 12550 10750
 Wire Wire Line
-	12550 10750 13500 10750
+	12550 10750 12950 10750
 $Comp
 L formula:R_60.4 R64
 U 1 1 5DA711A2
@@ -3623,7 +3619,7 @@ V-1
 Text Label 8700 3300 0    50   ~ 0
 GND1
 Wire Wire Line
-	8300 3300 8700 3300
+	8300 3300 8550 3300
 Text Label 9300 5450 0    50   ~ 0
 GND2
 Text Label 9750 6200 2    50   ~ 0
@@ -3839,4 +3835,204 @@ F 6 "http://www.te.com/global-en/product-338068-4.html" H 15350 13800 60  0001 C
 $EndComp
 Text Notes 15700 12450 0    50   ~ 0
 RETENTION
+$Comp
+L formula:Test_Point_SMD TP6
+U 1 1 5E6A04FA
+P 12950 10800
+F 0 "TP6" H 12862 10842 50  0000 R CNN
+F 1 "Test_Point_SMD" H 12862 10887 50  0001 R CNN
+F 2 "footprints:Test_Point_SMD" H 12950 10650 50  0001 C CNN
+F 3 "" H 12950 10800 50  0001 C CNN
+	1    12950 10800
+	-1   0    0    1   
+$EndComp
+Connection ~ 12950 10750
+Wire Wire Line
+	12950 10750 13500 10750
+$Comp
+L formula:Test_Point_SMD TP7
+U 1 1 5E6A71D4
+P 12950 11500
+F 0 "TP7" H 13028 11542 50  0000 L CNN
+F 1 "Test_Point_SMD" H 13028 11497 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 12950 11350 50  0001 C CNN
+F 3 "" H 12950 11500 50  0001 C CNN
+	1    12950 11500
+	1    0    0    -1  
+$EndComp
+Connection ~ 12950 11550
+Wire Wire Line
+	12950 11550 13500 11550
+Wire Wire Line
+	12550 10550 13000 10550
+Wire Wire Line
+	12550 9850 13000 9850
+$Comp
+L formula:Test_Point_SMD TP10
+U 1 1 5E6B4A7C
+P 13050 8850
+F 0 "TP10" H 13128 8892 50  0000 L CNN
+F 1 "Test_Point_SMD" H 12962 8937 50  0001 R CNN
+F 2 "footprints:Test_Point_SMD" H 13050 8700 50  0001 C CNN
+F 3 "" H 13050 8850 50  0001 C CNN
+	1    13050 8850
+	1    0    0    -1  
+$EndComp
+Connection ~ 13050 8900
+Wire Wire Line
+	13050 8900 13500 8900
+$Comp
+L formula:Test_Point_SMD TP8
+U 1 1 5E6B6F35
+P 13050 7450
+F 0 "TP8" H 12962 7492 50  0000 R CNN
+F 1 "Test_Point_SMD" H 12962 7537 50  0001 R CNN
+F 2 "footprints:Test_Point_SMD" H 13050 7300 50  0001 C CNN
+F 3 "" H 13050 7450 50  0001 C CNN
+	1    13050 7450
+	-1   0    0    1   
+$EndComp
+Connection ~ 13050 7400
+Wire Wire Line
+	13050 7400 13000 7400
+$Comp
+L formula:Test_Point_SMD TP5
+U 1 1 5E6B772B
+P 12950 7850
+F 0 "TP5" H 13028 7892 50  0000 L CNN
+F 1 "Test_Point_SMD" H 12862 7937 50  0001 R CNN
+F 2 "footprints:Test_Point_SMD" H 12950 7700 50  0001 C CNN
+F 3 "" H 12950 7850 50  0001 C CNN
+	1    12950 7850
+	1    0    0    -1  
+$EndComp
+Connection ~ 12950 7900
+Wire Wire Line
+	12950 7900 13000 7900
+$Comp
+L formula:Test_Point_SMD TP9
+U 1 1 5E6B7E69
+P 13050 8150
+F 0 "TP9" H 12962 8192 50  0000 R CNN
+F 1 "Test_Point_SMD" H 12962 8237 50  0001 R CNN
+F 2 "footprints:Test_Point_SMD" H 13050 8000 50  0001 C CNN
+F 3 "" H 13050 8150 50  0001 C CNN
+	1    13050 8150
+	-1   0    0    1   
+$EndComp
+Connection ~ 13050 8100
+Wire Wire Line
+	13050 8100 13500 8100
+$Comp
+L formula:Test_Point_SMD TP12
+U 1 1 5E6BC279
+P 14900 11200
+F 0 "TP12" H 14812 11242 50  0000 R CNN
+F 1 "Test_Point_SMD" H 14978 11197 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 14900 11050 50  0001 C CNN
+F 3 "" H 14900 11200 50  0001 C CNN
+	1    14900 11200
+	-1   0    0    1   
+$EndComp
+Connection ~ 14900 11150
+Wire Wire Line
+	14900 11150 14750 11150
+$Comp
+L formula:Test_Point_SMD TP11
+U 1 1 5E6BD237
+P 14900 10700
+F 0 "TP11" H 14978 10742 50  0000 L CNN
+F 1 "Test_Point_SMD" H 14978 10697 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 14900 10550 50  0001 C CNN
+F 3 "" H 14900 10700 50  0001 C CNN
+	1    14900 10700
+	1    0    0    -1  
+$EndComp
+Connection ~ 14900 10750
+Wire Wire Line
+	14900 10750 14950 10750
+$Comp
+L formula:Test_Point_SMD TP13
+U 1 1 5E6C190B
+P 14950 7350
+F 0 "TP13" H 15028 7392 50  0000 L CNN
+F 1 "Test_Point_SMD" H 15028 7347 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 14950 7200 50  0001 C CNN
+F 3 "" H 14950 7350 50  0001 C CNN
+	1    14950 7350
+	1    0    0    -1  
+$EndComp
+Connection ~ 14950 7400
+Wire Wire Line
+	14950 7400 14750 7400
+$Comp
+L formula:Test_Point_SMD TP14
+U 1 1 5E6C43F9
+P 14950 7850
+F 0 "TP14" H 14862 7892 50  0000 R CNN
+F 1 "Test_Point_SMD" H 15028 7847 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 14950 7700 50  0001 C CNN
+F 3 "" H 14950 7850 50  0001 C CNN
+	1    14950 7850
+	-1   0    0    1   
+$EndComp
+Connection ~ 14950 7800
+Wire Wire Line
+	14950 7800 14750 7800
+$Comp
+L formula:Test_Point_SMD TP2
+U 1 1 5E6D7E41
+P 8550 3550
+F 0 "TP2" H 8462 3592 50  0000 R CNN
+F 1 "Test_Point_SMD" H 8628 3547 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 8550 3400 50  0001 C CNN
+F 3 "" H 8550 3550 50  0001 C CNN
+	1    8550 3550
+	-1   0    0    1   
+$EndComp
+Connection ~ 8550 3500
+Wire Wire Line
+	8550 3500 8700 3500
+$Comp
+L formula:Test_Point_SMD TP1
+U 1 1 5E6D8BD8
+P 8550 3250
+F 0 "TP1" H 8628 3292 50  0000 L CNN
+F 1 "Test_Point_SMD" H 8628 3247 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 8550 3100 50  0001 C CNN
+F 3 "" H 8550 3250 50  0001 C CNN
+	1    8550 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 8550 3300
+Wire Wire Line
+	8550 3300 8700 3300
+$Comp
+L formula:Test_Point_SMD TP3
+U 1 1 5E70F85B
+P 9250 6450
+F 0 "TP3" V 9245 6628 50  0000 L CNN
+F 1 "Test_Point_SMD" H 9328 6447 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 9250 6300 50  0001 C CNN
+F 3 "" H 9250 6450 50  0001 C CNN
+	1    9250 6450
+	0    1    1    0   
+$EndComp
+Connection ~ 9200 6450
+Wire Wire Line
+	9200 6450 9200 6650
+$Comp
+L formula:Test_Point_SMD TP4
+U 1 1 5E711045
+P 9250 9750
+F 0 "TP4" V 9245 9928 50  0000 L CNN
+F 1 "Test_Point_SMD" H 9328 9747 50  0001 L CNN
+F 2 "footprints:Test_Point_SMD" H 9250 9600 50  0001 C CNN
+F 3 "" H 9250 9750 50  0001 C CNN
+	1    9250 9750
+	0    1    1    0   
+$EndComp
+Connection ~ 9200 9750
+Wire Wire Line
+	9200 9750 9200 9850
 $EndSCHEMATC
