@@ -243,14 +243,6 @@ Text Label 2450 1700 0    50   ~ 0
 GND
 Text Label 2450 1800 0    50   ~ 0
 GND
-Text Label 4800 900  0    50   ~ 0
-GND
-Text Label 4800 1000 0    50   ~ 0
-GND
-Text Label 4800 1550 0    50   ~ 0
-GND
-Text Label 4800 1650 0    50   ~ 0
-GND
 Text Label 4800 1100 0    50   ~ 0
 5V_LED_BARS
 Text Label 4800 1750 0    50   ~ 0
@@ -370,8 +362,6 @@ BOTS>ESTOP
 Text Label 10200 1450 0    50   ~ 0
 ESTOP>HVD
 Text Label 10200 1550 0    50   ~ 0
-GND
-Text Label 10200 1650 0    50   ~ 0
 GND
 Text Label 10200 1750 0    50   ~ 0
 GND
@@ -815,4 +805,50 @@ Text Label 2450 1400 0    50   ~ 0
 SOC_LED_BAR
 Text Label 2450 1500 0    50   ~ 0
 5V_LED_BARS
+$Comp
+L power:GND #PWR?
+U 1 1 5E6BE8EA
+P 4800 1550
+F 0 "#PWR?" H 4800 1300 50  0001 C CNN
+F 1 "GND" V 4800 1350 50  0000 C CNN
+F 2 "" H 4800 1550 50  0001 C CNN
+F 3 "" H 4800 1550 50  0001 C CNN
+	1    4800 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6BEDD5
+P 4800 1650
+F 0 "#PWR?" H 4800 1400 50  0001 C CNN
+F 1 "GND" V 4800 1450 50  0000 C CNN
+F 2 "" H 4800 1650 50  0001 C CNN
+F 3 "" H 4800 1650 50  0001 C CNN
+	1    4800 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6BFA26
+P 4800 900
+F 0 "#PWR?" H 4800 650 50  0001 C CNN
+F 1 "GND" V 4800 700 50  0000 C CNN
+F 2 "" H 4800 900 50  0001 C CNN
+F 3 "" H 4800 900 50  0001 C CNN
+	1    4800 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6BFA2C
+P 4800 1000
+F 0 "#PWR?" H 4800 750 50  0001 C CNN
+F 1 "GND" V 4800 800 50  0000 C CNN
+F 2 "" H 4800 1000 50  0001 C CNN
+F 3 "" H 4800 1000 50  0001 C CNN
+	1    4800 1000
+	0    -1   -1   0   
+$EndComp
+Text Label 10200 1650 0    50   ~ 0
+5V_CAN_LOGGER
 $EndSCHEMATC
