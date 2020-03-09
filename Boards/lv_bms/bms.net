@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/adi/Documents/Formula/MKV-Boards/Boards/lv_bms/bms.sch)
-    (date "Thu 05 Mar 2020 10:00:06 PM EST")
+    (date "Mon 09 Mar 2020 02:36:44 AM EDT")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
