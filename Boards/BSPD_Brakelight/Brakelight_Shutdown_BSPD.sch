@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Brakelight_Shutdown_BSPD-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -160,21 +159,6 @@ F 1 "GND" H 11910 2340 50  0000 C CNN
 F 2 "" H 11910 2490 50  0001 C CNN
 F 3 "" H 11910 2490 50  0001 C CNN
 	1    11910 2490
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:CONN_02X03 J3
-U 1 1 5C00B3DE
-P 11610 2390
-F 0 "J3" H 11610 2590 50  0000 C CNN
-F 1 "CONN_02X03" H 11610 2190 50  0000 C CNN
-F 2 "footprints:Pin_Header_Straight_2x03" H 11610 1190 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 11610 1190 50  0001 C CNN
-F 4 "DK" H 11610 2390 60  0001 C CNN "MFN"
-F 5 "609-3234-ND" H 11610 2390 60  0001 C CNN "MPN"
-F 6 "Value" H 11610 2390 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 12010 2990 60  0001 C CNN "PurchasingLink"
-	1    11610 2390
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -343,7 +327,7 @@ $EndComp
 Wire Wire Line
 	5630 2450 5630 2650
 $Comp
-L formula:C_10uF C5
+L Brakelight_Shutdown_BSPD-rescue:C_10uF-formula C5
 U 1 1 5C032CA5
 P 5630 2800
 F 0 "C5" H 5630 2900 50  0000 L CNN
@@ -517,7 +501,7 @@ Wire Wire Line
 Wire Wire Line
 	6980 2550 6980 2650
 $Comp
-L formula:C_1uF C10
+L Brakelight_Shutdown_BSPD-rescue:C_1uF-formula C10
 U 1 1 5C06327B
 P 6980 2800
 F 0 "C10" H 6710 2770 50  0000 L CNN
@@ -1104,40 +1088,32 @@ Wire Wire Line
 	11870 7340 11920 7340
 Wire Wire Line
 	11570 7340 11470 7340
-Wire Wire Line
-	14860 6340 14860 6440
-Wire Wire Line
-	14860 6340 14960 6340
-Connection ~ 14860 6340
 $Comp
 L formula:R_10K R34
 U 1 1 5C0080C5
-P 14860 6590
-F 0 "R34" H 14930 6636 50  0000 L CNN
-F 1 "R_10K" H 14930 6545 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 14790 6590 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 14940 6590 50  0001 C CNN
-F 4 "DK" H 14860 6590 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 14860 6590 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 15340 6990 60  0001 C CNN "PurchasingLink"
-	1    14860 6590
+P 15090 6490
+F 0 "R34" H 15160 6536 50  0000 L CNN
+F 1 "R_10K" H 15160 6445 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 15020 6490 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 15170 6490 50  0001 C CNN
+F 4 "DK" H 15090 6490 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 15090 6490 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 15570 6890 60  0001 C CNN "PurchasingLink"
+	1    15090 6490
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR068
 U 1 1 5C008230
-P 14860 6740
-F 0 "#PWR068" H 14860 6490 50  0001 C CNN
-F 1 "GND" H 14865 6567 50  0000 C CNN
-F 2 "" H 14860 6740 50  0001 C CNN
-F 3 "" H 14860 6740 50  0001 C CNN
-	1    14860 6740
+P 15090 6640
+F 0 "#PWR068" H 15090 6390 50  0001 C CNN
+F 1 "GND" H 15095 6467 50  0000 C CNN
+F 2 "" H 15090 6640 50  0001 C CNN
+F 3 "" H 15090 6640 50  0001 C CNN
+	1    15090 6640
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14960 6340 14960 6240
-Connection ~ 14960 6340
-Text Label 14960 6240 1    50   ~ 0
+Text Label 15330 6340 1    50   ~ 0
 BRAKELIGHT_GATE
 $Comp
 L formula:SSM3K333R Q6
@@ -1549,7 +1525,7 @@ F 3 "" H 6460 9030 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_2.2uF C?
+L Brakelight_Shutdown_BSPD-rescue:C_2.2uF-formula C?
 U 1 1 5CC7941B
 P 6760 8880
 AR Path="/5CC68CC1/5CC7941B" Ref="C?"  Part="1" 
@@ -2089,7 +2065,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 12400 
 	1    0    0    -1  
 $EndComp
 Connection ~ 11920 5740
-Text Label 10970 6790 2    50   ~ 0
+Text Label 11390 6790 2    50   ~ 0
 BRAKE_PRESSURE_SENSE
 $Comp
 L formula:R_10K R10
@@ -2183,7 +2159,7 @@ Text Notes 11770 7490 0    50   ~ 0
 0.92V
 Text Notes 11620 5790 0    50   ~ 0
 0.45V
-Text Notes 10570 6890 0    50   ~ 0
+Text Notes 10440 6870 0    50   ~ 0
 0.5-4.5V
 $Comp
 L power:GND #PWR033
@@ -2295,7 +2271,7 @@ Wire Wire Line
 Wire Wire Line
 	13480 5840 13480 5940
 $Comp
-L formula:C_1uF C7
+L Brakelight_Shutdown_BSPD-rescue:C_1uF-formula C7
 U 1 1 5DF78FF8
 P 13480 6090
 F 0 "C7" H 13210 6060 50  0000 L CNN
@@ -2343,7 +2319,7 @@ Wire Wire Line
 Wire Wire Line
 	13480 6890 13480 6990
 $Comp
-L formula:C_1uF C11
+L Brakelight_Shutdown_BSPD-rescue:C_1uF-formula C11
 U 1 1 5DFD6ED1
 P 13480 7140
 F 0 "C11" H 13210 7110 50  0000 L CNN
@@ -2602,14 +2578,14 @@ Wire Wire Line
 	6930 7480 6930 7020
 Connection ~ 6930 7020
 Text Label 7100 6460 0    50   ~ 0
-SHUTDOWN_SENSE_BSPD_PIN
+~SHUTDOWN_SENSE_BSPD_PIN
 Wire Wire Line
 	7100 6460 6930 6460
 Connection ~ 6930 6460
 Wire Wire Line
 	6930 6460 6930 6520
 Text Label 3450 8450 0    50   ~ 0
-SHUTDOWN_SENSE_BSPD_PIN
+~SHUTDOWN_SENSE_BSPD_PIN
 Text Label 1210 6070 0    50   ~ 0
 BSPD_CURRENT_SENSE
 Wire Notes Line
@@ -2761,39 +2737,9 @@ Wire Wire Line
 Wire Wire Line
 	11800 6790 12370 6790
 Wire Wire Line
-	10970 6790 11090 6790
-$Comp
-L formula:R_0 R14
-U 1 1 5DD68F2C
-P 11240 6790
-F 0 "R14" V 11033 6790 50  0000 C CNN
-F 1 "R_0" V 11124 6790 50  0000 C CNN
-F 2 "footprints:R_0603_1608Metric" H 11170 6790 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 11320 6790 50  0001 C CNN
-F 4 "DK" H 11240 6790 60  0001 C CNN "MFN"
-F 5 "P0.0GCT-ND" H 11240 6790 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 11720 7190 60  0001 C CNN "PurchasingLink"
-	1    11240 6790
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	11390 6790 11510 6790
 Wire Wire Line
 	14410 6340 14560 6340
-$Comp
-L formula:R_0 R33
-U 1 1 5BFFEC6F
-P 14710 6340
-F 0 "R33" V 14503 6340 50  0000 C CNN
-F 1 "R_0" V 14594 6340 50  0000 C CNN
-F 2 "footprints:R_0603_1608Metric" H 14640 6340 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 14790 6340 50  0001 C CNN
-F 4 "DK" H 14710 6340 60  0001 C CNN "MFN"
-F 5 "P0.0GCT-ND" H 14710 6340 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 15190 6740 60  0001 C CNN "PurchasingLink"
-	1    14710 6340
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	14760 3460 14920 3460
 Wire Wire Line
@@ -2854,19 +2800,14 @@ Wire Wire Line
 $Comp
 L formula:Test_Point_SMD TP2
 U 1 1 5E3CA9BA
-P 15080 6290
-F 0 "TP2" H 15020 6480 50  0000 L CNN
-F 1 "Test_Point_SMD" H 15010 6550 50  0000 L CNN
-F 2 "footprints:Test_Point_SMD" H 15080 6140 50  0001 C CNN
-F 3 "" H 15080 6290 50  0001 C CNN
-	1    15080 6290
+P 14560 6290
+F 0 "TP2" H 14500 6480 50  0000 L CNN
+F 1 "Test_Point_SMD" H 14490 6550 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 14560 6140 50  0001 C CNN
+F 3 "" H 14560 6290 50  0001 C CNN
+	1    14560 6290
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14960 6340 15080 6340
-Connection ~ 15080 6340
-Wire Wire Line
-	15080 6340 15330 6340
 $Comp
 L formula:Test_Point_SMD TP3
 U 1 1 5E424713
@@ -2952,4 +2893,39 @@ F 3 "" H 1480 2670 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8190 2610
+Wire Wire Line
+	14860 6340 15090 6340
+Connection ~ 15090 6340
+Wire Wire Line
+	15090 6340 15330 6340
+Connection ~ 14560 6340
+$Comp
+L formula:R_0 R33
+U 1 1 5BFFEC6F
+P 14710 6340
+F 0 "R33" V 14503 6340 50  0000 C CNN
+F 1 "R_0" V 14594 6340 50  0000 C CNN
+F 2 "footprints:R_0603_1608Metric" H 14640 6340 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 14790 6340 50  0001 C CNN
+F 4 "DK" H 14710 6340 60  0001 C CNN "MFN"
+F 5 "P0.0GCT-ND" H 14710 6340 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 15190 6740 60  0001 C CNN "PurchasingLink"
+	1    14710 6340
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:CONN_02X03 J3
+U 1 1 5C00B3DE
+P 11610 2390
+F 0 "J3" H 11610 2590 50  0000 C CNN
+F 1 "CONN_02X03" H 11610 2190 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_2x03" H 11610 1190 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 11610 1190 50  0001 C CNN
+F 4 "DK" H 11610 2390 60  0001 C CNN "MFN"
+F 5 "609-3234-ND" H 11610 2390 60  0001 C CNN "MPN"
+F 6 "Value" H 11610 2390 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 12010 2990 60  0001 C CNN "PurchasingLink"
+	1    11610 2390
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
