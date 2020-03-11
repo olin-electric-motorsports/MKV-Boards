@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# R_187-formula
+#
+DEF R_187-formula U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "R_187-formula" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 100 -140 -100 -60 1 1 10 N
+X ~ 1 -150 -100 50 R 50 50 1 1 P
+X ~ 2 150 -100 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_500-formula
+#
+DEF R_500-formula U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "R_500-formula" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# r_125-formula
+#
+DEF r_125-formula U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "r_125-formula" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
