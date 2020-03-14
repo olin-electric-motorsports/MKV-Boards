@@ -162,21 +162,6 @@ F 3 "" H 11910 2490 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:CONN_02X03 J3
-U 1 1 5C00B3DE
-P 11610 2390
-F 0 "J3" H 11610 2590 50  0000 C CNN
-F 1 "CONN_02X03" H 11610 2190 50  0000 C CNN
-F 2 "footprints:Pin_Header_Straight_2x03" H 11610 1190 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 11610 1190 50  0001 C CNN
-F 4 "DK" H 11610 2390 60  0001 C CNN "MFN"
-F 5 "609-3234-ND" H 11610 2390 60  0001 C CNN "MPN"
-F 6 "Value" H 11610 2390 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 12010 2990 60  0001 C CNN "PurchasingLink"
-	1    11610 2390
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:MCP2561-E_SN U3
 U 1 1 5C00B3DF
 P 14260 3610
@@ -344,15 +329,15 @@ Wire Wire Line
 $Comp
 L formula:C_10uF C5
 U 1 1 5C032CA5
-P 5630 2800
-F 0 "C5" H 5630 2900 50  0000 L CNN
-F 1 "C_10uF" H 5630 2700 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 5668 2650 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" H 5655 2900 50  0001 C CNN
-F 4 "DK" H 5630 2800 60  0001 C CNN "MFN"
-F 5 "1276-1052-1-ND" H 5630 2800 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" H 6055 3300 60  0001 C CNN "PurchasingLink"
-	1    5630 2800
+P 5630 2850
+F 0 "C5" H 5630 2950 50  0000 L CNN
+F 1 "C_10uF" H 5630 2750 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 5668 2700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" H 5655 2950 50  0001 C CNN
+F 4 "DK" H 5630 2850 60  0001 C CNN "MFN"
+F 5 "1276-1052-1-ND" H 5630 2850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A106KPFNNNE/1276-1052-1-ND/3889138" H 6055 3350 60  0001 C CNN "PurchasingLink"
+	1    5630 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -518,15 +503,15 @@ Wire Wire Line
 $Comp
 L formula:C_1uF C10
 U 1 1 5C06327B
-P 6980 2800
-F 0 "C10" H 6710 2770 50  0000 L CNN
-F 1 "C_1uF" H 6710 2680 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 7018 2650 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 7005 2900 50  0001 C CNN
-F 4 "DK" H 6980 2800 60  0001 C CNN "MFN"
-F 5 "1276-2887-1-ND" H 6980 2800 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 7405 3300 60  0001 C CNN "PurchasingLink"
-	1    6980 2800
+P 6980 2850
+F 0 "C10" H 6710 2820 50  0000 L CNN
+F 1 "C_1uF" H 6710 2730 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 7018 2700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 7005 2950 50  0001 C CNN
+F 4 "DK" H 6980 2850 60  0001 C CNN "MFN"
+F 5 "1276-2887-1-ND" H 6980 2850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 7405 3350 60  0001 C CNN "PurchasingLink"
+	1    6980 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -815,7 +800,7 @@ L formula:SN74LVC1G02DBVR U6
 U 1 1 5C0740FC
 P 7740 2610
 F 0 "U6" H 7790 2760 60  0000 L CNN
-F 1 "SN74LVC1G02" H 7760 2910 60  0000 L CNN
+F 1 "SN74LVC1G02" H 7040 2850 60  0000 L CNN
 F 2 "footprints:SOT-23-5_OEM" H 7740 2610 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf" H 8111 2557 60  0001 L CNN
 F 4 "DK" H 8111 2451 60  0001 L CNN "MFN"
@@ -1180,8 +1165,6 @@ F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-O
 	1    12720 6890
 	1    0    0    -1  
 $EndComp
-Text Label 1210 6170 0    50   ~ 0
-GND
 Text Label 1210 5970 0    50   ~ 0
 SHUTDOWN_SENSE_BSPD
 Text Label 1210 5870 0    50   ~ 0
@@ -1202,8 +1185,6 @@ Text Label 1210 4970 0    50   ~ 0
 SCK
 Text Label 1210 4470 0    50   ~ 0
 CAN_HIGH
-Text Label 1210 4670 0    50   ~ 0
-VCC
 $Comp
 L power:GND #PWR015
 U 1 1 5C20CC65
@@ -1305,7 +1286,7 @@ F 3 "" H 11470 7340 50  0001 C CNN
 $EndComp
 Text Label 3450 8350 0    50   ~ 0
 BRAKE_PRESSURE_SENSE
-Text Notes 3210 1580 0    98   ~ 0
+Text Notes 2750 1180 0    98   ~ 0
 BSPD (Brake System Plausability Device)
 Wire Notes Line
 	7090 1770 7090 3610
@@ -1347,7 +1328,7 @@ Wire Notes Line
 	7140 4670 8220 4670
 Text Notes 7200 4650 0    50   ~ 0
 Set-Reset NOR Gates\n
-Text Notes 10290 6030 0    98   ~ 0
+Text Notes 10130 5330 0    98   ~ 0
 Brake Light\n
 Text Label 9090 2410 0    50   ~ 0
 BSPD_RELAY_LSD
@@ -1542,17 +1523,17 @@ $EndComp
 $Comp
 L formula:C_2.2uF C?
 U 1 1 5CC7941B
-P 6760 8880
+P 6760 8930
 AR Path="/5CC68CC1/5CC7941B" Ref="C?"  Part="1" 
 AR Path="/5CC7941B" Ref="C102"  Part="1" 
-F 0 "C102" H 6810 8730 50  0000 L CNN
-F 1 "C_2.2uF" H 6660 9180 50  0000 L CNN
-F 2 "footprints:C_0603_1608Metric" H 6798 8730 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 6785 8980 50  0001 C CNN
-F 4 "DK" H 6760 8880 60  0001 C CNN "MFN"
-F 5 "311-1451-1-ND" H 6760 8880 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 7185 9380 60  0001 C CNN "PurchasingLink"
-	1    6760 8880
+F 0 "C102" H 6810 8780 50  0000 L CNN
+F 1 "C_2.2uF" H 6660 9230 50  0000 L CNN
+F 2 "footprints:C_0603_1608Metric" H 6798 8780 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 6785 9030 50  0001 C CNN
+F 4 "DK" H 6760 8930 60  0001 C CNN "MFN"
+F 5 "311-1451-1-ND" H 6760 8930 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 7185 9430 60  0001 C CNN "PurchasingLink"
+	1    6760 8930
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2288,15 +2269,15 @@ Wire Wire Line
 $Comp
 L formula:C_1uF C7
 U 1 1 5DF78FF8
-P 13480 6090
-F 0 "C7" H 13210 6060 50  0000 L CNN
-F 1 "C_1uF" H 13210 5970 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 13518 5940 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 13505 6190 50  0001 C CNN
-F 4 "DK" H 13480 6090 60  0001 C CNN "MFN"
-F 5 "1276-2887-1-ND" H 13480 6090 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 13905 6590 60  0001 C CNN "PurchasingLink"
-	1    13480 6090
+P 13480 6140
+F 0 "C7" H 13210 6110 50  0000 L CNN
+F 1 "C_1uF" H 13210 6020 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 13518 5990 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 13505 6240 50  0001 C CNN
+F 4 "DK" H 13480 6140 60  0001 C CNN "MFN"
+F 5 "1276-2887-1-ND" H 13480 6140 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 13905 6640 60  0001 C CNN "PurchasingLink"
+	1    13480 6140
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2336,15 +2317,15 @@ Wire Wire Line
 $Comp
 L formula:C_1uF C11
 U 1 1 5DFD6ED1
-P 13480 7140
-F 0 "C11" H 13210 7110 50  0000 L CNN
-F 1 "C_1uF" H 13210 7020 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 13518 6990 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 13505 7240 50  0001 C CNN
-F 4 "DK" H 13480 7140 60  0001 C CNN "MFN"
-F 5 "1276-2887-1-ND" H 13480 7140 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 13905 7640 60  0001 C CNN "PurchasingLink"
-	1    13480 7140
+P 13480 7190
+F 0 "C11" H 13210 7160 50  0000 L CNN
+F 1 "C_1uF" H 13210 7070 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 13518 7040 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 13505 7290 50  0001 C CNN
+F 4 "DK" H 13480 7190 60  0001 C CNN "MFN"
+F 5 "1276-2887-1-ND" H 13480 7190 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 13905 7690 60  0001 C CNN "PurchasingLink"
+	1    13480 7190
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2364,11 +2345,7 @@ Connection ~ 13480 6890
 Wire Wire Line
 	13480 6890 13660 6890
 Wire Notes Line
-	10090 5160 10090 7670
-Wire Notes Line
-	10090 7670 16050 7670
-Wire Notes Line
-	16050 7670 16050 5160
+	10090 7810 16050 7810
 Wire Notes Line
 	10090 5160 16050 5160
 Text Notes 10770 3010 0    50   ~ 0
@@ -2409,20 +2386,6 @@ Wire Notes Line
 	5210 3610 7090 3610
 Wire Notes Line
 	5210 1770 7090 1770
-$Comp
-L formula:MM_F_RA_20 J2
-U 1 1 5BEA89C8
-P 1060 5370
-F 0 "J2" H 1016 6717 60  0000 C CNN
-F 1 "MM_F_RA_20" H 1016 6611 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_20" H 860 6470 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 960 6570 60  0001 C CNN
-F 4 "TE" H 1160 6770 60  0001 C CNN "MFN"
-F 5 "2-338070-0" H 1260 6870 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 1060 6670 60  0001 C CNN "PurchasingLink"
-	1    1060 5370
-	1    0    0    -1  
-$EndComp
 Text Label 1210 4770 0    50   ~ 0
 MISO
 Text Label 1210 4870 0    50   ~ 0
@@ -2803,7 +2766,7 @@ L formula:Test_Point_SMD TP1
 U 1 1 5E3C5FC8
 P 11510 6740
 F 0 "TP1" H 11588 6828 50  0000 L CNN
-F 1 "Test_Point_SMD" H 11588 6737 50  0000 L CNN
+F 1 "Test_Point_SMD" H 11220 6610 50  0000 L CNN
 F 2 "footprints:Test_Point_SMD" H 11510 6590 50  0001 C CNN
 F 3 "" H 11510 6740 50  0001 C CNN
 	1    11510 6740
@@ -2928,4 +2891,177 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    14710 6340
 	0    1    1    0   
 $EndComp
+$Comp
+L formula:CONN_02X03 J3
+U 1 1 5C00B3DE
+P 11610 2390
+F 0 "J3" H 11610 2590 50  0000 C CNN
+F 1 "CONN_02X03" H 11610 2190 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_2x03" H 11610 1190 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 11610 1190 50  0001 C CNN
+F 4 "DK" H 11610 2390 60  0001 C CNN "MFN"
+F 5 "609-3234-ND" H 11610 2390 60  0001 C CNN "MPN"
+F 6 "Value" H 11610 2390 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 12010 2990 60  0001 C CNN "PurchasingLink"
+	1    11610 2390
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR060
+U 1 1 5E726D8B
+P 1660 4670
+F 0 "#PWR060" H 1660 4520 50  0001 C CNN
+F 1 "VCC" H 1677 4843 50  0000 C CNN
+F 2 "" H 1660 4670 50  0001 C CNN
+F 3 "" H 1660 4670 50  0001 C CNN
+	1    1660 4670
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MM_F_RA_20 J2
+U 1 1 5BEA89C8
+P 1060 5370
+F 0 "J2" H 1016 6717 60  0000 C CNN
+F 1 "MM_F_RA_20" H 1016 6611 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_20" H 860 6470 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 960 6570 60  0001 C CNN
+F 4 "TE" H 1160 6770 60  0001 C CNN "MFN"
+F 5 "2-338070-0" H 1260 6870 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 1060 6670 60  0001 C CNN "PurchasingLink"
+	1    1060 5370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1660 4670 1210 4670
+$Comp
+L formula:C_0.1uF C15
+U 1 1 5E742866
+P 4990 2030
+F 0 "C15" H 5105 2076 50  0000 L CNN
+F 1 "C_0.1uF" H 5105 1985 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 5028 1880 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5015 2130 50  0001 C CNN
+F 4 "DK" H 4990 2030 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 4990 2030 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 5415 2530 60  0001 C CNN "PurchasingLink"
+	1    4990 2030
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4730 2100 4860 2100
+Wire Wire Line
+	4860 2100 4860 1880
+Wire Wire Line
+	4860 1880 4990 1880
+Connection ~ 4730 2100
+$Comp
+L power:GND #PWR061
+U 1 1 5E750304
+P 4990 2180
+F 0 "#PWR061" H 4990 1930 50  0001 C CNN
+F 1 "GND" H 4995 2007 50  0000 C CNN
+F 2 "" H 4990 2180 50  0001 C CNN
+F 3 "" H 4990 2180 50  0001 C CNN
+	1    4990 2180
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_0.1uF C17
+U 1 1 5E7566FD
+P 8130 2100
+F 0 "C17" H 8245 2146 50  0000 L CNN
+F 1 "C_0.1uF" H 8245 2055 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 8168 1950 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8155 2200 50  0001 C CNN
+F 4 "DK" H 8130 2100 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 8130 2100 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 8555 2600 60  0001 C CNN "PurchasingLink"
+	1    8130 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7970 1950 8130 1950
+Wire Wire Line
+	7740 2260 7970 2260
+Connection ~ 7740 2260
+Wire Wire Line
+	7970 2260 7970 1950
+$Comp
+L power:GND #PWR065
+U 1 1 5E77C068
+P 8130 2250
+F 0 "#PWR065" H 8130 2000 50  0001 C CNN
+F 1 "GND" H 8135 2077 50  0000 C CNN
+F 2 "" H 8130 2250 50  0001 C CNN
+F 3 "" H 8130 2250 50  0001 C CNN
+	1    8130 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_0.1uF C16
+U 1 1 5E77F35C
+P 7820 3430
+F 0 "C16" H 7935 3476 50  0000 L CNN
+F 1 "C_0.1uF" H 7935 3385 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 7858 3280 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7845 3530 50  0001 C CNN
+F 4 "DK" H 7820 3430 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 7820 3430 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 8245 3930 60  0001 C CNN "PurchasingLink"
+	1    7820 3430
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7490 3550 7630 3550
+Wire Wire Line
+	7630 3550 7630 3280
+Wire Wire Line
+	7630 3280 7820 3280
+Connection ~ 7490 3550
+$Comp
+L power:GND #PWR064
+U 1 1 5E78B2F8
+P 7820 3580
+F 0 "#PWR064" H 7820 3330 50  0001 C CNN
+F 1 "GND" H 7825 3407 50  0000 C CNN
+F 2 "" H 7820 3580 50  0001 C CNN
+F 3 "" H 7820 3580 50  0001 C CNN
+	1    7820 3580
+	1    0    0    -1  
+$EndComp
+Text Notes 11320 7740 0    50   ~ 0
+V_out = VCC * R19 / (R19 + R12)\n5 * 499 / (499 + 2200) = .92
+Wire Notes Line
+	10090 5160 10090 7810
+Text Notes 10140 5830 0    50   ~ 0
+V_out = VCC * R16 / (R15 + R16)\n5 * 1000 / (10000 + 1000) = .45
+Text Notes 13250 9080 0    50   ~ 0
+Break Pressure Sensor\nhttps://www.digikey.com/product-detail/en/honeywell-sensing-and\n-productivity-solutions/MLH02KPSB06A/480-2534-ND/1248869\n\nVoltage range of .5-4.5V\nThis circuit uses the following ranges with corresponding behaivors:\n\n0-.45V (open circuit): Since the voltage is too low, we treat this as \nan open circuit, so we keep the brakelight on.\n\n.45-.92V: Brake isn't being pressed hard enough to be effective, so we\ndon't turn the brakelight on\n\n>.92V: Brake is being pressed enough for the driver to feel it, so we\nturn the brakelight on
+Wire Notes Line
+	16050 9170 13220 9170
+Wire Notes Line
+	13220 9170 13220 7810
+Wire Notes Line
+	16050 5160 16050 9170
+Text Notes 6990 1680 0    50   ~ 0
+BSPD circuit is tripped when the motor controller is still providing power \nto the motor while the brake is being pressed. This means the brake \nis not behaving correctly and this is a very dangerous situation, so the\nBSPD relay is tripped and the shutdown circuit is opened (car shuts \ndown).\n\nThere is a BSPD test switch included for testing to make sure the\ncircuit works, and also because it is rules-required.
+Text Notes 8790 6180 0    118  ~ 0
+VCC = 5V
+$Comp
+L power:GND #PWR059
+U 1 1 5E8310A8
+P 1210 6170
+F 0 "#PWR059" H 1210 5920 50  0001 C CNN
+F 1 "GND" H 1215 5997 50  0000 C CNN
+F 2 "" H 1210 6170 50  0001 C CNN
+F 3 "" H 1210 6170 50  0001 C CNN
+	1    1210 6170
+	1    0    0    -1  
+$EndComp
+Text Notes 2770 1750 0    50   ~ 0
+V_cap = V_source * (1 - e ^ (-t / RC))\nt = -RC * ln(1 - (V_cap / V_source))\nt = -(71500 * .00001 * ln(2.5 / 5))\n  = .5 s
+Text Notes 4580 1670 0    50   ~ 0
+V_cap = .5V because that is the \nvalue we compare to using the\nop amp (U2).
+Text Notes 2770 1400 0    79   ~ 0
+Timer Calculations
 $EndSCHEMATC
