@@ -231,6 +231,17 @@ F 3 "" H 8550 2500 50  0001 C CNN
 $EndComp
 Text Notes 8650 700  0    50   ~ 0
 Debugging LEDs\n
+$Comp
+L power:GND #PWR036
+U 1 1 5BED03F5
+P 8550 6200
+F 0 "#PWR036" H 8550 5950 50  0001 C CNN
+F 1 "GND" V 8555 6072 50  0000 R CNN
+F 2 "" H 8550 6200 50  0001 C CNN
+F 3 "" H 8550 6200 50  0001 C CNN
+	1    8550 6200
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	6350 1300 6350 1850
 Connection ~ 6350 1300
@@ -12223,6 +12234,20 @@ Text Label 8550 4600 0    50   ~ 0
 HV_LED
 Text Label 8550 4500 0    50   ~ 0
 LV_LED
+$Comp
+L dashboard_MKV_ewan-rescue:MM_F_VT_04-formula J3
+U 1 1 5C052763
+P 8300 6100
+F 0 "J3" H 8356 6547 60  0000 C CNN
+F 1 "MM_F_VT_04" H 8356 6441 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_4" H 8100 7200 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 8200 7300 60  0001 C CNN
+F 4 "TE" H 8400 7500 60  0001 C CNN "MFN"
+F 5 "338068-4" H 8500 7600 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-338068-4.html" H 8300 7400 60  0001 C CNN "PurchasingLink"
+	1    8300 6100
+	1    0    0    -1  
+$EndComp
 Text Notes 8350 4150 0    50   ~ 0
 MicroMatch Headers for Structural Support\n
 $Comp
@@ -12250,12 +12275,12 @@ $EndComp
 $Comp
 L power:VCC #PWR035
 U 1 1 5BED0070
-P 8550 5000
-F 0 "#PWR035" H 8550 4850 50  0001 C CNN
-F 1 "VCC" V 8567 5128 50  0000 L CNN
-F 2 "" H 8550 5000 50  0001 C CNN
-F 3 "" H 8550 5000 50  0001 C CNN
-	1    8550 5000
+P 8550 6100
+F 0 "#PWR035" H 8550 5950 50  0001 C CNN
+F 1 "VCC" V 8567 6228 50  0000 L CNN
+F 2 "" H 8550 6100 50  0001 C CNN
+F 3 "" H 8550 6100 50  0001 C CNN
+	1    8550 6100
 	0    1    1    0   
 $EndComp
 Text Label 9800 5700 0    50   ~ 0
@@ -12828,7 +12853,7 @@ F 3 "" H 5300 3400 50  0001 C CNN
 	1    5300 3400
 	1    0    0    -1  
 $EndComp
-Text Label 5300 2050 2    50   ~ 0
+Text Label 5300 2350 2    50   ~ 0
 RTD_LSD
 Wire Wire Line
 	5300 3300 5300 3000
@@ -12956,7 +12981,7 @@ Wire Wire Line
 	8100 3400 8100 3550
 Wire Wire Line
 	8250 2500 8250 2750
-Text Label 8550 4800 0    50   ~ 0
+Text Label 8550 5900 0    50   ~ 0
 DATA_SPEED_LED_BAR
 $Comp
 L dashboard_MKV_ewan-rescue:MM_F_VT_10-formula J1
@@ -12972,7 +12997,7 @@ F 6 "http://www.te.com/global-en/product-1-338068-0.html" H 8400 6900 60  0001 C
 	1    8400 5600
 	1    0    0    -1  
 $EndComp
-Text Label 8550 4900 0    50   ~ 0
+Text Label 8550 6000 0    50   ~ 0
 DATA_SOC_LED_BAR
 Wire Notes Line
 	5900 550  5900 3950
@@ -13241,6 +13266,39 @@ Wire Notes Line
 Wire Notes Line
 	4200 3950 4200 4550
 $Comp
+L power:GND #PWR052
+U 1 1 5DEEF323
+P 8550 4800
+F 0 "#PWR052" H 8550 4550 50  0001 C CNN
+F 1 "GND" V 8555 4672 50  0000 R CNN
+F 2 "" H 8550 4800 50  0001 C CNN
+F 3 "" H 8550 4800 50  0001 C CNN
+	1    8550 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR054
+U 1 1 5DEF40A0
+P 8550 4900
+F 0 "#PWR054" H 8550 4650 50  0001 C CNN
+F 1 "GND" V 8555 4772 50  0000 R CNN
+F 2 "" H 8550 4900 50  0001 C CNN
+F 3 "" H 8550 4900 50  0001 C CNN
+	1    8550 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR055
+U 1 1 5DEF8EAB
+P 8550 5000
+F 0 "#PWR055" H 8550 4750 50  0001 C CNN
+F 1 "GND" V 8555 4872 50  0000 R CNN
+F 2 "" H 8550 5000 50  0001 C CNN
+F 3 "" H 8550 5000 50  0001 C CNN
+	1    8550 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
 L power:GND #PWR056
 U 1 1 5DEFDE9E
 P 8550 5100
@@ -13249,6 +13307,17 @@ F 1 "GND" V 8555 4972 50  0000 R CNN
 F 2 "" H 8550 5100 50  0001 C CNN
 F 3 "" H 8550 5100 50  0001 C CNN
 	1    8550 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR053
+U 1 1 5DF040FA
+P 8550 4800
+F 0 "#PWR053" H 8550 4550 50  0001 C CNN
+F 1 "GND" V 8555 4672 50  0000 R CNN
+F 2 "" H 8550 4800 50  0001 C CNN
+F 3 "" H 8550 4800 50  0001 C CNN
+	1    8550 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -13741,7 +13810,7 @@ U 1 1 5E2CC629
 P 3850 6900
 F 0 "L101" H 3850 7000 50  0000 C CNN
 F 1 "L_100uH" H 3850 6850 50  0000 C CNN
-F 2 "footprints:L_100uH_OEM" H 3750 6700 50  0001 C CNN
+F 2 "formula:L_100uH" H 3750 6700 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 3750 6750 50  0001 C CNN
 F 4 "Digikey" H 3950 6700 50  0001 C CNN "MFN"
 F 5 "445-15759-1-ND" H 3850 7150 50  0001 C CNN "MPN"
@@ -13998,18 +14067,4 @@ Wire Wire Line
 	1200 6800 1100 6800
 Wire Wire Line
 	800  6800 700  6800
-$Comp
-L formula:R_100 R2
-U 1 1 5E6676E4
-P 5300 2200
-F 0 "R2" V 5300 2150 50  0000 L CNN
-F 1 "R_100" H 5370 2155 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 4500 2350 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5000 2700 50  0001 C CNN
-F 4 "DK" H 5300 2200 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD100RCT-ND" H 4650 2450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 5780 2600 60  0001 C CNN "PurchasingLink"
-	1    5300 2200
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
