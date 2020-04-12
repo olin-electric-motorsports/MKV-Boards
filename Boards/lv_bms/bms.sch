@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:bms-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1390,7 +1391,7 @@ F 3 "" H 1250 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1250 8750 0    50   ~ 0
-12V
+BattConn4
 $Comp
 L formula:LED_0805 D102
 U 1 1 5C754D7D

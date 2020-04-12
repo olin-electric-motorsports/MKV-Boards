@@ -1595,10 +1595,10 @@ Wire Wire Line
 Wire Wire Line
 	1750 9050 1800 9050
 $Comp
-L formula:R_1K R8
+L formula:R_1K R101
 U 1 1 5E55A8AD
 P 2000 9200
-F 0 "R8" H 2070 9246 50  0000 L CNN
+F 0 "R101" H 2070 9246 50  0000 L CNN
 F 1 "R_1K" H 2070 9155 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 1930 9200 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 2080 9200 50  0001 C CNN
@@ -2425,4 +2425,8 @@ F 3 "" H 14975 6975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 14875 6825
+Connection ~ 2400 9050
+Wire Wire Line
+	2000 9050 2400 9050
+Connection ~ 2000 9050
 $EndSCHEMATC
