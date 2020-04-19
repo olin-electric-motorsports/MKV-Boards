@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:bms-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -208,52 +209,48 @@ $EndComp
 $Comp
 L formula:C_0.1uF C1
 U 1 1 5D5FB603
-P 13350 1825
-F 0 "C1" V 13300 1935 50  0000 C CNN
-F 1 "C_0.1uF" V 13310 1635 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 13388 1675 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 13375 1925 50  0001 C CNN
-F 4 "DK" H 13350 1825 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 13350 1825 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 13775 2325 60  0001 C CNN "PurchasingLink"
-	1    13350 1825
+P 13325 1450
+F 0 "C1" V 13275 1560 50  0000 C CNN
+F 1 "C_0.1uF" V 13285 1260 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 13363 1300 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 13350 1550 50  0001 C CNN
+F 4 "DK" H 13325 1450 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 13325 1450 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 13750 1950 60  0001 C CNN "PurchasingLink"
+	1    13325 1450
 	0    1    1    0   
 $EndComp
 $Comp
 L formula:R_200 R2
 U 1 1 5D5FB79E
-P 14300 2425
-F 0 "R2" V 14390 2375 50  0000 L CNN
-F 1 "R_200" V 14210 2305 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 14230 2425 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 14380 2425 50  0001 C CNN
-F 4 "DK" H 14300 2425 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 14300 2425 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 14780 2825 60  0001 C CNN "PurchasingLink"
-	1    14300 2425
+P 14275 2050
+F 0 "R2" V 14365 2000 50  0000 L CNN
+F 1 "R_200" V 14185 1930 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 14205 2050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 14355 2050 50  0001 C CNN
+F 4 "DK" H 14275 2050 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 14275 2050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 14755 2450 60  0001 C CNN "PurchasingLink"
+	1    14275 2050
 	1    0    0    -1  
 $EndComp
-NoConn ~ 14000 2425
+NoConn ~ 13975 2050
 $Comp
 L power:VCC #PWR01
 U 1 1 5D602F58
-P 13500 1675
-F 0 "#PWR01" H 13500 1525 50  0001 C CNN
-F 1 "VCC" H 13517 1848 50  0000 C CNN
-F 2 "" H 13500 1675 50  0001 C CNN
-F 3 "" H 13500 1675 50  0001 C CNN
-	1    13500 1675
+P 13475 1300
+F 0 "#PWR01" H 13475 1150 50  0001 C CNN
+F 1 "VCC" H 13492 1473 50  0000 C CNN
+F 2 "" H 13475 1300 50  0001 C CNN
+F 3 "" H 13475 1300 50  0001 C CNN
+	1    13475 1300
 	1    0    0    -1  
 $EndComp
-Text Label 13000 2225 2    50   ~ 0
+Text Label 12975 1850 2    50   ~ 0
 CAN_TX
-Text Label 13000 2325 2    50   ~ 0
+Text Label 12975 1950 2    50   ~ 0
 CAN_RX
-Text Label 14450 2275 0    50   ~ 0
-CAN_HI
-Text Label 14450 2575 0    50   ~ 0
-CAN_LO
-Text Notes 12675 1375 0    89   ~ 0
+Text Notes 12650 1000 0    89   ~ 0
 CAN TRANSCEIVER\n
 Text Notes 900  900  0    89   ~ 0
 ATMEGA 16M1\n
@@ -373,21 +370,21 @@ Wire Wire Line
 Wire Wire Line
 	4875 3875 4875 3725
 Wire Wire Line
-	14100 2325 14100 2275
+	14075 1950 14075 1900
 Wire Wire Line
-	14100 2525 14100 2575
+	14075 2150 14075 2200
 Wire Wire Line
 	1225 1375 1575 1375
 Wire Wire Line
-	13500 1675 13500 1825
+	13475 1300 13475 1450
 Wire Wire Line
-	14100 2275 14300 2275
+	14075 1900 14275 1900
 Wire Wire Line
-	14100 2575 14300 2575
+	14075 2200 14275 2200
 Wire Wire Line
-	14000 2525 14100 2525
+	13975 2150 14075 2150
 Wire Wire Line
-	14000 2325 14100 2325
+	13975 1950 14075 1950
 Text Label 6150 7325 2    50   ~ 0
 BattConn1
 Text Label 6225 2175 2    50   ~ 0
@@ -605,20 +602,8 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    12700 9000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Thermistor TH2
-U 1 1 5DF725F6
-P 12700 8650
-F 0 "TH2" H 12805 8696 50  0000 L CNN
-F 1 "Thermistor" H 12805 8605 50  0000 L CNN
-F 2 "footprints:NanoFit_RA_4" H 12700 8650 50  0001 C CNN
-F 3 "~" H 12700 8650 50  0001 C CNN
-	1    12700 8650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12700 8800 12700 8850
-Connection ~ 12700 8850
 $Comp
 L formula:R_1K_0.1 R9
 U 1 1 5E0A56ED
@@ -635,21 +620,8 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 $EndComp
 Wire Wire Line
 	11600 8800 11600 8850
-Connection ~ 11600 8850
-Connection ~ 13825 8850
 Wire Wire Line
 	13825 8800 13825 8850
-$Comp
-L Device:Thermistor TH3
-U 1 1 5E0A9138
-P 13825 8650
-F 0 "TH3" H 13930 8696 50  0000 L CNN
-F 1 "Thermistor" H 13930 8605 50  0000 L CNN
-F 2 "footprints:NanoFit_RA_4" H 13825 8650 50  0001 C CNN
-F 3 "~" H 13825 8650 50  0001 C CNN
-	1    13825 8650
-	1    0    0    -1  
-$EndComp
 $Comp
 L formula:R_1K_0.1 R11
 U 1 1 5E0A9132
@@ -674,7 +646,7 @@ Text Label 8975 3475 0    50   ~ 0
 GPIO3
 Text Label 12400 8800 0    50   ~ 0
 GPIO1
-Text Notes 12200 5150 2    89   ~ 0
+Text Notes 12175 4775 2    89   ~ 0
 GPIO CONNECTS
 Wire Wire Line
 	8975 2675 9125 2675
@@ -713,57 +685,53 @@ Connection ~ 6600 7625
 NoConn ~ 4075 3875
 NoConn ~ 4075 3775
 NoConn ~ 4075 3675
-Connection ~ 14300 2275
+Connection ~ 14275 1900
+Connection ~ 14275 2200
+Connection ~ 13475 1450
 Wire Wire Line
-	14300 2275 14450 2275
-Connection ~ 14300 2575
-Wire Wire Line
-	14300 2575 14450 2575
-Connection ~ 13500 1825
-Wire Wire Line
-	13500 1825 13500 2025
+	13475 1450 13475 1650
 NoConn ~ 8975 1675
 NoConn ~ 8975 2575
 NoConn ~ 8975 2775
 Text Label 8975 2075 0    50   ~ 0
 TSREF
-Text Label 11700 1475 0    50   ~ 0
+Text Label 11675 1100 0    50   ~ 0
 TSREF
-Text Notes 11100 2100 0    89   ~ 0
+Text Notes 11075 1725 0    89   ~ 0
 TSREF CONNECTS\n
 $Comp
 L bms-rescue:C_2.2uF-formula C17
 U 1 1 5E42C059
-P 11700 1625
-F 0 "C17" H 11585 1579 50  0000 R CNN
-F 1 "C_2.2uF" H 11585 1670 50  0000 R CNN
-F 2 "footprints:C_0603_1608Metric" H 11738 1475 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 11725 1725 50  0001 C CNN
-F 4 "DK" H 11700 1625 60  0001 C CNN "MFN"
-F 5 "311-1451-1-ND" H 11700 1625 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 12125 2125 60  0001 C CNN "PurchasingLink"
-	1    11700 1625
+P 11675 1250
+F 0 "C17" H 11560 1204 50  0000 R CNN
+F 1 "C_2.2uF" H 11560 1295 50  0000 R CNN
+F 2 "footprints:C_0603_1608Metric" H 11713 1100 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 11700 1350 50  0001 C CNN
+F 4 "DK" H 11675 1250 60  0001 C CNN "MFN"
+F 5 "311-1451-1-ND" H 11675 1250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 12100 1750 60  0001 C CNN "PurchasingLink"
+	1    11675 1250
 	-1   0    0    1   
 $EndComp
 Text Label 8975 1775 0    50   ~ 0
 REF1
-Text Label 11525 2550 2    50   ~ 0
+Text Label 11500 2175 2    50   ~ 0
 REF1
 $Comp
 L bms-rescue:C_2.2uF-formula C18
 U 1 1 5E4EACBD
-P 11675 2550
-F 0 "C18" V 11550 2625 50  0000 R CNN
-F 1 "C_2.2uF" V 11825 2550 50  0000 R CNN
-F 2 "footprints:C_0603_1608Metric" H 11713 2400 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 11700 2650 50  0001 C CNN
-F 4 "DK" H 11675 2550 60  0001 C CNN "MFN"
-F 5 "311-1451-1-ND" H 11675 2550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 12100 3050 60  0001 C CNN "PurchasingLink"
-	1    11675 2550
+P 11650 2175
+F 0 "C18" V 11525 2250 50  0000 R CNN
+F 1 "C_2.2uF" V 11800 2175 50  0000 R CNN
+F 2 "footprints:C_0603_1608Metric" H 11688 2025 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 11675 2275 50  0001 C CNN
+F 4 "DK" H 11650 2175 60  0001 C CNN "MFN"
+F 5 "311-1451-1-ND" H 11650 2175 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 12075 2675 60  0001 C CNN "PurchasingLink"
+	1    11650 2175
 	0    1    1    0   
 $EndComp
-Text Notes 11100 2325 0    89   ~ 0
+Text Notes 11075 1950 0    89   ~ 0
 REF1 CONNECTS\n
 Wire Wire Line
 	8975 2875 9125 2875
@@ -848,29 +816,29 @@ UARTTX
 Wire Wire Line
 	8975 2475 9775 2475
 Wire Wire Line
-	11375 3350 11625 3350
-Text Label 11375 3350 2    50   ~ 0
+	11350 2975 11600 2975
+Text Label 11350 2975 2    50   ~ 0
 UARTTX
 $Comp
 L formula:R_10K R18
 U 1 1 5E61A370
-P 11625 3200
-F 0 "R18" H 11695 3246 50  0000 L CNN
-F 1 "R_10K" H 11695 3155 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 11555 3200 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 11705 3200 50  0001 C CNN
-F 4 "DK" H 11625 3200 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 11625 3200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 12105 3600 60  0001 C CNN "PurchasingLink"
-	1    11625 3200
+P 11600 2825
+F 0 "R18" H 11670 2871 50  0000 L CNN
+F 1 "R_10K" H 11670 2780 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 11530 2825 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 11680 2825 50  0001 C CNN
+F 4 "DK" H 11600 2825 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 11600 2825 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 12080 3225 60  0001 C CNN "PurchasingLink"
+	1    11600 2825
 	1    0    0    -1  
 $EndComp
-Text Label 11625 3050 0    50   ~ 0
+Text Label 11600 2675 0    50   ~ 0
 VIO
 Wire Wire Line
-	11625 3350 12075 3350
-Connection ~ 11625 3350
-Text Label 12075 3350 0    50   ~ 0
+	11600 2975 12050 2975
+Connection ~ 11600 2975
+Text Label 12050 2975 0    50   ~ 0
 UARTTX
 NoConn ~ 4075 3375
 Text Label 4075 3475 0    50   ~ 0
@@ -879,20 +847,8 @@ Text Label 4075 3575 0    50   ~ 0
 UARTRX
 Text Label 8975 2375 0    50   ~ 0
 UARTRX
-Connection ~ 14950 8850
 Wire Wire Line
 	14950 8800 14950 8850
-$Comp
-L Device:Thermistor TH4
-U 1 1 5E72A2AF
-P 14950 8650
-F 0 "TH4" H 15055 8696 50  0000 L CNN
-F 1 "Thermistor" H 15055 8605 50  0000 L CNN
-F 2 "footprints:NanoFit_RA_4" H 14950 8650 50  0001 C CNN
-F 3 "~" H 14950 8650 50  0001 C CNN
-	1    14950 8650
-	1    0    0    -1  
-$EndComp
 $Comp
 L formula:R_1K_0.1 R12
 U 1 1 5E72A2B8
@@ -912,20 +868,20 @@ GPIO4
 $Comp
 L formula:R_10K R15
 U 1 1 5E7C0975
-P 11800 5425
-F 0 "R15" V 11593 5425 50  0000 C CNN
-F 1 "R_10K" V 11684 5425 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 11730 5425 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 11880 5425 50  0001 C CNN
-F 4 "DK" H 11800 5425 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 11800 5425 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 12280 5825 60  0001 C CNN "PurchasingLink"
-	1    11800 5425
+P 11775 5050
+F 0 "R15" V 11568 5050 50  0000 C CNN
+F 1 "R_10K" V 11659 5050 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 11705 5050 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 11855 5050 50  0001 C CNN
+F 4 "DK" H 11775 5050 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 11775 5050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 12255 5450 60  0001 C CNN "PurchasingLink"
+	1    11775 5050
 	0    1    1    0   
 $EndComp
-Text Label 11650 5625 3    50   ~ 0
+Text Label 11625 5250 3    50   ~ 0
 GPIO5
-Text Label 11650 5425 2    50   ~ 0
+Text Label 11625 5050 2    50   ~ 0
 GPIO6
 Text Label 8975 3275 0    50   ~ 0
 GPIO5
@@ -1020,12 +976,12 @@ F 3 "" H 6875 2925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11650 5625 11650 5425
+	11625 5250 11625 5050
 Text Label 4075 1475 0    50   ~ 0
 NFAULT
 Wire Wire Line
-	14950 8450 14950 8350
-Text Label 14950 8350 0    50   ~ 0
+	15475 8450 15475 8350
+Text Label 15475 8350 0    50   ~ 0
 TSREF
 $Comp
 L formula:R_1K R14
@@ -1390,7 +1346,7 @@ F 3 "" H 1250 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1250 8750 0    50   ~ 0
-12V
+BattConn4
 $Comp
 L formula:LED_0805 D102
 U 1 1 5C754D7D
@@ -1640,15 +1596,11 @@ GROUND CONNECTS\n\n
 Wire Notes Line
 	13075 7200 13075 7725
 Wire Notes Line
-	12525 3450 11075 3450
+	12500 3075 11050 3075
 Wire Notes Line
-	14800 1400 14800 3150
+	12675 2775 12675 1025
 Wire Notes Line
-	14800 3150 12700 3150
-Wire Notes Line
-	12700 3150 12700 1400
-Wire Notes Line
-	12700 1400 14800 1400
+	12675 1025 14775 1025
 Connection ~ 1225 1375
 Connection ~ 1575 1675
 Wire Notes Line
@@ -1700,20 +1652,20 @@ Wire Wire Line
 Wire Wire Line
 	9700 1200 9700 1250
 Wire Notes Line
-	11075 2775 12525 2775
-Text Notes 11100 2950 0    89   ~ 0
+	11050 2400 12500 2400
+Text Notes 11075 2575 0    89   ~ 0
 TX CONNECTS
 Wire Notes Line
-	11075 2150 12525 2150
+	11050 1775 12500 1775
 Text Notes 5700 4825 0    71   ~ 0
 BMS Chip that manages cell charging, discharging, cell balancing, and cell temperature \n
 Text Notes 11450 9900 0    71   ~ 0
 Measures cell temp @ 4 locations w/ 4 thermistors \n& respective voltage dividers. \n
-Text Notes 11075 1325 0    89   ~ 0
+Text Notes 11050 950  0    89   ~ 0
 MISC. CONNECTS\n
 Text Notes 5525 8225 1    71   ~ 0
 Voltage sensing connects, from screw \nterminal to BMS Chip. 
-Text Notes 11075 6200 0    71   ~ 0
+Text Notes 11050 5825 0    71   ~ 0
 Bypass, misc. external \nconnects for BMS Chip 
 Wire Wire Line
 	9775 2175 9775 2200
@@ -1754,31 +1706,31 @@ WAKEUP
 Text Label 8975 2975 0    50   ~ 0
 VPROG
 Wire Wire Line
-	11400 4050 11650 4050
-Text Label 11400 4050 2    50   ~ 0
+	11375 3675 11625 3675
+Text Label 11375 3675 2    50   ~ 0
 UARTRX
 $Comp
 L formula:R_10K R20
 U 1 1 5E5D0CBB
-P 11650 3900
-F 0 "R20" H 11720 3946 50  0000 L CNN
-F 1 "R_10K" H 11720 3855 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 11580 3900 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 11730 3900 50  0001 C CNN
-F 4 "DK" H 11650 3900 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 11650 3900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 12130 4300 60  0001 C CNN "PurchasingLink"
-	1    11650 3900
+P 11625 3525
+F 0 "R20" H 11695 3571 50  0000 L CNN
+F 1 "R_10K" H 11695 3480 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 11555 3525 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 11705 3525 50  0001 C CNN
+F 4 "DK" H 11625 3525 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 11625 3525 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 12105 3925 60  0001 C CNN "PurchasingLink"
+	1    11625 3525
 	1    0    0    -1  
 $EndComp
-Text Label 11650 3750 0    50   ~ 0
+Text Label 11625 3375 0    50   ~ 0
 VIO
 Wire Wire Line
-	11650 4050 12100 4050
-Connection ~ 11650 4050
-Text Label 12100 4050 0    50   ~ 0
+	11625 3675 12075 3675
+Connection ~ 11625 3675
+Text Label 12075 3675 0    50   ~ 0
 UARTRX
-Text Notes 11125 3650 0    89   ~ 0
+Text Notes 11100 3275 0    89   ~ 0
 RX CONNECTS
 $Comp
 L power:GNDA #PWR0102
@@ -1817,25 +1769,25 @@ Text Label 8975 1875 0    50   ~ 0
 AVSS
 Text Label 8975 1975 0    50   ~ 0
 AVDD
-Text Label 11650 4850 0    50   ~ 0
+Text Label 11625 4475 0    50   ~ 0
 AVDD
 $Comp
 L bms-rescue:C_2.2uF-formula C26
 U 1 1 5E6CF478
-P 11650 4700
-F 0 "C26" H 11525 4700 50  0000 R CNN
-F 1 "C_2.2uF" H 12100 4700 50  0000 R CNN
-F 2 "footprints:C_0603_1608Metric" H 11688 4550 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 11675 4800 50  0001 C CNN
-F 4 "DK" H 11650 4700 60  0001 C CNN "MFN"
-F 5 "311-1451-1-ND" H 11650 4700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 12075 5200 60  0001 C CNN "PurchasingLink"
-	1    11650 4700
+P 11625 4325
+F 0 "C26" H 11500 4325 50  0000 R CNN
+F 1 "C_2.2uF" H 12075 4325 50  0000 R CNN
+F 2 "footprints:C_0603_1608Metric" H 11663 4175 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 11650 4425 50  0001 C CNN
+F 4 "DK" H 11625 4325 60  0001 C CNN "MFN"
+F 5 "311-1451-1-ND" H 11625 4325 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 12050 4825 60  0001 C CNN "PurchasingLink"
+	1    11625 4325
 	1    0    0    -1  
 $EndComp
-Text Notes 11125 4350 0    89   ~ 0
+Text Notes 11100 3975 0    89   ~ 0
 AVDD CONNECTS\n
-Text Label 11650 4550 2    50   ~ 0
+Text Label 11625 4175 2    50   ~ 0
 AVSS
 Text Label 12950 7400 1    50   ~ 0
 AVSS
@@ -1866,12 +1818,12 @@ AVSS
 $Comp
 L power:GNDA #PWR0117
 U 1 1 5E7DC14C
-P 11950 5425
-F 0 "#PWR0117" H 11950 5175 50  0001 C CNN
-F 1 "GNDA" H 11955 5252 50  0000 C CNN
-F 2 "" H 11950 5425 50  0001 C CNN
-F 3 "" H 11950 5425 50  0001 C CNN
-	1    11950 5425
+P 11925 5050
+F 0 "#PWR0117" H 11925 4800 50  0001 C CNN
+F 1 "GNDA" H 11930 4877 50  0000 C CNN
+F 2 "" H 11925 5050 50  0001 C CNN
+F 3 "" H 11925 5050 50  0001 C CNN
+	1    11925 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1932,23 +1884,23 @@ $EndComp
 $Comp
 L power:GNDA #PWR0123
 U 1 1 5E8591D5
-P 11825 2550
-F 0 "#PWR0123" H 11825 2300 50  0001 C CNN
-F 1 "GNDA" H 11830 2377 50  0000 C CNN
-F 2 "" H 11825 2550 50  0001 C CNN
-F 3 "" H 11825 2550 50  0001 C CNN
-	1    11825 2550
+P 11800 2175
+F 0 "#PWR0123" H 11800 1925 50  0001 C CNN
+F 1 "GNDA" H 11805 2002 50  0000 C CNN
+F 2 "" H 11800 2175 50  0001 C CNN
+F 3 "" H 11800 2175 50  0001 C CNN
+	1    11800 2175
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR0124
 U 1 1 5E86DE69
-P 11700 1775
-F 0 "#PWR0124" H 11700 1525 50  0001 C CNN
-F 1 "GNDA" H 11705 1602 50  0000 C CNN
-F 2 "" H 11700 1775 50  0001 C CNN
-F 3 "" H 11700 1775 50  0001 C CNN
-	1    11700 1775
+P 11675 1400
+F 0 "#PWR0124" H 11675 1150 50  0001 C CNN
+F 1 "GNDA" H 11680 1227 50  0000 C CNN
+F 2 "" H 11675 1400 50  0001 C CNN
+F 3 "" H 11675 1400 50  0001 C CNN
+	1    11675 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1988,9 +1940,9 @@ F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	11075 4150 12525 4150
+	11050 3775 12500 3775
 Wire Notes Line
-	11075 4925 12525 4925
+	11050 4550 12500 4550
 $Comp
 L formula:R_25K R19
 U 1 1 5E9D2E9F
@@ -2137,65 +2089,42 @@ AVSS
 $Comp
 L formula:MCP2561-E_SN U1
 U 1 1 5D5FAEDE
-P 13500 2425
-F 0 "U1" H 13860 2775 50  0000 C CNN
-F 1 "MCP2561-E_SN" H 13850 2065 50  0000 C CNN
-F 2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" H 13500 1925 50  0001 C CIN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" H 13100 2775 50  0001 C CNN
-F 4 "DK" H 13500 2425 60  0001 C CNN "MFN"
-F 5 "MCP2561-E/SN-ND" H 13500 2425 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" H 13500 3175 60  0001 C CNN "PurchasingLink"
-	1    13500 2425
+P 13475 2050
+F 0 "U1" H 13835 2400 50  0000 C CNN
+F 1 "MCP2561-E_SN" H 13825 1690 50  0000 C CNN
+F 2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" H 13475 1550 50  0001 C CIN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" H 13075 2400 50  0001 C CNN
+F 4 "DK" H 13475 2050 60  0001 C CNN "MFN"
+F 5 "MCP2561-E/SN-ND" H 13475 2050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" H 13475 2800 60  0001 C CNN "PurchasingLink"
+	1    13475 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13200 1825 12975 1825
+	13175 1450 12950 1450
 Wire Wire Line
-	12975 1825 12975 1925
+	12950 1450 12950 1550
 Wire Wire Line
 	6525 2475 6875 2475
 $Comp
 L power:GND #PWR0127
 U 1 1 5E63A57E
-P 13500 2825
-F 0 "#PWR0127" H 13500 2575 50  0001 C CNN
-F 1 "GND" H 13505 2652 50  0000 C CNN
-F 2 "" H 13500 2825 50  0001 C CNN
-F 3 "" H 13500 2825 50  0001 C CNN
-	1    13500 2825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Thermistor TH1
-U 1 1 5E0A56F3
-P 11600 8650
-F 0 "TH1" H 11705 8696 50  0000 L CNN
-F 1 "Thermistor" H 11705 8605 50  0000 L CNN
-F 2 "footprints:NanoFit_RA_4" H 11600 8650 50  0001 C CNN
-F 3 "~" H 11600 8650 50  0001 C CNN
-	1    11600 8650
+P 13475 2450
+F 0 "#PWR0127" H 13475 2200 50  0001 C CNN
+F 1 "GND" H 13480 2277 50  0000 C CNN
+F 2 "" H 13475 2450 50  0001 C CNN
+F 3 "" H 13475 2450 50  0001 C CNN
+	1    13475 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11600 8800 12100 8800
-Text Label 13475 8350 0    50   ~ 0
+Text Label 13475 8325 0    50   ~ 0
 VCC
-Wire Wire Line
-	13475 8450 13475 8350
-Wire Wire Line
-	12700 8800 13200 8800
 Wire Wire Line
 	13825 8800 14325 8800
 Wire Wire Line
 	14950 8800 15450 8800
-Wire Wire Line
-	11600 8450 12700 8450
-Connection ~ 12700 8450
-Wire Wire Line
-	12700 8450 13475 8450
-Connection ~ 13825 8450
-Wire Wire Line
-	13825 8450 14950 8450
 Wire Wire Line
 	12700 9150 12700 9375
 Wire Wire Line
@@ -2216,9 +2145,6 @@ Connection ~ 13475 9375
 Wire Wire Line
 	13475 9375 12700 9375
 Connection ~ 13475 8450
-Wire Wire Line
-	13475 8450 13825 8450
-Connection ~ 14950 8450
 Wire Notes Line
 	11475 8125 11475 9625
 Wire Notes Line
@@ -2264,37 +2190,37 @@ DVSS
 Text Label 9325 1850 0    50   ~ 0
 VIO
 Wire Notes Line
-	12525 5925 12525 1400
+	12500 5550 12500 1025
 Wire Notes Line
-	11075 1400 12525 1400
+	11050 1025 12500 1025
 Wire Notes Line
-	11075 1400 11075 5925
+	11050 1025 11050 5550
 Wire Notes Line
-	11075 5925 12525 5925
+	11050 5550 12500 5550
 Wire Wire Line
-	13000 2625 12850 2625
+	12975 2250 12825 2250
 Wire Wire Line
-	12850 2625 12850 2825
+	12825 2250 12825 2450
 $Comp
 L power:GND #PWR0128
 U 1 1 5EC9E8D5
-P 12850 2825
-F 0 "#PWR0128" H 12850 2575 50  0001 C CNN
-F 1 "GND" H 12855 2652 50  0000 C CNN
-F 2 "" H 12850 2825 50  0001 C CNN
-F 3 "" H 12850 2825 50  0001 C CNN
-	1    12850 2825
+P 12825 2450
+F 0 "#PWR0128" H 12825 2200 50  0001 C CNN
+F 1 "GND" H 12830 2277 50  0000 C CNN
+F 2 "" H 12825 2450 50  0001 C CNN
+F 3 "" H 12825 2450 50  0001 C CNN
+	1    12825 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0129
 U 1 1 5ECA987F
-P 12975 1925
-F 0 "#PWR0129" H 12975 1675 50  0001 C CNN
-F 1 "GND" H 12980 1752 50  0000 C CNN
-F 2 "" H 12975 1925 50  0001 C CNN
-F 3 "" H 12975 1925 50  0001 C CNN
-	1    12975 1925
+P 12950 1550
+F 0 "#PWR0129" H 12950 1300 50  0001 C CNN
+F 1 "GND" H 12955 1377 50  0000 C CNN
+F 2 "" H 12950 1550 50  0001 C CNN
+F 3 "" H 12950 1550 50  0001 C CNN
+	1    12950 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2429,4 +2355,202 @@ Connection ~ 2400 9050
 Wire Wire Line
 	2000 9050 2400 9050
 Connection ~ 2000 9050
+Wire Wire Line
+	14275 1900 14425 1900
+Wire Wire Line
+	14275 2200 14425 2200
+$Comp
+L formula:NanoFit_RA_04 J?
+U 1 1 5E9BE9C9
+P 14300 1300
+F 0 "J?" H 14172 1259 50  0000 R CNN
+F 1 "NanoFit_RA_04" H 14550 1575 50  0000 R CNN
+F 2 "footprints:NanoFit_RA_4" H 14300 1050 50  0001 C CNN
+F 3 "" H 14300 1550 50  0001 C CNN
+	1    14300 1300
+	-1   0    0    1   
+$EndComp
+Text Label 14425 2200 0    50   ~ 0
+CAN_LO
+Text Label 14425 1900 0    50   ~ 0
+CAN_HI
+Wire Wire Line
+	11600 8450 12700 8450
+Wire Wire Line
+	12700 8800 13200 8800
+Text Label 12700 8750 0    50   ~ 0
+-Therm2SMD
+Wire Wire Line
+	12700 8800 12700 8750
+Connection ~ 12700 8800
+Connection ~ 12700 8450
+Wire Wire Line
+	12700 8450 13475 8450
+Wire Wire Line
+	12700 8375 12700 8450
+Text Label 12700 8375 0    50   ~ 0
++Therm2SMD
+Wire Wire Line
+	11600 8800 11600 8750
+Connection ~ 11600 8800
+Text Label 11600 8750 0    50   ~ 0
+-Therm1SMD
+Wire Wire Line
+	11600 8450 11600 8400
+Text Label 11600 8400 0    50   ~ 0
++Therm1SMD
+Wire Wire Line
+	13475 8450 13825 8450
+Connection ~ 14950 8450
+Wire Wire Line
+	14950 8450 15475 8450
+Text Label 14950 8375 0    50   ~ 0
++Therm4SMD
+Wire Wire Line
+	14950 8375 14950 8450
+Wire Wire Line
+	14950 8800 14950 8750
+Connection ~ 14950 8800
+Text Label 14950 8750 0    50   ~ 0
+-Therm4SMD
+Wire Wire Line
+	13825 8800 13825 8750
+Connection ~ 13825 8800
+Text Label 13825 8750 0    50   ~ 0
+-Therm3SMD
+Connection ~ 13825 8450
+Wire Wire Line
+	13825 8450 14950 8450
+Wire Wire Line
+	13825 8375 13825 8450
+Text Label 13825 8375 0    50   ~ 0
++Therm3SMD
+Wire Wire Line
+	13475 8325 13475 8450
+Text Notes 9000 7850 0    71   ~ 0
+SMD Thermistor \nTestpoints
+Wire Notes Line
+	10400 7550 10400 10800
+Wire Notes Line
+	8850 7550 10400 7550
+Wire Notes Line
+	8850 10800 8850 7550
+Wire Notes Line
+	10400 10800 8850 10800
+Text Label 10100 9850 1    50   ~ 0
+-Therm4SMD
+$Comp
+L formula:Test_Point_SMD TP?
+U 1 1 5EB70974
+P 10100 9900
+F 0 "TP?" H 10178 9988 50  0000 L CNN
+F 1 "Test_Point_SMD" V 10075 10075 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 10100 9750 50  0001 C CNN
+F 3 "" H 10100 9900 50  0001 C CNN
+	1    10100 9900
+	-1   0    0    1   
+$EndComp
+Text Label 9800 9850 1    50   ~ 0
+-Therm3SMD
+$Comp
+L formula:Test_Point_SMD TP?
+U 1 1 5EB7096D
+P 9800 9900
+F 0 "TP?" H 9878 9988 50  0000 L CNN
+F 1 "Test_Point_SMD" V 9775 10075 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 9800 9750 50  0001 C CNN
+F 3 "" H 9800 9900 50  0001 C CNN
+	1    9800 9900
+	-1   0    0    1   
+$EndComp
+Text Label 9500 9850 1    50   ~ 0
+-Therm2SMD
+$Comp
+L formula:Test_Point_SMD TP?
+U 1 1 5EB70966
+P 9500 9900
+F 0 "TP?" H 9578 9988 50  0000 L CNN
+F 1 "Test_Point_SMD" V 9475 10075 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 9500 9750 50  0001 C CNN
+F 3 "" H 9500 9900 50  0001 C CNN
+	1    9500 9900
+	-1   0    0    1   
+$EndComp
+Text Label 9175 9850 1    50   ~ 0
+-Therm1SMD
+$Comp
+L formula:Test_Point_SMD TP?
+U 1 1 5EB7095F
+P 9175 9900
+F 0 "TP?" H 9253 9988 50  0000 L CNN
+F 1 "Test_Point_SMD" V 9150 10075 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 9175 9750 50  0001 C CNN
+F 3 "" H 9175 9900 50  0001 C CNN
+	1    9175 9900
+	-1   0    0    1   
+$EndComp
+Text Label 9200 8825 3    50   ~ 0
++Therm1SMD
+$Comp
+L formula:Test_Point_SMD TP?
+U 1 1 5EB614B7
+P 9200 8775
+F 0 "TP?" H 9278 8863 50  0000 L CNN
+F 1 "Test_Point_SMD" V 9175 8950 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 9200 8625 50  0001 C CNN
+F 3 "" H 9200 8775 50  0001 C CNN
+	1    9200 8775
+	1    0    0    -1  
+$EndComp
+Text Label 9500 8825 3    50   ~ 0
++Therm2SMD
+$Comp
+L formula:Test_Point_SMD TP?
+U 1 1 5EB5874C
+P 9500 8775
+F 0 "TP?" H 9578 8863 50  0000 L CNN
+F 1 "Test_Point_SMD" V 9475 8950 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 9500 8625 50  0001 C CNN
+F 3 "" H 9500 8775 50  0001 C CNN
+	1    9500 8775
+	1    0    0    -1  
+$EndComp
+Text Label 9800 8825 3    50   ~ 0
++Therm3SMD
+$Comp
+L formula:Test_Point_SMD TP?
+U 1 1 5EB4FB07
+P 9800 8775
+F 0 "TP?" H 9878 8863 50  0000 L CNN
+F 1 "Test_Point_SMD" V 9775 8950 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 9800 8625 50  0001 C CNN
+F 3 "" H 9800 8775 50  0001 C CNN
+	1    9800 8775
+	1    0    0    -1  
+$EndComp
+Text Label 10125 8825 3    50   ~ 0
++Therm4SMD
+$Comp
+L formula:Test_Point_SMD TP?
+U 1 1 5EA03FC1
+P 10125 8775
+F 0 "TP?" H 10203 8863 50  0000 L CNN
+F 1 "Test_Point_SMD" V 10100 8950 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 10125 8625 50  0001 C CNN
+F 3 "" H 10125 8775 50  0001 C CNN
+	1    10125 8775
+	1    0    0    -1  
+$EndComp
+Text Label 14100 1150 2    50   ~ 0
+VCC
+Text Label 14100 1450 2    50   ~ 0
+GND
+Text Label 14100 1350 2    50   ~ 0
+CAN_HI
+Text Label 14100 1250 2    50   ~ 0
+CAN_LO
+Wire Notes Line
+	14775 1025 14775 2775
+Wire Notes Line
+	12675 2775 14775 2775
 $EndSCHEMATC
