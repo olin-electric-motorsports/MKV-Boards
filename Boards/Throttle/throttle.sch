@@ -2612,10 +2612,10 @@ Wire Wire Line
 	7900 5800 8400 5800
 Connection ~ 8400 5800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5EAD2060
 P 10700 8900
-F 0 "#PWR?" H 10700 8650 50  0001 C CNN
+F 0 "#PWR0101" H 10700 8650 50  0001 C CNN
 F 1 "GND" H 10700 8750 50  0000 C CNN
 F 2 "" H 10700 8900 50  0001 C CNN
 F 3 "" H 10700 8900 50  0001 C CNN
@@ -2623,10 +2623,10 @@ F 3 "" H 10700 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0102
 U 1 1 5EADC782
 P 1800 5950
-F 0 "#PWR?" H 1800 5800 50  0001 C CNN
+F 0 "#PWR0102" H 1800 5800 50  0001 C CNN
 F 1 "VCC" H 1800 6100 50  0000 C CNN
 F 2 "" H 1800 5950 50  0001 C CNN
 F 3 "" H 1800 5950 50  0001 C CNN
@@ -2637,76 +2637,6 @@ Text Notes 8300 1150 0    118  ~ 0
 Shutdown Sense Circuits\n
 Text Notes 8750 1300 0    98   ~ 0
 (Inverted Logic)
-$Comp
-L formula:TP TP
-U 1 1 5EBDFBD1
-P 2000 3350
-F 0 "TP" V 2000 3378 50  0000 L CNN
-F 1 "TP" V 2045 3378 50  0001 L CNN
-F 2 "footprints:tp_1.6mm" H 1900 3250 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 3350 50  0001 C CNN
-F 4 "DK" H 2100 3450 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 2200 3550 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 3650 50  0001 C CNN "PurchasingLink"
-	1    2000 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:TP TP
-U 1 1 5EBFFED1
-P 2000 3450
-F 0 "TP" V 2000 3478 50  0000 L CNN
-F 1 "TP" V 2045 3478 50  0001 L CNN
-F 2 "footprints:tp_1.6mm" H 1900 3350 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 3450 50  0001 C CNN
-F 4 "DK" H 2100 3550 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 2200 3650 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 3750 50  0001 C CNN "PurchasingLink"
-	1    2000 3450
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:TP TP
-U 1 1 5EC0EE43
-P 2000 3550
-F 0 "TP" V 2000 3578 50  0000 L CNN
-F 1 "TP" V 2045 3578 50  0001 L CNN
-F 2 "footprints:tp_1.6mm" H 1900 3450 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 3550 50  0001 C CNN
-F 4 "DK" H 2100 3650 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 2200 3750 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 3850 50  0001 C CNN "PurchasingLink"
-	1    2000 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:TP TP
-U 1 1 5EC162EC
-P 2000 4050
-F 0 "TP" V 2000 4078 50  0000 L CNN
-F 1 "TP" V 2045 4078 50  0001 L CNN
-F 2 "footprints:tp_1.6mm" H 1900 3950 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 4050 50  0001 C CNN
-F 4 "DK" H 2100 4150 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 2200 4250 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 4350 50  0001 C CNN "PurchasingLink"
-	1    2000 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:TP TP
-U 1 1 5EC1C444
-P 2000 4150
-F 0 "TP" V 2000 4178 50  0000 L CNN
-F 1 "TP" V 2045 4178 50  0001 L CNN
-F 2 "footprints:tp_1.6mm" H 1900 4050 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 4150 50  0001 C CNN
-F 4 "DK" H 2100 4250 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 2200 4350 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 4450 50  0001 C CNN "PurchasingLink"
-	1    2000 4150
-	0    1    1    0   
-$EndComp
 Wire Notes Line
 	1250 9850 6350 9850
 Wire Notes Line
@@ -7138,4 +7068,74 @@ E3 23 C5 D8 20 A2 89 25 F4 83 10 8A 40 C6 4F A1 26 56 A4 11 8C 22 FC 89 61 A4 8D
 B2 77 B7 6B B0 6E B8 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L formula:TP TP
+U 1 1 5EC1C444
+P 2000 4150
+F 0 "TP" V 2000 4178 50  0000 L CNN
+F 1 "TP" V 2045 4178 50  0001 L CNN
+F 2 "footprints:tp_1.6mm" H 1900 4050 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 4150 50  0001 C CNN
+F 4 "DK" H 2100 4250 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 2200 4350 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 4450 50  0001 C CNN "PurchasingLink"
+	1    2000 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:TP TP
+U 1 1 5EC162EC
+P 2000 4050
+F 0 "TP" V 2000 4078 50  0000 L CNN
+F 1 "TP" V 2045 4078 50  0001 L CNN
+F 2 "footprints:tp_1.6mm" H 1900 3950 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 4050 50  0001 C CNN
+F 4 "DK" H 2100 4150 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 2200 4250 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 4350 50  0001 C CNN "PurchasingLink"
+	1    2000 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:TP TP
+U 1 1 5EC0EE43
+P 2000 3550
+F 0 "TP" V 2000 3578 50  0000 L CNN
+F 1 "TP" V 2045 3578 50  0001 L CNN
+F 2 "footprints:tp_1.6mm" H 1900 3450 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 3550 50  0001 C CNN
+F 4 "DK" H 2100 3650 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 2200 3750 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 3850 50  0001 C CNN "PurchasingLink"
+	1    2000 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:TP TP
+U 1 1 5EBFFED1
+P 2000 3450
+F 0 "TP" V 2000 3478 50  0000 L CNN
+F 1 "TP" V 2045 3478 50  0001 L CNN
+F 2 "footprints:tp_1.6mm" H 1900 3350 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 3450 50  0001 C CNN
+F 4 "DK" H 2100 3550 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 2200 3650 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 3750 50  0001 C CNN "PurchasingLink"
+	1    2000 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:TP TP
+U 1 1 5EBDFBD1
+P 2000 3350
+F 0 "TP" V 2000 3378 50  0000 L CNN
+F 1 "TP" V 2045 3378 50  0001 L CNN
+F 2 "footprints:tp_1.6mm" H 1900 3250 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 3350 50  0001 C CNN
+F 4 "DK" H 2100 3450 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 2200 3550 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 3650 50  0001 C CNN "PurchasingLink"
+	1    2000 3350
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
