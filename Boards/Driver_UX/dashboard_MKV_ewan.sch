@@ -15,69 +15,47 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:PWR_FLAG #FLG01
-U 1 1 59E0A741
-P 6950 5700
-F 0 "#FLG01" H 6950 5775 50  0001 C CNN
-F 1 "PWR_FLAG" H 6950 5850 50  0000 C CNN
-F 2 "" H 6950 5700 50  0001 C CNN
-F 3 "" H 6950 5700 50  0001 C CNN
-	1    6950 5700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG02
 U 1 1 59E0A773
-P 7350 5700
-F 0 "#FLG02" H 7350 5775 50  0001 C CNN
-F 1 "PWR_FLAG" H 7350 5850 50  0000 C CNN
-F 2 "" H 7350 5700 50  0001 C CNN
-F 3 "" H 7350 5700 50  0001 C CNN
-	1    7350 5700
+P 7200 6300
+F 0 "#FLG02" H 7200 6375 50  0001 C CNN
+F 1 "PWR_FLAG" H 7200 6450 50  0000 C CNN
+F 2 "" H 7200 6300 50  0001 C CNN
+F 3 "" H 7200 6300 50  0001 C CNN
+	1    7200 6300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG03
 U 1 1 59E0A7A5
-P 7750 5700
-F 0 "#FLG03" H 7750 5775 50  0001 C CNN
-F 1 "PWR_FLAG" H 7750 5850 50  0000 C CNN
-F 2 "" H 7750 5700 50  0001 C CNN
-F 3 "" H 7750 5700 50  0001 C CNN
-	1    7750 5700
+P 7600 6300
+F 0 "#FLG03" H 7600 6375 50  0001 C CNN
+F 1 "PWR_FLAG" H 7600 6450 50  0000 C CNN
+F 2 "" H 7600 6300 50  0001 C CNN
+F 3 "" H 7600 6300 50  0001 C CNN
+	1    7600 6300
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR027
-U 1 1 59E0A7D7
-P 6950 5700
-F 0 "#PWR027" H 6950 5550 50  0001 C CNN
-F 1 "+12V" H 6950 5840 50  0000 C CNN
-F 2 "" H 6950 5700 50  0001 C CNN
-F 3 "" H 6950 5700 50  0001 C CNN
-	1    6950 5700
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR029
 U 1 1 59E0A859
-P 7750 5700
-F 0 "#PWR029" H 7750 5450 50  0001 C CNN
-F 1 "GND" H 7750 5550 50  0000 C CNN
-F 2 "" H 7750 5700 50  0001 C CNN
-F 3 "" H 7750 5700 50  0001 C CNN
-	1    7750 5700
+P 7600 6300
+F 0 "#PWR029" H 7600 6050 50  0001 C CNN
+F 1 "GND" H 7600 6150 50  0000 C CNN
+F 2 "" H 7600 6300 50  0001 C CNN
+F 3 "" H 7600 6300 50  0001 C CNN
+	1    7600 6300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR028
 U 1 1 59E09A8F
-P 7350 5700
-F 0 "#PWR028" H 7350 5550 50  0001 C CNN
-F 1 "VCC" H 7350 5850 50  0000 C CNN
-F 2 "" H 7350 5700 50  0001 C CNN
-F 3 "" H 7350 5700 50  0001 C CNN
-	1    7350 5700
+P 7200 6300
+F 0 "#PWR028" H 7200 6150 50  0001 C CNN
+F 1 "VCC" H 7200 6450 50  0000 C CNN
+F 2 "" H 7200 6300 50  0001 C CNN
+F 3 "" H 7200 6300 50  0001 C CNN
+	1    7200 6300
 	-1   0    0    1   
 $EndComp
 NoConn ~ 8100 2700
@@ -6228,20 +6206,20 @@ Text Notes -1550 4000 0    50   ~ 10
 ATmega16m1 pinout
 Text Notes -1750 8100 0    50   ~ 10
 ATmega328p - AU pinout\n
-Text Label 6650 5700 1    50   ~ 0
+Text Label 6900 6300 1    50   ~ 0
 STR_POT-
 $Comp
 L power:GND #PWR031
 U 1 1 5C0303B6
-P 6650 5700
-F 0 "#PWR031" H 6650 5450 50  0001 C CNN
-F 1 "GND" H 6650 5550 50  0000 C CNN
-F 2 "" H 6650 5700 50  0001 C CNN
-F 3 "" H 6650 5700 50  0001 C CNN
-	1    6650 5700
+P 6900 6300
+F 0 "#PWR031" H 6900 6050 50  0001 C CNN
+F 1 "GND" H 6900 6150 50  0000 C CNN
+F 2 "" H 6900 6300 50  0001 C CNN
+F 3 "" H 6900 6300 50  0001 C CNN
+	1    6900 6300
 	1    0    0    -1  
 $EndComp
-Text Notes 6800 5350 0    50   ~ 0
+Text Notes 6650 5850 0    50   ~ 0
 Flags & Power Connectors\n
 NoConn ~ 8100 3000
 NoConn ~ 8100 3100
@@ -13431,15 +13409,15 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR030
 U 1 1 5C02D6EB
-P 6400 5700
-F 0 "#PWR030" H 6400 5550 50  0001 C CNN
-F 1 "VCC" H 6400 5850 50  0000 C CNN
-F 2 "" H 6400 5700 50  0001 C CNN
-F 3 "" H 6400 5700 50  0001 C CNN
-	1    6400 5700
+P 6650 6300
+F 0 "#PWR030" H 6650 6150 50  0001 C CNN
+F 1 "VCC" H 6650 6450 50  0000 C CNN
+F 2 "" H 6650 6300 50  0001 C CNN
+F 3 "" H 6650 6300 50  0001 C CNN
+	1    6650 6300
 	-1   0    0    1   
 $EndComp
-Text Label 6400 5700 1    50   ~ 0
+Text Label 6650 6300 1    50   ~ 0
 STR_POT+
 Wire Wire Line
 	5750 6900 5750 6800
@@ -13883,10 +13861,6 @@ Wire Notes Line
 	500  8000 6250 8000
 Wire Notes Line
 	500  6250 6250 6250
-Wire Notes Line
-	5950 5900 5950 5200
-Wire Notes Line
-	7950 5200 7950 5900
 Wire Wire Line
 	5200 7550 3850 7550
 Wire Wire Line
@@ -13970,10 +13944,6 @@ Wire Wire Line
 	9800 4600 10100 4600
 Text Label 10100 4600 0    50   ~ 0
 12V
-Wire Notes Line
-	5950 5200 7950 5200
-Wire Notes Line
-	5950 5900 7950 5900
 Wire Wire Line
 	1200 6800 1450 6800
 $Comp
@@ -14012,4 +13982,120 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 5780 2
 	1    5300 2200
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	6450 5700 7850 5700
+Wire Notes Line
+	6450 6600 7850 6600
+Wire Notes Line
+	7850 5700 7850 6600
+Wire Notes Line
+	6450 5700 6450 6600
+$Comp
+L formula:TP TP1
+U 1 1 5EADB477
+P 6400 4600
+F 0 "TP1" H 6478 4538 50  0000 L CNN
+F 1 "TP_12V" H 6478 4447 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 6300 4500 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 6400 4600 50  0001 C CNN
+F 4 "DK" H 6500 4700 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 6600 4800 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 6700 4900 50  0001 C CNN "PurchasingLink"
+	1    6400 4600
+	1    0    0    -1  
+$EndComp
+Text Label 6400 4800 3    50   ~ 0
+12V
+$Comp
+L formula:TP TP3
+U 1 1 5EB249E3
+P 6900 4600
+F 0 "TP3" H 6978 4538 50  0000 L CNN
+F 1 "TP_5V" H 6978 4447 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 6800 4500 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 6900 4600 50  0001 C CNN
+F 4 "DK" H 7000 4700 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 7100 4800 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 7200 4900 50  0001 C CNN "PurchasingLink"
+	1    6900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:TP TP2
+U 1 1 5EB30A8B
+P 6650 5050
+F 0 "TP2" H 6728 4988 50  0000 L CNN
+F 1 "TP_CANL" H 6728 4897 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 6550 4950 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 6650 5050 50  0001 C CNN
+F 4 "DK" H 6750 5150 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 6850 5250 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 6950 5350 50  0001 C CNN "PurchasingLink"
+	1    6650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:TP TP4
+U 1 1 5EB31670
+P 7150 5050
+F 0 "TP4" H 7228 4988 50  0000 L CNN
+F 1 "TP_CANH" H 7228 4897 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 7050 4950 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 7150 5050 50  0001 C CNN
+F 4 "DK" H 7250 5150 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 7350 5250 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 7450 5350 50  0001 C CNN "PurchasingLink"
+	1    7150 5050
+	1    0    0    -1  
+$EndComp
+Text Label 7150 5250 3    60   ~ 0
+CANH
+Text Label 6650 5250 3    60   ~ 0
+CANL
+$Comp
+L power:VCC #PWR09
+U 1 1 5EB525E9
+P 6900 4800
+F 0 "#PWR09" H 6900 4650 50  0001 C CNN
+F 1 "VCC" H 6900 4950 50  0000 C CNN
+F 2 "" H 6900 4800 50  0001 C CNN
+F 3 "" H 6900 4800 50  0001 C CNN
+	1    6900 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5EB55769
+P 7350 4800
+F 0 "#PWR010" H 7350 4550 50  0001 C CNN
+F 1 "GND" H 7350 4650 50  0000 C CNN
+F 2 "" H 7350 4800 50  0001 C CNN
+F 3 "" H 7350 4800 50  0001 C CNN
+	1    7350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:TP TP5
+U 1 1 5EB2AE4F
+P 7350 4600
+F 0 "TP5" H 7428 4538 50  0000 L CNN
+F 1 "TP_GND" H 7428 4447 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 7250 4500 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 7350 4600 50  0001 C CNN
+F 4 "DK" H 7450 4700 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 7550 4800 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 7650 4900 50  0001 C CNN "PurchasingLink"
+	1    7350 4600
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6050 5600 7850 5600
+Wire Notes Line
+	7850 5600 7850 4200
+Wire Notes Line
+	7850 4200 6050 4200
+Wire Notes Line
+	6050 4200 6050 5600
+Text Notes 6700 4450 0    50   ~ 0
+Test Points\n
 $EndSCHEMATC
