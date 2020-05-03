@@ -221,6 +221,21 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# dashboard_MKV_ewan-rescue_C_10uF_25V-formula
+#
+DEF dashboard_MKV_ewan-rescue_C_10uF_25V-formula C 0 40 Y Y 1 F N
+F0 "C" 50 -100 50 H V C CNN
+F1 "dashboard_MKV_ewan-rescue_C_10uF_25V-formula" 0 100 50 H V C CNN
+F2 "footprints:C_0805_OEM" -50 -200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # dashboard_MKV_ewan-rescue_C_22uF-formula-dashboard_MKV_ewan-rescue
 #
 DEF dashboard_MKV_ewan-rescue_C_22uF-formula-dashboard_MKV_ewan-rescue C 0 10 N Y 1 F N
@@ -319,6 +334,22 @@ X 1 1 -100 0 50 R 50 50 1 1 P
 X 2 2 0 -150 75 U 50 50 1 1 P
 X 3 3 100 0 50 L 50 50 1 1 P
 X 4 4 0 150 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dashboard_MKV_ewan-rescue_F_2.6A_16V-formula
+#
+DEF dashboard_MKV_ewan-rescue_F_2.6A_16V-formula F 0 40 Y Y 1 F N
+F0 "F" 0 -100 50 H V C CNN
+F1 "dashboard_MKV_ewan-rescue_F_2.6A_16V-formula" 0 100 50 H V C CNN
+F2 "footprints:Fuse_1812_4532Metric" -100 -200 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0260BF2B/507-1780-6-ND/4156287" 0 -200 50 H V C CNN "Digikey"
+DRAW
+S 100 -30 -100 30 1 1 10 N
+P 2 1 1 0 -100 0 100 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -550,6 +581,25 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# dashboard_MKV_ewan-rescue_TPS563231-formula
+#
+DEF dashboard_MKV_ewan-rescue_TPS563231-formula U 0 40 Y Y 1 F N
+F0 "U" -250 -100 50 H V C CNN
+F1 "dashboard_MKV_ewan-rescue_TPS563231-formula" 0 650 50 H V C CNN
+F2 "footprints:SOT-563" 0 150 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+DRAW
+S -300 200 -300 200 1 1 0 N
+S -300 600 250 0 1 1 0 f
+X VIN 1 -400 450 100 R 50 50 1 1 W
+X SW 2 350 350 100 L 50 50 1 1 O
+X GND 3 350 50 100 L 50 50 1 1 W
+X BST 4 350 500 100 L 50 50 1 1 B
+X EN 5 -400 200 100 R 50 50 1 1 I
+X FB 6 350 200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # formula_C_0.1uF
 #
 DEF formula_C_0.1uF C 0 10 N Y 1 F N
@@ -570,21 +620,6 @@ $ENDFPLIST
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# formula_C_10uF_25V
-#
-DEF formula_C_10uF_25V C 0 40 Y Y 1 F N
-F0 "C" 50 -100 50 H V C CNN
-F1 "formula_C_10uF_25V" 0 100 50 H V C CNN
-F2 "footprints:C_0805_OEM" -50 -200 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
 X ~ 1 0 150 110 D 50 50 1 1 P
 X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
@@ -615,22 +650,6 @@ P 3 0 1 8 -50 -50 -50 50 -30 50 N
 P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# formula_F_2.6A_16V
-#
-DEF formula_F_2.6A_16V F 0 40 Y Y 1 F N
-F0 "F" 0 -100 50 H V C CNN
-F1 "formula_F_2.6A_16V" 0 100 50 H V C CNN
-F2 "footprints:Fuse_1812_4532Metric" -100 -200 50 H I C CNN
-F3 "" 0 0 50 V I C CNN
-F4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0260BF2B/507-1780-6-ND/4156287" 0 -200 50 H V C CNN "Digikey"
-DRAW
-S 100 -30 -100 30 1 1 10 N
-P 2 1 1 0 -100 0 100 0 N
-X ~ 1 -150 0 50 R 50 50 1 1 P
-X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -802,25 +821,6 @@ F6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-
 DRAW
 C 0 -50 50 0 1 0 N
 X TP 1 0 -200 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# formula_TPS563231
-#
-DEF formula_TPS563231 U 0 40 Y Y 1 F N
-F0 "U" -250 -100 50 H V C CNN
-F1 "formula_TPS563231" 0 650 50 H V C CNN
-F2 "footprints:SOT-563" 0 150 50 H I C CNN
-F3 "" 0 150 50 H I C CNN
-DRAW
-S -300 200 -300 200 1 1 0 N
-S -300 600 250 0 1 1 0 f
-X VIN 1 -400 450 100 R 50 50 1 1 W
-X SW 2 350 350 100 L 50 50 1 1 O
-X GND 3 350 50 100 L 50 50 1 1 W
-X BST 4 350 500 100 L 50 50 1 1 B
-X EN 5 -400 200 100 R 50 50 1 1 I
-X FB 6 350 200 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
