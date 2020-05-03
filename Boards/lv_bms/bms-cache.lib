@@ -668,11 +668,11 @@ X STBY 8 -500 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# formula_NanoFit_RA_04
+# formula_NanoFit_RA_TH_04
 #
-DEF formula_NanoFit_RA_04 J 0 40 Y Y 1 F N
+DEF formula_NanoFit_RA_TH_04 J 0 40 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "formula_NanoFit_RA_04" 0 250 50 H V C CNN
+F1 "formula_NanoFit_RA_TH_04" 0 250 50 H V C CNN
 F2 "footprints:NanoFit_RA_4" 0 -250 50 H I C CNN
 F3 "" 0 250 50 H I C CNN
 DRAW

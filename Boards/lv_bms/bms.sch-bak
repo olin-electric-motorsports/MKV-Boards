@@ -2359,17 +2359,6 @@ Wire Wire Line
 	14275 1900 14425 1900
 Wire Wire Line
 	14275 2200 14425 2200
-$Comp
-L formula:NanoFit_RA_04 J?
-U 1 1 5E9BE9C9
-P 14300 1300
-F 0 "J?" H 14172 1259 50  0000 R CNN
-F 1 "NanoFit_RA_04" H 14550 1575 50  0000 R CNN
-F 2 "footprints:NanoFit_RA_4" H 14300 1050 50  0001 C CNN
-F 3 "" H 14300 1550 50  0001 C CNN
-	1    14300 1300
-	-1   0    0    1   
-$EndComp
 Text Label 14425 2200 0    50   ~ 0
 CAN_LO
 Text Label 14425 1900 0    50   ~ 0
@@ -2440,10 +2429,10 @@ Wire Notes Line
 Text Label 10100 9850 1    50   ~ 0
 -Therm4SMD
 $Comp
-L formula:Test_Point_SMD TP?
+L formula:Test_Point_SMD TP7
 U 1 1 5EB70974
 P 10100 9900
-F 0 "TP?" H 10178 9988 50  0000 L CNN
+F 0 "TP7" H 10178 9988 50  0000 L CNN
 F 1 "Test_Point_SMD" V 10075 10075 50  0000 L CNN
 F 2 "footprints:Test_Point_SMD" H 10100 9750 50  0001 C CNN
 F 3 "" H 10100 9900 50  0001 C CNN
@@ -2453,10 +2442,10 @@ $EndComp
 Text Label 9800 9850 1    50   ~ 0
 -Therm3SMD
 $Comp
-L formula:Test_Point_SMD TP?
+L formula:Test_Point_SMD TP6
 U 1 1 5EB7096D
 P 9800 9900
-F 0 "TP?" H 9878 9988 50  0000 L CNN
+F 0 "TP6" H 9878 9988 50  0000 L CNN
 F 1 "Test_Point_SMD" V 9775 10075 50  0000 L CNN
 F 2 "footprints:Test_Point_SMD" H 9800 9750 50  0001 C CNN
 F 3 "" H 9800 9900 50  0001 C CNN
@@ -2466,10 +2455,10 @@ $EndComp
 Text Label 9500 9850 1    50   ~ 0
 -Therm2SMD
 $Comp
-L formula:Test_Point_SMD TP?
+L formula:Test_Point_SMD TP4
 U 1 1 5EB70966
 P 9500 9900
-F 0 "TP?" H 9578 9988 50  0000 L CNN
+F 0 "TP4" H 9578 9988 50  0000 L CNN
 F 1 "Test_Point_SMD" V 9475 10075 50  0000 L CNN
 F 2 "footprints:Test_Point_SMD" H 9500 9750 50  0001 C CNN
 F 3 "" H 9500 9900 50  0001 C CNN
@@ -2479,10 +2468,10 @@ $EndComp
 Text Label 9175 9850 1    50   ~ 0
 -Therm1SMD
 $Comp
-L formula:Test_Point_SMD TP?
+L formula:Test_Point_SMD TP1
 U 1 1 5EB7095F
 P 9175 9900
-F 0 "TP?" H 9253 9988 50  0000 L CNN
+F 0 "TP1" H 9253 9988 50  0000 L CNN
 F 1 "Test_Point_SMD" V 9150 10075 50  0000 L CNN
 F 2 "footprints:Test_Point_SMD" H 9175 9750 50  0001 C CNN
 F 3 "" H 9175 9900 50  0001 C CNN
@@ -2492,10 +2481,10 @@ $EndComp
 Text Label 9200 8825 3    50   ~ 0
 +Therm1SMD
 $Comp
-L formula:Test_Point_SMD TP?
+L formula:Test_Point_SMD TP2
 U 1 1 5EB614B7
 P 9200 8775
-F 0 "TP?" H 9278 8863 50  0000 L CNN
+F 0 "TP2" H 9278 8863 50  0000 L CNN
 F 1 "Test_Point_SMD" V 9175 8950 50  0000 L CNN
 F 2 "footprints:Test_Point_SMD" H 9200 8625 50  0001 C CNN
 F 3 "" H 9200 8775 50  0001 C CNN
@@ -2505,10 +2494,10 @@ $EndComp
 Text Label 9500 8825 3    50   ~ 0
 +Therm2SMD
 $Comp
-L formula:Test_Point_SMD TP?
+L formula:Test_Point_SMD TP3
 U 1 1 5EB5874C
 P 9500 8775
-F 0 "TP?" H 9578 8863 50  0000 L CNN
+F 0 "TP3" H 9578 8863 50  0000 L CNN
 F 1 "Test_Point_SMD" V 9475 8950 50  0000 L CNN
 F 2 "footprints:Test_Point_SMD" H 9500 8625 50  0001 C CNN
 F 3 "" H 9500 8775 50  0001 C CNN
@@ -2518,10 +2507,10 @@ $EndComp
 Text Label 9800 8825 3    50   ~ 0
 +Therm3SMD
 $Comp
-L formula:Test_Point_SMD TP?
+L formula:Test_Point_SMD TP5
 U 1 1 5EB4FB07
 P 9800 8775
-F 0 "TP?" H 9878 8863 50  0000 L CNN
+F 0 "TP5" H 9878 8863 50  0000 L CNN
 F 1 "Test_Point_SMD" V 9775 8950 50  0000 L CNN
 F 2 "footprints:Test_Point_SMD" H 9800 8625 50  0001 C CNN
 F 3 "" H 9800 8775 50  0001 C CNN
@@ -2531,10 +2520,10 @@ $EndComp
 Text Label 10125 8825 3    50   ~ 0
 +Therm4SMD
 $Comp
-L formula:Test_Point_SMD TP?
+L formula:Test_Point_SMD TP8
 U 1 1 5EA03FC1
 P 10125 8775
-F 0 "TP?" H 10203 8863 50  0000 L CNN
+F 0 "TP8" H 10203 8863 50  0000 L CNN
 F 1 "Test_Point_SMD" V 10100 8950 50  0000 L CNN
 F 2 "footprints:Test_Point_SMD" H 10125 8625 50  0001 C CNN
 F 3 "" H 10125 8775 50  0001 C CNN
@@ -2553,4 +2542,15 @@ Wire Notes Line
 	14775 1025 14775 2775
 Wire Notes Line
 	12675 2775 14775 2775
+$Comp
+L formula:NanoFit_RA_TH_04 J3
+U 1 1 5EB2CF6B
+P 14300 1300
+F 0 "J3" H 14350 1575 50  0000 R CNN
+F 1 "NanoFit_RA_TH_04" V 14125 1725 50  0000 R CNN
+F 2 "footprints:NanoFit_RA_4" H 14300 1050 50  0001 C CNN
+F 3 "" H 14300 1550 50  0001 C CNN
+	1    14300 1300
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
