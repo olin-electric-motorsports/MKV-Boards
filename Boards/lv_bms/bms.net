@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/adi/Documents/Formula/MKV-Boards/Boards/lv_bms/bms.sch)
-    (date "Sun 03 May 2020 03:39:21 PM CDT")
+    (date "Sun 03 May 2020 03:44:04 PM CDT")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -648,6 +648,7 @@
       (tstamp 5EF1EEA3))
     (comp (ref J2)
       (value Screw_Terminal_01x05)
+      (footprint TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-5_1x05_P2.54mm_Horizontal)
       (datasheet ~)
       (libsource (lib Connector) (part Screw_Terminal_01x05) (description "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
@@ -906,7 +907,7 @@
       (tstamp 5EA03FC1))
     (comp (ref J3)
       (value NanoFit_RA_TH_04)
-      (footprint footprints:NanoFit_RA_4)
+      (footprint TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-5_1x05_P2.54mm_Horizontal)
       (libsource (lib formula) (part NanoFit_RA_TH_04) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5EB2CF6B)))
