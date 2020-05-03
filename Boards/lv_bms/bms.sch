@@ -2359,17 +2359,6 @@ Wire Wire Line
 	14275 1900 14425 1900
 Wire Wire Line
 	14275 2200 14425 2200
-$Comp
-L formula:NanoFit_RA_04 J3
-U 1 1 5E9BE9C9
-P 14300 1300
-F 0 "J3" H 14172 1259 50  0000 R CNN
-F 1 "NanoFit_RA_04" H 14550 1575 50  0000 R CNN
-F 2 "footprints:NanoFit_RA_4" H 14300 1050 50  0001 C CNN
-F 3 "" H 14300 1550 50  0001 C CNN
-	1    14300 1300
-	-1   0    0    1   
-$EndComp
 Text Label 14425 2200 0    50   ~ 0
 CAN_LO
 Text Label 14425 1900 0    50   ~ 0
@@ -2553,4 +2542,15 @@ Wire Notes Line
 	14775 1025 14775 2775
 Wire Notes Line
 	12675 2775 14775 2775
+$Comp
+L formula:NanoFit_RA_TH_04 J3
+U 1 1 5EB2CF6B
+P 14300 1300
+F 0 "J3" H 14350 1575 50  0000 R CNN
+F 1 "NanoFit_RA_TH_04" V 14125 1725 50  0000 R CNN
+F 2 "footprints:NanoFit_RA_4" H 14300 1050 50  0001 C CNN
+F 3 "" H 14300 1550 50  0001 C CNN
+	1    14300 1300
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

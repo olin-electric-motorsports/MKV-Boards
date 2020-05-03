@@ -1,4 +1,4 @@
-16619989271768829
+16637482880747829
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73115,6 +73115,13 @@ D-Series_Cynergy_Relay
 4
 4
 footprints
+DIP-5-6_W7.62mm
+5-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+5
+5
+footprints
 DO-214AA
 http://www.diodes.com/datasheets/ap02001.pdf p.144
 Diode SOD523
@@ -73563,6 +73570,48 @@ connector Molex Nano-Fit top entry
 12
 12
 footprints
+NanoFit_RA_SMT_4
+1054051104-3
+Connector
+0
+6
+6
+footprints
+NanoFit_RA_TH_4
+Molex Nano-Fit Power Connectors, 105314-xx04, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+4
+4
+footprints
+NanoFit_RA_TH_6
+Molex Nano-Fit Power Connectors, 105314-xx06, 3 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+6
+6
+footprints
+NanoFit_RA_TH_8
+Molex Nano-Fit Power Connectors, 105314-xx08, 4 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+8
+8
+footprints
+NanoFit_RA_TH_10
+Molex Nano-Fit Power Connectors, 105314-xx10, 5 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+10
+10
+footprints
+NanoFit_RA_TH_12
+Molex Nano-Fit Power Connectors, 105314-xx12, 6 Pins per row (http://www.molex.com/pdm_docs/sd/1053141208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit top entry
+0
+12
+12
+footprints
 NanoFit_VT_10
 Molex Nano-Fit Power Connectors, 105310-xx10, 5 Pins per row (http://www.molex.com/pdm_docs/sd/1053101208_sd.pdf), generated with kicad-footprint-generator
 connector Molex Nano-Fit side entry
@@ -73571,6 +73620,20 @@ connector Molex Nano-Fit side entry
 10
 footprints
 NanoFit_VT_12
+Molex Nano-Fit Power Connectors, 105310-xx12, 6 Pins per row (http://www.molex.com/pdm_docs/sd/1053101208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit side entry
+0
+12
+12
+footprints
+NanoFit_VT_TH_10
+Molex Nano-Fit Power Connectors, 105310-xx10, 5 Pins per row (http://www.molex.com/pdm_docs/sd/1053101208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit side entry
+0
+10
+10
+footprints
+NanoFit_VT_TH_12
 Molex Nano-Fit Power Connectors, 105310-xx12, 6 Pins per row (http://www.molex.com/pdm_docs/sd/1053101208_sd.pdf), generated with kicad-footprint-generator
 connector Molex Nano-Fit side entry
 0
@@ -73850,6 +73913,13 @@ SOT-23-5
 3
 3
 footprints
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+footprints
 SOT-23-5_OEM
 5-pin SOT23 package
 SOT-23-5
@@ -73912,6 +73982,13 @@ SW_B3U-1000P_4.2x1.7mm
 0
 2
 2
+footprints
+ScrewTerminal_TE_282834-5_1x05_P2.54mm_Horizontal
+Terminal Block TE 282834-5, 5 pins, pitch 2.54mm, size 13.16x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
+THT Terminal Block TE 282834-5 pitch 2.54mm size 13.16x6.5mm^2 drill 1.1mm pad 2.1mm
+0
+5
+5
 footprints
 Small_OE_Logo
 
