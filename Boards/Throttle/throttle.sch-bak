@@ -258,17 +258,17 @@ Wire Wire Line
 	15100 4050 15100 4150
 Wire Wire Line
 	15150 3750 15150 3900
-Text Label 11050 9200 2    60   ~ 0
+Text Label 11100 9100 3    60   ~ 0
 5V
 $Comp
 L power:VCC #PWR035
 U 1 1 5B9214B7
-P 11000 9100
-F 0 "#PWR035" H 11000 8950 50  0001 C CNN
-F 1 "VCC" H 11000 9250 50  0000 C CNN
-F 2 "" H 11000 9100 50  0001 C CNN
-F 3 "" H 11000 9100 50  0001 C CNN
-	1    11000 9100
+P 11100 9100
+F 0 "#PWR035" H 11100 8950 50  0001 C CNN
+F 1 "VCC" H 11100 9250 50  0000 C CNN
+F 2 "" H 11100 9100 50  0001 C CNN
+F 3 "" H 11100 9100 50  0001 C CNN
+	1    11100 9100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -521,32 +521,32 @@ Wire Wire Line
 	9950 1850 10100 1850
 Wire Wire Line
 	7300 1850 7450 1850
-Text Label 10050 9500 0    59   ~ 0
+Text Label 10000 9550 0    59   ~ 0
 5V_THROTTLE2
-Text Label 10700 9500 0    59   ~ 0
+Text Label 10700 9550 0    59   ~ 0
 5V_THROTTLE1
 $Comp
 L power:VCC #PWR036
 U 1 1 5BE83C95
-P 10700 9500
-F 0 "#PWR036" H 10700 9350 50  0001 C CNN
-F 1 "VCC" H 10718 9673 50  0000 C CNN
-F 2 "" H 10700 9500 50  0001 C CNN
-F 3 "" H 10700 9500 50  0001 C CNN
-	1    10700 9500
+P 10700 9550
+F 0 "#PWR036" H 10700 9400 50  0001 C CNN
+F 1 "VCC" H 10718 9723 50  0000 C CNN
+F 2 "" H 10700 9550 50  0001 C CNN
+F 3 "" H 10700 9550 50  0001 C CNN
+	1    10700 9550
 	-1   0    0    1   
 $EndComp
-Text Label 11400 9500 0    59   ~ 0
+Text Label 11400 9550 0    59   ~ 0
 5V_DRIVEMODE
 $Comp
 L power:VCC #PWR041
 U 1 1 5BFC295D
-P 11400 9500
-F 0 "#PWR041" H 11400 9350 50  0001 C CNN
-F 1 "VCC" H 11418 9673 50  0000 C CNN
-F 2 "" H 11400 9500 50  0001 C CNN
-F 3 "" H 11400 9500 50  0001 C CNN
-	1    11400 9500
+P 11400 9550
+F 0 "#PWR041" H 11400 9400 50  0001 C CNN
+F 1 "VCC" H 11418 9723 50  0000 C CNN
+F 2 "" H 11400 9550 50  0001 C CNN
+F 3 "" H 11400 9550 50  0001 C CNN
+	1    11400 9550
 	-1   0    0    1   
 $EndComp
 Connection ~ 7450 1850
@@ -567,7 +567,7 @@ F 3 "" H 10400 9100 50  0001 C CNN
 	1    10400 9100
 	1    0    0    -1  
 $EndComp
-Text Label 10500 9200 2    50   ~ 0
+Text Label 10400 9100 3    50   ~ 0
 12V
 NoConn ~ 14600 2100
 NoConn ~ 14600 1400
@@ -575,12 +575,12 @@ NoConn ~ 1000 -1300
 $Comp
 L power:VCC #PWR029
 U 1 1 5BEC65C8
-P 10050 9500
-F 0 "#PWR029" H 10050 9350 50  0001 C CNN
-F 1 "VCC" H 10068 9673 50  0000 C CNN
-F 2 "" H 10050 9500 50  0001 C CNN
-F 3 "" H 10050 9500 50  0001 C CNN
-	1    10050 9500
+P 10000 9550
+F 0 "#PWR029" H 10000 9400 50  0001 C CNN
+F 1 "VCC" H 10018 9723 50  0000 C CNN
+F 2 "" H 10000 9550 50  0001 C CNN
+F 3 "" H 10000 9550 50  0001 C CNN
+	1    10000 9550
 	-1   0    0    1   
 $EndComp
 Text Notes 10550 8800 0    79   ~ 0
@@ -594,17 +594,17 @@ Connection ~ 15700 7100
 $Comp
 L power:GND #PWR038
 U 1 1 5BE83606
-P 11050 9950
-F 0 "#PWR038" H 11050 9700 50  0001 C CNN
-F 1 "GND" H 11055 9777 50  0000 C CNN
-F 2 "" H 11050 9950 50  0001 C CNN
-F 3 "" H 11050 9950 50  0001 C CNN
-	1    11050 9950
+P 11050 10000
+F 0 "#PWR038" H 11050 9750 50  0001 C CNN
+F 1 "GND" H 11055 9827 50  0000 C CNN
+F 2 "" H 11050 10000 50  0001 C CNN
+F 3 "" H 11050 10000 50  0001 C CNN
+	1    11050 10000
 	1    0    0    -1  
 $EndComp
-Text Label 10200 9950 0    59   ~ 0
+Text Label 10200 10000 0    59   ~ 0
 GND_THROTTLE2
-Text Label 11050 9950 0    59   ~ 0
+Text Label 11050 10000 0    59   ~ 0
 GND_THROTTLE1
 Wire Notes Line
 	12150 8600 12150 10250
@@ -1345,26 +1345,26 @@ F 3 "" H 1800 5250 50  0001 C CNN
 	1    1800 5250
 	1    0    0    -1  
 $EndComp
-Text Label 1850 5650 0    59   ~ 0
+Text Label 1800 5750 0    59   ~ 0
 SS_BOTS
 $Comp
 L throttle-rescue:MM_F_VT_04-formula-throttle-rescue J1
 U 1 1 5A77B3F7
-P 1550 5850
-F 0 "J1" H 1450 6050 60  0000 C CNN
-F 1 "micromatch_female_TOP_ENTRY_locking_4" H 1600 5521 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_4" H 1350 6950 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 1450 7050 60  0001 C CNN
-F 4 "http://www.te.com/global-en/product-338068-4.html" H 1550 7150 60  0001 C CNN "PurchasingLink"
-F 5 "TE" H 1650 7250 60  0001 C CNN "MFN"
-F 6 "338068-4" H 1750 7350 60  0001 C CNN "MPN"
-F 7 "Value" H 1850 7450 60  0001 C CNN "Package"
-	1    1550 5850
+P 1550 5950
+F 0 "J1" H 1450 6150 60  0000 C CNN
+F 1 "micromatch_female_TOP_ENTRY_locking_4" H 1600 5621 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_4" H 1350 7050 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 1450 7150 60  0001 C CNN
+F 4 "http://www.te.com/global-en/product-338068-4.html" H 1550 7250 60  0001 C CNN "PurchasingLink"
+F 5 "TE" H 1650 7350 60  0001 C CNN "MFN"
+F 6 "338068-4" H 1750 7450 60  0001 C CNN "MPN"
+F 7 "Value" H 1850 7550 60  0001 C CNN "Package"
+	1    1550 5950
 	1    0    0    -1  
 $EndComp
-Text Label 1850 5750 0    59   ~ 0
+Text Label 1800 5850 0    59   ~ 0
 SS_INERTIA_SWITCH
-Text Label 1850 5850 0    59   ~ 0
+Text Label 1800 5950 0    59   ~ 0
 SS_COCKPIT_ESTOP
 Text Label 1800 4650 0    59   ~ 0
 THROTTLE2_LEFT_SENSE
@@ -2541,22 +2541,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 8800 7100 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L throttle-rescue:D_Zener_18V-formula-throttle-rescue D?
-U 1 1 5CACCAD4
-P 7900 6100
-AR Path="/5CAC90A2/5CACCAD4" Ref="D?"  Part="1" 
-AR Path="/5CACCAD4" Ref="D101"  Part="1" 
-F 0 "D101" H 7850 6300 50  0000 C CNN
-F 1 "D_Zener_18V" H 7750 6200 50  0000 C CNN
-F 2 "footprints:DO-214AA" H 7800 6100 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 7900 6200 50  0001 C CNN
-F 4 "DK" H 8100 6400 60  0001 C CNN "MFN"
-F 5 "SMBJ5355B-TPMSCT-ND" H 8000 6300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 8300 6600 60  0001 C CNN "PurchasingLink"
-	1    7900 6100
-	0    1    1    0   
-$EndComp
-$Comp
 L throttle-rescue:F_500mA_16V-formula-throttle-rescue F?
 U 1 1 5CACCAA6
 P 7900 6600
@@ -2572,33 +2556,31 @@ F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-178
 	1    7900 6600
 	1    0    0    -1  
 $EndComp
-Text Label 7700 5750 0    59   ~ 0
-12V
 $Comp
 L power:GND #PWR030
 U 1 1 5BE83518
-P 10200 9950
-F 0 "#PWR030" H 10200 9700 50  0001 C CNN
-F 1 "GND" H 10205 9777 50  0000 C CNN
-F 2 "" H 10200 9950 50  0001 C CNN
-F 3 "" H 10200 9950 50  0001 C CNN
-	1    10200 9950
+P 10200 10000
+F 0 "#PWR030" H 10200 9750 50  0001 C CNN
+F 1 "GND" H 10205 9827 50  0000 C CNN
+F 2 "" H 10200 10000 50  0001 C CNN
+F 3 "" H 10200 10000 50  0001 C CNN
+	1    10200 10000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR039
 U 1 1 5BE8858D
-P 11300 9100
-F 0 "#PWR039" H 11300 8950 50  0001 C CNN
-F 1 "VCC" H 11317 9273 50  0000 C CNN
-F 2 "" H 11300 9100 50  0001 C CNN
-F 3 "" H 11300 9100 50  0001 C CNN
-	1    11300 9100
+P 11400 9100
+F 0 "#PWR039" H 11400 8950 50  0001 C CNN
+F 1 "VCC" H 11417 9273 50  0000 C CNN
+F 2 "" H 11400 9100 50  0001 C CNN
+F 3 "" H 11400 9100 50  0001 C CNN
+	1    11400 9100
 	1    0    0    -1  
 $EndComp
-Text Label 11200 9200 0    50   ~ 0
+Text Label 11400 9100 3    50   ~ 0
 5V_OUT
-Text Label 10625 9200 0    60   ~ 0
+Text Label 10750 9100 1    60   ~ 0
 GND
 Wire Wire Line
 	7900 5800 7900 5950
@@ -2614,71 +2596,29 @@ Connection ~ 8400 5800
 $Comp
 L power:GND #PWR0101
 U 1 1 5EAD2060
-P 10700 8900
-F 0 "#PWR0101" H 10700 8650 50  0001 C CNN
-F 1 "GND" H 10700 8750 50  0000 C CNN
-F 2 "" H 10700 8900 50  0001 C CNN
-F 3 "" H 10700 8900 50  0001 C CNN
-	1    10700 8900
+P 10750 9100
+F 0 "#PWR0101" H 10750 8850 50  0001 C CNN
+F 1 "GND" H 10750 8950 50  0000 C CNN
+F 2 "" H 10750 9100 50  0001 C CNN
+F 3 "" H 10750 9100 50  0001 C CNN
+	1    10750 9100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0102
 U 1 1 5EADC782
-P 1800 5950
-F 0 "#PWR0102" H 1800 5800 50  0001 C CNN
-F 1 "VCC" H 1800 6100 50  0000 C CNN
-F 2 "" H 1800 5950 50  0001 C CNN
-F 3 "" H 1800 5950 50  0001 C CNN
-	1    1800 5950
+P 1950 6200
+F 0 "#PWR0102" H 1950 6050 50  0001 C CNN
+F 1 "VCC" H 1950 6350 50  0000 C CNN
+F 2 "" H 1950 6200 50  0001 C CNN
+F 3 "" H 1950 6200 50  0001 C CNN
+	1    1950 6200
 	1    0    0    -1  
 $EndComp
 Text Notes 8300 1150 0    118  ~ 0
 Shutdown Sense Circuits\n
 Text Notes 8750 1300 0    98   ~ 0
 (Inverted Logic)
-$Comp
-L formula:TP TP?
-U 1 1 5EBDFBD1
-P 2000 3350
-F 0 "TP?" V 2000 3378 50  0000 L CNN
-F 1 "TP" V 2045 3378 50  0001 L CNN
-F 2 "footprints:tp_1.6mm" H 1900 3250 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 3350 50  0001 C CNN
-F 4 "DK" H 2100 3450 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 2200 3550 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 3650 50  0001 C CNN "PurchasingLink"
-	1    2000 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:TP TP?
-U 1 1 5EBFFED1
-P 2000 3450
-F 0 "TP?" V 2000 3478 50  0000 L CNN
-F 1 "TP" V 2045 3478 50  0001 L CNN
-F 2 "footprints:tp_1.6mm" H 1900 3350 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 3450 50  0001 C CNN
-F 4 "DK" H 2100 3550 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 2200 3650 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 3750 50  0001 C CNN "PurchasingLink"
-	1    2000 3450
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:TP TP?
-U 1 1 5EC0EE43
-P 2000 3550
-F 0 "TP?" V 2000 3578 50  0000 L CNN
-F 1 "TP" V 2045 3578 50  0001 L CNN
-F 2 "footprints:tp_1.6mm" H 1900 3450 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 3550 50  0001 C CNN
-F 4 "DK" H 2100 3650 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 2200 3750 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 3850 50  0001 C CNN "PurchasingLink"
-	1    2000 3550
-	0    1    1    0   
-$EndComp
 Wire Notes Line
 	1250 9850 6350 9850
 Wire Notes Line
@@ -7111,31 +7051,108 @@ B2 77 B7 6B B0 6E B8 00 00 00 00 49 45 4E 44 AE 42 60 82
 EndData
 $EndBitmap
 $Comp
-L formula:TP TP?
+L formula:TP TP
 U 1 1 5EC1C444
-P 2000 4150
-F 0 "TP?" V 2000 4178 50  0000 L CNN
-F 1 "TP" V 2045 4178 50  0001 L CNN
-F 2 "footprints:tp_1.6mm" H 1900 4050 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 4150 50  0001 C CNN
-F 4 "DK" H 2100 4250 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 2200 4350 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 4450 50  0001 C CNN "PurchasingLink"
-	1    2000 4150
-	0    1    1    0   
+P 1700 7100
+F 0 "TP" V 1700 7128 50  0000 L CNN
+F 1 "TP" V 1745 7128 50  0001 L CNN
+F 2 "footprints:tp_1.6mm" H 1600 7000 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 1700 7100 50  0001 C CNN
+F 4 "DK" H 1800 7200 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 1900 7300 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2000 7400 50  0001 C CNN "PurchasingLink"
+	1    1700 7100
+	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:TP TP?
+L formula:TP TP
 U 1 1 5EC162EC
-P 2000 4050
-F 0 "TP?" V 2000 4078 50  0000 L CNN
-F 1 "TP" V 2045 4078 50  0001 L CNN
-F 2 "footprints:tp_1.6mm" H 1900 3950 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 2000 4050 50  0001 C CNN
-F 4 "DK" H 2100 4150 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 2200 4250 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2300 4350 50  0001 C CNN "PurchasingLink"
-	1    2000 4050
+P 1700 6950
+F 0 "TP" V 1700 6978 50  0000 L CNN
+F 1 "TP" V 1745 6978 50  0001 L CNN
+F 2 "footprints:tp_1.6mm" H 1600 6850 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 1700 6950 50  0001 C CNN
+F 4 "DK" H 1800 7050 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 1900 7150 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2000 7250 50  0001 C CNN "PurchasingLink"
+	1    1700 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:TP TP
+U 1 1 5EC0EE43
+P 1700 6800
+F 0 "TP" V 1700 6828 50  0000 L CNN
+F 1 "TP" V 1745 6828 50  0001 L CNN
+F 2 "footprints:tp_1.6mm" H 1600 6700 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 1700 6800 50  0001 C CNN
+F 4 "DK" H 1800 6900 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 1900 7000 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2000 7100 50  0001 C CNN "PurchasingLink"
+	1    1700 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:TP TP
+U 1 1 5EBFFED1
+P 1700 6500
+F 0 "TP" V 1700 6528 50  0000 L CNN
+F 1 "TP" V 1745 6528 50  0001 L CNN
+F 2 "footprints:tp_1.6mm" H 1600 6400 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 1700 6500 50  0001 C CNN
+F 4 "DK" H 1800 6600 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 1900 6700 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2000 6800 50  0001 C CNN "PurchasingLink"
+	1    1700 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:TP TP
+U 1 1 5EBDFBD1
+P 1700 6650
+F 0 "TP" V 1700 6678 50  0000 L CNN
+F 1 "TP" V 1745 6678 50  0001 L CNN
+F 2 "footprints:tp_1.6mm" H 1600 6550 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 1700 6650 50  0001 C CNN
+F 4 "DK" H 1800 6750 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 1900 6850 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 2000 6950 50  0001 C CNN "PurchasingLink"
+	1    1700 6650
+	0    -1   -1   0   
+$EndComp
+Text Label 7900 5600 2    59   ~ 0
+12V
+Wire Wire Line
+	7900 5600 7900 5800
+Connection ~ 7900 5800
+$Comp
+L throttle-rescue:D_Zener_18V-formula-throttle-rescue D?
+U 1 1 5CACCAD4
+P 7900 6100
+AR Path="/5CAC90A2/5CACCAD4" Ref="D?"  Part="1" 
+AR Path="/5CACCAD4" Ref="D101"  Part="1" 
+F 0 "D101" H 7900 6350 50  0000 C CNN
+F 1 "D_Zener_18V" H 7900 6250 50  0000 C CNN
+F 2 "footprints:DO-214AA" H 7800 6100 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 7900 6200 50  0001 C CNN
+F 4 "DK" H 8100 6400 60  0001 C CNN "MFN"
+F 5 "SMBJ5355B-TPMSCT-ND" H 8000 6300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 8300 6600 60  0001 C CNN "PurchasingLink"
+	1    7900 6100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1800 6050 1800 6200
+Wire Wire Line
+	1800 6200 1950 6200
+Text Label 1900 6950 0    59   ~ 0
+CANH
+Text Label 1900 7100 0    59   ~ 0
+CANL
+Text Label 1900 6500 0    59   ~ 0
+GND
+Text Label 1900 6650 0    59   ~ 0
+12V
+Text Label 1900 6800 0    59   ~ 0
+5V
 $EndSCHEMATC
