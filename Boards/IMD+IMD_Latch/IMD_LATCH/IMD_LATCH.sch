@@ -940,7 +940,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 9850 3950 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Formula:TLV3701QDBVRG4Q1 U1
+L IMD_LATCH-rescue:TLV3701QDBVRG4Q1-Formula U1
 U 1 1 5E532806
 P 3300 2600
 F 0 "U1" H 3644 2646 50  0000 L CNN
@@ -1001,7 +1001,7 @@ F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 	-1   0    0    1   
 $EndComp
 $Comp
-L Formula:TLV3701QDBVRG4Q1 U3
+L IMD_LATCH-rescue:TLV3701QDBVRG4Q1-Formula U3
 U 1 1 5E54B457
 P 3425 4300
 F 0 "U3" H 3769 4346 50  0000 L CNN
@@ -1015,7 +1015,7 @@ F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q
 	1    0    0    -1  
 $EndComp
 $Comp
-L Formula:C_0.1uF C5
+L IMD_LATCH-rescue:C_0.1uF-Formula C5
 U 1 1 5E5E80C1
 P 7700 2250
 F 0 "C5" H 7815 2296 50  0000 L CNN

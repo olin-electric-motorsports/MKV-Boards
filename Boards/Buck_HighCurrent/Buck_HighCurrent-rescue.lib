@@ -81,7 +81,7 @@ ENDDEF
 DEF C_10uF_25V-footprints C 0 40 Y Y 1 F N
 F0 "C" 50 -100 50 H V C CNN
 F1 "C_10uF_25V-footprints" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "footprints:C_0805_OEM" -50 -200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
@@ -121,9 +121,9 @@ ENDDEF
 DEF C_33uF-footprints C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_33uF-footprints" 100 -300 50 H V L CNN
-F2 "footprints:C_1812_OEM" 50 -400 50 H I C CNN
-F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 0 650 50 H I C CNN
-F4 "C4532X7R1C336M250KC" 50 -500 60 H I C CNN "MFN"
+F2 "footprints:Fuse_1812" 50 -400 50 H I C CNN
+F3 "" 0 650 50 H I C CNN
+F4 "DK" 50 -500 60 H I C CNN "MFN"
 F5 "445-3924-1-ND" 0 350 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431" 250 500 60 H I C CNN "PurchasingLink"
 $FPLIST
@@ -172,44 +172,44 @@ ENDDEF
 # F_2.6A_16V-footprints
 #
 DEF F_2.6A_16V-footprints F 0 40 Y Y 1 F N
-F0 "F" -100 0 50 V V C CNN
-F1 "F_2.6A_16V-footprints" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0260BF2B/507-1780-6-ND/4156287" 0 0 50 H V C CNN "Digikey"
+F0 "F" 0 -100 50 H V C CNN
+F1 "F_2.6A_16V-footprints" 0 100 50 H V C CNN
+F2 "footprints:Fuse_1812_4532Metric" -100 -200 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCG0260BF2B/507-1780-6-ND/4156287" 0 -200 50 H V C CNN "Digikey"
 DRAW
-S -30 -100 30 100 1 1 10 N
-P 2 1 1 0 0 100 0 -100 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
+S 100 -30 -100 30 1 1 10 N
+P 2 1 1 0 -100 0 100 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
 # IHLP2020BZER4R7M11-footprints
 #
 DEF IHLP2020BZER4R7M11-footprints L 0 65 N N 1 F N
-F0 "L" 275 200 60 H V C CNN
-F1 "IHLP2020BZER4R7M11-footprints" 275 -225 60 H V C CNN
-F2 "IND_IHLP-2020BZ" 275 -285 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP2020BZER4R7M11/541-1222-1-ND/2025112" 0 0 50 H I C CNN "Vendor Link"
+F0 "L" 0 200 60 H V C CNN
+F1 "IHLP2020BZER4R7M11-footprints" 0 300 60 H V C CNN
+F2 "footprints:IHLP2020BZER4R7M11" 0 -200 60 H I C CNN
+F3 "" -300 0 60 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP2020BZER4R7M11/541-1222-1-ND/2025112" 600 -100 50 H I C CNN "Vendor Link"
 $FPLIST
  IND_IHLP-2020BZ
  IND_IHLP-2020BZ-M
  IND_IHLP-2020BZ-L
 $ENDFPLIST
 DRAW
+A -150 50 50 0 1800 1 0 10 N -200 50 -100 50
+A -50 50 50 0 1800 1 0 10 N -100 50 0 50
+A 50 50 50 0 1800 1 0 10 N 0 50 100 50
 A 150 50 50 0 1800 1 0 10 N 100 50 200 50
-A 250 50 50 0 1800 1 0 10 N 200 50 300 50
-A 350 50 50 0 1800 1 0 10 N 300 50 400 50
-A 450 50 50 0 1800 1 0 10 N 400 50 500 50
+P 2 1 0 8 -200 0 -200 50 N
+P 2 1 0 8 -100 0 -100 50 N
+P 2 1 0 8 0 0 0 50 N
 P 2 1 0 8 100 0 100 50 N
 P 2 1 0 8 200 0 200 50 N
-P 2 1 0 8 300 0 300 50 N
-P 2 1 0 8 400 0 400 50 N
-P 2 1 0 8 500 0 500 50 N
-X 1 1 600 0 100 L 59 59 1 0 U
-X 2 2 0 0 100 R 59 59 1 0 U
+X 1 1 300 0 100 L 59 59 1 0 U
+X 2 2 -300 0 100 R 59 59 1 0 U
 ENDDRAW
 ENDDEF
 #
@@ -261,15 +261,15 @@ ENDDEF
 # R_1-footprints
 #
 DEF R_1-footprints R 0 40 Y Y 1 F N
-F0 "R" -100 50 50 H V C CNN
-F1 "R_1-footprints" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-071RL/311-1.00HRCT-ND/729789" 0 0 50 H I C CNN "Link"
+F0 "R" 0 -100 50 H V C CNN
+F1 "R_1-footprints" 0 100 50 H V C CNN
+F2 "footprints:R_0805_OEM" -100 -200 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-071RL/311-1.00HRCT-ND/729789" 0 -250 50 H I C CNN "Link"
 DRAW
-S -40 -100 40 100 1 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -283,6 +283,27 @@ F3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "CRS0805-FX-1002ELFCT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1K-footprints
+#
+DEF R_1K-footprints R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_1K-footprints" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "RNCP0805FTD1K00CT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -378,17 +399,17 @@ ENDDEF
 DEF TPS563231-footprints U 0 40 Y Y 1 F N
 F0 "U" -250 -100 50 H V C CNN
 F1 "TPS563231-footprints" 0 650 50 H V C CNN
-F2 "" 0 150 50 H I C CNN
+F2 "footprints:SOT-563" 0 150 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 DRAW
 S -300 200 -300 200 1 1 0 N
 S -300 600 250 0 1 1 0 f
-X CB 1 350 500 100 L 50 50 1 1 B
-X GND 2 350 50 100 L 50 50 1 1 W
-X FB 3 350 200 100 L 50 50 1 1 I
+X VIN 1 -400 450 100 R 50 50 1 1 W
+X SW 2 350 350 100 L 50 50 1 1 O
+X GND 3 350 50 100 L 50 50 1 1 W
+X BST 4 350 500 100 L 50 50 1 1 B
 X EN 4 -400 200 100 R 50 50 1 1 I
-X VIN 5 -400 450 100 R 50 50 1 1 W
-X SW 6 350 350 100 L 50 50 1 1 O
+X FB 6 350 200 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

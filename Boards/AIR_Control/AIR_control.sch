@@ -444,7 +444,7 @@ F 3 "" H 9600 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_2.2uF C102
+L AIR_control-rescue:C_2.2uF-formula C102
 U 1 1 5DAA9EFB
 P 9600 5900
 F 0 "C102" V 9750 5550 50  0000 L CNN
