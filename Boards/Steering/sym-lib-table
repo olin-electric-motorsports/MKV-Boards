@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name formula)(type Legacy)(uri ${LOCAL_DIR}/schematic/formula.lib)(options "")(descr ""))
+  (lib (name Steering-rescue)(type Legacy)(uri ${KIPRJMOD}/Steering-rescue.lib)(options "")(descr ""))
 )
