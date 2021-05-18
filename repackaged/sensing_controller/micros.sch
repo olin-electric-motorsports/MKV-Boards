@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 9610 1550 0    50   ~ 0
-CS3.3V
+SM_CS
 Text Label 7570 980  0    50   ~ 0
 3.3V
 NoConn ~ 9610 3450
@@ -27,7 +27,6 @@ NoConn ~ 8010 2100
 NoConn ~ 9610 2550
 NoConn ~ 9610 2450
 NoConn ~ 9610 2350
-NoConn ~ 9610 2250
 Wire Wire Line
 	7570 1650 7570 2520
 Connection ~ 7570 1650
@@ -60,10 +59,6 @@ Text Label 9610 1750 0    50   ~ 0
 SM_MISO
 Text Label 9610 1850 0    50   ~ 0
 SM_SCK
-Text Label 9610 2750 0    50   ~ 0
-SCL
-Text Label 9610 2650 0    50   ~ 0
-SDA
 Wire Wire Line
 	9900 2850 9610 2850
 Wire Wire Line
@@ -98,12 +93,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 60A51E4F
-P 10590 1940
-F 0 "#PWR?" H 10590 1690 50  0001 C CNN
-F 1 "GND" H 10595 1767 50  0000 C CNN
-F 2 "" H 10590 1940 50  0001 C CNN
-F 3 "" H 10590 1940 50  0001 C CNN
-	1    10590 1940
+P 10980 1940
+F 0 "#PWR?" H 10980 1690 50  0001 C CNN
+F 1 "GND" H 10985 1767 50  0000 C CNN
+F 2 "" H 10980 1940 50  0001 C CNN
+F 3 "" H 10980 1940 50  0001 C CNN
+	1    10980 1940
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -123,6 +118,17 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60A51E5E
+P 10700 2660
+F 0 "#PWR?" H 10700 2410 50  0001 C CNN
+F 1 "GND" H 10705 2487 50  0000 C CNN
+F 2 "" H 10700 2660 50  0001 C CNN
+F 3 "" H 10700 2660 50  0001 C CNN
+	1    10700 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A51E64
 P 10310 2660
 F 0 "#PWR?" H 10310 2410 50  0001 C CNN
 F 1 "GND" H 10315 2487 50  0000 C CNN
@@ -132,93 +138,30 @@ F 3 "" H 10310 2660 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 60A51E64
-P 9910 2660
-F 0 "#PWR?" H 9910 2410 50  0001 C CNN
-F 1 "GND" H 9915 2487 50  0000 C CNN
-F 2 "" H 9910 2660 50  0001 C CNN
-F 3 "" H 9910 2660 50  0001 C CNN
-	1    9910 2660
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:C_30pF C?
 U 1 1 60A51E6D
-P 10310 2510
-F 0 "C?" H 10330 2590 50  0000 L CNN
-F 1 "C_30pF" H 10340 2410 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 10348 2360 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 10335 2610 50  0001 C CNN
-F 4 "DK" H 10310 2510 60  0001 C CNN "MFN"
-F 5 "1276-1130-1-ND" H 10310 2510 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" H 10735 3010 60  0001 C CNN "PurchasingLink"
-	1    10310 2510
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:C_30pF C?
-U 1 1 60A51E76
-P 9910 2510
-F 0 "C?" H 9800 2590 50  0000 L CNN
-F 1 "C_30pF" H 9640 2430 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 9948 2360 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9935 2610 50  0001 C CNN
-F 4 "DK" H 9910 2510 60  0001 C CNN "MFN"
-F 5 "1276-1130-1-ND" H 9910 2510 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" H 10335 3010 60  0001 C CNN "PurchasingLink"
-	1    9910 2510
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:Crystal_SMD Y?
-U 1 1 60A51E7F
-P 10130 2270
-F 0 "Y?" H 10274 2316 50  0000 L CNN
-F 1 "Crystal_SMD" H 10274 2225 50  0000 L CNN
-F 2 "footprints:Crystal_SMD_FA238" H 10080 2345 50  0001 C CNN
-F 3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf" H 10180 2445 50  0001 C CNN
-F 4 "DK" H 10130 2270 60  0001 C CNN "MFN"
-F 5 "887-1125-1-ND" H 10130 2270 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/txc-corporation/7M-16.000MAAJ-T/887-1125-1-ND/2119014" H 10580 2845 60  0001 C CNN "PurchasingLink"
-	1    10130 2270
+P 10700 2510
+F 0 "C?" H 10720 2590 50  0000 L CNN
+F 1 "C_30pF" H 10730 2410 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 10738 2360 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 10725 2610 50  0001 C CNN
+F 4 "DK" H 10700 2510 60  0001 C CNN "MFN"
+F 5 "1276-1130-1-ND" H 10700 2510 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" H 11125 3010 60  0001 C CNN "PurchasingLink"
+	1    10700 2510
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9910 2050 9910 2270
+	10700 1950 10700 2270
 Wire Wire Line
-	10310 1950 10310 2270
+	10620 2270 10700 2270
+Connection ~ 10700 2270
 Wire Wire Line
-	10030 2270 9910 2270
-Connection ~ 9910 2270
+	10700 2270 10700 2360
 Wire Wire Line
-	9910 2270 9910 2360
+	10520 1740 10980 1740
 Wire Wire Line
-	10230 2270 10310 2270
-Connection ~ 10310 2270
-Wire Wire Line
-	10310 2270 10310 2360
-$Comp
-L power:GND #PWR?
-U 1 1 60A51E8D
-P 10130 2420
-F 0 "#PWR?" H 10130 2170 50  0001 C CNN
-F 1 "GND" H 10135 2247 50  0000 C CNN
-F 2 "" H 10130 2420 50  0001 C CNN
-F 3 "" H 10130 2420 50  0001 C CNN
-	1    10130 2420
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9610 2050 9910 2050
-Wire Wire Line
-	10310 1950 9610 1950
-Wire Wire Line
-	10130 1740 10130 2120
-Wire Wire Line
-	10130 1740 10590 1740
-Wire Wire Line
-	10590 1740 10590 1940
+	10980 1740 10980 1940
 Wire Wire Line
 	8010 3450 7740 3450
 Wire Wire Line
@@ -1101,4 +1044,65 @@ Connection ~ 1050 1100
 Wire Wire Line
 	1050 1100 1350 1100
 Connection ~ 1050 1400
+Text GLabel 9610 2250 2    50   Input ~ 0
+POT_MICRO_SENSE
+Wire Wire Line
+	10310 2050 10310 2270
+$Comp
+L formula:Crystal_SMD Y?
+U 1 1 60A51E7F
+P 10520 2270
+F 0 "Y?" H 10664 2316 50  0000 L CNN
+F 1 "Crystal_SMD" H 10664 2225 50  0000 L CNN
+F 2 "footprints:Crystal_SMD_FA238" H 10470 2345 50  0001 C CNN
+F 3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf" H 10570 2445 50  0001 C CNN
+F 4 "DK" H 10520 2270 60  0001 C CNN "MFN"
+F 5 "887-1125-1-ND" H 10520 2270 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/txc-corporation/7M-16.000MAAJ-T/887-1125-1-ND/2119014" H 10970 2845 60  0001 C CNN "PurchasingLink"
+	1    10520 2270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10520 1740 10520 2120
+$Comp
+L power:GND #PWR?
+U 1 1 60A51E8D
+P 10520 2420
+F 0 "#PWR?" H 10520 2170 50  0001 C CNN
+F 1 "GND" H 10525 2247 50  0000 C CNN
+F 2 "" H 10520 2420 50  0001 C CNN
+F 3 "" H 10520 2420 50  0001 C CNN
+	1    10520 2420
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_30pF C?
+U 1 1 60A51E76
+P 10310 2510
+F 0 "C?" H 10200 2590 50  0000 L CNN
+F 1 "C_30pF" H 10040 2430 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 10348 2360 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 10335 2610 50  0001 C CNN
+F 4 "DK" H 10310 2510 60  0001 C CNN "MFN"
+F 5 "1276-1130-1-ND" H 10310 2510 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216" H 10735 3010 60  0001 C CNN "PurchasingLink"
+	1    10310 2510
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10430 2270 10420 2270
+Connection ~ 10310 2270
+Wire Wire Line
+	10310 2270 10310 2360
+Connection ~ 10420 2270
+Wire Wire Line
+	10420 2270 10310 2270
+Wire Wire Line
+	9610 1950 10700 1950
+Wire Wire Line
+	9610 2050 10310 2050
+Text GLabel 9610 2650 2    50   Input ~ 0
+SM_SDA
+Text GLabel 9610 2750 2    50   Input ~ 0
+SM_SCL
 $EndSCHEMATC
