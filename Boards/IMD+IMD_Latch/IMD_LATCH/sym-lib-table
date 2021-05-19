@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name IMD_LATCH-rescue)(type Legacy)(uri ${KIPRJMOD}/IMD_LATCH-rescue.lib)(options "")(descr ""))
-)
