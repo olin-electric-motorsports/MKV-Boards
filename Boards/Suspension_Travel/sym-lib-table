@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name template-rescue)(type Legacy)(uri ${KIPRJMOD}/template-rescue.lib)(options "")(descr ""))
-  (lib (name Suspension_Travel-rescue)(type Legacy)(uri ${KIPRJMOD}/Suspension_Travel-rescue.lib)(options "")(descr ""))
-)

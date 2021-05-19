@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Shutdown_Sense-rescue)(type Legacy)(uri ${KIPRJMOD}/Shutdown_Sense-rescue.lib)(options "")(descr ""))
-)
