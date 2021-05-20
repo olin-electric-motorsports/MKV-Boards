@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 12
+Sheet 4 13
 Title ""
 Date ""
 Rev ""
@@ -615,4 +615,15 @@ $EndComp
 Connection ~ 3030 1390
 Wire Wire Line
 	3030 1390 3030 1330
+$Comp
+L formula:TPS7A26 U?
+U 1 1 60A8017E
+P 9800 2970
+F 0 "U?" H 9800 3335 50  0000 C CNN
+F 1 "TPS7A26" H 9800 3244 50  0000 C CNN
+F 2 "" H 9800 2970 50  0001 C CNN
+F 3 "" H 9800 2970 50  0001 C CNN
+	1    9800 2970
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
