@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 12
+Sheet 4 13
 Title ""
 Date ""
 Rev ""
@@ -153,21 +153,6 @@ F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:L_100uH L?
-U 1 1 60AE5626
-P 4930 1430
-F 0 "L?" H 4930 1655 50  0000 C CNN
-F 1 "L_100uH" H 4930 1564 50  0000 C CNN
-F 2 "footprints:L_100uH_OEM" H 4830 1230 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 4830 1280 50  0001 C CNN
-F 4 "DK" H 5030 1230 50  0001 C CNN "MFN"
-F 5 "445-15759-1-ND" H 4930 1680 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 5230 1630 50  0001 C CNN "Link"
-F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055" H 400 -5100 50  0001 C CNN "PurchasingLink"
-	1    4930 1430
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 60AE562C
 P 4020 1880
@@ -193,7 +178,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 2560 1
 	1    0    0    -1  
 $EndComp
 Text Notes 2960 900  0    89   ~ 0
-BUCK CONVERTER (12V TO 5V)
+BUCK CONVERTER (12V TO 7V)
 Connection ~ 6840 1430
 Wire Wire Line
 	6840 2130 6840 2230
@@ -238,7 +223,7 @@ F 3 "" H 6840 1280 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6840 1430 0    50   ~ 0
-5V
+7V
 Wire Wire Line
 	6840 1430 6840 1440
 Wire Wire Line
@@ -299,8 +284,6 @@ Wire Wire Line
 	5350 2250 6350 2250
 Wire Wire Line
 	4160 2250 4160 2310
-Wire Wire Line
-	4360 2250 4160 2250
 $Comp
 L power:GND #PWR?
 U 1 1 60AE5679
@@ -319,8 +302,6 @@ Wire Wire Line
 	4810 1630 4810 2250
 Wire Wire Line
 	4370 1630 4810 1630
-Wire Wire Line
-	4660 2250 4810 2250
 Wire Wire Line
 	4770 1280 4830 1280
 Wire Wire Line
@@ -350,40 +331,10 @@ Wire Wire Line
 	5170 1430 5700 1430
 Wire Wire Line
 	5030 1430 5170 1430
-Connection ~ 4830 1430
 Wire Wire Line
 	4830 1280 4830 1430
 Wire Wire Line
 	4370 1430 4830 1430
-$Comp
-L formula:R_100K R?
-U 1 1 60AE569C
-P 5200 2250
-F 0 "R?" V 4993 2250 50  0000 C CNN
-F 1 "R_100K" V 5084 2250 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5130 2250 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5280 2250 50  0001 C CNN
-F 4 "DK" H 5200 2250 60  0001 C CNN "MFN"
-F 5 "P100KCCT-ND" H 5200 2250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 5680 2650 60  0001 C CNN "PurchasingLink"
-	1    5200 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_25K R?
-U 1 1 60AE56A6
-P 4510 2250
-F 0 "R?" V 4303 2250 50  0000 C CNN
-F 1 "R_25K" V 4394 2250 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 4560 1700 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English" H 4510 1850 50  0001 C CNN
-F 4 "DK" H 3910 2250 60  0001 C CNN "MFN"
-F 5 "CPF-A-0805B25KE" H 4560 2750 60  0001 C CNN "Digi-key Part Number"
-F 6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044" H 4560 2650 60  0001 C CNN "PurchasingLink"
-F 7 "A124124CT-ND" H 400 -5100 50  0001 C CNN "MPN"
-	1    4510 2250
-	0    1    1    0   
-$EndComp
 $Comp
 L formula:R_0_2512 R?
 U 1 1 60AE56AF
@@ -615,4 +566,196 @@ $EndComp
 Connection ~ 3030 1390
 Wire Wire Line
 	3030 1390 3030 1330
+$Comp
+L formula:TPS7A26 U?
+U 1 1 60AA207A
+P 2050 3650
+F 0 "U?" H 2050 4015 50  0000 C CNN
+F 1 "TPS7A26" H 2050 3924 50  0000 C CNN
+F 2 "" H 2050 3650 50  0001 C CNN
+F 3 "" H 2050 3650 50  0001 C CNN
+	1    2050 3650
+	1    0    0    -1  
+$EndComp
+Text Notes 1550 3200 0    89   ~ 0
+LDO (7V TO 5V)
+Wire Wire Line
+	1750 3600 1600 3600
+Wire Wire Line
+	1600 3600 1600 3750
+Wire Wire Line
+	1600 3750 1750 3750
+Text Label 1150 3600 0    50   ~ 0
+7V
+Wire Wire Line
+	1600 3600 1150 3600
+Connection ~ 1600 3600
+$Comp
+L formula:R_10K R?
+U 1 1 60AC2962
+P 3450 3500
+F 0 "R?" H 3520 3546 50  0000 L CNN
+F 1 "R_10K" H 3520 3455 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 3380 3500 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 3530 3500 50  0001 C CNN
+F 4 "DK" H 3450 3500 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 3450 3500 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3930 3900 60  0001 C CNN "PurchasingLink"
+	1    3450 3500
+	1    0    0    -1  
+$EndComp
+Text Label 3800 3650 0    50   ~ 0
+5V
+Text Label 3800 3350 0    50   ~ 0
+Vpg
+$Comp
+L formula:R_1.18M R?
+U 1 1 60AE4FB2
+P 2600 4350
+F 0 "R?" H 2670 4396 50  0000 L CNN
+F 1 "R_1.18M" H 2670 4305 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 2530 4350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2680 4350 50  0001 C CNN
+F 4 "Vishay Dale" H 2600 4350 60  0001 C CNN "MFN"
+F 5 "CRCW08051M18FKEA" H 2600 4350 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051M18FKEA/1176023" H 3080 4750 60  0001 C CNN "PurchasingLink"
+	1    2600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_3.65M R?
+U 1 1 60AF2558
+P 2600 3900
+F 0 "R?" H 2670 3946 50  0000 L CNN
+F 1 "R_3.65M" H 2670 3855 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 2530 3900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2680 3900 50  0001 C CNN
+F 4 "Yageo" H 2600 3900 60  0001 C CNN "MFN"
+F 5 "RC0805FR-073M65L" H 2600 3900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/yageo/RC0805FR-073M65L/727830" H 3080 4300 60  0001 C CNN "PurchasingLink"
+	1    2600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_47uF C?
+U 1 1 60AF6B16
+P 3200 3900
+F 0 "C?" H 3315 3946 50  0000 L CNN
+F 1 "C_47uF" H 3315 3855 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3238 3750 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/22/CL21A476MQYNNNG.pdf" H 3225 4000 50  0001 C CNN
+F 4 "DK" H 3200 3900 60  0001 C CNN "MFN"
+F 5 "1276-6467-1-ND" H 3200 3900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A476MQYNNNG/1276-6467-1-ND/5958095" H 3625 4400 60  0001 C CNN "PurchasingLink"
+	1    3200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3650 2600 3650
+Wire Wire Line
+	3450 3650 3800 3650
+Connection ~ 3450 3650
+Wire Wire Line
+	3200 3550 3200 3350
+Wire Wire Line
+	3200 3350 3450 3350
+Wire Wire Line
+	2350 3550 3200 3550
+Wire Wire Line
+	3450 3350 3800 3350
+Connection ~ 3450 3350
+Wire Wire Line
+	3200 3750 3200 3650
+Connection ~ 3200 3650
+Wire Wire Line
+	3200 3650 3450 3650
+Wire Wire Line
+	2600 3750 2600 3650
+Connection ~ 2600 3650
+Wire Wire Line
+	2600 3650 3200 3650
+Wire Wire Line
+	2600 4050 2600 4150
+Wire Wire Line
+	2350 3750 2450 3750
+Wire Wire Line
+	2450 3750 2450 4150
+Wire Wire Line
+	2450 4150 2600 4150
+Connection ~ 2600 4150
+Wire Wire Line
+	2600 4150 2600 4200
+$Comp
+L power:GND #PWR?
+U 1 1 60B171DC
+P 2050 3950
+F 0 "#PWR?" H 2050 3700 50  0001 C CNN
+F 1 "GND" H 2055 3777 50  0000 C CNN
+F 2 "" H 2050 3950 50  0001 C CNN
+F 3 "" H 2050 3950 50  0001 C CNN
+	1    2050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B17DAC
+P 2600 4500
+F 0 "#PWR?" H 2600 4250 50  0001 C CNN
+F 1 "GND" H 2605 4327 50  0000 C CNN
+F 2 "" H 2600 4500 50  0001 C CNN
+F 3 "" H 2600 4500 50  0001 C CNN
+	1    2600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B19EE8
+P 3200 4050
+F 0 "#PWR?" H 3200 3800 50  0001 C CNN
+F 1 "GND" H 3205 3877 50  0000 C CNN
+F 2 "" H 3200 4050 50  0001 C CNN
+F 3 "" H 3200 4050 50  0001 C CNN
+	1    3200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_15k R?
+U 1 1 60A9B04B
+P 4510 2250
+F 0 "R?" H 4510 2475 50  0000 C CNN
+F 1 "R_15k" H 4510 2384 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4410 2050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RE_105_RoHS_L_6.pdf" V 4510 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RE0805FRE0715KL/5923506" H 4510 2000 50  0001 C CNN "Link"
+	1    4510 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_90k R?
+U 1 1 60AA50E9
+P 5200 2250
+F 0 "R?" H 5200 2475 50  0000 C CNN
+F 1 "R_90k" H 5200 2384 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 5100 2050 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/60026/ptn.pdf" V 5200 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/vishay-dale-thin-film/PTN0805E9002BST1/7103062" H 5200 2000 50  0001 C CNN "Link"
+	1    5200 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4160 2250 4360 2250
+Wire Wire Line
+	4660 2250 4810 2250
+$Comp
+L formula:L_8.1uH L?
+U 1 1 60AA126C
+P 4930 1530
+F 0 "L?" H 4930 1855 50  0000 C CNN
+F 1 "L_8.1uH" H 4930 1764 50  0000 C CNN
+F 2 "footprints:L_8.1uH" H 4930 1530 50  0001 C CNN
+F 3 "https://www.coilcraft.com/getmedia/76c9c081-4945-4c85-9129-9356e1ad6734/xgl4020.pdf" H 4930 1530 50  0001 C CNN
+	1    4930 1530
+	1    0    0    -1  
+$EndComp
+Connection ~ 4830 1430
 $EndSCHEMATC
