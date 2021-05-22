@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 10
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -66,14 +66,10 @@ Text Notes 1500 5400 0    50   ~ 0
 FAN PWM BUFFER
 Wire Notes Line
 	700  5200 700  7000
-Text Label 900  6250 0    50   ~ 0
-FAN_PWM_RAW
 Wire Wire Line
 	900  6250 1500 6250
 Wire Wire Line
 	2400 6150 2500 6150
-Text Label 2500 6150 0    50   ~ 0
-FAN_PWM
 Wire Notes Line
 	3000 5200 3000 7000
 Wire Notes Line
@@ -187,10 +183,8 @@ $EndComp
 Wire Wire Line
 	8550 1800 8550 1850
 Wire Wire Line
-	8150 2100 7600 2100
+	8150 2100 8000 2100
 Connection ~ 8150 2100
-Text Label 7600 2100 0    50   ~ 0
-RELAY_DRIVE
 Wire Wire Line
 	8550 1200 8550 1150
 $Comp
@@ -210,10 +204,6 @@ Wire Wire Line
 	8850 1200 8850 1100
 Wire Wire Line
 	8850 1100 8950 1100
-Text Label 8950 1100 0    50   ~ 0
-SHDN_IN(MAIN_PACK->BMS)
-Text Label 8950 1900 0    50   ~ 0
-SHDN_OUT(BMS->IMD)
 Wire Wire Line
 	8850 1800 8850 1900
 Wire Wire Line
@@ -261,7 +251,7 @@ F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAS40215/1727-42
 	0    1    1    0   
 $EndComp
 $Comp
-L BMS_core-rescue:G5Q-1A4-DC12-footprints K?
+L formula:G5Q-1A4-DC12 K?
 U 1 1 60C5D6C5
 P 8750 1500
 AR Path="/60A3B220/60C5D6C5" Ref="K?"  Part="1" 
@@ -584,8 +574,6 @@ Wire Wire Line
 	5750 5400 5850 5400
 Wire Wire Line
 	7000 5150 7350 5150
-Text Label 8100 4650 0    50   ~ 0
-BSPD_CURRENT
 Text Notes 3850 3400 0    50   ~ 0
 BSPD CURRENT SENSOR TRIGGER
 $Comp
@@ -875,22 +863,6 @@ F 3 "" H 6250 4550 50  0001 C CNN
 $EndComp
 Text Notes 5400 3800 0    50   ~ 0
 0.45V
-$Comp
-L BMS_core-rescue:SN74LVC1G32-formula U?
-U 1 1 60CD7588
-P 7650 4650
-AR Path="/60A3B220/60CD7588" Ref="U?"  Part="1" 
-AR Path="/60A3BC90/60CD7588" Ref="U?"  Part="1" 
-F 0 "U?" H 7850 4500 50  0000 L CNN
-F 1 "SN74LVC1G32" H 7850 4400 50  0000 L CNN
-F 2 "footprints:SOT-23-5_OEM" H 7000 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf" H 7100 4800 50  0001 C CNN
-F 4 "DK" H 7200 4900 50  0001 C CNN "MFN"
-F 5 "SN74LVC1G32DBVR" H 7300 5000 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G32DBVR/296-9847-1-ND/380102" H 7400 5100 50  0001 C CNN "PurchasingLink"
-	1    7650 4650
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 60CD758E
@@ -1275,21 +1247,11 @@ F 3 "" H 1100 1075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1200 1550 800  1550
+	1200 1550 1000 1550
 Wire Wire Line
-	1200 1650 800  1650
+	1200 1650 1000 1650
 Wire Wire Line
-	1200 1750 800  1750
-Wire Wire Line
-	800  1850 1200 1850
-Text Label 800  1850 0    50   ~ 0
-CS_iso
-Text Label 800  1750 0    50   ~ 0
-SCK_iso
-Text Label 800  1550 0    50   ~ 0
-MOSI_iso
-Text Label 800  1650 0    50   ~ 0
-MISO_iso
+	1200 1750 1000 1750
 Connection ~ 1100 2050
 Wire Wire Line
 	1100 2150 1100 2050
@@ -1483,4 +1445,40 @@ F 3 "" H 10550 4275 50  0001 C CNN
 $EndComp
 Text Label 10600 4275 0    50   ~ 0
 BSPD_CURRENT
+$Comp
+L formula:SN74LVC1G32DBVR U?
+U 1 1 60BACCC4
+P 7650 4650
+F 0 "U?" H 8100 4500 50  0000 L CNN
+F 1 "SN74LVC1G32DBVR" H 7800 4400 50  0000 L CNN
+F 2 "footprints:SOT-23-5_OEM" H 7650 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf" H 7650 3950 50  0001 C CNN
+F 4 "DK" H 8350 4650 50  0001 C CNN "MFN"
+F 5 "296-9847-1-ND" H 7650 4150 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G32DBVR/296-9847-1-ND/380102" H 7650 3850 50  0001 C CNN "PurchasingLink"
+	1    7650 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 900  6250 2    50   Input ~ 0
+FAN_PWM_RAW
+Text GLabel 2500 6150 2    50   Input ~ 0
+FAN_PWM
+Text GLabel 8100 4650 2    50   Input ~ 0
+BSPD_CURRENT
+Text GLabel 1000 1550 0    50   Input ~ 0
+MOSI_iso
+Text GLabel 1000 1650 0    50   Input ~ 0
+MISO_iso
+Text GLabel 1000 1750 0    50   Input ~ 0
+SCK_iso
+Wire Wire Line
+	1000 1850 1200 1850
+Text GLabel 1000 1850 0    50   Input ~ 0
+CS_iso
+Text GLabel 8000 2100 0    50   Input ~ 0
+RELAY_DRIVE
+Text GLabel 8950 1100 2    50   Input ~ 0
+SHDN_IN(MAIN_PACK->BMS)
+Text GLabel 8950 1900 2    50   Input ~ 0
+SHDN_OUT(BMS->IMD)
 $EndSCHEMATC

@@ -13,25 +13,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 5150 4100 0    98   ~ 0
-400V - 5V Linear Regulator
 Wire Wire Line
 	7225 1475 7225 2425
 Wire Wire Line
 	5150 1475 5475 1475
 Wire Wire Line
-	3400 2175 3200 2175
-Wire Wire Line
-	3400 2175 3400 2425
-Connection ~ 3400 2175
-Wire Wire Line
 	6900 2425 7225 2425
 Connection ~ 6400 2425
-Wire Wire Line
-	3400 2725 3400 3050
-Connection ~ 3400 3050
-Wire Wire Line
-	3200 3050 3400 3050
 Wire Wire Line
 	6400 2075 6400 2425
 Wire Wire Line
@@ -62,31 +50,6 @@ F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    5850 1625
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 1900 4000 2425
-Wire Wire Line
-	4000 1475 4000 1600
-Wire Wire Line
-	4650 1475 4850 1475
-Wire Wire Line
-	4650 1475 4000 1475
-Connection ~ 4650 1475
-Text Label 4650 1825 0    50   ~ 0
-VCC
-$Comp
-L formula:R_10K R?
-U 1 1 61108F71
-P 5000 1475
-F 0 "R?" V 4793 1475 50  0000 C CNN
-F 1 "R_10K" V 4884 1475 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 4930 1475 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5080 1475 50  0001 C CNN
-F 4 "DK" H 5000 1475 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 5000 1475 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 5480 1875 60  0001 C CNN "PurchasingLink"
-	1    5000 1475
-	0    1    1    0   
-$EndComp
 $Comp
 L formula:Diode_600V_1A_SM D?
 U 1 1 61108F78
@@ -99,12 +62,6 @@ F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STTH1R06A/497-
 	1    5625 1475
 	-1   0    0    1   
 $EndComp
-Text Label 4900 2075 0    50   ~ 0
-FB
-Text Label 4600 2550 3    50   ~ 0
-SW
-Text Label 4700 2550 3    50   ~ 0
-SW
 $Comp
 L formula:Diode_600V_1A_SM D?
 U 1 1 61108F85
@@ -138,30 +95,6 @@ F 1 "GND" H 6430 3002 50  0000 C CNN
 F 2 "" H 6425 3175 50  0001 C CNN
 F 3 "" H 6425 3175 50  0001 C CNN
 	1    6425 3175
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:C_10uF_450V C?
-U 1 1 61108F9F
-P 3400 2525
-F 0 "C?" H 3285 2529 50  0000 R CNN
-F 1 "C_10uF_450V" H 3285 2620 50  0000 R CNN
-F 2 "footprints:C_10uF_450V" H 3438 3125 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1202.pdf" H 3425 3375 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEV-EB2W100SM/PCE3597CT-ND/613821" H 3825 3025 60  0001 C CNN "PurchasingLink"
-	1    3400 2525
-	-1   0    0    1   
-$EndComp
-$Comp
-L formula:C_2.2uF C?
-U 1 1 61108FA6
-P 4000 1800
-F 0 "C?" H 4115 1896 50  0000 L CNN
-F 1 "C_2.2uF" H 4115 1805 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 4038 2400 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf" H 4025 2650 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/tdk-corporation/C2012X7R1H225M125AE/445-172488-1-ND/4990030" H 4425 2300 60  0001 C CNN "PurchasingLink"
-	1    4000 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -226,50 +159,6 @@ F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-
 	1    8025 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4275 2175 4275 2275
-Wire Wire Line
-	4275 2175 3400 2175
-Connection ~ 4275 2175
-Connection ~ 4275 2075
-Wire Wire Line
-	4275 2075 4275 2175
-Wire Wire Line
-	4275 1975 4275 2075
-Wire Wire Line
-	4275 2275 4400 2275
-Wire Wire Line
-	4400 2175 4275 2175
-Wire Wire Line
-	4400 2075 4275 2075
-Wire Wire Line
-	4400 1975 4275 1975
-Wire Wire Line
-	4000 2425 4600 2425
-Wire Wire Line
-	4700 2425 5200 2425
-Wire Wire Line
-	4900 2075 5200 2075
-Wire Wire Line
-	4650 1825 4650 1475
-$Comp
-L formula:Buck_Converter_450V_300mA U?
-U 1 1 61108F3B
-P 4650 2125
-F 0 "U?" H 4600 1400 50  0000 C CNN
-F 1 "Buck_Converter_450V_300mA" H 4750 1500 50  0000 C CNN
-F 2 "footprints:Converter_DCDC_MPS_MP9488" H 4700 2575 50  0001 C CNN
-F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP9488/document_id/3748/" H 4650 2375 50  0001 C CNN
-F 4 "https://www.monolithicpower.com/en/mp9488.html" H 4700 2675 50  0001 C CNN "Purchasing Link"
-	1    4650 2125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 2425 4600 2550
-Connection ~ 4600 2425
-Wire Wire Line
-	4700 2425 4700 2550
-Connection ~ 4700 2425
 $Comp
 L formula:R_3K R?
 U 1 1 61108FDB
@@ -323,10 +212,7 @@ Connection ~ 6100 2425
 Wire Wire Line
 	6100 2425 6400 2425
 Wire Wire Line
-	3400 3050 6100 3050
-Wire Wire Line
 	6100 2925 6100 3050
-Connection ~ 6100 3050
 Wire Wire Line
 	6400 2425 6700 2425
 $Comp
@@ -353,73 +239,67 @@ Wire Wire Line
 	6425 3050 7400 3050
 Text Notes 5200 900  0    98   ~ 0
 400V - 15V BUCK
+Wire Wire Line
+	5200 2375 5200 2425
+Wire Wire Line
+	5200 2425 5850 2425
+Text Label 9050 2425 0    50   ~ 0
+15V+
+Text Label 9050 3050 0    50   ~ 0
+15V-
 $Comp
-L formula:LR8K4-G U?
-U 1 1 60AA1B77
-P 5350 4650
-AR Path="/60A99934/60AA1B77" Ref="U?"  Part="1" 
-AR Path="/60A3B0AB/60AA1B77" Ref="U?"  Part="1" 
-F 0 "U?" H 5350 4917 50  0000 C CNN
-F 1 "LR8K4-G" H 5350 4826 50  0000 C CNN
-F 2 "footprints:TO-252-2" H 5350 5150 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf" H 5350 4950 50  0001 C CNN
-F 4 "Mouser" H 5350 5050 60  0001 C CNN "MFN"
-F 5 "689-LR8K4-G" H 5300 5250 60  0001 C CNN "MPN"
-F 6 "https://www.mouser.com/productdetail/?qs=jWmFlM7coATgElKtQd9PRA%3D%3D" H 5150 5350 60  0001 C CNN "Webpage"
-	1    5350 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:F_21mA_420V F?
-U 1 1 60AA1B80
-P 4600 4650
-AR Path="/60A99934/60AA1B80" Ref="F?"  Part="1" 
-AR Path="/60A3B0AB/60AA1B80" Ref="F?"  Part="1" 
-F 0 "F?" V 4403 4650 50  0000 C CNN
-F 1 "F_21mA_420V" V 4494 4650 50  0000 C CNN
-F 2 "footprints:F_21mA_420V" V 4000 4450 50  0001 C CNN
-F 3 "https://en.tdk.eu/inf/55/db/PTC/PTC_OC_Leaded_380V_500V.pdf" V 5250 4800 50  0001 C CNN
-F 4 "DK" H 3700 5050 60  0001 C CNN "MFN"
-F 5 "495-75309-ND" H 4450 5300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/epcos-tdk/B59884C0120A070/495-75309-ND/651926" V 5080 5050 60  0001 C CNN "PurchasingLink"
-	1    4600 4650
+L formula:R_10K R?
+U 1 1 61108F71
+P 5000 1475
+F 0 "R?" V 4793 1475 50  0000 C CNN
+F 1 "R_10K" V 4884 1475 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4930 1475 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5080 1475 50  0001 C CNN
+F 4 "DK" H 5000 1475 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 5000 1475 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 5480 1875 60  0001 C CNN "PurchasingLink"
+	1    5000 1475
 	0    1    1    0   
 $EndComp
+Connection ~ 5850 5700
+Text Label 6700 4650 0    50   ~ 0
+5V
+Connection ~ 6400 4650
 Wire Wire Line
-	4750 4650 4950 4650
+	6400 4650 6700 4650
 Wire Wire Line
-	4450 4650 4250 4650
-Text Label 4250 4650 2    50   ~ 0
-TS+
+	5850 5700 5350 5700
 Wire Wire Line
-	5750 4650 5900 4650
+	5850 5700 5850 5850
 Wire Wire Line
-	5900 5100 5350 5100
+	6400 5700 5850 5700
 Wire Wire Line
-	5350 4950 5350 5100
+	6400 5050 6400 5700
+Connection ~ 5900 4650
 Wire Wire Line
-	5350 5100 5350 5250
-Connection ~ 5350 5100
+	6400 4650 6400 4750
+Wire Wire Line
+	5900 4650 6400 4650
 $Comp
-L formula:R_1K R?
-U 1 1 60AA1B91
-P 5900 4900
-AR Path="/60A99934/60AA1B91" Ref="R?"  Part="1" 
-AR Path="/60A3B0AB/60AA1B91" Ref="R?"  Part="1" 
-F 0 "R?" H 5970 4946 50  0000 L CNN
-F 1 "R_1K" H 5970 4855 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5830 4900 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5980 4900 50  0001 C CNN
-F 4 "DK" H 5900 4900 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 5900 4900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 6380 5300 60  0001 C CNN "PurchasingLink"
-	1    5900 4900
+L formula:C_1uF C?
+U 1 1 60AA1BA7
+P 6400 4950
+AR Path="/60A99934/60AA1BA7" Ref="C?"  Part="1" 
+AR Path="/60A3B0AB/60AA1BA7" Ref="C?"  Part="1" 
+F 0 "C?" H 6515 4996 50  0000 L CNN
+F 1 "C_1uF" H 6515 4905 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 6438 4800 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 6425 5050 50  0001 C CNN
+F 4 "DK" H 6400 4950 60  0001 C CNN "MFN"
+F 5 "1276-2887-1-ND" H 6400 4950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 6825 5450 60  0001 C CNN "PurchasingLink"
+	1    6400 4950
 	1    0    0    -1  
 $EndComp
+Text Label 5850 5850 2    50   ~ 0
+TS-
 Wire Wire Line
-	5900 4750 5900 4650
-Wire Wire Line
-	5900 5050 5900 5100
+	5350 5550 5350 5700
 $Comp
 L formula:R_3K R?
 U 1 1 60AA1B9C
@@ -437,55 +317,186 @@ F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 5550 5350 5700
-Text Label 5850 5850 2    50   ~ 0
-TS-
+	5900 5050 5900 5100
+Wire Wire Line
+	5900 4750 5900 4650
 $Comp
-L formula:C_1uF C?
-U 1 1 60AA1BA7
-P 6400 4950
-AR Path="/60A99934/60AA1BA7" Ref="C?"  Part="1" 
-AR Path="/60A3B0AB/60AA1BA7" Ref="C?"  Part="1" 
-F 0 "C?" H 6515 4996 50  0000 L CNN
-F 1 "C_1uF" H 6515 4905 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 6438 4800 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 6425 5050 50  0001 C CNN
-F 4 "DK" H 6400 4950 60  0001 C CNN "MFN"
-F 5 "1276-2887-1-ND" H 6400 4950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 6825 5450 60  0001 C CNN "PurchasingLink"
-	1    6400 4950
+L formula:R_1K R?
+U 1 1 60AA1B91
+P 5900 4900
+AR Path="/60A99934/60AA1B91" Ref="R?"  Part="1" 
+AR Path="/60A3B0AB/60AA1B91" Ref="R?"  Part="1" 
+F 0 "R?" H 5970 4946 50  0000 L CNN
+F 1 "R_1K" H 5970 4855 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 5830 4900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5980 4900 50  0001 C CNN
+F 4 "DK" H 5900 4900 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 5900 4900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 6380 5300 60  0001 C CNN "PurchasingLink"
+	1    5900 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 5100
+Wire Wire Line
+	5350 5100 5350 5250
+Wire Wire Line
+	5350 4950 5350 5100
+Wire Wire Line
+	5900 5100 5350 5100
+Wire Wire Line
+	5750 4650 5900 4650
+Text Label 4250 4650 2    50   ~ 0
+TS+
+Wire Wire Line
+	4450 4650 4250 4650
+Wire Wire Line
+	4750 4650 4950 4650
+$Comp
+L formula:F_21mA_420V F?
+U 1 1 60AA1B80
+P 4600 4650
+AR Path="/60A99934/60AA1B80" Ref="F?"  Part="1" 
+AR Path="/60A3B0AB/60AA1B80" Ref="F?"  Part="1" 
+F 0 "F?" V 4403 4650 50  0000 C CNN
+F 1 "F_21mA_420V" V 4494 4650 50  0000 C CNN
+F 2 "footprints:F_21mA_420V" V 4000 4450 50  0001 C CNN
+F 3 "https://en.tdk.eu/inf/55/db/PTC/PTC_OC_Leaded_380V_500V.pdf" V 5250 4800 50  0001 C CNN
+F 4 "DK" H 3700 5050 60  0001 C CNN "MFN"
+F 5 "495-75309-ND" H 4450 5300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/epcos-tdk/B59884C0120A070/495-75309-ND/651926" V 5080 5050 60  0001 C CNN "PurchasingLink"
+	1    4600 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:LR8K4-G U?
+U 1 1 60AA1B77
+P 5350 4650
+AR Path="/60A99934/60AA1B77" Ref="U?"  Part="1" 
+AR Path="/60A3B0AB/60AA1B77" Ref="U?"  Part="1" 
+F 0 "U?" H 5350 4917 50  0000 C CNN
+F 1 "LR8K4-G" H 5350 4826 50  0000 C CNN
+F 2 "footprints:TO-252-2" H 5350 5150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf" H 5350 4950 50  0001 C CNN
+F 4 "Mouser" H 5350 5050 60  0001 C CNN "MFN"
+F 5 "689-LR8K4-G" H 5300 5250 60  0001 C CNN "MPN"
+F 6 "https://www.mouser.com/productdetail/?qs=jWmFlM7coATgElKtQd9PRA%3D%3D" H 5150 5350 60  0001 C CNN "Webpage"
+	1    5350 4650
+	1    0    0    -1  
+$EndComp
+Text Notes 5150 4100 0    98   ~ 0
+400V - 5V Linear Regulator
+Text Label 4825 2625 3    50   ~ 0
+SW
+Text Label 5200 2075 0    50   ~ 0
+FB
+Text Label 4750 1725 0    50   ~ 0
+VCC
+Connection ~ 6100 3050
+Wire Wire Line
+	3400 2175 3200 2175
+Wire Wire Line
+	3400 2175 3400 2425
+Connection ~ 3400 2175
+Wire Wire Line
+	3400 2725 3400 3050
+Connection ~ 3400 3050
+Wire Wire Line
+	3200 3050 3400 3050
+Wire Wire Line
+	4000 1475 4000 1600
+$Comp
+L formula:C_10uF_450V C?
+U 1 1 61108F9F
+P 3400 2525
+F 0 "C?" H 3285 2529 50  0000 R CNN
+F 1 "C_10uF_450V" H 3285 2620 50  0000 R CNN
+F 2 "footprints:C_10uF_450V" H 3438 3125 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1202.pdf" H 3425 3375 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEV-EB2W100SM/PCE3597CT-ND/613821" H 3825 3025 60  0001 C CNN "PurchasingLink"
+	1    3400 2525
+	-1   0    0    1   
+$EndComp
+$Comp
+L formula:C_2.2uF C?
+U 1 1 61108FA6
+P 4000 1800
+F 0 "C?" H 4115 1896 50  0000 L CNN
+F 1 "C_2.2uF" H 4115 1805 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 4038 2400 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf" H 4025 2650 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/tdk-corporation/C2012X7R1H225M125AE/445-172488-1-ND/4990030" H 4425 2300 60  0001 C CNN "PurchasingLink"
+	1    4000 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 4650 6400 4650
+	4275 2175 4275 2275
 Wire Wire Line
-	6400 4650 6400 4750
-Connection ~ 5900 4650
+	4275 2175 3400 2175
+Connection ~ 4275 2175
+Connection ~ 4275 2075
 Wire Wire Line
-	6400 5050 6400 5700
+	4275 2075 4275 2175
 Wire Wire Line
-	6400 5700 5850 5700
+	4275 1975 4275 2075
 Wire Wire Line
-	5850 5700 5850 5850
+	4275 2275 4400 2275
 Wire Wire Line
-	5850 5700 5350 5700
+	4400 2175 4275 2175
 Wire Wire Line
-	6400 4650 6700 4650
-Connection ~ 6400 4650
-Text Label 6700 4650 0    50   ~ 0
-5V
-Connection ~ 5850 5700
+	4400 2075 4275 2075
+Wire Wire Line
+	4400 1975 4275 1975
+Wire Wire Line
+	3400 3050 6100 3050
 Text GLabel 3200 2175 0    50   Input ~ 0
 TS+
 Text GLabel 3200 3050 0    50   Input ~ 0
 TS-
+$Comp
+L formula:MP9488 U?
+U 1 1 60B102A2
+P 4650 2025
+F 0 "U?" H 4725 1200 50  0000 L CNN
+F 1 "MP9488" H 4700 1125 50  0000 L CNN
+F 2 "footprints:Converter_DCDC_MPS_MP9488" H 4700 2975 50  0001 C CNN
+F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP9488/document_id/3748/" H 4650 2775 50  0001 C CNN
+F 4 "https://www.monolithicpower.com/en/mp9488.html" H 4700 3075 50  0001 C CNN "Purchasing Link"
+	1    4650 2025
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5200 2375 5200 2425
+	5150 2075 5200 2075
+Wire Wire Line
+	4000 1475 4750 1475
+Wire Wire Line
+	4750 1475 4750 1725
+Connection ~ 4750 1475
+Wire Wire Line
+	4750 1475 4850 1475
+Wire Wire Line
+	4000 2550 4750 2550
+Wire Wire Line
+	4825 2550 4825 2625
+Wire Wire Line
+	4000 1900 4000 2550
+Wire Wire Line
+	4750 2475 4750 2550
+Connection ~ 4750 2550
+Wire Wire Line
+	4750 2550 4825 2550
+Wire Wire Line
+	4900 2475 4900 2550
+Wire Wire Line
+	4900 2550 4825 2550
+Connection ~ 4825 2550
+Wire Wire Line
+	4900 2550 5200 2550
+Wire Wire Line
+	5200 2550 5200 2425
+Connection ~ 4900 2550
 Connection ~ 5200 2425
-Wire Wire Line
-	5200 2425 5850 2425
-Text Label 9050 2425 0    50   ~ 0
-15V+
-Text Label 9050 3050 0    50   ~ 0
-15V-
+Text Notes 1675 1850 0    98   ~ 0
+review schematic!!!!!!!!!!!!
+Text Notes 6925 5300 0    98   ~ 0
+change values so that output is 15V \nR1 = 6.04k \nR2 = 66.13k
 $EndSCHEMATC

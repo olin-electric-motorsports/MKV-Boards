@@ -140,27 +140,6 @@ X VCC 5 0 350 200 D 50 28 1 1 B
 ENDDRAW
 ENDDEF
 #
-# formula_Buck_Converter_450V_300mA
-#
-DEF formula_Buck_Converter_450V_300mA U 0 40 Y Y 1 F N
-F0 "U" 0 750 50 H V C CNN
-F1 "formula_Buck_Converter_450V_300mA" 50 850 50 H V C CNN
-F2 "footprints:Converter_DCDC_MPS_MP9488" 50 950 50 H I C CNN
-F3 "" 0 750 50 H I C CNN
-F4 "https://www.monolithicpower.com/en/mp9488.html" 50 1050 50 H I C CNN "Purchasing Link"
-DRAW
-S -150 200 150 -200 0 1 0 f
-X 1 1 0 300 100 D 50 50 1 1 B
-X 2 2 250 50 100 L 50 50 1 1 B
-X 3 3 50 -300 100 U 50 50 1 1 B
-X 4 4 -50 -300 100 U 50 50 1 1 B
-X 5 5 -250 150 100 R 50 50 1 1 B
-X 6 6 -250 50 100 R 50 50 1 1 B
-X 7 7 -250 -50 100 R 50 50 1 1 B
-X 8 8 -250 -150 100 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # formula_CD4043BPWR
 #
 DEF formula_CD4043BPWR U 0 40 Y Y 1 F N
@@ -960,46 +939,6 @@ X - 4 -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# formula_MM_F_RA_04
-#
-DEF formula_MM_F_RA_04 J 0 40 Y Y 1 F N
-F0 "J" -100 1200 60 H V C CNN
-F1 "formula_MM_F_RA_04" 50 -250 60 H V C CNN
-F2 "footprints:micromatch_female_ra_4" -200 1100 60 H I C CNN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-4" -100 1200 60 H I C CNN
-F4 "TE" 100 1400 60 H I C CNN "MFN"
-F5 "338070-4" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-338070-4.html" 0 1300 60 H I C CNN "PurchasingLink"
-DRAW
-S 150 -150 -150 250 0 1 0 f
-X 1 1 250 200 100 L 50 50 1 1 B
-X 2 2 250 100 100 L 50 50 1 1 B
-X 3 3 250 0 100 L 50 50 1 1 B
-X 4 4 250 -100 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# formula_MM_F_RA_06
-#
-DEF formula_MM_F_RA_06 J 0 40 Y Y 1 F N
-F0 "J" 0 350 60 H V C CNN
-F1 "formula_MM_F_RA_06" 100 -400 60 H V C CNN
-F2 "footprints:micromatch_female_ra_6" -100 250 60 H I C CNN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-6" 0 350 60 H I C CNN
-F4 "TE" 100 1400 60 H I C CNN "MFN"
-F5 "338070-6" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/usa-en/product-338070-6.html" 0 1300 60 H I C CNN "PurchasingLink"
-DRAW
-S 150 -300 -150 300 0 1 0 f
-X 1 1 250 250 100 L 50 50 1 1 B
-X 2 2 250 150 100 L 50 50 1 1 B
-X 3 3 250 50 100 L 50 50 1 1 B
-X 4 4 250 -50 100 L 50 50 1 1 B
-X 5 5 250 -150 100 L 50 50 1 1 B
-X 6 6 250 -250 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # formula_MM_F_VT_16
 #
 DEF formula_MM_F_VT_16 J 0 40 Y Y 1 F N
@@ -1138,6 +1077,27 @@ X 6 6 150 600 100 L 50 50 1 1 B
 X 7 7 150 500 100 L 50 50 1 1 B
 X 8 8 150 400 100 L 50 50 1 1 B
 X 9 9 150 300 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# formula_MP9488
+#
+DEF formula_MP9488 U 0 40 Y Y 1 F N
+F0 "U" 0 750 50 H V C CNN
+F1 "formula_MP9488" 50 850 50 H V C CNN
+F2 "footprints:Converter_DCDC_MPS_MP9488" 50 950 50 H I C CNN
+F3 "" 0 750 50 H I C CNN
+F4 "https://www.monolithicpower.com/en/mp9488.html" 50 1050 50 H I C CNN "Purchasing Link"
+DRAW
+S -150 200 400 -350 0 1 0 f
+X VCC 1 100 300 100 D 50 50 1 1 B
+X FB 2 500 -50 100 L 50 50 1 1 B
+X SW 3 250 -450 100 U 50 50 1 1 B
+X SW 4 100 -450 100 U 50 50 1 1 B
+X NC 5 -250 50 100 R 50 50 1 1 B
+X NC 6 -250 -50 100 R 50 50 1 1 B
+X VIN 7 -250 -150 100 R 50 50 1 1 B
+X NC 8 -250 -250 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
