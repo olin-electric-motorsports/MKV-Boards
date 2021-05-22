@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -148,8 +148,6 @@ F 3 "" H 2350 2175 50  0001 C CNN
 	1    2350 2175
 	1    0    0    -1  
 $EndComp
-Text Label 1250 1650 2    50   ~ 0
-12V_Fused
 Text Label 3150 2025 2    50   ~ 0
 12V_Fused
 $Comp
@@ -185,8 +183,6 @@ Wire Wire Line
 	1750 4500 1750 4650
 Wire Wire Line
 	1475 4500 1750 4500
-Text Label 1600 4100 0    50   ~ 0
-IMD_Output
 $Comp
 L power:GND #PWR?
 U 1 1 610EBAE3
@@ -577,8 +573,6 @@ F 3 "" H 8300 3200 50  0001 C CNN
 	1    8300 3200
 	1    0    0    -1  
 $EndComp
-Text Label 8825 2825 1    50   ~ 0
-IMD_Status_Output
 $Comp
 L power:GND #PWR?
 U 1 1 610EBBCD
@@ -854,4 +848,10 @@ F 6 "https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-
 	1    7200 2700
 	1    0    0    -1  
 $EndComp
+Text Label 1250 1650 2    50   ~ 0
+12V_Fused
+Text GLabel 8825 2825 1    50   Input ~ 0
+IMD_Status_Output
+Text GLabel 1600 4100 2    50   Input ~ 0
+IMD_Output
 $EndSCHEMATC

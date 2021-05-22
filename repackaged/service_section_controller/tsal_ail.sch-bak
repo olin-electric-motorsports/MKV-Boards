@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 13
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -40,19 +40,19 @@ TS+
 Text Label 9950 6200 0    50   ~ 0
 TS-
 $Comp
-L TSAL-AIL-rescue:NanoFit_2-Formula-TSAL-AIL-rescue J?
+L formula:NanoFit_RA_TH_02 J?
 U 1 1 61125034
-P 2950 2650
+P 2400 2400
 AR Path="/60A3B236/61125034" Ref="J?"  Part="1" 
 AR Path="/60A3B41E/61125034" Ref="J?"  Part="1" 
-F 0 "J?" H 3392 2013 60  0000 C CNN
-F 1 "NanoFit_2" H 3392 2119 60  0000 C CNN
-F 2 "Formula:NanoFit_Molex_1x02x2.50mm_Angled_OEM" H 3200 2500 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" H 3300 2600 60  0001 C CNN
-F 4 "DK" H 3400 2700 50  0001 C CNN "MFN"
-F 5 "WM14972-ND" H 3500 2800 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=nanofit+2&k=&pkeyword=nanofit+2&pv88=2&pv69=367&sf=0&FV=ffe0013a&quantity=&ColumnSort=0&page=1&pageSize=25" H 3600 2900 50  0001 C CNN "PurchasingLink"
-	1    2950 2650
+F 0 "J?" H 2450 1850 60  0000 C CNN
+F 1 "NanoFit_2" H 2450 2000 60  0000 C CNN
+F 2 "Formula:NanoFit_Molex_1x02x2.50mm_Angled_OEM" H 2650 2250 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" H 2750 2350 60  0001 C CNN
+F 4 "DK" H 2850 2450 50  0001 C CNN "MFN"
+F 5 "WM14972-ND" H 2950 2550 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=nanofit+2&k=&pkeyword=nanofit+2&pv88=2&pv69=367&sf=0&FV=ffe0013a&quantity=&ColumnSort=0&page=1&pageSize=25" H 3050 2650 50  0001 C CNN "PurchasingLink"
+	1    2400 2400
 	-1   0    0    1   
 $EndComp
 Text Label 2850 2300 0    50   ~ 0
@@ -60,7 +60,7 @@ AIL-
 Text Label 2850 2450 0    50   ~ 0
 AIL+
 $Comp
-L Formula:MCP6001 U?
+L formula:MCP6001 U?
 U 1 1 6112503F
 P 3650 3500
 AR Path="/60A3B236/6112503F" Ref="U?"  Part="1" 
@@ -76,7 +76,7 @@ F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-O
 	1    0    0    -1  
 $EndComp
 $Comp
-L Formula:R_270K R?
+L formula:R_270K R?
 U 1 1 61125048
 P 1300 3200
 AR Path="/60A3B236/61125048" Ref="R?"  Part="1" 
@@ -92,7 +92,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L TSAL-AIL-rescue:R_270K-Formula-TSAL-AIL-rescue R?
+L formula:R_270K R?
 U 1 1 61125051
 P 1800 3200
 AR Path="/60A3B236/61125051" Ref="R?"  Part="1" 
@@ -108,7 +108,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L TSAL-AIL-rescue:R_270K-Formula-TSAL-AIL-rescue R?
+L formula:R_270K R?
 U 1 1 6112505A
 P 2300 3200
 AR Path="/60A3B236/6112505A" Ref="R?"  Part="1" 
@@ -124,7 +124,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L TSAL-AIL-rescue:R_270K-Formula-TSAL-AIL-rescue R?
+L formula:R_270K R?
 U 1 1 61125063
 P 2750 3200
 AR Path="/60A3B236/61125063" Ref="R?"  Part="1" 
@@ -140,7 +140,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L TSAL-AIL-rescue:R_10K-Formula-TSAL-AIL-rescue R?
+L formula:R_10K R?
 U 1 1 6112506C
 P 2050 3600
 AR Path="/60A3B236/6112506C" Ref="R?"  Part="1" 
@@ -190,7 +190,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 3200 3550 2950
 $Comp
-L TSAL-AIL-rescue:C_10uF-Formula-TSAL-AIL-rescue C?
+L formula:C_10uF C?
 U 1 1 61125087
 P 3850 2500
 AR Path="/60A3B236/61125087" Ref="C?"  Part="1" 
@@ -206,7 +206,7 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A10
 	0    1    1    0   
 $EndComp
 $Comp
-L TSAL-AIL-rescue:C_0.1uF-Formula-TSAL-AIL-rescue C?
+L formula:C_0.1uF C?
 U 1 1 61125090
 P 3850 2950
 AR Path="/60A3B236/61125090" Ref="C?"  Part="1" 
@@ -253,7 +253,7 @@ Connection ~ 5350 3500
 Wire Wire Line
 	5350 3500 5800 3500
 $Comp
-L TSAL-AIL-rescue:R_1.43K-Formula-TSAL-AIL-rescue R?
+L formula:R_1.43K R?
 U 1 1 611250AB
 P 4500 3900
 AR Path="/60A3B236/611250AB" Ref="R?"  Part="1" 
@@ -269,7 +269,7 @@ F 6 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/R
 	1    0    0    -1  
 $EndComp
 $Comp
-L TSAL-AIL-rescue:LED_0805-Formula-TSAL-AIL-rescue D?
+L formula:LED_0805 D?
 U 1 1 611250B4
 P 5350 3950
 AR Path="/60A3B236/611250B4" Ref="D?"  Part="1" 
@@ -285,7 +285,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 5750 4450 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TSAL-AIL-rescue:R_1K-Formula-TSAL-AIL-rescue R?
+L formula:R_1K R?
 U 1 1 611250BD
 P 5350 4550
 AR Path="/60A3B236/611250BD" Ref="R?"  Part="1" 
@@ -301,7 +301,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 5830 4
 	1    0    0    -1  
 $EndComp
 $Comp
-L TSAL-AIL-rescue:R_499-Formula-TSAL-AIL-rescue R?
+L formula:R_499 R?
 U 1 1 611250C6
 P 5950 3500
 AR Path="/60A3B236/611250C6" Ref="R?"  Part="1" 
@@ -317,7 +317,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L Formula:CPC1025NTR U?
+L formula:CPC1025NTR U?
 U 1 1 611250CC
 P 6650 3600
 AR Path="/60A3B236/611250CC" Ref="U?"  Part="1" 
@@ -372,7 +372,7 @@ Wire Wire Line
 Text Label 7200 3150 2    50   ~ 0
 GLV+
 $Comp
-L TSAL-AIL-rescue:SSM3K333R-Formula-TSAL-AIL-rescue Q?
+L formula:SSM3K333R Q?
 U 1 1 611250EA
 P 8000 3700
 AR Path="/60A3B236/611250EA" Ref="Q?"  Part="1" 
@@ -410,7 +410,7 @@ GLV+
 Text Label 8050 2950 0    50   ~ 0
 TSAL_RED+
 $Comp
-L TSAL-AIL-rescue:R_10K-Formula-TSAL-AIL-rescue R?
+L formula:R_10K R?
 U 1 1 611250FF
 P 7100 4100
 AR Path="/60A3B236/611250FF" Ref="R?"  Part="1" 
@@ -458,7 +458,7 @@ Wire Wire Line
 Text Label 7400 3650 0    50   ~ 0
 TSAL_FLAG
 $Comp
-L TSAL-AIL-rescue:MM_F_RA_06-Formula-TSAL-AIL-rescue J?
+L formula:MM_F_RA_06 J?
 U 1 1 61125117
 P 9650 5200
 AR Path="/60A3B236/61125117" Ref="J?"  Part="1" 
@@ -518,7 +518,7 @@ Connection ~ 8600 1200
 Wire Wire Line
 	8600 1200 8600 1400
 $Comp
-L TSAL-AIL-rescue:C_1uF-Formula-TSAL-AIL-rescue C?
+L formula:C_1uF C?
 U 1 1 61125136
 P 8850 1200
 AR Path="/60A3B236/61125136" Ref="C?"  Part="1" 
@@ -591,7 +591,7 @@ HV
 Text Notes 6900 2900 0    200  ~ 0
 LV\n\n
 $Comp
-L Formula:BU4S11G2-TR U?
+L formula:BU4S11G2-TR U?
 U 1 1 6112515B
 P 8600 1750
 AR Path="/60A3B236/6112515B" Ref="U?"  Part="1" 
@@ -609,7 +609,7 @@ $EndComp
 Wire Wire Line
 	9750 2250 9680 2250
 $Comp
-L Formula:R_51.1K R?
+L formula:R_51.1K R?
 U 1 1 61125165
 P 1750 4500
 AR Path="/60A3B236/61125165" Ref="R?"  Part="1" 
@@ -625,7 +625,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L Formula:R_1.91K R?
+L formula:R_1.91K R?
 U 1 1 6112516C
 P 1300 4050
 AR Path="/60A3B236/6112516C" Ref="R?"  Part="1" 
@@ -676,7 +676,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 2050 10300 1900
 $Comp
-L TSAL-AIL-rescue:R_10K-Formula-TSAL-AIL-rescue R?
+L formula:R_10K R?
 U 1 1 61125187
 P 9750 2550
 AR Path="/60A3B236/61125187" Ref="R?"  Part="1" 
@@ -692,7 +692,7 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 102
 	1    0    0    -1  
 $EndComp
 $Comp
-L TSAL-AIL-rescue:SSM3K333R-Formula-TSAL-AIL-rescue Q?
+L formula:SSM3K333R Q?
 U 1 1 61125190
 P 10200 2250
 AR Path="/60A3B236/61125190" Ref="Q?"  Part="1" 

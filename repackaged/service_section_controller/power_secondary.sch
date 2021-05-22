@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 10
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -13,8 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 5400 4100 0    50   ~ 0
-add the lin reg here
+Text Notes 5150 4100 0    98   ~ 0
+400V - 5V Linear Regulator
 Wire Wire Line
 	7225 1475 7225 2425
 Wire Wire Line
@@ -24,8 +24,6 @@ Wire Wire Line
 Wire Wire Line
 	3400 2175 3400 2425
 Connection ~ 3400 2175
-Wire Wire Line
-	5200 2075 5200 2125
 Wire Wire Line
 	6900 2425 7225 2425
 Connection ~ 6400 2425
@@ -101,10 +99,6 @@ F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STTH1R06A/497-
 	1    5625 1475
 	-1   0    0    1   
 $EndComp
-Text Label 3200 3050 2    50   ~ 0
-TS-
-Text Label 3200 2175 2    50   ~ 0
-TS+
 Text Label 4900 2075 0    50   ~ 0
 FB
 Text Label 4600 2550 3    50   ~ 0
@@ -146,10 +140,6 @@ F 3 "" H 6425 3175 50  0001 C CNN
 	1    6425 3175
 	1    0    0    -1  
 $EndComp
-Text Label 9050 2425 0    50   ~ 0
-15V+
-Text Label 9050 3050 0    50   ~ 0
-15V-
 $Comp
 L formula:C_10uF_450V C?
 U 1 1 61108F9F
@@ -177,13 +167,13 @@ $EndComp
 $Comp
 L formula:C_470pF C?
 U 1 1 61108FAD
-P 5200 2325
-F 0 "C?" H 5315 2421 50  0000 L CNN
-F 1 "C_470pF" H 5315 2330 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 5238 2925 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5225 3175 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805KRX7R9BB471/311-1124-1-ND/303034" H 5625 2825 60  0001 C CNN "PurchasingLink"
-	1    5200 2325
+P 5200 2275
+F 0 "C?" H 5315 2371 50  0000 L CNN
+F 1 "C_470pF" H 5315 2280 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 5238 2875 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5225 3125 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805KRX7R9BB471/311-1124-1-ND/303034" H 5625 2775 60  0001 C CNN "PurchasingLink"
+	1    5200 2275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -257,7 +247,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 2425 4600 2425
 Wire Wire Line
-	4700 2425 5850 2425
+	4700 2425 5200 2425
 Wire Wire Line
 	4900 2075 5200 2075
 Wire Wire Line
@@ -363,4 +353,139 @@ Wire Wire Line
 	6425 3050 7400 3050
 Text Notes 5200 900  0    98   ~ 0
 400V - 15V BUCK
+$Comp
+L formula:LR8K4-G U?
+U 1 1 60AA1B77
+P 5350 4650
+AR Path="/60A99934/60AA1B77" Ref="U?"  Part="1" 
+AR Path="/60A3B0AB/60AA1B77" Ref="U?"  Part="1" 
+F 0 "U?" H 5350 4917 50  0000 C CNN
+F 1 "LR8K4-G" H 5350 4826 50  0000 C CNN
+F 2 "footprints:TO-252-2" H 5350 5150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf" H 5350 4950 50  0001 C CNN
+F 4 "Mouser" H 5350 5050 60  0001 C CNN "MFN"
+F 5 "689-LR8K4-G" H 5300 5250 60  0001 C CNN "MPN"
+F 6 "https://www.mouser.com/productdetail/?qs=jWmFlM7coATgElKtQd9PRA%3D%3D" H 5150 5350 60  0001 C CNN "Webpage"
+	1    5350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:F_21mA_420V F?
+U 1 1 60AA1B80
+P 4600 4650
+AR Path="/60A99934/60AA1B80" Ref="F?"  Part="1" 
+AR Path="/60A3B0AB/60AA1B80" Ref="F?"  Part="1" 
+F 0 "F?" V 4403 4650 50  0000 C CNN
+F 1 "F_21mA_420V" V 4494 4650 50  0000 C CNN
+F 2 "footprints:F_21mA_420V" V 4000 4450 50  0001 C CNN
+F 3 "https://en.tdk.eu/inf/55/db/PTC/PTC_OC_Leaded_380V_500V.pdf" V 5250 4800 50  0001 C CNN
+F 4 "DK" H 3700 5050 60  0001 C CNN "MFN"
+F 5 "495-75309-ND" H 4450 5300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/epcos-tdk/B59884C0120A070/495-75309-ND/651926" V 5080 5050 60  0001 C CNN "PurchasingLink"
+	1    4600 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 4650 4950 4650
+Wire Wire Line
+	4450 4650 4250 4650
+Text Label 4250 4650 2    50   ~ 0
+TS+
+Wire Wire Line
+	5750 4650 5900 4650
+Wire Wire Line
+	5900 5100 5350 5100
+Wire Wire Line
+	5350 4950 5350 5100
+Wire Wire Line
+	5350 5100 5350 5250
+Connection ~ 5350 5100
+$Comp
+L formula:R_1K R?
+U 1 1 60AA1B91
+P 5900 4900
+AR Path="/60A99934/60AA1B91" Ref="R?"  Part="1" 
+AR Path="/60A3B0AB/60AA1B91" Ref="R?"  Part="1" 
+F 0 "R?" H 5970 4946 50  0000 L CNN
+F 1 "R_1K" H 5970 4855 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 5830 4900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5980 4900 50  0001 C CNN
+F 4 "DK" H 5900 4900 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 5900 4900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 6380 5300 60  0001 C CNN "PurchasingLink"
+	1    5900 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4750 5900 4650
+Wire Wire Line
+	5900 5050 5900 5100
+$Comp
+L formula:R_3K R?
+U 1 1 60AA1B9C
+P 5350 5400
+AR Path="/60A99934/60AA1B9C" Ref="R?"  Part="1" 
+AR Path="/60A3B0AB/60AA1B9C" Ref="R?"  Part="1" 
+F 0 "R?" H 5420 5446 50  0000 L CNN
+F 1 "R_3K" H 5420 5355 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 5280 5400 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5430 5400 50  0001 C CNN
+F 4 "DK" H 5350 5400 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT3K00CT-ND" H 5350 5400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" H 5830 5800 60  0001 C CNN "PurchasingLink"
+	1    5350 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 5550 5350 5700
+Text Label 5850 5850 2    50   ~ 0
+TS-
+$Comp
+L formula:C_1uF C?
+U 1 1 60AA1BA7
+P 6400 4950
+AR Path="/60A99934/60AA1BA7" Ref="C?"  Part="1" 
+AR Path="/60A3B0AB/60AA1BA7" Ref="C?"  Part="1" 
+F 0 "C?" H 6515 4996 50  0000 L CNN
+F 1 "C_1uF" H 6515 4905 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 6438 4800 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 6425 5050 50  0001 C CNN
+F 4 "DK" H 6400 4950 60  0001 C CNN "MFN"
+F 5 "1276-2887-1-ND" H 6400 4950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 6825 5450 60  0001 C CNN "PurchasingLink"
+	1    6400 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4650 6400 4650
+Wire Wire Line
+	6400 4650 6400 4750
+Connection ~ 5900 4650
+Wire Wire Line
+	6400 5050 6400 5700
+Wire Wire Line
+	6400 5700 5850 5700
+Wire Wire Line
+	5850 5700 5850 5850
+Wire Wire Line
+	5850 5700 5350 5700
+Wire Wire Line
+	6400 4650 6700 4650
+Connection ~ 6400 4650
+Text Label 6700 4650 0    50   ~ 0
+5V
+Connection ~ 5850 5700
+Text GLabel 3200 2175 0    50   Input ~ 0
+TS+
+Text GLabel 3200 3050 0    50   Input ~ 0
+TS-
+Wire Wire Line
+	5200 2375 5200 2425
+Connection ~ 5200 2425
+Wire Wire Line
+	5200 2425 5850 2425
+Text Label 9050 2425 0    50   ~ 0
+15V+
+Text Label 9050 3050 0    50   ~ 0
+15V-
 $EndSCHEMATC
