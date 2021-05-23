@@ -572,8 +572,8 @@ U 1 1 60AA207A
 P 2050 3650
 F 0 "U?" H 2050 4015 50  0000 C CNN
 F 1 "TPS7A26" H 2050 3924 50  0000 C CNN
-F 2 "" H 2050 3650 50  0001 C CNN
-F 3 "" H 2050 3650 50  0001 C CNN
+F 2 "footprints:TPS7A26" H 2050 3650 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps7a26.pdf" H 2050 3650 50  0001 C CNN
 	1    2050 3650
 	1    0    0    -1  
 $EndComp
