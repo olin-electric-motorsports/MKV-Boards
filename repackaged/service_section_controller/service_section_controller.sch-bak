@@ -71,10 +71,4 @@ U 60AB52CF
 F0 "micros" 50
 F1 "micros.sch" 50
 $EndSheet
-$Sheet
-S -2950 3950 1800 1000
-U 60A98B59
-F0 "stal_carryover" 50
-F1 "tsal_carryover.sch" 50
-$EndSheet
 $EndSCHEMATC

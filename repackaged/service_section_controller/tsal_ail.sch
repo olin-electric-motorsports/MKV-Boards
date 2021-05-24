@@ -14,52 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L formula:Ultrafit_4_RA J?
-U 1 1 61125027
-P 9600 6100
-AR Path="/60A3B236/61125027" Ref="J?"  Part="1" 
-AR Path="/60A3B41E/61125027" Ref="J?"  Part="1" 
-F 0 "J?" H 9708 6537 60  0000 C CNN
-F 1 "Ultrafit_4_RA" H 9708 6431 60  0000 C CNN
-F 2 "footprints:Ultrafit_4_RA" H 9100 6750 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" H 10050 7200 60  0001 C CNN
-F 4 "Digi-Key" H 8900 7350 60  0001 C CNN "MFN"
-F 5 "Value" H 8750 6500 60  0001 C CNN "Package"
-F 6 "WM11574-ND" H 8950 6600 60  0001 C CNN "MPN"
-F 7 "WM11564-ND" H 10000 6850 60  0001 C CNN "MPN2"
-F 8 "https://www.digikey.com/products/en?keywords=1723101304" H 10100 6950 60  0001 C CNN "PurchasingLink"
-	1    9600 6100
-	1    0    0    -1  
-$EndComp
-Text Label 9950 5900 0    50   ~ 0
-TS+
-Text Label 9950 6000 0    50   ~ 0
-TS-
-Text Label 9950 6100 0    50   ~ 0
-TS+
-Text Label 9950 6200 0    50   ~ 0
-TS-
-$Comp
-L formula:NanoFit_RA_TH_02 J?
-U 1 1 61125034
-P 8400 5150
-AR Path="/60A3B236/61125034" Ref="J?"  Part="1" 
-AR Path="/60A3B41E/61125034" Ref="J?"  Part="1" 
-F 0 "J?" H 8450 4600 60  0000 C CNN
-F 1 "NanoFit_2" H 8450 4750 60  0000 C CNN
-F 2 "Formula:NanoFit_Molex_1x02x2.50mm_Angled_OEM" H 8650 5000 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" H 8750 5100 60  0001 C CNN
-F 4 "DK" H 8850 5200 50  0001 C CNN "MFN"
-F 5 "WM14972-ND" H 8950 5300 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=nanofit+2&k=&pkeyword=nanofit+2&pv88=2&pv69=367&sf=0&FV=ffe0013a&quantity=&ColumnSort=0&page=1&pageSize=25" H 9050 5400 50  0001 C CNN "PurchasingLink"
-	1    8400 5150
-	-1   0    0    1   
-$EndComp
-Text Label 8850 5050 0    50   ~ 0
-AIL-
-Text Label 8850 5200 0    50   ~ 0
-AIL+
-$Comp
 L formula:MCP6001 U?
 U 1 1 6112503F
 P 3650 3500
@@ -435,47 +389,6 @@ Wire Wire Line
 	8100 3900 8100 4100
 Text Label 7400 3650 0    50   ~ 0
 TSAL_FLAG
-$Comp
-L formula:MM_F_RA_06 J?
-U 1 1 61125117
-P 9650 5200
-AR Path="/60A3B236/61125117" Ref="J?"  Part="1" 
-AR Path="/60A3B41E/61125117" Ref="J?"  Part="1" 
-F 0 "J?" H 9708 5697 60  0000 C CNN
-F 1 "MM_F_RA_06" H 9708 5591 60  0000 C CNN
-F 2 "Formula:micromatch_female_ra_6" H 9550 5450 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-6" H 9650 5550 60  0001 C CNN
-F 4 "TE" H 9750 6600 60  0001 C CNN "MFN"
-F 5 "338070-6" H 9850 6700 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-338070-6.html" H 9650 6500 60  0001 C CNN "PurchasingLink"
-	1    9650 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6112511D
-P 10550 4950
-AR Path="/60A3B236/6112511D" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B41E/6112511D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10550 4700 50  0001 C CNN
-F 1 "GND" H 10555 4777 50  0000 C CNN
-F 2 "" H 10550 4950 50  0001 C CNN
-F 3 "" H 10550 4950 50  0001 C CNN
-	1    10550 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 4950 10550 4950
-Text Label 9900 5050 0    50   ~ 0
-GLV+
-Text Label 9900 5150 0    50   ~ 0
-TSAL_GREEN+
-Text Label 9900 5250 0    50   ~ 0
-TSAL_GREEN-
-Text Label 9900 5350 0    50   ~ 0
-TSAL_RED+
-Text Label 9900 5450 0    50   ~ 0
-TSAL_RED-
 Wire Wire Line
 	8300 1800 8200 1800
 Wire Wire Line
@@ -693,8 +606,6 @@ Text GLabel 1750 4800 0    50   Input ~ 0
 TS-
 Text GLabel 3550 4200 0    50   Input ~ 0
 TS-
-Text Notes 7500 5650 0    50   ~ 0
-move connectors to the connectors schematic
 Text Label 1100 4050 2    50   ~ 0
 15V+
 Text GLabel 7200 3150 0    50   Input ~ 0

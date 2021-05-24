@@ -1012,10 +1012,6 @@ F 6 "https://www.digikey.si/product-detail/en/bourns-inc/SM91501ALE/SM91501ALETR
 	1    4500 2350
 	1    0    0    -1  
 $EndComp
-Text Label 6150 1800 0    50   ~ 0
-IP
-Text Label 6150 1400 0    50   ~ 0
-IM
 Wire Wire Line
 	1100 1075 1100 1150
 Wire Wire Line
@@ -1052,21 +1048,6 @@ F 6 "Value" H 950 1150 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 1375 1650 60  0001 C CNN "PurchasingLink"
 	1    950  1150
 	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	6150 1600 6150 1800
-$Comp
-L formula:isoSPI-Cutout J?
-U 1 1 60B98A18
-P 6450 1550
-AR Path="/60A3B220/60B98A18" Ref="J?"  Part="1" 
-AR Path="/60A3BC90/60B98A18" Ref="J?"  Part="1" 
-F 0 "J?" H 6678 1601 50  0000 L CNN
-F 1 "isoSPI-Cutout" H 6678 1510 50  0000 L CNN
-F 2 "footprints:iso_spi_cutout" H 6550 1550 50  0001 C CNN
-F 3 "https://docs.olinelectricmotorsports.com/display/ETD/BMS#BMS-NanoFitFootprintSizingwithZiptieAttachment-3/11/19" H 6550 1550 50  0001 C CNN
-	1    6450 1550
-	1    0    0    -1  
 $EndComp
 Connection ~ 1100 2150
 Wire Wire Line
@@ -1361,13 +1342,7 @@ NoConn ~ 6000 1600
 Wire Wire Line
 	6150 1800 6000 1800
 Wire Wire Line
-	6300 1600 6150 1600
-Wire Wire Line
 	6150 1400 6000 1400
-Wire Wire Line
-	6150 1500 6150 1400
-Wire Wire Line
-	6300 1500 6150 1500
 $Comp
 L formula:R_60.4 R?
 U 1 1 60B9896E
@@ -1481,4 +1456,8 @@ Text GLabel 8950 1100 2    50   Input ~ 0
 SHDN_IN(MAIN_PACK->BMS)
 Text GLabel 8950 1900 2    50   Input ~ 0
 SHDN_OUT(BMS->IMD)
+Text GLabel 6150 1400 2    50   Input ~ 0
+IM
+Text GLabel 6150 1800 2    50   Input ~ 0
+IP
 $EndSCHEMATC

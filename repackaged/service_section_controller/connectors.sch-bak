@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -20,7 +20,7 @@ IMD Latch
 Text Notes 8500 2850 1    50   ~ 0
 TSAL
 $Comp
-L SS_MegaBoard-rescue:MM_M_VT_04-formula J?
+L formula:MM_M_VT_04 J?
 U 1 1 60A48ECB
 P 8700 1650
 AR Path="/6112F18E/60A48ECB" Ref="J?"  Part="1" 
@@ -36,7 +36,7 @@ F 6 "http://www.te.com/global-en/product-215464-4.html" H 8700 2950 60  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L SS_MegaBoard-rescue:MM_M_VT_06-formula J?
+L formula:MM_M_VT_06 J?
 U 1 1 60A48ED4
 P 8700 2750
 AR Path="/6112F18E/60A48ED4" Ref="J?"  Part="1" 
@@ -649,7 +649,7 @@ $EndComp
 Text Notes -6000 3175 0    50   ~ 0
 imd CONNECTOR\n\n
 $Comp
-L IMD_LATCH-rescue:MM_F_RA_04-Formula J?
+L formula:MM_F_RA_04 J?
 U 1 1 60E652BA
 P -5950 3675
 F 0 "J?" H -6000 4100 60  0000 C CNN
