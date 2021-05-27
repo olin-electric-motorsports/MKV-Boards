@@ -3,11 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-<<<<<<< HEAD
 Sheet 5 11
-=======
-Sheet 5 10
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 Title ""
 Date ""
 Rev ""
@@ -18,7 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Connection ~ 5600 3200
-<<<<<<< HEAD
 Wire Wire Line
 	5600 3200 5950 3200
 Connection ~ 2850 1500
@@ -26,26 +21,13 @@ Connection ~ 5600 1500
 Wire Wire Line
 	5600 1500 5900 1500
 Wire Wire Line
-=======
-Wire Wire Line
-	5600 3200 5950 3200
-Connection ~ 2850 1500
-Connection ~ 5600 1500
-Wire Wire Line
-	5600 1500 5900 1500
-Wire Wire Line
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 	2850 1500 3100 1500
 Connection ~ 5600 2300
 $Comp
 L power:GND #PWR0144
 U 1 1 610B9C4E
 P 5600 2300
-<<<<<<< HEAD
 F 0 "#PWR0144" H 5600 2050 50  0001 C CNN
-=======
-F 0 "#PWR?" H 5600 2050 50  0001 C CNN
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 F 1 "GND" H 5605 2127 50  0000 C CNN
 F 2 "" H 5600 2300 50  0001 C CNN
 F 3 "" H 5600 2300 50  0001 C CNN
@@ -57,11 +39,7 @@ $Comp
 L power:GND #PWR0145
 U 1 1 610B9C55
 P 5600 4000
-<<<<<<< HEAD
 F 0 "#PWR0145" H 5600 3750 50  0001 C CNN
-=======
-F 0 "#PWR?" H 5600 3750 50  0001 C CNN
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 F 1 "GND" H 5605 3827 50  0000 C CNN
 F 2 "" H 5600 4000 50  0001 C CNN
 F 3 "" H 5600 4000 50  0001 C CNN
@@ -73,11 +51,7 @@ $Comp
 L power:GND #PWR0146
 U 1 1 610B9C5C
 P 2850 2300
-<<<<<<< HEAD
 F 0 "#PWR0146" H 2850 2050 50  0001 C CNN
-=======
-F 0 "#PWR?" H 2850 2050 50  0001 C CNN
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 F 1 "GND" H 2855 2127 50  0000 C CNN
 F 2 "" H 2850 2300 50  0001 C CNN
 F 3 "" H 2850 2300 50  0001 C CNN
@@ -347,11 +321,7 @@ $Comp
 L power:VCC #PWR0147
 U 1 1 610B9D06
 P 5600 2900
-<<<<<<< HEAD
 F 0 "#PWR0147" H 5600 2750 50  0001 C CNN
-=======
-F 0 "#PWR?" H 5600 2750 50  0001 C CNN
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 F 1 "VCC" H 5617 3073 50  0000 C CNN
 F 2 "" H 5600 2900 50  0001 C CNN
 F 3 "" H 5600 2900 50  0001 C CNN
@@ -362,11 +332,7 @@ $Comp
 L power:VCC #PWR0148
 U 1 1 610B9D0C
 P 5600 1200
-<<<<<<< HEAD
 F 0 "#PWR0148" H 5600 1050 50  0001 C CNN
-=======
-F 0 "#PWR?" H 5600 1050 50  0001 C CNN
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 F 1 "VCC" H 5617 1373 50  0000 C CNN
 F 2 "" H 5600 1200 50  0001 C CNN
 F 3 "" H 5600 1200 50  0001 C CNN
@@ -377,11 +343,7 @@ $Comp
 L power:VCC #PWR0149
 U 1 1 610B9D12
 P 2850 1200
-<<<<<<< HEAD
 F 0 "#PWR0149" H 2850 1050 50  0001 C CNN
-=======
-F 0 "#PWR?" H 2850 1050 50  0001 C CNN
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 F 1 "VCC" H 2867 1373 50  0000 C CNN
 F 2 "" H 2850 1200 50  0001 C CNN
 F 3 "" H 2850 1200 50  0001 C CNN
@@ -396,11 +358,7 @@ $Comp
 L power:VCC #PWR0150
 U 1 1 610B9D1B
 P 2850 2900
-<<<<<<< HEAD
 F 0 "#PWR0150" H 2850 2750 50  0001 C CNN
-=======
-F 0 "#PWR?" H 2850 2750 50  0001 C CNN
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 F 1 "VCC" H 2867 3073 50  0000 C CNN
 F 2 "" H 2850 2900 50  0001 C CNN
 F 3 "" H 2850 2900 50  0001 C CNN
@@ -498,11 +456,7 @@ $Comp
 L power:GND #PWR0151
 U 1 1 610B9D58
 P 2850 4000
-<<<<<<< HEAD
 F 0 "#PWR0151" H 2850 3750 50  0001 C CNN
-=======
-F 0 "#PWR?" H 2850 3750 50  0001 C CNN
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 F 1 "GND" H 2855 3827 50  0000 C CNN
 F 2 "" H 2850 4000 50  0001 C CNN
 F 3 "" H 2850 4000 50  0001 C CNN
@@ -590,11 +544,7 @@ $Comp
 L power:GND #PWR0152
 U 1 1 610B9D91
 P 5600 5900
-<<<<<<< HEAD
 F 0 "#PWR0152" H 5600 5650 50  0001 C CNN
-=======
-F 0 "#PWR?" H 5600 5650 50  0001 C CNN
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 F 1 "GND" H 5750 5850 50  0000 C CNN
 F 2 "" H 5600 5900 50  0001 C CNN
 F 3 "" H 5600 5900 50  0001 C CNN
@@ -620,11 +570,7 @@ $Comp
 L power:VCC #PWR0153
 U 1 1 610B9DA2
 P 5600 4800
-<<<<<<< HEAD
 F 0 "#PWR0153" H 5600 4650 50  0001 C CNN
-=======
-F 0 "#PWR?" H 5600 4650 50  0001 C CNN
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 F 1 "VCC" H 5617 4973 50  0000 C CNN
 F 2 "" H 5600 4800 50  0001 C CNN
 F 3 "" H 5600 4800 50  0001 C CNN
@@ -638,11 +584,7 @@ $Comp
 L power:VCC #PWR0154
 U 1 1 610B9DAC
 P 2800 4800
-<<<<<<< HEAD
 F 0 "#PWR0154" H 2800 4650 50  0001 C CNN
-=======
-F 0 "#PWR?" H 2800 4650 50  0001 C CNN
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 F 1 "VCC" H 2817 4973 50  0000 C CNN
 F 2 "" H 2800 4800 50  0001 C CNN
 F 3 "" H 2800 4800 50  0001 C CNN
@@ -726,11 +668,7 @@ $Comp
 L power:GND #PWR0155
 U 1 1 610B9DE0
 P 2800 5900
-<<<<<<< HEAD
 F 0 "#PWR0155" H 2800 5650 50  0001 C CNN
-=======
-F 0 "#PWR?" H 2800 5650 50  0001 C CNN
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 F 1 "GND" H 2950 5850 50  0000 C CNN
 F 2 "" H 2800 5900 50  0001 C CNN
 F 3 "" H 2800 5900 50  0001 C CNN
@@ -756,7 +694,6 @@ Wire Wire Line
 	2800 5100 3000 5100
 Connection ~ 2800 5100
 Text GLabel 2000 5300 0    50   Input ~ 0
-<<<<<<< HEAD
 DETECT_HVD_CONN
 Text GLabel 3000 5100 2    50   Input ~ 0
 SS_HVD_CONN
@@ -778,29 +715,6 @@ Text GLabel 3100 1500 2    50   Input ~ 0
 SS_HVD
 Text GLabel 4700 1700 0    50   Input ~ 0
 DETECT_BMS
-=======
-ShutdownSense_HVDConn
-Text GLabel 3000 5100 2    50   Input ~ 0
-SS_HVDConn
-Text GLabel 4600 5300 0    50   Input ~ 0
-ShutdownSense_TSMS
-Text GLabel 5950 5100 2    50   Input ~ 0
-SS_TSMS
-Text GLabel 4650 3400 0    50   Input ~ 0
-ShutdownSense_IMD
-Text GLabel 5950 3200 2    50   Input ~ 0
-SS_IMD
-Text GLabel 2000 3400 0    50   Input ~ 0
-ShutdownSense_TSConn
-Text GLabel 3100 3200 2    50   Input ~ 0
-SS_MainTSConn
-Text GLabel 2000 1700 0    50   Input ~ 0
-ShutdownSense_HVD
-Text GLabel 3100 1500 2    50   Input ~ 0
-SS_HVD
-Text GLabel 4700 1700 0    50   Input ~ 0
-ShutdownSense_BMS
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 Text GLabel 5900 1500 2    50   Input ~ 0
 SS_BMS
 $EndSCHEMATC

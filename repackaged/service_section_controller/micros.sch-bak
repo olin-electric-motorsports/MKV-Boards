@@ -3,11 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-<<<<<<< HEAD
 Sheet 10 11
-=======
-Sheet 10 10
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 Title ""
 Date ""
 Rev ""
@@ -1274,7 +1270,7 @@ F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU
 $EndComp
 NoConn ~ 9150 2150
 Text GLabel 9150 3050 2    50   Input ~ 0
-IMD_SENSE
+IMD_Status_Output
 Wire Wire Line
 	9250 3250 9150 3250
 Wire Wire Line

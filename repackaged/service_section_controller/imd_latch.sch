@@ -178,7 +178,6 @@ F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 	1    2100 4500
 	1    0    0    -1  
 $EndComp
-<<<<<<< HEAD
 $Comp
 L power:GND #PWR0118
 U 1 1 610EBAF3
@@ -188,20 +187,6 @@ F 1 "GND" H 1930 4477 50  0000 C CNN
 F 2 "" H 1925 4650 50  0001 C CNN
 F 3 "" H 1925 4650 50  0001 C CNN
 	1    1925 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:UF_5_VT J?
-U 1 1 610EBAFC
-P 1125 4400
-F 0 "J?" H 1233 4837 60  0000 C CNN
-F 1 "UF_5_VT" H 1233 4731 60  0000 C CNN
-F 2 "footprints:Ultrafit_5" H 1025 4650 60  0001 C CNN
-F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 1125 4750 60  0001 C CNN
-F 4 "DK" H 1125 4400 60  0001 C CNN "MFN"
-F 5 "WM11667-ND" H 1125 4400 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" H 1625 5250 60  0001 C CNN "PurchasingLink"
-	1    1125 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -236,10 +221,6 @@ F 3 "" H 1750 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1575 4650 1575 4600
-Text Notes 1250 4625 1    50   ~ 0
-This is IMD\n\n
-=======
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 Wire Wire Line
 	2350 2100 2350 2175
 Wire Wire Line
@@ -813,9 +794,8 @@ Text Label 1250 1650 2    50   ~ 0
 12V_Fused
 Text GLabel 8825 2825 1    50   Input ~ 0
 IMD_Status_Output
-Text GLabel 1500 4200 0    50   Input ~ 0
+Text GLabel 1500 4100 2    50   Input ~ 0
 IMD_Output
-<<<<<<< HEAD
 Text GLabel 10200 1750 2    50   Input ~ 0
 TO_IMD_LATCH
 Text GLabel 10100 950  2    50   Input ~ 0
@@ -827,9 +807,32 @@ Wire Wire Line
 Connection ~ 1900 1700
 Wire Wire Line
 	1900 1700 1900 1650
-=======
 Wire Wire Line
 	1500 4200 2100 4200
 Connection ~ 2100 4200
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
+Text Notes 1250 4625 1    50   ~ 0
+This is IMD\n\n
+$Comp
+L formula:UF_5_VT J?
+U 1 1 610EBAFC
+P 1125 4400
+F 0 "J?" H 1233 4837 60  0000 C CNN
+F 1 "UF_5_VT" H 1233 4731 60  0000 C CNN
+F 2 "footprints:Ultrafit_5" H 1025 4650 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 1125 4750 60  0001 C CNN
+F 4 "DK" H 1125 4400 60  0001 C CNN "MFN"
+F 5 "WM11667-ND" H 1125 4400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" H 1625 5250 60  0001 C CNN "PurchasingLink"
+	1    1125 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4100 1500 4200
+Wire Wire Line
+	1750 4650 1750 4500
+Wire Wire Line
+	1475 4500 1750 4500
+Wire Wire Line
+	1500 4200 1475 4200
+Connection ~ 1500 4200
 $EndSCHEMATC

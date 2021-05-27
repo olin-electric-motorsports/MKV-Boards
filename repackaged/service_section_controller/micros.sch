@@ -1270,7 +1270,7 @@ F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU
 $EndComp
 NoConn ~ 9150 2150
 Text GLabel 9150 3050 2    50   Input ~ 0
-IMD_SENSE
+IMD_Status_Output
 Wire Wire Line
 	9250 3250 9150 3250
 Wire Wire Line

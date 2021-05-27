@@ -197,9 +197,6 @@ Wire Wire Line
 	8450 1850 8850 1850
 Wire Wire Line
 	8450 1650 8450 1850
-Connection ~ 8850 1850
-Wire Wire Line
-	8850 1850 8850 1900
 Wire Notes Line
 	7450 2750 7450 600 
 Wire Notes Line
@@ -1421,7 +1418,6 @@ SCK_ISO
 Wire Wire Line
 	1000 1850 1200 1850
 Text GLabel 1000 1850 0    50   Input ~ 0
-<<<<<<< HEAD
 CS_ISO
 Text GLabel 8300 2100 0    50   Input ~ 0
 BMS_RELAY_DRIVE
@@ -1460,17 +1456,8 @@ Text GLabel 1850 3900 2    50   Input ~ 0
 VOUT
 Text GLabel 1850 4000 2    50   Input ~ 0
 VREF
-=======
-CS_iso
-Text GLabel 8000 2100 0    50   Input ~ 0
-RELAY_DRIVE
-Text GLabel 8950 1100 2    50   Input ~ 0
-SHDN_IN(MAIN_PACK->BMS)
-Text GLabel 8950 1900 2    50   Input ~ 0
-SHDN_OUT(BMS->IMD)
 Text GLabel 6150 1400 2    50   Input ~ 0
 IM
 Text GLabel 6150 1800 2    50   Input ~ 0
 IP
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 $EndSCHEMATC
