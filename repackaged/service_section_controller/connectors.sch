@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 4 11
 Title ""
 Date ""
 Rev ""
@@ -13,6 +13,167 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+<<<<<<< HEAD
+Text Notes 12800 5300 1    50   ~ 0
+AIR Control
+Text Label 13250 4000 0    50   ~ 0
+GND
+Text Label 13250 4100 0    50   ~ 0
+12V
+Text Label 13250 4200 0    50   ~ 0
+5V_AIRC
+Text Label 13250 4300 0    50   ~ 0
+MISO_AIRC
+Text Label 13250 4400 0    50   ~ 0
+MOSI_AIRC
+Text Label 13250 4500 0    50   ~ 0
+SCK_AIRC
+Text Label 13250 4600 0    50   ~ 0
+RESET_AIRC
+Text Label 13250 4700 0    50   ~ 0
+RJ45_LED_O_AIRC
+Text Label 13250 4900 0    50   ~ 0
+CAN_HIGH
+Text Label 13250 5000 0    50   ~ 0
+CAN_LOW
+Text Label 13250 5700 0    50   ~ 0
+BMS_SENSE
+Text Label 13250 5800 0    50   ~ 0
+IMD_SENSE
+Text Label 13250 5900 0    50   ~ 0
+GND
+Text Label 2900 2100 0    50   ~ 0
+5V_BMS
+Text Label 2900 2200 0    50   ~ 0
+MISO_BMS
+Text Label 2900 2300 0    50   ~ 0
+MOSI_BMS
+Text Label 2900 2400 0    50   ~ 0
+SCK_BMS
+Text Label 2900 2500 0    50   ~ 0
+RESET_BMS
+Text Label 2900 2600 0    50   ~ 0
+RJ45_LED_O_BMS
+Text Label 2900 2700 0    50   ~ 0
+RJ45_LED_G_BMS
+Text Label 2900 2800 0    50   ~ 0
+5V_AIRC
+Text Label 2900 2900 0    50   ~ 0
+MISO_AIRC
+Text Label 2900 3000 0    50   ~ 0
+MOSI_AIRC
+Text Label 2900 3100 0    50   ~ 0
+SCK_AIRC
+Text Label 2900 3200 0    50   ~ 0
+RESET_AIRC
+Text Label 2900 3300 0    50   ~ 0
+RJ45_LED_O_AIRC
+Text Label 2900 3400 0    50   ~ 0
+RJ45_LED_G_AIRC
+Text Label 4500 2025 0    50   ~ 0
+12V
+Text Label 4500 1925 0    50   ~ 0
+GND
+Text Label 4500 2125 0    50   ~ 0
+CAN_HIGH
+Text Label 4500 2225 0    50   ~ 0
+CAN_LOW
+Text Label 4500 3025 0    50   ~ 0
+FAN_PWM
+Text Notes 2850 1450 0    50   ~ 0
+To Accumulator Interface (Internal)
+Text Label 4500 2325 0    50   ~ 0
+TSAL_RED+
+Text Label 4500 2725 0    50   ~ 0
+TSAL_GREEN-
+Text Label 4500 2625 0    50   ~ 0
+TSAL_RED-
+Text Label 13250 4800 0    50   ~ 0
+RJ45_LED_G_AIRC
+Text Label 2900 1900 0    50   ~ 0
+GND
+Text Label 2900 2000 0    50   ~ 0
+GND
+Text Label 4500 2425 0    50   ~ 0
+TSAL_GREEN+
+Text Label 4500 2525 0    50   ~ 0
+TSAL_GREEN+
+Text Label 4500 2825 0    50   ~ 0
+TSAL_GREEN-
+Text Label 4500 3225 0    50   ~ 0
+BSPD_CURRENT_SENSE
+Text Notes 2150 2925 1    50   ~ 0
+For Programming RJ45
+Text Notes 3825 2850 1    50   ~ 0
+For Signals
+Text Notes 14175 5600 0    30   ~ 0
+SS HVD Connector\n\nSS HVD\n\nSS MPC\n\nSS IMD\n\nSS BMS\n\nSS TSMS
+Text Label 13250 5100 0    50   ~ 0
+HVD_CONN>MPC
+Text Label 13250 5200 0    50   ~ 0
+HVD>HVD_CONN
+Text Label 13250 5300 0    50   ~ 0
+MPC>BMS
+Text Label 13250 5400 0    50   ~ 0
+IMD>TSMS
+Text Label 13250 5500 0    50   ~ 0
+BMS>IMD
+Text Label 13250 5600 0    50   ~ 0
+TSMS>FINAL_SHUTDOWN
+Wire Notes Line
+	13875 5175 14150 5175
+Wire Notes Line
+	13650 5275 14150 5275
+Wire Notes Line
+	14150 5375 13650 5375
+Wire Notes Line
+	13625 5475 14150 5475
+Wire Notes Line
+	13900 5075 14150 5075
+Text Label 4500 2925 0    50   ~ 0
+CHARGE_EN1
+Text Label 4500 3125 0    50   ~ 0
+GND
+Text Notes 12700 2750 1    50   ~ 0
+BMS Core
+Text Label 13150 1400 0    50   ~ 0
+GND
+Text Label 13150 1500 0    50   ~ 0
+12V
+Text Label 13150 1600 0    50   ~ 0
+5V_BMS
+Text Label 13150 1700 0    50   ~ 0
+MISO_BMS
+Text Label 13150 1800 0    50   ~ 0
+MOSI_BMS
+Text Label 13150 1900 0    50   ~ 0
+SCK_BMS
+Text Label 13150 2000 0    50   ~ 0
+RESET_BMS
+Text Label 13150 2100 0    50   ~ 0
+RJ45_LED_O_BMS
+Text Label 13150 2200 0    50   ~ 0
+RJ45_LED_G_BMS
+Text Label 13150 2300 0    50   ~ 0
+CAN_HIGH
+Text Label 13150 2400 0    50   ~ 0
+CAN_LOW
+Text Label 13150 2500 0    50   ~ 0
+BSPD_CURRENT_SENSE
+Text Label 13150 2600 0    50   ~ 0
+FAN_PWM
+Text Label 13150 2700 0    50   ~ 0
+BMS_SENSE
+Text Label 13150 3000 0    50   ~ 0
+GND
+Text Label 13150 3100 0    50   ~ 0
+GND
+Text Label 13150 2800 0    50   ~ 0
+GND
+Text Label 13150 2900 0    50   ~ 0
+GND
+Text Label 13150 3200 0    50   ~ 0
+=======
 Text Notes 6125 -1200 1    50   ~ 0
 AIR Control
 Text Notes 7575 -4650 1    50   ~ 0
@@ -254,10 +415,27 @@ GND
 Text Label 6475 -3600 0    50   ~ 0
 GND
 Text Label 6475 -3300 0    50   ~ 0
+>>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 CHARGE_EN1
 $Comp
 L formula:MM_M_VT_20 J?
 U 1 1 60A48F63
+<<<<<<< HEAD
+P 13000 2500
+AR Path="/6112F18E/60A48F63" Ref="J?"  Part="1" 
+AR Path="/60A3B1F8/60A48F63" Ref="J?"  Part="1" 
+F 0 "J?" H 12958 3847 60  0000 C CNN
+F 1 "MM_M_VT_20" H 12958 3741 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_20" H 12800 3600 60  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F215464%7FR%7Fpdf%7FEnglish%7FENG_CD_215464_R.pdf%7F2-215464-0" H 12900 3700 60  0001 C CNN
+F 4 "TE" H 13100 3900 60  0001 C CNN "MFN"
+F 5 "2-215464-0" H 13200 4000 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 13000 3800 60  0001 C CNN "PurchasingLink"
+	1    13000 2500
+	1    0    0    -1  
+$EndComp
+Text Label 13150 3300 0    50   ~ 0
+=======
 P 6325 -4000
 AR Path="/6112F18E/60A48F63" Ref="J?"  Part="1" 
 AR Path="/60A3B1F8/60A48F63" Ref="J?"  Part="1" 
@@ -272,10 +450,22 @@ F 6 "http://www.te.com/global-en/product-2-215464-0.html" H 6325 -2700 60  0001 
 	1    0    0    -1  
 $EndComp
 Text Label 6475 -3200 0    50   ~ 0
+>>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 GND
 $Comp
 L formula:MM_F_VT_16 J?
 U 1 1 60A4AF63
+<<<<<<< HEAD
+P 4250 2725
+F 0 "J?" H 4308 3772 60  0000 C CNN
+F 1 "MM_F_VT_16" H 4308 3666 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_16" H 4150 3525 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-6" H 4150 3925 60  0001 C CNN
+F 4 "TE" H 4350 4125 60  0001 C CNN "MFN"
+F 5 "1-338068-6" H 4450 4225 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-338068-6.html" H 4250 4025 60  0001 C CNN "PurchasingLink"
+	1    4250 2725
+=======
 P 4275 -1525
 F 0 "J?" H 4333 -478 60  0000 C CNN
 F 1 "MM_F_VT_16" H 4333 -584 60  0000 C CNN
@@ -285,11 +475,25 @@ F 4 "TE" H 4375 -125 60  0001 C CNN "MFN"
 F 5 "1-338068-6" H 4475 -25 60  0001 C CNN "MPN"
 F 6 "http://www.te.com/global-en/product-1-338068-6.html" H 4275 -225 60  0001 C CNN "PurchasingLink"
 	1    4275 -1525
+>>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:MM_F_VT_16 J?
 U 1 1 60A54AD7
+<<<<<<< HEAD
+P 2650 2700
+F 0 "J?" H 2708 3747 60  0000 C CNN
+F 1 "MM_F_VT_16" H 2708 3641 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_16" H 2550 3500 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-6" H 2550 3900 60  0001 C CNN
+F 4 "TE" H 2750 4100 60  0001 C CNN "MFN"
+F 5 "1-338068-6" H 2850 4200 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-338068-6.html" H 2650 4000 60  0001 C CNN "PurchasingLink"
+	1    2650 2700
+	1    0    0    -1  
+$EndComp
+=======
 P 4275 -3900
 F 0 "J?" H 4333 -2853 60  0000 C CNN
 F 1 "MM_F_VT_16" H 4333 -2959 60  0000 C CNN
@@ -303,6 +507,7 @@ F 6 "http://www.te.com/global-en/product-1-338068-6.html" H 4275 -2600 60  0001 
 $EndComp
 Text Notes 1925 -4400 0    50   ~ 0
 no
+>>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 Text Label -3425 775  0    50   ~ 0
 GND
 Text Label -3425 875  0    50   ~ 0
@@ -437,205 +642,130 @@ Text Label -3425 2575 0    50   ~ 0
 CHARGE_ENABLE1
 Text Notes -3825 100  0    98   ~ 0
 from bms schematic\n
-$Comp
-L power:+12V #PWR?
-U 1 1 60E61A6C
-P -3050 4450
-AR Path="/60A3B20D/60E61A6C" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B1F8/60E61A6C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -3050 4300 50  0001 C CNN
-F 1 "+12V" H -3035 4623 50  0000 C CNN
-F 2 "" H -3050 4450 50  0001 C CNN
-F 3 "" H -3050 4450 50  0001 C CNN
-	1    -3050 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 60E61A72
-P -2900 4700
-AR Path="/60A3B20D/60E61A72" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B1F8/60E61A72" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -2900 4550 50  0001 C CNN
-F 1 "VCC" H -2883 4873 50  0000 C CNN
-F 2 "" H -2900 4700 50  0001 C CNN
-F 3 "" H -2900 4700 50  0001 C CNN
-	1    -2900 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-3350 4700 -3450 4700
-$Comp
-L power:GND #PWR?
-U 1 1 60E61A79
-P -3250 4500
-AR Path="/60A3B20D/60E61A79" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B1F8/60E61A79" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -3250 4250 50  0001 C CNN
-F 1 "GND" H -3245 4327 50  0000 C CNN
-F 2 "" H -3250 4500 50  0001 C CNN
-F 3 "" H -3250 4500 50  0001 C CNN
-	1    -3250 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-3350 4500 -3250 4500
-Text Label -3450 5100 0    50   ~ 0
-MOSI
-Text Label -3450 5000 0    50   ~ 0
-MISO
-Text Label -3450 5200 0    50   ~ 0
-SCK
-Text Label -3450 5300 0    50   ~ 0
-RESET
-Text Label -3450 6500 0    50   ~ 0
-IMD_Sense
-Text Label -3450 6400 0    50   ~ 0
-BMS_Sense
-Text Label -3450 6200 0    50   ~ 0
-ShutdownSense_BMS
-Text Label -3450 6100 0    50   ~ 0
-ShutdownSense_IMD
-Text Label -3450 5900 0    50   ~ 0
-ShutdownSense_HVD
-Text Label -3450 6000 0    50   ~ 0
-ShutdownSense_TSConn
-Text Notes -3700 4200 0    118  ~ 0
-air control \nConnectors
-Text Label -3450 6950 0    50   ~ 0
+Text Label 7500 1300 0    50   ~ 0
 Precharge_LSD
 $Comp
 L power:GND #PWR?
 U 1 1 60E61A8C
-P -2800 8450
+P 8250 3000
 AR Path="/60A3B20D/60E61A8C" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B1F8/60E61A8C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -2800 8200 50  0001 C CNN
-F 1 "GND" H -2795 8277 50  0000 C CNN
-F 2 "" H -2800 8450 50  0001 C CNN
-F 3 "" H -2800 8450 50  0001 C CNN
-	1    -2800 8450
+AR Path="/60A3B1F8/60E61A8C" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 8250 2750 50  0001 C CNN
+F 1 "GND" H 8255 2827 50  0000 C CNN
+F 2 "" H 8250 3000 50  0001 C CNN
+F 3 "" H 8250 3000 50  0001 C CNN
+	1    8250 3000
 	1    0    0    -1  
 $EndComp
-Text Label -3450 5400 0    50   ~ 0
-RJ45_LED1
-Text Label -3450 5500 0    50   ~ 0
-RJ45_LED2
-Wire Wire Line
-	-3350 4700 -3350 4500
-Wire Notes Line
-	-2400 4250 -4050 4250
-Wire Wire Line
-	-3450 4800 -3050 4800
-Wire Wire Line
-	-3050 4800 -3050 4450
-Text Label -3450 5600 0    50   ~ 0
-CAN_H
-Text Label -3450 5700 0    50   ~ 0
-CAN_L
-$Comp
-L formula:MM_F_VT_20 J?
-U 1 1 60E61A9D
-P -3600 5800
-AR Path="/60A3B20D/60E61A9D" Ref="J?"  Part="1" 
-AR Path="/60A3B1F8/60E61A9D" Ref="J?"  Part="1" 
-F 0 "J?" H -3642 7147 60  0000 C CNN
-F 1 "MM_F_VT_20" H -3642 7041 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_20" H -3800 6900 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0" H -3700 7000 60  0001 C CNN
-F 4 "TE" H -3500 7200 60  0001 C CNN "MFN"
-F 5 "2-338068-0" H -3400 7300 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-2-338068-0.html" H -3600 7100 60  0001 C CNN "PurchasingLink"
-	1    -3600 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-3150 6600 -3150 6650
-$Comp
-L power:GND #PWR?
-U 1 1 60E61AA4
-P -3150 6650
-AR Path="/60A3B20D/60E61AA4" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B1F8/60E61AA4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -3150 6400 50  0001 C CNN
-F 1 "GND" H -3145 6477 50  0000 C CNN
-F 2 "" H -3150 6650 50  0001 C CNN
-F 3 "" H -3150 6650 50  0001 C CNN
-	1    -3150 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-3450 6600 -3150 6600
-Text Label -3450 5800 0    50   ~ 0
-ShutdownSense_HVDConn
-Text Label -3450 6300 0    50   ~ 0
-ShutdownSense_TSMS
-Text Label -3450 7050 0    50   ~ 0
+Text Label 7500 1400 0    50   ~ 0
 Final_Shutdown
-Text Label -3450 8050 0    50   ~ 0
+Text Label 7500 2400 0    50   ~ 0
 Final_Shutdown
 Wire Wire Line
-	-3450 7950 -2750 7950
+	7500 2300 8200 2300
 Wire Wire Line
-	-2750 7950 -2750 8050
+	8200 2300 8200 2400
 $Comp
 L power:GND #PWR?
 U 1 1 60E61AB1
-P -2750 8050
+P 8200 2400
 AR Path="/60A3B20D/60E61AB1" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B1F8/60E61AB1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -2750 7800 50  0001 C CNN
-F 1 "GND" H -2745 7877 50  0000 C CNN
-F 2 "" H -2750 8050 50  0001 C CNN
-F 3 "" H -2750 8050 50  0001 C CNN
-	1    -2750 8050
+AR Path="/60A3B1F8/60E61AB1" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 8200 2150 50  0001 C CNN
+F 1 "GND" H 8205 2227 50  0000 C CNN
+F 2 "" H 8200 2400 50  0001 C CNN
+F 3 "" H 8200 2400 50  0001 C CNN
+	1    8200 2400
 	1    0    0    -1  
 $EndComp
-Text Label -3450 8400 0    50   ~ 0
+Text Label 7600 2950 0    50   ~ 0
 Final_Shutdown
 Wire Wire Line
-	-2800 8450 -2800 8300
+	8250 3000 8250 2850
 Wire Wire Line
-	-3450 8300 -2800 8300
+	7600 2850 8250 2850
 $Comp
 L formula:MicroFit_VT_12 J?
 U 1 1 60E61ABA
-P -3650 7500
+P 7300 1850
 AR Path="/60A3B20D/60E61ABA" Ref="J?"  Part="1" 
 AR Path="/60A3B1F8/60E61ABA" Ref="J?"  Part="1" 
-F 0 "J?" H -3592 8296 59  0000 C CNN
-F 1 "MicroFit_VT_12" H -3592 8191 59  0000 C CNN
-F 2 "footprints:MicroFit_VT_12" H -3650 6750 100 0001 C CNN
-F 3 "" H -3600 7450 100 0001 C CNN
-	1    -3650 7500
+F 0 "J?" H 7358 2646 59  0000 C CNN
+F 1 "MicroFit_VT_12" H 7358 2541 59  0000 C CNN
+F 2 "footprints:MicroFit_VT_12" H 7300 1100 100 0001 C CNN
+F 3 "" H 7350 1800 100 0001 C CNN
+	1    7300 1850
 	1    0    0    -1  
 $EndComp
-Text Label -3450 7850 0    50   ~ 0
+Text Label 7500 2200 0    50   ~ 0
 Air-Coil-
-Text Label -3450 7750 0    50   ~ 0
+Text Label 7500 2100 0    50   ~ 0
 Air-Coil+
-Text Label -3450 7650 0    50   ~ 0
+Text Label 7500 2000 0    50   ~ 0
 Air-Aux-
-Text Label -3450 7550 0    50   ~ 0
+Text Label 7500 1900 0    50   ~ 0
 Air-Aux+
-Text Label -3450 7450 0    50   ~ 0
+Text Label 7500 1800 0    50   ~ 0
 Air+Coil-
-Text Label -3450 7350 0    50   ~ 0
+Text Label 7500 1700 0    50   ~ 0
 Air+Coil+
-Text Label -3450 7250 0    50   ~ 0
+Text Label 7500 1600 0    50   ~ 0
 Air+Aux-
-Text Label -3450 7150 0    50   ~ 0
+Text Label 7500 1500 0    50   ~ 0
 Air+Aux+
-Wire Wire Line
-	-3450 4900 -2900 4900
-Wire Wire Line
-	-2900 4900 -2900 4700
 $Comp
 L formula:MicroFit_V_2 J?
 U 1 1 60E61ACD
-P -3700 8350
+P 7350 2900
 AR Path="/60A3B20D/60E61ACD" Ref="J?"  Part="1" 
 AR Path="/60A3B1F8/60E61ACD" Ref="J?"  Part="1" 
+<<<<<<< HEAD
+F 0 "J?" H 7150 2900 50  0000 C CNN
+F 1 "MicroFit_V_2" H 7408 3084 50  0000 C CNN
+F 2 "footprints:MicroFit_V_2" H 7300 3100 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450225_sd.pdf" H 7300 3100 50  0001 C CNN
+F 4 "MFN" H 7450 3150 50  0001 C CNN "DK"
+F 5 "WM10660-ND" H 7550 3250 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180" H 7350 3050 50  0001 C CNN "PurchasingLink"
+	1    7350 2900
+	1    0    0    -1  
+$EndComp
+Text Notes 1650 6700 0    50   ~ 0
+AIL connector on ‘TSAL’ page for clarity
+$Comp
+L formula:Ultrafit_4_RA J?
+U 1 1 60C16849
+P 7400 3700
+AR Path="/60A3B236/60C16849" Ref="J?"  Part="1" 
+AR Path="/60A3B41E/60C16849" Ref="J?"  Part="1" 
+AR Path="/60A3B1F8/60C16849" Ref="J?"  Part="1" 
+F 0 "J?" H 7508 4137 60  0000 C CNN
+F 1 "Ultrafit_4_RA" H 7508 4031 60  0000 C CNN
+F 2 "footprints:Ultrafit_4_RA" H 6900 4350 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" H 7850 4800 60  0001 C CNN
+F 4 "Digi-Key" H 6700 4950 60  0001 C CNN "MFN"
+F 5 "Value" H 6550 4100 60  0001 C CNN "Package"
+F 6 "WM11574-ND" H 6750 4200 60  0001 C CNN "MPN"
+F 7 "WM11564-ND" H 7800 4450 60  0001 C CNN "MPN2"
+F 8 "https://www.digikey.com/products/en?keywords=1723101304" H 7900 4550 60  0001 C CNN "PurchasingLink"
+	1    7400 3700
+	1    0    0    -1  
+$EndComp
+Text Label 7750 3500 0    50   ~ 0
+TS+
+Text Label 7750 3600 0    50   ~ 0
+TS-
+Text Label 7750 3700 0    50   ~ 0
+TS+
+Text Label 7750 3800 0    50   ~ 0
+TS-
+Text Notes 1650 6550 0    50   ~ 0
+Shutdown Circuit Connector on ‘Shutdown’ page for clarity
+Text Notes 1650 6850 0    50   ~ 0
+IMD connector on ‘IMD Latch’ page for clarity
+Text Notes 7200 850  0    50   ~ 0
+To AIR Mount Boards
+=======
 F 0 "J?" H -3900 8350 50  0000 C CNN
 F 1 "MicroFit_V_2" H -3642 8534 50  0000 C CNN
 F 2 "footprints:MicroFit_V_2" H -3750 8550 50  0001 C CNN
@@ -876,4 +1006,5 @@ Text GLabel 5700 6700 2    50   Input ~ 0
 IMD_Output
 Text GLabel 5700 6900 2    50   Input ~ 0
 12V_Fused
+>>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 $EndSCHEMATC

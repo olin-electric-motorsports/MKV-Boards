@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -87,10 +87,10 @@ F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STTH1R06A/497-
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0163
 U 1 1 61108F96
 P 6425 3175
-F 0 "#PWR?" H 6425 2925 50  0001 C CNN
+F 0 "#PWR0163" H 6425 2925 50  0001 C CNN
 F 1 "GND" H 6430 3002 50  0000 C CNN
 F 2 "" H 6425 3175 50  0001 C CNN
 F 3 "" H 6425 3175 50  0001 C CNN

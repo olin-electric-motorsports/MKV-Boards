@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -34,10 +34,10 @@ F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0113
 U 1 1 610EBA8D
 P 9400 4000
-F 0 "#PWR?" H 9400 3750 50  0001 C CNN
+F 0 "#PWR0113" H 9400 3750 50  0001 C CNN
 F 1 "GND" H 9405 3827 50  0000 C CNN
 F 2 "" H 9400 4000 50  0001 C CNN
 F 3 "" H 9400 4000 50  0001 C CNN
@@ -48,8 +48,8 @@ $Comp
 L Device:D_Schottky_Small D?
 U 1 1 610EBA93
 P 8950 1350
-F 0 "D?" V 8850 1475 50  0000 R CNN
-F 1 "D_Schottky_Small" H 9275 1250 50  0000 R CNN
+F 0 "D?" V 9000 1000 50  0000 R CNN
+F 1 "D_Schottky_Small" V 8900 1250 50  0000 R CNN
 F 2 "footprints:D_0805_OEM" V 8950 1350 50  0001 C CNN
 F 3 "~" V 8950 1350 50  0001 C CNN
 	1    8950 1350
@@ -82,40 +82,14 @@ F 6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q
 	1    9600 1350
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:MicroFit_V_2 J?
-U 1 1 610EBAAC
-P 10500 1350
-F 0 "J?" H 10558 1625 50  0000 C CNN
-F 1 "MicroFit_V_2" H 10558 1534 50  0000 C CNN
-F 2 "footprints:MicroFit_V_2" H 10450 1550 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450225_sd.pdf" H 10450 1550 50  0001 C CNN
-F 4 "MFN" H 10600 1600 50  0001 C CNN "DK"
-F 5 "WM10660-ND" H 10700 1700 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180" H 10500 1500 50  0001 C CNN "PurchasingLink"
-	1    10500 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9700 1050 9700 950 
 Wire Wire Line
-	9700 950  10900 950 
-Wire Wire Line
-	10900 950  10900 1300
-Wire Wire Line
-	10900 1300 10750 1300
-Wire Wire Line
-	10900 1400 10900 1750
-Wire Wire Line
-	10900 1750 9700 1750
-Wire Wire Line
 	9700 1750 9700 1650
 Wire Wire Line
-	10750 1400 10900 1400
-Wire Wire Line
 	9400 900  9400 1050
-Text Notes 9375 750  0    50   ~ 0
-Power Relay\n
+Text Notes 9150 700  0    50   ~ 0
+IMD Shutdown Relay
 Text Notes 2775 1575 0    50   ~ 0
 10V Output in 4.2 Sec delay\n
 Text Notes 2800 1775 0    50   ~ 0
@@ -123,10 +97,10 @@ t= -ln((10-x)/10)*2.662\n\n
 Text Notes 1300 1300 0    50   ~ 0
 DELAY SIDE:\ntimer gives the IMD time to power up
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0114
 U 1 1 610EBABF
 P 2000 3175
-F 0 "#PWR?" H 2000 2925 50  0001 C CNN
+F 0 "#PWR0114" H 2000 2925 50  0001 C CNN
 F 1 "GND" H 2005 3002 50  0000 C CNN
 F 2 "" H 2000 3175 50  0001 C CNN
 F 3 "" H 2000 3175 50  0001 C CNN
@@ -138,10 +112,10 @@ Text Label 1275 2550 2    50   ~ 0
 Wire Wire Line
 	1900 2100 2350 2100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0115
 U 1 1 610EBAC7
 P 2350 2175
-F 0 "#PWR?" H 2350 1925 50  0001 C CNN
+F 0 "#PWR0115" H 2350 1925 50  0001 C CNN
 F 1 "GND" H 2355 2002 50  0000 C CNN
 F 2 "" H 2350 2175 50  0001 C CNN
 F 3 "" H 2350 2175 50  0001 C CNN
@@ -151,10 +125,10 @@ $EndComp
 Text Label 3150 2025 2    50   ~ 0
 12V_Fused
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0116
 U 1 1 610EBACF
 P 3150 2900
-F 0 "#PWR?" H 3150 2650 50  0001 C CNN
+F 0 "#PWR0116" H 3150 2650 50  0001 C CNN
 F 1 "GND" H 3155 2727 50  0000 C CNN
 F 2 "" H 3150 2900 50  0001 C CNN
 F 3 "" H 3150 2900 50  0001 C CNN
@@ -168,22 +142,22 @@ Wire Wire Line
 $Comp
 L formula:C_2.2uF C?
 U 1 1 610EBADA
-P 1900 1875
-F 0 "C?" H 2000 1875 50  0000 L CNN
-F 1 "C_2.2uF" H 1925 1775 50  0000 L CNN
-F 2 "footprints:C_0603_1608Metric" H 1938 1725 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 1925 1975 50  0001 C CNN
-F 4 "DK" H 1900 1875 60  0001 C CNN "MFN"
-F 5 "311-1451-1-ND" H 1900 1875 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 2325 2375 60  0001 C CNN "PurchasingLink"
-	1    1900 1875
+P 1900 1900
+F 0 "C?" H 2000 1900 50  0000 L CNN
+F 1 "C_2.2uF" H 1925 1800 50  0000 L CNN
+F 2 "footprints:C_0603_1608Metric" H 1938 1750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 1925 2000 50  0001 C CNN
+F 4 "DK" H 1900 1900 60  0001 C CNN "MFN"
+F 5 "311-1451-1-ND" H 1900 1900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757" H 2325 2400 60  0001 C CNN "PurchasingLink"
+	1    1900 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 610EBAE3
 P 2100 4650
-F 0 "#PWR?" H 2100 4400 50  0001 C CNN
+F 0 "#PWR0117" H 2100 4400 50  0001 C CNN
 F 1 "GND" H 2105 4477 50  0000 C CNN
 F 2 "" H 2100 4650 50  0001 C CNN
 F 3 "" H 2100 4650 50  0001 C CNN
@@ -204,6 +178,68 @@ F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 	1    2100 4500
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD
+$Comp
+L power:GND #PWR0118
+U 1 1 610EBAF3
+P 1925 4650
+F 0 "#PWR0118" H 1925 4400 50  0001 C CNN
+F 1 "GND" H 1930 4477 50  0000 C CNN
+F 2 "" H 1925 4650 50  0001 C CNN
+F 3 "" H 1925 4650 50  0001 C CNN
+	1    1925 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:UF_5_VT J?
+U 1 1 610EBAFC
+P 1125 4400
+F 0 "J?" H 1233 4837 60  0000 C CNN
+F 1 "UF_5_VT" H 1233 4731 60  0000 C CNN
+F 2 "footprints:Ultrafit_5" H 1025 4650 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 1125 4750 60  0001 C CNN
+F 4 "DK" H 1125 4400 60  0001 C CNN "MFN"
+F 5 "WM11667-ND" H 1125 4400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" H 1625 5250 60  0001 C CNN "PurchasingLink"
+	1    1125 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 4300 1925 4300
+Wire Wire Line
+	1475 4600 1575 4600
+Wire Wire Line
+	1925 4300 1925 4650
+Text Label 1475 4400 0    50   ~ 0
+12V_Fused
+$Comp
+L power:GND #PWR0119
+U 1 1 610EBB06
+P 1575 4650
+F 0 "#PWR0119" H 1575 4400 50  0001 C CNN
+F 1 "GND" H 1580 4477 50  0000 C CNN
+F 2 "" H 1575 4650 50  0001 C CNN
+F 3 "" H 1575 4650 50  0001 C CNN
+	1    1575 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 610EBB0C
+P 1750 4650
+F 0 "#PWR0120" H 1750 4400 50  0001 C CNN
+F 1 "GND" H 1755 4477 50  0000 C CNN
+F 2 "" H 1750 4650 50  0001 C CNN
+F 3 "" H 1750 4650 50  0001 C CNN
+	1    1750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1575 4650 1575 4600
+Text Notes 1250 4625 1    50   ~ 0
+This is IMD\n\n
+=======
+>>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 Wire Wire Line
 	2350 2100 2350 2175
 Wire Wire Line
@@ -211,7 +247,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 1650 1900 1650
 Wire Wire Line
-	1900 1725 1900 1650
+	1900 1725 1900 1700
 Connection ~ 1900 1650
 Wire Wire Line
 	1900 1650 2350 1650
@@ -229,10 +265,10 @@ Wire Wire Line
 Wire Wire Line
 	2100 4200 3075 4200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0121
 U 1 1 610EBB26
 P 2100 5850
-F 0 "#PWR?" H 2100 5600 50  0001 C CNN
+F 0 "#PWR0121" H 2100 5600 50  0001 C CNN
 F 1 "GND" H 2105 5677 50  0000 C CNN
 F 2 "" H 2100 5850 50  0001 C CNN
 F 3 "" H 2100 5850 50  0001 C CNN
@@ -299,17 +335,17 @@ Wire Wire Line
 Wire Wire Line
 	2775 4400 2775 5375
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0122
 U 1 1 610EBB50
 P 3275 4600
-F 0 "#PWR?" H 3275 4350 50  0001 C CNN
+F 0 "#PWR0122" H 3275 4350 50  0001 C CNN
 F 1 "GND" H 3280 4427 50  0000 C CNN
 F 2 "" H 3275 4600 50  0001 C CNN
 F 3 "" H 3275 4600 50  0001 C CNN
 	1    3275 4600
 	1    0    0    -1  
 $EndComp
-Text Label 9400 900  0    50   ~ 0
+Text Label 9400 900  2    50   ~ 0
 12V_Fused
 Text Notes 6225 3600 0    50   ~ 0
 Latch outputs 12V when the IMD Output is “Healthy”
@@ -337,10 +373,10 @@ Connection ~ 3150 2250
 Wire Wire Line
 	3150 2250 3150 2300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0123
 U 1 1 610EBB66
 P 3525 2250
-F 0 "#PWR?" H 3525 2000 50  0001 C CNN
+F 0 "#PWR0123" H 3525 2000 50  0001 C CNN
 F 1 "GND" H 3530 2077 50  0000 C CNN
 F 2 "" H 3525 2250 50  0001 C CNN
 F 3 "" H 3525 2250 50  0001 C CNN
@@ -371,10 +407,10 @@ Connection ~ 3275 3950
 Wire Wire Line
 	3275 3950 3275 4000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0124
 U 1 1 610EBB7A
 P 3650 3950
-F 0 "#PWR?" H 3650 3700 50  0001 C CNN
+F 0 "#PWR0124" H 3650 3700 50  0001 C CNN
 F 1 "GND" H 3655 3777 50  0000 C CNN
 F 2 "" H 3650 3950 50  0001 C CNN
 F 3 "" H 3650 3950 50  0001 C CNN
@@ -397,10 +433,10 @@ NoConn ~ 6700 2500
 NoConn ~ 7650 3000
 NoConn ~ 7650 3100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0125
 U 1 1 610EBB93
 P 6700 3100
-F 0 "#PWR?" H 6700 2850 50  0001 C CNN
+F 0 "#PWR0125" H 6700 2850 50  0001 C CNN
 F 1 "GND" H 6705 2927 50  0000 C CNN
 F 2 "" H 6700 3100 50  0001 C CNN
 F 3 "" H 6700 3100 50  0001 C CNN
@@ -408,10 +444,10 @@ F 3 "" H 6700 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0126
 U 1 1 610EBB99
 P 6500 3100
-F 0 "#PWR?" H 6500 2850 50  0001 C CNN
+F 0 "#PWR0126" H 6500 2850 50  0001 C CNN
 F 1 "GND" H 6505 2927 50  0000 C CNN
 F 2 "" H 6500 3100 50  0001 C CNN
 F 3 "" H 6500 3100 50  0001 C CNN
@@ -419,10 +455,10 @@ F 3 "" H 6500 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0127
 U 1 1 610EBB9F
 P 6300 3100
-F 0 "#PWR?" H 6300 2850 50  0001 C CNN
+F 0 "#PWR0127" H 6300 2850 50  0001 C CNN
 F 1 "GND" H 6305 2927 50  0000 C CNN
 F 2 "" H 6300 3100 50  0001 C CNN
 F 3 "" H 6300 3100 50  0001 C CNN
@@ -444,10 +480,10 @@ Text Label 6150 3400 0    50   ~ 0
 Wire Wire Line
 	6150 2800 6150 3400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0128
 U 1 1 610EBBAC
 P 7750 3100
-F 0 "#PWR?" H 7750 2850 50  0001 C CNN
+F 0 "#PWR0128" H 7750 2850 50  0001 C CNN
 F 1 "GND" H 7755 2927 50  0000 C CNN
 F 2 "" H 7750 3100 50  0001 C CNN
 F 3 "" H 7750 3100 50  0001 C CNN
@@ -455,10 +491,10 @@ F 3 "" H 7750 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0129
 U 1 1 610EBBB2
 P 7950 3100
-F 0 "#PWR?" H 7950 2850 50  0001 C CNN
+F 0 "#PWR0129" H 7950 2850 50  0001 C CNN
 F 1 "GND" H 7955 2927 50  0000 C CNN
 F 2 "" H 7950 3100 50  0001 C CNN
 F 3 "" H 7950 3100 50  0001 C CNN
@@ -490,10 +526,10 @@ F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0130
 U 1 1 610EBBC6
 P 8300 3200
-F 0 "#PWR?" H 8300 2950 50  0001 C CNN
+F 0 "#PWR0130" H 8300 2950 50  0001 C CNN
 F 1 "GND" H 8305 3027 50  0000 C CNN
 F 2 "" H 8300 3200 50  0001 C CNN
 F 3 "" H 8300 3200 50  0001 C CNN
@@ -501,10 +537,10 @@ F 3 "" H 8300 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0131
 U 1 1 610EBBCD
 P 8200 2600
-F 0 "#PWR?" H 8200 2350 50  0001 C CNN
+F 0 "#PWR0131" H 8200 2350 50  0001 C CNN
 F 1 "GND" H 8205 2427 50  0000 C CNN
 F 2 "" H 8200 2600 50  0001 C CNN
 F 3 "" H 8200 2600 50  0001 C CNN
@@ -512,10 +548,10 @@ F 3 "" H 8200 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0132
 U 1 1 610EBBD3
 P 8450 2600
-F 0 "#PWR?" H 8450 2350 50  0001 C CNN
+F 0 "#PWR0132" H 8450 2350 50  0001 C CNN
 F 1 "GND" H 8455 2427 50  0000 C CNN
 F 2 "" H 8450 2600 50  0001 C CNN
 F 3 "" H 8450 2600 50  0001 C CNN
@@ -540,10 +576,10 @@ Wire Wire Line
 Wire Wire Line
 	9400 2850 9400 2900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0133
 U 1 1 610EBBE2
 P 9400 2350
-F 0 "#PWR?" H 9400 2100 50  0001 C CNN
+F 0 "#PWR0133" H 9400 2100 50  0001 C CNN
 F 1 "GND" H 9405 2177 50  0000 C CNN
 F 2 "" H 9400 2350 50  0001 C CNN
 F 3 "" H 9400 2350 50  0001 C CNN
@@ -692,10 +728,10 @@ $EndComp
 Wire Wire Line
 	7650 2400 7800 2400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0134
 U 1 1 610EBC41
 P 7975 2025
-F 0 "#PWR?" H 7975 1775 50  0001 C CNN
+F 0 "#PWR0134" H 7975 1775 50  0001 C CNN
 F 1 "GND" H 7980 1852 50  0000 C CNN
 F 2 "" H 7975 2025 50  0001 C CNN
 F 3 "" H 7975 2025 50  0001 C CNN
@@ -759,8 +795,6 @@ Wire Wire Line
 	1875 2550 2000 2550
 Wire Wire Line
 	8050 2900 8825 2900
-Text Notes 7800 5500 0    50   ~ 0
-remember to add the IMD_Status_Output to the connectors
 $Comp
 L formula:CD4043BPWR U?
 U 1 1 60D93779
@@ -781,7 +815,21 @@ Text GLabel 8825 2825 1    50   Input ~ 0
 IMD_Status_Output
 Text GLabel 1500 4200 0    50   Input ~ 0
 IMD_Output
+<<<<<<< HEAD
+Text GLabel 10200 1750 2    50   Input ~ 0
+TO_IMD_LATCH
+Text GLabel 10100 950  2    50   Input ~ 0
+FROM_IMD_LATCH
+Wire Wire Line
+	10200 1750 9700 1750
+Wire Wire Line
+	10100 950  9700 950 
+Connection ~ 1900 1700
+Wire Wire Line
+	1900 1700 1900 1650
+=======
 Wire Wire Line
 	1500 4200 2100 4200
 Connection ~ 2100 4200
+>>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 $EndSCHEMATC
