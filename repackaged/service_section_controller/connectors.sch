@@ -59,48 +59,21 @@ F 6 "http://www.te.com/global-en/product-1-338068-6.html" H 3750 4600 60  0001 C
 	1    3750 3300
 	1    0    0    -1  
 $EndComp
-Text Label 8150 2350 0    50   ~ 0
-Precharge_LSD
 $Comp
 L power:GND #PWR?
 U 1 1 60E61A8C
-P 8900 4050
+P 9000 4050
 AR Path="/60A3B20D/60E61A8C" Ref="#PWR?"  Part="1" 
 AR Path="/60A3B1F8/60E61A8C" Ref="#PWR0138"  Part="1" 
-F 0 "#PWR0138" H 8900 3800 50  0001 C CNN
-F 1 "GND" H 8905 3877 50  0000 C CNN
-F 2 "" H 8900 4050 50  0001 C CNN
-F 3 "" H 8900 4050 50  0001 C CNN
-	1    8900 4050
+F 0 "#PWR0138" H 9000 3800 50  0001 C CNN
+F 1 "GND" H 9005 3877 50  0000 C CNN
+F 2 "" H 9000 4050 50  0001 C CNN
+F 3 "" H 9000 4050 50  0001 C CNN
+	1    9000 4050
 	1    0    0    -1  
 $EndComp
-Text Label 8150 2450 0    50   ~ 0
-Final_Shutdown
-Text Label 8150 3450 0    50   ~ 0
-Final_Shutdown
 Wire Wire Line
-	8150 3350 8850 3350
-Wire Wire Line
-	8850 3350 8850 3450
-$Comp
-L power:GND #PWR?
-U 1 1 60E61AB1
-P 8850 3450
-AR Path="/60A3B20D/60E61AB1" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B1F8/60E61AB1" Ref="#PWR0140"  Part="1" 
-F 0 "#PWR0140" H 8850 3200 50  0001 C CNN
-F 1 "GND" H 8855 3277 50  0000 C CNN
-F 2 "" H 8850 3450 50  0001 C CNN
-F 3 "" H 8850 3450 50  0001 C CNN
-	1    8850 3450
-	1    0    0    -1  
-$EndComp
-Text Label 8250 4000 0    50   ~ 0
-Final_Shutdown
-Wire Wire Line
-	8900 4050 8900 3900
-Wire Wire Line
-	8250 3900 8900 3900
+	9000 4050 9000 3900
 $Comp
 L formula:MicroFit_VT_12 J?
 U 1 1 60E61ABA
@@ -114,22 +87,6 @@ F 3 "" H 8000 2850 100 0001 C CNN
 	1    7950 2900
 	1    0    0    -1  
 $EndComp
-Text Label 8150 3250 0    50   ~ 0
-Air-Coil-
-Text Label 8150 3150 0    50   ~ 0
-Air-Coil+
-Text Label 8150 3050 0    50   ~ 0
-Air-Aux-
-Text Label 8150 2950 0    50   ~ 0
-Air-Aux+
-Text Label 8150 2850 0    50   ~ 0
-Air+Coil-
-Text Label 8150 2750 0    50   ~ 0
-Air+Coil+
-Text Label 8150 2650 0    50   ~ 0
-Air+Aux-
-Text Label 8150 2550 0    50   ~ 0
-Air+Aux+
 $Comp
 L formula:MicroFit_V_2 J?
 U 1 1 60C16849
@@ -237,4 +194,47 @@ Text GLabel 8325 4925 2    50   Input ~ 0
 TS-
 Text Notes 1650 6400 0    50   ~ 0
 BMS isoSPI cutout on ‘BMS Core’ page for clarity
+Text GLabel 8150 2650 2    50   Input ~ 0
++AIR_AUX-
+Text GLabel 8150 2750 2    50   Input ~ 0
++AIR_COIL+
+Text GLabel 8150 2850 2    50   Input ~ 0
++AIR_COIL-
+Text GLabel 8150 2950 2    50   Input ~ 0
+-AIR_AUX+
+Text GLabel 8150 3050 2    50   Input ~ 0
+-AIR_AUX-
+Text GLabel 8150 3150 2    50   Input ~ 0
+-AIR_COIL+
+Text GLabel 8150 3250 2    50   Input ~ 0
+-AIR_COIL-
+Text GLabel 8150 2550 2    50   Input ~ 0
++AIR_AUX+
+Text GLabel 8150 3450 2    50   Input ~ 0
+FINAL_SHUTDOWN
+Text GLabel 8250 4000 2    50   Input ~ 0
+FINAL_SHUTDOWN
+Wire Wire Line
+	8250 3900 9000 3900
+Wire Wire Line
+	8900 3350 8150 3350
+$Comp
+L power:GND #PWR?
+U 1 1 60E61AB1
+P 8900 3500
+AR Path="/60A3B20D/60E61AB1" Ref="#PWR?"  Part="1" 
+AR Path="/60A3B1F8/60E61AB1" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 8900 3250 50  0001 C CNN
+F 1 "GND" H 8905 3327 50  0000 C CNN
+F 2 "" H 8900 3500 50  0001 C CNN
+F 3 "" H 8900 3500 50  0001 C CNN
+	1    8900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 3350 8900 3500
+Text GLabel 8150 2350 2    50   Input ~ 0
+PRECHARGE_LSD
+Text GLabel 8150 2450 2    50   Input ~ 0
+FINAL_SHUTDOWN
 $EndSCHEMATC
