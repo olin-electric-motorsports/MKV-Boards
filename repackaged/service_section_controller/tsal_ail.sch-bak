@@ -217,35 +217,6 @@ Wire Wire Line
 	4550 3950 5400 3950
 Wire Wire Line
 	5400 3950 5400 4250
-Connection ~ 5400 3950
-Wire Wire Line
-	0    0    0    0   
-Wire Wire Line
-	3600 3400 3600 2950
-Wire Wire Line
-	3750 2950 3600 2950
-Connection ~ 3600 2950
-Wire Wire Line
-	3600 2950 3600 2600
-Wire Wire Line
-	4250 2950 4250 3400
-Wire Wire Line
-	4050 3400 4250 3400
-Connection ~ 4250 3400
-Wire Wire Line
-	4250 3400 4250 3700
-Wire Wire Line
-	4000 3950 4550 3950
-Wire Wire Line
-	4550 3950 4550 4200
-Connection ~ 4550 3950
-Wire Wire Line
-	4550 3950 5400 3950
-Wire Wire Line
-	5400 3950 5400 4250
-Connection ~ 5400 3950
-Wire Wire Line
-	0    0    0    0   
 $Comp
 L formula:R_1.43K R?
 U 1 1 611250AB
@@ -334,18 +305,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 5300 6100 5450
 Wire Wire Line
-	0    0    0    0   
-Wire Wire Line
-	4550 4500 4550 4950
-Wire Wire Line
-	5400 5150 5400 5300
-Wire Wire Line
-	5400 5300 6100 5300
-Wire Wire Line
-	6100 5300 6100 5450
-Wire Wire Line
-	0    0    0    0   
-Wire Wire Line
 	7000 3950 7250 3950
 Wire Wire Line
 	7250 3950 7250 3600
@@ -377,20 +336,6 @@ Wire Wire Line
 Connection ~ 7450 4150
 Wire Wire Line
 	7450 4150 7850 4150
-Wire Wire Line
-	0    0    0    0   
-Wire Wire Line
-	7150 4150 7150 4400
-Connection ~ 7150 4150
-Wire Wire Line
-	7150 4150 7450 4150
-Wire Wire Line
-	7450 4150 7450 4050
-Connection ~ 7450 4150
-Wire Wire Line
-	7450 4150 7850 4150
-Wire Wire Line
-	0    0    0    0   
 $Comp
 L formula:R_10K R?
 U 1 1 611250FF
@@ -449,20 +394,6 @@ Wire Wire Line
 	9550 2350 9550 2200
 Wire Wire Line
 	9550 2650 9550 2750
-Wire Wire Line
-	0    0    0    0   
-Wire Wire Line
-	8365 2250 8265 2250
-Wire Wire Line
-	8365 2150 8265 2150
-Wire Wire Line
-	8265 2150 8265 2050
-Wire Wire Line
-	9550 2350 9550 2200
-Wire Wire Line
-	9550 2650 9550 2750
-Wire Wire Line
-	0    0    0    0   
 $Comp
 L power:GND #PWR?
 U 1 1 61125143
@@ -611,14 +542,6 @@ Text GLabel 1750 5250 0    50   Input ~ 0
 TS-
 Text GLabel 3550 4650 0    50   Input ~ 0
 TS-
-Text GLabel 7250 3600 0    50   Input ~ 0
-=======
-Text GLabel 7250 3600 0    50   Input ~ 0
-=======
-Text Label 1100 4050 2    50   ~ 0
-15V+
-Text GLabel 7200 3150 0    50   Input ~ 0
->>>>>>> 11e5e625e621b4f61c319caab605d55ef6f7be0f
 Text GLabel 7250 3400 0    50   Input ~ 0
 GLV+
 Text GLabel 3550 5700 0    50   Input ~ 0
@@ -728,4 +651,13 @@ Wire Wire Line
 	8600 1550 8665 1550
 Wire Wire Line
 	8200 2050 8265 2050
+Wire Wire Line
+	5850 3950 5400 3950
+Connection ~ 5400 3950
+Text GLabel 7250 3600 0    50   Input ~ 0
+GLV+
+Wire Wire Line
+	1800 5100 1800 5250
+Wire Wire Line
+	8150 3700 8150 3950
 $EndSCHEMATC
