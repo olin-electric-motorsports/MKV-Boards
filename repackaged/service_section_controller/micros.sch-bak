@@ -20,8 +20,8 @@ P 1050 1400
 AR Path="/5C6B723E/60AB8D26" Ref="R?"  Part="1" 
 AR Path="/60AB8D26" Ref="R?"  Part="1" 
 AR Path="/60A3B220/60AB8D26" Ref="R?"  Part="1" 
-AR Path="/60AB52CF/60AB8D26" Ref="R?"  Part="1" 
-F 0 "R?" V 950 1500 50  0000 C CNN
+AR Path="/60AB52CF/60AB8D26" Ref="R1001"  Part="1" 
+F 0 "R1001" V 950 1500 50  0000 C CNN
 F 1 "R_100" V 1150 1400 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 980 1400 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 1130 1400 50  0001 C CNN
@@ -39,8 +39,8 @@ P 850 1400
 AR Path="/5C6B723E/60AB8D30" Ref="C?"  Part="1" 
 AR Path="/60AB8D30" Ref="C?"  Part="1" 
 AR Path="/60A3B220/60AB8D30" Ref="C?"  Part="1" 
-AR Path="/60AB52CF/60AB8D30" Ref="C?"  Part="1" 
-F 0 "C?" V 900 1250 50  0000 L CNN
+AR Path="/60AB52CF/60AB8D30" Ref="C1001"  Part="1" 
+F 0 "C1001" V 900 1250 50  0000 L CNN
 F 1 "C_0.1uF" V 700 1250 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 888 1250 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 875 1500 50  0001 C CNN
@@ -58,8 +58,8 @@ P 1050 1700
 AR Path="/5C6B723E/60AB8D3A" Ref="C?"  Part="1" 
 AR Path="/60AB8D3A" Ref="C?"  Part="1" 
 AR Path="/60A3B220/60AB8D3A" Ref="C?"  Part="1" 
-AR Path="/60AB52CF/60AB8D3A" Ref="C?"  Part="1" 
-F 0 "C?" H 1075 1800 50  0000 L CNN
+AR Path="/60AB52CF/60AB8D3A" Ref="C1002"  Part="1" 
+F 0 "C1002" H 1075 1800 50  0000 L CNN
 F 1 "C_100pF" H 1075 1600 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 1088 1550 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 1075 1800 50  0001 C CNN
@@ -77,8 +77,8 @@ P 3750 4400
 AR Path="/5C6B723E/60AB8D44" Ref="C?"  Part="1" 
 AR Path="/60AB8D44" Ref="C?"  Part="1" 
 AR Path="/60A3B220/60AB8D44" Ref="C?"  Part="1" 
-AR Path="/60AB52CF/60AB8D44" Ref="C?"  Part="1" 
-F 0 "C?" H 3775 4500 50  0000 L CNN
+AR Path="/60AB52CF/60AB8D44" Ref="C1006"  Part="1" 
+F 0 "C1006" H 3775 4500 50  0000 L CNN
 F 1 "C_30pF" H 3775 4300 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 3788 4250 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3775 4500 50  0001 C CNN
@@ -96,8 +96,8 @@ P 3450 4400
 AR Path="/5C6B723E/60AB8D4E" Ref="C?"  Part="1" 
 AR Path="/60AB8D4E" Ref="C?"  Part="1" 
 AR Path="/60A3B220/60AB8D4E" Ref="C?"  Part="1" 
-AR Path="/60AB52CF/60AB8D4E" Ref="C?"  Part="1" 
-F 0 "C?" H 3350 4500 50  0000 L CNN
+AR Path="/60AB52CF/60AB8D4E" Ref="C1005"  Part="1" 
+F 0 "C1005" H 3350 4500 50  0000 L CNN
 F 1 "C_30pF" H 3150 4300 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 3488 4250 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3475 4500 50  0001 C CNN
@@ -151,21 +151,6 @@ F 1 "GND" H 850 1400 50  0000 C CNN
 F 2 "" H 850 1550 50  0001 C CNN
 F 3 "" H 850 1550 50  0001 C CNN
 	1    850  1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 60AB8D66
-P 850 1250
-AR Path="/5C6B723E/60AB8D66" Ref="#PWR?"  Part="1" 
-AR Path="/60AB8D66" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B220/60AB8D66" Ref="#PWR?"  Part="1" 
-AR Path="/60AB52CF/60AB8D66" Ref="#PWR0208"  Part="1" 
-F 0 "#PWR0208" H 850 1100 50  0001 C CNN
-F 1 "VCC" H 850 1400 50  0000 C CNN
-F 2 "" H 850 1250 50  0001 C CNN
-F 3 "" H 850 1250 50  0001 C CNN
-	1    850  1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -235,9 +220,9 @@ P 3600 4250
 AR Path="/5C6B723E/60AB8D8E" Ref="Y?"  Part="1" 
 AR Path="/60AB8D8E" Ref="Y?"  Part="1" 
 AR Path="/60A3B220/60AB8D8E" Ref="Y?"  Part="1" 
-AR Path="/60AB52CF/60AB8D8E" Ref="Y?"  Part="1" 
-F 0 "Y?" H 3650 4425 50  0000 L CNN
-F 1 "Crystal_SMD" H 3650 4350 50  0000 L CNN
+AR Path="/60AB52CF/60AB8D8E" Ref="Y1001"  Part="1" 
+F 0 "Y1001" H 3550 3550 50  0000 L CNN
+F 1 "Crystal_SMD" H 3400 3650 50  0000 L CNN
 F 2 "footprints:Crystal_SMD_FA238" H 3550 4325 50  0001 C CNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf" H 3650 4425 50  0001 C CNN
 F 4 "Digi-Key" H 3600 4250 60  0001 C CNN "MFN"
@@ -247,10 +232,6 @@ F 7 "https://www.digikey.com/products/en?keywords=SER3686CT-ND" H 4050 4825 60  
 	1    3600 4250
 	1    0    0    -1  
 $EndComp
-Text Label 3550 2350 0    50   ~ 0
-PM_TXCAN
-Text Label 3550 2450 0    50   ~ 0
-PM_RXCAN
 NoConn ~ 1250 1950
 Wire Wire Line
 	1250 1550 1050 1550
@@ -268,7 +249,6 @@ Wire Wire Line
 	3950 4100 3950 4200
 Wire Wire Line
 	850  1250 1050 1250
-Connection ~ 850  1250
 Connection ~ 1050 1250
 Wire Wire Line
 	1050 1250 1250 1250
@@ -298,8 +278,6 @@ Wire Wire Line
 Wire Wire Line
 	3550 2650 3450 2650
 Wire Wire Line
-	3450 2750 3550 2750
-Wire Wire Line
 	3450 2850 3550 2850
 Wire Wire Line
 	3450 3550 3550 3550
@@ -314,8 +292,8 @@ L formula:R_200 R?
 U 1 1 60AB8DE3
 P 3900 1550
 AR Path="/60A3B220/60AB8DE3" Ref="R?"  Part="1" 
-AR Path="/60AB52CF/60AB8DE3" Ref="R?"  Part="1" 
-F 0 "R?" V 3800 1550 50  0000 C CNN
+AR Path="/60AB52CF/60AB8DE3" Ref="R1004"  Part="1" 
+F 0 "R1004" V 3800 1550 50  0000 C CNN
 F 1 "R_200" V 3900 1550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3830 1550 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3980 1550 50  0001 C CNN
@@ -330,8 +308,8 @@ L formula:R_200 R?
 U 1 1 60AB8DEC
 P 3900 1650
 AR Path="/60A3B220/60AB8DEC" Ref="R?"  Part="1" 
-AR Path="/60AB52CF/60AB8DEC" Ref="R?"  Part="1" 
-F 0 "R?" V 3980 1650 50  0000 C CNN
+AR Path="/60AB52CF/60AB8DEC" Ref="R1005"  Part="1" 
+F 0 "R1005" V 3980 1650 50  0000 C CNN
 F 1 "R_200" V 3900 1650 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 3830 1650 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3980 1650 50  0001 C CNN
@@ -352,10 +330,6 @@ Wire Wire Line
 NoConn ~ 3450 1750
 Text Notes 7550 800  0    98   ~ 0
 SECONDARY MICRO
-Text Label 9150 2350 0    50   ~ 0
-SM_TXCAN
-Text Label 9150 2450 0    50   ~ 0
-SM_RXCAN
 Text Label 9250 3650 0    50   ~ 0
 SM_DBG_1
 Text Label 9250 3750 0    50   ~ 0
@@ -365,8 +339,8 @@ L formula:R_10K R?
 U 1 1 60AE928F
 P 9950 3700
 AR Path="/60A3B20D/60AE928F" Ref="R?"  Part="1" 
-AR Path="/60AB52CF/60AE928F" Ref="R?"  Part="1" 
-F 0 "R?" H 10150 3800 50  0000 C CNN
+AR Path="/60AB52CF/60AE928F" Ref="R1014"  Part="1" 
+F 0 "R1014" H 10150 3800 50  0000 C CNN
 F 1 "R_10K" H 10150 3700 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 9880 3700 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 10030 3700 50  0001 C CNN
@@ -376,19 +350,6 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 104
 	1    9950 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 60AE9295
-P 9950 3550
-AR Path="/60A3B20D/60AE9295" Ref="#PWR?"  Part="1" 
-AR Path="/60AB52CF/60AE9295" Ref="#PWR0213"  Part="1" 
-F 0 "#PWR0213" H 9950 3400 50  0001 C CNN
-F 1 "VCC" H 9967 3723 50  0000 C CNN
-F 2 "" H 9950 3550 50  0001 C CNN
-F 3 "" H 9950 3550 50  0001 C CNN
-	1    9950 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9150 4050 9450 4050
 $Comp
@@ -396,9 +357,9 @@ L formula:Crystal_SMD Y?
 U 1 1 60AE929F
 P 9300 4250
 AR Path="/60A3B20D/60AE929F" Ref="Y?"  Part="1" 
-AR Path="/60AB52CF/60AE929F" Ref="Y?"  Part="1" 
-F 0 "Y?" H 9400 4400 50  0000 L CNN
-F 1 "Crystal_SMD" H 9350 4350 50  0000 L CNN
+AR Path="/60AB52CF/60AE929F" Ref="Y1002"  Part="1" 
+F 0 "Y1002" H 9250 3550 50  0000 L CNN
+F 1 "Crystal_SMD" H 9100 3650 50  0000 L CNN
 F 2 "footprints:Crystal_SMD_FA238" H 9250 4325 50  0001 C CNN
 F 3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf" H 9350 4425 50  0001 C CNN
 F 4 "DK" H 9300 4250 60  0001 C CNN "MFN"
@@ -416,8 +377,8 @@ L formula:C_30pF C?
 U 1 1 60AE92AA
 P 9450 4400
 AR Path="/60A3B20D/60AE92AA" Ref="C?"  Part="1" 
-AR Path="/60AB52CF/60AE92AA" Ref="C?"  Part="1" 
-F 0 "C?" H 9550 4400 50  0000 L CNN
+AR Path="/60AB52CF/60AE92AA" Ref="C1010"  Part="1" 
+F 0 "C1010" H 9550 4400 50  0000 L CNN
 F 1 "C_30pF" H 9500 4300 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 9488 4250 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9475 4500 50  0001 C CNN
@@ -436,8 +397,8 @@ L formula:C_30pF C?
 U 1 1 60AE92B5
 P 9150 4400
 AR Path="/60A3B20D/60AE92B5" Ref="C?"  Part="1" 
-AR Path="/60AB52CF/60AE92B5" Ref="C?"  Part="1" 
-F 0 "C?" H 8950 4400 50  0000 L CNN
+AR Path="/60AB52CF/60AE92B5" Ref="C1009"  Part="1" 
+F 0 "C1009" H 8950 4400 50  0000 L CNN
 F 1 "C_30pF" H 8850 4300 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 9188 4250 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9175 4500 50  0001 C CNN
@@ -507,8 +468,8 @@ L formula:R_100K R?
 U 1 1 60AE92DC
 P 6800 1400
 AR Path="/60A3B20D/60AE92DC" Ref="R?"  Part="1" 
-AR Path="/60AB52CF/60AE92DC" Ref="R?"  Part="1" 
-F 0 "R?" H 6750 1600 50  0000 L CNN
+AR Path="/60AB52CF/60AE92DC" Ref="R1011"  Part="1" 
+F 0 "R1011" H 6750 1600 50  0000 L CNN
 F 1 "R_100K" V 6900 1250 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 6730 1400 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6880 1400 50  0001 C CNN
@@ -526,8 +487,8 @@ L formula:C_0.1uF C?
 U 1 1 60AE92E7
 P 6600 1400
 AR Path="/60A3B20D/60AE92E7" Ref="C?"  Part="1" 
-AR Path="/60AB52CF/60AE92E7" Ref="C?"  Part="1" 
-F 0 "C?" V 6550 1250 50  0000 L CNN
+AR Path="/60AB52CF/60AE92E7" Ref="C1007"  Part="1" 
+F 0 "C1007" V 6550 1250 50  0000 L CNN
 F 1 "C_0.1uF" V 6450 1250 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 6638 1250 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6625 1500 50  0001 C CNN
@@ -537,20 +498,6 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 7025 1900 60 
 	1    6600 1400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 60AE92ED
-P 6600 1250
-AR Path="/60A3B20D/60AE92ED" Ref="#PWR?"  Part="1" 
-AR Path="/60AB52CF/60AE92ED" Ref="#PWR0217"  Part="1" 
-F 0 "#PWR0217" H 6600 1100 50  0001 C CNN
-F 1 "VCC" H 6617 1423 50  0000 C CNN
-F 2 "" H 6600 1250 50  0001 C CNN
-F 3 "" H 6600 1250 50  0001 C CNN
-	1    6600 1250
-	1    0    0    -1  
-$EndComp
-Connection ~ 6600 1250
 $Comp
 L power:GND #PWR?
 U 1 1 60AE92F4
@@ -569,8 +516,8 @@ L formula:C_100pF C?
 U 1 1 60AE92FD
 P 6800 1700
 AR Path="/60A3B20D/60AE92FD" Ref="C?"  Part="1" 
-AR Path="/60AB52CF/60AE92FD" Ref="C?"  Part="1" 
-F 0 "C?" H 6800 1800 50  0000 L CNN
+AR Path="/60AB52CF/60AE92FD" Ref="C1008"  Part="1" 
+F 0 "C1008" H 6800 1800 50  0000 L CNN
 F 1 "C_100pF" V 6950 1500 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 6838 1550 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/885012007057.pdf" H 6825 1800 50  0001 C CNN
@@ -605,8 +552,8 @@ L formula:CONN_02X03 J?
 U 1 1 60B4AE14
 P 8300 6050
 AR Path="/60A3B20D/60B4AE14" Ref="J?"  Part="1" 
-AR Path="/60AB52CF/60B4AE14" Ref="J?"  Part="1" 
-F 0 "J?" H 8300 6365 50  0000 C CNN
+AR Path="/60AB52CF/60B4AE14" Ref="J1001"  Part="1" 
+F 0 "J1001" H 8300 6365 50  0000 C CNN
 F 1 "CONN_02X03" H 8300 6274 50  0000 C CNN
 F 2 "footprints:Pin_Header_Straight_2x03" H 8300 4850 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 8300 4850 50  0001 C CNN
@@ -618,19 +565,6 @@ F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-323
 $EndComp
 Wire Wire Line
 	8550 5950 8700 5950
-$Comp
-L power:VCC #PWR?
-U 1 1 60B4AE1B
-P 8700 5900
-AR Path="/60A3B20D/60B4AE1B" Ref="#PWR?"  Part="1" 
-AR Path="/60AB52CF/60B4AE1B" Ref="#PWR0220"  Part="1" 
-F 0 "#PWR0220" H 8700 5750 50  0001 C CNN
-F 1 "VCC" H 8717 6073 50  0000 C CNN
-F 2 "" H 8700 5900 50  0001 C CNN
-F 3 "" H 8700 5900 50  0001 C CNN
-	1    8700 5900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60B4AE21
@@ -647,10 +581,10 @@ $EndComp
 Text Notes 1750 800  0    98   ~ 0
 PRIMARY MICRO
 $Comp
-L formula:C_0.1uF C?
+L formula:C_0.1uF C1003
 U 1 1 60C167D6
 P 1800 5250
-F 0 "C?" V 1750 5100 50  0000 L CNN
+F 0 "C1003" V 1750 5100 50  0000 L CNN
 F 1 "C_0.1uF" V 1850 4900 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 1838 5100 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1825 5350 50  0001 C CNN
@@ -695,30 +629,15 @@ F 3 "" H 2150 5250 50  0001 C CNN
 	1    2150 5250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR0225
-U 1 1 60C167EF
-P 1650 5250
-F 0 "#PWR0225" H 1650 5100 50  0001 C CNN
-F 1 "VCC" H 1650 5400 50  0000 C CNN
-F 2 "" H 1650 5250 50  0001 C CNN
-F 3 "" H 1650 5250 50  0001 C CNN
-	1    1650 5250
-	1    0    0    -1  
-$EndComp
-Text Label 1150 5500 2    50   ~ 0
-PM_TXCAN
-Text Label 1150 5600 2    50   ~ 0
-PM_RXCAN
 Wire Wire Line
 	1650 5250 1650 5300
 Wire Wire Line
 	1950 5250 2150 5250
 $Comp
-L formula:R_200 R?
+L formula:R_200 R1002
 U 1 1 60C167FF
 P 2350 5700
-F 0 "R?" V 2430 5700 50  0000 C CNN
+F 0 "R1002" V 2430 5700 50  0000 C CNN
 F 1 "R_200" V 2250 5700 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 2280 5700 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2430 5700 50  0001 C CNN
@@ -734,10 +653,10 @@ Wire Wire Line
 Wire Wire Line
 	2150 5850 2150 5800
 $Comp
-L formula:MCP2561-E_SN U?
+L formula:MCP2561-E_SN U1001
 U 1 1 60C1680A
 P 1650 5700
-F 0 "U?" H 1325 6075 50  0000 C CNN
+F 0 "U1001" H 1325 6075 50  0000 C CNN
 F 1 "MCP2561-E_SN" H 2075 5350 50  0000 C CNN
 F 2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" H 1650 5200 50  0001 C CIN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" H 1250 6050 50  0001 C CNN
@@ -751,20 +670,17 @@ Wire Wire Line
 	2150 5550 2350 5550
 Wire Wire Line
 	2150 5850 2350 5850
-Connection ~ 1650 5250
 Connection ~ 2350 5550
 Wire Wire Line
 	2350 5550 2500 5550
 Connection ~ 2350 5850
 Wire Wire Line
 	2350 5850 2500 5850
-Text Notes 2950 5700 0    50   ~ 0
-PRIMARY CAN TRANSCEIVER
 $Comp
-L formula:C_0.1uF C?
+L formula:C_0.1uF C1004
 U 1 1 60C1AC97
 P 1800 6650
-F 0 "C?" V 1750 6500 50  0000 L CNN
+F 0 "C1004" V 1750 6500 50  0000 L CNN
 F 1 "C_0.1uF" V 1850 6300 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 1838 6500 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1825 6750 50  0001 C CNN
@@ -809,30 +725,15 @@ F 3 "" H 2150 6650 50  0001 C CNN
 	1    2150 6650
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR0229
-U 1 1 60C1ACB0
-P 1650 6650
-F 0 "#PWR0229" H 1650 6500 50  0001 C CNN
-F 1 "VCC" H 1650 6800 50  0000 C CNN
-F 2 "" H 1650 6650 50  0001 C CNN
-F 3 "" H 1650 6650 50  0001 C CNN
-	1    1650 6650
-	1    0    0    -1  
-$EndComp
-Text Label 1150 6900 2    50   ~ 0
-SM_TXCAN
-Text Label 1150 7000 2    50   ~ 0
-SM_RXCAN
 Wire Wire Line
 	1650 6650 1650 6700
 Wire Wire Line
 	1950 6650 2150 6650
 $Comp
-L formula:R_200 R?
+L formula:R_200 R1003
 U 1 1 60C1ACC0
 P 2350 7100
-F 0 "R?" V 2430 7100 50  0000 C CNN
+F 0 "R1003" V 2430 7100 50  0000 C CNN
 F 1 "R_200" V 2250 7100 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 2280 7100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 2430 7100 50  0001 C CNN
@@ -848,10 +749,10 @@ Wire Wire Line
 Wire Wire Line
 	2150 7250 2150 7200
 $Comp
-L formula:MCP2561-E_SN U?
+L formula:MCP2561-E_SN U1002
 U 1 1 60C1ACCB
 P 1650 7100
-F 0 "U?" H 1325 7475 50  0000 C CNN
+F 0 "U1002" H 1325 7475 50  0000 C CNN
 F 1 "MCP2561-E_SN" H 2075 6750 50  0000 C CNN
 F 2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" H 1650 6600 50  0001 C CIN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" H 1250 7450 50  0001 C CNN
@@ -865,7 +766,6 @@ Wire Wire Line
 	2150 6950 2350 6950
 Wire Wire Line
 	2150 7250 2350 7250
-Connection ~ 1650 6650
 Connection ~ 2350 6950
 Wire Wire Line
 	2350 6950 2500 6950
@@ -881,8 +781,8 @@ L formula:LED_0805 PD?
 U 1 1 60AB1C94
 P 4950 6700
 AR Path="/60A3B220/60AB1C94" Ref="PD?"  Part="1" 
-AR Path="/60AB52CF/60AB1C94" Ref="PD?"  Part="1" 
-F 0 "PD?" H 4950 6600 50  0000 C CNN
+AR Path="/60AB52CF/60AB1C94" Ref="PD1001"  Part="1" 
+F 0 "PD1001" H 4950 6600 50  0000 C CNN
 F 1 "LED_0805" H 4950 6800 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 4850 6700 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 4950 6800 50  0001 C CNN
@@ -897,8 +797,8 @@ L formula:LED_0805 PD?
 U 1 1 60AB1C9D
 P 5350 6700
 AR Path="/60A3B220/60AB1C9D" Ref="PD?"  Part="1" 
-AR Path="/60AB52CF/60AB1C9D" Ref="PD?"  Part="1" 
-F 0 "PD?" H 5350 6600 50  0000 C CNN
+AR Path="/60AB52CF/60AB1C9D" Ref="PD1002"  Part="1" 
+F 0 "PD1002" H 5350 6600 50  0000 C CNN
 F 1 "LED_0805" H 5350 6800 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 5250 6700 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 5350 6800 50  0001 C CNN
@@ -913,8 +813,8 @@ L formula:R_200 R?
 U 1 1 60AB1CAF
 P 4950 7100
 AR Path="/60A3B220/60AB1CAF" Ref="R?"  Part="1" 
-AR Path="/60AB52CF/60AB1CAF" Ref="R?"  Part="1" 
-F 0 "R?" V 5030 7100 50  0000 C CNN
+AR Path="/60AB52CF/60AB1CAF" Ref="R1007"  Part="1" 
+F 0 "R1007" V 5030 7100 50  0000 C CNN
 F 1 "R_200" V 4850 7100 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 4880 7100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5030 7100 50  0001 C CNN
@@ -929,8 +829,8 @@ L formula:R_200 R?
 U 1 1 60AB1CB8
 P 5350 7100
 AR Path="/60A3B220/60AB1CB8" Ref="R?"  Part="1" 
-AR Path="/60AB52CF/60AB1CB8" Ref="R?"  Part="1" 
-F 0 "R?" V 5430 7100 50  0000 C CNN
+AR Path="/60AB52CF/60AB1CB8" Ref="R1008"  Part="1" 
+F 0 "R1008" V 5430 7100 50  0000 C CNN
 F 1 "R_200" V 5250 7100 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 5280 7100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5430 7100 50  0001 C CNN
@@ -987,8 +887,8 @@ L formula:LED_0805 PD?
 U 1 1 60AF1992
 P 5750 6700
 AR Path="/60A3B220/60AF1992" Ref="PD?"  Part="1" 
-AR Path="/60AB52CF/60AF1992" Ref="PD?"  Part="1" 
-F 0 "PD?" H 5750 6600 50  0000 C CNN
+AR Path="/60AB52CF/60AF1992" Ref="PD1003"  Part="1" 
+F 0 "PD1003" H 5750 6600 50  0000 C CNN
 F 1 "LED_0805" H 5750 6800 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 5650 6700 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 5750 6800 50  0001 C CNN
@@ -1003,8 +903,8 @@ L formula:LED_0805 PD?
 U 1 1 60AF199B
 P 6150 6700
 AR Path="/60A3B220/60AF199B" Ref="PD?"  Part="1" 
-AR Path="/60AB52CF/60AF199B" Ref="PD?"  Part="1" 
-F 0 "PD?" H 6150 6600 50  0000 C CNN
+AR Path="/60AB52CF/60AF199B" Ref="PD1004"  Part="1" 
+F 0 "PD1004" H 6150 6600 50  0000 C CNN
 F 1 "LED_0805" H 6150 6800 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 6050 6700 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 6150 6800 50  0001 C CNN
@@ -1019,8 +919,8 @@ L formula:R_200 R?
 U 1 1 60AF19A4
 P 5750 7100
 AR Path="/60A3B220/60AF19A4" Ref="R?"  Part="1" 
-AR Path="/60AB52CF/60AF19A4" Ref="R?"  Part="1" 
-F 0 "R?" V 5830 7100 50  0000 C CNN
+AR Path="/60AB52CF/60AF19A4" Ref="R1009"  Part="1" 
+F 0 "R1009" V 5830 7100 50  0000 C CNN
 F 1 "R_200" V 5650 7100 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 5680 7100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5830 7100 50  0001 C CNN
@@ -1035,8 +935,8 @@ L formula:R_200 R?
 U 1 1 60AF19AD
 P 6150 7100
 AR Path="/60A3B220/60AF19AD" Ref="R?"  Part="1" 
-AR Path="/60AB52CF/60AF19AD" Ref="R?"  Part="1" 
-F 0 "R?" V 6230 7100 50  0000 C CNN
+AR Path="/60AB52CF/60AF19AD" Ref="R1010"  Part="1" 
+F 0 "R1010" V 6230 7100 50  0000 C CNN
 F 1 "R_200" V 6050 7100 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 6080 7100 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6230 7100 50  0001 C CNN
@@ -1090,18 +990,12 @@ Text Label 5350 6400 1    50   ~ 0
 PM_DBG_2
 Text Label 5750 6400 1    50   ~ 0
 SM_DBG_1
-Text Notes 2800 7050 0    50   ~ 0
-SECONDARY CAN TRANSCEIVER
 Wire Notes Line
 	650  7700 4050 7700
 Wire Notes Line
 	4050 7700 4050 5000
 Wire Notes Line
-	4050 5000 650  5000
-Wire Notes Line
 	650  5000 650  7700
-Text GLabel 4150 1550 2    50   Input ~ 0
-PM_RJ45_LED1
 Text Label 3550 3450 0    0    ~ 0
 PM_SCK
 Wire Wire Line
@@ -1116,8 +1010,8 @@ L formula:R_10K R?
 U 1 1 60C8381D
 P 4250 3700
 AR Path="/60A3B20D/60C8381D" Ref="R?"  Part="1" 
-AR Path="/60AB52CF/60C8381D" Ref="R?"  Part="1" 
-F 0 "R?" H 4450 3800 50  0000 C CNN
+AR Path="/60AB52CF/60C8381D" Ref="R1006"  Part="1" 
+F 0 "R1006" H 4450 3800 50  0000 C CNN
 F 1 "R_10K" H 4450 3700 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 4180 3700 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4330 3700 50  0001 C CNN
@@ -1125,19 +1019,6 @@ F 4 "DK" H 4250 3700 60  0001 C CNN "MFN"
 F 5 "CRS0805-FX-1002ELFCT-ND" H 4250 3700 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4730 4100 60  0001 C CNN "PurchasingLink"
 	1    4250 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 60C83823
-P 4250 3550
-AR Path="/60A3B20D/60C83823" Ref="#PWR?"  Part="1" 
-AR Path="/60AB52CF/60C83823" Ref="#PWR0236"  Part="1" 
-F 0 "#PWR0236" H 4250 3400 50  0001 C CNN
-F 1 "VCC" H 4267 3723 50  0000 C CNN
-F 2 "" H 4250 3550 50  0001 C CNN
-F 3 "" H 4250 3550 50  0001 C CNN
-	1    4250 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1153,8 +1034,6 @@ Text GLabel 4150 3050 2    50   Input ~ 0
 CHARGE_ENABLE1
 Text GLabel 4150 2250 2    50   Input ~ 0
 FAN_PWM_RAW
-Text GLabel 4150 3150 2    50   Input ~ 0
-BSPD_CURRENT
 Wire Wire Line
 	3450 3050 4150 3050
 Wire Wire Line
@@ -1163,15 +1042,13 @@ Wire Wire Line
 	3450 2150 4150 2150
 Wire Wire Line
 	3450 2250 4150 2250
-Text GLabel 4150 1650 2    50   Input ~ 0
-PM_RJ45_LED2
 $Comp
 L formula:R_200 R?
 U 1 1 60D02476
 P 9950 1250
 AR Path="/60A3B220/60D02476" Ref="R?"  Part="1" 
-AR Path="/60AB52CF/60D02476" Ref="R?"  Part="1" 
-F 0 "R?" V 9850 1250 50  0000 C CNN
+AR Path="/60AB52CF/60D02476" Ref="R1012"  Part="1" 
+F 0 "R1012" V 9850 1250 50  0000 C CNN
 F 1 "R_200" V 9950 1250 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 9880 1250 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 10030 1250 50  0001 C CNN
@@ -1186,8 +1063,8 @@ L formula:R_200 R?
 U 1 1 60D0247F
 P 9950 1350
 AR Path="/60A3B220/60D0247F" Ref="R?"  Part="1" 
-AR Path="/60AB52CF/60D0247F" Ref="R?"  Part="1" 
-F 0 "R?" V 10030 1350 50  0000 C CNN
+AR Path="/60AB52CF/60D0247F" Ref="R1013"  Part="1" 
+F 0 "R1013" V 10030 1350 50  0000 C CNN
 F 1 "R_200" V 9950 1350 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 9880 1350 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 10030 1350 50  0001 C CNN
@@ -1201,10 +1078,6 @@ Wire Wire Line
 	10100 1250 10250 1250
 Wire Wire Line
 	10250 1350 10100 1350
-Text GLabel 10250 1250 2    50   Input ~ 0
-SM_RJ45_LED1
-Text GLabel 10250 1350 2    50   Input ~ 0
-SM_RJ45_LED2
 Wire Wire Line
 	9150 1250 9800 1250
 Wire Wire Line
@@ -1224,23 +1097,23 @@ VREF
 Text GLabel 3550 2650 2    50   Input ~ 0
 VOUT
 Text GLabel 3550 2850 2    50   Input ~ 0
-RELAY_DRIVE
+BMS_RELAY_DRIVE
 Text GLabel 9150 1450 2    50   Input ~ 0
 PRECHARGE_CTL
 Text GLabel 9150 1550 2    50   Input ~ 0
 SS_TSMS
 Text GLabel 9150 1650 2    50   Input ~ 0
-SS_IMD
+SS_IMD_LATCH
 Text GLabel 9150 1750 2    50   Input ~ 0
-SS_MainTSConn
+SS_MPC
 Text GLabel 9150 1850 2    50   Input ~ 0
-SS_HVDConn
+SS_HVD_CONN
 Text GLabel 9150 1950 2    50   Input ~ 0
 SS_HVD
 Text GLabel 9150 2550 2    50   Input ~ 0
 +AIR_WELD_DETECT
 Text GLabel 9150 2650 2    50   Input ~ 0
--AIR_WEL_DETECT
+-AIR_WELD_DETECT
 Text GLabel 9150 2750 2    50   Input ~ 0
 -AIR_LSD
 Text GLabel 9150 2850 2    50   Input ~ 0
@@ -1257,8 +1130,8 @@ L formula:ATMEGA16M1 U?
 U 1 1 60AE926F
 P 8050 2950
 AR Path="/60A3B20D/60AE926F" Ref="U?"  Part="1" 
-AR Path="/60AB52CF/60AE926F" Ref="U?"  Part="1" 
-F 0 "U?" H 7750 1600 50  0000 C CNN
+AR Path="/60AB52CF/60AE926F" Ref="U1003"  Part="1" 
+F 0 "U1003" H 7750 1600 50  0000 C CNN
 F 1 "ATMEGA16M1" H 8100 1600 50  0000 C CNN
 F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 8050 2950 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 7100 4780 50  0001 C CNN
@@ -1270,7 +1143,7 @@ F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU
 $EndComp
 NoConn ~ 9150 2150
 Text GLabel 9150 3050 2    50   Input ~ 0
-IMD_Status_Output
+IMD_STATUS_OUTPUT
 Wire Wire Line
 	9250 3250 9150 3250
 Wire Wire Line
@@ -1284,16 +1157,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 3550 9250 3550
 NoConn ~ 9250 3550
-Text GLabel 9250 3250 2    50   Input ~ 0
-SM_MISO
-Text GLabel 9250 3350 2    50   Input ~ 0
-SM_MOSI
-Text GLabel 9250 3450 2    50   Input ~ 0
-SM_SCK
-Text GLabel 10150 3950 2    50   Input ~ 0
-SM_RESET
-Text GLabel 3550 3250 2    50   Input ~ 0
-PM_MISO
 Connection ~ 1250 4150
 Wire Wire Line
 	3450 4050 3750 4050
@@ -1306,8 +1169,8 @@ P 2350 2950
 AR Path="/5C6B723E/60AB8DFE" Ref="IC?"  Part="1" 
 AR Path="/60AB8DFE" Ref="IC?"  Part="1" 
 AR Path="/60A3B220/60AB8DFE" Ref="IC?"  Part="1" 
-AR Path="/60AB52CF/60AB8DFE" Ref="IC?"  Part="1" 
-F 0 "IC?" H 1400 4780 50  0000 L BNN
+AR Path="/60AB52CF/60AB8DFE" Ref="IC1001"  Part="1" 
+F 0 "IC1001" H 1400 4780 50  0000 L BNN
 F 1 "ATMEGA16M1" H 2850 1550 50  0000 L BNN
 F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2350 2950 50  0001 C CIN
 F 3 "http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1400 4780 50  0001 C CNN
@@ -1318,23 +1181,7 @@ F 7 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU
 	1    2350 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 3550 3350 2    50   Input ~ 0
-PM_MOSI
-Text GLabel 4450 3950 2    50   Input ~ 0
-PM_RESET
-Text GLabel 3550 3450 2    50   Input ~ 0
-PM_SCK
 NoConn ~ 3550 3550
-Text GLabel 8050 5950 0    60   Input ~ 0
-PM_MISO
-Text GLabel 8050 6050 0    60   Input ~ 0
-PM_SCK
-Text GLabel 8050 6150 0    60   Input ~ 0
-PM_RESET
-Text GLabel 8550 6050 2    60   Input ~ 0
-PM_MOSI
-Wire Wire Line
-	8700 5900 8700 5950
 Wire Wire Line
 	8700 6200 8700 6150
 Wire Wire Line
@@ -1344,8 +1191,8 @@ L formula:CONN_02X03 J?
 U 1 1 60CB5C82
 P 9950 6050
 AR Path="/60A3B20D/60CB5C82" Ref="J?"  Part="1" 
-AR Path="/60AB52CF/60CB5C82" Ref="J?"  Part="1" 
-F 0 "J?" H 9950 6365 50  0000 C CNN
+AR Path="/60AB52CF/60CB5C82" Ref="J1002"  Part="1" 
+F 0 "J1002" H 9950 6365 50  0000 C CNN
 F 1 "CONN_02X03" H 9950 6274 50  0000 C CNN
 F 2 "footprints:Pin_Header_Straight_2x03" H 9950 4850 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 9950 4850 50  0001 C CNN
@@ -1355,44 +1202,19 @@ F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-323
 	1    9950 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10200 5950 10350 5950
-$Comp
-L power:VCC #PWR?
-U 1 1 60CB5C89
-P 10350 5900
-AR Path="/60A3B20D/60CB5C89" Ref="#PWR?"  Part="1" 
-AR Path="/60AB52CF/60CB5C89" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10350 5750 50  0001 C CNN
-F 1 "VCC" H 10367 6073 50  0000 C CNN
-F 2 "" H 10350 5900 50  0001 C CNN
-F 3 "" H 10350 5900 50  0001 C CNN
-	1    10350 5900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60CB5C8F
 P 10350 6200
 AR Path="/60A3B20D/60CB5C8F" Ref="#PWR?"  Part="1" 
-AR Path="/60AB52CF/60CB5C8F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10350 5950 50  0001 C CNN
+AR Path="/60AB52CF/60CB5C8F" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 10350 5950 50  0001 C CNN
 F 1 "GND" H 10355 6027 50  0000 C CNN
 F 2 "" H 10350 6200 50  0001 C CNN
 F 3 "" H 10350 6200 50  0001 C CNN
 	1    10350 6200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9700 5950 0    60   Input ~ 0
-SM_MISO
-Text GLabel 9700 6050 0    60   Input ~ 0
-SM_SCK
-Text GLabel 9700 6150 0    60   Input ~ 0
-SM_RESET
-Text GLabel 10200 6050 2    60   Input ~ 0
-SM_MOSI
-Wire Wire Line
-	10350 5900 10350 5950
 Wire Wire Line
 	10350 6200 10350 6150
 Wire Wire Line
@@ -1405,6 +1227,103 @@ Text GLabel 2500 6950 2    50   Input ~ 0
 CANH
 Text GLabel 2500 7250 2    50   Input ~ 0
 CANL
-Text GLabel 3550 2750 2    50   Input ~ 0
-BMS_SENSE
+Text GLabel 850  1100 0    50   Input ~ 0
+5V_BMS
+Wire Wire Line
+	850  1100 850  1250
+Connection ~ 850  1250
+Text GLabel 6600 1100 0    50   Input ~ 0
+5V_AIR_CONTROL
+Wire Wire Line
+	6600 1100 6600 1250
+Connection ~ 6600 1250
+Text GLabel 8700 5950 2    50   Input ~ 0
+5V_BMS
+Wire Wire Line
+	10200 5950 10350 5950
+Text GLabel 10350 5950 2    50   Input ~ 0
+5V_AIR_CONTROL
+Text GLabel 1650 5150 0    50   Input ~ 0
+5V_BMS
+Wire Wire Line
+	1650 5150 1650 5250
+Connection ~ 1650 5250
+Text GLabel 1650 6550 0    50   Input ~ 0
+5V_AIR_CONTROL
+Wire Wire Line
+	1650 6550 1650 6650
+Connection ~ 1650 6650
+Wire Notes Line
+	4050 5000 650  5000
+Text GLabel 4250 3400 2    50   Input ~ 0
+5V_BMS
+Wire Wire Line
+	4250 3400 4250 3550
+Text GLabel 9950 3400 2    50   Input ~ 0
+5V_AIR_CONTROL
+Text GLabel 4150 3150 2    50   Input ~ 0
+BSPD_CURRENT_SENSE
+Text Notes 2800 7050 0    50   ~ 0
+SECONDARY CAN TRANSCEIVER
+Text Notes 2950 5700 0    50   ~ 0
+PRIMARY CAN TRANSCEIVER
+Text Label 1150 7000 2    50   ~ 0
+SM_RXCAN
+Text Label 1150 6900 2    50   ~ 0
+SM_TXCAN
+Text Label 9150 2450 0    50   ~ 0
+SM_RXCAN
+Text Label 9150 2350 0    50   ~ 0
+SM_TXCAN
+Text Label 1150 5600 2    50   ~ 0
+PM_RXCAN
+Text Label 1150 5500 2    50   ~ 0
+PM_TXCAN
+Text Label 3550 2450 0    50   ~ 0
+PM_RXCAN
+Text Label 3550 2350 0    50   ~ 0
+PM_TXCAN
+Text GLabel 9700 6050 0    50   Input ~ 0
+SM_SCK
+Text GLabel 10200 6050 2    50   Input ~ 0
+SM_MOSI
+Text GLabel 9700 5950 0    50   Input ~ 0
+SM_MISO
+Text GLabel 8050 6050 0    50   Input ~ 0
+PM_SCK
+Text GLabel 8550 6050 2    50   Input ~ 0
+PM_MOSI
+Text GLabel 8050 5950 0    50   Input ~ 0
+PM_MISO
+Text GLabel 9250 3450 2    50   Input ~ 0
+SM_SCK
+Text GLabel 9250 3350 2    50   Input ~ 0
+SM_MOSI
+Text GLabel 9250 3250 2    50   Input ~ 0
+SM_MISO
+Text GLabel 3550 3450 2    50   Input ~ 0
+PM_SCK
+Text GLabel 3550 3350 2    50   Input ~ 0
+PM_MOSI
+Text GLabel 3550 3250 2    50   Input ~ 0
+PM_MISO
+Text GLabel 9700 6150 0    50   Input ~ 0
+SM_RESET
+Text GLabel 8050 6150 0    50   Input ~ 0
+PM_RESET
+Text GLabel 10150 3950 2    50   Input ~ 0
+SM_RESET
+Text GLabel 4450 3950 2    50   Input ~ 0
+PM_RESET
+Text GLabel 10250 1350 2    50   Input ~ 0
+SM_RJ45_LEDO
+Text GLabel 10250 1250 2    50   Input ~ 0
+SM_RJ45_LEDG
+Text GLabel 4150 1650 2    50   Input ~ 0
+PM_RJ45_LEDO
+Text GLabel 4150 1550 2    50   Input ~ 0
+PM_RJ45_LEDG
+Wire Wire Line
+	9950 3400 9950 3550
+NoConn ~ 3450 2750
 $EndSCHEMATC

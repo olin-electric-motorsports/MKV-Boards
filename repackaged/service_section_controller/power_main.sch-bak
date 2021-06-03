@@ -21,8 +21,8 @@ AR Path="/5C6B723E/60C44244" Ref="R?"  Part="1"
 AR Path="/60C44244" Ref="R?"  Part="1" 
 AR Path="/5C702479/60C44244" Ref="R?"  Part="1" 
 AR Path="/60A3B220/60C44244" Ref="R?"  Part="1" 
-AR Path="/60A3B080/60C44244" Ref="R?"  Part="1" 
-F 0 "R?" V 8450 1850 50  0000 C CNN
+AR Path="/60A3B080/60C44244" Ref="R205"  Part="1" 
+F 0 "R205" V 8450 1850 50  0000 C CNN
 F 1 "R_200" V 8650 1850 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 8480 1850 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8630 1850 50  0001 C CNN
@@ -41,8 +41,8 @@ AR Path="/5C6B723E/60C4424E" Ref="D?"  Part="1"
 AR Path="/60C4424E" Ref="D?"  Part="1" 
 AR Path="/5C702479/60C4424E" Ref="D?"  Part="1" 
 AR Path="/60A3B220/60C4424E" Ref="D?"  Part="1" 
-AR Path="/60A3B080/60C4424E" Ref="D?"  Part="1" 
-F 0 "D?" H 3475 2050 50  0000 C CNN
+AR Path="/60A3B080/60C4424E" Ref="D202"  Part="1" 
+F 0 "D202" H 3475 2050 50  0000 C CNN
 F 1 "LED_0805" H 3475 2250 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 3375 2150 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 3475 2250 50  0001 C CNN
@@ -61,8 +61,8 @@ AR Path="/5C6B723E/60C44258" Ref="D?"  Part="1"
 AR Path="/60C44258" Ref="D?"  Part="1" 
 AR Path="/5C702479/60C44258" Ref="D?"  Part="1" 
 AR Path="/60A3B220/60C44258" Ref="D?"  Part="1" 
-AR Path="/60A3B080/60C44258" Ref="D?"  Part="1" 
-F 0 "D?" H 8550 2100 50  0000 C CNN
+AR Path="/60A3B080/60C44258" Ref="D203"  Part="1" 
+F 0 "D203" H 8550 2100 50  0000 C CNN
 F 1 "LED_0805" H 8550 2300 50  0000 C CNN
 F 2 "footprints:LED_0805_OEM" H 8450 2200 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 8550 2300 50  0001 C CNN
@@ -81,8 +81,8 @@ AR Path="/5C6B723E/60C44262" Ref="C?"  Part="1"
 AR Path="/60C44262" Ref="C?"  Part="1" 
 AR Path="/5C702479/60C44262" Ref="C?"  Part="1" 
 AR Path="/60A3B220/60C44262" Ref="C?"  Part="1" 
-AR Path="/60A3B080/60C44262" Ref="C?"  Part="1" 
-F 0 "C?" V 5525 1475 50  0000 L CNN
+AR Path="/60A3B080/60C44262" Ref="C203"  Part="1" 
+F 0 "C203" V 5525 1475 50  0000 L CNN
 F 1 "C_0.1uF" V 5850 1425 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 5688 1400 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5675 1650 50  0001 C CNN
@@ -101,8 +101,8 @@ AR Path="/5C6B723E/60C4426C" Ref="COUT?"  Part="1"
 AR Path="/60C4426C" Ref="COUT?"  Part="1" 
 AR Path="/5C702479/60C4426C" Ref="COUT?"  Part="1" 
 AR Path="/60A3B220/60C4426C" Ref="COUT?"  Part="1" 
-AR Path="/60A3B080/60C4426C" Ref="COUT?"  Part="1" 
-F 0 "COUT?" H 6425 2275 50  0000 L CNN
+AR Path="/60A3B080/60C4426C" Ref="COUT201"  Part="1" 
+F 0 "COUT201" H 6425 2275 50  0000 L CNN
 F 1 "C_47uF" H 6675 1850 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 6688 1800 50  0001 C CNN
 F 3 "http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf" H 6675 2050 50  0001 C CNN
@@ -111,22 +111,6 @@ F 5 "Digi-Key" H 6650 1950 60  0001 C CNN "MFN"
 F 6 "Value" H 6650 1950 60  0001 C CNN "Package"
 F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315" H 7075 2450 60  0001 C CNN "PurchasingLink"
 	1    6650 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 60C44272
-P 2650 1400
-AR Path="/5C6B723E/60C44272" Ref="#PWR?"  Part="1" 
-AR Path="/60C44272" Ref="#PWR?"  Part="1" 
-AR Path="/5C702479/60C44272" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B220/60C44272" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B080/60C44272" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 2650 1250 50  0001 C CNN
-F 1 "+12V" H 2650 1540 50  0000 C CNN
-F 2 "" H 2650 1400 50  0001 C CNN
-F 3 "" H 2650 1400 50  0001 C CNN
-	1    2650 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -225,42 +209,6 @@ F 3 "" H 8550 2350 50  0001 C CNN
 	1    8550 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:F_500mA_16V F?
-U 1 1 60C442A0
-P 2875 1600
-AR Path="/5C6B723E/60C442A0" Ref="F?"  Part="1" 
-AR Path="/60C442A0" Ref="F?"  Part="1" 
-AR Path="/5C702479/60C442A0" Ref="F?"  Part="1" 
-AR Path="/60A3B220/60C442A0" Ref="F?"  Part="1" 
-AR Path="/60A3B080/60C442A0" Ref="F?"  Part="1" 
-F 0 "F?" V 2955 1600 50  0000 C CNN
-F 1 "500mA" V 2775 1600 50  0000 C CNN
-F 2 "footprints:Fuse_1210" V 2805 1600 50  0001 C CNN
-F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 2955 1600 50  0001 C CNN
-F 4 "Digi-Key" H 2875 1600 60  0001 C CNN "MFN"
-F 5 "507-1786-1-ND" H 2875 1600 60  0001 C CNN "MPN"
-F 6 "Value" H 2875 1600 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 3355 2000 60  0001 C CNN "PurchasingLink"
-	1    2875 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 60C442A6
-P 8550 1600
-AR Path="/5C6B723E/60C442A6" Ref="#PWR?"  Part="1" 
-AR Path="/60C442A6" Ref="#PWR?"  Part="1" 
-AR Path="/5C702479/60C442A6" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B220/60C442A6" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B080/60C442A6" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 8550 1450 50  0001 C CNN
-F 1 "VCC" H 8550 1750 50  0000 C CNN
-F 2 "" H 8550 1600 50  0001 C CNN
-F 3 "" H 8550 1600 50  0001 C CNN
-	1    8550 1600
-	1    0    0    -1  
-$EndComp
 Text Notes 5000 1050 0    60   ~ 0
 BUCK CONVERTER
 Text Notes 3725 2325 1    60   ~ 0
@@ -277,8 +225,8 @@ AR Path="/5C6B723E/60C442B4" Ref="D?"  Part="1"
 AR Path="/60C442B4" Ref="D?"  Part="1" 
 AR Path="/5C702479/60C442B4" Ref="D?"  Part="1" 
 AR Path="/60A3B220/60C442B4" Ref="D?"  Part="1" 
-AR Path="/60A3B080/60C442B4" Ref="D?"  Part="1" 
-F 0 "D?" H 3100 2150 50  0000 C CNN
+AR Path="/60A3B080/60C442B4" Ref="D201"  Part="1" 
+F 0 "D201" H 3100 2150 50  0000 C CNN
 F 1 "D_Zener_18V" H 3100 1950 50  0000 C CNN
 F 2 "footprints:DO-214AA" H 3000 2050 50  0001 C CNN
 F 3 "http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf" H 3100 2150 50  0001 C CNN
@@ -347,8 +295,8 @@ AR Path="/5C6B723E/60C442D0" Ref="R?"  Part="1"
 AR Path="/60C442D0" Ref="R?"  Part="1" 
 AR Path="/5C702479/60C442D0" Ref="R?"  Part="1" 
 AR Path="/60A3B220/60C442D0" Ref="R?"  Part="1" 
-AR Path="/60A3B080/60C442D0" Ref="R?"  Part="1" 
-F 0 "R?" V 5400 2450 50  0000 L CNN
+AR Path="/60A3B080/60C442D0" Ref="R202"  Part="1" 
+F 0 "R202" V 5400 2450 50  0000 L CNN
 F 1 "R_25K" V 5600 2450 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 5430 2550 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5580 2550 50  0001 C CNN
@@ -366,8 +314,8 @@ AR Path="/5C6B723E/60C442D9" Ref="R?"  Part="1"
 AR Path="/60C442D9" Ref="R?"  Part="1" 
 AR Path="/5C702479/60C442D9" Ref="R?"  Part="1" 
 AR Path="/60A3B220/60C442D9" Ref="R?"  Part="1" 
-AR Path="/60A3B080/60C442D9" Ref="R?"  Part="1" 
-F 0 "R?" V 3575 1800 50  0000 L CNN
+AR Path="/60A3B080/60C442D9" Ref="R201"  Part="1" 
+F 0 "R201" V 3575 1800 50  0000 L CNN
 F 1 "R_1K" V 3375 1750 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 3405 1850 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 3555 1850 50  0001 C CNN
@@ -378,10 +326,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 3955 2
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_0_2512 R?
+L formula:R_0_2512 R204
 U 1 1 60C442E2
 P 8100 1700
-F 0 "R?" V 8180 1700 50  0000 C CNN
+F 0 "R204" V 8180 1700 50  0000 C CNN
 F 1 "R_0_2512" V 8000 1700 50  0000 C CNN
 F 2 "footprints:R_2512_OEM" H 8030 1700 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 8180 1700 50  0001 C CNN
@@ -460,10 +408,10 @@ Wire Wire Line
 Text Notes 6000 1900 0    50   ~ 0
 Inductor
 $Comp
-L formula:R_54.9K R?
+L formula:R_54.9K R203
 U 1 1 60C44310
 P 5950 2550
-F 0 "R?" V 6030 2550 50  0000 C CNN
+F 0 "R203" V 6030 2550 50  0000 C CNN
 F 1 "R_100K" V 5850 2550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 5880 2550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6030 2550 50  0001 C CNN
@@ -474,10 +422,10 @@ F 6 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0754K9L/311-54.9KC
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:TPS560430YF U?
+L formula:TPS560430YF U201
 U 1 1 60C44319
 P 4950 1750
-F 0 "U?" H 4975 2215 50  0000 C CNN
+F 0 "U201" H 4975 2215 50  0000 C CNN
 F 1 "TPS560430YF" H 4975 2124 50  0000 C CNN
 F 2 "footprints:SOT-23-6_OEM" H 4900 2450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 4950 2300 50  0001 C CNN
@@ -503,10 +451,10 @@ Wire Wire Line
 Wire Wire Line
 	5850 1550 5800 1550
 $Comp
-L formula:L_100uH L?
+L formula:L_100uH L201
 U 1 1 60C4432A
 P 6150 1700
-F 0 "L?" H 6150 1800 50  0000 C CNN
+F 0 "L201" H 6150 1800 50  0000 C CNN
 F 1 "L_100uH" H 6150 1625 50  0000 C CNN
 F 2 "footprints:L_100uH_OEM" H 6050 1500 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 6050 1550 50  0001 C CNN
@@ -517,10 +465,10 @@ F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/4
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_22uF COUT?
+L formula:C_22uF COUT202
 U 1 1 60C44333
 P 7000 1950
-F 0 "COUT?" H 6825 2275 50  0000 L CNN
+F 0 "COUT202" H 6825 2275 50  0000 L CNN
 F 1 "C_22uF" H 7025 1850 50  0000 L CNN
 F 2 "footprints:C_1206_OEM" H 7038 1800 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 7025 2050 50  0001 C CNN
@@ -531,10 +479,10 @@ F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160A
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_33uF COUT?
+L formula:C_33uF COUT203
 U 1 1 60C4433C
 P 7350 1950
-F 0 "COUT?" H 7225 2275 50  0000 L CNN
+F 0 "COUT203" H 7225 2275 50  0000 L CNN
 F 1 "C_33uF" H 7375 1850 50  0000 L CNN
 F 2 "footprints:Fuse_1812" H 7400 1550 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 7350 2600 50  0001 C CNN
@@ -549,10 +497,10 @@ Wire Wire Line
 Wire Wire Line
 	2650 1600 2725 1600
 $Comp
-L formula:C_0.1uF C?
+L formula:C_0.1uF C202
 U 1 1 60C44347
 P 4300 1825
-F 0 "C?" H 4250 2150 50  0000 L CNN
+F 0 "C202" H 4250 2150 50  0000 L CNN
 F 1 "C_0.1uF" V 4425 1625 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 4338 1675 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4325 1925 50  0001 C CNN
@@ -563,10 +511,10 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 4725 2325 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_2.2uF C?
+L formula:C_2.2uF C201
 U 1 1 60C44350
 P 4075 1875
-F 0 "C?" H 4050 2250 50  0000 L CNN
+F 0 "C201" H 4050 2250 50  0000 L CNN
 F 1 "C_2.2uF" V 3950 1675 50  0000 L CNN
 F 2 "footprints:C_0603_1608Metric" H 4113 1725 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf" H 4100 1975 50  0001 C CNN
@@ -613,5 +561,218 @@ Wire Wire Line
 Wire Wire Line
 	5350 2550 5300 2550
 Text Notes 2750 4300 0    98   ~ 0
-adding fusing tree\n
+Fusing Tree
+$Comp
+L formula:F_500mA_16V F?
+U 1 1 60C442A0
+P 2875 1600
+AR Path="/5C6B723E/60C442A0" Ref="F?"  Part="1" 
+AR Path="/60C442A0" Ref="F?"  Part="1" 
+AR Path="/5C702479/60C442A0" Ref="F?"  Part="1" 
+AR Path="/60A3B220/60C442A0" Ref="F?"  Part="1" 
+AR Path="/60A3B080/60C442A0" Ref="F203"  Part="1" 
+F 0 "F203" V 2955 1600 50  0000 C CNN
+F 1 "500mA" V 2775 1600 50  0000 C CNN
+F 2 "footprints:Fuse_1210" V 2805 1600 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 2955 1600 50  0001 C CNN
+F 4 "Digi-Key" H 2875 1600 60  0001 C CNN "MFN"
+F 5 "507-1786-1-ND" H 2875 1600 60  0001 C CNN "MPN"
+F 6 "Value" H 2875 1600 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 3355 2000 60  0001 C CNN "PurchasingLink"
+	1    2875 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:F_500mA_16V F?
+U 1 1 60B21368
+P 2200 4850
+AR Path="/5C6B723E/60B21368" Ref="F?"  Part="1" 
+AR Path="/60B21368" Ref="F?"  Part="1" 
+AR Path="/5C702479/60B21368" Ref="F?"  Part="1" 
+AR Path="/60A3B220/60B21368" Ref="F?"  Part="1" 
+AR Path="/60A3B080/60B21368" Ref="F201"  Part="1" 
+F 0 "F201" V 2280 4850 50  0000 C CNN
+F 1 "500mA" V 2100 4850 50  0000 C CNN
+F 2 "footprints:Fuse_1210" V 2130 4850 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 2280 4850 50  0001 C CNN
+F 4 "Digi-Key" H 2200 4850 60  0001 C CNN "MFN"
+F 5 "507-1786-1-ND" H 2200 4850 60  0001 C CNN "MPN"
+F 6 "Value" H 2200 4850 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 2680 5250 60  0001 C CNN "PurchasingLink"
+	1    2200 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 60B232F2
+P 1200 5050
+F 0 "#PWR0101" H 1200 4900 50  0001 C CNN
+F 1 "+5V" H 1215 5223 50  0000 C CNN
+F 2 "" H 1200 5050 50  0001 C CNN
+F 3 "" H 1200 5050 50  0001 C CNN
+	1    1200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:F_500mA_16V F?
+U 1 1 60B24AE5
+P 2200 5250
+AR Path="/5C6B723E/60B24AE5" Ref="F?"  Part="1" 
+AR Path="/60B24AE5" Ref="F?"  Part="1" 
+AR Path="/5C702479/60B24AE5" Ref="F?"  Part="1" 
+AR Path="/60A3B220/60B24AE5" Ref="F?"  Part="1" 
+AR Path="/60A3B080/60B24AE5" Ref="F202"  Part="1" 
+F 0 "F202" V 2280 5250 50  0000 C CNN
+F 1 "500mA" V 2100 5250 50  0000 C CNN
+F 2 "footprints:Fuse_1210" V 2130 5250 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 2280 5250 50  0001 C CNN
+F 4 "Digi-Key" H 2200 5250 60  0001 C CNN "MFN"
+F 5 "507-1786-1-ND" H 2200 5250 60  0001 C CNN "MPN"
+F 6 "Value" H 2200 5250 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 2680 5650 60  0001 C CNN "PurchasingLink"
+	1    2200 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 4850 1600 4850
+Wire Wire Line
+	1600 4850 1600 5050
+Wire Wire Line
+	1600 5250 2050 5250
+Wire Wire Line
+	1200 5050 1600 5050
+Connection ~ 1600 5050
+Wire Wire Line
+	1600 5050 1600 5250
+Text GLabel 2650 4850 2    50   Input ~ 0
+5V_BMS
+Text GLabel 2650 5250 2    50   Input ~ 0
+5V_AIR_CONTROL
+Wire Wire Line
+	2350 4850 2650 4850
+Wire Wire Line
+	2350 5250 2650 5250
+$Comp
+L formula:F_500mA_16V F?
+U 1 1 60B4C37C
+P 4850 4850
+AR Path="/5C6B723E/60B4C37C" Ref="F?"  Part="1" 
+AR Path="/60B4C37C" Ref="F?"  Part="1" 
+AR Path="/5C702479/60B4C37C" Ref="F?"  Part="1" 
+AR Path="/60A3B220/60B4C37C" Ref="F?"  Part="1" 
+AR Path="/60A3B080/60B4C37C" Ref="F204"  Part="1" 
+F 0 "F204" V 4930 4850 50  0000 C CNN
+F 1 "500mA" V 4750 4850 50  0000 C CNN
+F 2 "footprints:Fuse_1210" V 4780 4850 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 4930 4850 50  0001 C CNN
+F 4 "Digi-Key" H 4850 4850 60  0001 C CNN "MFN"
+F 5 "507-1786-1-ND" H 4850 4850 60  0001 C CNN "MPN"
+F 6 "Value" H 4850 4850 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 5330 5250 60  0001 C CNN "PurchasingLink"
+	1    4850 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:F_500mA_16V F?
+U 1 1 60B4C38C
+P 4850 5250
+AR Path="/5C6B723E/60B4C38C" Ref="F?"  Part="1" 
+AR Path="/60B4C38C" Ref="F?"  Part="1" 
+AR Path="/5C702479/60B4C38C" Ref="F?"  Part="1" 
+AR Path="/60A3B220/60B4C38C" Ref="F?"  Part="1" 
+AR Path="/60A3B080/60B4C38C" Ref="F205"  Part="1" 
+F 0 "F205" V 4930 5250 50  0000 C CNN
+F 1 "500mA" V 4750 5250 50  0000 C CNN
+F 2 "footprints:Fuse_1210" V 4780 5250 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 4930 5250 50  0001 C CNN
+F 4 "Digi-Key" H 4850 5250 60  0001 C CNN "MFN"
+F 5 "507-1786-1-ND" H 4850 5250 60  0001 C CNN "MPN"
+F 6 "Value" H 4850 5250 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 5330 5650 60  0001 C CNN "PurchasingLink"
+	1    4850 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 4850 4250 4850
+Wire Wire Line
+	4250 4850 4250 5050
+Wire Wire Line
+	4250 5250 4350 5250
+Wire Wire Line
+	3850 5050 4250 5050
+Connection ~ 4250 5050
+Wire Wire Line
+	4250 5050 4250 5250
+Wire Wire Line
+	5000 4850 5300 4850
+Wire Wire Line
+	5000 5250 5300 5250
+Text GLabel 5300 4850 2    50   Input ~ 0
+12V_TSAL
+Text GLabel 5300 5250 2    50   Input ~ 0
+12V_IMD
+$Comp
+L power:+5V #PWR0108
+U 1 1 60B59376
+P 8550 1600
+F 0 "#PWR0108" H 8550 1450 50  0001 C CNN
+F 1 "+5V" H 8565 1773 50  0000 C CNN
+F 2 "" H 8550 1600 50  0001 C CNN
+F 3 "" H 8550 1600 50  0001 C CNN
+	1    8550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:F_500mA_16V F?
+U 1 1 60BF871B
+P 4950 5650
+AR Path="/5C6B723E/60BF871B" Ref="F?"  Part="1" 
+AR Path="/60BF871B" Ref="F?"  Part="1" 
+AR Path="/5C702479/60BF871B" Ref="F?"  Part="1" 
+AR Path="/60A3B220/60BF871B" Ref="F?"  Part="1" 
+AR Path="/60A3B080/60BF871B" Ref="F206"  Part="1" 
+F 0 "F206" V 5030 5650 50  0000 C CNN
+F 1 "500mA" V 4850 5650 50  0000 C CNN
+F 2 "footprints:Fuse_1210" V 4880 5650 50  0001 C CNN
+F 3 "https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf" V 5030 5650 50  0001 C CNN
+F 4 "Digi-Key" H 4950 5650 60  0001 C CNN "MFN"
+F 5 "507-1786-1-ND" H 4950 5650 60  0001 C CNN "MPN"
+F 6 "Value" H 4950 5650 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" V 5430 6050 60  0001 C CNN "PurchasingLink"
+	1    4950 5650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 5650 4800 5650
+Wire Wire Line
+	5100 5650 5300 5650
+Text GLabel 5300 5650 2    50   Input ~ 0
+12V_SHUTDOWN
+Connection ~ 4350 5250
+Wire Wire Line
+	4350 5250 4700 5250
+Wire Wire Line
+	4350 5250 4350 5650
+$Comp
+L power:+BATT #PWR0121
+U 1 1 60F4143B
+P 3850 5050
+F 0 "#PWR0121" H 3850 4900 50  0001 C CNN
+F 1 "+BATT" H 3865 5223 50  0000 C CNN
+F 2 "" H 3850 5050 50  0001 C CNN
+F 3 "" H 3850 5050 50  0001 C CNN
+	1    3850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0135
+U 1 1 60F42CAD
+P 2650 1400
+F 0 "#PWR0135" H 2650 1250 50  0001 C CNN
+F 1 "+BATT" H 2665 1573 50  0000 C CNN
+F 2 "" H 2650 1400 50  0001 C CNN
+F 3 "" H 2650 1400 50  0001 C CNN
+	1    2650 1400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

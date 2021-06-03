@@ -86,10 +86,10 @@ Wire Wire Line
 Wire Wire Line
 	5200 4100 5200 4700
 $Comp
-L formula:MM_F_VT_12 J?
+L formula:MM_F_VT_12 J1101
 U 1 1 60AEF2ED
 P 5750 4950
-F 0 "J?" V 5861 4322 60  0000 R CNN
+F 0 "J1101" V 5861 4322 60  0000 R CNN
 F 1 "MM_F_VT_12" V 5755 4322 60  0000 R CNN
 F 2 "footprints:micromatch_female_vert_12" H 5650 5500 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-2" H 5650 6150 60  0001 C CNN
@@ -99,7 +99,7 @@ F 6 "http://www.te.com/global-en/product-1-338068-2.html" H 5750 6250 60  0001 C
 	1    5750 4950
 	0    -1   -1   0   
 $EndComp
-Text Notes 4950 5350 0    50   ~ 0
+Text Notes 4950 5550 0    50   ~ 0
 Trust me, you’ll be thankful when harnessing :)
 Text GLabel 6850 3850 2    50   Input ~ 0
 DETECT_BMS
@@ -155,4 +155,52 @@ Wire Wire Line
 Connection ~ 4750 4100
 Wire Wire Line
 	4750 4100 5200 4100
+Wire Wire Line
+	5200 4700 5200 5250
+Wire Wire Line
+	5200 5250 5800 5250
+Wire Wire Line
+	5800 5250 5800 4700
+Connection ~ 5200 4700
+Connection ~ 5800 4700
+Wire Wire Line
+	6000 4700 6000 5300
+Wire Wire Line
+	6000 5300 5400 5300
+Wire Wire Line
+	5400 5300 5400 4700
+Connection ~ 6000 4700
+Connection ~ 5400 4700
+Wire Wire Line
+	6100 4700 6100 5350
+Wire Wire Line
+	6100 5350 5500 5350
+Wire Wire Line
+	5500 5350 5500 4700
+Connection ~ 6100 4700
+Connection ~ 5500 4700
+Wire Wire Line
+	6200 4700 6200 5400
+Wire Wire Line
+	6200 5400 5600 5400
+Wire Wire Line
+	5600 5400 5600 4700
+Connection ~ 6200 4700
+Connection ~ 5600 4700
+Wire Wire Line
+	5700 4700 5700 5200
+Wire Wire Line
+	5700 5200 5300 5200
+Wire Wire Line
+	5300 5200 5300 4700
+Connection ~ 5700 4700
+Connection ~ 5300 4700
+Wire Wire Line
+	6300 4700 6300 5200
+Wire Wire Line
+	6300 5200 5900 5200
+Wire Wire Line
+	5900 5200 5900 4700
+Connection ~ 6300 4700
+Connection ~ 5900 4700
 $EndSCHEMATC

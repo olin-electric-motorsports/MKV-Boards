@@ -18,8 +18,8 @@ L formula:NanoFit_RA_TH_02 J?
 U 1 1 61125034
 P 4300 5300
 AR Path="/60A3B236/61125034" Ref="J?"  Part="1" 
-AR Path="/60A3B41E/61125034" Ref="J?"  Part="1" 
-F 0 "J?" H 4800 5250 60  0000 C CNN
+AR Path="/60A3B41E/61125034" Ref="J601"  Part="1" 
+F 0 "J601" H 4800 5250 60  0000 C CNN
 F 1 "NanoFit_2" H 4800 5350 60  0000 C CNN
 F 2 "Formula:NanoFit_Molex_1x02x2.50mm_Angled_OEM" H 4550 5150 60  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" H 4650 5250 60  0001 C CNN
@@ -34,8 +34,8 @@ L formula:MCP6001 U?
 U 1 1 6112503F
 P 3700 3950
 AR Path="/60A3B236/6112503F" Ref="U?"  Part="1" 
-AR Path="/60A3B41E/6112503F" Ref="U?"  Part="1" 
-F 0 "U?" H 4044 3996 50  0000 L CNN
+AR Path="/60A3B41E/6112503F" Ref="U601"  Part="1" 
+F 0 "U601" H 4044 3996 50  0000 L CNN
 F 1 "MCP6001" H 4044 3905 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3600 4050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3700 4150 50  0001 C CNN
@@ -50,8 +50,8 @@ L formula:R_270K R?
 U 1 1 61125048
 P 1350 3650
 AR Path="/60A3B236/61125048" Ref="R?"  Part="1" 
-AR Path="/60A3B41E/61125048" Ref="R?"  Part="1" 
-F 0 "R?" V 1143 3650 50  0000 C CNN
+AR Path="/60A3B41E/61125048" Ref="R601"  Part="1" 
+F 0 "R601" V 1143 3650 50  0000 C CNN
 F 1 "R_270K" V 1234 3650 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" V 1280 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 1900 3750 50  0001 C CNN
@@ -66,8 +66,8 @@ L formula:R_270K R?
 U 1 1 61125051
 P 1850 3650
 AR Path="/60A3B236/61125051" Ref="R?"  Part="1" 
-AR Path="/60A3B41E/61125051" Ref="R?"  Part="1" 
-F 0 "R?" V 1643 3650 50  0000 C CNN
+AR Path="/60A3B41E/61125051" Ref="R604"  Part="1" 
+F 0 "R604" V 1643 3650 50  0000 C CNN
 F 1 "R_270K" V 1734 3650 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" V 1780 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 2400 3750 50  0001 C CNN
@@ -82,8 +82,8 @@ L formula:R_270K R?
 U 1 1 6112505A
 P 2350 3650
 AR Path="/60A3B236/6112505A" Ref="R?"  Part="1" 
-AR Path="/60A3B41E/6112505A" Ref="R?"  Part="1" 
-F 0 "R?" V 2143 3650 50  0000 C CNN
+AR Path="/60A3B41E/6112505A" Ref="R606"  Part="1" 
+F 0 "R606" V 2143 3650 50  0000 C CNN
 F 1 "R_270K" V 2234 3650 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" V 2280 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 2900 3750 50  0001 C CNN
@@ -98,8 +98,8 @@ L formula:R_270K R?
 U 1 1 61125063
 P 2800 3650
 AR Path="/60A3B236/61125063" Ref="R?"  Part="1" 
-AR Path="/60A3B41E/61125063" Ref="R?"  Part="1" 
-F 0 "R?" V 2593 3650 50  0000 C CNN
+AR Path="/60A3B41E/61125063" Ref="R607"  Part="1" 
+F 0 "R607" V 2593 3650 50  0000 C CNN
 F 1 "R_270K" V 2684 3650 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" V 2730 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 3350 3750 50  0001 C CNN
@@ -114,8 +114,8 @@ L formula:R_10K R?
 U 1 1 6112506C
 P 2100 4050
 AR Path="/60A3B236/6112506C" Ref="R?"  Part="1" 
-AR Path="/60A3B41E/6112506C" Ref="R?"  Part="1" 
-F 0 "R?" V 1893 4050 50  0000 C CNN
+AR Path="/60A3B41E/6112506C" Ref="R605"  Part="1" 
+F 0 "R605" V 1893 4050 50  0000 C CNN
 F 1 "R_10K" V 1984 4050 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 2030 4050 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 2180 4050 50  0001 C CNN
@@ -164,8 +164,8 @@ L formula:C_10uF C?
 U 1 1 61125087
 P 3850 2950
 AR Path="/60A3B236/61125087" Ref="C?"  Part="1" 
-AR Path="/60A3B41E/61125087" Ref="C?"  Part="1" 
-F 0 "C?" V 3598 2950 50  0000 C CNN
+AR Path="/60A3B41E/61125087" Ref="C601"  Part="1" 
+F 0 "C601" V 3598 2950 50  0000 C CNN
 F 1 "C_10uF" V 3689 2950 50  0000 C CNN
 F 2 "footprints:C_0805_OEM" H 3888 2800 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A106KPFNNNE.pdf" H 3875 3050 50  0001 C CNN
@@ -180,8 +180,8 @@ L formula:C_0.1uF C?
 U 1 1 61125090
 P 3900 3400
 AR Path="/60A3B236/61125090" Ref="C?"  Part="1" 
-AR Path="/60A3B41E/61125090" Ref="C?"  Part="1" 
-F 0 "C?" V 3648 3400 50  0000 C CNN
+AR Path="/60A3B41E/61125090" Ref="C602"  Part="1" 
+F 0 "C602" V 3648 3400 50  0000 C CNN
 F 1 "C_0.1uF" V 3739 3400 50  0000 C CNN
 F 2 "footprints:C_0805_OEM" H 3938 3250 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3925 3500 50  0001 C CNN
@@ -222,8 +222,8 @@ L formula:R_1.43K R?
 U 1 1 611250AB
 P 4550 4350
 AR Path="/60A3B236/611250AB" Ref="R?"  Part="1" 
-AR Path="/60A3B41E/611250AB" Ref="R?"  Part="1" 
-F 0 "R?" H 4620 4396 50  0000 L CNN
+AR Path="/60A3B41E/611250AB" Ref="R608"  Part="1" 
+F 0 "R608" H 4620 4396 50  0000 L CNN
 F 1 "R_1.43K" H 4620 4305 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 4350 4650 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/RN73_Series_2011.pdf" H 4600 4050 50  0001 C CNN
@@ -238,8 +238,8 @@ L formula:LED_0805 D?
 U 1 1 611250B4
 P 5400 4400
 AR Path="/60A3B236/611250B4" Ref="D?"  Part="1" 
-AR Path="/60A3B41E/611250B4" Ref="D?"  Part="1" 
-F 0 "D?" V 5439 4283 50  0000 R CNN
+AR Path="/60A3B41E/611250B4" Ref="D601"  Part="1" 
+F 0 "D601" V 5439 4283 50  0000 R CNN
 F 1 "LED_0805" V 5348 4283 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 5300 4400 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 5400 4500 50  0001 C CNN
@@ -254,8 +254,8 @@ L formula:R_1K R?
 U 1 1 611250BD
 P 5400 5000
 AR Path="/60A3B236/611250BD" Ref="R?"  Part="1" 
-AR Path="/60A3B41E/611250BD" Ref="R?"  Part="1" 
-F 0 "R?" H 5470 5046 50  0000 L CNN
+AR Path="/60A3B41E/611250BD" Ref="R609"  Part="1" 
+F 0 "R609" H 5470 5046 50  0000 L CNN
 F 1 "R_1K" H 5470 4955 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 5330 5000 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5480 5000 50  0001 C CNN
@@ -270,8 +270,8 @@ L formula:R_499 R?
 U 1 1 611250C6
 P 6000 3950
 AR Path="/60A3B236/611250C6" Ref="R?"  Part="1" 
-AR Path="/60A3B41E/611250C6" Ref="R?"  Part="1" 
-F 0 "R?" V 5793 3950 50  0000 C CNN
+AR Path="/60A3B41E/611250C6" Ref="R610"  Part="1" 
+F 0 "R610" V 5793 3950 50  0000 C CNN
 F 1 "R_499" V 5884 3950 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 5930 3950 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6080 3950 50  0001 C CNN
@@ -286,8 +286,8 @@ L formula:CPC1025NTR U?
 U 1 1 611250CC
 P 6700 4050
 AR Path="/60A3B236/611250CC" Ref="U?"  Part="1" 
-AR Path="/60A3B41E/611250CC" Ref="U?"  Part="1" 
-F 0 "U?" H 6700 4375 50  0000 C CNN
+AR Path="/60A3B41E/611250CC" Ref="U602"  Part="1" 
+F 0 "U602" H 6700 4375 50  0000 C CNN
 F 1 "CPC1025NTR" H 6700 4284 50  0000 C CNN
 F 2 "footprints:DIP-5-6_W7.62mm" H 6500 3850 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785" H 6700 4050 50  0001 L CNN
@@ -313,8 +313,8 @@ L formula:SSM3K333R Q?
 U 1 1 611250EA
 P 8050 4150
 AR Path="/60A3B236/611250EA" Ref="Q?"  Part="1" 
-AR Path="/60A3B41E/611250EA" Ref="Q?"  Part="1" 
-F 0 "Q?" H 8256 4196 50  0000 L CNN
+AR Path="/60A3B41E/611250EA" Ref="Q601"  Part="1" 
+F 0 "Q601" H 8256 4196 50  0000 L CNN
 F 1 "SSM3K333R" H 8256 4105 50  0000 L CNN
 F 2 "Formula:SOT-23F" H 8250 4075 50  0001 L CIN
 F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 8250 4225 50  0001 L CNN
@@ -341,8 +341,8 @@ L formula:R_10K R?
 U 1 1 611250FF
 P 7150 4550
 AR Path="/60A3B236/611250FF" Ref="R?"  Part="1" 
-AR Path="/60A3B41E/611250FF" Ref="R?"  Part="1" 
-F 0 "R?" H 7220 4596 50  0000 L CNN
+AR Path="/60A3B41E/611250FF" Ref="R611"  Part="1" 
+F 0 "R611" H 7220 4596 50  0000 L CNN
 F 1 "R_10K" H 7220 4505 50  0000 L CNN
 F 2 "Formula:R_0805_OEM" H 7080 4550 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 7230 4550 50  0001 C CNN
@@ -385,29 +385,10 @@ Wire Wire Line
 Text Label 7450 4050 0    50   ~ 0
 TSAL_FLAG
 Wire Wire Line
-	8365 2250 8265 2250
-Wire Wire Line
-	8365 2150 8265 2150
-Wire Wire Line
-	8265 2150 8265 2050
-Wire Wire Line
 	9550 2350 9550 2200
 Wire Wire Line
 	9550 2650 9550 2750
-$Comp
-L power:GND #PWR?
-U 1 1 61125143
-P 8665 2650
-AR Path="/60A3B236/61125143" Ref="#PWR?"  Part="1" 
-AR Path="/60A3B41E/61125143" Ref="#PWR0160"  Part="1" 
-F 0 "#PWR0160" H 8665 2400 50  0001 C CNN
-F 1 "GND" H 8670 2477 50  0000 C CNN
-F 2 "" H 8665 2650 50  0001 C CNN
-F 3 "" H 8665 2650 50  0001 C CNN
-	1    8665 2650
-	1    0    0    -1  
-$EndComp
-Text Label 8265 2250 2    50   ~ 0
+Text Label 8350 2250 2    50   ~ 0
 TSAL_FLAG
 Wire Wire Line
 	9500 1150 10100 1150
@@ -427,28 +408,12 @@ HV
 Text Notes 6950 3350 0    200  ~ 0
 LV\n\n
 $Comp
-L formula:BU4S11G2-TR U?
-U 1 1 6112515B
-P 8665 2200
-AR Path="/60A3B236/6112515B" Ref="U?"  Part="1" 
-AR Path="/60A3B41E/6112515B" Ref="U?"  Part="1" 
-F 0 "U?" H 9000 1800 60  0000 L CNN
-F 1 "BU4S11G2-TR" H 8750 1950 60  0000 L CNN
-F 2 "Formula:SSOP5" H 8765 2200 60  0001 C CNN
-F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/logic_switch/standard_logic/bu4s11g2-e.pdf" H 9094 2147 60  0001 L CNN
-F 4 "DK" H 9094 2094 60  0001 L CNN "MFN"
-F 5 "BU4S11G2-TR" H 9315 1700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/BU4S11G2-TR/BU4S11G2CT-ND/1158708" H 9065 1550 60  0001 C CNN "PurchasingLink"
-	1    8665 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_51.1K R?
 U 1 1 61125165
 P 1800 4950
 AR Path="/60A3B236/61125165" Ref="R?"  Part="1" 
-AR Path="/60A3B41E/61125165" Ref="R?"  Part="1" 
-F 0 "R?" H 1870 4996 50  0000 L CNN
+AR Path="/60A3B41E/61125165" Ref="R603"  Part="1" 
+F 0 "R603" H 1870 4996 50  0000 L CNN
 F 1 "R_51.1K" H 1870 4905 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 700 5250 50  0001 L CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 700 5350 50  0001 L CNN
@@ -463,8 +428,8 @@ L formula:R_1.91K R?
 U 1 1 6112516C
 P 1350 4500
 AR Path="/60A3B236/6112516C" Ref="R?"  Part="1" 
-AR Path="/60A3B41E/6112516C" Ref="R?"  Part="1" 
-F 0 "R?" V 1143 4500 50  0000 C CNN
+AR Path="/60A3B41E/6112516C" Ref="R602"  Part="1" 
+F 0 "R602" V 1143 4500 50  0000 C CNN
 F 1 "R_1.91K" V 1234 4500 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 1280 4500 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 1430 4500 50  0001 C CNN
@@ -507,8 +472,8 @@ L formula:R_10K R?
 U 1 1 61125187
 P 9550 2500
 AR Path="/60A3B236/61125187" Ref="R?"  Part="1" 
-AR Path="/60A3B41E/61125187" Ref="R?"  Part="1" 
-F 0 "R?" H 9620 2546 50  0000 L CNN
+AR Path="/60A3B41E/61125187" Ref="R612"  Part="1" 
+F 0 "R612" H 9620 2546 50  0000 L CNN
 F 1 "R_10K" H 9620 2455 50  0000 L CNN
 F 2 "Formula:R_0805_OEM" H 9480 2500 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 9630 2500 50  0001 C CNN
@@ -523,8 +488,8 @@ L formula:SSM3K333R Q?
 U 1 1 61125190
 P 10000 2200
 AR Path="/60A3B236/61125190" Ref="Q?"  Part="1" 
-AR Path="/60A3B41E/61125190" Ref="Q?"  Part="1" 
-F 0 "Q?" H 10206 2246 50  0000 L CNN
+AR Path="/60A3B41E/61125190" Ref="Q602"  Part="1" 
+F 0 "Q602" H 10206 2246 50  0000 L CNN
 F 1 "SSM3K333R" H 10206 2155 50  0000 L CNN
 F 2 "Formula:SOT-23F" H 10200 2125 50  0001 L CIN
 F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 10200 2275 50  0001 L CNN
@@ -543,7 +508,7 @@ TS-
 Text GLabel 3550 4650 0    50   Input ~ 0
 TS-
 Text GLabel 7250 3400 0    50   Input ~ 0
-GLV+
+12V_TSAL
 Text GLabel 3550 5700 0    50   Input ~ 0
 TS-
 Text GLabel 4300 5700 2    50   Input ~ 0
@@ -577,23 +542,18 @@ Wire Wire Line
 Text Notes 4100 5350 0    50   ~ 0
 To \nAIL LED
 Wire Wire Line
-	7250 3400 8100 3400
+	7250 3400 8150 3400
 Wire Wire Line
 	4550 4950 4850 4950
 Wire Wire Line
 	9550 2200 9800 2200
 Wire Wire Line
-	9050 2200 9550 2200
-Connection ~ 9550 2200
-Wire Wire Line
 	4050 2950 4250 2950
-Wire Wire Line
-	8665 1550 8665 1650
 $Comp
-L formula:C_1uF C?
+L formula:C_1uF C603
 U 1 1 60BEA63B
 P 8950 1650
-F 0 "C?" V 8698 1700 50  0000 C CNN
+F 0 "C603" V 8698 1700 50  0000 C CNN
 F 1 "C_1uF" V 8789 1700 50  0000 C CNN
 F 2 "footprints:C_0805_OEM" H 8988 2250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_Y5V_6.3V-to-50V_9.pdf" H 8975 2500 50  0001 C CNN
@@ -601,16 +561,11 @@ F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-
 	1    8950 1650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8850 1650 8665 1650
-Connection ~ 8665 1650
-Wire Wire Line
-	8665 1650 8665 1850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0139
 U 1 1 60BF1A77
 P 9250 1750
-F 0 "#PWR?" H 9250 1500 50  0001 C CNN
+F 0 "#PWR0139" H 9250 1500 50  0001 C CNN
 F 1 "GND" H 9255 1577 50  0000 C CNN
 F 2 "" H 9250 1750 50  0001 C CNN
 F 3 "" H 9250 1750 50  0001 C CNN
@@ -623,7 +578,7 @@ Wire Wire Line
 	9250 1650 9150 1650
 Wire Notes Line
 	6700 6150 6700 950 
-Text GLabel 8100 3400 2    50   Input ~ 0
+Text GLabel 8150 3400 2    50   Input ~ 0
 TSAL_RED+
 Text GLabel 8150 3700 2    50   Input ~ 0
 TSAL_RED-
@@ -641,23 +596,62 @@ Text GLabel 4150 3700 0    50   Input ~ 0
 TS-
 Wire Wire Line
 	4150 3700 4250 3700
-Text GLabel 8200 2050 0    50   Input ~ 0
-GLV+
-Text GLabel 8600 1550 0    50   Input ~ 0
-GLV+
+Text GLabel 8500 1550 0    50   Input ~ 0
+12V_TSAL
 Text GLabel 9500 1150 0    50   Input ~ 0
-GLV+
-Wire Wire Line
-	8600 1550 8665 1550
-Wire Wire Line
-	8200 2050 8265 2050
+12V_TSAL
 Wire Wire Line
 	5850 3950 5400 3950
 Connection ~ 5400 3950
 Text GLabel 7250 3600 0    50   Input ~ 0
-GLV+
+12V_TSAL
 Wire Wire Line
 	1800 5100 1800 5250
 Wire Wire Line
 	8150 3700 8150 3950
+Wire Wire Line
+	8850 1650 8650 1650
+Wire Wire Line
+	8650 1650 8650 1850
+Wire Wire Line
+	8500 1550 8650 1550
+Wire Wire Line
+	8650 1550 8650 1650
+Connection ~ 8650 1650
+$Comp
+L formula:BU4S11G2-TR U?
+U 1 1 60E69E01
+P 8650 2200
+AR Path="/60A3B236/60E69E01" Ref="U?"  Part="1" 
+AR Path="/60A3B41E/60E69E01" Ref="U603"  Part="1" 
+F 0 "U603" H 8985 1800 60  0000 L CNN
+F 1 "BU4S11G2-TR" H 8735 1950 60  0000 L CNN
+F 2 "Formula:SSOP5" H 8750 2200 60  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/logic_switch/standard_logic/bu4s11g2-e.pdf" H 9079 2147 60  0001 L CNN
+F 4 "DK" H 9079 2094 60  0001 L CNN "MFN"
+F 5 "BU4S11G2-TR" H 9300 1700 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/BU4S11G2-TR/BU4S11G2CT-ND/1158708" H 9050 1550 60  0001 C CNN "PurchasingLink"
+	1    8650 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9035 2200 9550 2200
+Connection ~ 9550 2200
+Text GLabel 7900 2150 0    50   Input ~ 0
+12V_TSAL
+Wire Wire Line
+	7900 2150 8350 2150
+$Comp
+L power:GND #PWR?
+U 1 1 60EA29EB
+P 8650 2550
+AR Path="/60A3B236/60EA29EB" Ref="#PWR?"  Part="1" 
+AR Path="/60A3B41E/60EA29EB" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 8650 2300 50  0001 C CNN
+F 1 "GND" H 8655 2377 50  0000 C CNN
+F 2 "" H 8650 2550 50  0001 C CNN
+F 3 "" H 8650 2550 50  0001 C CNN
+	1    8650 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
