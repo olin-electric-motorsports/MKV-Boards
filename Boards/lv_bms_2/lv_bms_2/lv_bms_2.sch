@@ -2391,10 +2391,10 @@ Connection ~ 2700 7325
 Text Label 3650 1600 0    50   ~ 0
 RELAY
 $Comp
-L formula:LED_0805_Red D?
+L formula:LED_0805_Red D1
 U 1 1 617D5575
 P 5925 2075
-F 0 "D?" V 5925 2000 50  0000 R CNN
+F 0 "D1" V 5925 2000 50  0000 R CNN
 F 1 "LED_0805_Red" H 6175 2200 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 5825 2075 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic8/00078869_0.pdf" H 5925 2175 50  0001 C CNN
@@ -2405,10 +2405,10 @@ F 6 "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805_Red D?
+L formula:LED_0805_Red D2
 U 1 1 617D947A
 P 6275 2075
-F 0 "D?" V 6275 2000 50  0000 R CNN
+F 0 "D2" V 6275 2000 50  0000 R CNN
 F 1 "LED_0805_Red" H 6525 2175 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 6175 2075 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic8/00078869_0.pdf" H 6275 2175 50  0001 C CNN
@@ -2419,10 +2419,10 @@ F 6 "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D3
 U 1 1 617DB227
 P 6600 2075
-F 0 "D?" V 6600 2000 50  0000 R CNN
+F 0 "D3" V 6600 2000 50  0000 R CNN
 F 1 "LED_0805" H 6750 2175 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 6500 2075 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 6600 2175 50  0001 C CNN
@@ -2433,10 +2433,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 7000 2575 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D?
+L formula:LED_0805 D4
 U 1 1 617DC0FC
 P 6925 2075
-F 0 "D?" V 6925 2000 50  0000 R CNN
+F 0 "D4" V 6925 2000 50  0000 R CNN
 F 1 "LED_0805" H 7075 2150 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 6825 2075 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 6925 2175 50  0001 C CNN
@@ -2447,10 +2447,10 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 7325 2575 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lv_bms_2-rescue:GND-power #PWR?
+L lv_bms_2-rescue:GND-power #PWR0136
 U 1 1 617EF401
 P 5925 2225
-F 0 "#PWR?" H 5925 1975 50  0001 C CNN
+F 0 "#PWR0136" H 5925 1975 50  0001 C CNN
 F 1 "GND" H 5930 2052 50  0000 C CNN
 F 2 "" H 5925 2225 50  0001 C CNN
 F 3 "" H 5925 2225 50  0001 C CNN
@@ -2458,10 +2458,10 @@ F 3 "" H 5925 2225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lv_bms_2-rescue:GND-power #PWR?
+L lv_bms_2-rescue:GND-power #PWR0137
 U 1 1 617FB1B0
 P 6275 2225
-F 0 "#PWR?" H 6275 1975 50  0001 C CNN
+F 0 "#PWR0137" H 6275 1975 50  0001 C CNN
 F 1 "GND" H 6280 2052 50  0000 C CNN
 F 2 "" H 6275 2225 50  0001 C CNN
 F 3 "" H 6275 2225 50  0001 C CNN
@@ -2469,10 +2469,10 @@ F 3 "" H 6275 2225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lv_bms_2-rescue:GND-power #PWR?
+L lv_bms_2-rescue:GND-power #PWR0138
 U 1 1 6180742F
 P 6600 2225
-F 0 "#PWR?" H 6600 1975 50  0001 C CNN
+F 0 "#PWR0138" H 6600 1975 50  0001 C CNN
 F 1 "GND" H 6605 2052 50  0000 C CNN
 F 2 "" H 6600 2225 50  0001 C CNN
 F 3 "" H 6600 2225 50  0001 C CNN
@@ -2480,10 +2480,10 @@ F 3 "" H 6600 2225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lv_bms_2-rescue:GND-power #PWR?
+L lv_bms_2-rescue:GND-power #PWR0139
 U 1 1 61813340
 P 6925 2225
-F 0 "#PWR?" H 6925 1975 50  0001 C CNN
+F 0 "#PWR0139" H 6925 1975 50  0001 C CNN
 F 1 "GND" H 6930 2052 50  0000 C CNN
 F 2 "" H 6925 2225 50  0001 C CNN
 F 3 "" H 6925 2225 50  0001 C CNN
@@ -2491,10 +2491,10 @@ F 3 "" H 6925 2225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R35
 U 1 1 6186CE56
 P 6600 1775
-F 0 "R?" H 6670 1821 50  0000 L CNN
+F 0 "R35" H 6670 1821 50  0000 L CNN
 F 1 "R_200" V 6500 1675 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 6530 1775 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6680 1775 50  0001 C CNN
@@ -2505,10 +2505,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7080 21
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R36
 U 1 1 6186D9F0
 P 6925 1775
-F 0 "R?" H 6995 1821 50  0000 L CNN
+F 0 "R36" H 6995 1821 50  0000 L CNN
 F 1 "R_200" V 6825 1675 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 6855 1775 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7005 1775 50  0001 C CNN
@@ -2535,10 +2535,10 @@ LED_2
 Text Label 6925 1625 1    50   ~ 0
 LED_3
 $Comp
-L formula:R_200 R?
+L formula:R_200 R32
 U 1 1 6187746D
 P 5925 1775
-F 0 "R?" H 5995 1821 50  0000 L CNN
+F 0 "R32" H 5995 1821 50  0000 L CNN
 F 1 "R_200" V 5800 1750 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 5855 1775 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6005 1775 50  0001 C CNN
@@ -2549,10 +2549,10 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 6405 21
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_200 R?
+L formula:R_200 R33
 U 1 1 61877C41
 P 6275 1775
-F 0 "R?" H 6345 1821 50  0000 L CNN
+F 0 "R33" H 6345 1821 50  0000 L CNN
 F 1 "R_200" V 6175 1750 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 6205 1775 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6355 1775 50  0001 C CNN
@@ -2605,10 +2605,10 @@ NoConn ~ 3650 3300
 NoConn ~ 3650 3400
 NoConn ~ 3650 3500
 $Comp
-L formula:R_100K R?
+L formula:R_100K R37
 U 1 1 61A93FF9
 P 13925 2100
-F 0 "R?" H 13800 2100 50  0000 L CNN
+F 0 "R37" H 13800 2100 50  0000 L CNN
 F 1 "R_100K" H 13995 2055 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 13855 2100 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 14005 2100 50  0001 C CNN
@@ -2619,10 +2619,10 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L lv_bms_2-rescue:+5V-power #PWR?
+L lv_bms_2-rescue:+5V-power #PWR0140
 U 1 1 61AA95E1
 P 13925 1950
-F 0 "#PWR?" H 13925 1800 50  0001 C CNN
+F 0 "#PWR0140" H 13925 1800 50  0001 C CNN
 F 1 "+5V-power" V 13850 2100 50  0000 C CNN
 F 2 "" H 13925 1950 50  0001 C CNN
 F 3 "" H 13925 1950 50  0001 C CNN
@@ -2636,10 +2636,10 @@ Wire Wire Line
 Text Label 6100 6125 0    50   ~ 0
 MISO
 $Comp
-L lv_bms_2-rescue:+5V-power #PWR?
+L lv_bms_2-rescue:+5V-power #PWR0141
 U 1 1 61AE1812
 P 6375 5825
-F 0 "#PWR?" H 6375 5675 50  0001 C CNN
+F 0 "#PWR0141" H 6375 5675 50  0001 C CNN
 F 1 "+5V-power" H 6390 5998 50  0000 C CNN
 F 2 "" H 6375 5825 50  0001 C CNN
 F 3 "" H 6375 5825 50  0001 C CNN
@@ -2647,10 +2647,10 @@ F 3 "" H 6375 5825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_10K R?
+L formula:R_10K R34
 U 1 1 61AE2DAA
 P 6375 5975
-F 0 "R?" H 6275 6125 50  0000 L CNN
+F 0 "R34" H 6275 6125 50  0000 L CNN
 F 1 "R_5K" V 6450 5875 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 6305 5975 50  0001 C CNN
 F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6455 5975 50  0001 C CNN

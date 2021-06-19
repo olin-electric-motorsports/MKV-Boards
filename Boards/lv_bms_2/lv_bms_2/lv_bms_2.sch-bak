@@ -2635,4 +2635,29 @@ Wire Wire Line
 	6100 6125 6375 6125
 Text Label 6100 6125 0    50   ~ 0
 MISO
+$Comp
+L lv_bms_2-rescue:+5V-power #PWR?
+U 1 1 61AE1812
+P 6375 5825
+F 0 "#PWR?" H 6375 5675 50  0001 C CNN
+F 1 "+5V-power" H 6390 5998 50  0000 C CNN
+F 2 "" H 6375 5825 50  0001 C CNN
+F 3 "" H 6375 5825 50  0001 C CNN
+	1    6375 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_10K R?
+U 1 1 61AE2DAA
+P 6375 5975
+F 0 "R?" H 6275 6125 50  0000 L CNN
+F 1 "R_5K" V 6450 5875 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 6305 5975 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6455 5975 50  0001 C CNN
+F 4 "DK" H 6375 5975 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 6375 5975 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6855 6375 60  0001 C CNN "PurchasingLink"
+	1    6375 5975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
