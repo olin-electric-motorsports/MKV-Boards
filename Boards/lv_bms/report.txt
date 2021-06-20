@@ -1,0 +1,38 @@
+Warning: 00:37:39: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddOutlineSegment: 260
+Warning:   * rejected a zero-length line start: 207.645,-76.454 end: 207.645,-76.454
+Warning: 00:37:39: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddOutlineSegment: 260
+Warning:   * rejected a zero-length line start: 88.2904,-76.454 end: 88.2904,-76.454
+Warning: 00:37:39: [3D File Resolver] No such path; ensure the environment var is defined
+Warning: /usr/share/kicad/modules/packages3d//Connector_Molex.3dshapes/Molex_Nano-Fit_105314-xx06_2x03_P2.50mm_Horizontal.wrl
+Warning: 00:37:39: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'J2'
+Warning: 00:37:39: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'J3'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'D103'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'D101'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'COUT103'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'COUT101'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'U101'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'R104'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'R105'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'F101'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'C103'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'U3'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'Y1'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'J4'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'J5'
+Warning: 00:37:40: /build/kicad-5c87DJ/kicad-5.1.9/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'J6'
