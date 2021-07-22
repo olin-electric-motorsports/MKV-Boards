@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -70,5 +70,11 @@ S 750  1750 2150 275
 U 60AB52CF
 F0 "micros" 50
 F1 "micros.sch" 50
+$EndSheet
+$Sheet
+S 750  5800 2150 300 
+U 60AEF08C
+F0 "shutdown" 50
+F1 "shutdown.sch" 50
 $EndSheet
 $EndSCHEMATC
