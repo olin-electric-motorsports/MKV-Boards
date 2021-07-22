@@ -192,65 +192,62 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 2560 1
 $EndComp
 Text Notes 2960 900  0    89   ~ 0
 BUCK CONVERTER (12V TO 5V)
-Connection ~ 7220 1430
 Wire Wire Line
-	7220 2130 7220 2230
+	6980 2120 6980 2220
 $Comp
 L power:GND #PWR082
 U 1 1 60AE563E
-P 7220 2230
-F 0 "#PWR082" H 7220 1980 50  0001 C CNN
-F 1 "GND" H 7225 2057 50  0000 C CNN
-F 2 "" H 7220 2230 50  0001 C CNN
-F 3 "" H 7220 2230 50  0001 C CNN
-	1    7220 2230
+P 6980 2220
+F 0 "#PWR082" H 6980 1970 50  0001 C CNN
+F 1 "GND" H 6985 2047 50  0000 C CNN
+F 2 "" H 6980 2220 50  0001 C CNN
+F 3 "" H 6980 2220 50  0001 C CNN
+	1    6980 2220
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7220 1740 7220 1830
+	6980 1730 6980 1820
 $Comp
 L formula:LED_0805 D9
 U 1 1 60AE5648
-P 7220 1980
-F 0 "D9" V 7259 1863 50  0000 R CNN
-F 1 "LED_0805" V 7168 1863 50  0000 R CNN
-F 2 "footprints:LED_0805_OEM" H 7120 1980 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 7220 2080 50  0001 C CNN
-F 4 "DK" H 7220 1980 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 7220 1980 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 7620 2480 60  0001 C CNN "PurchasingLink"
-	1    7220 1980
+P 6980 1970
+F 0 "D9" V 7019 1853 50  0000 R CNN
+F 1 "LED_0805" V 6928 1853 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 6880 1970 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 6980 2070 50  0001 C CNN
+F 4 "DK" H 6980 1970 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 6980 1970 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 7380 2470 60  0001 C CNN "PurchasingLink"
+	1    6980 1970
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7220 1280 7220 1430
+	7560 1280 7560 1430
 $Comp
 L power:VCC #PWR081
 U 1 1 60AE564F
-P 7220 1280
-F 0 "#PWR081" H 7220 1130 50  0001 C CNN
-F 1 "VCC" H 7237 1453 50  0000 C CNN
-F 2 "" H 7220 1280 50  0001 C CNN
-F 3 "" H 7220 1280 50  0001 C CNN
-	1    7220 1280
+P 7560 1280
+F 0 "#PWR081" H 7560 1130 50  0001 C CNN
+F 1 "VCC" H 7577 1453 50  0000 C CNN
+F 2 "" H 7560 1280 50  0001 C CNN
+F 3 "" H 7560 1280 50  0001 C CNN
+	1    7560 1280
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7220 1430 7220 1440
-Wire Wire Line
-	7040 1430 7220 1430
+	6980 1430 7160 1430
 $Comp
 L formula:R_200 R22
 U 1 1 60AE565B
-P 7220 1590
-F 0 "R22" H 7290 1636 50  0000 L CNN
-F 1 "R_200" H 7290 1545 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 7150 1590 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7300 1590 50  0001 C CNN
-F 4 "DK" H 7220 1590 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 7220 1590 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7700 1990 60  0001 C CNN "PurchasingLink"
-	1    7220 1590
+P 6980 1580
+F 0 "R22" H 7050 1626 50  0000 L CNN
+F 1 "R_200" H 7050 1535 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 6910 1580 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7060 1580 50  0001 C CNN
+F 4 "DK" H 6980 1580 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 6980 1580 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 7460 1980 60  0001 C CNN "PurchasingLink"
+	1    6980 1580
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -378,15 +375,15 @@ $EndComp
 $Comp
 L formula:R_0_2512 R21
 U 1 1 60AE56AF
-P 6890 1430
-F 0 "R21" V 6683 1430 50  0000 C CNN
-F 1 "R_0_2512" V 6774 1430 50  0000 C CNN
-F 2 "footprints:R_2512_OEM" H 6820 1430 50  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 6970 1430 50  0001 C CNN
-F 4 "DK" H 6890 1430 60  0001 C CNN "MFN"
-F 5 "A121322CT-ND" H 6890 1430 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 7370 1830 60  0001 C CNN "PurchasingLink"
-	1    6890 1430
+P 7310 1430
+F 0 "R21" V 7103 1430 50  0000 C CNN
+F 1 "R_0_2512" V 7194 1430 50  0000 C CNN
+F 2 "footprints:R_2512_OEM" H 7240 1430 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 7390 1430 50  0001 C CNN
+F 4 "DK" H 7310 1430 60  0001 C CNN "MFN"
+F 5 "A121322CT-ND" H 7310 1430 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 7790 1830 60  0001 C CNN "PurchasingLink"
+	1    7310 1430
 	0    1    1    0   
 $EndComp
 $Comp
@@ -616,4 +613,9 @@ Wire Wire Line
 	5350 2250 6730 2250
 Text GLabel 10410 1360 2    50   Input ~ 0
 3.3V
+Wire Wire Line
+	6980 1430 6730 1430
+Connection ~ 6980 1430
+Wire Wire Line
+	7460 1430 7560 1430
 $EndSCHEMATC
