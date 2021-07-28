@@ -13,31 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L formula:LM3480 U13
-U 1 1 60A5288B
-P 9830 1360
-F 0 "U13" H 9830 1602 50  0000 C CNN
-F 1 "LM3480" H 9830 1511 50  0000 C CNN
-F 2 "footprints:SOT-23-3_OEM" H 9780 1560 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm3480.pdf" H 9930 1110 50  0001 C CNN
-F 4 "DK" H 9880 1685 60  0001 C CNN "MFN"
-F 5 "LM3480IM3-3.3CT-ND" H 9980 1785 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/texas-instruments/LM3480IM3-3.3/LM3480IM3-3.3CT-ND/3701583" H 9780 1585 60  0001 C CNN "PurchasingLink"
-	1    9830 1360
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR083
-U 1 1 60A52891
-P 9280 1280
-F 0 "#PWR083" H 9280 1130 50  0001 C CNN
-F 1 "VCC" H 9297 1453 50  0000 C CNN
-F 2 "" H 9280 1280 50  0001 C CNN
-F 3 "" H 9280 1280 50  0001 C CNN
-	1    9280 1280
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9280 1280 9280 1360
 $Comp
@@ -55,8 +30,8 @@ $Comp
 L formula:C_0.1uF C26
 U 1 1 60A528A1
 P 9400 1600
-F 0 "C26" H 9515 1646 50  0000 L CNN
-F 1 "C_0.1uF" H 9515 1555 50  0000 L CNN
+F 0 "C26" H 9110 1650 50  0000 L CNN
+F 1 "C_0.1uF" H 9020 1570 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 9438 1450 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 9425 1700 50  0001 C CNN
 F 4 "DK" H 9400 1600 60  0001 C CNN "MFN"
@@ -126,8 +101,8 @@ $Comp
 L formula:TP TP3
 U 1 1 60AE5613
 P 1010 2150
-F 0 "TP3" H 1088 2088 50  0000 L CNN
-F 1 "TP" H 1088 1997 50  0000 L CNN
+F 0 "TP3" H 1090 2210 50  0000 L CNN
+F 1 "TP" H 1120 2130 50  0000 L CNN
 F 2 "footprints:tp_1.6mm" H 910 2050 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 1010 2150 50  0001 C CNN
 F 4 "DK" H 1110 2250 50  0001 C CNN "MFN"
@@ -154,8 +129,8 @@ $Comp
 L formula:L_100uH L1
 U 1 1 60AE5626
 P 4930 1430
-F 0 "L1" H 4930 1655 50  0000 C CNN
-F 1 "L_100uH" H 4930 1564 50  0000 C CNN
+F 0 "L1" H 4990 1610 50  0000 C CNN
+F 1 "L_100uH" H 5010 1520 50  0000 C CNN
 F 2 "footprints:L_100uH_OEM" H 4830 1230 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf" H 4830 1280 50  0001 C CNN
 F 4 "DK" H 5030 1230 50  0001 C CNN "MFN"
@@ -223,17 +198,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 7380 2470 60 
 $EndComp
 Wire Wire Line
 	7560 1280 7560 1430
-$Comp
-L power:VCC #PWR081
-U 1 1 60AE564F
-P 7560 1280
-F 0 "#PWR081" H 7560 1130 50  0001 C CNN
-F 1 "VCC" H 7577 1453 50  0000 C CNN
-F 2 "" H 7560 1280 50  0001 C CNN
-F 3 "" H 7560 1280 50  0001 C CNN
-	1    7560 1280
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6980 1430 7160 1430
 $Comp
@@ -505,7 +469,7 @@ L formula:LED_0805 D8
 U 1 1 60AE5701
 P 2080 2080
 F 0 "D8" V 2119 1963 50  0000 R CNN
-F 1 "LED_0805" V 2028 1963 50  0000 R CNN
+F 1 "LED_0805" V 2030 2020 50  0000 R CNN
 F 2 "footprints:LED_0805_OEM" H 1980 2080 50  0001 C CNN
 F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 2080 2180 50  0001 C CNN
 F 4 "DK" H 2080 2080 60  0001 C CNN "MFN"
@@ -618,4 +582,40 @@ Wire Wire Line
 Connection ~ 6980 1430
 Wire Wire Line
 	7460 1430 7560 1430
+$Comp
+L power:+5V #PWR?
+U 1 1 61022690
+P 7560 1280
+F 0 "#PWR?" H 7560 1130 50  0001 C CNN
+F 1 "+5V" H 7575 1453 50  0000 C CNN
+F 2 "" H 7560 1280 50  0001 C CNN
+F 3 "" H 7560 1280 50  0001 C CNN
+	1    7560 1280
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 610264B9
+P 9280 1280
+F 0 "#PWR?" H 9280 1130 50  0001 C CNN
+F 1 "+5V" H 9295 1453 50  0000 C CNN
+F 2 "" H 9280 1280 50  0001 C CNN
+F 3 "" H 9280 1280 50  0001 C CNN
+	1    9280 1280
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LM3480 U13
+U 1 1 60A5288B
+P 9830 1360
+F 0 "U13" H 9830 1602 50  0000 C CNN
+F 1 "LM3480" H 9830 1511 50  0000 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 9780 1560 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm3480.pdf" H 9930 1110 50  0001 C CNN
+F 4 "DK" H 9880 1685 60  0001 C CNN "MFN"
+F 5 "LM3480IM3-3.3CT-ND" H 9980 1785 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/LM3480IM3-3.3/LM3480IM3-3.3CT-ND/3701583" H 9780 1585 60  0001 C CNN "PurchasingLink"
+	1    9830 1360
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
