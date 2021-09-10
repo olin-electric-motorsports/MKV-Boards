@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 8680 1750 0    50   ~ 0
+Text Label 8720 1750 0    50   ~ 0
 SM_CS
 NoConn ~ 8680 3650
 NoConn ~ 8680 3750
@@ -51,11 +51,11 @@ Wire Wire Line
 	6640 1180 6640 1550
 Text Notes 7490 1000 0    89   ~ 0
 ATMEGA328P
-Text Label 8680 1850 0    50   ~ 0
+Text Label 8720 1850 0    50   ~ 0
 SM_MOSI
-Text Label 8680 1950 0    50   ~ 0
+Text Label 8720 1950 0    50   ~ 0
 SM_MISO
-Text Label 8680 2050 0    50   ~ 0
+Text Label 8720 2050 0    50   ~ 0
 SM_SCK
 Wire Wire Line
 	8970 3050 8680 3050
@@ -207,11 +207,11 @@ Wire Wire Line
 Connection ~ 6730 3650
 Wire Wire Line
 	6730 3650 6640 3650
-Text Label 3600 3150 0    50   ~ 0
+Text Label 3640 3150 0    50   ~ 0
 PM_MISO
-Text Label 3600 3250 0    50   ~ 0
+Text Label 3640 3250 0    50   ~ 0
 PM_MOSI
-Text Label 3600 3350 0    50   ~ 0
+Text Label 3640 3350 0    50   ~ 0
 PM_SCK
 Text Label 4700 3850 0    50   ~ 0
 PM_RESET
@@ -441,15 +441,15 @@ Wire Wire Line
 	4850 3650 4850 3500
 Text Notes 2200 950  0    89   ~ 0
 ATMEGA 16M1\n
-Text Label 3600 2350 0    50   ~ 0
+Text Label 3640 2350 0    50   ~ 0
 CAN_RX
-Text Label 3600 2250 0    50   ~ 0
+Text Label 3640 2250 0    50   ~ 0
 CAN_TX
-Text Label 3600 2550 0    50   ~ 0
+Text Label 3640 2550 0    50   ~ 0
 MUX_SELECT_S0
-Text Label 3600 2650 0    50   ~ 0
+Text Label 3640 2650 0    50   ~ 0
 MUX_SELECT_S1
-Text Label 3600 2750 0    50   ~ 0
+Text Label 3640 2750 0    50   ~ 0
 MUX_SELECT_S2
 Wire Wire Line
 	3600 3850 4400 3850
@@ -599,9 +599,9 @@ F 3 "" H 2050 6300 50  0001 C CNN
 	1    2050 6300
 	1    0    0    -1  
 $EndComp
-Text Label 2050 5900 2    50   ~ 0
+Text Label 2000 5900 2    50   ~ 0
 CAN_TX
-Text Label 2050 6000 2    50   ~ 0
+Text Label 2000 6000 2    50   ~ 0
 CAN_RX
 Text Notes 2100 5050 0    89   ~ 0
 CAN TRANSCEIVER\n
@@ -621,13 +621,13 @@ F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-323
 	1    2550 7400
 	1    0    0    -1  
 $EndComp
-Text Label 2300 7300 2    50   ~ 0
+Text Label 2240 7300 2    50   ~ 0
 PM_MISO
-Text Label 2300 7400 2    50   ~ 0
+Text Label 2240 7400 2    50   ~ 0
 PM_SCK
-Text Label 2300 7500 2    50   ~ 0
+Text Label 2240 7500 2    50   ~ 0
 PM_RESET
-Text Label 2810 7420 0    50   ~ 0
+Text Label 2890 7420 0    50   ~ 0
 PM_MOSI
 $Comp
 L power:GND #PWR?
@@ -690,13 +690,13 @@ F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-323
 	1    5470 6850
 	1    0    0    -1  
 $EndComp
-Text Label 5220 6750 2    50   ~ 0
+Text Label 5170 6750 2    50   ~ 0
 SM_MISO
-Text Label 5220 6850 2    50   ~ 0
+Text Label 5170 6850 2    50   ~ 0
 SM_SCK
-Text Label 5220 6950 2    50   ~ 0
+Text Label 5170 6950 2    50   ~ 0
 SM_RESET
-Text Label 5730 6870 0    50   ~ 0
+Text Label 5780 6870 0    50   ~ 0
 SM_MOSI
 $Comp
 L power:GND #PWR?
@@ -753,64 +753,62 @@ F 3 "" H 10040 5630 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10040 5530 10040 5630
-Text Label 9510 5420 0    50   ~ 0
+Text Label 9570 5420 0    50   ~ 0
 SM_SCK
 Wire Wire Line
 	9600 5120 10040 5120
-Text Label 9510 5520 0    50   ~ 0
+Text Label 9570 5520 0    50   ~ 0
 SM_MISO
-Text Label 9510 5620 0    50   ~ 0
+Text Label 9570 5620 0    50   ~ 0
 SM_MOSI
-Text Label 9510 5720 0    50   ~ 0
+Text Label 9570 5720 0    50   ~ 0
 SM_CS
 Wire Wire Line
-	8400 5030 8400 5240
-Text Label 8610 5420 2    50   ~ 0
+	8360 5030 8360 5240
+Text Label 8570 5420 2    50   ~ 0
 PM_SCK
-Text Label 8610 5520 2    50   ~ 0
+Text Label 8570 5520 2    50   ~ 0
 PM_MISO
-Text Label 8610 5620 2    50   ~ 0
+Text Label 8570 5620 2    50   ~ 0
 PM_MOSI
-Wire Wire Line
-	8400 5320 8610 5320
 $Comp
 L formula:C_0.1uF C?
 U 1 1 60A93C5A
-P 8240 5950
+P 8200 5950
 AR Path="/60A3DA8B/60A93C5A" Ref="C?"  Part="1" 
 AR Path="/60A3D93E/60A93C5A" Ref="C19"  Part="1" 
-F 0 "C19" H 7900 6000 50  0000 L CNN
-F 1 "C_0.1uF" H 7830 5908 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 8278 5800 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8265 6050 50  0001 C CNN
-F 4 "DK" H 8240 5950 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 8240 5950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 8665 6450 60  0001 C CNN "PurchasingLink"
-	1    8240 5950
+F 0 "C19" H 7860 6000 50  0000 L CNN
+F 1 "C_0.1uF" H 7790 5908 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 8238 5800 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 8225 6050 50  0001 C CNN
+F 4 "DK" H 8200 5950 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 8200 5950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 8625 6450 60  0001 C CNN "PurchasingLink"
+	1    8200 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60A93C60
-P 8240 6200
+P 8200 6200
 AR Path="/60A3DA8B/60A93C60" Ref="#PWR?"  Part="1" 
 AR Path="/60A3D93E/60A93C60" Ref="#PWR063"  Part="1" 
-F 0 "#PWR063" H 8240 5950 50  0001 C CNN
-F 1 "GND" H 8245 6027 50  0000 C CNN
-F 2 "" H 8240 6200 50  0001 C CNN
-F 3 "" H 8240 6200 50  0001 C CNN
-	1    8240 6200
+F 0 "#PWR063" H 8200 5950 50  0001 C CNN
+F 1 "GND" H 8205 6027 50  0000 C CNN
+F 2 "" H 8200 6200 50  0001 C CNN
+F 3 "" H 8200 6200 50  0001 C CNN
+	1    8200 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8240 6100 8240 6200
+	8200 6100 8200 6200
 Wire Wire Line
-	8240 5240 8400 5240
-Connection ~ 8400 5240
+	8200 5240 8360 5240
+Connection ~ 8360 5240
 Wire Wire Line
-	8400 5240 8400 5320
+	8360 5240 8360 5320
 Wire Wire Line
-	8240 5240 8240 5800
+	8200 5240 8200 5800
 $Comp
 L power:GND #PWR?
 U 1 1 60A93C6B
@@ -857,7 +855,7 @@ Wire Wire Line
 Connection ~ 750  1150
 Connection ~ 1100 1150
 Connection ~ 1100 1450
-Text GLabel 3600 1750 2    50   Input ~ 0
+Text GLabel 3640 1750 2    50   Input ~ 0
 POT_MICRO_SENSE
 $Comp
 L formula:Crystal_SMD Y4
@@ -900,9 +898,9 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america
 	1    9590 2710
 	1    0    0    -1  
 $EndComp
-Text GLabel 8680 2850 2    50   Input ~ 0
+Text GLabel 8740 2850 2    50   Input ~ 0
 SM_SDA
-Text GLabel 8680 2950 2    50   Input ~ 0
+Text GLabel 8740 2950 2    50   Input ~ 0
 SM_SCL
 $Comp
 L power:GND #PWR057
@@ -999,17 +997,17 @@ Text GLabel 750  1000 1    50   Input ~ 0
 5V
 Text GLabel 4850 3500 1    50   Input ~ 0
 5V
-Text GLabel 8400 5030 1    50   Input ~ 0
+Text GLabel 8360 5030 1    50   Input ~ 0
 5V
 Text GLabel 10270 5840 1    50   Input ~ 0
 5V
-Text GLabel 5720 6750 2    50   Input ~ 0
+Text GLabel 5770 6750 2    50   Input ~ 0
 3.3V
 Wire Wire Line
 	5720 6850 5730 6850
 Wire Wire Line
 	5730 6850 5730 6870
-Text GLabel 2800 7300 2    50   Input ~ 0
+Text GLabel 2880 7300 2    50   Input ~ 0
 5V
 Wire Wire Line
 	2800 7400 2810 7400
@@ -1017,17 +1015,17 @@ Wire Wire Line
 	2810 7400 2810 7420
 Text GLabel 2550 5350 1    50   Input ~ 0
 5V
-Text GLabel 3600 1350 2    50   Input ~ 0
+Text GLabel 3640 1350 2    50   Input ~ 0
 STRAIN_MUX1_OUT
-Text GLabel 3600 1650 2    50   Input ~ 0
+Text GLabel 3640 1650 2    50   Input ~ 0
 STRAIN_MUX2_OUT
-Text GLabel 3600 1550 2    50   Input ~ 0
+Text GLabel 3640 1550 2    50   Input ~ 0
 nSTRAIN_MUX1_EN
-Text GLabel 3600 2050 2    50   Input ~ 0
+Text GLabel 3640 2050 2    50   Input ~ 0
 nSTRAIN_MUX2_EN
-Text GLabel 3600 2950 2    50   Input ~ 0
+Text GLabel 3640 2950 2    50   Input ~ 0
 STRAIN_S0
-Text GLabel 3630 2420 2    50   Input ~ 0
+Text GLabel 3670 2420 2    50   Input ~ 0
 STRAIN_S1
 Wire Wire Line
 	3600 2450 3630 2450
@@ -1057,54 +1055,52 @@ F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU
 	1    2500 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3600 1450 2    50   Input ~ 0
+Text GLabel 3640 1450 2    50   Input ~ 0
 STRAIN_S2
 NoConn ~ 8680 2450
-Wire Wire Line
-	8680 1650 8910 1650
 $Comp
 L formula:R_200 R118
 U 1 1 61590DA3
-P 9060 1650
-F 0 "R118" V 8853 1650 50  0000 C CNN
-F 1 "R_200" V 8944 1650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 8990 1650 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 9140 1650 50  0001 C CNN
-F 4 "DK" H 9060 1650 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 9060 1650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9540 2050 60  0001 C CNN "PurchasingLink"
-	1    9060 1650
+P 9210 1650
+F 0 "R118" V 9003 1650 50  0000 C CNN
+F 1 "R_200" V 9094 1650 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 9140 1650 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 9290 1650 50  0001 C CNN
+F 4 "DK" H 9210 1650 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 9210 1650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9690 2050 60  0001 C CNN "PurchasingLink"
+	1    9210 1650
 	0    1    1    0   
 $EndComp
 $Comp
 L formula:LED_0805 D11
 U 1 1 61591DE2
-P 9530 1650
-F 0 "D11" H 9523 1395 50  0000 C CNN
-F 1 "LED_0805" H 9523 1486 50  0000 C CNN
-F 2 "footprints:LED_0805_OEM" H 9430 1650 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 9530 1750 50  0001 C CNN
-F 4 "DK" H 9530 1650 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 9530 1650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 9930 2150 60  0001 C CNN "PurchasingLink"
-	1    9530 1650
+P 9680 1650
+F 0 "D11" H 9673 1395 50  0000 C CNN
+F 1 "LED_0805" H 9673 1486 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 9580 1650 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 9680 1750 50  0001 C CNN
+F 4 "DK" H 9680 1650 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 9680 1650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 10080 2150 60  0001 C CNN "PurchasingLink"
+	1    9680 1650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9210 1650 9380 1650
+	9360 1650 9530 1650
 $Comp
 L power:GND #PWR059
 U 1 1 615973B2
-P 9870 1650
-F 0 "#PWR059" H 9870 1400 50  0001 C CNN
-F 1 "GND" H 9875 1477 50  0000 C CNN
-F 2 "" H 9870 1650 50  0001 C CNN
-F 3 "" H 9870 1650 50  0001 C CNN
-	1    9870 1650
+P 10020 1650
+F 0 "#PWR059" H 10020 1400 50  0001 C CNN
+F 1 "GND" H 10025 1477 50  0000 C CNN
+F 2 "" H 10020 1650 50  0001 C CNN
+F 3 "" H 10020 1650 50  0001 C CNN
+	1    10020 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9680 1650 9870 1650
+	9830 1650 10020 1650
 $Comp
 L formula:R_200 R21
 U 1 1 615BFE17
@@ -1152,12 +1148,106 @@ Wire Wire Line
 	8680 1550 8890 1550
 Wire Wire Line
 	8890 1550 8890 1080
-Text Label 8610 5720 2    50   ~ 0
+Text Label 8570 5720 2    50   ~ 0
 PM_CS
-Text GLabel 3600 1850 2    50   Input ~ 0
+Text GLabel 3640 1850 2    50   Input ~ 0
 FRONT_SENSE
-Text GLabel 3600 3450 2    50   Input ~ 0
+Text GLabel 3640 3450 2    50   Input ~ 0
 LEFT_SENSE
-Text GLabel 3600 3550 2    50   Input ~ 0
+Text GLabel 3640 3550 2    50   Input ~ 0
 SENSE_IN
+Wire Wire Line
+	3600 1350 3640 1350
+Wire Wire Line
+	3600 1450 3640 1450
+Wire Wire Line
+	3600 1550 3640 1550
+Wire Wire Line
+	3600 1650 3640 1650
+Wire Wire Line
+	3600 1750 3640 1750
+Wire Wire Line
+	3600 1850 3640 1850
+Wire Wire Line
+	3600 2050 3640 2050
+Wire Wire Line
+	3600 2250 3640 2250
+Wire Wire Line
+	3600 2350 3640 2350
+Wire Wire Line
+	3630 2420 3670 2420
+Wire Wire Line
+	3600 2550 3640 2550
+Wire Wire Line
+	3600 2650 3640 2650
+Wire Wire Line
+	3600 2750 3640 2750
+Wire Wire Line
+	3600 2950 3640 2950
+Wire Wire Line
+	3600 3150 3640 3150
+Wire Wire Line
+	3600 3250 3640 3250
+Wire Wire Line
+	3600 3350 3640 3350
+Wire Wire Line
+	3600 3450 3640 3450
+Wire Wire Line
+	3600 3550 3640 3550
+Wire Wire Line
+	8680 1750 8720 1750
+Wire Wire Line
+	8680 1850 8720 1850
+Wire Wire Line
+	8680 2050 8720 2050
+Wire Wire Line
+	8680 1950 8720 1950
+Wire Wire Line
+	8680 1650 9060 1650
+Wire Wire Line
+	8680 2850 8740 2850
+Wire Wire Line
+	8680 2950 8740 2950
+Wire Wire Line
+	9510 5420 9570 5420
+Wire Wire Line
+	9510 5520 9570 5520
+Wire Wire Line
+	9510 5620 9570 5620
+Wire Wire Line
+	9510 5720 9570 5720
+Wire Wire Line
+	8360 5320 8610 5320
+Wire Wire Line
+	8570 5420 8610 5420
+Wire Wire Line
+	8570 5520 8610 5520
+Wire Wire Line
+	8570 5620 8610 5620
+Wire Wire Line
+	8570 5720 8610 5720
+Wire Wire Line
+	5730 6870 5780 6870
+Wire Wire Line
+	5720 6750 5770 6750
+Wire Wire Line
+	5170 6750 5220 6750
+Wire Wire Line
+	5170 6850 5220 6850
+Wire Wire Line
+	5170 6950 5220 6950
+Wire Wire Line
+	2240 7300 2300 7300
+Wire Wire Line
+	2240 7400 2300 7400
+Wire Wire Line
+	2240 7500 2300 7500
+Wire Wire Line
+	2810 7420 2890 7420
+Wire Wire Line
+	2800 7300 2880 7300
+Wire Wire Line
+	2000 5900 2050 5900
+Wire Wire Line
+	2000 6000 2050 6000
 $EndSCHEMATC
