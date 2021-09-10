@@ -331,56 +331,100 @@ Text GLabel 5400 6850 0    50   UnSpc ~ 0
 STRAIN_6B_+
 Text GLabel 5400 7050 0    50   UnSpc ~ 0
 STRAIN_6B_-
-Text Label 10500 3350 2    50   ~ 0
+Text Label 10430 3350 2    50   ~ 0
 STRAIN_1A_OUT
-Text Label 10500 3450 2    50   ~ 0
+Text Label 10430 3450 2    50   ~ 0
 STRAIN_2A_OUT
-Text Label 10500 3550 2    50   ~ 0
+Text Label 10430 3550 2    50   ~ 0
 STRAIN_3A_OUT
-Text Label 10500 3650 2    50   ~ 0
+Text Label 10430 3650 2    50   ~ 0
 STRAIN_4A_OUT
-Text Label 10500 3750 2    50   ~ 0
+Text Label 10430 3750 2    50   ~ 0
 STRAIN_5A_OUT
-Text Label 10500 3850 2    50   ~ 0
+Text Label 10430 3850 2    50   ~ 0
 STRAIN_6A_OUT
 NoConn ~ 10500 3950
 NoConn ~ 10500 4050
 NoConn ~ 10500 6700
 NoConn ~ 10500 6800
-Text Label 10500 6100 2    50   ~ 0
+Text Label 10410 6100 2    50   ~ 0
 STRAIN_1B_OUT
-Text Label 10500 6200 2    50   ~ 0
+Text Label 10410 6200 2    50   ~ 0
 STRAIN_2B_OUT
-Text Label 10500 6300 2    50   ~ 0
+Text Label 10410 6300 2    50   ~ 0
 STRAIN_3B_OUT
-Text Label 10500 6400 2    50   ~ 0
+Text Label 10410 6400 2    50   ~ 0
 STRAIN_4B_OUT
-Text Label 10500 6500 2    50   ~ 0
+Text Label 10410 6500 2    50   ~ 0
 STRAIN_5B_OUT
-Text Label 10500 6600 2    50   ~ 0
+Text Label 10410 6600 2    50   ~ 0
 STRAIN_6B_OUT
-Text GLabel 11200 6100 2    50   Input ~ 0
+Text GLabel 11290 6100 2    50   Input ~ 0
 STRAIN_MUX2_OUT
-Text GLabel 11200 6300 2    50   Input ~ 0
+Text GLabel 11290 6300 2    50   Input ~ 0
 STRAIN_S0
-Text GLabel 11200 6400 2    50   Input ~ 0
+Text GLabel 11290 6400 2    50   Input ~ 0
 STRAIN_S1
-Text GLabel 11200 6500 2    50   Input ~ 0
+Text GLabel 11290 6500 2    50   Input ~ 0
 STRAIN_S2
-Text GLabel 11200 6700 2    50   Input ~ 0
+Text GLabel 11290 6700 2    50   Input ~ 0
 nSTRAIN_MUX2_EN
-Text GLabel 11200 3350 2    50   Input ~ 0
+Text GLabel 11260 3350 2    50   Input ~ 0
 STRAIN_MUX1_OUT
-Text GLabel 11200 3550 2    50   Input ~ 0
+Text GLabel 11260 3550 2    50   Input ~ 0
 STRAIN_S0
-Text GLabel 11200 3650 2    50   Input ~ 0
+Text GLabel 11260 3650 2    50   Input ~ 0
 STRAIN_S1
-Text GLabel 11200 3750 2    50   Input ~ 0
+Text GLabel 11260 3750 2    50   Input ~ 0
 STRAIN_S2
-Text GLabel 11200 3950 2    50   Input ~ 0
+Text GLabel 11260 3950 2    50   Input ~ 0
 nSTRAIN_MUX1_EN
 Text GLabel 10900 2800 1    50   Input ~ 0
 5V
 Text GLabel 10900 5550 1    50   Input ~ 0
 5V
+Wire Wire Line
+	10430 3350 10500 3350
+Wire Wire Line
+	10430 3450 10500 3450
+Wire Wire Line
+	10430 3550 10500 3550
+Wire Wire Line
+	10430 3650 10500 3650
+Wire Wire Line
+	10430 3750 10500 3750
+Wire Wire Line
+	10430 3850 10500 3850
+Wire Wire Line
+	11200 3350 11260 3350
+Wire Wire Line
+	11200 3550 11260 3550
+Wire Wire Line
+	11200 3950 11260 3950
+Wire Wire Line
+	11200 3750 11260 3750
+Wire Wire Line
+	11200 3650 11260 3650
+Wire Wire Line
+	10410 6100 10500 6100
+Wire Wire Line
+	10410 6200 10500 6200
+Wire Wire Line
+	10410 6300 10500 6300
+Wire Wire Line
+	10410 6400 10500 6400
+Wire Wire Line
+	10410 6500 10500 6500
+Wire Wire Line
+	10410 6600 10500 6600
+Wire Wire Line
+	11200 6100 11290 6100
+Wire Wire Line
+	11200 6300 11290 6300
+Wire Wire Line
+	11200 6400 11290 6400
+Wire Wire Line
+	11200 6500 11290 6500
+Wire Wire Line
+	11200 6700 11290 6700
 $EndSCHEMATC

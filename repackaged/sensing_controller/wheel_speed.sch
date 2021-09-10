@@ -15,7 +15,7 @@ Comment4 ""
 $EndDescr
 $Comp
 L power:GND #PWR0106
-U 1 1 5BEE119A
+U 1 1 613BE4F9
 P 3000 6650
 F 0 "#PWR0106" H 3000 6400 50  0001 C CNN
 F 1 "GND" H 3005 6477 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 3000 6650 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR0105
-U 1 1 5BEE168D
+U 1 1 613BE4FB
 P 2250 6400
 F 0 "#PWR0105" H 2250 6150 50  0001 C CNN
 F 1 "GND" H 2250 6200 50  0000 C CNN
@@ -113,8 +113,6 @@ F 3 "" H 10600 6150 50  0001 C CNN
 	1    10600 6150
 	1    0    0    -1  
 $EndComp
-Text Label 9800 6150 0    50   ~ 0
-12V
 $Comp
 L formula:C_22uF COUT101
 U 1 1 6102CC10
@@ -159,7 +157,7 @@ F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250
 $EndComp
 $Comp
 L formula:R_25K R102
-U 1 1 5C0B315C
+U 1 1 613BE508
 P 3350 6900
 F 0 "R102" V 3450 6850 50  0000 L CNN
 F 1 "R_25K" V 3250 6800 50  0000 L CNN
@@ -394,15 +392,15 @@ F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU
 	1    2550 2700
 	1    0    0    -1  
 $EndComp
-Text Label 3650 2100 0    50   ~ 0
+Text Label 3740 2100 0    50   ~ 0
 CAN_TX
-Text Label 3650 2200 0    50   ~ 0
+Text Label 3740 2200 0    50   ~ 0
 CAN_RX
-Text Label 3650 3000 0    50   ~ 0
+Text Label 3740 3000 0    50   ~ 0
 MISO
-Text Label 3650 3100 0    50   ~ 0
+Text Label 3740 3100 0    50   ~ 0
 MOSI
-Text Label 3650 3200 0    50   ~ 0
+Text Label 3740 3200 0    50   ~ 0
 SCK
 Text Label 4300 3700 0    50   ~ 0
 RESET
@@ -680,7 +678,7 @@ F 3 "~" H 10600 6000 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR017
-U 1 1 5D622997
+U 1 1 613BE536
 P 10900 6150
 F 0 "#PWR017" H 10900 5900 50  0001 C CNN
 F 1 "GND" H 10905 5977 50  0000 C CNN
@@ -691,13 +689,13 @@ F 3 "" H 10900 6150 50  0001 C CNN
 $EndComp
 Text Label 10900 6000 2    50   ~ 0
 GND
-Text Label 9700 3350 2    50   ~ 0
+Text Label 9640 3350 2    50   ~ 0
 MISO
-Text Label 9700 3450 2    50   ~ 0
+Text Label 9640 3450 2    50   ~ 0
 SCK
-Text Label 9700 3550 2    50   ~ 0
+Text Label 9640 3550 2    50   ~ 0
 RESET
-Text Label 10220 3470 0    50   ~ 0
+Text Label 10270 3470 0    50   ~ 0
 MOSI
 $Comp
 L power:GND #PWR09
@@ -890,11 +888,11 @@ Wire Wire Line
 	2500 6100 2600 6100
 Wire Wire Line
 	10400 1850 10500 1850
-Text Label 3650 1500 0    50   ~ 0
+Text Label 3740 1500 0    50   ~ 0
 SENSE_IN
-Text Label 3650 1300 0    50   ~ 0
+Text Label 3740 1300 0    50   ~ 0
 FRONT_SENSE
-Text Label 3650 1400 0    50   ~ 0
+Text Label 3740 1400 0    50   ~ 0
 LEFT_SENSE
 NoConn ~ 3650 1100
 NoConn ~ 3650 1200
@@ -927,7 +925,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 10200 5000 60
 $EndComp
 Text Notes 9000 4250 0    89   ~ 0
 DEBUG
-Text Label 3650 1000 0    50   ~ 0
+Text Label 3740 1000 0    50   ~ 0
 DEBUG
 Text Label 9450 4500 2    50   ~ 0
 DEBUG
@@ -990,19 +988,6 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 10580 5
 $EndComp
 Wire Wire Line
 	1950 6100 2500 6100
-$Comp
-L power:+5V #PWR?
-U 1 1 6109A447
-P 10200 6150
-AR Path="/60A3D93E/6109A447" Ref="#PWR?"  Part="1" 
-AR Path="/60A3DAC4/6109A447" Ref="#PWR0197"  Part="1" 
-F 0 "#PWR0197" H 10200 6000 50  0001 C CNN
-F 1 "+5V" H 10215 6323 50  0000 C CNN
-F 2 "" H 10200 6150 50  0001 C CNN
-F 3 "" H 10200 6150 50  0001 C CNN
-	1    10200 6150
-	-1   0    0    1   
-$EndComp
 Text GLabel 800  850  1    50   Input ~ 0
 5V
 Text GLabel 4450 3350 1    50   Input ~ 0
@@ -1023,7 +1008,7 @@ F 6 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-323
 	1    9950 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 10200 3350 2    50   Input ~ 0
+Text GLabel 10250 3350 2    50   Input ~ 0
 5V
 Wire Wire Line
 	10200 3450 10220 3450
@@ -1271,4 +1256,36 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 Connection ~ 7400 2980
+Text GLabel 10200 6150 3    50   Input ~ 0
+5V
+Text GLabel 9800 6150 3    50   Input ~ 0
+12V
+Wire Wire Line
+	9640 3350 9700 3350
+Wire Wire Line
+	9640 3450 9700 3450
+Wire Wire Line
+	9640 3550 9700 3550
+Wire Wire Line
+	10200 3350 10250 3350
+Wire Wire Line
+	10220 3470 10270 3470
+Wire Wire Line
+	3650 1000 3740 1000
+Wire Wire Line
+	3650 1300 3740 1300
+Wire Wire Line
+	3650 1400 3740 1400
+Wire Wire Line
+	3650 1500 3740 1500
+Wire Wire Line
+	3650 2100 3740 2100
+Wire Wire Line
+	3740 2200 3650 2200
+Wire Wire Line
+	3650 3000 3740 3000
+Wire Wire Line
+	3650 3100 3740 3100
+Wire Wire Line
+	3650 3200 3740 3200
 $EndSCHEMATC

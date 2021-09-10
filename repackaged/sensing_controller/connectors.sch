@@ -31,9 +31,9 @@ F 3 "" H 2780 2450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2780 2450 2780 2350
-Text Label 1830 2250 0    50   ~ 0
+Text Label 1890 2250 0    50   ~ 0
 CAN_HI
-Text Label 1830 2150 0    50   ~ 0
+Text Label 1890 2150 0    50   ~ 0
 CAN_LO
 Wire Wire Line
 	2780 2350 1830 2350
@@ -73,7 +73,7 @@ Wire Wire Line
 	2380 1750 2930 1750
 Wire Wire Line
 	2380 1750 2130 1750
-Text GLabel 2300 2150 0    50   Input ~ 0
+Text GLabel 2300 2150 2    50   Input ~ 0
 5V
 $Comp
 L formula:C_0.1uF C?
@@ -114,4 +114,8 @@ F 6 "http://www.te.com/usa-en/product-338070-8.html" H 1680 2650 60  0001 C CNN 
 	1    1580 2150
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	1830 2150 1890 2150
+Wire Wire Line
+	1830 2250 1890 2250
 $EndSCHEMATC
