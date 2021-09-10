@@ -183,10 +183,6 @@ $EndComp
 NoConn ~ 8680 3550
 Text Notes 9050 3270 0    89   ~ 0
 16 MHz CRYSTAL\n
-Text Label 8680 1550 0    50   ~ 0
-PROGRAMMING_LED3
-Text Label 8680 1650 0    50   ~ 0
-PROGRAMMING_LED4
 NoConn ~ 8680 3250
 NoConn ~ 8680 3350
 NoConn ~ 8680 3450
@@ -394,8 +390,6 @@ F 3 "" H 1250 4200 50  0001 C CNN
 $EndComp
 Text Notes 3950 5050 0    89   ~ 0
 16 MHz CRYSTAL\n
-Wire Wire Line
-	1400 1450 1100 1450
 $Comp
 L formula:C_0.1uF C?
 U 1 1 60A4C26D
@@ -416,10 +410,6 @@ Wire Wire Line
 	750  1000 750  1150
 Wire Wire Line
 	1250 4200 1250 4050
-Wire Wire Line
-	1250 3650 1400 3650
-Wire Wire Line
-	1400 4050 1250 4050
 Connection ~ 1250 4050
 Wire Wire Line
 	1250 4050 1250 3650
@@ -455,32 +445,6 @@ Text Label 3600 2350 0    50   ~ 0
 CAN_RX
 Text Label 3600 2250 0    50   ~ 0
 CAN_TX
-$Comp
-L formula:ATMEGA16M1 U?
-U 1 1 60A4C28E
-P 2500 2850
-AR Path="/60A3DB07/60A4C28E" Ref="U?"  Part="1" 
-AR Path="/60A3D93E/60A4C28E" Ref="U7"  Part="1" 
-F 0 "U7" H 3400 4710 50  0000 C CNN
-F 1 "ATMEGA16M1" H 1800 4700 50  0000 C CNN
-F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2500 2850 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1550 4680 50  0001 C CNN
-F 4 "DK" H 2500 2850 60  0001 C CNN "MFN"
-F 5 "ATMEGA16M1-AU-ND" H 2500 2850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 1950 5080 60  0001 C CNN "PurchasingLink"
-	1    2500 2850
-	1    0    0    -1  
-$EndComp
-Text Label 3600 3450 0    50   ~ 0
-SG_TO_ATMEGA_ADC_2
-Text Label 3600 3550 0    50   ~ 0
-SG_TO_ATMEGA_ADC_3
-Text Label 3600 1350 0    50   ~ 0
-SG_TO_ATMEGA_ADC_5
-Text Label 3600 1650 0    50   ~ 0
-MUX_OUT_TO_ATMEGA_ADC_6
-Text Label 3600 2450 0    50   ~ 0
-MUX_ENABLE_INPUT
 Text Label 3600 2550 0    50   ~ 0
 MUX_SELECT_S0
 Text Label 3600 2650 0    50   ~ 0
@@ -558,12 +522,8 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4580 15
 $EndComp
 Wire Wire Line
 	4250 1182 4350 1182
-NoConn ~ 3600 1450
-NoConn ~ 3600 2950
 NoConn ~ 3600 3050
 NoConn ~ 3600 3650
-NoConn ~ 3600 2050
-NoConn ~ 3600 1550
 NoConn ~ 3600 2150
 Wire Wire Line
 	750  1150 1100 1150
@@ -667,7 +627,7 @@ Text Label 2300 7400 2    50   ~ 0
 PM_SCK
 Text Label 2300 7500 2    50   ~ 0
 PM_RESET
-Text Label 2800 7400 0    50   ~ 0
+Text Label 2810 7420 0    50   ~ 0
 PM_MOSI
 $Comp
 L power:GND #PWR?
@@ -736,7 +696,7 @@ Text Label 5220 6850 2    50   ~ 0
 SM_SCK
 Text Label 5220 6950 2    50   ~ 0
 SM_RESET
-Text Label 5720 6850 0    50   ~ 0
+Text Label 5730 6870 0    50   ~ 0
 SM_MOSI
 $Comp
 L power:GND #PWR?
@@ -753,8 +713,6 @@ F 3 "" H 5720 6950 50  0001 C CNN
 $EndComp
 Text Notes 4440 6480 0    89   ~ 0
 328P PROGRAMMING HEADER\n
-Text Label 5720 6750 0    50   ~ 0
-3.3V
 Wire Wire Line
 	9510 5320 9600 5320
 $Comp
@@ -796,25 +754,23 @@ $EndComp
 Wire Wire Line
 	10040 5530 10040 5630
 Text Label 9510 5420 0    50   ~ 0
-PM_SCK
+SM_SCK
 Wire Wire Line
 	9600 5120 10040 5120
 Text Label 9510 5520 0    50   ~ 0
-PM_MISO
+SM_MISO
 Text Label 9510 5620 0    50   ~ 0
-PM_MOSI
+SM_MOSI
 Text Label 9510 5720 0    50   ~ 0
-PM_CS
+SM_CS
 Wire Wire Line
 	8400 5030 8400 5240
 Text Label 8610 5420 2    50   ~ 0
-SM_SCK
+PM_SCK
 Text Label 8610 5520 2    50   ~ 0
-SM_MISO
-Text Label 8610 5720 2    50   ~ 0
-SM_CS
+PM_MISO
 Text Label 8610 5620 2    50   ~ 0
-SM_MOSI
+PM_MOSI
 Wire Wire Line
 	8400 5320 8610 5320
 $Comp
@@ -900,8 +856,6 @@ Wire Wire Line
 	3350 6250 3500 6250
 Connection ~ 750  1150
 Connection ~ 1100 1150
-Wire Wire Line
-	1100 1150 1400 1150
 Connection ~ 1100 1450
 Text GLabel 3600 1750 2    50   Input ~ 0
 POT_MICRO_SENSE
@@ -1013,86 +967,14 @@ Wire Wire Line
 	9770 3530 9840 3530
 Wire Wire Line
 	6640 1180 6760 1180
-$Comp
-L power:+5V #PWR044
-U 1 1 61022A0F
-P 750 1000
-F 0 "#PWR044" H 750 850 50  0001 C CNN
-F 1 "+5V" H 765 1173 50  0000 C CNN
-F 2 "" H 750 1000 50  0001 C CNN
-F 3 "" H 750 1000 50  0001 C CNN
-	1    750  1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR059
-U 1 1 6102A539
-P 4850 3500
-F 0 "#PWR059" H 4850 3350 50  0001 C CNN
-F 1 "+5V" H 4865 3673 50  0000 C CNN
-F 2 "" H 4850 3500 50  0001 C CNN
-F 3 "" H 4850 3500 50  0001 C CNN
-	1    4850 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10270 5840 10270 5980
-$Comp
-L power:+5V #PWR071
-U 1 1 6102D834
-P 10270 5840
-F 0 "#PWR071" H 10270 5690 50  0001 C CNN
-F 1 "+5V" H 10285 6013 50  0000 C CNN
-F 2 "" H 10270 5840 50  0001 C CNN
-F 3 "" H 10270 5840 50  0001 C CNN
-	1    10270 5840
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR052
-U 1 1 6103E904
-P 2800 7300
-F 0 "#PWR052" H 2800 7150 50  0001 C CNN
-F 1 "+5V" H 2815 7473 50  0000 C CNN
-F 2 "" H 2800 7300 50  0001 C CNN
-F 3 "" H 2800 7300 50  0001 C CNN
-	1    2800 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR050
-U 1 1 61044ED6
-P 2550 5350
-F 0 "#PWR050" H 2550 5200 50  0001 C CNN
-F 1 "+5V" H 2565 5523 50  0000 C CNN
-F 2 "" H 2550 5350 50  0001 C CNN
-F 3 "" H 2550 5350 50  0001 C CNN
-	1    2550 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR064
-U 1 1 6104C577
-P 8400 5030
-F 0 "#PWR064" H 8400 4880 50  0001 C CNN
-F 1 "+5V" H 8415 5203 50  0000 C CNN
-F 2 "" H 8400 5030 50  0001 C CNN
-F 3 "" H 8400 5030 50  0001 C CNN
-	1    8400 5030
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3600 808  3600 1150
 Wire Wire Line
 	3950 1182 3950 1250
 Wire Wire Line
 	3950 1250 3600 1250
-Text Label 3630 1890 0    50   ~ 0
-SG_TO_ATMEGA_ADC_4
-Wire Wire Line
-	3600 1850 3630 1850
-Wire Wire Line
-	3630 1850 3630 1890
 $Comp
 L formula:TXB0104 U?
 U 1 1 60A93C2A
@@ -1110,7 +992,172 @@ F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TXB0104PWR/296-
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9510 5820
-NoConn ~ 8590 5820
+NoConn ~ 8610 5820
 Text GLabel 6760 1180 2    50   Input ~ 0
 3.3V
+Text GLabel 750  1000 1    50   Input ~ 0
+5V
+Text GLabel 4850 3500 1    50   Input ~ 0
+5V
+Text GLabel 8400 5030 1    50   Input ~ 0
+5V
+Text GLabel 10270 5840 1    50   Input ~ 0
+5V
+Text GLabel 5720 6750 2    50   Input ~ 0
+3.3V
+Wire Wire Line
+	5720 6850 5730 6850
+Wire Wire Line
+	5730 6850 5730 6870
+Text GLabel 2800 7300 2    50   Input ~ 0
+5V
+Wire Wire Line
+	2800 7400 2810 7400
+Wire Wire Line
+	2810 7400 2810 7420
+Text GLabel 2550 5350 1    50   Input ~ 0
+5V
+Text GLabel 3600 1350 2    50   Input ~ 0
+STRAIN_MUX1_OUT
+Text GLabel 3600 1650 2    50   Input ~ 0
+STRAIN_MUX2_OUT
+Text GLabel 3600 1550 2    50   Input ~ 0
+nSTRAIN_MUX1_EN
+Text GLabel 3600 2050 2    50   Input ~ 0
+nSTRAIN_MUX2_EN
+Text GLabel 3600 2950 2    50   Input ~ 0
+STRAIN_S0
+Text GLabel 3630 2420 2    50   Input ~ 0
+STRAIN_S1
+Wire Wire Line
+	3600 2450 3630 2450
+Wire Wire Line
+	3630 2450 3630 2420
+Wire Wire Line
+	1400 4050 1250 4050
+Wire Wire Line
+	1250 3650 1400 3650
+Wire Wire Line
+	1400 1450 1100 1450
+Wire Wire Line
+	1100 1150 1400 1150
+$Comp
+L formula:ATMEGA16M1 U?
+U 1 1 60A4C28E
+P 2500 2850
+AR Path="/60A3DB07/60A4C28E" Ref="U?"  Part="1" 
+AR Path="/60A3D93E/60A4C28E" Ref="U7"  Part="1" 
+F 0 "U7" H 3400 4710 50  0000 C CNN
+F 1 "ATMEGA16M1" H 1800 4700 50  0000 C CNN
+F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 2500 2850 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 1550 4680 50  0001 C CNN
+F 4 "DK" H 2500 2850 60  0001 C CNN "MFN"
+F 5 "ATMEGA16M1-AU-ND" H 2500 2850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 1950 5080 60  0001 C CNN "PurchasingLink"
+	1    2500 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 3600 1450 2    50   Input ~ 0
+STRAIN_S2
+NoConn ~ 8680 2450
+Wire Wire Line
+	8680 1650 8910 1650
+$Comp
+L formula:R_200 R118
+U 1 1 61590DA3
+P 9060 1650
+F 0 "R118" V 8853 1650 50  0000 C CNN
+F 1 "R_200" V 8944 1650 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 8990 1650 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 9140 1650 50  0001 C CNN
+F 4 "DK" H 9060 1650 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 9060 1650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9540 2050 60  0001 C CNN "PurchasingLink"
+	1    9060 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:LED_0805 D11
+U 1 1 61591DE2
+P 9530 1650
+F 0 "D11" H 9523 1395 50  0000 C CNN
+F 1 "LED_0805" H 9523 1486 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 9430 1650 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 9530 1750 50  0001 C CNN
+F 4 "DK" H 9530 1650 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 9530 1650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 9930 2150 60  0001 C CNN "PurchasingLink"
+	1    9530 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9210 1650 9380 1650
+$Comp
+L power:GND #PWR059
+U 1 1 615973B2
+P 9870 1650
+F 0 "#PWR059" H 9870 1400 50  0001 C CNN
+F 1 "GND" H 9875 1477 50  0000 C CNN
+F 2 "" H 9870 1650 50  0001 C CNN
+F 3 "" H 9870 1650 50  0001 C CNN
+	1    9870 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9680 1650 9870 1650
+$Comp
+L formula:R_200 R21
+U 1 1 615BFE17
+P 9040 1080
+F 0 "R21" V 8833 1080 50  0000 C CNN
+F 1 "R_200" V 8924 1080 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 8970 1080 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 9120 1080 50  0001 C CNN
+F 4 "DK" H 9040 1080 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 9040 1080 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9520 1480 60  0001 C CNN "PurchasingLink"
+	1    9040 1080
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:LED_0805 D10
+U 1 1 615BFE20
+P 9510 1080
+F 0 "D10" H 9503 825 50  0000 C CNN
+F 1 "LED_0805" H 9503 916 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 9410 1080 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 9510 1180 50  0001 C CNN
+F 4 "DK" H 9510 1080 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 9510 1080 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 9910 1580 60  0001 C CNN "PurchasingLink"
+	1    9510 1080
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9190 1080 9360 1080
+$Comp
+L power:GND #PWR052
+U 1 1 615BFE27
+P 9850 1080
+F 0 "#PWR052" H 9850 830 50  0001 C CNN
+F 1 "GND" H 9855 907 50  0000 C CNN
+F 2 "" H 9850 1080 50  0001 C CNN
+F 3 "" H 9850 1080 50  0001 C CNN
+	1    9850 1080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9660 1080 9850 1080
+Wire Wire Line
+	8680 1550 8890 1550
+Wire Wire Line
+	8890 1550 8890 1080
+Text Label 8610 5720 2    50   ~ 0
+PM_CS
+Text GLabel 3600 1850 2    50   Input ~ 0
+FRONT_SENSE
+Text GLabel 3600 3450 2    50   Input ~ 0
+LEFT_SENSE
+Text GLabel 3600 3550 2    50   Input ~ 0
+SENSE_IN
 $EndSCHEMATC
