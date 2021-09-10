@@ -43,8 +43,6 @@ F 6 "https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160A
 $EndComp
 Wire Wire Line
 	5600 3400 5600 3500
-Text Label 5600 2850 0    50   ~ 0
-POT1_SENSE
 Wire Wire Line
 	5600 3850 5600 4000
 Wire Wire Line
@@ -67,4 +65,6 @@ F 3 "" H 5600 4000 50  0001 C CNN
 $EndComp
 Text GLabel 5750 3500 2    50   Input ~ 0
 POT_MICRO_SENSE
+Text GLabel 5600 2850 1    50   Input ~ 0
+POT1_SENSE
 $EndSCHEMATC

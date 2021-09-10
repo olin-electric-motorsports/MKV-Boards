@@ -24,7 +24,7 @@ F 3 "" H 2010 2550 50  0001 C CNN
 	1    2010 2550
 	1    0    0    -1  
 $EndComp
-Text Notes 1440 1250 0    89   ~ 0
+Text Notes 1410 1150 0    89   ~ 0
 TEMPERATURE SENSOR\n
 $Comp
 L formula:C_0.1uF C44
@@ -56,8 +56,6 @@ Wire Wire Line
 Connection ~ 2010 2500
 Wire Wire Line
 	2010 2500 2010 2550
-Text Label 2010 1420 0    50   ~ 0
-3.3V
 $Comp
 L formula:R_4.7K R116
 U 1 1 60A526A0
@@ -107,8 +105,6 @@ Wire Wire Line
 Connection ~ 1120 1590
 Wire Wire Line
 	1120 1590 1120 1630
-Text Label 1120 1380 0    50   ~ 0
-3.3V
 Wire Wire Line
 	1120 1380 1120 1590
 $Comp
@@ -126,7 +122,11 @@ F 6 "DK" H 2010 2160 50  0001 C CNN "MF"
 	1    0    0    -1  
 $EndComp
 Text GLabel 920  2060 0    50   Input ~ 0
-SCL
+SM_SCL
 Text GLabel 920  2160 0    50   Input ~ 0
-SDA
+SM_SDA
+Text GLabel 1120 1380 1    50   Input ~ 0
+3.3V
+Text GLabel 2010 1420 1    50   Input ~ 0
+3.3V
 $EndSCHEMATC

@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:VCC #PWR082
-U 1 1 60A52891
-P 5600 4290
-F 0 "#PWR082" H 5600 4140 50  0001 C CNN
-F 1 "VCC" H 5617 4463 50  0000 C CNN
-F 2 "" H 5600 4290 50  0001 C CNN
-F 3 "" H 5600 4290 50  0001 C CNN
-	1    5600 4290
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 4290 5600 4370
 $Comp
@@ -41,8 +30,8 @@ $Comp
 L formula:C_0.1uF C27
 U 1 1 60A528A1
 P 5720 4610
-F 0 "C27" H 5835 4656 50  0000 L CNN
-F 1 "C_0.1uF" H 5835 4565 50  0000 L CNN
+F 0 "C27" H 5410 4650 50  0000 L CNN
+F 1 "C_0.1uF" H 5330 4560 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 5758 4460 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5745 4710 50  0001 C CNN
 F 4 "DK" H 5720 4610 60  0001 C CNN "MFN"
@@ -445,50 +434,6 @@ Wire Wire Line
 	1530 4190 1080 4190
 Connection ~ 1530 4190
 $Comp
-L formula:R_10K R21
-U 1 1 60AC2962
-P 3380 4090
-F 0 "R21" H 3450 4136 50  0000 L CNN
-F 1 "R_10K" H 3450 4045 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 3310 4090 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 3460 4090 50  0001 C CNN
-F 4 "DK" H 3380 4090 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 3380 4090 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3860 4490 60  0001 C CNN "PurchasingLink"
-	1    3380 4090
-	1    0    0    -1  
-$EndComp
-Text Label 3730 3940 0    50   ~ 0
-Vpg
-$Comp
-L formula:R_1.18M R20
-U 1 1 60AE4FB2
-P 2530 4940
-F 0 "R20" H 2600 4986 50  0000 L CNN
-F 1 "R_1.18M" H 2600 4895 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 2460 4940 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2610 4940 50  0001 C CNN
-F 4 "Vishay Dale" H 2530 4940 60  0001 C CNN "MFN"
-F 5 "CRCW08051M18FKEA" H 2530 4940 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051M18FKEA/1176023" H 3010 5340 60  0001 C CNN "PurchasingLink"
-	1    2530 4940
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_3.65M R19
-U 1 1 60AF2558
-P 2530 4490
-F 0 "R19" H 2600 4536 50  0000 L CNN
-F 1 "R_3.65M" H 2600 4445 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 2460 4490 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2610 4490 50  0001 C CNN
-F 4 "Yageo" H 2530 4490 60  0001 C CNN "MFN"
-F 5 "RC0805FR-073M65L" H 2530 4490 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/en/products/detail/yageo/RC0805FR-073M65L/727830" H 3010 4890 60  0001 C CNN "PurchasingLink"
-	1    2530 4490
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:C_47uF C25
 U 1 1 60AF6B16
 P 3130 4490
@@ -505,22 +450,8 @@ $EndComp
 Wire Wire Line
 	2280 4240 2530 4240
 Wire Wire Line
-	3380 4240 3730 4240
-Connection ~ 3380 4240
-Wire Wire Line
-	3130 4140 3130 3940
-Wire Wire Line
-	3130 3940 3380 3940
-Wire Wire Line
-	2280 4140 3130 4140
-Wire Wire Line
-	3380 3940 3730 3940
-Connection ~ 3380 3940
-Wire Wire Line
 	3130 4340 3130 4240
 Connection ~ 3130 4240
-Wire Wire Line
-	3130 4240 3380 4240
 Wire Wire Line
 	2530 4340 2530 4240
 Connection ~ 2530 4240
@@ -747,4 +678,68 @@ Text GLabel 3730 4240 2    50   Input ~ 0
 5V
 Text GLabel 1280 1070 1    50   Input ~ 0
 12V
+Wire Wire Line
+	3130 4240 3370 4240
+$Comp
+L formula:R_10K R123
+U 1 1 615D6BA1
+P 3370 4090
+F 0 "R123" H 3440 4136 50  0000 L CNN
+F 1 "R_10K" H 3440 4045 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 3300 4090 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 3450 4090 50  0001 C CNN
+F 4 "DK" H 3370 4090 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 3370 4090 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 3850 4490 60  0001 C CNN "PurchasingLink"
+	1    3370 4090
+	1    0    0    -1  
+$EndComp
+Connection ~ 3370 4240
+Wire Wire Line
+	3370 4240 3730 4240
+Wire Wire Line
+	2280 4140 3210 4140
+Wire Wire Line
+	3210 4140 3210 3940
+Wire Wire Line
+	3210 3940 3370 3940
+Connection ~ 3370 3940
+Wire Wire Line
+	3370 3940 3710 3940
+Text Label 3710 3940 0    50   ~ 0
+Vpg
+Text Notes 3790 4130 0    50   ~ 0
+Add silkscreen on the\n layout that says DNP
+Text GLabel 5600 4290 0    50   Input ~ 0
+5V
+$Comp
+L formula:R_300K R19
+U 1 1 616E100C
+P 2530 4490
+F 0 "R19" H 2600 4536 50  0000 L CNN
+F 1 "R_300K" H 2600 4445 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 2460 4490 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 2610 4490 50  0001 C CNN
+F 4 "DK" H 2530 4490 60  0001 C CNN "MFN"
+F 5 "P300KDACT-ND" H 2530 4490 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006" H 3010 4890 60  0001 C CNN "PurchasingLink"
+	1    2530 4490
+	1    0    0    -1  
+$EndComp
+Text Notes 1750 5550 0    50   ~ 0
+Replaced 3.65M and 1.18M resistors with 300K \nand 100K resistors respectively. Still buy both \nsets of resistors, so that we can test both.
+$Comp
+L formula:R_100K R20
+U 1 1 616EE8A4
+P 2530 4940
+F 0 "R20" H 2600 4986 50  0000 L CNN
+F 1 "R_100K" H 2600 4895 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 2460 4940 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 2610 4940 50  0001 C CNN
+F 4 "DK" H 2530 4940 60  0001 C CNN "MFN"
+F 5 "P100KCCT-ND" H 2530 4940 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 3010 5340 60  0001 C CNN "PurchasingLink"
+	1    2530 4940
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
