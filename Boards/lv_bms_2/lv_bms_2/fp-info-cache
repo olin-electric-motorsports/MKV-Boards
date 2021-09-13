@@ -1,4 +1,4 @@
-19457964530234699
+19466122061524699
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83552,6 +83552,13 @@ MSOP-8
 8
 8
 formula
+MSOP-12_MSE
+
+
+0
+13
+13
+formula
 Meder-LI12
 
 
@@ -83839,6 +83846,13 @@ Olin O logo
 0
 0
 formula
+OPTO_HCPL-070A-000E
+
+
+0
+8
+8
+formula
 Olin_Electric_Smaller
 
 
@@ -84119,6 +84133,13 @@ SM_5
 2
 2
 formula
+SO-8_S
+
+
+0
+8
+8
+formula
 SOD-323
 
 
@@ -84321,6 +84342,13 @@ D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
 0
 5
 2
+formula
+TO-263-3-TabPin2
+
+
+0
+8
+3
 formula
 TO381P2016X515X2916-4
 Footprint for relay CPC1979J
@@ -84649,6 +84677,13 @@ redcube_7461166
 
 0
 13
+1
+formula
+redcube_pressfit_6pin
+
+
+0
+6
 1
 formula
 sd_socket_molex_5009980900
