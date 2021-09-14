@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 20
 Title ""
 Date ""
 Rev ""
@@ -56,29 +56,5 @@ S 800  5350 3450 550
 U 60A3DAC4
 F0 "wheel_speed" 50
 F1 "wheel_speed.sch" 50
-$EndSheet
-$Sheet
-S 7550 1200 900  650 
-U 60A3DB07
-F0 "suspension_strain_Carryover" 50
-F1 "suspension_strain_carryover.sch" 50
-$EndSheet
-$Sheet
-S 7550 2250 900  650 
-U 60A3DB43
-F0 "suspension_travel_carryover" 50
-F1 "suspension_travel_carryover.sch" 50
-$EndSheet
-$Sheet
-S 7550 3150 850  500 
-U 60A3DB76
-F0 "tire_temp_carryover" 50
-F1 "tire_temp_carryover.sch" 50
-$EndSheet
-$Sheet
-S 7600 4000 800  500 
-U 60A3DBAF
-F0 "wheel_speed_carryover" 50
-F1 "wheel_speed_carryover.sch" 50
 $EndSheet
 $EndSCHEMATC
