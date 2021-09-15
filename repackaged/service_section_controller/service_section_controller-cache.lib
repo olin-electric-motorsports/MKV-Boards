@@ -1,38 +1,67 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_D_Schottky_Small
-#
-DEF Device_D_Schottky_Small D 0 10 N N 1 F N
-F0 "D" -50 80 50 H V L CNN
-F1 "Device_D_Schottky_Small" -280 -80 50 H V L CNN
-F2 "" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -30 0 30 0 N
-P 4 0 1 10 30 -40 -30 0 30 40 30 -40 N
-P 6 0 1 10 -50 30 -50 40 -30 40 -30 -40 -10 -40 -10 -30 N
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # formula_ATMEGA16M1
 #
 DEF formula_ATMEGA16M1 U 0 40 Y Y 1 F N
 F0 "U" -950 1830 50 H V L BNN
 F1 "formula_ATMEGA16M1" 500 -1400 50 H V L BNN
 F2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" 0 0 50 H I C CIN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" -950 1830 50 H I C CNN
+F3 "" -950 1830 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "ATMEGA16M1-AU-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" -550 2230 60 H I C CNN "PurchasingLink"
+$FPLIST
+ TQFP*32*7x7mm*
+$ENDFPLIST
+DRAW
+S -950 1800 950 -1300 0 1 10 f
+X (PCINT18/PSCIN2/OC1A/MISO_A)PD2 1 1100 -300 150 L 40 40 1 1 B
+X (PCINT25/OC0B/XTAL1)PE1 10 1100 -1100 150 L 40 40 1 1 B
+X (PCINT26/ADC0/XTAL2)PE2 11 1100 -1200 150 L 40 40 1 1 B
+X (PCINT20/ADC1/RXD/RXLIN/ICP1A/SCK_A)PD4 12 1100 -500 150 L 40 40 1 1 B
+X (PCINT21/ADC2/ACMP2)PD5 13 1100 -600 150 L 40 40 1 1 B
+X (PCINT22/ADC3/INT0/ACMPN2)PD6 14 1100 -700 150 L 40 40 1 1 B
+X (PCINT23/ACMP0)PD7 15 1100 -800 150 L 40 40 1 1 B
+X (PCINT2/ADC5/INT1/ACMPN0)PB2 16 1100 1500 150 L 40 40 1 1 B
+X (PCINT12/ADC8/ACMPN3/AMP1-)PC4 17 1100 400 150 L 40 40 1 1 B
+X (PCINT13/ADC9/ACMP3/AMP1+)PC5 18 1100 300 150 L 40 40 1 1 B
+X AVCC 19 -1100 1400 150 R 40 40 1 1 W
+X (PCINT19/TXD/TXLIN/OC0A/~SS~/MOSI_A)PD3 2 1100 -400 150 L 40 40 1 1 B
+X AGND 20 -1100 -800 150 R 40 40 1 1 W
+X AREF(ISRC) 21 -1100 1000 150 R 40 40 1 1 W
+X (PCINT14/ADC10/ACMP1)PC6 22 1100 200 150 L 40 40 1 1 B
+X (PCINT3/AMP0-)PB3 23 1100 1400 150 L 40 40 1 1 B
+X (PCINT4/AMP0+)PB4 24 1100 1300 150 L 40 40 1 1 B
+X (PCINT15/D2A/AMP2+)PC7 25 1100 100 150 L 40 40 1 1 B
+X (PCINT5/ADC6/INT2/ACMPN1/AMP2-)PB5 26 1100 1200 150 L 40 40 1 1 B
+X (PCINT6/ADC7/PSCOUT1B)PB6 27 1100 1100 150 L 40 40 1 1 B
+X (PCINT7/ADC4/SCK/PSCOUT0B)PB7 28 1100 1000 150 L 40 40 1 1 B
+X (PCINT16/PSCOUT0A)PD0 29 1100 -100 150 L 40 40 1 1 B
+X (PCINT9/PSCIN1/OC1B/~SS_A~)PC1 3 1100 700 150 L 40 40 1 1 B
+X (PCINT8/INT3/PSCOUT1A)PC0 30 1100 800 150 L 40 40 1 1 B
+X (PCINT24/OCD/~RESET~)PE0 31 1100 -1000 150 L 40 40 1 1 B
+X (PCINT17/CLKO/PSCIN0)PD1 32 1100 -200 150 L 40 40 1 1 B
+X VCC 4 -1100 1700 150 R 40 40 1 1 W
+X GND 5 -1100 -1200 150 R 40 40 1 1 W
+X (PCINT10/T0/TXCAN)PC2 6 1100 600 150 L 40 40 1 1 B
+X (PCINT11/T1/ICP1B/RXCAN)PC3 7 1100 500 150 L 40 40 1 1 B
+X (PCINT0/MISO/PSCOUT2A)PB0 8 1100 1700 150 L 40 40 1 1 B
+X (PCINT1/MOSI/PSCOUT2B)PB1 9 1100 1600 150 L 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+# formula_ATMEGA64M1
+#
+DEF formula_ATMEGA64M1 U 0 40 Y Y 1 F N
+F0 "U" -950 1830 50 H V L BNN
+F1 "formula_ATMEGA64M1" 500 -1400 50 H V L BNN
+F2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" 0 0 50 H I C CIN
+F3 "" -950 1830 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "ATMEGA16M1-AU-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" -550 2230 60 H I C CNN "PurchasingLink"
+ALIAS ATMEGA64M1
 $FPLIST
  TQFP*32*7x7mm*
 $ENDFPLIST
@@ -140,34 +169,34 @@ X VCC 5 0 350 200 D 50 28 1 1 B
 ENDDRAW
 ENDDEF
 #
-# formula_CD4043BPWR
+# formula_CD4044BDR
 #
-DEF formula_CD4043BPWR U 0 40 Y Y 1 F N
-F0 "U" -250 400 60 H V C CNN
-F1 "formula_CD4043BPWR" -50 -500 60 H V C CNN
-F2 "footprints:TSSOP-16-OEM" -150 450 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/cd4043b.pdf" -150 450 60 H I C CNN
-F4 "DK" -50 600 60 H I C CNN "MFN"
-F5 "296-14106-1-ND" -150 500 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/CD4043BPWR/296-14106-1-ND/525904" 50 700 60 H I C CNN "PurchasingLink"
+DEF formula_CD4044BDR U 0 40 Y Y 1 F N
+F0 "U" -450 900 50 H V L BNN
+F1 "formula_CD4044BDR" -450 800 50 H V L BNN
+F2 "footprints:SOIC127P600X175-16N" -500 -750 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "DK" 0 0 50 H I C CNN "MNF"
+F5 "296-31498-1-ND" -50 0 50 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/texas-instruments/CD4044BDR/1691063?s=N4IgTCBcDaIMIBEAsAGJSBCCBKIC6AvkA" -50 0 50 H I C CNN "Purchasing Link"
 DRAW
-S -300 350 250 -450 0 1 0 f
-X Q4 1 -500 300 200 R 50 50 1 1 O
-X Q3 10 450 -300 200 L 50 50 1 1 O
-X R3 11 450 -200 200 L 50 50 1 1 I
-X S3 12 450 -100 200 L 50 50 1 1 I
-X NC 13 450 0 200 L 50 50 1 1 N
-X S4 14 450 100 200 L 50 50 1 1 I
-X R4 15 450 200 200 L 50 50 1 1 I
-X Vdd 16 450 300 200 L 50 50 1 1 I
-X Q1 2 -500 200 200 R 50 50 1 1 O
-X R1 3 -500 100 200 R 50 50 1 1 I
-X S1 4 -500 0 200 R 50 50 1 1 I
-X ENABLE 5 -500 -100 200 R 50 50 1 1 I
-X S2 6 -500 -200 200 R 50 50 1 1 I
-X R2 7 -500 -300 200 R 50 50 1 1 I
-X Vss 8 -500 -400 200 R 50 50 1 1 I
-X Q2 9 450 -400 200 L 50 50 1 1 O
+S -500 -50 50 750 0 0 8 f
+X Q4 1 -700 700 200 R 50 50 0 0 O
+X Q3 10 250 100 200 L 50 50 0 0 O
+X S3 11 250 200 200 L 50 50 0 0 I
+X R3 12 250 300 200 L 50 50 0 0 I
+X Q1 13 250 400 200 L 50 50 0 0 O
+X R4 14 250 500 200 L 50 50 0 0 I
+X S4 15 250 600 200 L 50 50 0 0 I
+X VDD 16 250 700 200 L 50 50 0 0 W
+X NC 2 -700 600 200 R 50 50 0 0 I
+X S1 3 -700 500 200 R 50 50 0 0 I
+X R1 4 -700 400 200 R 50 50 0 0 I
+X ENABLE 5 -700 300 200 R 50 50 0 0 I
+X R2 6 -700 200 200 R 50 50 0 0 I
+X S2 7 -700 100 200 R 50 50 0 0 I
+X VSS 8 -700 0 200 R 50 50 0 0 W
+X Q2 9 250 0 200 L 50 50 0 0 O
 ENDDRAW
 ENDDEF
 #
@@ -363,14 +392,21 @@ ENDDEF
 #
 # formula_C_10nF
 #
-DEF formula_C_10nF C 0 40 Y Y 1 F N
-F0 "C" -100 100 50 H V C CNN
-F1 "formula_C_10nF" 150 0 50 V V C CNN
-F2 "footprints:C_0805_OEM" -200 0 50 H I C CNN
-F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" -100 100 50 H I C CNN
-F4 "DK" 0 200 50 H I C CNN "MFN"
-F5 "1276-1015-1-ND" 100 300 50 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" 200 400 50 H I C CNN "PurchasingLink"
+DEF formula_C_10nF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "formula_C_10nF" 25 -100 50 H V L CNN
+F2 "footprints:C_1206_OEM" 38 -150 50 H I C CNN
+F3 "" 25 100 50 H I C CNN
+F4 "Kemet" 0 0 60 H I C CNN "MFN"
+F5 "C1206C103KCRACTU" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/kemet/C1206C103KCRACTU/721283" 425 500 60 H I C CNN "PurchasingLink"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
@@ -739,42 +775,6 @@ X ~ 5 -200 300 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# formula_G5Q-1A4-DC5-5V
-#
-DEF formula_G5Q-1A4-DC5-5V K 0 40 Y Y 1 F N
-F0 "K" 350 150 50 H V L CNN
-F1 "formula_G5Q-1A4-DC5-5V" -400 -150 50 H V L CNN
-F2 "footprints:Relay_SPST_OMRON-G5Q-1A4_OEM" 450 -50 50 H I L CNN
-F3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf" 450 -350 50 H I L CNN
-F4 "DK" 850 550 60 H I C CNN "MFN"
-F5 "Z3632-ND" 750 450 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q-1A4-DC5/Z3632-ND/1815721" 950 650 60 H I C CNN "PurchasingLink"
-$FPLIST
- Relay?SPDT?OMRON?G5Q*
-$ENDFPLIST
-DRAW
-S -400 200 300 -200 0 1 10 f
-S -325 75 -75 -75 0 1 10 N
-P 2 0 0 0 100 150 100 200 N
-P 2 0 1 10 -300 -75 -100 75 N
-P 2 0 1 0 -200 -200 -200 -75 N
-P 2 0 1 0 -200 200 -200 75 N
-P 2 0 1 10 -75 0 -50 0 N
-P 2 0 1 10 -25 0 0 0 N
-P 2 0 1 10 25 0 50 0 N
-P 2 0 1 10 25 0 50 0 N
-P 2 0 1 10 75 0 100 0 N
-P 2 0 1 0 100 -100 100 -200 N
-P 2 0 1 20 100 -100 200 100 N
-P 2 0 1 10 125 0 150 0 N
-P 3 0 1 0 100 100 125 125 100 150 F
-X ~ 1 -200 -300 100 U 50 50 1 1 P
-X ~ 2 100 -300 100 U 50 50 1 1 P
-X ~ 3 100 300 100 D 50 50 1 1 P
-X ~ 5 -200 300 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # formula_LED_0805
 #
 DEF formula_LED_0805 D 0 40 N N 1 F N
@@ -939,33 +939,6 @@ X - 4 -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# formula_MM_F_VT_12
-#
-DEF formula_MM_F_VT_12 J 0 40 Y Y 1 F N
-F0 "J" 0 650 60 H V C CNN
-F1 "formula_MM_F_VT_12" 50 -700 60 H V C CNN
-F2 "footprints:micromatch_female_vert_12" -100 550 60 H I C CNN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-2" -100 1200 60 H I C CNN
-F4 "TE" 100 1400 60 H I C CNN "MFN"
-F5 "1-338068-2" 200 1500 60 H I C CNN "MPN"
-F6 "http://www.te.com/global-en/product-1-338068-2.html" 0 1300 60 H I C CNN "PurchasingLink"
-DRAW
-S 150 -600 -150 600 0 1 0 f
-X 1 1 250 550 100 L 50 50 1 1 B
-X 10 10 250 -350 100 L 50 50 1 1 B
-X 11 11 250 -450 100 L 50 50 1 1 B
-X 12 12 250 -550 100 L 50 50 1 1 B
-X 2 2 250 450 100 L 50 50 1 1 B
-X 3 3 250 350 100 L 50 50 1 1 B
-X 4 4 250 250 100 L 50 50 1 1 B
-X 5 5 250 150 100 L 50 50 1 1 B
-X 6 6 250 50 100 L 50 50 1 1 B
-X 7 7 250 -50 100 L 50 50 1 1 B
-X 8 8 250 -150 100 L 50 50 1 1 B
-X 9 9 250 -250 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # formula_MM_F_VT_16
 #
 DEF formula_MM_F_VT_16 J 0 40 Y Y 1 F N
@@ -997,24 +970,36 @@ X 9 9 250 0 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# formula_MP9488
+# formula_MM_F_VT_18
 #
-DEF formula_MP9488 U 0 40 Y Y 1 F N
-F0 "U" 0 750 50 H V C CNN
-F1 "formula_MP9488" 50 850 50 H V C CNN
-F2 "footprints:Converter_DCDC_MPS_MP9488" 50 950 50 H I C CNN
-F3 "" 0 750 50 H I C CNN
-F4 "https://www.monolithicpower.com/en/mp9488.html" 50 1050 50 H I C CNN "Purchasing Link"
+DEF formula_MM_F_VT_18 J 0 40 Y Y 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "formula_MM_F_VT_18" 0 -800 60 H V C CNN
+F2 "footprints:micromatch_female_vert_18" -200 1100 60 H I C CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-8" -100 1200 60 H I C CNN
+F4 "TE" 100 1400 60 H I C CNN "MFN"
+F5 "1-338068-8" 200 1500 60 H I C CNN "MPN"
+F6 "http://www.te.com/global-en/product-1-338068-8.html" 0 1300 60 H I C CNN "PurchasingLink"
 DRAW
-S -150 200 400 -350 0 1 0 f
-X VCC 1 100 300 100 D 50 50 1 1 B
-X FB 2 500 -50 100 L 50 50 1 1 B
-X SW 3 250 -450 100 U 50 50 1 1 B
-X SW 4 100 -450 100 U 50 50 1 1 B
-X NC 5 -250 50 100 R 50 50 1 1 B
-X NC 6 -250 -50 100 R 50 50 1 1 B
-X VIN 7 -250 -150 100 R 50 50 1 1 B
-X NC 8 -250 -250 100 R 50 50 1 1 B
+S 50 -650 -250 1150 0 1 0 f
+X 1 1 150 1100 100 L 50 50 1 1 B
+X 10 10 150 200 100 L 50 50 1 1 B
+X 11 11 150 100 100 L 50 50 1 1 B
+X 12 12 150 0 100 L 50 50 1 1 B
+X 13 13 150 -100 100 L 50 50 1 1 B
+X 14 14 150 -200 100 L 50 50 1 1 B
+X 15 15 150 -300 100 L 50 50 1 1 B
+X 16 16 150 -400 100 L 50 50 1 1 B
+X 17 17 150 -500 100 L 50 50 1 1 B
+X 18 18 150 -600 100 L 50 50 1 1 B
+X 2 2 150 1000 100 L 50 50 1 1 B
+X 3 3 150 900 100 L 50 50 1 1 B
+X 4 4 150 800 100 L 50 50 1 1 B
+X 5 5 150 700 100 L 50 50 1 1 B
+X 6 6 150 600 100 L 50 50 1 1 B
+X 7 7 150 500 100 L 50 50 1 1 B
+X 8 8 150 400 100 L 50 50 1 1 B
+X 9 9 150 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -1086,6 +1071,27 @@ F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&Do
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "A121322CT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/products/en?keywords=A121322CT-ND" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_R_1.13K
+#
+DEF formula_R_1.13K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula_R_1.13K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "P1.13KDACT-ND" 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1131V/P1.13KDACT-ND/3074923" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -1305,6 +1311,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# formula_R_23.7K
+#
+DEF formula_R_23.7K R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula_R_23.7K" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "" 80 0 50 H I C CNN
+F4 "DK" 0 0 60 H I C CNN "MFN"
+F5 "P21173CT-ND " 0 0 60 H I C CNN "MPN"
+F6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PB6D2372V/6213956" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # formula_R_270K
 #
 DEF formula_R_270K R 0 0 N Y 1 F N
@@ -1378,6 +1405,41 @@ F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 80 0 50 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "RMCF0805FT3K00CT-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT3K00/RMCF0805FT3K00CT-ND/2418389" 480 400 60 H I C CNN "PurchasingLink"
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_R_4.99K
+#
+DEF formula_R_4.99K R 0 40 N N 1 F N
+F0 "R" -100 50 50 H V C CNN
+F1 "formula_R_4.99K" 100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -200 -50 50 H I C CNN
+F3 "" -100 50 50 H I C CNN
+F4 "RNCP0805FTD4K99CT-ND " 0 150 50 H I C CNN "MPN"
+F5 "DK" 100 250 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" 200 350 50 H I C CNN "PurchasingLink"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# formula_R_43k
+#
+DEF formula_R_43k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "formula_R_43k" -100 0 50 V V C CNN
+F2 "footprints:R_0805_OEM" -70 0 50 H I C CNN
+F3 "" 80 0 50 H I C CNN
 $FPLIST
  R_*
  Resistor_*
@@ -1481,27 +1543,6 @@ F1 "formula_R_6.04K" -100 0 50 V V C CNN
 F2 "footprints:R_0805_OEM" -70 550 50 H I C CNN
 F3 "" 80 550 50 H I C CNN
 F4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF6041V/P6.04KCCT-ND/119185" 480 400 60 H I C CNN "PurchasingLink"
-$FPLIST
- R_*
- Resistor_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# formula_R_6.2K
-#
-DEF formula_R_6.2K R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "formula_R_6.2K" -100 0 50 V V C CNN
-F2 "footprints:R_0805_OEM" -70 550 50 H I C CNN
-F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 80 550 50 H I C CNN
-F4 "DK" 0 0 60 H I C CNN "MFN"
-F5 "P6.20KCCT-ND" 0 550 60 H I C CNN "MPN"
-F6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF6201V/P6.20KCCT-ND/1746887" 480 400 60 H I C CNN "PurchasingLink"
 $FPLIST
  R_*
  Resistor_*
@@ -1864,8 +1905,8 @@ ENDDEF
 DEF formula_UF_5_VT J 0 40 Y N 1 F N
 F0 "J" 0 300 60 H V C CNN
 F1 "formula_UF_5_VT" 0 -350 60 H V C CNN
-F2 "" -100 250 60 H I C CNN
-F3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" 0 350 60 H I C CNN
+F2 "formula:Ultrafit_5" -100 250 60 H I C CNN
+F3 "" 0 350 60 H I C CNN
 F4 "DK" 0 0 60 H I C CNN "MFN"
 F5 "WM11667-ND" 0 0 60 H I C CNN "MPN"
 F6 "https://www.digikey.com/product-detail/en/molex-llc/1722861105/WM11667-ND/5360132" 500 850 60 H I C CNN "PurchasingLink"
@@ -1954,6 +1995,27 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# service_section_controller-rescue_MP9488-formula
+#
+DEF service_section_controller-rescue_MP9488-formula U 0 40 Y Y 1 F N
+F0 "U" 0 750 50 H V C CNN
+F1 "service_section_controller-rescue_MP9488-formula" 50 850 50 H V C CNN
+F2 "footprints:Converter_DCDC_MPS_MP9488" 50 950 50 H I C CNN
+F3 "" 0 750 50 H I C CNN
+F4 "https://www.monolithicpower.com/en/mp9488.html" 50 1050 50 H I C CNN "Purchasing Link"
+DRAW
+S -150 200 400 -350 0 1 0 f
+X VCC 1 100 300 100 D 50 50 1 1 B
+X FB 2 500 -50 100 L 50 50 1 1 B
+X SW 3 250 -450 100 U 50 50 1 1 B
+X SW 4 100 -450 100 U 50 50 1 1 B
+X NC 5 -250 50 100 R 50 50 1 1 B
+X NC 6 -250 -50 100 R 50 50 1 1 B
+X VIN 7 -250 -150 100 R 50 50 1 1 B
+X NC 8 -250 -250 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
