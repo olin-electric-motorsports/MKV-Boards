@@ -675,4 +675,15 @@ Text GLabel 4350 4750 2    50   Input ~ 0
 5V_AIR_CONTROL
 Text GLabel 4400 2900 2    50   Input ~ 0
 5V_AIR_CONTROL
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61460A42
+P 9200 4500
+F 0 "TP?" H 9258 4618 50  0000 L CNN
+F 1 "TestPoint" H 9258 4527 50  0000 L CNN
+F 2 "" H 9400 4500 50  0001 C CNN
+F 3 "~" H 9400 4500 50  0001 C CNN
+	1    9200 4500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

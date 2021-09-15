@@ -85,21 +85,7 @@ Wire Wire Line
 	4650 3750 5300 3750
 Wire Wire Line
 	5200 4100 5200 4700
-$Comp
-L formula:MM_F_VT_12 J1101
-U 1 1 60AEF2ED
-P 5750 4950
-F 0 "J1101" V 5861 4322 60  0000 R CNN
-F 1 "MM_F_VT_12" V 5755 4322 60  0000 R CNN
-F 2 "footprints:micromatch_female_vert_12" H 5650 5500 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-2" H 5650 6150 60  0001 C CNN
-F 4 "TE" H 5850 6350 60  0001 C CNN "MFN"
-F 5 "1-338068-2" H 5950 6450 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-338068-2.html" H 5750 6250 60  0001 C CNN "PurchasingLink"
-	1    5750 4950
-	0    -1   -1   0   
-$EndComp
-Text Notes 4950 5550 0    50   ~ 0
+Text Notes 4950 5600 0    50   ~ 0
 Trust me, you’ll be thankful when harnessing :)
 Text GLabel 6850 3850 2    50   Input ~ 0
 DETECT_BMS
@@ -203,4 +189,17 @@ Wire Wire Line
 	5900 5200 5900 4700
 Connection ~ 6300 4700
 Connection ~ 5900 4700
+$Comp
+L formula:MicroFit_VT_12 J1101
+U 1 1 60C39B4F
+P 5750 4900
+F 0 "J1101" V 5700 4150 50  0000 C CNN
+F 1 "MicroFit_VT_12" V 5800 4000 50  0000 C CNN
+F 2 "footprints:MicroFit_VT_12" H 5750 4150 100 0001 C CNN
+F 3 "" H 5800 4850 100 0001 C CNN
+	1    5750 4900
+	0    -1   -1   0   
+$EndComp
+Text Notes 4650 1550 0    98   ~ 0
+SHUTDOWN  CIRCUIT CONNECTOR
 $EndSCHEMATC

@@ -755,11 +755,11 @@ Connection ~ 6550 5200
 Wire Wire Line
 	6550 5200 6850 5200
 Text Label 7350 5600 0    50   ~ 0
-12v_BUCK
+12V_BUCK
 Wire Wire Line
 	7150 5600 7350 5600
 Text Label 2950 1900 2    50   ~ 0
-12v_BUCK
+12V_BUCK
 Wire Wire Line
 	7850 2000 8050 2000
 Wire Wire Line
