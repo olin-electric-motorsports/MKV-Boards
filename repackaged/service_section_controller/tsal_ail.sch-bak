@@ -35,8 +35,8 @@ U 1 1 6112503F
 P 3700 3950
 AR Path="/60A3B236/6112503F" Ref="U?"  Part="1" 
 AR Path="/60A3B41E/6112503F" Ref="U601"  Part="1" 
-F 0 "U601" H 4044 3996 50  0000 L CNN
-F 1 "MCP6001" H 4044 3905 50  0000 L CNN
+F 0 "U601" H 3700 4100 50  0000 L CNN
+F 1 "MCP6001" H 3700 3800 50  0000 L CNN
 F 2 "footprints:SOT-23-5" H 3600 4050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3700 4150 50  0001 C CNN
 F 4 "DK" H 3800 4250 60  0001 C CNN "MFN"
@@ -134,7 +134,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 3650 2650 3650
 Wire Wire Line
-	3400 3850 2950 3850
+	3400 3850 3250 3850
 Wire Wire Line
 	2950 3850 2950 3650
 Wire Wire Line
@@ -145,16 +145,16 @@ Connection ~ 2950 3850
 Wire Wire Line
 	1950 4050 1150 4050
 Wire Wire Line
-	1200 4500 1150 4500
+	1350 4500 1250 4500
 Wire Wire Line
-	1500 4500 1800 4500
+	1650 4500 1800 4500
 Wire Wire Line
 	3400 4500 3400 4050
 Wire Wire Line
 	1800 4500 1800 4800
 Connection ~ 1800 4500
 Wire Wire Line
-	1800 4500 3400 4500
+	1800 4500 2400 4500
 Wire Wire Line
 	3600 4250 3600 4650
 Wire Wire Line
@@ -200,7 +200,7 @@ Wire Wire Line
 	3750 2950 3600 2950
 Connection ~ 3600 2950
 Wire Wire Line
-	3600 2950 3600 2600
+	3600 2950 3600 2850
 Wire Wire Line
 	4250 2950 4250 3400
 Wire Wire Line
@@ -209,7 +209,7 @@ Connection ~ 4250 3400
 Wire Wire Line
 	4250 3400 4250 3700
 Wire Wire Line
-	4000 3950 4550 3950
+	4000 3950 4150 3950
 Wire Wire Line
 	4550 3950 4550 4200
 Connection ~ 4550 3950
@@ -426,15 +426,15 @@ $EndComp
 $Comp
 L formula:R_1.91K R?
 U 1 1 6112516C
-P 1350 4500
+P 1500 4500
 AR Path="/60A3B236/6112516C" Ref="R?"  Part="1" 
 AR Path="/60A3B41E/6112516C" Ref="R602"  Part="1" 
-F 0 "R602" V 1143 4500 50  0000 C CNN
-F 1 "R_1.91K" V 1234 4500 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 1280 4500 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 1430 4500 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D1911V/P21049CT-ND/6215304" H 1830 4900 60  0001 C CNN "PurchasingLink"
-	1    1350 4500
+F 0 "R602" V 1293 4500 50  0000 C CNN
+F 1 "R_1.91K" V 1384 4500 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 1430 4500 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 1580 4500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D1911V/P21049CT-ND/6215304" H 1980 4900 60  0001 C CNN "PurchasingLink"
+	1    1500 4500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -660,4 +660,101 @@ Text Notes 1850 4500 0    50   ~ 0
 14.46V
 Text Notes 6750 6150 0    50   ~ 0
 LAYOUT NOTE: HV and LV need to be separated by at least 30.2mm
+$Comp
+L formula:Test_Point_SMD TP601
+U 1 1 615FD994
+P 1250 4700
+F 0 "TP601" H 1550 4900 50  0000 R CNN
+F 1 "15V+" H 1550 4800 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1250 4550 50  0001 C CNN
+F 3 "" H 1250 4700 50  0001 C CNN
+	1    1250 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 4500 1250 4650
+Connection ~ 1250 4500
+Wire Wire Line
+	1250 4500 1150 4500
+$Comp
+L formula:Test_Point_SMD TP603
+U 1 1 61601E3D
+P 3250 2850
+F 0 "TP603" V 3350 3150 50  0000 C CNN
+F 1 "15V+" V 3250 3150 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3250 2700 50  0001 C CNN
+F 3 "" H 3250 2850 50  0001 C CNN
+	1    3250 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 2850 3600 2850
+Connection ~ 3600 2850
+Wire Wire Line
+	3600 2850 3600 2600
+$Comp
+L formula:Test_Point_SMD TP604
+U 1 1 616069D9
+P 3250 3600
+F 0 "TP604" H 3150 3900 50  0000 L CNN
+F 1 "VREF" H 3150 3800 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3250 3450 50  0001 C CNN
+F 3 "" H 3250 3600 50  0001 C CNN
+	1    3250 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3650 3250 3850
+Connection ~ 3250 3850
+Wire Wire Line
+	3250 3850 2950 3850
+$Comp
+L formula:Test_Point_SMD TP605
+U 1 1 6160A904
+P 4150 4250
+F 0 "TP605" H 4200 4550 50  0000 R CNN
+F 1 "OPAMP_OUTPUT" H 4450 4450 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4150 4100 50  0001 C CNN
+F 3 "" H 4150 4250 50  0001 C CNN
+	1    4150 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 3950 4150 4200
+Connection ~ 4150 3950
+Wire Wire Line
+	4150 3950 4550 3950
+$Comp
+L formula:Test_Point_SMD TP602
+U 1 1 61613E89
+P 2400 4700
+F 0 "TP602" H 2350 4700 50  0000 R CNN
+F 1 "VIN" H 2312 4787 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2400 4550 50  0001 C CNN
+F 3 "" H 2400 4700 50  0001 C CNN
+	1    2400 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 4500 2400 4650
+Connection ~ 2400 4500
+Wire Wire Line
+	2400 4500 3400 4500
+Text Notes 1650 2850 0    50   ~ 0
+do i need this test point?\n
+Text Label 9100 5000 2    50   ~ 0
+TSAL_FLAG
+Wire Wire Line
+	9100 5000 9500 5000
+$Comp
+L formula:Test_Point_SMD TP606
+U 1 1 6155C295
+P 9550 5000
+F 0 "TP606" V 9499 5178 50  0000 L CNN
+F 1 "TSAL_FLAG" V 9590 5178 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9550 4850 50  0001 C CNN
+F 3 "" H 9550 5000 50  0001 C CNN
+	1    9550 5000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
