@@ -1015,10 +1015,10 @@ F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q
 	1    0    0    -1  
 $EndComp
 $Comp
-L Formula:C_0.1uF C?
+L Formula:C_0.1uF C5
 U 1 1 5E5E80C1
 P 7700 2250
-F 0 "C?" H 7815 2296 50  0000 L CNN
+F 0 "C5" H 7815 2296 50  0000 L CNN
 F 1 "C_0.1uF" H 7815 2205 50  0000 L CNN
 F 2 "footprints:C_0805_OEM" H 7738 2100 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7725 2350 50  0001 C CNN
@@ -1032,10 +1032,10 @@ Wire Wire Line
 	7700 2400 7850 2400
 Connection ~ 7700 2400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 5E605308
 P 8025 2025
-F 0 "#PWR?" H 8025 1775 50  0001 C CNN
+F 0 "#PWR0108" H 8025 1775 50  0001 C CNN
 F 1 "GND" H 8030 1852 50  0000 C CNN
 F 2 "" H 8025 2025 50  0001 C CNN
 F 3 "" H 8025 2025 50  0001 C CNN

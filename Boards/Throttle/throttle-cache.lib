@@ -20,13 +20,13 @@ ENDDEF
 # formula_TPS560430YF
 #
 DEF formula_TPS560430YF U 0 40 Y Y 1 F N
-F0 "U" -550 -400 50 H V C CNN
+F0 "U" -200 -350 50 H V C CNN
 F1 "formula_TPS560430YF" 0 400 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" -50 700 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" 0 550 50 H I C CNN
-F4 "TPS560430YFDBVR" -50 -1100 50 H I C CNN "MPN"
-F5 "TPS560430YFDBVR-ND" 0 -1000 50 H I C CNN "MFN"
-F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "Purchasing Link"
+F2 "footprints:SOT-23-6_OEM" -50 700 50 H I C CNN
+F3 "" 0 550 50 H I C CNN
+F4 "TPS560430YFDBVR-ND" -50 -1100 50 H I C CNN "MPN"
+F5 "DK" 0 -1000 50 H I C CNN "MFN"
+F6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" 750 -900 50 H I C CNN "PurchasingLink"
 DRAW
 S -250 -100 -250 -100 0 1 0 N
 S -250 300 300 -300 0 1 0 f
