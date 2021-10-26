@@ -1061,10 +1061,6 @@ Text Label 6100 6425 0    50   ~ 0
 SCK_LIM
 Text Label 6100 6525 0    50   ~ 0
 CSB
-NoConn ~ 6100 6225
-NoConn ~ 6100 6325
-NoConn ~ 6100 6625
-NoConn ~ 6100 6725
 NoConn ~ 4100 7525
 Text Label 13925 2250 3    50   ~ 0
 CAN_STBY
@@ -1092,7 +1088,7 @@ NoConn ~ 6100 5925
 Wire Wire Line
 	4100 6025 3900 6025
 Wire Wire Line
-	3900 6025 3900 6425
+	3900 6025 3900 6075
 Wire Wire Line
 	4100 6225 3975 6225
 Wire Wire Line
@@ -1632,20 +1628,6 @@ F 6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-co
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:NanoFit_RA_TH_02 J4
-U 1 1 613C312E
-P 9275 1125
-F 0 "J4" H 8300 1150 60  0000 C CNN
-F 1 "NanoFit_RA_TH_02" H 8600 1350 60  0000 C CNN
-F 2 "footprints:NanoFit_Molex_1x02x2.50mm_Angled_OEM" H 9275 525 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" H 9275 675 60  0001 C CNN
-F 4 "DK" H 9275 1675 50  0001 C CNN "MFN"
-F 5 "WM14972-ND" H 9275 1575 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=nanofit+2&k=&pkeyword=nanofit+2&pv88=2&pv69=367&sf=0&FV=ffe0013a&quantity=&ColumnSort=0&page=1&pageSize=25" H 9275 325 50  0001 C CNN "PurchasingLink"
-	1    9275 1125
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_100K R21
 U 1 1 61543A9B
 P 9350 3825
@@ -1737,7 +1719,7 @@ U 1 1 616148F7
 P 14350 6125
 F 0 "Q3" H 14556 6171 50  0000 L CNN
 F 1 "MMBF170" H 14575 6050 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 14550 6050 50  0001 L CIN
+F 2 "footprints:SOT-23-3_OEM" H 14550 6050 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/MM/MMBF170.pdf" H 14550 6200 50  0001 L CNN
 F 4 "DK" H 14650 6300 50  0001 C CNN "MFN"
 F 5 "MMBF170CT-ND" H 14750 6400 50  0001 C CNN "MPN"
@@ -2122,20 +2104,6 @@ F 3 "" H 11150 1650 50  0001 C CNN
 $EndComp
 Text Notes 12825 5625 0    89   ~ 0
 FET
-$Comp
-L formula:LTC6810HG-1 U3
-U 1 1 61A5A515
-P 4100 5725
-F 0 "U3" H 5100 6012 60  0000 C CNN
-F 1 "LTC6810HG-1" H 5100 5906 60  0000 C CNN
-F 2 "formula:LTC6810HG-1" H 5100 5965 60  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6810-1-6810-2.pdf" H 4100 5725 60  0001 C CNN
-F 4 "LTC6810IG-1#3ZZPBF-ND" H 4100 5725 50  0001 C CNN "MPN"
-F 5 "LTC6810IG-1#3ZZPBF" H 4100 5725 50  0001 C CNN "MFN"
-F 6 "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC6810IG-1-3ZZPBF/9658987" H 4100 5725 50  0001 C CNN "Purchasing Link"
-	1    4100 5725
-	1    0    0    -1  
-$EndComp
 Connection ~ 4100 7825
 Wire Wire Line
 	10650 5000 11000 5000
@@ -2201,7 +2169,7 @@ F 4 "https://www.digikey.com/product-detail/en/yageo/CC0805ZKY5V9BB105/311-1909-
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 7425 6600 7425
+	6350 7425 6475 7425
 Wire Notes Line
 	1250 5050 1250 8175
 Wire Notes Line
@@ -2277,7 +2245,7 @@ U 1 1 61380A59
 P 4225 9425
 F 0 "U4" H 4275 10140 50  0000 C CNN
 F 1 "LT3066IMSE-5" H 4275 10049 50  0000 C CNN
-F 2 "formula:MSOP-8" H 4225 9425 50  0001 C CNN
+F 2 "footprints:MSOP-12_MSE" H 4225 9425 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT3066.pdf" H 4225 9425 50  0001 C CNN
 F 4 "LT3066IMSE-5#PBF" H 4225 9425 50  0001 C CNN "MPN"
 	1    4225 9425
@@ -2468,7 +2436,7 @@ U 1 1 61389383
 P 2150 6375
 F 0 "R6" V 2150 6575 50  0000 R CNN
 F 1 "R_30_6W_1%" V 2075 6900 50  0000 R CNN
-F 2 "formula:356030RFT" H 2150 6375 50  0001 C CNN
+F 2 "footprints:356030RFT" H 2150 6375 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-7&DocType=DS&DocLang=English" H 2150 6375 50  0001 C CNN
 F 4 "356030RFT" H 2150 6375 50  0001 C CNN "MPN"
 	1    2150 6375
@@ -2483,7 +2451,7 @@ U 1 1 6138C0F7
 P 2150 6775
 F 0 "R7" V 2150 6975 50  0000 R CNN
 F 1 "R_30_6W_1%" V 2075 7300 50  0000 R CNN
-F 2 "formula:356030RFT" H 2150 6775 50  0001 C CNN
+F 2 "footprints:356030RFT" H 2150 6775 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-7&DocType=DS&DocLang=English" H 2150 6775 50  0001 C CNN
 F 4 "356030RFT" H 2150 6775 50  0001 C CNN "MPN"
 	1    2150 6775
@@ -2495,7 +2463,7 @@ U 1 1 61399E13
 P 2150 7175
 F 0 "R8" V 2150 7375 50  0000 R CNN
 F 1 "R_30_6W_1%" V 2075 7700 50  0000 R CNN
-F 2 "formula:356030RFT" H 2150 7175 50  0001 C CNN
+F 2 "footprints:356030RFT" H 2150 7175 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-7&DocType=DS&DocLang=English" H 2150 7175 50  0001 C CNN
 F 4 "356030RFT" H 2150 7175 50  0001 C CNN "MPN"
 	1    2150 7175
@@ -2507,7 +2475,7 @@ U 1 1 613A81BF
 P 2150 5975
 F 0 "R5" V 2150 6175 50  0000 R CNN
 F 1 "R_30_6W_1%" V 2075 6500 50  0000 R CNN
-F 2 "formula:356030RFT" H 2150 5975 50  0001 C CNN
+F 2 "footprints:356030RFT" H 2150 5975 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-7&DocType=DS&DocLang=English" H 2150 5975 50  0001 C CNN
 F 4 "356030RFT" H 2150 5975 50  0001 C CNN "MPN"
 	1    2150 5975
@@ -2519,7 +2487,7 @@ U 1 1 613B5FE9
 P 2150 5575
 F 0 "R4" V 2150 5775 50  0000 R CNN
 F 1 "R_30_6W_1%" V 2075 6100 50  0000 R CNN
-F 2 "formula:356030RFT" H 2150 5575 50  0001 C CNN
+F 2 "footprints:356030RFT" H 2150 5575 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-7&DocType=DS&DocLang=English" H 2150 5575 50  0001 C CNN
 F 4 "356030RFT" H 2150 5575 50  0001 C CNN "MPN"
 	1    2150 5575
@@ -2559,7 +2527,7 @@ U 1 1 6145B5F2
 P 9050 5000
 F 0 "U5" H 9850 5265 50  0000 C CNN
 F 1 "LT1017IS8" H 9850 5174 50  0000 C CNN
-F 2 "formula:SO-8_S" H 9350 4200 50  0001 L BNN
+F 2 "footprints:SO-8_S" H 9350 4200 50  0001 L BNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/10178ff.pdf" H 9050 5000 50  0001 L BNN
 F 4 "lt1017is8#pbf" H 9350 4300 50  0001 L BNN "MPN"
 F 5 "Linear Technology" H 9350 4400 50  0001 L BNN "VENDOR"
@@ -2568,8 +2536,6 @@ F 5 "Linear Technology" H 9350 4400 50  0001 L BNN "VENDOR"
 $EndComp
 Wire Wire Line
 	3800 5925 3800 5575
-Wire Wire Line
-	3800 5575 4300 5575
 Connection ~ 3800 5925
 $Comp
 L formula:R_0_2512 R29
@@ -2597,7 +2563,7 @@ $Comp
 L formula:R_0_2512 R31
 U 1 1 614CB538
 P 7050 6000
-F 0 "R31" V 7125 6175 50  0000 C CNN
+F 0 "R31" V 7175 6175 50  0000 C CNN
 F 1 "R_0_2512" V 6975 5700 50  0000 C CNN
 F 2 "footprints:R_2512_OEM" H 6980 6000 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 7130 6000 50  0001 C CNN
@@ -2720,23 +2686,11 @@ U 1 1 6141885F
 P 11325 8250
 F 0 "U11" H 11342 8375 50  0000 C CNN
 F 1 "redcube-7461057" H 11342 8284 50  0000 C CNN
-F 2 "formula:redcube_pressfit_6pin" H 11325 8250 50  0001 C CNN
+F 2 "footprints:redcube_pressfit_6pin" H 11325 8250 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/7461057-1723744.pdf" H 11325 8250 50  0001 C CNN
 F 4 "7461057" H 11325 8250 50  0001 C CNN "MPN"
 	1    11325 8250
 	1    0    0    -1  
-$EndComp
-$Comp
-L formula:redcube-7461057 U9
-U 1 1 614200A6
-P 8700 7550
-F 0 "U9" H 8717 7675 50  0000 C CNN
-F 1 "redcube-7461057" H 8717 7584 50  0000 C CNN
-F 2 "formula:redcube_pressfit_6pin" H 8700 7550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/7461057-1723744.pdf" H 8700 7550 50  0001 C CNN
-F 4 "7461057" H 8700 7550 50  0001 C CNN "MPN"
-	1    8700 7550
-	-1   0    0    1   
 $EndComp
 $Comp
 L formula:ACHS-7124 U10
@@ -2744,7 +2698,7 @@ U 1 1 61447EAA
 P 9700 7250
 F 0 "U10" H 9725 7315 50  0000 C CNN
 F 1 "ACHS-7124" H 9725 7224 50  0000 C CNN
-F 2 "formula:OPTO_HCPL-070A-000E" H 9700 7250 50  0001 C CNN
+F 2 "footprints:OPTO_HCPL-070A-000E" H 9700 7250 50  0001 C CNN
 F 3 "https://www.pololu.com/file/0J1707/ACHS-7124-7125-DS101_2019-02-15.pdf" H 9700 7250 50  0001 C CNN
 F 4 "ACHS-7124-000E" H 9700 7250 50  0001 C CNN "MPN"
 	1    9700 7250
@@ -2807,7 +2761,7 @@ U 1 1 6157E14C
 P 10425 7800
 F 0 "C20" H 10540 7846 50  0000 L CNN
 F 1 "C_1nf" H 10540 7755 50  0000 L CNN
-F 2 "formula:C_0805_OEM" H 10425 7800 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 10425 7800 50  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805X102KARECAUTO.pdf" H 10425 7800 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/kemet/C0805X102KARECAUTO/8653410" H 10425 7800 50  0001 C CNN "Purchasing Link"
 	1    10425 7800
@@ -2822,7 +2776,7 @@ U 1 1 61487F0F
 P 10075 8400
 F 0 "Q2" V 10368 8400 50  0000 C CNN
 F 1 "SQM110P06" V 10277 8400 50  0000 C CNN
-F 2 "formula:TO-263-2-Heatsink" H 10025 9000 50  0001 C CNN
+F 2 "footprints:TO-263-3-TabPin2" H 10025 9000 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/62784/sqm110p068m9l.pdf" H 10075 8400 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/vishay-siliconix/SQM110P06-8M9L-GE3/7566798" H 10025 8900 50  0001 C CNN "Purchasing Link "
 F 5 "SQM110P06-8m9L" H 10125 9100 50  0001 C CNN "MPN"
@@ -2835,7 +2789,7 @@ U 1 1 6148C0A4
 P 10625 8400
 F 0 "Q5" V 10918 8400 50  0000 C CNN
 F 1 "SQM110P06" V 10825 8475 50  0000 C CNN
-F 2 "formula:TO-263-2-Heatsink" H 10575 9000 50  0001 C CNN
+F 2 "footprints:TO-263-3-TabPin2" H 10575 9000 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/62784/sqm110p068m9l.pdf" H 10625 8400 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/vishay-siliconix/SQM110P06-8M9L-GE3/7566798" H 10575 8900 50  0001 C CNN "Purchasing Link "
 F 5 "SQM110P06-8m9L" H 10675 9100 50  0001 C CNN "MPN"
@@ -2895,7 +2849,7 @@ U 1 1 6158877F
 P 10200 9375
 F 0 "Q4" H 10406 9421 50  0000 L CNN
 F 1 "MMBF170" H 10425 9300 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 10400 9300 50  0001 L CIN
+F 2 "footprints:SOT-23-3_OEM" H 10400 9300 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/MM/MMBF170.pdf" H 10400 9450 50  0001 L CNN
 F 4 "DK" H 10500 9550 50  0001 C CNN "MFN"
 F 5 "MMBF170CT-ND" H 10600 9650 50  0001 C CNN "MPN"
@@ -2976,12 +2930,10 @@ $EndComp
 Connection ~ 10375 8350
 Wire Wire Line
 	10375 8350 10425 8350
-Text Label 9075 7325 2    50   ~ 0
+Text Label 9075 7150 2    50   ~ 0
 PACK_SIDE_CURRENT_PATH
 Wire Wire Line
 	8850 7450 9075 7450
-Wire Wire Line
-	9075 7325 9075 7450
 Connection ~ 9075 7450
 Wire Wire Line
 	9075 7450 9250 7450
@@ -3006,12 +2958,6 @@ Wire Notes Line
 	12850 5650 15475 5650
 Wire Notes Line
 	12125 7025 12125 9875
-Wire Notes Line
-	12125 9875 8050 9875
-Wire Notes Line
-	8050 9875 8050 7025
-Wire Notes Line
-	8050 7025 12125 7025
 Text Notes 8025 7000 0    89   ~ 0
 HIGH CURRENT PATH\n
 Text Notes 9100 8625 0    39   ~ 0
@@ -3024,4 +2970,102 @@ Wire Notes Line
 	12200 2850 8050 2850
 Wire Notes Line
 	8050 775  8050 2850
+$Comp
+L formula:Test_Point_SMD TP14
+U 1 1 6163A4CE
+P 8875 1075
+F 0 "TP14" V 8824 1253 50  0000 L CNN
+F 1 "Test_Point_SMD" V 8725 1175 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 8875 925 50  0001 C CNN
+F 3 "" H 8875 1075 50  0001 C CNN
+	1    8875 1075
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP15
+U 1 1 6163AEE7
+P 8875 1225
+F 0 "TP15" V 8824 1403 50  0000 L CNN
+F 1 "Test_Point_SMD" V 8475 1325 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 8875 1075 50  0001 C CNN
+F 3 "" H 8875 1225 50  0001 C CNN
+	1    8875 1225
+	0    1    1    0   
+$EndComp
+Text Notes 8375 950  0    39   ~ 0
+Thermistor on Board
+$Comp
+L formula:0685P9500-01 F1
+U 1 1 61767667
+P 8550 7450
+F 0 "F1" H 8550 7675 50  0000 C CNN
+F 1 "0685P9500-01" H 8550 7584 50  0000 C CNN
+F 2 "footprints:Fuse_1206" H 8550 7450 50  0001 C CNN
+F 3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-CP-0685P-series.pdf" H 8550 7450 50  0001 C CNN
+	1    8550 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:redcube-7461057 U9
+U 1 1 614200A6
+P 8100 7550
+F 0 "U9" H 8100 7675 50  0000 C CNN
+F 1 "redcube-7461057" H 7800 7575 50  0000 C CNN
+F 2 "footprints:redcube_pressfit_6pin" H 8100 7550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/7461057-1723744.pdf" H 8100 7550 50  0001 C CNN
+F 4 "7461057" H 8100 7550 50  0001 C CNN "MPN"
+	1    8100 7550
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	7975 9875 7975 7025
+Wire Notes Line
+	7975 7025 12125 7025
+Wire Notes Line
+	7975 9875 12125 9875
+Wire Wire Line
+	9075 7150 9075 7450
+Wire Wire Line
+	3900 6375 3900 6425
+$Comp
+L formula:LTC6810HG-2 U3
+U 1 1 617F09B1
+P 5100 6875
+F 0 "U3" H 5100 8290 50  0000 C CNN
+F 1 "LTC6810HG-2" H 5100 8199 50  0000 C CNN
+F 2 "footprints:SOP50P780X200-44N" H 5100 6875 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/609/LTC6810_1_6810_2-1843357.pdf" H 5100 6875 50  0001 C CNN
+F 4 "LTC6810HG-2#3ZZPBF" H 5100 6875 50  0001 C CNN "MFN"
+F 5 "https://www.digikey.com/en/products/detail/LTC6810HG-2%25233ZZPBF/LTC6810HG-2%25233ZZPBF-ND/9658986?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart" H 5100 6875 50  0001 C CNN "order_link"
+	1    5100 6875
+	1    0    0    -1  
+$EndComp
+Text Label 6100 6625 0    50   ~ 0
+V-
+Text Label 6100 6725 0    50   ~ 0
+V-
+Text Label 6100 6325 0    50   ~ 0
+V-
+Text Label 6100 6225 0    50   ~ 0
+V-
+$Comp
+L formula:Test_Point_SMD TP16
+U 1 1 6181F84F
+P 6475 7675
+F 0 "TP16" H 6225 7750 50  0000 L CNN
+F 1 "Test_Point_SMD" H 5825 7825 50  0000 L CNN
+F 2 "footprints:Test_Point_SMD" H 6475 7525 50  0001 C CNN
+F 3 "" H 6475 7675 50  0001 C CNN
+	1    6475 7675
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 5575 4300 5575
+Wire Wire Line
+	6475 7625 6475 7425
+Connection ~ 6475 7425
+Wire Wire Line
+	6475 7425 6600 7425
+Text Notes 5525 5375 0    39   ~ 0
+Since we are using an LTC6810-2 chip, we have to use the address pins.\nWe've tied all address pins to V- (LTC GND) and can use 0000 when\nselecting address in commands.
 $EndSCHEMATC
