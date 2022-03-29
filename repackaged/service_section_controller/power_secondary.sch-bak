@@ -197,7 +197,7 @@ $EndComp
 Connection ~ 2850 7000
 Connection ~ 3400 5650
 Wire Wire Line
-	3400 5650 3700 5650
+	3400 5650 3550 5650
 Wire Wire Line
 	2850 7000 2350 7000
 Wire Wire Line
@@ -348,8 +348,6 @@ Wire Wire Line
 	4750 2450 4675 2450
 Connection ~ 4675 2450
 Connection ~ 4750 2450
-Text Notes 8500 2050 0    50   ~ 0
-add fusing before this output
 $Comp
 L formula:F_500mA_16V F?
 U 1 1 60C180ED
@@ -372,7 +370,7 @@ F 7 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-178
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9200 2450 9425 2450
+	9200 2450 9300 2450
 Text GLabel 9425 2450 2    50   Input ~ 0
 15V+
 Text GLabel 1250 5650 0    50   Input ~ 0
@@ -380,9 +378,9 @@ TS+
 Text GLabel 2850 7150 0    50   Input ~ 0
 TS-
 Text GLabel 9400 2950 2    50   Input ~ 0
-15V-
+15V_RETURN
 Wire Wire Line
-	8400 2950 9400 2950
+	8400 2950 9300 2950
 Wire Wire Line
 	5950 2950 7250 2950
 Connection ~ 5950 2950
@@ -418,7 +416,7 @@ F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP080
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 1975 5700 1975
+	5150 1975 5400 1975
 Connection ~ 5150 1975
 Wire Wire Line
 	4600 1375 4600 1625
@@ -1088,24 +1086,24 @@ Wire Wire Line
 $Comp
 L formula:R_23.7K R707
 U 1 1 60E84E0C
-P 5700 1675
-F 0 "R707" H 5770 1721 50  0000 L CNN
-F 1 "R_23.7K" H 5770 1630 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5630 1675 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 5780 1675 50  0001 C CNN
-F 4 "DK" H 5700 1675 60  0001 C CNN "MFN"
-F 5 "P21173CT-ND " H 5700 1675 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PB6D2372V/6213956" H 6180 2075 60  0001 C CNN "PurchasingLink"
-	1    5700 1675
+P 5700 1625
+F 0 "R707" H 5770 1671 50  0000 L CNN
+F 1 "R_23.7K" H 5770 1580 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 5630 1625 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C328.pdf" H 5780 1625 50  0001 C CNN
+F 4 "DK" H 5700 1625 60  0001 C CNN "MFN"
+F 5 "P21173CT-ND " H 5700 1625 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PB6D2372V/6213956" H 6180 2025 60  0001 C CNN "PurchasingLink"
+	1    5700 1625
 	1    0    0    -1  
 $EndComp
 Connection ~ 5700 1375
 Wire Wire Line
 	5700 1375 6250 1375
 Wire Wire Line
-	5700 1375 5700 1525
+	5700 1375 5700 1475
 Wire Wire Line
-	5700 1825 5700 1975
+	5700 1775 5700 1975
 Connection ~ 5700 1975
 Text Notes 3950 6600 0    50   ~ 0
 66.2k resistor costs $14, \ngoing to put 2 resistors in series instead to make up approx 66.13k
@@ -1150,4 +1148,68 @@ Text Notes 3550 3200 0    50   ~ 0
 LAYOUT NOTE: place feedback resistors as close to the FB pin as possible
 Wire Notes Line
 	500  4700 11200 4700
+$Comp
+L formula:Test_Point_SMD TP701
+U 1 1 6143197A
+P 3550 5450
+F 0 "TP701" H 3628 5538 50  0000 L CNN
+F 1 "15V+_OUTPUT" H 3628 5447 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3550 5300 50  0001 C CNN
+F 3 "" H 3550 5450 50  0001 C CNN
+	1    3550 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5500 3550 5650
+Connection ~ 3550 5650
+Wire Wire Line
+	3550 5650 3700 5650
+$Comp
+L formula:Test_Point_SMD TP703
+U 1 1 614355D7
+P 9300 2250
+F 0 "TP703" H 9950 2350 50  0000 L CNN
+F 1 "15V+_OUTPUT" H 9400 2350 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9300 2100 50  0001 C CNN
+F 3 "" H 9300 2250 50  0001 C CNN
+	1    9300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2300 9300 2450
+Connection ~ 9300 2450
+Wire Wire Line
+	9300 2450 9425 2450
+$Comp
+L formula:Test_Point_SMD TP704
+U 1 1 6144CF5F
+P 9300 3200
+F 0 "TP704" H 9212 3196 50  0000 R CNN
+F 1 "15V_RETURN" H 9212 3287 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9300 3050 50  0001 C CNN
+F 3 "" H 9300 3200 50  0001 C CNN
+	1    9300 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9300 2950 9300 3150
+Connection ~ 9300 2950
+Wire Wire Line
+	9300 2950 9400 2950
+$Comp
+L formula:Test_Point_SMD TP702
+U 1 1 61648897
+P 5400 1800
+F 0 "TP702" H 5200 2000 50  0000 L CNN
+F 1 "FB" H 5200 1900 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5400 1650 50  0001 C CNN
+F 3 "" H 5400 1800 50  0001 C CNN
+	1    5400 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1850 5400 1975
+Connection ~ 5400 1975
+Wire Wire Line
+	5400 1975 5700 1975
 $EndSCHEMATC

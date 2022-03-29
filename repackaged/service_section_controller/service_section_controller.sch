@@ -77,4 +77,6 @@ U 60AEF08C
 F0 "shutdown" 50
 F1 "shutdown.sch" 50
 $EndSheet
+Text Notes 3450 4400 0    50   ~ 0
+TODO\nadd test point footprint (circular) to the formula footprint library\nrename the test points on the bms page \nmake sure no labels overlap
 $EndSCHEMATC

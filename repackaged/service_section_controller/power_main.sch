@@ -132,17 +132,17 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60C4427E
-P 4350 2275
+P 4350 2400
 AR Path="/5C6B723E/60C4427E" Ref="#PWR?"  Part="1" 
 AR Path="/60C4427E" Ref="#PWR?"  Part="1" 
 AR Path="/5C702479/60C4427E" Ref="#PWR?"  Part="1" 
 AR Path="/60A3B220/60C4427E" Ref="#PWR?"  Part="1" 
 AR Path="/60A3B080/60C4427E" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 4350 2025 50  0001 C CNN
-F 1 "GND" H 4350 2125 50  0000 C CNN
-F 2 "" H 4350 2275 50  0001 C CNN
-F 3 "" H 4350 2275 50  0001 C CNN
-	1    4350 2275
+F 0 "#PWR0103" H 4350 2150 50  0001 C CNN
+F 1 "GND" H 4350 2250 50  0000 C CNN
+F 2 "" H 4350 2400 50  0001 C CNN
+F 3 "" H 4350 2400 50  0001 C CNN
+	1    4350 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -286,7 +286,7 @@ F 3 "" H 7400 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 2000 8600 1900
+	9000 2000 9000 1900
 $Comp
 L formula:R_10K R?
 U 1 1 60C442D0
@@ -328,15 +328,15 @@ $EndComp
 $Comp
 L formula:R_0_2512 R204
 U 1 1 60C442E2
-P 8400 2000
-F 0 "R204" V 8480 2000 50  0000 C CNN
-F 1 "R_0_2512" V 8300 2000 50  0000 C CNN
-F 2 "footprints:R_2512_OEM" H 8330 2000 50  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 8480 2000 50  0001 C CNN
-F 4 "DK" H 8400 2000 60  0001 C CNN "MFN"
-F 5 "A121322CT-ND" H 8400 2000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 8880 2400 60  0001 C CNN "PurchasingLink"
-	1    8400 2000
+P 8700 2000
+F 0 "R204" V 8780 2000 50  0000 C CNN
+F 1 "R_0_2512" V 8600 2000 50  0000 C CNN
+F 2 "footprints:R_2512_OEM" H 8630 2000 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" H 8780 2000 50  0001 C CNN
+F 4 "DK" H 8700 2000 60  0001 C CNN "MFN"
+F 5 "A121322CT-ND" H 8700 2000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 9180 2400 60  0001 C CNN "PurchasingLink"
+	1    8700 2000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -369,7 +369,7 @@ Connection ~ 7850 2000
 Wire Wire Line
 	6150 2850 7850 2850
 Wire Wire Line
-	5750 2850 5750 2200
+	5750 2850 5750 2450
 Connection ~ 5750 2850
 Wire Wire Line
 	5750 2850 5700 2850
@@ -520,12 +520,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0112
 U 1 1 60C4435C
-P 4125 2275
-F 0 "#PWR0112" H 4125 2025 50  0001 C CNN
-F 1 "GND" H 4130 2102 50  0000 C CNN
-F 2 "" H 4125 2275 50  0001 C CNN
-F 3 "" H 4125 2275 50  0001 C CNN
-	1    4125 2275
+P 4125 2400
+F 0 "#PWR0112" H 4125 2150 50  0001 C CNN
+F 1 "GND" H 4130 2227 50  0000 C CNN
+F 2 "" H 4125 2400 50  0001 C CNN
+F 3 "" H 4125 2400 50  0001 C CNN
+	1    4125 2400
 	1    0    0    -1  
 $EndComp
 Connection ~ 3150 1900
@@ -630,9 +630,9 @@ Text GLabel 4700 4400 2    50   Input ~ 0
 Text GLabel 4700 4800 2    50   Input ~ 0
 5V_AIR_CONTROL
 Wire Wire Line
-	4400 4400 4700 4400
+	4400 4400 4550 4400
 Wire Wire Line
-	4400 4800 4700 4800
+	4400 4800 4550 4800
 $Comp
 L formula:F_500mA_16V F?
 U 1 1 60B4C37C
@@ -685,9 +685,9 @@ Connection ~ 6300 4600
 Wire Wire Line
 	6300 4600 6300 4800
 Wire Wire Line
-	7050 4400 7350 4400
+	7050 4400 7250 4400
 Wire Wire Line
-	7050 4800 7350 4800
+	7050 4800 7250 4800
 Text GLabel 7350 4400 2    50   Input ~ 0
 12V_TSAL
 Text GLabel 7350 4800 2    50   Input ~ 0
@@ -695,12 +695,12 @@ Text GLabel 7350 4800 2    50   Input ~ 0
 $Comp
 L power:+5V #PWR0108
 U 1 1 60B59376
-P 8600 1900
-F 0 "#PWR0108" H 8600 1750 50  0001 C CNN
-F 1 "+5V" H 8615 2073 50  0000 C CNN
-F 2 "" H 8600 1900 50  0001 C CNN
-F 3 "" H 8600 1900 50  0001 C CNN
-	1    8600 1900
+P 9000 1900
+F 0 "#PWR0108" H 9000 1750 50  0001 C CNN
+F 1 "+5V" H 9015 2073 50  0000 C CNN
+F 2 "" H 9000 1900 50  0001 C CNN
+F 3 "" H 9000 1900 50  0001 C CNN
+	1    9000 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -726,7 +726,7 @@ $EndComp
 Wire Wire Line
 	6400 5200 6550 5200
 Wire Wire Line
-	7150 5200 7350 5200
+	7150 5200 7250 5200
 Text GLabel 7350 5200 2    50   Input ~ 0
 12V_SHUTDOWN
 Connection ~ 6400 4800
@@ -757,7 +757,7 @@ Wire Wire Line
 Text Label 7350 5600 0    50   ~ 0
 12V_BUCK
 Wire Wire Line
-	7150 5600 7350 5600
+	7150 5600 7250 5600
 Text Label 2950 1900 2    50   ~ 0
 12V_BUCK
 Wire Wire Line
@@ -766,19 +766,15 @@ Wire Wire Line
 	8050 2000 8050 2050
 Connection ~ 8050 2000
 Wire Wire Line
-	8550 2000 8600 2000
+	8850 2000 9000 2000
 Wire Wire Line
-	8050 2000 8250 2000
+	8050 2000 8400 2000
 Text Notes 5650 4350 0    50   ~ 0
 12.8 - 16.8 V
 Wire Notes Line
 	2300 950  2300 3400
 Wire Notes Line
-	2300 3400 9200 3400
-Wire Notes Line
-	9200 3400 9200 950 
-Wire Notes Line
-	9200 950  2300 950 
+	9550 3400 9550 950 
 Wire Notes Line
 	2300 3650 9200 3650
 Wire Notes Line
@@ -787,4 +783,140 @@ Wire Notes Line
 	9200 5950 2300 5950
 Wire Notes Line
 	2300 5950 2300 3650
+$Comp
+L formula:Test_Point_SMD TP201
+U 1 1 6142E745
+P 4550 4250
+F 0 "TP201" H 4628 4338 50  0000 L CNN
+F 1 "5V_BMS" H 4628 4247 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4550 4100 50  0001 C CNN
+F 3 "" H 4550 4250 50  0001 C CNN
+	1    4550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP202
+U 1 1 6142F46A
+P 4550 4650
+F 0 "TP202" H 4628 4738 50  0000 L CNN
+F 1 "5V_AIR_CONTROL" H 4628 4647 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4550 4500 50  0001 C CNN
+F 3 "" H 4550 4650 50  0001 C CNN
+	1    4550 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4700 4550 4800
+Connection ~ 4550 4800
+Wire Wire Line
+	4550 4800 4700 4800
+Wire Wire Line
+	4550 4300 4550 4400
+Connection ~ 4550 4400
+Wire Wire Line
+	4550 4400 4700 4400
+$Comp
+L formula:Test_Point_SMD TP204
+U 1 1 61432017
+P 7250 4250
+F 0 "TP204" H 7328 4338 50  0000 L CNN
+F 1 "12V_TSAL" H 7328 4247 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7250 4100 50  0001 C CNN
+F 3 "" H 7250 4250 50  0001 C CNN
+	1    7250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP205
+U 1 1 6143273D
+P 7250 4650
+F 0 "TP205" H 7328 4738 50  0000 L CNN
+F 1 "12V_IMD" H 7328 4647 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7250 4500 50  0001 C CNN
+F 3 "" H 7250 4650 50  0001 C CNN
+	1    7250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP206
+U 1 1 61432D91
+P 7250 5050
+F 0 "TP206" H 7328 5138 50  0000 L CNN
+F 1 "12V_SHUTDOWN" H 7328 5047 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7250 4900 50  0001 C CNN
+F 3 "" H 7250 5050 50  0001 C CNN
+	1    7250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Test_Point_SMD TP207
+U 1 1 614355DE
+P 7250 5450
+F 0 "TP207" H 7328 5538 50  0000 L CNN
+F 1 "12V_BUCK" H 7328 5447 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7250 5300 50  0001 C CNN
+F 3 "" H 7250 5450 50  0001 C CNN
+	1    7250 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4300 7250 4400
+Connection ~ 7250 4400
+Wire Wire Line
+	7250 4400 7350 4400
+Wire Wire Line
+	7250 4700 7250 4800
+Connection ~ 7250 4800
+Wire Wire Line
+	7250 4800 7350 4800
+Wire Wire Line
+	7250 5100 7250 5200
+Connection ~ 7250 5200
+Wire Wire Line
+	7250 5200 7350 5200
+Wire Wire Line
+	7250 5500 7250 5600
+Connection ~ 7250 5600
+Wire Wire Line
+	7250 5600 7350 5600
+$Comp
+L formula:Test_Point_SMD TP208
+U 1 1 614402AB
+P 8400 2250
+F 0 "TP208" H 8312 2246 50  0000 R CNN
+F 1 "BUCK_OUTPUT" H 8312 2337 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8400 2100 50  0001 C CNN
+F 3 "" H 8400 2250 50  0001 C CNN
+	1    8400 2250
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	2300 950  9550 950 
+Wire Notes Line
+	2300 3400 9550 3400
+Wire Wire Line
+	8400 2000 8400 2200
+Connection ~ 8400 2000
+Wire Wire Line
+	8400 2000 8550 2000
+$Comp
+L formula:Test_Point_SMD TP203
+U 1 1 616409FB
+P 5950 2450
+F 0 "TP203" V 5950 2700 50  0000 L CNN
+F 1 "FB" V 5950 2600 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5950 2300 50  0001 C CNN
+F 3 "" H 5950 2450 50  0001 C CNN
+	1    5950 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 2450 5900 2450
+Connection ~ 5750 2450
+Wire Wire Line
+	5750 2450 5750 2200
+Wire Wire Line
+	4125 2275 4125 2400
+Wire Wire Line
+	4350 2275 4350 2400
 $EndSCHEMATC

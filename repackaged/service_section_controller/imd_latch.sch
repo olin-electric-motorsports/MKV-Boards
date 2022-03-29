@@ -50,8 +50,6 @@ Connection ~ 9500 3850
 Wire Wire Line
 	9500 3850 9500 3750
 Wire Wire Line
-	9800 3150 9800 3050
-Wire Wire Line
 	9800 3850 9800 3750
 Wire Wire Line
 	9500 3000 9500 3150
@@ -145,16 +143,14 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 9900 6050 60 
 $EndComp
 Text Notes 10125 5450 0    50   ~ 0
 IMD Output Status LED\n
-Text GLabel 8700 5800 0    50   Input ~ 0
+Text GLabel 8650 5800 0    50   Input ~ 0
 IMD_STATUS_OUTPUT
 Text GLabel 10300 3850 2    50   Input ~ 0
 TO_IMD_LATCH
-Text GLabel 10200 3050 2    50   Input ~ 0
+Text GLabel 10200 2950 2    50   Input ~ 0
 FROM_IMD_LATCH
 Wire Wire Line
 	10300 3850 9800 3850
-Wire Wire Line
-	10200 3050 9800 3050
 Text GLabel 9500 4900 2    50   Input ~ 0
 12V_IMD
 Text GLabel 9500 3000 0    50   Input ~ 0
@@ -214,33 +210,33 @@ $EndComp
 Text GLabel 6900 1900 2    50   Input ~ 0
 12V_IMD
 Wire Wire Line
-	7500 2000 7500 2150
+	7650 2000 7650 2150
 Wire Wire Line
-	6600 2000 7500 2000
+	6600 2000 7650 2000
 Wire Wire Line
-	7300 2100 7300 2150
+	7450 2100 7450 2150
 Wire Wire Line
-	6600 2100 7300 2100
+	6600 2100 7450 2100
 $Comp
 L power:GND #PWR0308
 U 1 1 60D82DEB
-P 7500 2150
-F 0 "#PWR0308" H 7500 1900 50  0001 C CNN
-F 1 "GND" H 7505 1977 50  0000 C CNN
-F 2 "" H 7500 2150 50  0001 C CNN
-F 3 "" H 7500 2150 50  0001 C CNN
-	1    7500 2150
+P 7650 2150
+F 0 "#PWR0308" H 7650 1900 50  0001 C CNN
+F 1 "GND" H 7655 1977 50  0000 C CNN
+F 2 "" H 7650 2150 50  0001 C CNN
+F 3 "" H 7650 2150 50  0001 C CNN
+	1    7650 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0307
 U 1 1 60D828B8
-P 7300 2150
-F 0 "#PWR0307" H 7300 1900 50  0001 C CNN
-F 1 "GND" H 7305 1977 50  0000 C CNN
-F 2 "" H 7300 2150 50  0001 C CNN
-F 3 "" H 7300 2150 50  0001 C CNN
-	1    7300 2150
+P 7450 2150
+F 0 "#PWR0307" H 7450 1900 50  0001 C CNN
+F 1 "GND" H 7455 1977 50  0000 C CNN
+F 2 "" H 7450 2150 50  0001 C CNN
+F 3 "" H 7450 2150 50  0001 C CNN
+	1    7450 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -383,7 +379,7 @@ F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2950 3900 2950 4700
+	2950 3900 2950 4450
 Wire Wire Line
 	2950 4700 2650 4700
 Wire Wire Line
@@ -472,8 +468,8 @@ $Comp
 L formula:TLV3701QDBVRG4Q1 U302
 U 1 1 610EBC31
 P 3575 3800
-F 0 "U302" H 3919 3846 50  0000 L CNN
-F 1 "TLV3701QDBVRG4Q1" H 3919 3755 50  0000 L CNN
+F 0 "U302" H 3600 3550 50  0000 L CNN
+F 1 "TLV3701QDBVRG4Q1" H 3600 3650 50  0000 L CNN
 F 2 "footprints:SOT-23-5_OEM" H 3525 4350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf" H 3525 4450 50  0001 C CNN
 F 4 "DK" H 3875 4750 60  0001 C CNN "MFN"
@@ -507,7 +503,7 @@ F 3 "" H 3475 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 3700 3275 3700
+	2350 3700 2600 3700
 Wire Wire Line
 	2350 3850 2350 3700
 Wire Wire Line
@@ -713,8 +709,8 @@ $Comp
 L formula:TLV3701QDBVRG4Q1 U301
 U 1 1 610EBC0A
 P 3500 2100
-F 0 "U301" H 3844 2146 50  0000 L CNN
-F 1 "TLV3701QDBVRG4Q1" H 3844 2055 50  0000 L CNN
+F 0 "U301" H 3600 2000 50  0000 L CNN
+F 1 "TLV3701QDBVRG4Q1" H 3600 1900 50  0000 L CNN
 F 2 "footprints:SOT-23-5_OEM" H 3500 2200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf" H 3500 2300 50  0001 C CNN
 F 4 "DK" H 3850 2600 60  0001 C CNN "MFN"
@@ -754,7 +750,7 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 4050 2250 60 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2250 2200 3200 2200
+	2250 2200 2800 2200
 Wire Wire Line
 	2250 2050 2250 2200
 Wire Wire Line
@@ -810,9 +806,9 @@ t= -ln((10-x)/10)*2.662\n\n
 Text Notes 3025 1075 0    50   ~ 0
 10V Output in 4.2 Sec delay\n
 Wire Wire Line
-	5650 2100 3800 2100
+	5650 2100 4100 2100
 Wire Wire Line
-	3875 3800 4750 3800
+	3875 3800 4050 3800
 $Comp
 L formula:G5Q-1A4-DC12 K?
 U 1 1 60F0C2F5
@@ -850,26 +846,26 @@ Wire Wire Line
 $Comp
 L formula:R_1.13K R315
 U 1 1 60D069DE
-P 8750 6000
-F 0 "R315" H 8820 6046 50  0000 L CNN
-F 1 "R_1.13K" H 8820 5955 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 8680 6000 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 8830 6000 50  0001 C CNN
-F 4 "DK" H 8750 6000 60  0001 C CNN "MFN"
-F 5 "P1.13KDACT-ND" H 8750 6000 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1131V/P1.13KDACT-ND/3074923" H 9230 6400 60  0001 C CNN "PurchasingLink"
-	1    8750 6000
+P 8750 6050
+F 0 "R315" H 8820 6096 50  0000 L CNN
+F 1 "R_1.13K" H 8820 6005 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 8680 6050 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 8830 6050 50  0001 C CNN
+F 4 "DK" H 8750 6050 60  0001 C CNN "MFN"
+F 5 "P1.13KDACT-ND" H 8750 6050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1131V/P1.13KDACT-ND/3074923" H 9230 6450 60  0001 C CNN "PurchasingLink"
+	1    8750 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0309
 U 1 1 60D0BB14
-P 8750 6150
-F 0 "#PWR0309" H 8750 5900 50  0001 C CNN
-F 1 "GND" H 8755 5977 50  0000 C CNN
-F 2 "" H 8750 6150 50  0001 C CNN
-F 3 "" H 8750 6150 50  0001 C CNN
-	1    8750 6150
+P 8750 6200
+F 0 "#PWR0309" H 8750 5950 50  0001 C CNN
+F 1 "GND" H 8755 6027 50  0000 C CNN
+F 2 "" H 8750 6200 50  0001 C CNN
+F 3 "" H 8750 6200 50  0001 C CNN
+	1    8750 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -911,16 +907,14 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 9230 5
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 5700 8750 5800
-Wire Wire Line
 	8750 5000 8750 5050
 Wire Wire Line
 	8750 5350 8750 5400
 Wire Wire Line
-	8700 5800 8750 5800
+	8650 5800 8750 5800
 Connection ~ 8750 5800
 Wire Wire Line
-	8750 5800 8750 5850
+	8750 5800 8750 5900
 Text Notes 7900 5950 0    50   ~ 0
 to ATmega16m1
 Wire Wire Line
@@ -932,9 +926,139 @@ Wire Wire Line
 Wire Notes Line
 	11100 2550 7350 2550
 Wire Notes Line
-	7350 6450 11100 6450
+	7350 6500 11100 6500
+$Comp
+L formula:Test_Point_SMD TP303
+U 1 1 61478C0F
+P 2800 2400
+F 0 "TP303" H 2700 2550 50  0000 R CNN
+F 1 "Test_Point_SMD" H 2950 2600 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2800 2250 50  0001 C CNN
+F 3 "" H 2800 2400 50  0001 C CNN
+	1    2800 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 2200 2800 2350
+Connection ~ 2800 2200
+Wire Wire Line
+	2800 2200 3200 2200
+$Comp
+L formula:Test_Point_SMD TP302
+U 1 1 6147DE08
+P 2650 2000
+F 0 "TP302" V 2650 2250 50  0000 C CNN
+F 1 "Test_Point_SMD" V 2550 2050 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2650 1850 50  0001 C CNN
+F 3 "" H 2650 2000 50  0001 C CNN
+	1    2650 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 2000 2950 2000
+Connection ~ 2950 2000
+$Comp
+L formula:Test_Point_SMD TP305
+U 1 1 6148B24D
+P 4050 3650
+F 0 "TP305" H 4128 3738 50  0000 L CNN
+F 1 "OPAMP_OUTPUT" H 4128 3647 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4050 3500 50  0001 C CNN
+F 3 "" H 4050 3650 50  0001 C CNN
+	1    4050 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3700 4050 3800
+Connection ~ 4050 3800
+Wire Wire Line
+	4050 3800 4750 3800
+$Comp
+L formula:Test_Point_SMD TP304
+U 1 1 6148EBF2
+P 3100 4450
+F 0 "TP304" V 3049 4628 50  0000 L CNN
+F 1 "8V_OPAMP" V 3140 4628 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3100 4300 50  0001 C CNN
+F 3 "" H 3100 4450 50  0001 C CNN
+	1    3100 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 4450 3050 4450
+Connection ~ 2950 4450
+Wire Wire Line
+	2950 4450 2950 4700
+$Comp
+L formula:Test_Point_SMD TP301
+U 1 1 61492A6E
+P 2600 3550
+F 0 "TP301" H 2678 3638 50  0000 L CNN
+F 1 "IMD_OUTPUT" H 2678 3547 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2600 3400 50  0001 C CNN
+F 3 "" H 2600 3550 50  0001 C CNN
+	1    2600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3600 2600 3700
+Connection ~ 2600 3700
+Wire Wire Line
+	2600 3700 3275 3700
+$Comp
+L formula:Test_Point_SMD TP306
+U 1 1 6149A757
+P 4100 1900
+F 0 "TP306" H 4178 1988 50  0000 L CNN
+F 1 "Test_Point_SMD" H 4178 1897 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4100 1750 50  0001 C CNN
+F 3 "" H 4100 1900 50  0001 C CNN
+	1    4100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1950 4100 2100
+Connection ~ 4100 2100
+Wire Wire Line
+	4100 2100 3800 2100
 Wire Notes Line
-	7350 6450 7350 2550
+	7350 2550 7350 6500
 Wire Notes Line
-	11100 2550 11100 6450
+	11100 2550 11100 6500
+$Comp
+L formula:Test_Point_SMD TP308
+U 1 1 614D7BB2
+P 5450 5100
+F 0 "TP308" V 5450 6100 50  0000 L CNN
+F 1 "IMD_STATUS_OUTPUT" V 5450 5300 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5450 4950 50  0001 C CNN
+F 3 "" H 5450 5100 50  0001 C CNN
+	1    5450 5100
+	0    1    1    0   
+$EndComp
+Text GLabel 5200 5100 0    50   Input ~ 0
+IMD_STATUS_OUTPUT
+Wire Wire Line
+	5200 5100 5400 5100
+Wire Wire Line
+	8750 5700 8750 5800
+$Comp
+L formula:Test_Point_SMD TP307
+U 1 1 6150BB06
+P 5450 4900
+F 0 "TP307" V 5450 5700 50  0000 L CNN
+F 1 "Test_Point_SMD" V 5450 5100 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5450 4750 50  0001 C CNN
+F 3 "" H 5450 4900 50  0001 C CNN
+	1    5450 4900
+	0    1    1    0   
+$EndComp
+Text Label 5150 4900 2    50   ~ 0
+LATCH_OUTPUT
+Wire Wire Line
+	5150 4900 5400 4900
+Wire Wire Line
+	9800 2950 10200 2950
+Wire Wire Line
+	9800 2950 9800 3150
 $EndSCHEMATC
